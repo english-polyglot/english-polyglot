@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSE V2: Custom Search Engine Programarically</title>
+<style type="text/css">
+h4.warning {color: red;}
+h4.recommendation {color: green;}
+.gs-image-box , .gs-web-image-box {
+  display:none ; 
+}
+  .gcsc-branding , .gsc-above-wrapper-area {
+    display:none ; 
+  }
+</style>
+
+<!-- Put the following javascript before the closing </head> tag. -->
+<script type="text/javascript">
+  var searchQuery = "";
+  var renderSearchTextboxElement = function() {
+    google.search.cse.element.render(
+      {
+        div: "dynamicTXT1",
+		tag: 'searchbox-only',
+		gname: 'main-search-button1',
+		 attributes: {
+          enableAutoComplete: true,
+          enableHistory: true,
+		  resultsUrl: '/search',
+		  queryParameterName: 'q'
+
+		  }
+      });
+    google.search.cse.element.render(
+      {
+        div: "dynamicTXT2",
+		tag: 'searchbox-only',
+		gname: 'main-search-button2',
+		 attributes: {
+          enableAutoComplete: true,
+          enableHistory: true,
+		  resultsUrl: '/search',
+		  queryParameterName: 'q'
+
+		  }
+      });
+  }
+    var renderSearchElement = function(restructedTo) {
+    var as_sitesearchVal = ""; 
+    var filtersItems = restructedTo.split(' ');
+    if(filtersItems.length == 1){
+      as_sitesearchVal = restructedTo;
+    }
+    var resultlist = google.search.cse.element.getElement('main-searchresults');
+    if(resultlist){
+      resultlist.clearAllResults();
+      document.getElementById("default").innerHTML = "";
+    }
+    google.search.cse.element.render(
+      {
+        div: "default",
+        tag: 'searchresults-only',
+        gname: 'main-searchresults',
+        attributes: {
+		  queryParameterName: 'q',
+          as_oq:restructedTo,
+          as_sitesearch:as_sitesearchVal,
+		  },
+      });
+     };
+  
+  var i = 0
+  function executeQuery(filterName) {
+    // set textboxes values based on the querystring
+    if(searchQuery){
+      google.search.cse.element.getElement('main-search-button1').prefillQuery(searchQuery);
+      google.search.cse.element.getElement('main-search-button2').prefillQuery(searchQuery);
+    }
+     console.log(filterName);
+     renderSearchElement(filterName);
+    console.log(i++);
+    if (typeof google != 'undefined' ){
+      
+      if(!searchQuery){
+         if(google.search.cse.element.getElement('main-search-button1').getInputQuery()){
+           searchQuery = google.search.cse.element.getElement('main-search-button1').getInputQuery();
+         }else if(google.search.cse.element.getElement('main-search-button2').getInputQuery()){
+           searchQuery = google.search.cse.element.getElement('main-search-button2').getInputQuery();
+         }
+      }
+      var input = document.getElementById('cse-search-input-box-id');
+      var element = google.search.cse.element.getElement('main-searchresults');
+      if (searchQuery == '') {
+        element.clearAllResults();
+      } else {
+        element.execute(searchQuery);
+      }
+      return false;
+    }else{
+      setTimeout(executeQuery,500);
+    }
+  }
+//  setTimeout(executeQuery,1000);
+  
+  //document.forms["myform"].submit();
+</script>
+  <script>
+    var myCallback = function() {
+    if (document.readyState == 'complete') {
+      searchQuery = getParameterByName('q',window.location.href);
+      renderSearchTextboxElement();
+      executeQuery("");
+     
+    } else {
+      google.setOnLoadCallback(function() {
+        renderSearchTextboxElement();
+        executeQuery("");
+      }, true);
+    }
+  };
+    
+ window.__gcse = {
+  callback: myCallback
+};
+  
+  (function() {
+    var cx = 'partner-pub-4595809153827928:9033747066'; // Insert your own Custom Search engine ID here
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = false;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+    
+     function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+</script>
+</head>
+
+<body>
+<!-- Search box form -->
+  <a href="#" class="" onclick="executeQuery('');" data-filter="people">All</a>
+  <div></div>
+  <a href="#" class="" onclick="executeQuery('www.your-domain.com/section1');" data-filter="section1">section1</a>
+  <div></div>
+  <a href="#" class="" onclick="executeQuery('www.your-domain.com/section2');" data-filter="section2">section2</a>
+  <div></div>
+  <a href="#" class="" onclick="executeQuery('www.your-domain.com/section3 subdomain.your-domain.com ~/your-domain');" data-filter="section3">section3</a>
+  <div></div>
+  <a href="#" class="" onclick="executeQuery('www.your-domain.com/section4');" data-filter="section4">section4</a>
+  
+  <div id="dynamicTXT1"></div>
+  <div id="dynamicTXT2"></div>
+  <div id="default"></div>
+<form style="display:none" onsubmit="return executeQuery(false);" id="cse-search-box-form-id">
+  <!-- This is the input searc box -->
+  <input type="text" id="cse-search-input-box-id" data-as_oq="/section1" autocomplete="off" value="energy"/>
+  <!-- This is the search button -->
+  <input type="submit" value="Search"/>
+</form>
+
+<script type="text/javascript"
+        src="//www.google.com/cse/brand?form=cse-search-box-form-id&inputbox=cse-search-input-box-id">
+</script>
+<!-- End of Google branding watermark -->
+
+<!-- Element code snippet -->
+
+
+<!-- Place this tag where you want the search results to render -->
+<hr >
+<!-- <gcse:searchresults-only enableOrderBy="false"></gcse:searchresults-only> -->
+</body>
+
+</html>

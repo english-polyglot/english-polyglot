@@ -1,0 +1,204 @@
+html {
+-webkit-text-size-adjust: none;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	overflow-x: hidden;
+	height: 100%;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin:0.5em;
+	margin-left:0.2em;
+}
+
+.message {
+	font-size: 150%;
+}
+.message p span, .message p em {
+	font-weight: normal;
+}
+.message p span a:link {
+	font-weight: bold;
+	margin-left: -0.1em;
+}
+.width {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#width1 {
+	width:100%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	z-index:1000;
+}
+
+.footer {
+	padding: 10px 0;
+	background: #000;
+	color: #FFF;
+	clear: left;
+}
+#low_line {
+	line-height: 10px;
+}
+.ui-footer h4.ui-title {
+	overflow: visible;
+}
+.ui-header {
+	font-size:120%;
+}
+.ui-header h1.ui-title {
+	overflow: visible;
+	font-size: 1em;
+	min-height: 1.1em;
+	margin: 0;
+	padding: 0.7em;
+	font-weight: 400;
+}
+.ui-btn {font-weight:400!important;}
+
+.message a:link, a:visited, a:hover { 
+	text-decoration: none;
+	font-weight: normal;
+	color:#fff !important;
+}
+.message a:hover { 
+	text-decoration: none;
+	font-weight: normal;
+	color:#ссс !important;
+}
+.message a:active { 
+	text-decoration: none;
+	font-weight: normal;
+	color:#000 !important;
+}
+#topPage {
+	position: relative;
+  	z-index: 999;
+}
+#progress2 {
+	height: 2px;
+	background-color: #b70000;
+}
+.info {
+	text-align:center;
+	color:rgb(120,120,120);
+}
+.infa {
+	padding:0 0.25em 0 0.25em;
+}
+
+p,h1,.ui-mobile label,.text div,div.ui-controlgroup-label,.ui-btn {font-size: 0.8em !important;}
+.info {font-size: 0.7em}
+
+.ui-listview>li>a.ui-btn, #page h1 {font-size: 1.1em !important;}
+
+.ui-header-fixed, .ui-footer-fixed, .ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {margin: 0 auto;}
+.buttons {width: 100% !important; text-align: center !important; margin: 0 auto;}
+.ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {position:relative !important;}
+
+#switchers .ui-btn, #selector .ui-btn {padding:0.9em 1em;overflow:visible;} #switchers .ui-btn{width:3.5em;} .ui-field-contain{margin:1em 0 !important;}.ui-field-contain .ui-controlgroup-controls{width: 80% !important;} .ui-field-contain .ui-controlgroup-label {width: 65% !important;}
+.ui-select .ui-li-has-count.ui-btn {padding-right: 3.5em !important;}
+.ui-field-contain{margin:1em 0 !important;}
+
+
+
+@media only screen and (min-width : 368px) { p {font-size: 0.9em !important} h1,.ui-btn,.text div,.ui-mobile label,div.ui-controlgroup-label {font-size: 0.9em !important;} .info {font-size: 0.9em;} .ui-listview>li>a.ui-btn,#page h1 {font-size: 1.15em !important;} .buttons, .ui-header-fixed, .ui-footer-fixed, .ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {max-width:600px;} #switchers .ui-btn{width:3.5em;} #switchers .ui-btn, #selector .ui-btn {padding:0.5em 1em;text-align:center;}.ui-field-contain .ui-controlgroup-controls{width: 62% !important; float:left} .ui-field-contain .ui-controlgroup-label {width: 28% !important; float:left} .ui-listview>li>a.ui-btn,#page h1 {font-size: 1.15em !important;}}
+@media only screen and (min-width : 400px) { p {font-size: 1em !important} .ui-listview>li>a.ui-btn,#page h1 {font-size: 1.2em !important;}}
+@media only screen and (min-width : 450px) { p {font-size: 1.1em !important} h1,.ui-btn,.text div,.ui-mobile label,div.ui-controlgroup-label {font-size: 1em !important;}}
+@media only screen and (min-width : 510px) { p {font-size: 1.17em !important} .ui-listview>li>a.ui-btn,#page h1 {font-size: 1.25em !important;} .info {font-size: 1em;}}
+@media only screen and (min-width : 570px) { p {font-size: 1.25em !important} h1,.ui-btn,.text div,.ui-mobile label,div.ui-controlgroup-label {font-size: 1.15em !important;} .info {font-size: 1.05em;}}
+@media only screen and (min-width : 640px) { p {font-size: 1.35em !important} h1,.ui-btn,.text div,.ui-mobile label,div.ui-controlgroup-label {font-size: 1.2em !important;} .info { font-size:1.1em;} #selector .ui-btn { font-size: 1.3em !important;} .ui-selectmenu .ui-header .ui-title {min-height: 1em;} .ui-selectmenu .ui-header {min-height: 2.5em;} .text {max-width:38em;} .ui-listview>li>a.ui-btn, #page h1 {font-size: 1.2em !important;} .buttons, .ui-header-fixed, .ui-footer-fixed, .ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {max-width:650px;} #switchers .ui-btn { width: 4em;}
+ #switchers .ui-btn, #selector .ui-btn {padding:0.3em 1em;}.ui-field-contain .ui-controlgroup-controls{width: 50% !important;} .ui-field-contain .ui-controlgroup-label {width: 40% !important;}}
+@media only screen and (min-width : 768px) { p {font-size: 1.48em !important} h1, .ui-btn, .text div, .ui-mobile label, div.ui-controlgroup-label {font-size: 1.2em !important} .info {font-size: 1.2em}  #selector .ui-btn { font-size: 1.3em !important;} .ui-selectmenu .ui-header .ui-title {min-height: 1em;} .text {max-width: 40em} .ui-listview>li>a.ui-btn, #page h1 {font-size: 1.2em!important;} .buttons, .ui-header-fixed, .ui-footer-fixed, .ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {max-width: 700px;}#switchers .ui-btn{width: 5em;}}
+@media only screen and (min-width : 1024px) { p { font-size: 1.55em !important;} h1, .ui-btn, .text div, .ui-mobilelabel, div.ui-controlgroup-label { font-size: 1.2em !important;} .info { font-size: 1.3em;} #selector .ui-btn { font-size:1.4em !important;} .ui-selectmenu .ui-header .ui-title { min-height: 1em;} .text { max-width: 45em;} .ui-listview>li>a .ui-btn, #page h1 { font-size: 1.2em !important;} .buttons, .ui-header-fixed, .ui-footer-fixed, .ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page { max-width: 728px;} #switchers .ui-btn { width: 5em;}}
+    
+	
+.text {
+	margin: 0 auto;
+}
+.text div {
+	margin:0.5em 1em;	
+	text-indent:1em;
+}
+.text div span {
+	-webkit-border-radius:0.3em;
+	border-radius:0.3em;
+	padding:0 0.2em 0.1em 0.2em;
+	border:thin solid #2AD;
+	font-weight:bold;
+	background-color:#2AD;
+	text-shadow: 0 1px 0 #111;
+}
+
+#clickPhraseAudio0, #clickTranslationAudio0 { 
+	display:block;
+	float:left;
+	width:1.7em;
+	height:1.2em;
+	background-size: 1em !important;
+	-webkit-background-size: 1em !important;
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMjMuN3B4IiBoZWlnaHQ9IjIycHgiIHZpZXdCb3g9IjAgMCAyMy43IDIyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMy43IDIyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KPCFbQ0RBVEFbDQoJLnN0MHtmaWxsOiM2NjY2NjY7fQ0KXV0+DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTkuNiwxYzAuNi0wLjYsMS4xLTAuNCwxLjEsMC40djE5LjJjMCwwLjgtMC41LDEtMS4xLDAuNEw0LDE1LjRIMC4zVjYuNUg0TDkuNiwxeiBNMjIuNiwxMy41djJoLTJMMTguMSwxMw0KCWwtMi41LDIuNWgtMnYtMmwyLjUtMi41bC0yLjUtMi41di0yaDJMMTguMSw5bDIuNS0yLjVoMnYyTDIwLjEsMTFMMjIuNiwxMy41eiIvPg0KPC9zdmc+DQo=') no-repeat scroll 0.5em 0.16em;
+}	
+#clickPhraseAudio1, #clickTranslationAudio1 { 
+	display:block;
+	float:left;
+	width:1.7em;
+	height:1.2em;
+	background-size: 1em !important;
+	-webkit-background-size: 1em !important;
+background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMjMuN3B4IiBoZWlnaHQ9IjIycHgiIHZpZXdCb3g9IjAgMCAyMy43IDIyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMy43IDIyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KPCFbQ0RBVEFbDQoJLnN0MHtmaWxsOiM2NjY2NjY7fQ0KXV0+DQo8L3N0eWxlPg0KPGcgaWQ9IkxheWVyXzFfMV8iPg0KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik05LjYsMWMwLjYtMC42LDEuMS0wLjQsMS4xLDAuNHYxOS4yYzAsMC44LTAuNSwxLTEuMSwwLjRMNCwxNS40SDAuM1Y2LjVINEw5LjYsMXoiLz4NCjwvZz4NCjxnIGlkPSJMYXllcl8yIj4NCgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTguOSwxOC4zYy0wLjMsMC0wLjYtMC4xLTAuOC0wLjNjLTAuNC0wLjQtMC40LTEuMSwwLTEuNmMzLTMsMy03LjksMC0xMC45Yy0wLjQtMC40LTAuNC0xLjEsMC0xLjYNCgkJYzAuNC0wLjQsMS4xLTAuNCwxLjYsMGMxLjksMS45LDIuOSw0LjQsMi45LDdjMCwyLjctMSw1LjEtMi45LDdDMTkuNSwxOC4yLDE5LjIsMTguMywxOC45LDE4LjN6IE0xNSwxNi4zYy0wLjMsMC0wLjYtMC4xLTAuOC0wLjMNCgkJYy0wLjQtMC40LTAuNC0xLjEsMC0xLjZjMS45LTEuOSwxLjktNC45LDAtNi44Yy0wLjQtMC40LTAuNC0xLjEsMC0xLjZjMC40LTAuNCwxLjEtMC40LDEuNiwwYzIuNywyLjcsMi43LDcuMiwwLDkuOQ0KCQlDMTUuNSwxNi4yLDE1LjMsMTYuMywxNSwxNi4zeiIvPg0KPC9nPg0KPC9zdmc+DQo=') no-repeat scroll 0.5em 0.16em;
+}
+
+.arrow-r:after {
+	border-radius: 50%;
+	padding: 0.4em;
+	border: thin solid #999;
+	display: inline-block;
+	width: 0.5em;
+	height: 0.5em;
+	background-color: rgba(0,0,0,.5);
+	content:"";
+	background-repeat: no-repeat;
+	background-position: center center;
+	vertical-align: middle;
+	background-size: 1em;
+	-webkit-background-size: 1em;
+}
+
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+width: 2em !important;
+height: 2em !important;
+background-size: 1.3em !important;
+-webkit-background-size: 1.3em !important;
+}
+.ui-btn-icon-notext:after, .ui-btn-icon-left:after, .ui-btn-icon-right:after {
+margin-top: -1em !important;
+}
+
+.ui-btn-icon-notext:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after {
+margin-left: -1em !important;
+}
+
+.ui-navbar li:last-child .ui-btn {margin-right:0 !important}
+
+.buttons.ui-navbar {
+  margin-bottom: 0.33em;
+}
+
+#polyglotHome:before {content:"";}
+#polyglotHome {text-align:center;padding-left:0;}
+
+.ui-listview>li.ui-first-child, .ui-listview>li.ui-first-child>a.ui-btn {margin-top: -5px;}

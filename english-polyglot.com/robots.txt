@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Host: https://www.english-polyglot.com
+Sitemap: https://www.english-polyglot.com/sitemap.xml
+
+User-agent: Mediapartners-Google
+Disallow:

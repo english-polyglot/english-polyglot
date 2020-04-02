@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="container">
+	        <section id="hero">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>
+	        <section id="project1">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>
+	        <section id="project2">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>
+	        <section id="project3">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>
+	        <section id="project4">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>
+	        <section id="project5">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>
+	        <section id="project6">
+		        <div class="copy">
+			        <h1>Hello There</h1>
+		        </div>
+	        </section>	        	        
+		</div>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+        <script src="js/main.js"></script>
+
+<script>
+$(window).on('beforeunload', function(){
+  $(window).scrollTop(0);
+});
+
+$(function(){
+	var trueHeight = 0;	
+	$('section').each(function() {
+		trueHeight += $(this).outerHeight();
+		var scrollHeight = trueHeight - $(this).outerHeight();
+	    $(this).data('offset', scrollHeight);
+	});
+	
+	$('body,html').css({height: trueHeight + "px"});
+	
+	$(window).scroll(function(){
+		var scrollTop = $(window).scrollTop();
+		
+//		$('section').each(function() {
+//			var off = $(this).data('offset');
+//			if (scrollTop > off) {
+//				var translate =  (scrollTop - off) / $(window).height() * 100;
+//				$(this).css({transform: 'translateY(' + -translate +'%)'});
+//			}
+//		});
+
+
+    $('section').each(function() {
+        var off = $(this).data('offset');
+        if (scrollTop > off) {
+            var translate = (off - scrollTop) / $(window).height() * 100;
+            $(this).css({transform: 'translateY(' + translate +'%)'});
+        }
+        else {
+            $(this).css({transform: 'translateY(' + 0 + '%)'});
+        }
+    });
+
+
+
+		
+	});
+});
+</script>
+    </body>
+</html>

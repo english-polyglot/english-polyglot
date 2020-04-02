@@ -1,0 +1,4523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mess>
+	<m>
+		<d>
+			<a>I will go on loving you</a>
+			<b>Я буду продолжать любить тебя</b>
+			<c>Ай вил гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>I didn't go on loving you</a>
+			<b>Я не продолжал любить тебя</b>
+			<c>Ай диднт гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>Do I go on loving you?</a>
+			<b>Продолжаю ли я любить тебя?</b>
+			<c>Ду ай гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>Will I go on loving you?</a>
+			<b>Я буду продолжать любить тебя?</b>
+			<c>Вил ай гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>Did I go on loving you?</a>
+			<b>Я продолжал любить тебя?</b>
+			<c>Дид ай гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>I go on loving you</a>
+			<b>Я тебя продолжаю любить</b>
+			<c>Ай гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>I went on loving you</a>
+			<b>Я продолжал любить тебя</b>
+			<c>Ай вэнт он лавин ю</c>
+		</d>
+		<d>
+			<a>I will not go on loving you</a>
+			<b>Я не буду продолжать любить тебя</b>
+			<c>Ай вил нот гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>I don't go on loving you</a>
+			<b>Я не продолжаю любить тебя</b>
+			<c>Ай донт гоу он лавин ю</c>
+		</d>
+		<d>
+			<a>Will you go back to me?</a>
+			<b>Ты возвратишься ко мне?</b>
+			<c>Вил ю гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>You will go back to me</a>
+			<b>Ты возвратишься ко мне</b>
+			<c>Ю вил гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>You will not go back to me</a>
+			<b>Ты не возвратишься ко мне</b>
+			<c>Ю вил нот гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>Do you go back to me?</a>
+			<b>Ты возвращаешься ко мне?</b>
+			<c>Ду ю гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>You go back to me</a>
+			<b>Ты возвращаешься ко мне</b>
+			<c>Ю гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>You don't go back to me</a>
+			<b>Ты не возвращаешься ко мне</b>
+			<c>Ю донт гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>Did you go back to me?</a>
+			<b>Ты возвратился ко мне?</b>
+			<c>Дид ю гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>You went back to me</a>
+			<b>Ты возвратился ко мне</b>
+			<c>Ю вэнт бэк ту ми</c>
+		</d>
+		<d>
+			<a>You didn't go back to me</a>
+			<b>Ты не возвратился ко мне</b>
+			<c>Ю диднт гоу бэк ту ми</c>
+		</d>
+		<d>
+			<a>Will I go out from him?</a>
+			<b>Выйду ли я от него?</b>
+			<c>Вил ай гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>I will go out from him</a>
+			<b>Я выйду от него</b>
+			<c>Ай вил гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>I will not go out from him</a>
+			<b>Я не выйду от него</b>
+			<c>Ай вил нот гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>Do I go out from him?</a>
+			<b>Выхожу ли я от него?</b>
+			<c>Ду ай гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>I go out from him</a>
+			<b>Я выхожу от него</b>
+			<c>Ай гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>I don't go out from him</a>
+			<b>Я не выхожу от него</b>
+			<c>Ай донт гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>Did I go out from him?</a>
+			<b>Выходил ли я от него?</b>
+			<c>Дид ай гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>I went out from him</a>
+			<b>Я вышел от него</b>
+			<c>Ай вэнт аут фром хим</c>
+		</d>
+		<d>
+			<a>I didn't go out from him</a>
+			<b>Я не выходил от него</b>
+			<c>Ай диднт гоу аут фром хим</c>
+		</d>
+		<d>
+			<a>Will he go down to me?</a>
+			<b>Cпустится ли он ко мне?</b>
+			<c>Вил хи гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>He will go down to me</a>
+			<b>Он спустится ко мне</b>
+			<c>Хи вил гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>He will not go down to me</a>
+			<b>Он не спустится ко мне</b>
+			<c>Хи вил нот гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>Does he go down to me?</a>
+			<b>Он ко мне спускается?</b>
+			<c>Дас хи гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>He goes down to me</a>
+			<b>Он ко мне спускается</b>
+			<c>Хи гоу даунс ту ми</c>
+		</d>
+		<d>
+			<a>He doesn't go down to me</a>
+			<b>Он ко мне не спускается</b>
+			<c>Хи дазнт гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>Did he go down to me?</a>
+			<b>Он спустился ко мне?</b>
+			<c>Дид хи гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>He went down to me</a>
+			<b>Он спустился ко мне</b>
+			<c>Хи вэнт даун ту ми</c>
+		</d>
+		<d>
+			<a>He didn't go down to me</a>
+			<b>Он не спустился ко мне</b>
+			<c>Хи диднт гоу даун ту ми</c>
+		</d>
+		<d>
+			<a>Will I go up without her?</a>
+			<b>Я поднимусь без неё?</b>
+			<c>Вил ай гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>I will go up without her</a>
+			<b>Я поднимусь без неё</b>
+			<c>Ай вил гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>I will not go up without her</a>
+			<b>Я не поднимусь без неё</b>
+			<c>Ай вил нот гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>Do I go up without her?</a>
+			<b>Я поднимаюсь без неё?</b>
+			<c>Ду ай гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>I go up without her</a>
+			<b>Я поднимаюсь без неё</b>
+			<c>Ай гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>I don't go up without her</a>
+			<b>Я не поднимаюсь без неё</b>
+			<c>Ай донт гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>Did I go up without her?</a>
+			<b>Я поднялся без неё?</b>
+			<c>Дид ай гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>I went up without her</a>
+			<b>Я поднялся без неё</b>
+			<c>Ай вент ап визаут хё</c>
+		</d>
+		<d>
+			<a>I did not go up without her</a>
+			<b>Я не поднялся без неё</b>
+			<c>Ай дид нот гоу ап визаут хё</c>
+		</d>
+		<d>
+			<a>Will she go away with me?</a>
+			<b>Она уйдет со мной?</b>
+			<c>Вил ши гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>She will go away with me</a>
+			<b>Она уйдет со мной</b>
+			<c>Ши вил гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>She will not go away with me</a>
+			<b>Она не уйдет со мной</b>
+			<c>Ши вил нот гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>Does she go away with me?</a>
+			<b>Она уходит со мной?</b>
+			<c>Дас ши гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>She goes away with me</a>
+			<b>Она уходит со мной</b>
+			<c>Ши гоуз эвэй виз ми</c>
+		</d>
+		<d>
+			<a>She doesn't go away with me</a>
+			<b>Она не уходит со мной</b>
+			<c>Ши дазнт гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>Did she go away with me?</a>
+			<b>Она ушла со мной?</b>
+			<c>Дид ши гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>She went away with me</a>
+			<b>Она ушла со мной</b>
+			<c>Ши вэнт эвэй виз ми</c>
+		</d>
+		<d>
+			<a>She didn't go away with me</a>
+			<b>Она не ушла со мной</b>
+			<c>Ши диднт гоу эвэй виз ми</c>
+		</d>
+		<d>
+			<a>Will I go through them?</a>
+			<b>Я изучу их?</b>
+			<c>Вил ай гоу сру зем</c>
+		</d>
+		<d>
+			<a>I will go through them</a>
+			<b>Я изучу их</b>
+			<c>Ай вил гоу сру зем</c>
+		</d>
+		<d>
+			<a>I will not go through them</a>
+			<b>Я не изучу их</b>
+			<c>Ай вил нот гоу сру зем</c>
+		</d>
+		<d>
+			<a>Do I go through them?</a>
+			<b>Я изучаю их?</b>
+			<c>Ду ай гоу сру зем</c>
+		</d>
+		<d>
+			<a>I go through them</a>
+			<b>Я изучаю их</b>
+			<c>Ай гоу сру зем</c>
+		</d>
+		<d>
+			<a>I don't go through them</a>
+			<b>Я не изучаю их</b>
+			<c>Ай донт гоу сру зем</c>
+		</d>
+		<d>
+			<a>Did I go through them?</a>
+			<b>Изучил ли я их?</b>
+			<c>Дид ай гоу сру зем</c>
+		</d>
+		<d>
+			<a>I went through them</a>
+			<b>Я изучил их</b>
+			<c>Ай вэнт сру зем</c>
+		</d>
+		<d>
+			<a>I did not go through them</a>
+			<b>Я не изучил их</b>
+			<c>Ай дид нот гоу сру зем</c>
+		</d>
+		<d>
+			<a>Will they go by me?</a>
+			<b>Они пройдут мимо меня?</b>
+			<c>Вил зей гоу бай ми</c>
+		</d>
+		<d>
+			<a>They will go by me</a>
+			<b>Они пройдут мимо меня</b>
+			<c>Зей вил гоу бай ми</c>
+		</d>
+		<d>
+			<a>They will not go by me</a>
+			<b>Они не пройдут мимо меня</b>
+			<c>Зей вил нот гоу бай ми</c>
+		</d>
+		<d>
+			<a>Do they go by me?</a>
+			<b>Они проходят мимо меня?</b>
+			<c>Ду зей гоу бай ми</c>
+		</d>
+		<d>
+			<a>They go by me</a>
+			<b>Они проходят мимо меня</b>
+			<c>Зей гоу бай ми</c>
+		</d>
+		<d>
+			<a>They don't go by me</a>
+			<b>Они не проходят мимо меня</b>
+			<c>Зей донт гоу бай ми</c>
+		</d>
+		<d>
+			<a>Did they go by me?</a>
+			<b>Они прошли мимо меня?</b>
+			<c>Дид зей гоу бай ми</c>
+		</d>
+		<d>
+			<a>They went by me</a>
+			<b>Они прошли мимо меня</b>
+			<c>Зей вэнт бай ми</c>
+		</d>
+		<d>
+			<a>They didn't go by me</a>
+			<b>Они не прошли мимо меня</b>
+			<c>Зей диднт гоу бай ми</c>
+		</d>
+		<d>
+			<a>Will you go along with him?</a>
+			<b>Согласишься ли ты с ним?</b>
+			<c>Вил ю гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>You will go along with him</a>
+			<b>Ты согласишься с ним</b>
+			<c>Ю вил гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>You will not go along with him</a>
+			<b>Ты не согласишься с ним</b>
+			<c>Ю вил нот гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>Do you go along with him?</a>
+			<b>Ты соглашаешься с ним?</b>
+			<c>Ду ю гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>You go along with him</a>
+			<b>Ты соглашаешься с ним</b>
+			<c>Ю гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>You don't go along with him</a>
+			<b>Ты не соглашаешься с ним</b>
+			<c>Ю донт гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>Did you go along with him?</a>
+			<b>Ты согласился с ним?</b>
+			<c>Дид ю гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>You went along with him</a>
+			<b>Ты согласился с ним</b>
+			<c>Ю вэнт алон виз хим</c>
+		</d>
+		<d>
+			<a>You didn't go along with him</a>
+			<b>Ты не согласился с ним</b>
+			<c>Ю диднт гоу алон виз хим</c>
+		</d>
+		<d>
+			<a>Will he go around you?</a>
+			<b>Он обойдет тебя вокруг?</b>
+			<c>Вил хи гоу эраунд ю</c>
+		</d>
+		<d>
+			<a>He will go around you</a>
+			<b>Он обойдет тебя вокруг</b>
+			<c>Хи вил гоу эраунд ю</c>
+		</d>
+		<d>
+			<a>He will not go around you</a>
+			<b>Он не обойдет тебя вокруг</b>
+			<c>Хи вил нот гоу эраунд ю</c>
+		</d>
+		<d>
+			<a>Does he go around you?</a>
+			<b>Он обходит тебя вокруг?</b>
+			<c>Даз хи гоу эраунд ю</c>
+		</d>
+		<d>
+			<a>He goes around you</a>
+			<b>Он обходит тебя вокруг</b>
+			<c>Хи гоус эраунд ю</c>
+		</d>
+		<d>
+			<a>He doesn't go around you</a>
+			<b>Он не обходит тебя вокруг</b>
+			<c>Хи дазнт гоу эраунд ю</c>
+		</d>
+		<d>
+			<a>Did he go around you?</a>
+			<b>Он обошел тебя вокруг?</b>
+			<c>Дид хи гоу эраунд ю</c>
+		</d>
+		<d>
+			<a>He went around you</a>
+			<b>Он обошел тебя вокруг</b>
+			<c>Хи вэнт эраунд ю</c>
+		</d>
+		<d>
+			<a>He didn't go around you</a>
+			<b>Он не обошел тебя вокруг</b>
+			<c>Хи диднт гоу эраунд ю</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will come back to you</a>
+			<b>Я вернусь к тебе</b>
+			<c>Ай вил кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>I didn't come back to you</a>
+			<b>Я не вернулся к тебе</b>
+			<c>Ай диднт кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>Do I come back to you?</a>
+			<b>Возвращаюсь ли я к тебе?</b>
+			<c>Ду ай кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>Will I come back to you?</a>
+			<b>Я вернусь к тебе?</b>
+			<c>Вил ай кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>Did I come back to you?</a>
+			<b>Я вернулся к тебе?</b>
+			<c>Дид ай кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>I come back to you</a>
+			<b>Я возвращаюсь к тебе</b>
+			<c>Ай кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>I came back to you</a>
+			<b>Я вернулся к тебе</b>
+			<c>Ай кэйм бэк ту ю</c>
+		</d>
+		<d>
+			<a>I will not come back to you</a>
+			<b>Я не вернусь к тебе</b>
+			<c>Ай вил нот кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>I don't come back to you</a>
+			<b>Я не возвращаюсь к тебе</b>
+			<c>Ай донт кам бэк ту ю</c>
+		</d>
+		<d>
+			<a>Will you come out with me?</a>
+			<b>Ты выступишь со мной?</b>
+			<c>Вил ю кам аут виз ми</c>
+		</d>
+		<d>
+			<a>You will come out with me</a>
+			<b>Ты выступишь со мной</b>
+			<c>Ю вил кам аут виз ми</c>
+		</d>
+		<d>
+			<a>You will not come out with me</a>
+			<b>Ты не выступишь со мной</b>
+			<c>Ю вил нот кам аут виз ми</c>
+		</d>
+		<d>
+			<a>Do you come out with me?</a>
+			<b>Ты выступаешь со мной?</b>
+			<c>Ду ю кам аут виз ми</c>
+		</d>
+		<d>
+			<a>You come out with me</a>
+			<b>Ты выступаешь со мной</b>
+			<c>Ю кам аут виз ми</c>
+		</d>
+		<d>
+			<a>You don't come out with me</a>
+			<b>Ты не выступаешь со мной</b>
+			<c>Ю донт кам аут виз ми</c>
+		</d>
+		<d>
+			<a>Did you come out with me?</a>
+			<b>Ты выступал со мной?</b>
+			<c>Дид ю кам аут виз ми</c>
+		</d>
+		<d>
+			<a>You came out with me</a>
+			<b>Ты выступал со мной</b>
+			<c>Ю кэйм аут виз ми</c>
+		</d>
+		<d>
+			<a>You didn't come out with me</a>
+			<b>Ты не выступал со мной</b>
+			<c>Ю диднт кам аут виз ми</c>
+		</d>
+		<d>
+			<a>Will I come in to him?</a>
+			<b>Войду ли я к нему?</b>
+			<c>Вил ай кам ин ту хим</c>
+		</d>
+		<d>
+			<a>I will come in to him</a>
+			<b>Я войду к нему</b>
+			<c>Ай вил кам ин ту хим</c>
+		</d>
+		<d>
+			<a>I will not come in to him</a>
+			<b>Я не войду к нему</b>
+			<c>Ай вил нот кам ин ту хим</c>
+		</d>
+		<d>
+			<a>Do I come in to him?</a>
+			<b>Вхожу ли я к нему?</b>
+			<c>Ду ай кам ин ту хим</c>
+		</d>
+		<d>
+			<a>I come in to him</a>
+			<b>Я вхожу к нему</b>
+			<c>Ай кам ин ту хим</c>
+		</d>
+		<d>
+			<a>I don't come in to him</a>
+			<b>Я не вхожу к нему</b>
+			<c>Ай донт кам ин ту хим</c>
+		</d>
+		<d>
+			<a>Did I come in to him?</a>
+			<b>Входил ли я к нему?</b>
+			<c>Дид ай кам ин ту хим</c>
+		</d>
+		<d>
+			<a>I came in to him</a>
+			<b>Я входил к нему</b>
+			<c>Ай кэйм ин ту хим</c>
+		</d>
+		<d>
+			<a>I didn't come in to him</a>
+			<b>Я не входил к нему</b>
+			<c>Ай диднт кам ин ту хим</c>
+		</d>
+		<d>
+			<a>Will he come up with me?</a>
+			<b>Подойдет ли он со мной?</b>
+			<c>Вил хи кам ап виз ми</c>
+		</d>
+		<d>
+			<a>He will come up with me</a>
+			<b>Он подойдет со мной</b>
+			<c>Хи вил кам ап виз ми</c>
+		</d>
+		<d>
+			<a>He will not come up with me</a>
+			<b>Он не подойдет со мной</b>
+			<c>Хи вил нот кам ап виз ми</c>
+		</d>
+		<d>
+			<a>Does he come up with me?</a>
+			<b>Он со мной подходит?</b>
+			<c>Дас хи кам ап виз ми</c>
+		</d>
+		<d>
+			<a>He comes up with me</a>
+			<b>Он со мной подходит</b>
+			<c>Хи камc ап визс ми</c>
+		</d>
+		<d>
+			<a>He doesn't come up with me</a>
+			<b>Он со мной не подходит</b>
+			<c>Хи дазнт кам ап виз ми</c>
+		</d>
+		<d>
+			<a>Did he come up with me?</a>
+			<b>Он подходил со мной?</b>
+			<c>Дид хи кам ап виз ми</c>
+		</d>
+		<d>
+			<a>He came up with me</a>
+			<b>Он подходил со мной</b>
+			<c>Хи кэйм ап виз ми</c>
+		</d>
+		<d>
+			<a>He didn't come up with me</a>
+			<b>Он не подходил со мной</b>
+			<c>Хи диднт кам ап виз ми</c>
+		</d>
+		<d>
+			<a>Will I come down from her?</a>
+			<b>Я спущусь от неё?</b>
+			<c>Вил ай кам даун фром хё</c>
+		</d>
+		<d>
+			<a>I will come down from her</a>
+			<b>Я спущусь от неё</b>
+			<c>Ай вил кам даун фром хё</c>
+		</d>
+		<d>
+			<a>I will not come down from her</a>
+			<b>Я не спущусь от неё</b>
+			<c>Ай вил нот кам даун фром хё</c>
+		</d>
+		<d>
+			<a>Do I come down from her?</a>
+			<b>Я спускаюсь от неё?</b>
+			<c>Ду ай кам даун фром хё</c>
+		</d>
+		<d>
+			<a>I come down from her</a>
+			<b>Я спускаюсь от неё</b>
+			<c>Ай кам даун фром хё</c>
+		</d>
+		<d>
+			<a>I don't come down from her</a>
+			<b>Я не спускаюсь от неё</b>
+			<c>Ай донт кам даун фром хё</c>
+		</d>
+		<d>
+			<a>Did I come down from her?</a>
+			<b>Я спустился от неё?</b>
+			<c>Дид ай кам даун фром хё</c>
+		</d>
+		<d>
+			<a>I came down from her</a>
+			<b>Я спустился от неё</b>
+			<c>Ай кэйм даун фром хё</c>
+		</d>
+		<d>
+			<a>I did not come down from her</a>
+			<b>Я не спустился от неё</b>
+			<c>Ай дид нот кам даун фром хё</c>
+		</d>
+		<d>
+			<a>Will she come over to me?</a>
+			<b>Она приедет ко мне?</b>
+			<c>Вил ши кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>She will come over to me</a>
+			<b>Она приедет ко мне</b>
+			<c>Ши вил кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>She will not come over to me</a>
+			<b>Она не приедет ко мне</b>
+			<c>Ши вил нот кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>Does she come over to me?</a>
+			<b>Она приезжает ко мне?</b>
+			<c>Дас ши кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>She comes over to me</a>
+			<b>Она приезжает ко мне</b>
+			<c>Ши камс оувэ ту ми</c>
+		</d>
+		<d>
+			<a>She doesn't come over to me</a>
+			<b>Она не приезжает ко мне</b>
+			<c>Ши дазнт кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>Did she come over to me?</a>
+			<b>Она приехала ко мне?</b>
+			<c>Дид ши кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>She came over to me</a>
+			<b>Она приехала ко мне</b>
+			<c>Ши кэйм оувэ ту ми</c>
+		</d>
+		<d>
+			<a>She didn't come over to me</a>
+			<b>Она не приехала ко мне</b>
+			<c>Ши диднт кам оувэ ту ми</c>
+		</d>
+		<d>
+			<a>Will I come along with them?</a>
+			<b>Пойду ли я вместе с ними?</b>
+			<c>Вил ай кам элон виз зем</c>
+		</d>
+		<d>
+			<a>I will come along with them</a>
+			<b>Я пойду вместе с ними</b>
+			<c>Ай вил кам элон виз зем</c>
+		</d>
+		<d>
+			<a>I will not come along with them</a>
+			<b>Я не пойду вместе с ними</b>
+			<c>Ай вил нот кам элон виз зем</c>
+		</d>
+		<d>
+			<a>Do I come along with them?</a>
+			<b>Иду ли я вместе с ними?</b>
+			<c>Ду ай кам элон виз зем</c>
+		</d>
+		<d>
+			<a>I come along with them</a>
+			<b>Я иду вместе с ними</b>
+			<c>Ай кам элон виз зем</c>
+		</d>
+		<d>
+			<a>I don't come along with them</a>
+			<b>Я не иду вместе с ними</b>
+			<c>Ай донт кам элон виз зем</c>
+		</d>
+		<d>
+			<a>Did I come along with them?</a>
+			<b>Пошел ли я вместе с ними?</b>
+			<c>Дид ай кам элон виз зем</c>
+		</d>
+		<d>
+			<a>I came along with them</a>
+			<b>Я пошел вместе с ними</b>
+			<c>Ай кэйм элон виз зем</c>
+		</d>
+		<d>
+			<a>I did not come along with them</a>
+			<b>Я не пошел вместе с ними</b>
+			<c>Ай дид нот кам элон виз зем</c>
+		</d>
+		<d>
+			<a>Will they come by to me?</a>
+			<b>Они зайдут ко мне?</b>
+			<c>Вил зей кам бай ту ми</c>
+		</d>
+		<d>
+			<a>They will come by to me</a>
+			<b>Они зайдут ко мне</b>
+			<c>Зей вил кам бай ту ми</c>
+		</d>
+		<d>
+			<a>They will not come by to me</a>
+			<b>Они не зайдут ко мне</b>
+			<c>Зей вил нот кам бай ту ми</c>
+		</d>
+		<d>
+			<a>Do they come by to me?</a>
+			<b>Они заходят ко мне?</b>
+			<c>Ду зей кам бай ту ми</c>
+		</d>
+		<d>
+			<a>They come by to me</a>
+			<b>Они заходят ко мне</b>
+			<c>Зей кам бай ту ми</c>
+		</d>
+		<d>
+			<a>They don't come by to me</a>
+			<b>Они не заходят ко мне</b>
+			<c>Зей донт кам бай ту ми</c>
+		</d>
+		<d>
+			<a>Did they come by to me?</a>
+			<b>Они зашли ко мне?</b>
+			<c>Дид зей кам бай ту ми</c>
+		</d>
+		<d>
+			<a>They came by to me</a>
+			<b>Они зашли ко мне</b>
+			<c>Зей кэйм бай ту ми</c>
+		</d>
+		<d>
+			<a>They didn't come by to me</a>
+			<b>Они не зашли ко мне</b>
+			<c>Зей диднт кам бай ту ми</c>
+		</d>
+		<d>
+			<a>Will you come forward against him?</a>
+			<b>Выступишь ли ты против него?</b>
+			<c>Вил ю кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>You will come forward against him</a>
+			<b>Ты выступишь против него</b>
+			<c>Ю вил кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>You will not come forward against him</a>
+			<b>Ты не выступишь против него</b>
+			<c>Ю вил нот кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>Do you come forward against him?</a>
+			<b>Ты выступаешь против него?</b>
+			<c>Ду ю кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>You come forward against him</a>
+			<b>Ты выступаешь против него</b>
+			<c>Ю кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>You don't come forward against him</a>
+			<b>Ты не выступаешь против него</b>
+			<c>Ю донт кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>Did you come forward against him?</a>
+			<b>Ты выступил против него?</b>
+			<c>Дид ю кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>You came forward against him</a>
+			<b>Ты выступил против него</b>
+			<c>Ю кэйм фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>You didn't come forward against him</a>
+			<b>Ты не выступил против него</b>
+			<c>Ю диднт кам фовод эгэнст хим</c>
+		</d>
+		<d>
+			<a>Will he come across to you?</a>
+			<b>Он натолкнется на тебя?</b>
+			<c>Вил хи кам экрос ту ю</c>
+		</d>
+		<d>
+			<a>He will come across to you</a>
+			<b>Он натолкнется на тебя</b>
+			<c>Хи вил кам экрос ту ю</c>
+		</d>
+		<d>
+			<a>He will not come across to you</a>
+			<b>Он не натолкнется на тебя</b>
+			<c>Хи вил нот кам экрос ту ю</c>
+		</d>
+		<d>
+			<a>Does he come across to you?</a>
+			<b>Он натыкается на тебя?</b>
+			<c>Даз хи кам экрос ту ю</c>
+		</d>
+		<d>
+			<a>He comes across to you</a>
+			<b>Он натыкается на тебя</b>
+			<c>Хи камc экрос ту ю</c>
+		</d>
+		<d>
+			<a>He doesn't come across to you</a>
+			<b>Он не натыкается на тебя</b>
+			<c>Хи дазнт кам экрос ту ю</c>
+		</d>
+		<d>
+			<a>Did he come across to you?</a>
+			<b>Он наткнулся на тебя?</b>
+			<c>Дид хи кам экрос ту ю</c>
+		</d>
+		<d>
+			<a>He came across to you</a>
+			<b>Он наткнулся на тебя</b>
+			<c>Хи кэйм экрос ту ю</c>
+		</d>
+		<d>
+			<a>He didn't come across to you</a>
+			<b>Он не наткнулся на тебя</b>
+			<c>Хи диднт кам экрос ту ю</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will take you off</a>
+			<b>Я удалю тебя</b>
+			<c>Ай вил тэйк ю оф</c>
+		</d>
+		<d>
+			<a>I didn't take you off</a>
+			<b>Я не удалил тебя</b>
+			<c>Ай диднт тэйк ю оф</c>
+		</d>
+		<d>
+			<a>Do I take you off?</a>
+			<b>Удаляю ли я тебя?</b>
+			<c>Ду ай тэйк ю оф</c>
+		</d>
+		<d>
+			<a>Will I take you off?</a>
+			<b>Я буду тебя удалять?</b>
+			<c>Вил ай тэйк ю оф</c>
+		</d>
+		<d>
+			<a>Did I take you off?</a>
+			<b>Я удалил тебя?</b>
+			<c>Дид ай тэйк ю оф</c>
+		</d>
+		<d>
+			<a>I take you off</a>
+			<b>Я тебя удаляю</b>
+			<c>Ай тэйк ю оф</c>
+		</d>
+		<d>
+			<a>I took you off</a>
+			<b>Я удалил тебя</b>
+			<c>Ай тук ю оф</c>
+		</d>
+		<d>
+			<a>I will not take you off</a>
+			<b>Я не удалю тебя</b>
+			<c>Ай вил нот тэйк ю оф</c>
+		</d>
+		<d>
+			<a>I don't take you off</a>
+			<b>Я не удаляю тебя</b>
+			<c>Ай донт тэйк ю оф</c>
+		</d>
+		<d>
+			<a>Will you take me out?</a>
+			<b>Ты вытащишь меня?</b>
+			<c>Вил ю тэйк ми аут</c>
+		</d>
+		<d>
+			<a>You will take me out</a>
+			<b>Ты вытащишь меня</b>
+			<c>Ю вил тэйк ми аут</c>
+		</d>
+		<d>
+			<a>You will not take me out</a>
+			<b>Ты не вытащишь меня</b>
+			<c>Ю вил нот тэйк ми аут</c>
+		</d>
+		<d>
+			<a>Do you take me out?</a>
+			<b>Ты вытаскиваешь меня?</b>
+			<c>Ду ю тэйк ми аут</c>
+		</d>
+		<d>
+			<a>You take me out</a>
+			<b>Ты вытаскиваешь меня</b>
+			<c>Ю тэйк ми аут</c>
+		</d>
+		<d>
+			<a>You don't take me out</a>
+			<b>Ты не вытаскиваешь меня</b>
+			<c>Ю донт тэйк ми аут</c>
+		</d>
+		<d>
+			<a>Did you take me out?</a>
+			<b>Ты вытащил меня?</b>
+			<c>Дид ю тэйк ми аут</c>
+		</d>
+		<d>
+			<a>You took me out</a>
+			<b>Ты вытащил меня</b>
+			<c>Ю тэйкд ми аут</c>
+		</d>
+		<d>
+			<a>You didn't take me out</a>
+			<b>Ты не вытащил меня</b>
+			<c>Ю диднт тэйк ми аут</c>
+		</d>
+		<d>
+			<a>Will I take him over?</a>
+			<b>Захвачу ли я его?</b>
+			<c>Вил ай тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>I will take him over</a>
+			<b>Я захвачу его</b>
+			<c>Ай вил тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>I will not take him over</a>
+			<b>Я не захвачу его</b>
+			<c>Ай вил нот тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>Do I take him over?</a>
+			<b>Захватываю ли я его?</b>
+			<c>Ду ай тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>I take him over</a>
+			<b>Я захватываю его</b>
+			<c>Ай тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>I don't take him over</a>
+			<b>Я не захватываю его</b>
+			<c>Ай донт тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>Did I take him over?</a>
+			<b>Захватывал ли я его?</b>
+			<c>Дид ай тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>I took him over</a>
+			<b>Я захватывал его</b>
+			<c>Ай тук хим оувэ</c>
+		</d>
+		<d>
+			<a>I didn't take him over</a>
+			<b>Я не захватывал его</b>
+			<c>Ай диднт тэйк хим оувэ</c>
+		</d>
+		<d>
+			<a>Will he take me away?</a>
+			<b>Заберет ли он меня?</b>
+			<c>Вил хи тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>He will take me away</a>
+			<b>Он заберет меня</b>
+			<c>Хи вил тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>He will not take me away</a>
+			<b>Он не заберет меня</b>
+			<c>Хи вил нот тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>Does he take me away?</a>
+			<b>Он меня забирает?</b>
+			<c>Дас хи тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>He takes me away</a>
+			<b>Он меня забирает</b>
+			<c>Хи тэйкс ми эвэй</c>
+		</d>
+		<d>
+			<a>He doesn't take me away</a>
+			<b>Он меня не забирает</b>
+			<c>Хи дазнт тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>Did he take me away?</a>
+			<b>Он забрал меня?</b>
+			<c>Дид хи тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>He took me away</a>
+			<b>Он забрал меня</b>
+			<c>Хи тук ми эвэй</c>
+		</d>
+		<d>
+			<a>He didn't take me away</a>
+			<b>Он не забрал меня</b>
+			<c>Хи диднт тэйк ми эвэй</c>
+		</d>
+		<d>
+			<a>Will I take her up?</a>
+			<b>Я подниму её?</b>
+			<c>Вил ай тэйк хё ап</c>
+		</d>
+		<d>
+			<a>I will take her up</a>
+			<b>Я подниму её</b>
+			<c>Ай вил тэйк хё ап</c>
+		</d>
+		<d>
+			<a>I will not take her up</a>
+			<b>Я не подниму её</b>
+			<c>Ай вил нот тэйк хё ап</c>
+		</d>
+		<d>
+			<a>Do I take her up?</a>
+			<b>Я поднимаю её?</b>
+			<c>Ду ай тэйк хё ап</c>
+		</d>
+		<d>
+			<a>I take her up</a>
+			<b>Я поднимаю её</b>
+			<c>Ай тэйк хё ап</c>
+		</d>
+		<d>
+			<a>I don't take her up</a>
+			<b>Я не поднимаю её</b>
+			<c>Ай донт тэйк хё ап</c>
+		</d>
+		<d>
+			<a>Did I take her up?</a>
+			<b>Я поднял её?</b>
+			<c>Дид ай тэйк хё ап</c>
+		</d>
+		<d>
+			<a>I took her up</a>
+			<b>Я поднял её</b>
+			<c>Ай тук хё ап</c>
+		</d>
+		<d>
+			<a>I did not take her up</a>
+			<b>Я не поднял её</b>
+			<c>Ай дид нот тэйк хё ап</c>
+		</d>
+		<d>
+			<a>Will she take me back?</a>
+			<b>Она отвезет меня обратно?</b>
+			<c>Вил ши тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>She will take me back</a>
+			<b>Она отвезет меня обратно</b>
+			<c>Ши вил тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>She will not take me back</a>
+			<b>Она не отвезет меня обратно</b>
+			<c>Ши вил нот тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>Does she take me back?</a>
+			<b>Она везет меня обратно?</b>
+			<c>Дас ши тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>She takes me back</a>
+			<b>Она везет меня обратно</b>
+			<c>Ши тэйкс ми бэк</c>
+		</d>
+		<d>
+			<a>She doesn't take me back</a>
+			<b>Она не везет меня обратно</b>
+			<c>Ши дазнт тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>Did she take me back?</a>
+			<b>Она отвезла меня обратно?</b>
+			<c>Дид ши тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>She took me back</a>
+			<b>Она отвезла меня обратно</b>
+			<c>Ши тук ми бэк</c>
+		</d>
+		<d>
+			<a>She didn't take me back</a>
+			<b>Она не отвезла меня обратно</b>
+			<c>Ши диднт тэйк ми бэк</c>
+		</d>
+		<d>
+			<a>Will I take them in?</a>
+			<b>Я впущу их?</b>
+			<c>Вил ай тэйк зем ин</c>
+		</d>
+		<d>
+			<a>I will take them in</a>
+			<b>Я впущу их</b>
+			<c>Ай вил тэйк зем ин</c>
+		</d>
+		<d>
+			<a>I will not take them in</a>
+			<b>Я не впущу их</b>
+			<c>Ай вил нот тэйк зем ин</c>
+		</d>
+		<d>
+			<a>Do I take them in?</a>
+			<b>Я впускаю их?</b>
+			<c>Ду ай тэйк зем ин</c>
+		</d>
+		<d>
+			<a>I take them in</a>
+			<b>Я впускаю их</b>
+			<c>Ай тэйк зем ин</c>
+		</d>
+		<d>
+			<a>I don't take them in</a>
+			<b>Я не впускаю их</b>
+			<c>Ай донт тэйк зем ин</c>
+		</d>
+		<d>
+			<a>Did I take them in?</a>
+			<b>Впустил ли я их?</b>
+			<c>Дид ай тэйк зем ин</c>
+		</d>
+		<d>
+			<a>I took them in</a>
+			<b>Я впустил их</b>
+			<c>Ай тук зем ин</c>
+		</d>
+		<d>
+			<a>I did not take them in</a>
+			<b>Я не впустил их</b>
+			<c>Ай дид нот тэйк зем ин</c>
+		</d>
+		<d>
+			<a>Will they take me on?</a>
+			<b>Они наймут меня?</b>
+			<c>Вил зей тэйк ми он</c>
+		</d>
+		<d>
+			<a>They will take me on</a>
+			<b>Они наймут меня</b>
+			<c>Зей вил тэйк ми он</c>
+		</d>
+		<d>
+			<a>They will not take me on</a>
+			<b>Они не наймут меня</b>
+			<c>Зей вил нот тэйк ми он</c>
+		</d>
+		<d>
+			<a>Do they take me on?</a>
+			<b>Они нанимают меня?</b>
+			<c>Ду зей тэйк ми он</c>
+		</d>
+		<d>
+			<a>They take me on</a>
+			<b>Они нанимают меня</b>
+			<c>Зей тэйк ми он</c>
+		</d>
+		<d>
+			<a>They don't take me on</a>
+			<b>Они не нанимают меня</b>
+			<c>Зей донт тэйк ми он</c>
+		</d>
+		<d>
+			<a>Did they take me on?</a>
+			<b>Они наняли меня?</b>
+			<c>Дид зей тэйк ми он</c>
+		</d>
+		<d>
+			<a>They took me on</a>
+			<b>Они наняли меня</b>
+			<c>Зей тук ми он</c>
+		</d>
+		<d>
+			<a>They didn't take me on</a>
+			<b>Они не наняли меня</b>
+			<c>Зей диднт тэйк ми он</c>
+		</d>
+		<d>
+			<a>Will you take him for a fool?</a>
+			<b>Ты будешь считать его дураком?</b>
+			<c>Вил ю тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>You will take him for a fool</a>
+			<b>Ты будешь считать его дураком</b>
+			<c>Ю вил тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>You will not take him for a fool</a>
+			<b>Ты не будешь считать его дураком</b>
+			<c>Ю вил нот тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>Do you take him for a fool?</a>
+			<b>Ты считаешь его дураком?</b>
+			<c>Ду ю тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>You take him for a fool</a>
+			<b>Ты считаешь его дураком</b>
+			<c>Ю тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>You don't take him for a fool</a>
+			<b>Ты не считаешь его дураком</b>
+			<c>Ю донт тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>Did you take him for a fool?</a>
+			<b>Ты считал его дураком?</b>
+			<c>Дид ю тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>You took him for a fool</a>
+			<b>Ты считал его дураком</b>
+			<c>Ю тук хим фо э фул</c>
+		</d>
+		<d>
+			<a>You didn't take him for a fool</a>
+			<b>Ты не считал его дураком</b>
+			<c>Ю диднт тэйк хим фо э фул</c>
+		</d>
+		<d>
+			<a>Will he take you down?</a>
+			<b>Он запишет тебя?</b>
+			<c>Вил хи тэйк ю даун</c>
+		</d>
+		<d>
+			<a>He will take you down</a>
+			<b>Он запишет тебя</b>
+			<c>Хи вил тэйк ю даун</c>
+		</d>
+		<d>
+			<a>He will not take you down</a>
+			<b>Он не запишет тебя</b>
+			<c>Хи вил нот тэйк ю даун</c>
+		</d>
+		<d>
+			<a>Does he take you down?</a>
+			<b>Он записывает тебя?</b>
+			<c>Даз хи тэйк ю даун</c>
+		</d>
+		<d>
+			<a>He takes you down</a>
+			<b>Он записывает тебя</b>
+			<c>Хи тэйкс ю даун</c>
+		</d>
+		<d>
+			<a>He doesn't take you down</a>
+			<b>Он не записывает тебя</b>
+			<c>Хи дазнт тэйк ю даун</c>
+		</d>
+		<d>
+			<a>Did he take you down?</a>
+			<b>Он записал тебя?</b>
+			<c>Дид хи тэйк ю даун</c>
+		</d>
+		<d>
+			<a>He took you down</a>
+			<b>Он записал тебя</b>
+			<c>Хи тук ю даун</c>
+		</d>
+		<d>
+			<a>He didn't take you down</a>
+			<b>Он не записал тебя</b>
+			<c>Хи диднт тэйк ю даун</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will help to put on your shoes</a>
+			<b>Я помогу надеть твою обувь</b>
+			<c>Ай вил хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>I didn't help to put on your shoes</a>
+			<b>Я не помог надеть твою обувь</b>
+			<c>Ай диднт хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>Do I help to put on your shoes?</a>
+			<b>Я помогаю надеть твою обувь?</b>
+			<c>Ду ай хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>Will I help to put on your shoes?</a>
+			<b>Помогу ли я  надеть твою обувь?</b>
+			<c>Вил ай хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>Did I help to put on your shoes?</a>
+			<b>Я помог надеть твою обувь?</b>
+			<c>Дид ай хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>I help to put on your shoes</a>
+			<b>Я помогаю надеть твою обувь</b>
+			<c>Ай хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>I helped to put on your shoes</a>
+			<b>Я помог надеть твою обувь</b>
+			<c>Ай хэлпд ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>I will not help to put on your shoes</a>
+			<b>Я не помогу надеть твою обувь</b>
+			<c>Ай вил нот хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>I don't help to put on your shoes</a>
+			<b>Я не помогаю надеть твою обувь</b>
+			<c>Ай донт хэлп ту пут он ё шуз</c>
+		</d>
+		<d>
+			<a>Will you want to put me down?</a>
+			<b>Ты захочешь унизить меня?</b>
+			<c>Вил ю вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>You will want to put me down</a>
+			<b>Ты захочешь унизить меня</b>
+			<c>Ю вил вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>You will not want to put me down</a>
+			<b>Ты не захочешь унизить меня</b>
+			<c>Ю вил нот вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>Do you want to put me down?</a>
+			<b>Ты хочешь унизить меня?</b>
+			<c>Ду ю вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>You want to put me down</a>
+			<b>Ты хочешь унизить меня</b>
+			<c>Ю вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>You don't want to put me down</a>
+			<b>Ты не хочешь унизить меня</b>
+			<c>Ю донт вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>Did you want to put me down?</a>
+			<b>Ты хотел унизить меня?</b>
+			<c>Дид ю вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>You wanted to put me down</a>
+			<b>Ты хотел унизить меня</b>
+			<c>Ю вонтэд ту пут ми даун</c>
+		</d>
+		<d>
+			<a>You didn't want to put me down</a>
+			<b>Ты не хотел унизить меня</b>
+			<c>Ю диднт вонт ту пут ми даун</c>
+		</d>
+		<d>
+			<a>Will I put up with him?</a>
+			<b>Буду ли я терпеть его?</b>
+			<c>Вил ай пут ап виз хим</c>
+		</d>
+		<d>
+			<a>I will put up with him</a>
+			<b>Я буду терпеть его</b>
+			<c>Ай вил пут ап виз хим</c>
+		</d>
+		<d>
+			<a>I will not put up with him</a>
+			<b>Я не буду терпеть его</b>
+			<c>Ай вил нот пут ап виз хим</c>
+		</d>
+		<d>
+			<a>Do I put up with him?</a>
+			<b>Терплю ли я его?</b>
+			<c>Ду ай пут ап виз хим</c>
+		</d>
+		<d>
+			<a>I put up with him</a>
+			<b>Я терплю его</b>
+			<c>Ай пут ап виз хим</c>
+		</d>
+		<d>
+			<a>I don't put up with him</a>
+			<b>Я не терплю его</b>
+			<c>Ай донт пут ап виз хим</c>
+		</d>
+		<d>
+			<a>Did I put up with him?</a>
+			<b>Терпел ли я его?</b>
+			<c>Дид ай пут ап виз хим</c>
+		</d>
+		<d>
+			<a>I put up with him</a>
+			<b>Я терпел его (форма прош.времени совпадает с основной)</b>
+			<c>Ай пут ап виз хим</c>
+		</d>
+		<d>
+			<a>I didn't put up with him</a>
+			<b>Я не терпел его</b>
+			<c>Ай диднт пут ап виз хим</c>
+		</d>
+		<d>
+			<a>Will he put me out of my misery?</a>
+			<b>Избавит ли он меня от моих страданий?</b>
+			<c>Вил хи пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>He will put me out of my misery</a>
+			<b>Он избавит меня от моих страданий</b>
+			<c>Хи вил пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>He will not put me out of my misery</a>
+			<b>Он не избавит меня от моих страданий</b>
+			<c>Хи вил нот пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>Does he put me out of my misery?</a>
+			<b>Он меня от моих страданий избавляет?</b>
+			<c>Дас хи пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>He puts me out of my misery</a>
+			<b>Он меня от моих страданий избавляет</b>
+			<c>Хи путс ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>He doesn't put me out of my misery</a>
+			<b>Он меня от моих страданий не избавляет</b>
+			<c>Хи дазнт пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>Did he put me out of my misery?</a>
+			<b>Он избавил меня от моих страданий?</b>
+			<c>Дид хи пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>He put me out of my misery</a>
+			<b>Он избавил меня от моих страданий (форма прош.времени совпадает с основной)</b>
+			<c>Хи пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>He didn't put me out of my misery</a>
+			<b>Он не избавил меня от моих страданий</b>
+			<c>Хи диднт пут ми аут оф май мизэри</c>
+		</d>
+		<d>
+			<a>Will I put her money in?</a>
+			<b>Я вложу её деньги?</b>
+			<c>Вил ай пут хё мани ин</c>
+		</d>
+		<d>
+			<a>I will put her money in</a>
+			<b>Я вложу её деньги</b>
+			<c>Ай вил пут хё мани ин</c>
+		</d>
+		<d>
+			<a>I will not put her money in</a>
+			<b>Я не вложу её деньги</b>
+			<c>Ай вил нот пут хё мани ин</c>
+		</d>
+		<d>
+			<a>Do I put her money in?</a>
+			<b>Я вкладываю её деньги?</b>
+			<c>Ду ай пут хё мани ин</c>
+		</d>
+		<d>
+			<a>I put her money in</a>
+			<b>Я вкладываю её деньги</b>
+			<c>Ай пут хё мани ин</c>
+		</d>
+		<d>
+			<a>I don't put her money in</a>
+			<b>Я не вкладываю её деньги</b>
+			<c>Ай донт пут хё мани ин</c>
+		</d>
+		<d>
+			<a>Did I put her money in?</a>
+			<b>Я вложил её деньги?</b>
+			<c>Дид ай пут хё мани ин</c>
+		</d>
+		<d>
+			<a>I put her money in</a>
+			<b>Я вложил её деньги (форма прош.времени совпадает с основной)</b>
+			<c>Ай пут хё мани ин</c>
+		</d>
+		<d>
+			<a>I did not put her money in</a>
+			<b>Я не вложил её деньги</b>
+			<c>Ай дид нот пут хё мани ин</c>
+		</d>
+		<d>
+			<a>Will she put me away?</a>
+			<b>Она спрячет меня?</b>
+			<c>Вил ши пут ми эвэй</c>
+		</d>
+		<d>
+			<a>She will put me away</a>
+			<b>Она спрячет меня</b>
+			<c>Ши вил пут ми эвэй</c>
+		</d>
+		<d>
+			<a>She will not put me away</a>
+			<b>Она не спрячет меня</b>
+			<c>Ши вил нот пут ми эвэй</c>
+		</d>
+		<d>
+			<a>Does she put me away?</a>
+			<b>Она прячет меня?</b>
+			<c>Дас ши пут ми эвэй</c>
+		</d>
+		<d>
+			<a>She puts me away</a>
+			<b>Она прячет меня</b>
+			<c>Ши путс ми эвэй</c>
+		</d>
+		<d>
+			<a>She doesn't put me away</a>
+			<b>Она не прячет меня</b>
+			<c>Ши дазнт пут ми эвэй</c>
+		</d>
+		<d>
+			<a>Did she put me away?</a>
+			<b>Она спрятала меня?</b>
+			<c>Дид ши пут ми эвэй</c>
+		</d>
+		<d>
+			<a>She put me away</a>
+			<b>Она спрятала меня (форма прош.времени совпадает с основной)</b>
+			<c>Ши пут ми эвэй</c>
+		</d>
+		<d>
+			<a>She didn't put me away</a>
+			<b>Она не спрятала меня</b>
+			<c>Ши диднт пут ми эвэй</c>
+		</d>
+		<d>
+			<a>Will I put them off?</a>
+			<b>Я задержу их?</b>
+			<c>Вил ай пут зем оф</c>
+		</d>
+		<d>
+			<a>I will put them off</a>
+			<b>Я задержу их</b>
+			<c>Ай вил пут зем оф</c>
+		</d>
+		<d>
+			<a>I will not put them off</a>
+			<b>Я не задержу их</b>
+			<c>Ай вил нот пут зем оф</c>
+		</d>
+		<d>
+			<a>Do I put them off?</a>
+			<b>Я задерживаю их?</b>
+			<c>Ду ай пут зем оф</c>
+		</d>
+		<d>
+			<a>I put them off</a>
+			<b>Я задерживаю их</b>
+			<c>Ай пут зем оф</c>
+		</d>
+		<d>
+			<a>I don't put them off</a>
+			<b>Я не задерживаю их</b>
+			<c>Ай донт пут зем оф</c>
+		</d>
+		<d>
+			<a>Did I put them off?</a>
+			<b>Задержал ли я их?</b>
+			<c>Дид ай пут зем оф</c>
+		</d>
+		<d>
+			<a>I put them off</a>
+			<b>Я задержал их (форма прош.времени совпадает с основной)</b>
+			<c>Ай пут зем оф</c>
+		</d>
+		<d>
+			<a>I did not put them off</a>
+			<b>Я не задержал их</b>
+			<c>Ай дид нот пут зем оф</c>
+		</d>
+		<d>
+			<a>Will they put me forward?</a>
+			<b>Они выдвинут меня?</b>
+			<c>Вил зей пут ми фовод</c>
+		</d>
+		<d>
+			<a>They will put me forward</a>
+			<b>Они выдвинут меня</b>
+			<c>Зей вил пут ми фовод</c>
+		</d>
+		<d>
+			<a>They will not put me forward</a>
+			<b>Они не выдвинут меня</b>
+			<c>Зей вил нот пут ми фовод</c>
+		</d>
+		<d>
+			<a>Do they put me forward?</a>
+			<b>Они выдвигают меня?</b>
+			<c>Ду зей пут ми фовод</c>
+		</d>
+		<d>
+			<a>They put me forward</a>
+			<b>Они выдвигают меня</b>
+			<c>Зей пут ми фовод</c>
+		</d>
+		<d>
+			<a>They don't put me forward</a>
+			<b>Они не выдвигают меня</b>
+			<c>Зей донт пут ми фовод</c>
+		</d>
+		<d>
+			<a>Did they put me forward?</a>
+			<b>Они выдвинули меня?</b>
+			<c>Дид зей пут ми фовод</c>
+		</d>
+		<d>
+			<a>They put me forward</a>
+			<b>Они выдвинули меня (форма прош.времени совпадает с основной)</b>
+			<c>Зей пут ми фовод</c>
+		</d>
+		<d>
+			<a>They didn't put me forward</a>
+			<b>Они не выдвинули меня</b>
+			<c>Зей диднт пут ми фовод</c>
+		</d>
+		<d>
+			<a>Will you put him over?</a>
+			<b>Переправишь ли ты его?</b>
+			<c>Вил ю пут хим оувэ</c>
+		</d>
+		<d>
+			<a>You will put him over</a>
+			<b>Ты переправишь его</b>
+			<c>Ю вил пут хим оувэ</c>
+		</d>
+		<d>
+			<a>You will not put him over</a>
+			<b>Ты не переправишь его</b>
+			<c>Ю вил нот пут хим оувэ</c>
+		</d>
+		<d>
+			<a>Do you put him over?</a>
+			<b>Ты переправляешь его?</b>
+			<c>Ду ю пут хим оувэ</c>
+		</d>
+		<d>
+			<a>You put him over</a>
+			<b>Ты переправляешь его</b>
+			<c>Ю пут хим оувэ</c>
+		</d>
+		<d>
+			<a>You don't put him over</a>
+			<b>Ты не переправляешь его</b>
+			<c>Ю донт пут хим оувэ</c>
+		</d>
+		<d>
+			<a>Did you put him over?</a>
+			<b>Ты переправил его?</b>
+			<c>Дид ю пут хим оувэ</c>
+		</d>
+		<d>
+			<a>You put him over</a>
+			<b>Ты переправил его (форма прош.времени совпадает с основной)</b>
+			<c>Ю пут хим оувэ</c>
+		</d>
+		<d>
+			<a>You didn't put him over</a>
+			<b>Ты не переправил его</b>
+			<c>Ю диднт пут хим оувэ</c>
+		</d>
+		<d>
+			<a>Will he put you through to this number?</a>
+			<b>Он соединит тебя с этим номером?</b>
+			<c>Вил хи пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>He will put you through to this number</a>
+			<b>Он соединит тебя с этим номером</b>
+			<c>Хи вил пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>He will not put you through to this number</a>
+			<b>Он не соединит тебя с этим номером</b>
+			<c>Хи вил нот пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>Does he put you through to this number?</a>
+			<b>Он соединяет тебя с этим номером?</b>
+			<c>Даз хи пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>He puts you through to this number</a>
+			<b>Он соединяет тебя с этим номером</b>
+			<c>Хи путс ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>He doesn't put you through to this number</a>
+			<b>Он не соединяет тебя с этим номером</b>
+			<c>Хи дазнт пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>Did he put you through to this number?</a>
+			<b>Он соединил тебя с этим номером?</b>
+			<c>Дид хи пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>He put you through to this number</a>
+			<b>Он соединил тебя с этим номером (форма прош.времени совпадает с основной)</b>
+			<c>Хи пут ю сру ту зис намбэ</c>
+		</d>
+		<d>
+			<a>He didn't put you through to this number</a>
+			<b>Он не соединил тебя с этим номером</b>
+			<c>Хи диднт пут ю сру ту зис намбэ</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will get you out of debt</a>
+			<b>Я вытащу тебя из долгов</b>
+			<c>Ай вил гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>I didn't get you out of debt</a>
+			<b>Я не вытаскивал тебя из долгов</b>
+			<c>Ай диднт гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>Do I get you out of debt?</a>
+			<b>Вытаскиваю ли я тебя из долгов?</b>
+			<c>Ду ай гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>Will I get you out of debt?</a>
+			<b>Я буду вытаскивать тебя из долгов?</b>
+			<c>Вил ай гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>Did I get you out of debt?</a>
+			<b>Я вытаскивал тебя из долгов?</b>
+			<c>Дид ай гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>I get you out of debt</a>
+			<b>Я тебя из долгов вытаскиваю</b>
+			<c>Ай гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>I got you out of debt</a>
+			<b>Я вытаскивал тебя из долгов</b>
+			<c>Ай гот ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>I will not get you out of debt</a>
+			<b>Я не вытащу тебя из долгов</b>
+			<c>Ай вил нот гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>I don't get you out of debt</a>
+			<b>Я не вытаскиваю тебя из долгов</b>
+			<c>Ай донт гет ю аут оф дэбт</c>
+		</d>
+		<d>
+			<a>Will you get me up?</a>
+			<b>Ты поднимешь меня?</b>
+			<c>Вил ю гет ми ап?</c>
+		</d>
+		<d>
+			<a>You will get me up</a>
+			<b>Ты поднимешь меня</b>
+			<c>Ю вил гет ми ап</c>
+		</d>
+		<d>
+			<a>You will not get me up</a>
+			<b>Ты не поднимешь меня</b>
+			<c>Ю вил нот гет ми ап</c>
+		</d>
+		<d>
+			<a>Do you get me up?</a>
+			<b>Ты поднимаешь меня?</b>
+			<c>Ду ю гет ми ап</c>
+		</d>
+		<d>
+			<a>You get me up</a>
+			<b>Ты поднимаешь меня</b>
+			<c>Ю гет ми ап</c>
+		</d>
+		<d>
+			<a>You don't get me up</a>
+			<b>Ты не поднимаешь меня</b>
+			<c>Ю донт гет ми ап</c>
+		</d>
+		<d>
+			<a>Did you get me up?</a>
+			<b>Ты поднял меня?</b>
+			<c>Дид ю гет ми ап</c>
+		</d>
+		<d>
+			<a>You got me up</a>
+			<b>Ты поднял меня</b>
+			<c>Ю гот ми ап</c>
+		</d>
+		<d>
+			<a>You didn't get me up</a>
+			<b>Ты не поднял меня</b>
+			<c>Ю диднт гет ми ап</c>
+		</d>
+		<d>
+			<a>Will I get him back?</a>
+			<b>Верну ли я его?</b>
+			<c>Вил ай гет хим бэк</c>
+		</d>
+		<d>
+			<a>I will get him back</a>
+			<b>Я верну его</b>
+			<c>Ай вил гет хим бэк</c>
+		</d>
+		<d>
+			<a>I will not get him back</a>
+			<b>Я не верну его</b>
+			<c>Ай вил нот гет хим бэк</c>
+		</d>
+		<d>
+			<a>Do I get him back?</a>
+			<b>Возвращаю ли я его?</b>
+			<c>Ду ай гет хим бэк</c>
+		</d>
+		<d>
+			<a>I get him back</a>
+			<b>Я возвращаю его</b>
+			<c>Ай гет хим бэк</c>
+		</d>
+		<d>
+			<a>I don't get him back</a>
+			<b>Я не возвращаю его</b>
+			<c>Ай донт гет хим бэк</c>
+		</d>
+		<d>
+			<a>Did I get him back?</a>
+			<b>Вернул ли я его?</b>
+			<c>Дид ай гет хим бэк</c>
+		</d>
+		<d>
+			<a>I got him back</a>
+			<b>Я вернул его</b>
+			<c>Ай гот хим бэк</c>
+		</d>
+		<d>
+			<a>I didn't get him back</a>
+			<b>Я не вернул его</b>
+			<c>Ай диднт гет хим бэк</c>
+		</d>
+		<d>
+			<a>Will he get me off?</a>
+			<b>Отделается ли он от меня?</b>
+			<c>Вил хи гет ми оф</c>
+		</d>
+		<d>
+			<a>He will get me off</a>
+			<b>Он отделается от меня</b>
+			<c>Хи вил гет ми оф</c>
+		</d>
+		<d>
+			<a>He will not get me off</a>
+			<b>Он не отделается от меня</b>
+			<c>Хи вил нот гет ми оф</c>
+		</d>
+		<d>
+			<a>Does he get me off?</a>
+			<b>Он от меня отделывается?</b>
+			<c>Дас хи гет ми оф</c>
+		</d>
+		<d>
+			<a>He gets me off</a>
+			<b>Он от меня отделывается</b>
+			<c>Хи гетс ми оф</c>
+		</d>
+		<d>
+			<a>He doesn't get me off</a>
+			<b>Он от меня не отделывается</b>
+			<c>Хи дазнт гет ми оф</c>
+		</d>
+		<d>
+			<a>Did he get me off?</a>
+			<b>Он отделался от меня?</b>
+			<c>Дид хи гет ми оф</c>
+		</d>
+		<d>
+			<a>He got me off</a>
+			<b>Он отделался от меня</b>
+			<c>Хи гот ми оф</c>
+		</d>
+		<d>
+			<a>He didn't get me off</a>
+			<b>Он не отделался от меня</b>
+			<c>Хи диднт гет ми оф</c>
+		</d>
+		<d>
+			<a>Will I get her away from him?</a>
+			<b>Я заставлю её уйти от него?</b>
+			<c>Вил ай гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>I will get her away from him</a>
+			<b>Я заставлю её уйти от него</b>
+			<c>Ай вил гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>I will not get her away from him</a>
+			<b>Я не заставлю её уйти от него</b>
+			<c>Ай вил нот гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>Do I get her away from him?</a>
+			<b>Я заставляю её уйти от него?</b>
+			<c>Ду ай гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>I get her away from him</a>
+			<b>Я заставляю её уйти от него</b>
+			<c>Ай гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>I don't get her away from him</a>
+			<b>Я не заставляю её уйти от него</b>
+			<c>Ай донт гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>Did I get her away from him?</a>
+			<b>Я заставил её уйти от него?</b>
+			<c>Дид ай гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>I got her away from him</a>
+			<b>Я заставил её уйти от него</b>
+			<c>Ай гот хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>I did not get her away from him</a>
+			<b>Я не заставил её уйти от него</b>
+			<c>Ай дид нот гет хё эвэй фром хим</c>
+		</d>
+		<d>
+			<a>Will she get down on her knees?</a>
+			<b>Она опустится на колени?</b>
+			<c>Вил ши гет даун он хё ниис?</c>
+		</d>
+		<d>
+			<a>She will get down on her knees</a>
+			<b>Она опустится на колени</b>
+			<c>Ши вил гет даун он хё ниис</c>
+		</d>
+		<d>
+			<a>She will not get down on her knees</a>
+			<b>Она не опустится на колени</b>
+			<c>Ши вил нот гет даун он хё ниис</c>
+		</d>
+		<d>
+			<a>Does she get down on her knees?</a>
+			<b>Она опускается на колени?</b>
+			<c>Дас ши гет даун он хё ниис</c>
+		</d>
+		<d>
+			<a>She gets down on her knees</a>
+			<b>Она опускается на колени</b>
+			<c>Ши гетс даун он хё ниис</c>
+		</d>
+		<d>
+			<a>She doesn't get down on her knees</a>
+			<b>Она не опускается на колени</b>
+			<c>Ши дазнт гет даун он хё ниис</c>
+		</d>
+		<d>
+			<a>Did she get down on her knees?</a>
+			<b>Она опустилась на колени?</b>
+			<c>Дид ши гет даун он хё ниис</c>
+		</d>
+		<d>
+			<a>She got down on her knees</a>
+			<b>Она опустилась на колени</b>
+			<c>Ши гот даун он хё ниис</c>
+		</d>
+		<d>
+			<a>She didn't get down on her knees</a>
+			<b>Она не опустилась на колени</b>
+			<c>Ши диднт гет даун он хё ниис</c>
+		</d>
+		<d>
+			<a>Will I get over their divorce?</a>
+			<b>Я переживу их развод?</b>
+			<c>Вил ай гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>I will get over their divorce</a>
+			<b>Я переживу их развод</b>
+			<c>Ай вил гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>I will not get over their divorce</a>
+			<b>Я не переживу их развод</b>
+			<c>Ай вил нот гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>Do I get over their divorce?</a>
+			<b>Я переживаю их развод?</b>
+			<c>Ду ай гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>I get over their divorce</a>
+			<b>Я переживаю их развод</b>
+			<c>Ай гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>I don't get over their divorce</a>
+			<b>Я не переживаю их развод</b>
+			<c>Ай донт гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>Did I get over their divorce?</a>
+			<b>Пережил ли я их развод?</b>
+			<c>Дид ай гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>I got over their divorce</a>
+			<b>Я пережил их развод</b>
+			<c>Ай гот оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>I did not get over their divorce</a>
+			<b>Я не пережил их развод</b>
+			<c>Ай дид нот гет оувэ зейр дивоос</c>
+		</d>
+		<d>
+			<a>Will they get through to me?</a>
+			<b>Они дозвонятся до меня?</b>
+			<c>Вил зей гет сру ту ми</c>
+		</d>
+		<d>
+			<a>They will get through to me</a>
+			<b>Они дозвонятся до меня</b>
+			<c>Зей вил гет сру ту ми</c>
+		</d>
+		<d>
+			<a>They will not get through to me</a>
+			<b>Они не дозвонятся до меня</b>
+			<c>Зей вил нот гет сру ту ми</c>
+		</d>
+		<d>
+			<a>Do they get through to me?</a>
+			<b>Они дозваниваются до меня?</b>
+			<c>Ду зей гет сру ту ми</c>
+		</d>
+		<d>
+			<a>They get through to me</a>
+			<b>Они дозваниваются до меня</b>
+			<c>Зей гет сру ту ми</c>
+		</d>
+		<d>
+			<a>They don't get through to me</a>
+			<b>Они не дозваниваются до меня</b>
+			<c>Зей донт гет сру ту ми</c>
+		</d>
+		<d>
+			<a>Did they get through to me?</a>
+			<b>Они дозвонились до меня?</b>
+			<c>Дид зей гет сру ту ми</c>
+		</d>
+		<d>
+			<a>They got through to me</a>
+			<b>Они дозвонились до меня</b>
+			<c>Зей гот сру ту ми</c>
+		</d>
+		<d>
+			<a>They didn't get through to me</a>
+			<b>Они не дозвонились до меня</b>
+			<c>Зей диднт гет сру ту ми</c>
+		</d>
+		<d>
+			<a>Will you get him around?</a>
+			<b>обманешь ли ты его?</b>
+			<c>Вил ю гет хим эраунд</c>
+		</d>
+		<d>
+			<a>You will get him around</a>
+			<b>Ты обманешь его</b>
+			<c>Ю вил гет хим эраунд</c>
+		</d>
+		<d>
+			<a>You will not get him around</a>
+			<b>Ты не обманешь его</b>
+			<c>Ю вил нот гет хим эраунд</c>
+		</d>
+		<d>
+			<a>Do you get him around?</a>
+			<b>Ты обманываешь его?</b>
+			<c>Ду ю гет хим эраунд</c>
+		</d>
+		<d>
+			<a>You get him around</a>
+			<b>Ты обманываешь его</b>
+			<c>Ю гет хим эраунд</c>
+		</d>
+		<d>
+			<a>You don't get him around</a>
+			<b>Ты не обманываешь его</b>
+			<c>Ю донт гет хим эраунд</c>
+		</d>
+		<d>
+			<a>Did you get him around?</a>
+			<b>Ты обманул его?</b>
+			<c>Дид ю гет хим эраунд</c>
+		</d>
+		<d>
+			<a>You got him around</a>
+			<b>Ты обманул его</b>
+			<c>Ю гот хим эраунд</c>
+		</d>
+		<d>
+			<a>You didn't get him around</a>
+			<b>Ты не обманул его</b>
+			<c>Ю диднт гет хим эраунд</c>
+		</d>
+		<d>
+			<a>Will he get along with you?</a>
+			<b>Он уживется с тобой?</b>
+			<c>Вил хи гет элон виз ю</c>
+		</d>
+		<d>
+			<a>He will get along with you</a>
+			<b>Он уживется с тобой</b>
+			<c>Хи вил гет элон виз ю</c>
+		</d>
+		<d>
+			<a>He will not get along with you</a>
+			<b>Он не уживется с тобой</b>
+			<c>Хи вил нот гет элон виз ю</c>
+		</d>
+		<d>
+			<a>Does he get along with you?</a>
+			<b>Он уживается с тобой?</b>
+			<c>Даз хи гет элон виз ю</c>
+		</d>
+		<d>
+			<a>He gets along with you</a>
+			<b>Он уживается с тобой</b>
+			<c>Хи гетс элон виз ю</c>
+		</d>
+		<d>
+			<a>He doesn't get along with you</a>
+			<b>Он не уживается с тобой</b>
+			<c>Хи дазнт гет элон виз ю</c>
+		</d>
+		<d>
+			<a>Did he get along with you?</a>
+			<b>Он ужился с тобой?</b>
+			<c>Дид хи гет элон виз ю</c>
+		</d>
+		<d>
+			<a>He got along with you</a>
+			<b>Он ужился с тобой</b>
+			<c>Хи гот элон виз ю</c>
+		</d>
+		<d>
+			<a>He didn't get along with you</a>
+			<b>Он не ужился с тобой</b>
+			<c>Хи диднт гет элон виз ю</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will be looking for you</a>
+			<b>Я буду искать тебя</b>
+			<c>Ай вил би лукин фо ю</c>
+		</d>
+		<d>
+			<a>I was not looking for you</a>
+			<b>Я не искал тебя</b>
+			<c>Ай воз нот лукин фо ю</c>
+		</d>
+		<d>
+			<a>Am I looking for you?</a>
+			<b>Я ищу тебя?</b>
+			<c>Эм ай лукин фо ю</c>
+		</d>
+		<d>
+			<a>Will I be looking for you?</a>
+			<b>Буду ли я искать тебя?</b>
+			<c>Вил ай би лукин фо ю</c>
+		</d>
+		<d>
+			<a>Was I looking for you?</a>
+			<b>Я искал тебя?</b>
+			<c>Воз ай лукин фо ю</c>
+		</d>
+		<d>
+			<a>I am looking for you</a>
+			<b>Я ищу тебя</b>
+			<c>Ай эм лукин фо ю</c>
+		</d>
+		<d>
+			<a>I was looking for you</a>
+			<b>Я искал тебя</b>
+			<c>Ай воз лукин фо ю</c>
+		</d>
+		<d>
+			<a>I will not be looking for you</a>
+			<b>Я не буду искать тебя</b>
+			<c>Ай вил нот би лукин фо ю</c>
+		</d>
+		<d>
+			<a>I am not looking for you</a>
+			<b>Я не ищу тебя</b>
+			<c>Ай эм нот лукин фо ю</c>
+		</d>
+		<d>
+			<a>Will you look down on me?</a>
+			<b>Ты будешь смотреть на меня свысока?</b>
+			<c>Вил ю лук даун он ми?</c>
+		</d>
+		<d>
+			<a>You will look down on me</a>
+			<b>Ты будешь смотреть на меня свысока</b>
+			<c>Ю вил лук даун он ми</c>
+		</d>
+		<d>
+			<a>You will not look down on me</a>
+			<b>Ты не будешь смотреть на меня свысока</b>
+			<c>Ю вил нот лук даун он ми</c>
+		</d>
+		<d>
+			<a>Do you look down on me?</a>
+			<b>Ты смотришь на меня свысока?</b>
+			<c>Ду ю лук даун он ми</c>
+		</d>
+		<d>
+			<a>You look down on me</a>
+			<b>Ты смотришь на меня свысока</b>
+			<c>Ю лук даун он ми</c>
+		</d>
+		<d>
+			<a>You don't look down on me</a>
+			<b>Ты не смотришь на меня свысока</b>
+			<c>Ю донт лук даун он ми</c>
+		</d>
+		<d>
+			<a>Did you look down on me?</a>
+			<b>Ты смотрел на меня свысока?</b>
+			<c>Дид ю лук даун он ми</c>
+		</d>
+		<d>
+			<a>You looked down on me</a>
+			<b>Ты смотрел на меня свысока</b>
+			<c>Ю лукд даун он ми</c>
+		</d>
+		<d>
+			<a>You didn't look down on me</a>
+			<b>Ты не смотрел на меня свысока</b>
+			<c>Ю диднт лук даун он ми</c>
+		</d>
+		<d>
+			<a>Will I look back with him?</a>
+			<b>Я буду вспоминать прошлое с ним?</b>
+			<c>Вил ай лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>I will look back with him</a>
+			<b>Я буду вспоминать прошлое с ним</b>
+			<c>Ай вил лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>I will not look back with him</a>
+			<b>Я не буду вспоминать прошлое с ним</b>
+			<c>Ай вил нот лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>Do I look back with him?</a>
+			<b>Я вспоминаю прошлое с ним?</b>
+			<c>Ду ай лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>I look back with him</a>
+			<b>Я вспоминаю прошлое с ним</b>
+			<c>Ай лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>I don't look back with him</a>
+			<b>Я не вспоминаю прошлое с ним</b>
+			<c>Ай донт лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>Did I look back with him?</a>
+			<b>Я вспоминала прошлое с ним?</b>
+			<c>Дид ай лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>I looked back with him</a>
+			<b>Я вспоминала прошлое с ним</b>
+			<c>Ай лукд бэк виз хим</c>
+		</d>
+		<d>
+			<a>I didn't look back with him</a>
+			<b>Я не вспоминала прошлое с ним</b>
+			<c>Ай диднт лук бэк виз хим</c>
+		</d>
+		<d>
+			<a>Will he look out of my window?</a>
+			<b>Он будет выглядывать из моего окна?</b>
+			<c>Вил хи лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>He will look out of my window</a>
+			<b>Он будет выглядывать из моего окна</b>
+			<c>Хи вил лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>He will not look out of my window</a>
+			<b>Он не будет выглядывать из моего окна</b>
+			<c>Хи вил нот лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>Does he look out of my window?</a>
+			<b>Он выглядывает из моего окна?</b>
+			<c>Дас хи лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>He looks out of my window</a>
+			<b>Он выглядывает из моего окна</b>
+			<c>Хи лукс аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>He doesn't look out of my window</a>
+			<b>Он не выглядывает из моего окна</b>
+			<c>Хи дазнт лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>Did he look out of my window?</a>
+			<b>Он выглянул из моего окна?</b>
+			<c>Дид хи лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>He looked out of my window</a>
+			<b>Он выглянул из моего окна</b>
+			<c>Хи лукд аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>He didn't look out of my window</a>
+			<b>Он не выглянул из моего окна</b>
+			<c>Хи диднт лук аут оф май виндоу</c>
+		</d>
+		<d>
+			<a>Will I look her over?</a>
+			<b>Буду ли я оглядывать её?</b>
+			<c>Вил ай лук хё оувэ</c>
+		</d>
+		<d>
+			<a>I will look her over</a>
+			<b>Я буду оглядывать её</b>
+			<c>Ай вил лук хё оувэ</c>
+		</d>
+		<d>
+			<a>I will not look her over</a>
+			<b>Я не буду оглядывать её</b>
+			<c>Ай вил нот лук хё оувэ</c>
+		</d>
+		<d>
+			<a>Do I look her over?</a>
+			<b>Я оглядываю её?</b>
+			<c>Ду ай лук хё оувэ</c>
+		</d>
+		<d>
+			<a>I look her over</a>
+			<b>Я оглядываю её</b>
+			<c>Ай лук хё оувэ</c>
+		</d>
+		<d>
+			<a>I don't look her over</a>
+			<b>Я не оглядываю её</b>
+			<c>Ай донт лук хё оувэ</c>
+		</d>
+		<d>
+			<a>Did I look her over?</a>
+			<b>Я оглядывал её?</b>
+			<c>Дид ай лук хё оувэ</c>
+		</d>
+		<d>
+			<a>I looked her over</a>
+			<b>Я оглядывал её</b>
+			<c>Ай лукд хё оувэ</c>
+		</d>
+		<d>
+			<a>I did not look her over</a>
+			<b>Я не оглядывал её</b>
+			<c>Ай дид нот лук хё оувэ</c>
+		</d>
+		<d>
+			<a>Will she look forward to meeting me?</a>
+			<b>Она будет ожидать с нетерпением встречи со мной?</b>
+			<c>Вил ши лук фовод ту митин ми?</c>
+		</d>
+		<d>
+			<a>She will look forward to meeting me</a>
+			<b>Она будет ожидать с нетерпением встречи со мной</b>
+			<c>Ши вил лук фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>She will not look forward to meeting me</a>
+			<b>Она не будет ожидать с нетерпением встречи со мной</b>
+			<c>Ши вил нот лук фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>Does she look forward to meeting me?</a>
+			<b>Она ожидает с нетерпением встречи со мной?</b>
+			<c>Дас ши лук фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>She looks forward to meeting me</a>
+			<b>Она ожидает с нетерпением встречи со мной</b>
+			<c>Ши лукс фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>She doesn't look forward to meeting me</a>
+			<b>Она не ожидает с нетерпением встречи со мной</b>
+			<c>Ши дазнт лук фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>Did she look forward to meeting me?</a>
+			<b>Она ожидала с нетерпением встречи со мной?</b>
+			<c>Дид ши лук фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>She looked forward to meeting me</a>
+			<b>Она ожидала с нетерпением встречи со мной</b>
+			<c>Ши лукд фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>She didn't look forward to meeting me</a>
+			<b>Она не ожидала с нетерпением встречи со мной</b>
+			<c>Ши диднт лук фовод ту митин ми</c>
+		</d>
+		<d>
+			<a>Will I look after them?</a>
+			<b>Буду ли я присматривать за ними?</b>
+			<c>Вил ай лук афтэ зем</c>
+		</d>
+		<d>
+			<a>I will look after them</a>
+			<b>Я буду присматривать за ними</b>
+			<c>Ай вил лук афтэ зем</c>
+		</d>
+		<d>
+			<a>I will not look after them</a>
+			<b>Я не буду присматривать за ними</b>
+			<c>Ай вил нот лук афтэ зем</c>
+		</d>
+		<d>
+			<a>Do I look after them?</a>
+			<b>Я присматриваю за ними?</b>
+			<c>Ду ай лук афтэ зем</c>
+		</d>
+		<d>
+			<a>I look after them</a>
+			<b>Я присматриваю за ними</b>
+			<c>Ай лук афтэ зем</c>
+		</d>
+		<d>
+			<a>I don't look after them</a>
+			<b>Я не присматриваю за ними</b>
+			<c>Ай донт лук афтэ зем</c>
+		</d>
+		<d>
+			<a>Did I look after them?</a>
+			<b>Я присматривал за ними?</b>
+			<c>Дид ай лук афтэ зем</c>
+		</d>
+		<d>
+			<a>I looked after them</a>
+			<b>Я присматривал за ними</b>
+			<c>Ай лукд афтэ зем</c>
+		</d>
+		<d>
+			<a>I did not look after them</a>
+			<b>Я не присматривал за ними</b>
+			<c>Ай дид нот лук афтэ зем</c>
+		</d>
+		<d>
+			<a>Will they look me up?</a>
+			<b>Они навестят меня?</b>
+			<c>Вил зей лук ми ап</c>
+		</d>
+		<d>
+			<a>They will look me up</a>
+			<b>Они навестят меня</b>
+			<c>Зей вил лук ми ап</c>
+		</d>
+		<d>
+			<a>They will not look me up</a>
+			<b>Они не навестят меня</b>
+			<c>Зей вил нот лук ми ап</c>
+		</d>
+		<d>
+			<a>Do they look me up?</a>
+			<b>Они навещают меня?</b>
+			<c>Ду зей лук ми ап</c>
+		</d>
+		<d>
+			<a>They look me up</a>
+			<b>Они навещают меня</b>
+			<c>Зей лук ми ап</c>
+		</d>
+		<d>
+			<a>They don't look me up</a>
+			<b>Они не навещают меня</b>
+			<c>Зей донт лук ми ап</c>
+		</d>
+		<d>
+			<a>Did they look me up?</a>
+			<b>Они навестили меня?</b>
+			<c>Дид зей лук ми ап</c>
+		</d>
+		<d>
+			<a>They looked me up</a>
+			<b>Они навестили меня</b>
+			<c>Зей лукд ми ап</c>
+		</d>
+		<d>
+			<a>They didn't look me up</a>
+			<b>Они не навестили меня</b>
+			<c>Зей диднт лук ми ап</c>
+		</d>
+		<d>
+			<a>Will you look into his eyes?</a>
+			<b>Ты заглянешь в его глаза?</b>
+			<c>Вил ю лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>You will look into his eyes</a>
+			<b>Ты заглянешь в его глаза</b>
+			<c>Ю вил лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>You will not look into his eyes</a>
+			<b>Ты не заглянешь в его глаза</b>
+			<c>Ю вил нот лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>Do you look into his eyes?</a>
+			<b>Ты заглядываешь в его глаза?</b>
+			<c>Ду ю лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>You look into his eyes</a>
+			<b>Ты заглядываешь в его глаза</b>
+			<c>Ю лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>You don't look into his eyes</a>
+			<b>Ты не заглядываешь в его глаза</b>
+			<c>Ю донт лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>Did you look into his eyes?</a>
+			<b>Ты заглянула в его глаза?</b>
+			<c>Дид ю лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>You looked into his eyes</a>
+			<b>Ты заглянула в его глаза</b>
+			<c>Ю лукд инту хиз айс</c>
+		</d>
+		<d>
+			<a>You didn't look into his eyes</a>
+			<b>Ты не заглянула в его глаза</b>
+			<c>Ю диднт лук инту хиз айс</c>
+		</d>
+		<d>
+			<a>Will he look away from you?</a>
+			<b>Он отвернется от тебя?</b>
+			<c>Вил хи лук эвэй фром ю</c>
+		</d>
+		<d>
+			<a>He will look away from you</a>
+			<b>Он отвернется от тебя</b>
+			<c>Хи вил лук эвэй фром ю</c>
+		</d>
+		<d>
+			<a>He will not look away from you</a>
+			<b>Он не отвернется от тебя</b>
+			<c>Хи вил нот лук эвэй фром ю</c>
+		</d>
+		<d>
+			<a>Does he look away from you?</a>
+			<b>Он отворачивается от тебя?</b>
+			<c>Даз хи лук эвэй фром ю</c>
+		</d>
+		<d>
+			<a>He looks away from you</a>
+			<b>Он отворачивается от тебя</b>
+			<c>Хи лукс эвэй фром ю</c>
+		</d>
+		<d>
+			<a>He doesn't look away from you</a>
+			<b>Он не отворачивается от тебя</b>
+			<c>Хи дазнт лук эвэй фром ю</c>
+		</d>
+		<d>
+			<a>Did he look away from you?</a>
+			<b>Он отвернулся от тебя?</b>
+			<c>Дид хи лук эвэй фром ю</c>
+		</d>
+		<d>
+			<a>He looked away from you</a>
+			<b>Он отвернулся от тебя</b>
+			<c>Хи лукд эвэй фром ю</c>
+		</d>
+		<d>
+			<a>He didn't look away from you</a>
+			<b>Он не отвернулся от тебя</b>
+			<c>Хи диднт лук эвэй фром ю</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will turn you back</a>
+			<b>Я верну тебя обратно</b>
+			<c>Ай вил тён ю бэк</c>
+		</d>
+		<d>
+			<a>I didn't turn you back</a>
+			<b>Я не вернул тебя обратно</b>
+			<c>Ай диднт тён ю бэк</c>
+		</d>
+		<d>
+			<a>Do I turn you back?</a>
+			<b>Возвращаю ли я тебя обратно?</b>
+			<c>Ду ай тён ю бэк</c>
+		</d>
+		<d>
+			<a>Will I turn you back?</a>
+			<b>Я верну тебя обратно?</b>
+			<c>Вил ай тён ю бэк</c>
+		</d>
+		<d>
+			<a>Did I turn you back?</a>
+			<b>Я вернул тебя обратно?</b>
+			<c>Дид ай тён ю бэк</c>
+		</d>
+		<d>
+			<a>I turn you back</a>
+			<b>Я возвращаю тебя обратно</b>
+			<c>Ай тён ю бэк</c>
+		</d>
+		<d>
+			<a>I turned you back</a>
+			<b>Я вернул тебя обратно</b>
+			<c>Ай тёнд ю бэк</c>
+		</d>
+		<d>
+			<a>I will not turn you back</a>
+			<b>Я не верну тебя обратно</b>
+			<c>Ай вил нот тён ю бэк</c>
+		</d>
+		<d>
+			<a>I don't turn you back</a>
+			<b>Я не возвращаю тебя обратно</b>
+			<c>Ай донт тён ю бэк</c>
+		</d>
+		<d>
+			<a>Will you turn me around?</a>
+			<b>Ты развернёшь меня?</b>
+			<c>Вил ю тён ми эраунд?</c>
+		</d>
+		<d>
+			<a>You will turn me around</a>
+			<b>Ты развернёшь меня</b>
+			<c>Ю вил тён ми эраунд</c>
+		</d>
+		<d>
+			<a>You will not turn me around</a>
+			<b>Ты не развернёшь меня</b>
+			<c>Ю вил нот тён ми эраунд</c>
+		</d>
+		<d>
+			<a>Do you turn me around?</a>
+			<b>Ты разворачиваешь меня?</b>
+			<c>Ду ю тён ми эраунд</c>
+		</d>
+		<d>
+			<a>You turn me around</a>
+			<b>Ты разворачиваешь меня </b>
+			<c>Ю тён ми эраунд</c>
+		</d>
+		<d>
+			<a>You don't turn me around</a>
+			<b>Ты не разворачиваешь меня</b>
+			<c>Ю донт тён ми эраунд</c>
+		</d>
+		<d>
+			<a>Did you turn me around?</a>
+			<b>Ты развернул меня?</b>
+			<c>Дид ю тён ми эраунд</c>
+		</d>
+		<d>
+			<a>You turned me around</a>
+			<b>Ты развернул меня</b>
+			<c>Ю тёнд ми эраунд</c>
+		</d>
+		<d>
+			<a>You didn't turn me around</a>
+			<b>Ты не развернул меня</b>
+			<c>Ю диднт тён ми эраунд</c>
+		</d>
+		<d>
+			<a>Will I turn him away?</a>
+			<b>Отвергну ли я его?</b>
+			<c>Вил ай тён хим эвэй</c>
+		</d>
+		<d>
+			<a>I will turn him away</a>
+			<b>Я отвергну его</b>
+			<c>Ай вил тён хим эвэй</c>
+		</d>
+		<d>
+			<a>I will not turn him away</a>
+			<b>Я не отвергну его</b>
+			<c>Ай вил нот тён хим эвэй</c>
+		</d>
+		<d>
+			<a>Do I turn him away?</a>
+			<b>Изменяю ли я его планы?</b>
+			<c>Ду ай тён хим эвэй</c>
+		</d>
+		<d>
+			<a>I turn him away</a>
+			<b>Я отвергаю его</b>
+			<c>Ай тён хим эвэй</c>
+		</d>
+		<d>
+			<a>I don't turn him away</a>
+			<b>Я не отвергаю его</b>
+			<c>Ай донт тён хим эвэй</c>
+		</d>
+		<d>
+			<a>Did I turn him away?</a>
+			<b>Отвергла ли я его?</b>
+			<c>Дид ай тён хим эвэй</c>
+		</d>
+		<d>
+			<a>I turned him away</a>
+			<b>Я отвергла его</b>
+			<c>Ай тёнд хим эвэй</c>
+		</d>
+		<d>
+			<a>I didn't turn him away</a>
+			<b>Я не отвергла его</b>
+			<c>Ай диднт тён хим эвэй</c>
+		</d>
+		<d>
+			<a>Will he turn me off?</a>
+			<b>Вызовет ли он мою неприязнь?</b>
+			<c>Вил хи тён ми оф</c>
+		</d>
+		<d>
+			<a>He will turn me off</a>
+			<b>Он вызовет мою неприязнь</b>
+			<c>Хи вил тён ми оф</c>
+		</d>
+		<d>
+			<a>He will not turn me off</a>
+			<b>Он не вызовет мою неприязнь</b>
+			<c>Хи вил нот тён ми оф</c>
+		</d>
+		<d>
+			<a>Does he turn me off?</a>
+			<b>Он вызывает мою неприязнь?</b>
+			<c>Дас хи тён ми оф</c>
+		</d>
+		<d>
+			<a>He turns me off</a>
+			<b>Он вызывает мою неприязнь</b>
+			<c>Хи тёнс ми оф</c>
+		</d>
+		<d>
+			<a>He doesn't turn me off</a>
+			<b>Он не вызывает мою неприязнь</b>
+			<c>Хи дазнт тён ми оф</c>
+		</d>
+		<d>
+			<a>Did he turn me off?</a>
+			<b>Он вызвал мою неприязнь?</b>
+			<c>Дид хи тён ми оф</c>
+		</d>
+		<d>
+			<a>He turned me off</a>
+			<b>Он вызвал мою неприязнь</b>
+			<c>Хи тёнд ми оф</c>
+		</d>
+		<d>
+			<a>He didn't turn me off</a>
+			<b>Он не вызвал мою неприязнь</b>
+			<c>Хи диднт тён ми оф</c>
+		</d>
+		<d>
+			<a>Will I turn her on?</a>
+			<b>Я возбужу её?</b>
+			<c>Вил ай тён хё он</c>
+		</d>
+		<d>
+			<a>I will turn her on</a>
+			<b>Я возбужу её</b>
+			<c>Ай вил тён хё он</c>
+		</d>
+		<d>
+			<a>I will not turn her on</a>
+			<b>Я не возбужу её</b>
+			<c>Ай вил нот тён хё он</c>
+		</d>
+		<d>
+			<a>Do I turn her on?</a>
+			<b>Я возбуждаю её?</b>
+			<c>Ду ай тён хё он</c>
+		</d>
+		<d>
+			<a>I turn her on</a>
+			<b>Я возбуждаю её</b>
+			<c>Ай тён хё он</c>
+		</d>
+		<d>
+			<a>I don't turn her on</a>
+			<b>Я не возбуждаю её</b>
+			<c>Ай донт тён хё он</c>
+		</d>
+		<d>
+			<a>Did I turn her on?</a>
+			<b>Я возбудил её?</b>
+			<c>Дид ай тён хё он</c>
+		</d>
+		<d>
+			<a>I turned her on</a>
+			<b>Я возбудил её</b>
+			<c>Ай тёнд хё он</c>
+		</d>
+		<d>
+			<a>I did not turn her on</a>
+			<b>Я не возбудил её</b>
+			<c>Ай дид нот тён хё он</c>
+		</d>
+		<d>
+			<a>Will she turn me out?</a>
+			<b>Она выгонит меня?</b>
+			<c>Вил ши тён ми аут?</c>
+		</d>
+		<d>
+			<a>She will turn me out</a>
+			<b>Она выгонит меня</b>
+			<c>Ши вил тён ми аут</c>
+		</d>
+		<d>
+			<a>She will not turn me out</a>
+			<b>Она не выгонит меня</b>
+			<c>Ши вил нот тён ми аут</c>
+		</d>
+		<d>
+			<a>Does she turn me out?</a>
+			<b>Она выгоняет меня?</b>
+			<c>Дас ши тён ми аут</c>
+		</d>
+		<d>
+			<a>She turns me out</a>
+			<b>Она выгоняет меня</b>
+			<c>Ши тёнс ми аут</c>
+		</d>
+		<d>
+			<a>She doesn't turn me out</a>
+			<b>Она не выгоняет меня</b>
+			<c>Ши дазнт тён ми аут</c>
+		</d>
+		<d>
+			<a>Did she turn me out?</a>
+			<b>Она выгнала меня?</b>
+			<c>Дид ши тён ми аут</c>
+		</d>
+		<d>
+			<a>She turned me out</a>
+			<b>Она выгнала меня</b>
+			<c>Ши тёнд ми аут</c>
+		</d>
+		<d>
+			<a>She didn't turn me out</a>
+			<b>Она не выгнала меня</b>
+			<c>Ши диднт тён ми аут</c>
+		</d>
+		<d>
+			<a>Will I turn them into cat food?</a>
+			<b>Я превращу их в корм для кошек?</b>
+			<c>Вил ай тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>I will turn them into cat food</a>
+			<b>Я превращу их в корм для кошек</b>
+			<c>Ай вил тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>I will not turn them into cat food</a>
+			<b>Я не превращу их в корм для кошек</b>
+			<c>Ай вил нот тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>Do I turn them into cat food?</a>
+			<b>Я превращаю их в корм для кошек?</b>
+			<c>Ду ай тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>I turn them into cat food</a>
+			<b>Я превращаю их в корм для кошек</b>
+			<c>Ай тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>I don't turn them into cat food</a>
+			<b>Я не превращаю их в корм для кошек</b>
+			<c>Ай донт тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>Did I turn them into cat food?</a>
+			<b>Превратил ли я их в корм для кошек?</b>
+			<c>Дид ай тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>I turned them into cat food</a>
+			<b>Я превратил их в корм для кошек</b>
+			<c>Ай тёнд зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>I did not turn them into cat food</a>
+			<b>Я не превратил их в корм для кошек</b>
+			<c>Ай дид нот тён зэм инту кат фуд</c>
+		</d>
+		<d>
+			<a>Will they turn me over?</a>
+			<b>Они перевернут меня?</b>
+			<c>Вил зей тён ми оувэ</c>
+		</d>
+		<d>
+			<a>They will turn me over</a>
+			<b>Они перевернут меня</b>
+			<c>Зей вил тён ми оувэ</c>
+		</d>
+		<d>
+			<a>They will not turn me over</a>
+			<b>Они не перевернут меня</b>
+			<c>Зей вил нот тён ми оувэ</c>
+		</d>
+		<d>
+			<a>Do they turn me over?</a>
+			<b>Они переворачивают меня?</b>
+			<c>Ду зей тён ми оувэ</c>
+		</d>
+		<d>
+			<a>They turn me over</a>
+			<b>Они переворачивают меня</b>
+			<c>Зей тён ми оувэ</c>
+		</d>
+		<d>
+			<a>They don't turn me over</a>
+			<b>Они не переворачивают меня</b>
+			<c>Зей донт тён ми оувэ</c>
+		</d>
+		<d>
+			<a>Did they turn me over?</a>
+			<b>Они перевернули меня?</b>
+			<c>Дид зей тён ми оувэ</c>
+		</d>
+		<d>
+			<a>They turned me over</a>
+			<b>Они перевернули меня</b>
+			<c>Зей тёнд ми оувэ</c>
+		</d>
+		<d>
+			<a>They didn't turn me over</a>
+			<b>Они не перевернули меня</b>
+			<c>Зей диднт тён ми оувэ</c>
+		</d>
+		<d>
+			<a>Will you turn him up?</a>
+			<b>Поднимешь ли ты его?</b>
+			<c>Вил ю тён хим ап</c>
+		</d>
+		<d>
+			<a>You will turn him up</a>
+			<b>Ты поднимешь его</b>
+			<c>Ю вил тён хим ап</c>
+		</d>
+		<d>
+			<a>You will not turn him up</a>
+			<b>Ты не поднимешь его</b>
+			<c>Ю вил нот тён хим ап</c>
+		</d>
+		<d>
+			<a>Do you turn him up?</a>
+			<b>Ты поднимаешь его?</b>
+			<c>Ду ю тён хим ап</c>
+		</d>
+		<d>
+			<a>You turn him up</a>
+			<b>Ты поднимаешь его</b>
+			<c>Ю тён хим ап</c>
+		</d>
+		<d>
+			<a>You don't turn him up</a>
+			<b>Ты не поднимаешь его</b>
+			<c>Ю донт тён хим ап</c>
+		</d>
+		<d>
+			<a>Did you turn him up?</a>
+			<b>Ты поднял его?</b>
+			<c>Дид ю тён хим ап</c>
+		</d>
+		<d>
+			<a>You turned him up</a>
+			<b>Ты поднял его</b>
+			<c>Ю тёнд хим ап</c>
+		</d>
+		<d>
+			<a>You didn't turn him up</a>
+			<b>Ты не поднял его</b>
+			<c>Ю диднт тён хим ап</c>
+		</d>
+		<d>
+			<a>Will he turn you down?</a>
+			<b>Он откажет тебе?</b>
+			<c>Вил хи тён ю даун</c>
+		</d>
+		<d>
+			<a>He will turn you down</a>
+			<b>Он откажет тебе</b>
+			<c>Хи вил тён ю даун</c>
+		</d>
+		<d>
+			<a>He will not turn you down</a>
+			<b>Он не откажет тебе</b>
+			<c>Хи вил нот тён ю даун</c>
+		</d>
+		<d>
+			<a>Does he turn you down?</a>
+			<b>Он отказывает тебе?</b>
+			<c>Даз хи тён ю даун</c>
+		</d>
+		<d>
+			<a>He turns you down</a>
+			<b>Он отказывает тебе</b>
+			<c>Хи тёнс ю даун</c>
+		</d>
+		<d>
+			<a>He doesn't turn you down</a>
+			<b>Он не отказывает тебе</b>
+			<c>Хи дазнт тён ю даун</c>
+		</d>
+		<d>
+			<a>Did he turn you down?</a>
+			<b>Он отказал тебе?</b>
+			<c>Дид хи тён ю даун</c>
+		</d>
+		<d>
+			<a>He turned you down</a>
+			<b>Он отказал тебе</b>
+			<c>Хи тёнд ю даун</c>
+		</d>
+		<d>
+			<a>He didn't turn you down</a>
+			<b>Он не отказал тебе</b>
+			<c>Хи диднт тён ю даун</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will walk away with you</a>
+			<b>Я уйду вместе с тобой</b>
+			<c>Ай вил вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>I didn't walk away with you</a>
+			<b>Я не ушел вместе с тобой</b>
+			<c>Ай диднт вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>Do I walk away with you?</a>
+			<b>Ухожу ли я вместе с тобой?</b>
+			<c>Ду ай вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>Will I walk away with you?</a>
+			<b>Уйду ли я вместе с тобой?</b>
+			<c>Вил ай вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>Did I walk away with you?</a>
+			<b>Я ушел вместе с тобой?</b>
+			<c>Дид ай вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>I walk away with you</a>
+			<b>Я ухожу вместе с тобой</b>
+			<c>Ай вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>I walked away with you</a>
+			<b>Я ушел вместе с тобой</b>
+			<c>Ай вокд эвэй виз ю</c>
+		</d>
+		<d>
+			<a>I will not walk away with you</a>
+			<b>Я не уйду вместе с тобой</b>
+			<c>Ай вил нот вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>I don't walk away with you</a>
+			<b>Я не ухожу вместе с тобой</b>
+			<c>Ай донт вок эвэй виз ю</c>
+		</d>
+		<d>
+			<a>Will you walk me over the bridge?</a>
+			<b>Ты переведешь меня через мост?</b>
+			<c>Вил ю вок ми оувэ зэ бридж?</c>
+		</d>
+		<d>
+			<a>You will walk me over the bridge</a>
+			<b>Ты переведешь меня через мост</b>
+			<c>Ю вил вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>You will not walk me over the bridge</a>
+			<b>Ты не переведешь меня через мост</b>
+			<c>Ю вил нот вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>Do you walk me over the bridge?</a>
+			<b>Ты переводишь меня через мост?</b>
+			<c>Ду ю вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>You walk me over the bridge</a>
+			<b>Ты переводишь меня через мост</b>
+			<c>Ю вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>You don't walk me over the bridge</a>
+			<b>Ты не переводишь меня через мост</b>
+			<c>Ю донт вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>Did you walk me over the bridge?</a>
+			<b>Ты перевёл меня через мост?</b>
+			<c>Дид ю вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>You walked me over the bridge</a>
+			<b>Ты перевёл меня через мост</b>
+			<c>Ю вокд ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>You didn't walk me over the bridge</a>
+			<b>Ты не перевёл меня через мост</b>
+			<c>Ю диднт вок ми оувэ зэ бридж</c>
+		</d>
+		<d>
+			<a>Will I walk him out?</a>
+			<b>Выпущу ли я его его?</b>
+			<c>Вил ай вок хим аут</c>
+		</d>
+		<d>
+			<a>I will walk him out</a>
+			<b>Я выпущу его</b>
+			<c>Ай вил вок хим аут</c>
+		</d>
+		<d>
+			<a>I will not walk him out</a>
+			<b>Я не выпущу его</b>
+			<c>Ай вил нот вок хим аут</c>
+		</d>
+		<d>
+			<a>Do I walk him out?</a>
+			<b>Выпускаю ли я его его?</b>
+			<c>Ду ай вок хим аут</c>
+		</d>
+		<d>
+			<a>I walk him out</a>
+			<b>Я выпускаю его</b>
+			<c>Ай вок хим аут</c>
+		</d>
+		<d>
+			<a>I don't walk him out</a>
+			<b>Я не выпускаю его</b>
+			<c>Ай донт вок хим аут</c>
+		</d>
+		<d>
+			<a>Did I walk him out?</a>
+			<b>Выпустила ли я его?</b>
+			<c>Дид ай вок хим аут</c>
+		</d>
+		<d>
+			<a>I walked him out</a>
+			<b>Я выпустила его</b>
+			<c>Ай вокд хим аут</c>
+		</d>
+		<d>
+			<a>I didn't walk him out</a>
+			<b>Я не выпустила его</b>
+			<c>Ай диднт вок хим аут</c>
+		</d>
+		<d>
+			<a>Will he walk back to me?</a>
+			<b>Придет ли он назад ко мне?</b>
+			<c>Вил хи вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>He will walk back to me</a>
+			<b>Он придет назад ко мне</b>
+			<c>Хи вил вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>He will not walk back to me</a>
+			<b>Он не придет назад ко мне</b>
+			<c>Хи вил нот вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>Does he walk back to me?</a>
+			<b>Он идет назад ко мне?</b>
+			<c>Дас хи вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>He walks back to me</a>
+			<b>Он идет назад ко мне</b>
+			<c>Хи вокс бэк ту ми</c>
+		</d>
+		<d>
+			<a>He doesn't walk back to me</a>
+			<b>Он не идет назад ко мне</b>
+			<c>Хи дазнт вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>Did he walk back to me?</a>
+			<b>Он пришел назад ко мне?</b>
+			<c>Дид хи вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>He walked back to me</a>
+			<b>Он пришел назад ко мне</b>
+			<c>Хи вокд бэк ту ми</c>
+		</d>
+		<d>
+			<a>He didn't walk back to me</a>
+			<b>Он не пришел назад ко мне</b>
+			<c>Хи диднт вок бэк ту ми</c>
+		</d>
+		<d>
+			<a>Will I walk in to her office?</a>
+			<b>Я войду в её офис?</b>
+			<c>Вил ай вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>I will walk in to her office</a>
+			<b>Я войду в её офис</b>
+			<c>Ай вил вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>I will not walk in to her office</a>
+			<b>Я не войду в её офис</b>
+			<c>Ай вил нот вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>Do I walk in to her office?</a>
+			<b>Я вхожу в её офис?</b>
+			<c>Ду ай вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>I walk in to her office</a>
+			<b>Я вхожу в её офис</b>
+			<c>Ай вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>I don't walk in to her office</a>
+			<b>Я не вхожу в её офис</b>
+			<c>Ай донт вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>Did I walk in to her office?</a>
+			<b>Я вошёл в её офис?</b>
+			<c>Дид ай вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>I walked in to her office</a>
+			<b>Я вошёл в её офис</b>
+			<c>Ай вокд ин ту хё офис</c>
+		</d>
+		<d>
+			<a>I did not walk in to her office</a>
+			<b>Я не вошёл в её офис</b>
+			<c>Ай дид нот вок ин ту хё офис</c>
+		</d>
+		<d>
+			<a>Will she walk up to me?</a>
+			<b>Она подойдет ко мне?</b>
+			<c>Вил ши вок ап ту ми?</c>
+		</d>
+		<d>
+			<a>She will walk up to me</a>
+			<b>Она подойдет ко мне</b>
+			<c>Ши вил вок ап ту ми</c>
+		</d>
+		<d>
+			<a>She will not walk up to me</a>
+			<b>Она не подойдет ко мне</b>
+			<c>Ши вил нот вок ап ту ми</c>
+		</d>
+		<d>
+			<a>Does she walk up to me?</a>
+			<b>Она подходит ко мне?</b>
+			<c>Дас ши вок ап ту ми</c>
+		</d>
+		<d>
+			<a>She walks up to me</a>
+			<b>Она подходит ко мне</b>
+			<c>Ши вокс ап ту ми</c>
+		</d>
+		<d>
+			<a>She doesn't walk up to me</a>
+			<b>Она не подходит ко мне</b>
+			<c>Ши дазнт вок ап ту ми</c>
+		</d>
+		<d>
+			<a>Did she walk up to me?</a>
+			<b>Она подошла ко мне?</b>
+			<c>Дид ши вок ап ту ми</c>
+		</d>
+		<d>
+			<a>She walked up to me</a>
+			<b>Она подошла ко мне</b>
+			<c>Ши вокд ап ту ми</c>
+		</d>
+		<d>
+			<a>She didn't walk up to me</a>
+			<b>Она не подошла ко мне</b>
+			<c>Ши диднт вок ап ту ми</c>
+		</d>
+		<d>
+			<a>Will I walk them off?</a>
+			<b>Я выгуляю их?</b>
+			<c>Вил ай вок зем оф</c>
+		</d>
+		<d>
+			<a>I will walk them off</a>
+			<b>Я выгуляю их</b>
+			<c>Ай вил вок зем оф</c>
+		</d>
+		<d>
+			<a>I will not walk them off</a>
+			<b>Я не выгуляю их</b>
+			<c>Ай вил нот вок зем оф</c>
+		</d>
+		<d>
+			<a>Do I walk them off?</a>
+			<b>Я выгуливаю их?</b>
+			<c>Ду ай вок зем оф</c>
+		</d>
+		<d>
+			<a>I walk them off</a>
+			<b>Я выгуливаю их</b>
+			<c>Ай вок зем оф</c>
+		</d>
+		<d>
+			<a>I don't walk them off</a>
+			<b>Я не выгуливаю их</b>
+			<c>Ай донт вок зем оф</c>
+		</d>
+		<d>
+			<a>Did I walk them off?</a>
+			<b>Выгулял ли я их?</b>
+			<c>Дид ай вок зем оф</c>
+		</d>
+		<d>
+			<a>I walked them off</a>
+			<b>Я выгулял их</b>
+			<c>Ай вокд зем оф</c>
+		</d>
+		<d>
+			<a>I did not walk them off</a>
+			<b>Я не выгулял их</b>
+			<c>Ай дид нот вок зем оф</c>
+		</d>
+		<d>
+			<a>Will they walk around with me?</a>
+			<b>Они прогуляются со мной?</b>
+			<c>Вил зей вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>They will walk around with me</a>
+			<b>Они прогуляются со мной</b>
+			<c>Зей вил вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>They will not walk around with me</a>
+			<b>Они не прогуляются со мной</b>
+			<c>Зей вил нот вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>Do they walk around with me?</a>
+			<b>Они прогуливаются со мной?</b>
+			<c>Ду зей вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>They walk around with me</a>
+			<b>Они прогуливаются со мной</b>
+			<c>Зей вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>They don't walk around with me</a>
+			<b>Они не прогуливаются со мной</b>
+			<c>Зей донт вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>Did they walk around with me?</a>
+			<b>Они прогулялись со мной?</b>
+			<c>Дид зей вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>They walked around with me</a>
+			<b>Они прогулялись со мной</b>
+			<c>Зей вокд эраунд виз ми</c>
+		</d>
+		<d>
+			<a>They didn't walk around with me</a>
+			<b>Они не прогулялись со мной</b>
+			<c>Зей диднт вок эраунд виз ми</c>
+		</d>
+		<d>
+			<a>Will you walk throug his play?</a>
+			<b>Будешь ли ты репетировать его пьесу?</b>
+			<c>Вил ю вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>You will walk throug his play</a>
+			<b>Ты будешь репетировать его пьесу</b>
+			<c>Ю вил вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>You will not walk throug his play</a>
+			<b>Ты не будешь репетировать его пьесу</b>
+			<c>Ю вил нот вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>Do you walk throug his play?</a>
+			<b>Ты репетируешь его пьесу?</b>
+			<c>Ду ю вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>You walk throug his play</a>
+			<b>Ты репетируешь его пьесу</b>
+			<c>Ю вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>You don't walk throug his play</a>
+			<b>Ты не репетируешь его пьесу</b>
+			<c>Ю донт вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>Did you walk throug his play?</a>
+			<b>Ты репетировала его пьесу?</b>
+			<c>Дид ю вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>You walked throug his play</a>
+			<b>Ты репетировала его пьесу</b>
+			<c>Ю вокд сру хиз плэй</c>
+		</d>
+		<d>
+			<a>You didn't walk throug his play</a>
+			<b>Ты не репетировала его пьесу</b>
+			<c>Ю диднт вок сру хиз плэй</c>
+		</d>
+		<d>
+			<a>Will he walk into your life?</a>
+			<b>Он попадет в твою жизнь?</b>
+			<c>Вил хи вок инту ё лайф</c>
+		</d>
+		<d>
+			<a>He will walk into your life</a>
+			<b>Он попадет в твою жизнь</b>
+			<c>Хи вил вок инту ё лайф</c>
+		</d>
+		<d>
+			<a>He will not walk into your life</a>
+			<b>Он не попадет в твою жизнь</b>
+			<c>Хи вил нот вок инту ё лайф</c>
+		</d>
+		<d>
+			<a>Does he walk into your life?</a>
+			<b>Он попадает в твою жизнь?</b>
+			<c>Даз хи вок инту ё лайф</c>
+		</d>
+		<d>
+			<a>He walks into your life</a>
+			<b>Он попадает в твою жизнь</b>
+			<c>Хи вокс инту ё лайф</c>
+		</d>
+		<d>
+			<a>He doesn't walk into your life</a>
+			<b>Он не попадает в твою жизнь</b>
+			<c>Хи дазнт вок инту ё лайф</c>
+		</d>
+		<d>
+			<a>Did he walk into your life?</a>
+			<b>Он попал в твою жизнь?</b>
+			<c>Дид хи вок инту ё лайф</c>
+		</d>
+		<d>
+			<a>He walked into your life</a>
+			<b>Он попал в твою жизнь</b>
+			<c>Хи вокд инту ё лайф</c>
+		</d>
+		<d>
+			<a>He didn't walk into your life</a>
+			<b>Он не попал в твою жизнь</b>
+			<c>Хи диднт вок инту ё лайф</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will run out of your house</a>
+			<b>Я выбегу из твоего дома</b>
+			<c>Ай вил ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>I didn't run out of your house</a>
+			<b>Я не выбежал из твоего дома</b>
+			<c>Ай диднт ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>Do I run out of your house?</a>
+			<b>Я выбегаю из твоего дома?</b>
+			<c>Ду ай ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>Will I run out of your house?</a>
+			<b>Я выбегу из твоего дома?</b>
+			<c>Вил ай ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>Did I run out of your house?</a>
+			<b>Я выбежал из твоего дома?</b>
+			<c>Дид ай ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>I run out of your house</a>
+			<b>Я выбегаю из твоего дома</b>
+			<c>Ай ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>I ran out of your house</a>
+			<b>Я выбежал из твоего дома</b>
+			<c>Ай рАн аут оф май хауз</c>
+		</d>
+		<d>
+			<a>I will not run out of your house</a>
+			<b>Я не выбегу из твоего дома</b>
+			<c>Ай вил нот ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>I don't run out of your house</a>
+			<b>Я не выбегаю из твоего дома</b>
+			<c>Ай донт ран аут оф май хауз</c>
+		</d>
+		<d>
+			<a>Will you run away from me?</a>
+			<b>Ты убежишь от меня?</b>
+			<c>Вил ю ран эвэй фром ми?</c>
+		</d>
+		<d>
+			<a>You will run away from me</a>
+			<b>Ты убежишь от меня</b>
+			<c>Ю вил ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>You will not run away from me</a>
+			<b>Ты не убежишь от меня</b>
+			<c>Ю вил нот ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>Do you run away from me?</a>
+			<b>Ты убегаешь от меня?</b>
+			<c>Ду ю ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>You run away from me</a>
+			<b>Ты убегаешь от меня</b>
+			<c>Ю ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>You don't run away from me</a>
+			<b>Ты не убегаешь от меня</b>
+			<c>Ю донт ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>Did you run away from me?</a>
+			<b>Ты убегал от меня?</b>
+			<c>Дид ю ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>You ran away from me</a>
+			<b>Ты убегал от меня</b>
+			<c>Ю рАн эвэй фром ми</c>
+		</d>
+		<d>
+			<a>You didn't run away from me</a>
+			<b>Ты не убегал от меня</b>
+			<c>Ю диднт ран эвэй фром ми</c>
+		</d>
+		<d>
+			<a>Will I run him off?</a>
+			<b>Я заставлю его уйти?</b>
+			<c>Вил ай ран хим оф</c>
+		</d>
+		<d>
+			<a>I will run him off</a>
+			<b>Я заставлю его уйти</b>
+			<c>Ай вил ран хим оф</c>
+		</d>
+		<d>
+			<a>I will not run him off</a>
+			<b>Я не заставлю его уйти</b>
+			<c>Ай вил нот ран хим оф</c>
+		</d>
+		<d>
+			<a>Do I run him off?</a>
+			<b>Я заставляю его уйти</b>
+			<c>Ду ай ран хим оф</c>
+		</d>
+		<d>
+			<a>I run him off</a>
+			<b>Я заставляю его уйти</b>
+			<c>Ай ран хим оф</c>
+		</d>
+		<d>
+			<a>I don't run him off</a>
+			<b>Я не заставляю его уйти</b>
+			<c>Ай донт ран хим оф</c>
+		</d>
+		<d>
+			<a>Did I run him off?</a>
+			<b>Я заставляла его уйти?</b>
+			<c>Дид ай ран хим оф</c>
+		</d>
+		<d>
+			<a>I ran him off</a>
+			<b>Я заставляла его уйти</b>
+			<c>Ай рАн хим оф</c>
+		</d>
+		<d>
+			<a>I didn't run him off</a>
+			<b>Я не заставляла его уйти</b>
+			<c>Ай диднт ран хим оф</c>
+		</d>
+		<d>
+			<a>Will he run into me?</a>
+			<b>Он наткнется на меня?</b>
+			<c>Вил хи ран инту ми</c>
+		</d>
+		<d>
+			<a>He will run into me</a>
+			<b>Он наткнется на меня</b>
+			<c>Хи вил ран инту ми</c>
+		</d>
+		<d>
+			<a>He will not run into me</a>
+			<b>Он не наткнется на меня</b>
+			<c>Хи вил нот ран инту ми</c>
+		</d>
+		<d>
+			<a>Does he run into me?</a>
+			<b>Он натыкается на меня?</b>
+			<c>Дас хи ран инту ми</c>
+		</d>
+		<d>
+			<a>He runs into me</a>
+			<b>Он натыкается на меня</b>
+			<c>Хи ранс инту ми</c>
+		</d>
+		<d>
+			<a>He doesn't run into me</a>
+			<b>Он не натыкается на меня</b>
+			<c>Хи дазнт ран инту ми</c>
+		</d>
+		<d>
+			<a>Did he run into me?</a>
+			<b>Он наткнулся на меня?</b>
+			<c>Дид хи ран инту ми</c>
+		</d>
+		<d>
+			<a>He ran into me</a>
+			<b>Он наткнулся на меня</b>
+			<c>Хи рАн инту ми</c>
+		</d>
+		<d>
+			<a>He didn't run into me</a>
+			<b>Он не наткнулся на меня</b>
+			<c>Хи диднт ран инту ми</c>
+		</d>
+		<d>
+			<a>Will I run her over?</a>
+			<b>Задавлю ли я её?</b>
+			<c>Вил ай ран хё оувэ</c>
+		</d>
+		<d>
+			<a>I will run her over</a>
+			<b>Я задавлю её</b>
+			<c>Ай вил ран хё оувэ</c>
+		</d>
+		<d>
+			<a>I will not run her over</a>
+			<b>Я не задавлю её</b>
+			<c>Ай вил нот ран хё оувэ</c>
+		</d>
+		<d>
+			<a>Do I run her over?</a>
+			<b>Я давлю её?</b>
+			<c>Ду ай ран хё оувэ</c>
+		</d>
+		<d>
+			<a>I run her over</a>
+			<b>Я давлю её</b>
+			<c>Ай ран хё оувэ</c>
+		</d>
+		<d>
+			<a>I don't run her over</a>
+			<b>Я не давлю её</b>
+			<c>Ай донт ран хё оувэ</c>
+		</d>
+		<d>
+			<a>Did I run her over?</a>
+			<b>Я задавил её?</b>
+			<c>Дид ай ран хё оувэ</c>
+		</d>
+		<d>
+			<a>I ran her over</a>
+			<b>Я задавил её</b>
+			<c>Ай рАн хё оувэ</c>
+		</d>
+		<d>
+			<a>I did not run her over</a>
+			<b>Я не задавил её</b>
+			<c>Ай дид нот ран хё оувэ</c>
+		</d>
+		<d>
+			<a>Will she run me through?</a>
+			<b>Она проткнет меня?</b>
+			<c>Вил ши ран ми сру?</c>
+		</d>
+		<d>
+			<a>She will run me through</a>
+			<b>Она проткнет меня</b>
+			<c>Ши вил ран ми сру</c>
+		</d>
+		<d>
+			<a>She will not run me through</a>
+			<b>Она не проткнет меня</b>
+			<c>Ши вил нот ран ми сру</c>
+		</d>
+		<d>
+			<a>Does she run me through?</a>
+			<b>Она протыкает меня?</b>
+			<c>Дас ши ран ми сру</c>
+		</d>
+		<d>
+			<a>She runs me through</a>
+			<b>Она протыкает меня</b>
+			<c>Ши ранс ми сру</c>
+		</d>
+		<d>
+			<a>She doesn't run me through</a>
+			<b>Она не протыкает меня</b>
+			<c>Ши дазнт ран ми сру</c>
+		</d>
+		<d>
+			<a>Did she run me through?</a>
+			<b>Она проткнула меня?</b>
+			<c>Дид ши ран ми сру</c>
+		</d>
+		<d>
+			<a>She ran me through</a>
+			<b>Она проткнула меня</b>
+			<c>Ши рАн ми сру</c>
+		</d>
+		<d>
+			<a>She didn't run me through</a>
+			<b>Она не проткнула меня</b>
+			<c>Ши диднт ран ми сру</c>
+		</d>
+		<d>
+			<a>Will I run in to them?</a>
+			<b>Забегу ли я  к ним?</b>
+			<c>Вил ай ран ин ту зем</c>
+		</d>
+		<d>
+			<a>I will run in to them</a>
+			<b>Я забегу к ним</b>
+			<c>Ай вил ран ин ту зем</c>
+		</d>
+		<d>
+			<a>I will not run in to them</a>
+			<b>Я не забегу к ним</b>
+			<c>Ай вил нот ран ин ту зем</c>
+		</d>
+		<d>
+			<a>Do I run in to them?</a>
+			<b>Я забегаю к ним?</b>
+			<c>Ду ай ран ин ту зем</c>
+		</d>
+		<d>
+			<a>I run in to them</a>
+			<b>Я забегаю к ним</b>
+			<c>Ай ран ин ту зем</c>
+		</d>
+		<d>
+			<a>I don't run in to them</a>
+			<b>Я не забегаю к ним</b>
+			<c>Ай донт ран ин ту зем</c>
+		</d>
+		<d>
+			<a>Did I run in to them?</a>
+			<b>Я забежал к ним?</b>
+			<c>Дид ай ран ин ту зем</c>
+		</d>
+		<d>
+			<a>I ran in to them</a>
+			<b>Я забежал к ним</b>
+			<c>Ай рАн ин ту зем</c>
+		</d>
+		<d>
+			<a>I did not run in to them</a>
+			<b>Я не забежал к ним</b>
+			<c>Ай дид нот ран ин ту зем</c>
+		</d>
+		<d>
+			<a>Will they run me down?</a>
+			<b>Они изнурят меня?</b>
+			<c>Вил зей ран ми даун</c>
+		</d>
+		<d>
+			<a>They will run me down</a>
+			<b>Они изнурят меня</b>
+			<c>Зей вил ран ми даун</c>
+		</d>
+		<d>
+			<a>They will not run me down</a>
+			<b>Они не изнурят меня</b>
+			<c>Зей вил нот ран ми даун</c>
+		</d>
+		<d>
+			<a>Do they run me down?</a>
+			<b>Они изнуряют меня?</b>
+			<c>Ду зей ран ми даун</c>
+		</d>
+		<d>
+			<a>They run me down</a>
+			<b>Они изнуряют меня</b>
+			<c>Зей ран ми даун</c>
+		</d>
+		<d>
+			<a>They don't run me down</a>
+			<b>Они не изнуряют меня</b>
+			<c>Зей донт ран ми даун</c>
+		</d>
+		<d>
+			<a>Did they run me down?</a>
+			<b>Они изнурили меня?</b>
+			<c>Дид зей ран ми даун</c>
+		</d>
+		<d>
+			<a>They ran me down</a>
+			<b>Они изнурили меня</b>
+			<c>Зей рАн ми даун</c>
+		</d>
+		<d>
+			<a>They didn't run me down</a>
+			<b>Они не изнурили меня</b>
+			<c>Зей диднт ран ми даун</c>
+		</d>
+		<d>
+			<a>Will you run up on him?</a>
+			<b>Ты подбежишь к нему?</b>
+			<c>Вил ю ран ап он хим</c>
+		</d>
+		<d>
+			<a>You will run up on him</a>
+			<b>Ты подбежишь к нему</b>
+			<c>Ю вил ран ап он хим</c>
+		</d>
+		<d>
+			<a>You will not run up on him</a>
+			<b>Ты не подбежишь к нему</b>
+			<c>Ю вил нот ран ап он хим</c>
+		</d>
+		<d>
+			<a>Do you run up on him?</a>
+			<b>Ты подбегаешь к нему?</b>
+			<c>Ду ю ран ап он хим</c>
+		</d>
+		<d>
+			<a>You run up on him</a>
+			<b>Ты подбегаешь к нему</b>
+			<c>Ю ран ап он хим</c>
+		</d>
+		<d>
+			<a>You don't run up on him</a>
+			<b>Ты не подбегаешь к нему</b>
+			<c>Ю донт ран ап он хим</c>
+		</d>
+		<d>
+			<a>Did you run up on him?</a>
+			<b>Ты подбежала к нему?</b>
+			<c>Дид ю ран ап он хим</c>
+		</d>
+		<d>
+			<a>You ran up on him</a>
+			<b>Ты подбежала к нему</b>
+			<c>Ю рАн ап он хим</c>
+		</d>
+		<d>
+			<a>You didn't run up on him</a>
+			<b>Ты не подбежала к нему</b>
+			<c>Ю диднт ран ап он хим</c>
+		</d>
+		<d>
+			<a>Will he run across your way?</a>
+			<b>Он перебежит твою дорогу?</b>
+			<c>Вил хи ран экрос ё вэй</c>
+		</d>
+		<d>
+			<a>He will run across your way</a>
+			<b>Он перебежит твою дорогу</b>
+			<c>Хи вил ран экрос ё вэй</c>
+		</d>
+		<d>
+			<a>He will not run across your way</a>
+			<b>Он не перебежит твою дорогу</b>
+			<c>Хи вил нот ран экрос ё вэй</c>
+		</d>
+		<d>
+			<a>Does he run across your way?</a>
+			<b>Он перебегает твою дорогу?</b>
+			<c>Даз хи ран экрос ё вэй</c>
+		</d>
+		<d>
+			<a>He runs across your way</a>
+			<b>Он перебегает твою дорогу</b>
+			<c>Хи ранс экрос ё вэй</c>
+		</d>
+		<d>
+			<a>He doesn't run across your way</a>
+			<b>Он не перебегает твою дорогу</b>
+			<c>Хи дазнт ран экрос ё вэй</c>
+		</d>
+		<d>
+			<a>Did he run across your way?</a>
+			<b>Он перебежал твою дорогу?</b>
+			<c>Дид хи ран экрос ё вэй</c>
+		</d>
+		<d>
+			<a>He ran across your way</a>
+			<b>Он перебежал твою дорогу</b>
+			<c>Хи рАн экрос ё вэй</c>
+		</d>
+		<d>
+			<a>He didn't run across your way</a>
+			<b>Он не перебежал твою дорогу</b>
+			<c>Хи диднт ран экрос ё вэй</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will pull you out</a>
+			<b>Я вытащу тебя</b>
+			<c>Ай вил пул ю аут</c>
+		</d>
+		<d>
+			<a>I didn't pull you out</a>
+			<b>Я не вытащил тебя</b>
+			<c>Ай диднт пул ю аут</c>
+		</d>
+		<d>
+			<a>Do I pull you out?</a>
+			<b>Я вытаскиваю тебя?</b>
+			<c>Ду ай пул ю аут</c>
+		</d>
+		<d>
+			<a>Will I pull you out?</a>
+			<b>Вытащу ли я тебя?</b>
+			<c>Вил ай пул ю аут</c>
+		</d>
+		<d>
+			<a>Did I pull you out?</a>
+			<b>Я вытащил тебя?</b>
+			<c>Дид ай пул ю аут</c>
+		</d>
+		<d>
+			<a>I pull you out</a>
+			<b>Я вытаскиваю тебя</b>
+			<c>Ай пул ю аут</c>
+		</d>
+		<d>
+			<a>I pulled you out</a>
+			<b>Я вытащил тебя</b>
+			<c>Ай пулд ю аут</c>
+		</d>
+		<d>
+			<a>I will not pull you out</a>
+			<b>Я не вытащу тебя</b>
+			<c>Ай вил нот пул ю аут</c>
+		</d>
+		<d>
+			<a>I don't pull you out</a>
+			<b>Я не вытаскиваю тебя</b>
+			<c>Ай донт пул ю аут</c>
+		</d>
+		<d>
+			<a>Will you pull up to me?</a>
+			<b>Ты подъедешь ко мне?</b>
+			<c>Вил ю пул ап ту ми?</c>
+		</d>
+		<d>
+			<a>You will pull up to me</a>
+			<b>Ты подъедешь ко мне</b>
+			<c>Ю вил пул ап ту ми</c>
+		</d>
+		<d>
+			<a>You will not pull up to me</a>
+			<b>Ты не подъедешь ко мне</b>
+			<c>Ю вил нот пул ап ту ми</c>
+		</d>
+		<d>
+			<a>Do you pull up to me?</a>
+			<b>Ты подъезжаешь ко мне?</b>
+			<c>Ду ю пул ап ту ми</c>
+		</d>
+		<d>
+			<a>You pull up to me</a>
+			<b>Ты подъезжаешь ко мне</b>
+			<c>Ю пул ап ту ми</c>
+		</d>
+		<d>
+			<a>You don't pull up to me</a>
+			<b>Ты не подъезжаешь ко мне</b>
+			<c>Ю донт пул ап ту ми</c>
+		</d>
+		<d>
+			<a>Did you pull up to me?</a>
+			<b>Ты подъехал ко мне?</b>
+			<c>Дид ю пул ап ту ми</c>
+		</d>
+		<d>
+			<a>You pulled up to me</a>
+			<b>Ты подъехал ко мне</b>
+			<c>Ю пулд ап ту ми</c>
+		</d>
+		<d>
+			<a>You didn't pull up to me</a>
+			<b>Ты не подъехал ко мне</b>
+			<c>Ю диднт пул ап ту ми</c>
+		</d>
+		<d>
+			<a>Will I pull him off?</a>
+			<b>Мне снять его?</b>
+			<c>Вил ай пул хим оф</c>
+		</d>
+		<d>
+			<a>I will pull him off</a>
+			<b>Я сниму его</b>
+			<c>Ай вил пул хим оф</c>
+		</d>
+		<d>
+			<a>I will not pull him off</a>
+			<b>Я не сниму его</b>
+			<c>Ай вил нот пул хим оф</c>
+		</d>
+		<d>
+			<a>Do I pull him off?</a>
+			<b>Снимаю ли я его?</b>
+			<c>Ду ай пул хим оф</c>
+		</d>
+		<d>
+			<a>I pull him off</a>
+			<b>Я снимаю его</b>
+			<c>Ай пул хим оф</c>
+		</d>
+		<d>
+			<a>I don't pull him off</a>
+			<b>Я не снимаю его</b>
+			<c>Ай донт пул хим оф</c>
+		</d>
+		<d>
+			<a>Did I pull him off?</a>
+			<b>Снял ли я его?</b>
+			<c>Дид ай пул хим оф</c>
+		</d>
+		<d>
+			<a>I pulled him off</a>
+			<b>Я снял его</b>
+			<c>Ай пулд хим оф</c>
+		</d>
+		<d>
+			<a>I didn't pull him off</a>
+			<b>Я не снял его</b>
+			<c>Ай диднт пул хим оф</c>
+		</d>
+		<d>
+			<a>Will he pull away from me?</a>
+			<b>Он отстранится от меня?</b>
+			<c>Вил хи пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>He will pull away from me</a>
+			<b>Он отстранится от меня</b>
+			<c>Хи вил пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>He will not pull away from me</a>
+			<b>Он не отстранится от меня</b>
+			<c>Хи вил нот пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>Does he pull away from me?</a>
+			<b>Он от меня отстраняется?</b>
+			<c>Дас хи пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>He pulls away from me</a>
+			<b>Он от меня отстраняется</b>
+			<c>Хи пулс эвэй фром ми</c>
+		</d>
+		<d>
+			<a>He doesn't pull away from me</a>
+			<b>Он от меня не отстраняется</b>
+			<c>Хи дазнт пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>Did he pull away from me?</a>
+			<b>Он отстранился от меня?</b>
+			<c>Дид хи пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>He pulled away from me</a>
+			<b>Он отстранился от меня</b>
+			<c>Хи пулд эвэй фром ми</c>
+		</d>
+		<d>
+			<a>He didn't pull away from me</a>
+			<b>Он не отстранился от меня</b>
+			<c>Хи диднт пул эвэй фром ми</c>
+		</d>
+		<d>
+			<a>Will I pull on her jeans?</a>
+			<b>Я натяну её джинсы?</b>
+			<c>Вил ай пул он хё джинс</c>
+		</d>
+		<d>
+			<a>I will pull on her jeans</a>
+			<b>Я натяну её джинсы</b>
+			<c>Ай вил пул он хё джинс</c>
+		</d>
+		<d>
+			<a>I will not pull on her jeans</a>
+			<b>Я не натяну её джинсы</b>
+			<c>Ай вил нот пул он хё джинс</c>
+		</d>
+		<d>
+			<a>Do I pull on her jeans?</a>
+			<b>Я натягиваю её джинсы?</b>
+			<c>Ду ай пул он хё джинс</c>
+		</d>
+		<d>
+			<a>I pull on her jeans</a>
+			<b>Я натягиваю её джинсы</b>
+			<c>Ай пул он хё джинс</c>
+		</d>
+		<d>
+			<a>I don't pull on her jeans</a>
+			<b>Я не натягиваю её джинсы</b>
+			<c>Ай донт пул он хё джинс</c>
+		</d>
+		<d>
+			<a>Did I pull on her jeans?</a>
+			<b>Я натянула её джинсы?</b>
+			<c>Дид ай пул он хё джинс</c>
+		</d>
+		<d>
+			<a>I pulled on her jeans</a>
+			<b>Я натянула её джинсы</b>
+			<c>Ай пулд он хё джинс</c>
+		</d>
+		<d>
+			<a>I did not pull on her jeans</a>
+			<b>Я не натянула её джинсы</b>
+			<c>Ай дид нот пул он хё джинс</c>
+		</d>
+		<d>
+			<a>Will she pull back from me?</a>
+			<b>Она отступит от меня?</b>
+			<c>Вил ши пул бэк фром ми?</c>
+		</d>
+		<d>
+			<a>She will pull back from me</a>
+			<b>Она отступит от меня</b>
+			<c>Ши вил пул бэк фром ми</c>
+		</d>
+		<d>
+			<a>She will not pull back from me</a>
+			<b>Она не отступит от меня</b>
+			<c>Ши вил нот пул бэк фром ми</c>
+		</d>
+		<d>
+			<a>Does she pull back from me?</a>
+			<b>Она отступает от меня?</b>
+			<c>Дас ши пул бэк фром ми</c>
+		</d>
+		<d>
+			<a>She pulls back from me</a>
+			<b>Она отступает от меня</b>
+			<c>Ши пулс бэк фром ми</c>
+		</d>
+		<d>
+			<a>She doesn't pull back from me</a>
+			<b>Она не отступает от меня</b>
+			<c>Ши дазнт пул бэк фром ми</c>
+		</d>
+		<d>
+			<a>Did she pull back from me?</a>
+			<b>Она отступила от меня?</b>
+			<c>Дид ши пул бэк фром ми</c>
+		</d>
+		<d>
+			<a>She pulled back from me</a>
+			<b>Она отступила от меня</b>
+			<c>Ши пулд бэк фром ми</c>
+		</d>
+		<d>
+			<a>She didn't pull back from me</a>
+			<b>Она не отступила от меня</b>
+			<c>Ши диднт пул бэк фром ми</c>
+		</d>
+		<d>
+			<a>Will I pull them down?</a>
+			<b>Я спущу их?</b>
+			<c>Вил ай пул зем даун</c>
+		</d>
+		<d>
+			<a>I will pull them down</a>
+			<b>Я спущу их</b>
+			<c>Ай вил пул зем даун</c>
+		</d>
+		<d>
+			<a>I will not pull them down</a>
+			<b>Я не спущу их</b>
+			<c>Ай вил нот пул зем даун</c>
+		</d>
+		<d>
+			<a>Do I pull them down?</a>
+			<b>Я спускаю их?</b>
+			<c>Ду ай пул зем даун</c>
+		</d>
+		<d>
+			<a>I pull them down</a>
+			<b>Я спускаю их</b>
+			<c>Ай пул зем даун</c>
+		</d>
+		<d>
+			<a>I don't pull them down</a>
+			<b>Я не спускаю их</b>
+			<c>Ай донт пул зем даун</c>
+		</d>
+		<d>
+			<a>Did I pull them down?</a>
+			<b>Спустил ли я их?</b>
+			<c>Дид ай пул зем даун</c>
+		</d>
+		<d>
+			<a>I pulled them down</a>
+			<b>Я спустил их</b>
+			<c>Ай пулд зем даун</c>
+		</d>
+		<d>
+			<a>I did not pull them down</a>
+			<b>Я не спустил их</b>
+			<c>Ай дид нот пул зем даун</c>
+		</d>
+		<d>
+			<a>Will they pull me in?</a>
+			<b>Они арестуют меня?</b>
+			<c>Вил зей пул ми ин</c>
+		</d>
+		<d>
+			<a>They will pull me in</a>
+			<b>Они арестуют меня</b>
+			<c>Зей вил пул ми ин</c>
+		</d>
+		<d>
+			<a>They will not pull me in</a>
+			<b>Они не арестуют меня</b>
+			<c>Зей вил нот пул ми ин</c>
+		</d>
+		<d>
+			<a>Do they pull me in?</a>
+			<b>Они берут меня под арест?</b>
+			<c>Ду зей пул ми ин</c>
+		</d>
+		<d>
+			<a>They pull me in</a>
+			<b>Они берут меня под арест</b>
+			<c>Зей пул ми ин</c>
+		</d>
+		<d>
+			<a>They don't pull me in</a>
+			<b>Они не берут меня под арест</b>
+			<c>Зей донт пул ми ин</c>
+		</d>
+		<d>
+			<a>Did they pull me in?</a>
+			<b>Они арестовали меня?</b>
+			<c>Дид зей пул ми ин</c>
+		</d>
+		<d>
+			<a>They pulled me in</a>
+			<b>Они арестовали меня</b>
+			<c>Зей пулд ми ин</c>
+		</d>
+		<d>
+			<a>They didn't pull me in</a>
+			<b>Они не арестовали меня</b>
+			<c>Зей диднт пул ми ин</c>
+		</d>
+		<d>
+			<a>Will you pull over with him?</a>
+			<b>Ты съедешь с дороги с ним?</b>
+			<c>Вил ю пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>You will pull over with him</a>
+			<b>Ты съедешь с дороги с ним</b>
+			<c>Ю вил пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>You will not pull over with him</a>
+			<b>Ты не съедешь с дороги с ним</b>
+			<c>Ю вил нот пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>Do you pull over with him?</a>
+			<b>Ты съезжаешь с дороги с ним?</b>
+			<c>Ду ю пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>You pull over with him</a>
+			<b>Ты съезжаешь с дороги с ним</b>
+			<c>Ю пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>You don't pull over with him</a>
+			<b>Ты не съезжаешь с дороги с ним</b>
+			<c>Ю донт пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>Did you pull over with him?</a>
+			<b>Ты съехала с дороги с ним?</b>
+			<c>Дид ю пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>You pulled over with him</a>
+			<b>Ты съехала с дороги с ним</b>
+			<c>Ю пулд оувэ виз хим</c>
+		</d>
+		<d>
+			<a>You didn't pull over with him</a>
+			<b>Ты не съехала с дороги с ним</b>
+			<c>Ю диднт пул оувэ виз хим</c>
+		</d>
+		<d>
+			<a>Will he pull you through?</a>
+			<b>Он спасет тебя?</b>
+			<c>Вил хи пул ю сру</c>
+		</d>
+		<d>
+			<a>He will pull you through</a>
+			<b>Он спасет тебя</b>
+			<c>Хи вил пул ю сру</c>
+		</d>
+		<d>
+			<a>He will not pull you through</a>
+			<b>Он не спасет тебя</b>
+			<c>Хи вил нот пул ю сру</c>
+		</d>
+		<d>
+			<a>Does he pull you through?</a>
+			<b>Он спасает тебя?</b>
+			<c>Даз хи пул ю сру</c>
+		</d>
+		<d>
+			<a>He pulls you through</a>
+			<b>Он спасает тебя</b>
+			<c>Хи пулс ю сру</c>
+		</d>
+		<d>
+			<a>He doesn't pull you through</a>
+			<b>Он не спасает тебя</b>
+			<c>Хи дазнт пул ю сру</c>
+		</d>
+		<d>
+			<a>Did he pull you through?</a>
+			<b>Он спас тебя?</b>
+			<c>Дид хи пул ю сру</c>
+		</d>
+		<d>
+			<a>He pulled you through</a>
+			<b>Он спас тебя</b>
+			<c>Хи пулд ю сру</c>
+		</d>
+		<d>
+			<a>He didn't pull you through</a>
+			<b>Он не спас тебя</b>
+			<c>Хи диднт пул ю сру</c>
+		</d>
+	</m>
+</mess>

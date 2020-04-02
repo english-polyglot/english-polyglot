@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<title>DHTML Test</title>
+<style>
+  .visi1 { visibility:"visible" }
+  .visi2 { visibility:"hidden" }
+  .disp1 { display:"block" }
+  .disp2 { display:"none" }
+</style>
+</head>
+
+<body>
+
+<h3 align="center">Displaying and hiding text</h3>
+
+<p align="center">The following two examples show two methods 
+to show and hide text dynamically.</p>
+
+<div align="center"><center>
+<table border="1">
+<tr>
+    <th>Changing Stylesheet</th>
+    <th>Changing inline style</th>
+</tr>
+<tr>
+    <td valign="top">
+        <p onMouseOver="HideMe1.className='visi2'"
+           onMouseOut="HideMe1.className='visi1'">
+           Move the mouse over this text to make the following
+           text disappear.
+        </p>
+        <div id="HideMe1"> <p>DHTML using VISIBILITY</p> </div>
+        <p onMouseOver="HideMe2.className='disp2'"
+		   onMouseOut="HideMe2.className='disp1'">
+		   Move the mouse over this text to make the following
+		   text disappear.
+        </p> <div id="HideMe2"> <p>DHTML using DISPLAY</p> </div>
+        <p>When the DISPLAY text disappears, this text moves up.</p>
+    </td>
+		
+    <td valign="top">
+        <p onMouseOver="HideMe3.style.visibility='hidden'"
+           onMouseOut="HideMe3.style.visibility='visible'">
+           Move the mouse over this text to make the following
+           text disappear.
+        </p>
+        <div id="HideMe3"> <p>DHTML using VISIBILITY</p> </div>
+        <p onMouseOver="HideMe4.style.display='none'"
+           onMouseOut="HideMe4.style.display='block'">
+           Move the mouse over this text to make the following
+           text disappear.
+        </p>
+        <div id="HideMe4"> <p>DHTML using DISPLAY</p> </div>
+        <p>When the DISPLAY text disappears, this text moves up.</p>
+    </td>
+</tr>
+</table>
+</center>
+</div>
+</body>
+</html>

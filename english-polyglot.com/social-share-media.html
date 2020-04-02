@@ -1,0 +1,1366 @@
+    
+<html>
+
+<head>
+	
+			<meta charset="utf-8">
+		<title>Pablo`s needShareButton demo</title>
+		<meta name="description" content="La-Shara Pablo`s installed share button">
+		<meta property="og:image" content="https://www.english-polyglot.com/img/dmitry-petrov-image-680.jpg" />
+		<meta property="og:image:width" content="680" />
+		<meta property="og:image:height" content="370" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script type='text/javascript' src="js/social-share-media.js"></script>
+	<link rel="stylesheet" href="css/social-share-media.css"></link>
+	
+	<script src="js/likely.js"></script>
+	<link rel="stylesheet" href="css/likely.css">
+	
+	<script src="js/sharer.js"></script>
+	
+	<meta http-equiv="content-type" content="text/css/javascript/php; charset=UTF-8" />
+	
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" >
+	<style>
+		a.social-link {
+	display:inline;
+	background-color: #aaa;
+	color:#fff !important;
+	text-decoration:none;
+	padding:6px 12px;
+	margin: 0;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-ms-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	transition: background 0.1s linear;
+}
+a:hover.facebook {
+	background-color:#4a66b7;
+}
+a:hover.twitter {
+	background-color:#00acee;
+}
+a:hover.linkedin {
+	background-color:#1b86bc;
+}
+a:hover.gplus {
+	background-color:#dd4b38;
+}
+a:hover.email {
+	background-color:#ff9600;
+}
+	
+	</style>
+	
+
+	<script>
+		function get__url() {return location.href }
+		
+		jQuery(document).ready(function($){
+	function getFBShares(page){
+		var shares;
+		$.getJSON("http://graph.facebook.com/?ids=" + page, function(data){
+			if (data[page].shares > 1){
+				shares = data[page].shares;
+				$("#fb-share").append(" (" + shares + ")");
+			}
+		});
+	}
+	function getTweets(page){
+		var tweets;
+		$.getJSON("http://urls.api.twitter.com/1/urls/count.json?url=" + page + "&callback=?", function(data){
+			if (data.count > 1) {
+				tweets = data.count;
+				$("#tweet").append(" (" + tweets + ")");
+			}
+		});
+	}
+	function getLinkedIn(page){
+		var linkedinCount;
+		$.getJSON("http://www.linkedin.com/countserv/count/share?url=" + page + "&callback=?", function(data){
+			if (data.count > 1) {
+				linkedinCount = data.count;
+				$("#linkedin").append(" (" + linkedinCount + ")");
+			}
+		});
+	}
+
+	var Url = window.location.href;
+	var UrlEncoded = encodeURIComponent(Url);
+	var title = encodeURIComponent(document.getElementById("title").innerText);
+	getFBShares(Url);
+	getTweets(Url);
+	getLinkedIn(Url);
+	document.getElementById("fb-share").href="http://www.facebook.com/share.php?u=" + UrlEncoded;
+	document.getElementById("tweet").href="http://twitter.com/home?status=" + title + " " + UrlEncoded;
+	document.getElementById("linkedin").href="http://www.linkedin.com/shareArticle?mini=true&url=" + UrlEncoded + "&title=" + title;
+	document.getElementById("gplus-share").href="https://plus.google.com/share?url=" + UrlEncoded;
+	document.getElementById("email-share").href="mailto:?body=Take a look at this page I found: " + title + ". You can read it here: " + Url;
+});
+		
+		
+	
+	</script>
+	
+	
+	<style>
+		/***********************************************
+  needShareButton
+  - Version 1.0.0
+  - Copyright 2015 Dzmitry Vasileuski
+  - Licensed under MIT (http://opensource.org/licenses/MIT)
+***********************************************/
+/* Social icons font
+***********************************************/
+@import url("fontello-embedded.css");
+.need-share-button {
+  position: relative;
+}
+.need-share-button-opened {
+  position: relative;
+}
+.need-share-button-opened img.need-share-wechat-code-image {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+.need-share-button_dropdown {
+  width: 300px;
+  z-index: 10;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.1);
+  transition: .3s;
+  font-size: 16px;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  white-space: normal;
+}
+.need-share-button-opened .need-share-button_dropdown {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.need-share-button_dropdown-box-vertical,
+.need-share-button_dropdown-box-horizontal {
+  border-radius: 0;
+}
+.need-share-button_dropdown-box-vertical {
+  width: 50px;
+}
+.need-share-button_dropdown-box-horizontal {
+  width: auto;
+  white-space: nowrap;
+}
+.need-share-button_link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.need-share-button_link:hover {
+  transition: .3s;
+  opacity: .7;
+}
+/* Dropdown position
+***********************************************/
+.need-share-button_dropdown-top-left {
+  bottom: 100%;
+  right: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.need-share-button_dropdown-top-right {
+  bottom: 100%;
+  left: 100%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.need-share-button_dropdown-top-center {
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 10px;
+}
+.need-share-button_dropdown-middle-left {
+  top: 50%;
+  right: 100%;
+  margin-right: 10px;
+}
+.need-share-button_dropdown-middle-right {
+  top: 50%;
+  left: 100%;
+  margin-left: 10px;
+}
+.need-share-button_dropdown-bottom-left {
+  top: 100%;
+  right: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.need-share-button_dropdown-bottom-right {
+  top: 100%;
+  left: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.need-share-button_dropdown-bottom-center {
+  top: 100%;
+  left: 50%;
+  margin-top: 10px;
+}
+/* Default theme
+***********************************************/
+.need-share-button-default {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+}
+/* Network buttons
+***********************************************/
+.need-share-button_wechat {
+  color: #a2dc30;
+}
+.need-share-button_wechat.need-share-button_link-box {
+  background: #a2dc30;
+  color: #fff;
+}
+.need-share-button_weibo {
+  color: #d52b2b;
+}
+.need-share-button_weibo.need-share-button_link-box {
+  background: #d52b2b;
+  color: #fff;
+}
+.need-share-button_douban {
+  color: #072;
+}
+.need-share-button_douban:before {
+  content: '豆';
+}
+.need-share-button_douban.need-share-button_link-box {
+  background: #072;
+  color: #fff;
+}
+.need-share-button_qqzone {
+  color: #ffce00;
+}
+.need-share-button_qqzone:before {
+  content: '\f1d6';
+}
+.need-share-button_qqzone.need-share-button_link-box {
+  background: #ffce00;
+  color: #fff;
+}
+.need-share-button_renren {
+  color: #207cc5;
+}
+.need-share-button_renren.need-share-button_link-box {
+  background: #207cc5;
+  color: #fff;
+}
+.need-share-button_mailto {
+  color: #EFBE00;
+}
+.need-share-button_mailto.need-share-button_link-box {
+  background: #EFBE00;
+  color: #fff;
+}
+.need-share-button_twitter {
+  color: #00ACEC;
+}
+.need-share-button_twitter.need-share-button_link-box {
+  background: #00ACEC;
+  color: #fff;
+}
+.need-share-button_pinterest {
+  color: #CD2027;
+}
+.need-share-button_pinterest.need-share-button_link-box {
+  background: #CD2027;
+  color: #fff;
+}
+.need-share-button_facebook {
+  color: #3B5998;
+}
+.need-share-button_facebook.need-share-button_link-box {
+  background: #3B5998;
+  color: #fff;
+}
+.need-share-button_googleplus {
+  color: #D44132;
+}
+.need-share-button_googleplus.need-share-button_link-box {
+  background: #D44132;
+  color: #fff;
+}
+.need-share-button_reddit {
+  color: #000000;
+}
+.need-share-button_reddit.need-share-button_link-box {
+  background: #000000;
+  color: #fff;
+}
+.need-share-button_delicious {
+  color: #000000;
+}
+.need-share-button_delicious.need-share-button_link-box {
+  background: #000000;
+  color: #fff;
+}
+.need-share-button_tapiture {
+  color: #30547D;
+}
+.need-share-button_tapiture.need-share-button_link-box {
+  background: #30547D;
+  color: #fff;
+}
+.need-share-button_stumbleupon {
+  color: #F04E23;
+}
+.need-share-button_stumbleupon.need-share-button_link-box {
+  background: #F04E23;
+  color: #fff;
+}
+.need-share-button_linkedin {
+  color: #0085AF;
+}
+.need-share-button_linkedin.need-share-button_link-box {
+  background: #0085AF;
+  color: #fff;
+}
+.need-share-button_slashdot {
+  color: #026664;
+}
+.need-share-button_slashdot.need-share-button_link-box {
+  background: #026664;
+  color: #fff;
+}
+.need-share-button_technorati {
+  color: #49AE47;
+}
+.need-share-button_technorati.need-share-button_link-box {
+  background: #49AE47;
+  color: #fff;
+}
+.need-share-button_posterous {
+  color: #795D31;
+}
+.need-share-button_posterous.need-share-button_link-box {
+  background: #795D31;
+  color: #fff;
+}
+.need-share-button_tumblr {
+  color: #34465D;
+}
+.need-share-button_tumblr.need-share-button_link-box {
+  background: #34465D;
+  color: #fff;
+}
+.need-share-button_googlebookmarks {
+  color: #FDE331;
+}
+.need-share-button_googlebookmarks.need-share-button_link-box {
+  background: #FDE331;
+  color: #fff;
+}
+.need-share-button_newsvine {
+  color: #03652C;
+}
+.need-share-button_newsvine.need-share-button_link-box {
+  background: #03652C;
+  color: #fff;
+}
+.need-share-button_pingfm {
+  color: #94B5DA;
+}
+.need-share-button_pingfm.need-share-button_link-box {
+  background: #94B5DA;
+  color: #fff;
+}
+.need-share-button_evernote {
+  color: #79D626;
+}
+.need-share-button_evernote.need-share-button_link-box {
+  background: #79D626;
+  color: #fff;
+}
+.need-share-button_friendfeed {
+  color: #B0CBE9;
+}
+.need-share-button_friendfeed.need-share-button_link-box {
+  background: #B0CBE9;
+  color: #fff;
+}
+.need-share-button_vkontakte {
+  color: #4C75A3;
+}
+.need-share-button_vkontakte.need-share-button_link-box {
+  background: #4C75A3;
+  color: #fff;
+}
+.need-share-button_odnoklassniki {
+  color: #ED812B;
+}
+.need-share-button_odnoklassniki.need-share-button_link-box {
+  background: #ED812B;
+  color: #fff;
+}
+.need-share-button_mailru {
+  color: #F89C0E;
+}
+.need-share-button_mailru.need-share-button_link-box {
+  background: #F89C0E;
+  color: #fff;
+}
+	
+	</style> 		
+	<script>
+		/***********************************************
+  needShareButton
+  - Version 1.0.0
+  - Copyright 2015 Dzmitry Vasileuski
+	- Licensed under MIT (http://opensource.org/licenses/MIT)
+***********************************************/
+
+(function() {
+
+  // find closest
+  function closest(elem, parent) {
+    if (typeof(parent) == 'string') {
+            var matchesSelector = elem.matches || elem.webkitMatchesSelector || elem.mozMatchesSelector || elem.msMatchesSelector;
+
+            if (!!matchesSelector) {
+                while (elem) {
+                if (matchesSelector.bind(elem)(parent)) {
+                  return elem;
+                } else {
+                  elem = elem.parentElement;
+                }
+                }
+            }
+            return false;
+        } else {
+            while (elem) {
+            if (elem == parent) {
+                return elem;
+            } else {
+              elem = elem.parentElement;
+            }
+            }
+            return false;
+        }
+    }
+
+	// share button class
+	window.needShareButton = function(elem, options) {
+		// create element reference
+		var root = this;
+		root.elem = elem || 'need-share-button';
+
+		/* Helpers
+		***********************************************/
+
+    // get title from html
+    root.getTitle = function() {
+	    var content;
+	    // check querySelector existance for old browsers
+	    if (document.querySelector) {
+		    if (content = document.querySelector('title')){
+		      return content.innerText;
+		    }
+        }
+        return document.title;
+	  };
+
+	  // get image from html
+	  root.getImage = function() {
+	    var content;
+	    // check querySelector existance for old browsers
+	    if (document.querySelector) {
+		    if (content = document.querySelector('meta[property="og:image"]') || document.querySelector('meta[name="twitter:image"]')) {
+		      return content.getAttribute('content');
+		    } else
+		    	return '';
+		  } else
+		  	return '';
+	  };
+
+	  // get description from html
+	  root.getDescription = function() {
+	    var content;
+	    // check querySelector existance for old browsers
+	    if (document.querySelector) {
+		    if (content = document.querySelector('meta[property="og:description"]') || document.querySelector('meta[name="twitter:description"]') || document.querySelector('meta[name="description"]')) {
+		      return content.getAttribute('content');
+		    } else
+		      return '';
+		  } else {
+		  	if (content = document.getElementsByTagName('meta').namedItem('description'))
+		  		return content.getAttribute('content');
+		  	else
+		  		return '';
+		  }
+	  };
+
+	  // share urls for all networks
+	  root.share = {
+	  	'weibo': function (el) {
+            var myoptions = getOptions(el);
+	  		var url = 'http://v.t.sina.com.cn/share/share.php?title='
+	  		+ encodeURIComponent(myoptions.title)
+	  		+ "&url="+encodeURIComponent(myoptions.url)
+	  		+ "&pic="+encodeURIComponent(myoptions.image);
+	  		root.popup(url);
+	  	},
+	  	'wechat': function (el) {
+            var myoptions = getOptions(el);
+	  		var imgSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+encodeURIComponent(myoptions.url);
+            var dropdownEl = el.querySelector('.need-share-button_dropdown');
+	  		var img = dropdownEl.getElementsByClassName('need-share-wechat-code-image')[0];
+	  		if (img) {
+	  			img.remove();
+	  		} else {
+		  		img = document.createElement('img');
+		  		img.src = imgSrc;
+		  		img.alt = 'loading wechat image...';
+		  		img.setAttribute("class",'need-share-wechat-code-image');
+		  		dropdownEl.appendChild(img);
+	  		}
+	  	},
+        'douban': function (el) {
+            var myoptions = getOptions(el);
+            var url = 'https://www.douban.com/share/service?name='
+            + encodeURIComponent(myoptions.title)
+            + "&href="+encodeURIComponent(myoptions.url)
+            + "&image="+encodeURIComponent(myoptions.image);
+            root.popup(url);
+        },
+        'qqzone': function (el) {
+            var myoptions = getOptions(el);
+            var url = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title='
+            + encodeURIComponent(myoptions.title)
+            + "&url="+encodeURIComponent(myoptions.url)
+            + "&pics="+encodeURIComponent(myoptions.image)
+            + "&desc="+ encodeURIComponent(myoptions.description);
+            root.popup(url);
+        },
+        'renren': function (el) {
+            var myoptions = getOptions(el);
+            var url = 'http://widget.renren.com/dialog/share?title='
+            + encodeURIComponent(myoptions.title)
+            + "&resourceUrl="+encodeURIComponent(myoptions.url)
+            + "&pic="+encodeURIComponent(myoptions.image)
+            + "&description="+ encodeURIComponent(myoptions.description);
+            root.popup(url);
+        },
+
+	  	'mailto' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = 'mailto:?subject=' + encodeURIComponent(myoptions.title) + '&body=Thought you might enjoy reading this: ' + encodeURIComponent(myoptions.url) + ' - ' + encodeURIComponent(myoptions.description);
+
+	  		window.location.href = url;
+	  	},
+	  	'twitter' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'twitter.com/intent/tweet?text=';
+	  		url += encodeURIComponent(myoptions.title) + "&url=" + encodeURIComponent(myoptions.url);
+
+        root.popup(url);
+	  	},
+	  	'pinterest' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'pinterest.com/pin/create/bookmarklet/?is_video=false';
+	  		url += '&media=' + encodeURIComponent(myoptions.image);
+	  		url += '&url=' + encodeURIComponent(myoptions.url);
+	  		url += '&description=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	'facebook' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.facebook.com/share.php?';
+	  		url += 'u=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	'googleplus' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'plus.google.com/share?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+
+        root.popup(url);
+	  	},
+	  	'reddit' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.reddit.com/submit?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	'delicious' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'del.icio.us/post?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+	  		url += '&notes=' + encodeURIComponent(myoptions.description);
+
+        root.popup(url);
+	  	},
+	  	// 'tapiture' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'tapiture.com/bookmarklet/image?';
+	  	// 	url += 'img_src=' + encodeURIComponent(myoptions.image);
+	  	// 	url += '&page_url=' + encodeURIComponent(myoptions.url);
+	  	// 	url += '&page_title=' + encodeURIComponent(myoptions.title);
+      //
+      //   root.popup(url);
+	  	// },
+	  	'stumbleupon' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.stumbleupon.com/submit?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	'linkedin' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.linkedin.com/shareArticle?mini=true';
+	  		url += '&url=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+	  		url += '&source=' + encodeURIComponent(myoptions.source);
+
+        root.popup(url);
+	  	},
+	  	// 'slashdot' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'slashdot.org/bookmark.pl?';
+	  	// 	url += 'url=' + encodeURIComponent(myoptions.url);
+	  	// 	url += '&title=' + encodeURIComponent(myoptions.title);
+      //
+      //   root.popup(url);
+	  	// },
+	  	// 'technorati' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'technorati.com/faves?';
+	  	// 	url += 'add=' + encodeURIComponent(myoptions.url);
+	  	// 	url += '&title=' + encodeURIComponent(myoptions.title);
+      //
+      //   root.popup(url);
+	  	// },
+	  	'posterous' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'posterous.com/share?';
+	  		url += 'linkto=' + encodeURIComponent(myoptions.url);
+
+        root.popup(url);
+	  	},
+	  	'tumblr' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.tumblr.com/share?v=3';
+	  		url += '&u=' + encodeURIComponent(myoptions.url);
+	  		url += '&t=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	// 'googlebookmarks' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'www.google.com/bookmarks/mark?op=edit';
+	  	// 	url += '&bkmk=' + encodeURIComponent(myoptions.url);
+	  	// 	url += '&title=' + encodeURIComponent(myoptions.title);
+	  	// 	url += '&annotation=' + encodeURIComponent(myoptions.description);
+      //
+      //   root.popup(url);
+	  	// },
+	  	// 'newsvine' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'www.newsvine.com/_tools/seed&save?';
+	  	// 	url += 'u=' + encodeURIComponent(myoptions.url);
+	  	// 	url += '&h=' + encodeURIComponent(myoptions.title);
+      //
+      //   root.popup(url);
+	  	// },
+	  	// 'pingfm' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'ping.fm/ref/?';
+	  	// 	url += 'link=' + encodeURIComponent(myoptions.url);
+	  	// 	url += '&title=' + encodeURIComponent(myoptions.title);
+	  	// 	url += '&body=' + encodeURIComponent(myoptions.description);
+      //
+      //   root.popup(url);
+	  	// },
+	  	'evernote' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.evernote.com/clip.action?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	'friendfeed' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.friendfeed.com/share?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+	  		url += '&title=' + encodeURIComponent(myoptions.title);
+
+        root.popup(url);
+	  	},
+	  	'vkontakte' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'vkontakte.ru/share.php?';
+	  		url += 'url=' + encodeURIComponent(myoptions.url);
+        url += '&title=' + encodeURIComponent(myoptions.title);
+        url += '&description=' + encodeURIComponent(myoptions.description);
+        url += '&image=' + encodeURIComponent(myoptions.image);
+        url += '&noparse=true';
+
+        root.popup(url);
+	  	},
+	  	'odnoklassniki' : function(el) {
+            var myoptions = getOptions(el);
+	  		var url = myoptions.protocol + 'www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1';
+        url += '&st.comments=' + encodeURIComponent(myoptions.description);
+        url += '&st._surl=' + encodeURIComponent(myoptions.url);
+
+        root.popup(url);
+	  	},
+	  	// 'mailru' : function(el) {
+      //       var myoptions = getOptions(el);
+	  	// 	var url = myoptions.protocol + 'connect.mail.ru/share?';
+      //   url += 'url=' + encodeURIComponent(myoptions.url);
+      //   url += '&title=' + encodeURIComponent(myoptions.title);
+      //   url += '&description=' + encodeURIComponent(myoptions.description);
+      //   url += '&imageurl=' + encodeURIComponent(myoptions.image);
+      //
+      //   root.popup(url);
+	  	// }
+
+	  }
+
+	  // open share link in a popup
+	  root.popup = function(url) {
+	  	// set left and top position
+	  	var popupWidth = 600,
+	  			popupHeight = 500,
+	  			// fix dual screen mode
+	  			dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left,
+	  		  dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top,
+	  		  width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width,
+	  		  height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height,
+	  		  // calculate top and left position
+	  		  left = ((width / 2) - (popupWidth / 2)) + dualScreenLeft,
+	  		  top = ((height / 2) - (popupHeight / 2)) + dualScreenTop,
+
+			// show popup
+			shareWindow = window.open(url,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=' + popupWidth + ', height=' + popupHeight + ', top=' + top + ', left=' + left);
+
+	  	// Puts focus on the newWindow
+	    if (window.focus) {
+	        shareWindow.focus();
+	    }
+	  }
+
+		/* Set options
+		***********************************************/
+
+		// create default options
+		root.options = {
+			iconStyle: 'default', // default or box
+			boxForm: 'horizontal', // horizontal or vertical
+			position: 'bottomCenter', // top / middle / bottom + Left / Center / Right
+			protocol: ['http', 'https'].indexOf(window.location.href.split(':')[0]) === -1 ? 'https://' : '//',
+			networks: 'Weibo,Wechat,Douban,QQZone,Twitter,Pinterest,Facebook,GooglePlus,Reddit,Linkedin,Tumblr,Mailto'
+		};
+
+    // integrate custom options
+    for (var i in options) {
+      root.options[i] = options[i];
+    }
+    // convert networks string into array
+    root.options.networks = root.options.networks.toLowerCase().split(',');
+
+    function getOptions(el) {
+        // integrate data attribute options
+        var ret = {};
+        for (var i in root.options) {
+          ret[i] = root.options[i];
+        }
+
+        // these attrs must get dynamically.
+        ret.url = window.location.href;
+        ret.title = root.getTitle();
+        ret.image = root.getImage();
+        ret.description = root.getDescription();
+
+        for (var option in el.dataset) {
+            // replace only 'share-' prefixed data-attributes
+          if (option.match(/share/)) {
+            var new_option = option.replace(/share/, '');
+            if (!new_option.length) {
+                continue;
+            }
+            new_option = new_option.charAt(0).toLowerCase() + new_option.slice(1);
+            var val = el.dataset[option];
+            if (new_option === 'networks') {
+                val = val.toLowerCase().split(',');
+            } else if (new_option === 'url' && val && val[0] === '/') {
+                // fix relative url problem.
+                val = location.origin + val;
+            }
+            ret[new_option] = val;
+          }
+        }
+        return ret;
+    }
+
+    function createDropdown(el) {
+        // create dropdown
+        var dropdownEl = document.createElement('span');
+        dropdownEl.className = 'need-share-button_dropdown';
+        if (el.querySelector('.need-share-button_dropdown')) {
+            return;
+        }
+        var myoptions = getOptions(el);
+
+        // set dropdown row length
+        if (myoptions.iconStyle == 'box' && myoptions.boxForm == 'horizontal')
+            dropdownEl.className += ' need-share-button_dropdown-box-horizontal';
+        else if (myoptions.iconStyle == 'box' && myoptions.boxForm == 'vertical')
+            dropdownEl.className += ' need-share-button_dropdown-box-vertical';
+
+        // set dropdown position
+        setTimeout(function() {
+            switch (myoptions.position) {
+            case 'topLeft':
+              dropdownEl.className += ' need-share-button_dropdown-top-left';
+              break
+            case 'topRight':
+              dropdownEl.className += ' need-share-button_dropdown-top-right';
+              break
+            case 'topCenter':
+              dropdownEl.className += ' need-share-button_dropdown-top-center';
+              dropdownEl.style.marginLeft = - dropdownEl.offsetWidth / 2 + 'px';
+              break
+            case 'middleLeft':
+              dropdownEl.className += ' need-share-button_dropdown-middle-left';
+              dropdownEl.style.marginTop = - dropdownEl.offsetHeight / 2 + 'px';
+              break
+            case 'middleRight':
+              dropdownEl.className += ' need-share-button_dropdown-middle-right';
+              dropdownEl.style.marginTop = - dropdownEl.offsetHeight / 2 + 'px';
+              break
+            case 'bottomLeft':
+              dropdownEl.className += ' need-share-button_dropdown-bottom-left';
+              break
+            case 'bottomRight':
+              dropdownEl.className += ' need-share-button_dropdown-bottom-right';
+              break
+            case 'bottomCenter':
+              dropdownEl.className += ' need-share-button_dropdown-bottom-center';
+              dropdownEl.style.marginLeft = - dropdownEl.offsetWidth / 2 + 'px';
+              break
+            default:
+              dropdownEl.className += ' need-share-button_dropdown-bottom-center';
+              dropdownEl.style.marginLeft = - dropdownEl.offsetWidth / 2 + 'px';
+              break
+            }
+        },1);
+
+
+        // fill fropdown with buttons
+        var iconClass = myoptions.iconStyle == 'default' ? 'need-share-button_link need-share-button_' : 'need-share-button_link-' + myoptions.iconStyle + ' need-share-button_link need-share-button_';
+        for (var network in myoptions.networks) {
+            var link = document.createElement('span');
+                network = myoptions.networks[network];
+            link.className = iconClass + network;
+            link.className += ' icon-' + network;
+            link.dataset.network = network;
+            link.title = network;
+            dropdownEl.appendChild(link);
+        }
+
+        dropdownEl.addEventListener('click', function (event) {
+           if (closest(event.target, '.need-share-button_link')) {
+               event.preventDefault();
+               event.stopPropagation();
+
+               root.share[event.target.dataset.network](el);
+               return false;
+           }
+        });
+
+        el.appendChild(dropdownEl);
+    }
+
+   // close on click outside
+     document.addEventListener('click', function(event) {
+       var openedEl = document.querySelector('.need-share-button-opened');
+       if (!closest(event.target, '.need-share-button-opened')) {
+         if (openedEl) {
+            openedEl.classList.remove('need-share-button-opened');
+
+            // hide wechat code image when close the dropdown.
+            if (openedEl.querySelector('.need-share-wechat-code-image')) {
+                openedEl.querySelector('.need-share-wechat-code-image').remove();
+            }
+         } else {
+            var el = closest(event.target, root.elem);
+            if (el) {
+               if (!el.classList.contains('need-share-button-opened')) {
+                 createDropdown(el);
+                 setTimeout(function () {
+                     el.classList.add('need-share-button-opened');
+                 }, 1);
+
+               }
+            }
+         }
+       }
+     });
+
+  };
+
+  new needShareButton('.need-share-button');
+})();
+	
+	</script>
+</head>
+
+<body>
+	
+<!--<embed src="img/white-brain-1.swf" width="800" height="600">-->
+
+<div class="likely likely-big">
+  <div class="twitter">Tweet</div>
+  <div class="facebook">Share</div>
+  <div class="linkedin">Link</div>
+  <div class="gplus">Plus</div>
+  <div class="vkontakte">Share</div>
+  <div class="odnoklassniki">Class</div>
+  <div class="telegram">Send</div>
+  <div class="whatsapp">Send</div>
+  <div class="pinterest" data-media="img/dmitry-petrov-image-247x370.jpg">Pin</div>
+</div>
+
+
+<h1 id="title">Title</h1>
+<p>Lorem ipsum stinky butthole.</p>
+
+<!-- Social Media Share Buttons -->
+<a class="social-link facebook" href="" id="fb-share" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i> Share</a>
+<a class="social-link twitter" href="" id="tweet" rel="nofollow" target="_blank" title="Tweet this Page"><i class="fa fa-twitter"></i> Tweet</a>
+<a class="social-link linkedin" href="" id="linkedin" rel="nofollow" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
+<a class="social-link gplus" href="" id="gplus-share" title="Plus 1 on Google+"><i class="fa fa-google-plus"></i></a>
+<a class="social-link email" href="" id="email-share" title="Email to a Friend"><i class="fa fa-envelope"></i></a>
+
+	
+<h3>Лашара </h3>
+	<div class="wrapper">
+			<h2>Share button default mode on bottom center</h2>
+			<div id="i-share" data-share-position="bottomCenter" class="need-share-button-default">
+				Share
+			</div>
+
+			<h2>Share button box mode with chosen networks</h2>
+			<div id="share-button-2" class="need-share-button-default" data-share-icon-style="box" data-share-networks="Wechat,Twitter,RenRen,Facebook,GooglePlus,Linkedin,Delicious,mailto">Share</div>
+			<h2>Share button default mode on middle right</h2>
+			<div id="share-button-3" class="need-share-button-default" data-share-position="middleRight" data-share-networks="Wechat,Twitter,RenRen,Facebook,GooglePlus,Linkedin">Share</div>
+			<h2>Share button box mode on middle right</h2>
+			<div id="share-button-4" class="need-share-button-default" data-share-position="middleRight" data-share-icon-style="box" data-share-networks="Wechat,Twitter,RenRen,Facebook,GooglePlus,QQZone">Share</div>
+
+			<h2>Share button with class name 'need-share-button'</h2>
+			<div id="share-button-5" class="need-share-button-default need-share-button" data-share-position="middleRight" data-share-icon-style="box" data-share-networks="Wechat,Twitter,RenRen,Facebook,GooglePlus,QQZone">Share</div>
+
+		</div>
+
+
+		<script>
+			new needShareButton(document.getElementById('i-share'));
+			new needShareButton(document.getElementById('share-button-2'));
+			new needShareButton(document.getElementById('share-button-3'));
+			new needShareButton(document.getElementById('share-button-4'));
+		</script>
+ 	
+
+<script type="text/javascript" src="social.js">	</script>	
+	
+	<h1>Social Link Generator</h1>
+	
+	<h2>Input</h2>
+	
+	<table id="input-table">
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">URL :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_url" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Title :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_title" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%" valign="top">
+				<span class="input-label">Description :</span>
+			</td>
+			
+			<td>
+				<textarea id="input_description" rows="4" cols="40"></textarea>
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Image :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_image" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">App ID :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_appid" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Redirect URL :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_redirect_url" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Via :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_via" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Hash Tags :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_hash_tags" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Provider :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_provider" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Language :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_language" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">User ID :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_user_id" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Category :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_category" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Phone Number :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_phone_number" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">Email Address :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_email_address" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">CC Email Address :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_cc_email_address" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td width="1%">
+				<span class="input-label">BCC Email Address :</span>
+			</td>
+			
+			<td>
+				<input type="text" id="input_bcc_email_address" />
+			</td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td colspan="2">
+				<span class="input-label">Generate URLs : <input type="button" id="generate-social-media-urls" value="Generate"></input></span>
+			</td>
+			
+		</tr>
+		
+	</table>
+	
+	<h2>Output</h2>
+	
+	<table id="output-table">
+		
+		<tr>
+		
+			<td>
+				Output will appear here.
+			</td>
+			
+		</tr>
+	
+	</table>
+	
+
+	<a class="lkr-m" href="javascript:void(0)" onclick="return Share.go(this, 'mailru')">Блямба</a>
+
+<button class="button" data-sharer="facebook" data-width="800" data-height="600" data-title="Checkout Sharer.js!" data-url="js/sharer.js">Share!</button>
+
+<button class="button" data-sharer="twitter" data-title="Checkout Sharer.js!" data-hashtags="awesome, sharer.js" data-url="get__url()">Share on Twitter</button>
+
+	<script type="text/javascript">
+		
+		Share = {
+    go: function(a, type, url, title, img, text) {
+        type = type || 'facebook';
+		url  = url  || location.href;
+        title= title|| document.title;
+        img  = img  || '';
+        text = text || '';
+
+        var urlSet = this[type](url, title, img, text);
+        var isOpened = this.popup(urlSet);
+        if (null === isOpened) {
+            a.href = urlSet;
+            return true;
+        }
+        return false;
+    },
+    vkontakte: function(purl, ptitle, pimg, text) {
+        url  = 'https://vkontakte.ru/share.php?';
+        url += 'url='          + encodeURIComponent(purl);
+        url += '&title='       + encodeURIComponent(ptitle);
+        url += '&description=' + encodeURIComponent(text);
+        url += '&image='       + encodeURIComponent(pimg);
+        url += '&noparse=true';
+        return url;
+    },
+    odnoklassniki: function(purl, text) {
+        url  = 'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.share';
+        url += 'Url=' + encodeURIComponent(purl);		
+        url += '&title=' + encodeURIComponent(text);
+        return url;
+    },
+    facebook: function(purl, ptitle, pimg, text) {
+        url  = 'https://www.facebook.com/sharer.php?s=100';
+        url += '&p[title]='     + encodeURIComponent(ptitle);
+        url += '&p[summary]='   + encodeURIComponent(text);
+        url += '&p[url]='       + encodeURIComponent(purl);
+        url += '&p[images][0]=' + encodeURIComponent(pimg);
+        return url;
+    },
+    twitter: function(purl, ptitle) {
+        url  = 'https://twitter.com/share?';
+        url += 'text='      + encodeURIComponent(ptitle);
+        url += '&url='      + encodeURIComponent(purl);
+        url += '&counturl=' + encodeURIComponent(purl);
+        return url;
+    },
+    mailru: function(purl, ptitle, pimg, text) {
+
+        url  = 'https://connect.mail.ru/share?';
+        url += 'url='          + encodeURIComponent(purl);
+        url += '&title='       + encodeURIComponent(ptitle);
+        url += '&description=' + encodeURIComponent(text);
+        url += '&imageurl='    + encodeURIComponent(pimg);
+        return url;
+    },
+	
+    popup: function(url) {
+        return window.open(url,656,432)
+    }
+};
+		
+		
+		$(document).ready(function(e){
+			$('#generate-social-media-urls').click(function(e) {
+				const socialmedia = GetSocialMediaSites_WithShareLinks_OrderedByPopularity();
+//				console.log(socialmedia);
+				const socialmediaurls = GetSocialMediaSiteLinks_WithShareLinks({
+//					'url':$('#input_url').val(),
+					'url':location.href,
+//					'title':$('#input_title').val(),
+					'title':document.title,
+					'image':$('#input_image').val(),
+					'desc':$('#input_description').val(),
+					'appid':$('#input_appid').val(),
+					'redirecturl':$('#input_redirect_url').val(),	
+					'via':$('#input_via').val(),
+					'hashtags':$('#input_hash_tags').val(),
+					'provider':$('#input_provider').val(),
+					'language':$('#input_language').val(),
+					'userid':$('#input_user_id').val(),
+					'category':$('#input_category').val(),
+					'phonenumber':$('#input_phone_number').val(),
+					'emailaddress':$('#input_email_address').val(),
+					'ccemailaddress':$('#input_cc_email_address').val(),
+					'bccemailaddress':$('#input_bcc_email_address').val(),
+				});
+//				console.log(socialmediaurls)
+				
+				var children = [];
+				
+				for(var i = 0; i < socialmedia.length; i++) {
+					const socialmedium = socialmedia[i];
+					
+					
+					children.push(
+						'<a class="output-label" href="' +
+						socialmediaurls[socialmedium] + '" target="_blank">' +
+						'<img src="img/share/' + socialmedium +'.jpg">' +
+						'</a>'
+						
+					);
+//					children.push(
+//						'<tr><td class="output-label">' +
+//						socialmedium +
+//						'</td><td>' +
+//						socialmediaurls[socialmedium] +
+//						'</td></tr>'
+//					);
+				}
+				
+				$('#output-table').empty();
+				$('#output-table').append(children.join());
+				
+				return true;	// success
+			});
+		});
+	</script>
+	
+</body>
+
+</html>
+

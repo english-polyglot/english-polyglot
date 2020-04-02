@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Share with feeling</title>
+	
+<style>
+
+button.rotate{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3)}
+
+.infront{position:fixed;left:0;top:0;width:100%;height:100%;z-index:5;opacity:0;-webkit-transition:opacity 0.3s ease-out;-moz-transition:opacity 0.3s ease-out;-ms-transition:opacity 0.3s ease-out;-o-transition:opacity 0.3s ease-out;transition:opacity 0.3s ease-out}
+
+.scroll-to-top,.donateButton,#yandex-dengi,#webmoney,#paypal,.embed-container{transition:all 0.75s;-webkit-transition:all 0.75s;-moz-transition:all 0.75s;-ms-transition:all 0.75s;-o-transition:all 0.75s}
+	
+.tog-fixed,.abp{transition:background-color 0.75s;-webkit-transition:background-color 0.75s;-moz-transition:background-color 0.75s;-ms-transition:background-color 0.75s;-o-transition:background-color 0.75s}
+	
+.scroll-to-top:hover{filter:alpha(opacity=100);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+
+.fixed-hidden{filter: alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;visibility:hidden}
+
+
+
+/*скелет для мобильных девайсов*/ 
+
+
+.sub_top,.delitsa,.okno{font-size:100%}
+.donateButton input,.donateButton select{font-size:1rem}
+.donateButton{position:static;border-radius:initial;font-size:1.5rem;width:320px;margin:30px auto 10px;padding:20px}
+.sum{width:100px;margin-bottom:15px}
+.donateButton img{width:200px;padding:20px 0}
+.donateButton img{display:block}
+img#donate_img{width:100%;padding:0}
+#donate_cap{margin-bottom:20px}
+.col2{width:140px}
+#yandex-dengi,#webmoney,#paypal{opacity:1}
+
+.tog-fixed{position:fixed;top:0;left:0;z-index:1;border-bottom:1px solid #CCC;width:100%}
+.tog_cont{margin:0 auto;max-width:680px}
+	
+	
+.lkr-v{background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDU0OC4zNTggNTQ4LjM1OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTQ4LjM1OCA1NDguMzU4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTU0NS40NTEsNDAwLjI5OGMtMC42NjQtMS40MzEtMS4yODMtMi42MTgtMS44NTgtMy41NjljLTkuNTE0LTE3LjEzNS0yNy42OTUtMzguMTY3LTU0LjUzMi02My4xMDJsLTAuNTY3LTAuNTcxICAgbC0wLjI4NC0wLjI4bC0wLjI4Ny0wLjI4N2gtMC4yODhjLTEyLjE4LTExLjYxMS0xOS44OTMtMTkuNDE4LTIzLjEyMy0yMy40MTVjLTUuOTEtNy42MTQtNy4yMzQtMTUuMzIxLTQuMDA0LTIzLjEzICAgYzIuMjgyLTUuOSwxMC44NTQtMTguMzYsMjUuNjk2LTM3LjM5N2M3LjgwNy0xMC4wODksMTMuOTktMTguMTc1LDE4LjU1Ni0yNC4yNjdjMzIuOTMxLTQzLjc4LDQ3LjIwOC03MS43NTYsNDIuODI4LTgzLjkzOSAgIGwtMS43MDEtMi44NDdjLTEuMTQzLTEuNzE0LTQuMDkzLTMuMjgyLTguODQ2LTQuNzEyYy00Ljc2NC0xLjQyNy0xMC44NTMtMS42NjMtMTguMjc4LTAuNzEybC04Mi4yMjQsMC41NjggICBjLTEuMzMyLTAuNDcyLTMuMjM0LTAuNDI4LTUuNzEyLDAuMTQ0Yy0yLjQ3NSwwLjU3Mi0zLjcxMywwLjg1OS0zLjcxMywwLjg1OWwtMS40MzEsMC43MTVsLTEuMTM2LDAuODU5ICAgYy0wLjk1MiwwLjU2OC0xLjk5OSwxLjU2Ny0zLjE0MiwyLjk5NWMtMS4xMzcsMS40MjMtMi4wODgsMy4wOTMtMi44NDgsNC45OTZjLTguOTUyLDIzLjAzMS0xOS4xMyw0NC40NDQtMzAuNTUzLDY0LjIzOCAgIGMtNy4wNDMsMTEuODAzLTEzLjUxMSwyMi4wMzItMTkuNDE4LDMwLjY5M2MtNS44OTksOC42NTgtMTAuODQ4LDE1LjAzNy0xNC44NDIsMTkuMTI2Yy00LDQuMDkzLTcuNjEsNy4zNzItMTAuODUyLDkuODQ5ICAgYy0zLjIzNywyLjQ3OC01LjcwOCwzLjUyNS03LjQxOSwzLjE0MmMtMS43MTUtMC4zODMtMy4zMy0wLjc2My00Ljg1OS0xLjE0M2MtMi42NjMtMS43MTQtNC44MDUtNC4wNDUtNi40Mi02Ljk5NSAgIGMtMS42MjItMi45NS0yLjcxNC02LjY2My0zLjI4NS0xMS4xMzZjLTAuNTY4LTQuNDc2LTAuOTA0LTguMzI2LTEtMTEuNTYzYy0wLjA4OS0zLjIzMy0wLjA0OC03LjgwNiwwLjE0NS0xMy43MDYgICBjMC4xOTgtNS45MDMsMC4yODctOS44OTcsMC4yODctMTEuOTkxYzAtNy4yMzQsMC4xNDEtMTUuMDg1LDAuNDI0LTIzLjU1NWMwLjI4OC04LjQ3LDAuNTIxLTE1LjE4MSwwLjcxNi0yMC4xMjUgICBjMC4xOTQtNC45NDksMC4yODQtMTAuMTg1LDAuMjg0LTE1LjcwNXMtMC4zMzYtOS44NDktMS0xMi45OTFjLTAuNjU2LTMuMTM4LTEuNjYzLTYuMTg0LTIuOTktOS4xMzcgICBjLTEuMzM1LTIuOTUtMy4yODktNS4yMzItNS44NTMtNi44NTJjLTIuNTY5LTEuNjE4LTUuNzYzLTIuOTAyLTkuNTY0LTMuODU2Yy0xMC4wODktMi4yODMtMjIuOTM2LTMuNTE4LTM4LjU0Ny0zLjcxICAgYy0zNS40MDEtMC4zOC01OC4xNDgsMS45MDYtNjguMjM2LDYuODU1Yy0zLjk5NywyLjA5MS03LjYxNCw0Ljk0OC0xMC44NDgsOC41NjJjLTMuNDI3LDQuMTg5LTMuOTA1LDYuNDc1LTEuNDMxLDYuODUxICAgYzExLjQyMiwxLjcxMSwxOS41MDgsNS44MDQsMjQuMjY3LDEyLjI3NWwxLjcxNSwzLjQyOWMxLjMzNCwyLjQ3NCwyLjY2Niw2Ljg1NCwzLjk5OSwxMy4xMzRjMS4zMzEsNi4yOCwyLjE5LDEzLjIyNywyLjU2OCwyMC44MzcgICBjMC45NSwxMy44OTcsMC45NSwyNS43OTMsMCwzNS42ODljLTAuOTUzLDkuOS0xLjg1MywxNy42MDctMi43MTIsMjMuMTI3Yy0wLjg1OSw1LjUyLTIuMTQzLDkuOTkzLTMuODU1LDEzLjQxOCAgIGMtMS43MTUsMy40MjYtMi44NTYsNS41Mi0zLjQyOCw2LjI4Yy0wLjU3MSwwLjc2LTEuMDQ3LDEuMjM5LTEuNDI1LDEuNDI3Yy0yLjQ3NCwwLjk0OC01LjA0NywxLjQzMS03LjcxLDEuNDMxICAgYy0yLjY2NywwLTUuOTAxLTEuMzM0LTkuNzA3LTRjLTMuODA1LTIuNjY2LTcuNzU0LTYuMzI4LTExLjg0Ny0xMC45OTJjLTQuMDkzLTQuNjY1LTguNzA5LTExLjE4NC0xMy44NS0xOS41NTggICBjLTUuMTM3LTguMzc0LTEwLjQ2Ny0xOC4yNzEtMTUuOTg3LTI5LjY5MWwtNC41NjctOC4yODJjLTIuODU1LTUuMzI4LTYuNzU1LTEzLjA4Ni0xMS43MDQtMjMuMjY3ICAgYy00Ljk1Mi0xMC4xODUtOS4zMjktMjAuMDM3LTEzLjEzNC0yOS41NTRjLTEuNTIxLTMuOTk3LTMuODA2LTcuMDQtNi44NTEtOS4xMzRsLTEuNDI5LTAuODU5Yy0wLjk1LTAuNzYtMi40NzUtMS41NjctNC41NjctMi40MjcgICBjLTIuMDk1LTAuODU5LTQuMjgxLTEuNDc1LTYuNTY3LTEuODU0bC03OC4yMjksMC41NjhjLTcuOTk0LDAtMTMuNDE4LDEuODExLTE2LjI3NCw1LjQyOGwtMS4xNDMsMS43MTEgICBDMC4yODgsMTQwLjE0NiwwLDE0MS42NjgsMCwxNDMuNzYzYzAsMi4wOTQsMC41NzEsNC42NjQsMS43MTQsNy43MDdjMTEuNDIsMjYuODQsMjMuODM5LDUyLjcyNSwzNy4yNTcsNzcuNjU5ICAgYzEzLjQxOCwyNC45MzQsMjUuMDc4LDQ1LjAxOSwzNC45NzMsNjAuMjM3YzkuODk3LDE1LjIyOSwxOS45ODUsMjkuNjAyLDMwLjI2NCw0My4xMTJjMTAuMjc5LDEzLjUxNSwxNy4wODMsMjIuMTc2LDIwLjQxMiwyNS45ODEgICBjMy4zMzMsMy44MTIsNS45NTEsNi42NjIsNy44NTQsOC41NjVsNy4xMzksNi44NTFjNC41NjgsNC41NjksMTEuMjc2LDEwLjA0MSwyMC4xMjcsMTYuNDE2ICAgYzguODUzLDYuMzc5LDE4LjY1NCwxMi42NTksMjkuNDA4LDE4Ljg1YzEwLjc1Niw2LjE4MSwyMy4yNjksMTEuMjI1LDM3LjU0NiwxNS4xMjZjMTQuMjc1LDMuOTA1LDI4LjE2OSw1LjQ3Miw0MS42ODQsNC43MTZoMzIuODM0ICAgYzYuNjU5LTAuNTc1LDExLjcwNC0yLjY2OSwxNS4xMzMtNi4yODNsMS4xMzYtMS40MzFjMC43NjQtMS4xMzYsMS40NzktMi45MDEsMi4xMzktNS4yNzZjMC42NjgtMi4zNzksMS01LDEtNy44NTEgICBjLTAuMTk1LTguMTgzLDAuNDI4LTE1LjU1OCwxLjg1Mi0yMi4xMjRjMS40MjMtNi41NjQsMy4wNDUtMTEuNTEzLDQuODU5LTE0Ljg0NmMxLjgxMy0zLjMzLDMuODU5LTYuMTQsNi4xMzYtOC40MTggICBjMi4yODItMi4yODMsMy45MDgtMy42NjYsNC44NjItNC4xNDJjMC45NDgtMC40NzksMS43MDUtMC44MDQsMi4yNzYtMC45OTljNC41NjgtMS41MjIsOS45NDQtMC4wNDgsMTYuMTM2LDQuNDI5ICAgYzYuMTg3LDQuNDczLDExLjk5LDkuOTk2LDE3LjQxOCwxNi41NmM1LjQyNSw2LjU3LDExLjk0MywxMy45NDEsMTkuNTU1LDIyLjEyNGM3LjYxNyw4LjE4NiwxNC4yNzcsMTQuMjcxLDE5Ljk4NSwxOC4yNzQgICBsNS43MDgsMy40MjZjMy44MTIsMi4yODYsOC43NjEsNC4zOCwxNC44NTMsNi4yODNjNi4wODEsMS45MDIsMTEuNDA5LDIuMzc4LDE1Ljk4NCwxLjQyN2w3My4wODctMS4xNCAgIGM3LjIyOSwwLDEyLjg1NC0xLjE5NywxNi44NDQtMy41NzJjMy45OTgtMi4zNzksNi4zNzMtNSw3LjEzOS03Ljg1MWMwLjc2NC0yLjg1NCwwLjgwNS02LjA5MiwwLjE0NS05LjcxMiAgIEM1NDYuNzgyLDQwNC4yNSw1NDYuMTE1LDQwMS43MjUsNTQ1LjQ1MSw0MDAuMjk4eiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=") no-repeat scroll rgb(91, 122, 168)}
+.lkr-o{background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9Im9rIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjEzLjRweCIgaGVpZ2h0PSIyMi4xcHgiIHZpZXdCb3g9IjUwNS4zIDUwMSAxMy40IDIyLjEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgNTA1LjMgNTAxIDEzLjQgMjIuMTsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCjwhW0NEQVRBWw0KCS5zdDB7ZmlsbDojRkZGRkZGO30NCl1dPg0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01MTQuMSw1MTYuOGMxLjEtMC4zLDIuMS0wLjcsMy4xLTEuM2MwLjctMC41LDEtMS40LDAuNS0yLjJjLTAuNS0wLjctMS40LTEtMi4yLTAuNWMtMi4yLDEuNC01LDEuNC03LjIsMA0KCWMtMC43LTAuNS0xLjctMC4yLTIuMiwwLjVjLTAuNSwwLjctMC4yLDEuNywwLjUsMi4yYzEsMC42LDIsMS4xLDMuMSwxLjNsLTMsM2MtMC42LDAuNi0wLjYsMS42LDAsMi4yYzAuMywwLjMsMC43LDAuNSwxLjEsMC41DQoJYzAuNCwwLDAuOC0wLjIsMS4xLTAuNWwyLjktM2wyLjksM2MwLjYsMC42LDEuNiwwLjYsMi4yLDBjMC42LTAuNiwwLjYtMS42LDAtMi4yTDUxNC4xLDUxNi44Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTEyLDUwNC43YzEuMiwwLDIuMiwxLDIuMiwyLjJjMCwxLjItMSwyLjItMi4yLDIuMmMtMS4yLDAtMi4yLTEtMi4yLTIuMkM1MDkuNyw1MDUuNyw1MTAuNyw1MDQuNyw1MTIsNTA0Ljd6DQoJIE01MTIsNTEyLjRjMi45LDAsNS4zLTIuNCw1LjMtNS40YzAtMy0yLjQtNS40LTUuMy01LjRjLTIuOSwwLTUuMywyLjQtNS4zLDUuNEM1MDYuNiw1MDkuOSw1MDksNTEyLjQsNTEyLDUxMi40eiIvPg0KPC9zdmc+DQo=") no-repeat scroll rgb(235, 113, 46)}
+.lkr-f{background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDQzMC4xMTMgNDMwLjExNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDMwLjExMyA0MzAuMTE0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggaWQ9IkZhY2Vib29rIiBkPSJNMTU4LjA4MSw4My4zYzAsMTAuODM5LDAsNTkuMjE4LDAsNTkuMjE4aC00My4zODV2NzIuNDEyaDQzLjM4NXYyMTUuMTgzaDg5LjEyMlYyMTQuOTM2aDU5LjgwNSAgIGMwLDAsNS42MDEtMzQuNzIxLDguMzE2LTcyLjY4NWMtNy43ODQsMC02Ny43ODQsMC02Ny43ODQsMHMwLTQyLjEyNywwLTQ5LjUxMWMwLTcuNCw5LjcxNy0xNy4zNTQsMTkuMzIxLTE3LjM1NCAgIGM5LjU4NiwwLDI5LjgxOCwwLDQ4LjU1NywwYzAtOS44NTksMC00My45MjQsMC03NS4zODVjLTI1LjAxNiwwLTUzLjQ3NiwwLTY2LjAyMSwwQzE1NS44NzgtMC4wMDQsMTU4LjA4MSw3Mi40OCwxNTguMDgxLDgzLjN6IiBmaWxsPSIjZmZmZmZmIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==") no-repeat scroll rgb(59, 89, 152)}
+.lkr-t{background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMjEuOXB4IiBoZWlnaHQ9IjE4LjlweCIgdmlld0JveD0iMjQ1LjEgMjQ2LjUgMjEuOSAxOC45IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDI0NS4xIDI0Ni41IDIxLjkgMTguOTsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCjwhW0NEQVRBWw0KCS5zdDB7ZmlsbDojRkZGRkZGO30NCgkuc3Qxe2Rpc3BsYXk6aW5saW5lO2ZpbGw6bm9uZTtzdHJva2U6I0IzNTA0Nzt9DQoJLnN0MntkaXNwbGF5Om5vbmU7fQ0KXV0+DQo8L3N0eWxlPg0KPGcgaWQ9InN2Z0dyaWQiIGNsYXNzPSJzdDIiPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMiIgeTE9IjAiIHgyPSIzMiIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSI2NCIgeTE9IjAiIHgyPSI2NCIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSI5NiIgeTE9IjAiIHgyPSI5NiIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIxMjgiIHkxPSIwIiB4Mj0iMTI4IiB5Mj0iNTEyIi8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE2MCIgeTE9IjAiIHgyPSIxNjAiIHkyPSI1MTIiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMTkyIiB5MT0iMCIgeDI9IjE5MiIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIyMjQiIHkxPSIwIiB4Mj0iMjI0IiB5Mj0iNTEyIi8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjI1NiIgeTE9IjAiIHgyPSIyNTYiIHkyPSI1MTIiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMjg4IiB5MT0iMCIgeDI9IjI4OCIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMjAiIHkxPSIwIiB4Mj0iMzIwIiB5Mj0iNTEyIi8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjM1MiIgeTE9IjAiIHgyPSIzNTIiIHkyPSI1MTIiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzg0IiB5MT0iMCIgeDI9IjM4NCIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSI0MTYiIHkxPSIwIiB4Mj0iNDE2IiB5Mj0iNTEyIi8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjQ0OCIgeTE9IjAiIHgyPSI0NDgiIHkyPSI1MTIiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iNDgwIiB5MT0iMCIgeDI9IjQ4MCIgeTI9IjUxMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iMzIiIHgyPSI1MTIiIHkyPSIzMiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iNjQiIHgyPSI1MTIiIHkyPSI2NCIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iOTYiIHgyPSI1MTIiIHkyPSI5NiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iMTI4IiB4Mj0iNTEyIiB5Mj0iMTI4Ii8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjAiIHkxPSIxNjAiIHgyPSI1MTIiIHkyPSIxNjAiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMCIgeTE9IjE5MiIgeDI9IjUxMiIgeTI9IjE5MiIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iMjI0IiB4Mj0iNTEyIiB5Mj0iMjI0Ii8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjAiIHkxPSIyNTYiIHgyPSI1MTIiIHkyPSIyNTYiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMCIgeTE9IjI4OCIgeDI9IjUxMiIgeTI9IjI4OCIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iMzIwIiB4Mj0iNTEyIiB5Mj0iMzIwIi8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjAiIHkxPSIzNTIiIHgyPSI1MTIiIHkyPSIzNTIiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMCIgeTE9IjM4NCIgeDI9IjUxMiIgeTI9IjM4NCIvPg0KCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIwIiB5MT0iNDE2IiB4Mj0iNTEyIiB5Mj0iNDE2Ii8+DQoJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjAiIHkxPSI0NDgiIHgyPSI1MTIiIHkyPSI0NDgiLz4NCgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMCIgeTE9IjQ4MCIgeDI9IjUxMiIgeTI9IjQ4MCIvPg0KCTxyZWN0IGNsYXNzPSJzdDEiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIi8+DQo8L2c+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjY2LjUsMjQ5LjFjLTAuOCwwLjQtMS42LDAuNi0yLjUsMC43YzAuOS0wLjYsMS42LTEuNSwxLjktMi41Yy0wLjgsMC41LTEuOCwwLjktMi43LDEuMQ0KCWMtMC44LTAuOS0xLjktMS40LTMuMS0xLjRjLTIuNCwwLTQuMywyLTQuMyw0LjVjMCwwLjQsMCwwLjcsMC4xLDFjLTMuNi0wLjItNi44LTItOC45LTQuN2MtMC40LDAuNy0wLjYsMS41LTAuNiwyLjMNCgljMCwxLjYsMC44LDMsMS45LDMuOGMtMC43LDAtMS40LTAuMi0yLTAuNmMwLDAsMCwwLDAsMC4xYzAsMi4yLDEuNSw0LDMuNSw0LjVjLTAuNCwwLjEtMC43LDAuMi0xLjEsMC4yYy0wLjMsMC0wLjUsMC0wLjgtMC4xDQoJYzAuNSwxLjgsMi4xLDMuMSw0LDMuMmMtMS41LDEuMi0zLjMsMS45LTUuNCwxLjljLTAuMywwLTAuNywwLTEtMC4xYzEuOSwxLjMsNC4yLDIsNi42LDJjNy45LDAsMTIuMy02LjksMTIuMy0xMi45DQoJYzAtMC4yLDAtMC40LDAtMC42QzI2NS4yLDI1MC44LDI2NS45LDI1MCwyNjYuNSwyNDkuMXoiLz4NCjwvc3ZnPg0K") no-repeat scroll rgb(108, 173, 222)}
+.lkr-m{background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM3OC42MzIgMzc4LjYzMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzc4LjYzMiAzNzguNjMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxwYXRoIGQ9Ik0zNzcuNDA2LDE2MC45ODFjLTUuMDgzLTQ4LjkxMS0zMS4wOTMtOTIuNTItNzMuMTg0LTEyMi44NTRDMjU5LjAwNCw1LjUzOCwyMDAuNDU3LTYuOTM2LDE0Ny42MDMsNC44MDcgIEM5Ny4zNTQsMTUuOTcxLDUzLjI1Niw0OC4zMTIsMjYuNTcxLDkzLjQ5MUMtMC4xMjIsMTM4LjczMS03LjA5OCwxOTIuOTgyLDcuNDM2LDI0Mi4zOWM3LjgzMiwyNi42NiwyMS43MjksNTEuNzEyLDQwLjE1LDcyLjUxICBjMTguNTk0LDIwLjk3Miw0MS45MDQsMzcuNzIyLDY3LjQ3Miw0OC40NTljMjMuNTc5LDkuODg4LDQ4LjYyOCwxNC43OTcsNzMuNjUzLDE0Ljc5N2MzNC4xMjgtMC4wMDEsNjguMTE1LTkuMTIxLDk3Ljk0OS0yNy4wOTggIGwtMjEuMDkyLTM1LjA4MWMtNDAuNTc4LDI0LjQ1MS05MC44ODcsMjguMDI5LTEzNC42NTIsOS42NmMtNDAuMjgzLTE2Ljk2LTcxLjc1OS01Mi4zODMtODQuMjExLTk0Ljc2MSAgYy0xMS4zMzYtMzguNTk1LTUuODQ2LTgxLjA5MywxNS4xMjUtMTE2LjU4NmMyMC45MjItMzUuNDY3LDU1LjQyNi02MC44MDEsOTQuNjIyLTY5LjUzM2M0MS42NDQtOS4yMjUsODcuOTQ4LDAuNjY5LDEyMy44NTcsMjYuNTY2ICBjMzIuNTAyLDIzLjM5NCw1Mi40OTcsNTYuNzY5LDU2LjM2Myw5My45MDdjMi41MTUsMjMuOTc5LDAuMzEsNDIuODkxLTYuNTI2LDU2LjIyNmMtMTQuNDg3LDI4LjE5Mi0zNS41MjYsMjguMzYtNDMuODczLDI3LjEzMiAgYy0wLjI4My0wLjA0MS0wLjQ3Ni0wLjA4Mi0wLjY1LTAuMTE3Yy0yLjM5Ni0zLjcwOS0yLjA5MS0xNy40ODktMS45NzQtMjMuNDczYzAuMDQ0LTIuMzMyLDAuMDg0LTQuNTcyLDAuMDg0LTYuNjY0di0xMTIuMDZoLTMxLjM0OSAgYy0zLjk5OC0zLjI3OC04LjIyNS02LjI1MS0xMi42NzQtOC45MjFjLTE3LjA3Ni0xMC4xNTktMzYuODU4LTE1LjU1Mi01Ny4yNTUtMTUuNTUyYy0yOS4wNzgsMC01Ni40MDgsMTAuNTk3LTc2Ljg5NiwyOS44MjQgIGMtMzIuNTM3LDMwLjU0My00Mi42Myw4MC42ODktMjQuNTUxLDEyMi4wMjNjOC41NzgsMTkuNjIsMjMuMDY1LDM1LjkwMSw0MS44NzYsNDcuMDY2YzE3LjYxMSwxMC40MzQsMzguMTgyLDE1Ljk3Miw1OS40NywxNS45NzIgIGMyNC4zOTQsMCw0Ni44MTktNi43MzUsNjQuODU4LTE5LjQ5MmMxLjkxNS0xLjM0MiwzLjgxMy0yLjc5LDUuNjI2LTQuMjMzYzYuNDMxLDguODA1LDE1LjgxMSwxNC40LDI3LjQ2NCwxNi4xMTQgIGMxNi4xNDksMi40MDgsMzIuMjk5LTAuMjU5LDQ2Ljc4NC03LjY2OGMxNi40NTMtOC40MTksMjkuNzE1LTIyLjMxMSwzOS40MzktNDEuMjcxQzM3Ny4yMDksMjE5LjM0NiwzODAuNzc4LDE5My40NiwzNzcuNDA2LDE2MC45ODEgIHogTTI0Mi4zMywyMjQuNTM4Yy0wLjg5MSwxLjI4My0yLjIyOSwyLjkwNy0yLjk2MSwzLjgwM2MtMC41OTksMC43NzgtMS4xNTEsMS40Ni0xLjY0MywyLjA3MyAgYy0zLjg2OCw0Ljk4Mi04LjU5Nyw5LjQ4LTE0LjExMywxMy4zNzRjLTExLjI2LDcuOTQzLTI1LjE1MiwxMS45NjQtNDEuMjU3LDExLjk2NGMtMjguOTY4LDAtNTMuNDYyLTE0Ljc1LTYzLjg0Ni0zOC41NDQgIGMtMTEuMjU4LTI1LjY5LTUuMDcxLTU2Ljg1NCwxNS4wMzUtNzUuNjkyYzEyLjctMTEuOTUsMzAuNTM4LTE4Ljc4NCw0OC45MTEtMTguNzg0YzEzLjAyOCwwLDI1LjU2LDMuMzc1LDM2LjI2OCw5Ljc4OCAgYzYuODMxLDQuMDcyLDEyLjg2MSw5LjMzNywxNy45LDE1LjcxOWMwLjQ5NywwLjYxMywxLjA4MiwxLjMyMiwxLjcyNCwyLjA5NGMwLjk1MiwxLjEzNSwyLjgxMiwzLjQzOCwzLjk4MSw1LjA5MlYyMjQuNTM4eiIgZmlsbD0iI2Y0YTMxZCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K") no-repeat scroll rgb(22, 141, 226)}
+.lkr-rss{background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4Ni4zOTIgNDg2LjM5MiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg2LjM5MiA0ODYuMzkyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnPgoJPGc+CgkJPGc+CgkJCTxnPgoJCQkJPHBhdGggZD0iTTAuMTgyLDB2OTMuMjY2YzIxNi41MDUsMCwzOTIuNywxNzYuMzc4LDM5Mi43LDM5My4xMjZoOTMuNTA5ICAgICAgQzQ4Ni4zOTIsMjE4LjI2OCwyNjguMjQ1LDAsMC4xODIsMHoiIGZpbGw9IiNGRkZGRkYiLz4KCQkJCTxwYXRoIGQ9Ik0wLjA2MSwxNjUuMjIxdjkzLjIzNWM2MC43MDgsMCwxMTcuNzY4LDIzLjc0MiwxNjAuNzUyLDY2Ljc1NyAgICAgIGM0Mi45MjQsNDIuODk0LDY2LjYzNiwxMDAuMjI3LDY2LjYzNiwxNjEuMTc4aDkzLjY2MUMzMjEuMTEsMzA5LjI4NCwxNzcuMDQ3LDE2NS4yMjEsMC4wNjEsMTY1LjIyMXoiIGZpbGw9IiNGRkZGRkYiLz4KCQkJCTxwYXRoIGQ9Ik02NC43NTEsMzU2LjY0N0MyOS4wMzEsMzU2LjY0NywwLDM4NS43MzksMCw0MjEuMjQ1YzAsMzUuNzE5LDI5LjAzMSw2NC41MzgsNjQuNzUxLDY0LjUzOCAgICAgIGMzNS44NDEsMCw2NC44NDItMjguODE5LDY0Ljg0Mi02NC41MzhDMTI5LjU2MywzODUuOCwxMDAuNTkyLDM1Ni42NDcsNjQuNzUxLDM1Ni42NDd6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTwvZz4KCQk8L2c+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==") no-repeat scroll rgb(247, 132, 34)}
+
+
+	
+#share a,.sub_center a{width: 64px;height: 64px;border-radius:8px;margin: 4px;
+    display: inline-block;}
+.lkr-rss{background-size:52px;background-position:6px}
+.lkr-f{background-size:52px;background-position:15px 11px}
+.lkr-t{background-size:48px;background-position:6px}
+.lkr-v{background-size:48px;background-position:8px}
+.lkr-m{background-size:48px;background-position:8px 7px}
+.lkr-o{background-size:28px;background-position:18px}	
+
+	.margin-0px {
+    margin: 0px;
+}
+.padding-0px {
+    padding: 0px;
+}
+.margin-10px {
+    margin: 10px;
+}
+
+.border-2px {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+.background-color-gray10 {
+    background-color: #aaaaaa;
+}
+.margin-5px {
+    margin: 5px;
+}
+
+.font-size-150percent {
+    font-size: 150%;
+}
+.font-family-tahoma {
+    font-family: Tahoma;
+}
+.margin-2px {
+    margin: 2px;
+}
+
+.border-1px {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+.float-left {
+    float: left;
+}
+	img {vertical-align: bottom}	
+	
+.clear-float {
+    clear: both;
+}	
+</style>
+	
+
+</head>
+
+<body>
+	
+	<div id="share">
+		<a class="lkr-v" href="javascript:void(0)" onclick="return Share.go(this, 'vkontakte')"></a>
+		<a class="lkr-o" href="javascript:void(0)" onclick="return Share.go(this, 'odnoklassniki')"></a>
+		<a class="lkr-f" href="javascript:void(0)" onClick="return Share.go(this, 'facebook')"></a>
+		<a class="lkr-t" href="javascript:void(0)" onclick="return Share.go(this, 'twitter')"></a>
+		<a class="lkr-m" href="javascript:void(0)" onclick="return Share.go(this, 'mailru')"></a>
+	</div>	
+	
+	
+<div style="display: inline-block">
+	<table border="0" class="padding-0px margin-0px">
+	<tbody>
+		<tr valign="top">
+			<td valign="top">
+				<div class="font-family-tahoma font-size-150percent margin-10px border-2px background-color-gray10">
+					<span class="margin-5px">Share with Feeling/Делитеcь c чувством :</span>
+				</div>
+			</td>
+			
+			<td><div class="border-1px float-left margin-2px" title="Share With GoogleBookmarks">
+				<p class="font-family-tahoma margin-0px">
+					<a href="https://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;annotation=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;labels=" target="_blank">
+						<img src="img/share/google-bookmarks.jpg" style="margin:0px;" width="64" height="64">
+					</a>
+				</p>
+				</div>
+
+<div class="border-1px float-left margin-2px" title="Share With FaceBook">
+
+<p class="font-family-tahoma margin-0px"><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/facebook.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Reddit">
+
+<p class="font-family-tahoma margin-0px"><a href="https://reddit.com/submit?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists" target="_blank"><img src="img/share/reddit.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Twitter">
+
+<p class="font-family-tahoma margin-0px"><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;text=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;via=&amp;hashtags=" target="_blank"><img src="img/share/twitter.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With LinkedIn">
+
+<p class="font-family-tahoma margin-0px"><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;summary=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;source=removeduplicatelines.com" target="_blank"><img src="img/share/linkedin.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Tumblr">
+
+<p class="font-family-tahoma margin-0px"><a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;caption=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;tags=" target="_blank"><img src="img/share/tumblr.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With ">
+
+<p class="font-family-tahoma margin-0px"><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/pinterest.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Blogger">
+
+<p class="font-family-tahoma margin-0px"><a href="https://www.blogger.com/blog-this.g?u=http%3A%2F%2Fwww.removeduplicatelines.com&amp;n=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;t=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/blogger.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With LiveJournal">
+
+<p class="font-family-tahoma margin-0px"><a href="http://www.livejournal.com/update.bml?subject=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;event=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/livejournal.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With EverNote">
+
+<p class="font-family-tahoma margin-0px"><a href="http://www.evernote.com/clip.action?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/evernote.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With AddThis">
+
+<p class="font-family-tahoma margin-0px"><a href="http://www.addthis.com/bookmark.php?url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/add-this.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Pocket">
+
+<p class="font-family-tahoma margin-0px"><a href="https://getpocket.com/edit?url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/getpocket.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With HackerNews">
+
+<p class="font-family-tahoma margin-0px"><a href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Fwww.removeduplicatelines.com&amp;t=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists" target="_blank"><img src="img/share/hacker-news.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Digg">
+
+<p class="font-family-tahoma margin-0px"><a href="http://digg.com/submit?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/digg.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Buffer">
+
+<p class="font-family-tahoma margin-0px"><a href="https://buffer.com/add?text=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/buffer.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With FlipBoard">
+
+<p class="font-family-tahoma margin-0px"><a href="https://share.flipboard.com/bookmarklet/popout?v=2&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/flipboard.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With InstaPaper">
+
+<p class="font-family-tahoma margin-0px"><a href="http://www.instapaper.com/edit?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;description=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/instapaper.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With SurfingBird.ru">
+
+<p class="font-family-tahoma margin-0px"><a href="http://surfingbird.ru/share?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;description=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;screenshot=&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists" target="_blank"><img src="img/share/surfingbird-ru.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Flattr">
+
+<p class="font-family-tahoma margin-0px"><a href="https://flattr.com/submit/auto?user_id=&amp;url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;description=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;language=&amp;tags=&amp;hidden=HIDDEN&amp;category=" target="_blank"><img src="img/share/flattr.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Diaspora">
+
+<p class="font-family-tahoma margin-0px"><a href="https://share.diasporafoundation.org/?title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/diaspora.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With QZone">
+
+<p class="font-family-tahoma margin-0px"><a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/qzone.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With VK">
+
+<p class="font-family-tahoma margin-0px"><a href="http://vk.com/share.php?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;comment=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/vk.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Weibo">
+
+<p class="font-family-tahoma margin-0px"><a href="http://service.weibo.com/share/share.php?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;appkey=&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;pic=&amp;ralateUid=" target="_blank"><img src="img/share/weibo.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With OK.ru">
+
+<p class="font-family-tahoma margin-0px"><a href="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&amp;st.shareUrl=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/ok-ru.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Douban">
+
+<p class="font-family-tahoma margin-0px"><a href="http://www.douban.com/recommend/?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/douban.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Xing">
+
+<p class="font-family-tahoma margin-0px"><a href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Fwww.removeduplicatelines.com" target="_blank"><img src="img/share/xing.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With RenRen">
+
+<p class="font-family-tahoma margin-0px"><a href="http://widget.renren.com/dialog/share?resourceUrl=http%3A%2F%2Fwww.removeduplicatelines.com&amp;srcUrl=http%3A%2F%2Fwww.removeduplicatelines.com&amp;title=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;description=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/renren.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Threema">
+
+<p class="font-family-tahoma margin-0px"><a href="threema://compose?text=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;id=" target="_blank"><img src="img/share/threema.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With SMS">
+
+<p class="font-family-tahoma margin-0px"><a href="sms:?body=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/sms.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Line.me">
+
+<p class="font-family-tahoma margin-0px"><a href="https://lineit.line.me/share/ui?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;text=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/line-me.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Skype">
+
+<p class="font-family-tahoma margin-0px"><a href="https://web.skype.com/share?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;text=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/skype.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Telegram.me">
+
+<p class="font-family-tahoma margin-0px"><a href="https://t.me/share/url?url=http%3A%2F%2Fwww.removeduplicatelines.com&amp;text=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists.&amp;to=" target="_blank"><img src="img/share/telegram-me.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With EMail">
+
+<p class="font-family-tahoma margin-0px"><a href="mailto:?subject=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;body=Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/email.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With GMail">
+
+<p class="font-family-tahoma margin-0px"><a href="https://mail.google.com/mail/?view=cm&amp;to=&amp;su=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;body=http%3A%2F%2Fwww.removeduplicatelines.com&amp;bcc=&amp;cc=" target="_blank"><img src="img/share/gmail.jpg"></a></p></div>
+
+<div class="border-1px float-left margin-2px" title="Share With Yahoo">
+
+<p class="font-family-tahoma margin-0px"><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists&amp;body=Remove+Duplicate+Lines+%3A+Removing+Duplicate+Entries+from+Lists%20%3A%20Use+this+tool+to+remove+duplicate+lines+from+your+text+lists." target="_blank"><img src="img/share/yahoo.jpg"></a></p></div>
+
+<div class="clear-float">
+
+</div>
+
+</td></tr></tbody></table></div>	
+
+
+</body>
+<script>
+	Share = {
+    go: function(a, type, url, title, img, text) {
+        type = type || 'facebook';
+		url  = url  || location.href;
+        title= title|| document.title;
+        img  = img  || '';
+        text = text || '';
+
+        var urlSet = this[type](url, title, img, text);
+        var isOpened = this.popup(urlSet);
+        if (null === isOpened) {
+            a.href = urlSet;
+            return true;
+        }
+        return false;
+    },
+    vkontakte: function(purl, ptitle, pimg, text) {
+        url  = 'https://vkontakte.ru/share.php?';
+        url += 'url='          + encodeURIComponent(purl);
+        url += '&title='       + encodeURIComponent(ptitle);
+        url += '&description=' + encodeURIComponent(text);
+        url += '&image='       + encodeURIComponent(pimg);
+        url += '&noparse=true';
+        return url;
+    },
+    odnoklassniki: function(purl, text) {
+        url  = 'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.share';
+        url += 'Url=' + encodeURIComponent(purl);		
+        url += '&title=' + encodeURIComponent(text);
+        return url;
+    },
+    facebook: function(purl, ptitle, pimg, text) {
+        url  = 'https://www.facebook.com/sharer.php?s=100';
+        url += '&p[title]='     + encodeURIComponent(ptitle);
+        url += '&p[summary]='   + encodeURIComponent(text);
+        url += '&p[url]='       + encodeURIComponent(purl);
+        url += '&p[images][0]=' + encodeURIComponent(pimg);
+        return url;
+    },
+    twitter: function(purl, ptitle) {
+        url  = 'https://twitter.com/share?';
+        url += 'text='      + encodeURIComponent(ptitle);
+        url += '&url='      + encodeURIComponent(purl);
+        url += '&counturl=' + encodeURIComponent(purl);
+        return url;
+    },
+    mailru: function(purl, ptitle, pimg, text) {
+
+        url  = 'https://connect.mail.ru/share?';
+        url += 'url='          + encodeURIComponent(purl);
+        url += '&title='       + encodeURIComponent(ptitle);
+        url += '&description=' + encodeURIComponent(text);
+        url += '&imageurl='    + encodeURIComponent(pimg);
+        return url;
+    },
+	
+    popup: function(url) {
+        return popup(url,656,432)
+    }
+};
+	
+
+	
+</script>		
+</html>

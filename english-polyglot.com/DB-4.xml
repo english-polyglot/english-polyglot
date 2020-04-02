@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<m>
+	<d>
+		<a>I work in a restaurant</a>
+		<b>Я работаю в кафе</b>
+		<c>Ай вёк ин э рэстрон</c>
+	</d>
+	<d>
+		<a>I work in a factory</a>
+		<b>Я работаю на заводе</b>
+		<c>Ай вёк ин э фактэри</c>
+	</d>
+	<d>
+		<a>I work in a grocery store</a>
+		<b>Я работаю в магазине продуктов</b>
+		<c>Ай вёк ин э гросэри сто</c>
+	</d>
+	<d>
+		<a>I work in a bank</a>
+		<b>Я работаю в банке</b>
+		<c>Ай вёк ин э бэнк</c>
+	</d>
+	<d>
+		<a>I work in a call center</a>
+		<b>Я работаю в колл-центре</b>
+		<c>Ай вёк ин э кол сэнтэ</c>
+	</d>
+	<d>
+		<a>I work in an office</a>
+		<b>Я работаю в офисе</b>
+		<c>Ай вёк ин эн офис</c>
+	</d>
+	<d>
+		<a>I work in a hospital</a>
+		<b>Я работаю в больнице</b>
+		<c>Ай вёк ин э хоспитал</c>
+	</d>
+	<d>
+		<a>I work at school</a>
+		<b>Я работаю в школе</b>
+		<c>Ай вёк эт скул</c>
+	</d>
+	<d>
+		<a>I am a waiter</a>
+		<b>Я официант</b>
+		<c>Aй эм э вэйтэ</c>
+	</d>
+	<d>
+		<a>I am a worker</a>
+		<b>Я рабочий</b>
+		<c>Aй эм э вёкэ</c>
+	</d>
+	<d>
+		<a>I am a seller</a>
+		<b>Я продавец</b>
+		<c>Aй эм э сэлэ</c>
+	</d>
+	<d>
+		<a>I am a manager</a>
+		<b>Я менеджер</b>
+		<c>Aй эм э мэнэджэ</c>
+	</d>
+	<d>
+		<a>I am a supervisor</a>
+		<b>Я старший группы</b>
+		<c>Aй эм э супэвайзэ</c>
+	</d>
+	<d>
+		<a>I am a senior manager</a>
+		<b>Я старший менеджер</b>
+		<c>Aй эм э синьё мэнэджэ</c>
+	</d>
+	<d>
+		<a>I am a nurse</a>
+		<b>Я медсестра</b>
+		<c>Aй эм э наас</c>
+	</d>
+	<d>
+		<a>I am a teacher</a>
+		<b>Я учитель</b>
+		<c>Aй эм э тичэ</c>
+	</d>
+	<d>
+		<a>I work in a restaurant as a waiter</a>
+		<b>Я работаю в кафе официантом</b>
+		<c>Ай вёк ин э рэстрон эз э вэйтэ</c>
+	</d>
+	<d>
+		<a>I work in a factory as a worker</a>
+		<b>Я работаю на заводе рабочим</b>
+		<c>Ай вёк ин э фактэри эз э вёкэ</c>
+	</d>
+	<d>
+		<a>I work in a grocery store as a seller</a>
+		<b>Я работаю в магазине продуктов продавцом</b>
+		<c>Ай вёк ин э гросэри сто эз э сэлэ</c>
+	</d>
+	<d>
+		<a>I work in a bank as a manager</a>
+		<b>Я работаю в банке менеджером</b>
+		<c>Ай вёк ин э бэнк эз э мэнэджэ</c>
+	</d>
+	<d>
+		<a>I work in a call center as a supervisor</a>
+		<b>Я работаю в колл-центре старшим группы</b>
+		<c>Ай вёк ин э кол сэнтэ эз э супэвайзэ</c>
+	</d>
+	<d>
+		<a>I work in an office as a senior manager</a>
+		<b>Я работаю в офисе старшим менеджером</b>
+		<c>Ай вёк ин эн офис эз э синьё мэнэджэ</c>
+	</d>
+	<d>
+		<a>I work in a hospital as a nurse</a>
+		<b>Я работаю в больнице медсестрой</b>
+		<c>Ай вёк ин э хоспитал эз э наас</c>
+	</d>
+	<d>
+		<a>I work as a school teacher</a>
+		<b>Я работаю школьным учителем</b>
+		<c>Ай вёк эз э скул тичэ</c>
+	</d>
+	<d>
+		<a>I am a restaurant waiter</a>
+		<b>Я официант кафе</b>
+		<c>Ай эм э рэстрон вэйтэ</c>
+	</d>
+	<d>
+		<a>I am a factory worker</a>
+		<b>Я рабочий завода</b>
+		<c>Ай эм э фактэри вёкэ</c>
+	</d>
+	<d>
+		<a>I am a store seller</a>
+		<b>Я продавец в магазине</b>
+		<c>Ай эм э сто сэлэ</c>
+	</d>
+	<d>
+		<a>I am a bank manager</a>
+		<b>Я менеджер банка</b>
+		<c>Ай эм э бэнк мэнэджэ</c>
+	</d>
+	<d>
+		<a>I am a call center supervisor</a>
+		<b>Я старший группы в колл-центре </b>
+		<c>Ай эм э кол сэнтэ супэвайзэ</c>
+	</d>
+	<d>
+		<a>I am a senior office manager</a>
+		<b>Я старший офис-менеджер</b>
+		<c>Ай эм э  синьё офис мэнэджэ</c>
+	</d>
+	<d>
+		<a>I am a hospital nurse</a>
+		<b>Я медсестра в больнице </b>
+		<c>Ай эм э хоспитал наас</c>
+	</d>
+	<d>
+		<a>I am a school teacher</a>
+		<b>Я школьный учитель</b>
+		<c>Ай эм э скул тичэ</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the restaurant?</a>
+		<b>Кем ты работаешь в кафе?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ рэстрон</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the factory?</a>
+		<b>Кем ты работаешь на заводе?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ фактэри</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the grocery store?</a>
+		<b>Кем ты работаешь в магазине продуктов?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ гросэри сто</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the bank?</a>
+		<b>Кем ты работаешь в банке?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ бэнк</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the call center?</a>
+		<b>Кем ты работаешь в колл-центре?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ кол сэнтэ</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the office?</a>
+		<b>Кем ты работаешь в офисе?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ офис</c>
+	</d>
+	<d>
+		<a>What sort of work do you do in the hospital?</a>
+		<b>Кем ты работаешь в больнице?</b>
+		<c>Вот соот оф вёк ду ю ду ин зэ хоспитал</c>
+	</d>
+	<d>
+		<a>What sort of work do you do at school?</a>
+		<b>Кем ты работаешь в школе?</b>
+		<c>Вот соот оф вёк ду ю ду эт скул</c>
+	</d>
+	<d>
+		<a>Why do you work in a restaurant?</a>
+		<b>Почему ты работаешь в кафе?</b>
+		<c>Вай ду ю вёк ин э рэстрон</c>
+	</d>
+	<d>
+		<a>Why do you work in a factory?</a>
+		<b>Почему ты работаешь на заводе?</b>
+		<c>Вай ду ю вёк ин э фактэри</c>
+	</d>
+	<d>
+		<a>Why do you work in a grocery store?</a>
+		<b>Почему ты работаешь в магазине продуктов?</b>
+		<c>Вай ду ю вёк ин э гросэри сто</c>
+	</d>
+	<d>
+		<a>Why do you work in a bank?</a>
+		<b>Почему ты работаешь в банке?</b>
+		<c>Вай ду ю вёк ин э бэнк</c>
+	</d>
+	<d>
+		<a>Why do you work in a call center?</a>
+		<b>Почему ты работаешь в колл-центре?</b>
+		<c>Вай ду ю вёк ин э кол сэнтэ</c>
+	</d>
+	<d>
+		<a>Why do you work in an office?</a>
+		<b>Почему ты работаешь в офисе?</b>
+		<c>Вай ду ю вёк ин эн офис</c>
+	</d>
+	<d>
+		<a>Why do you work in a hospital?</a>
+		<b>Почему ты работаешь в больнице?</b>
+		<c>Вай ду ю вёк ин э хоспитал</c>
+	</d>
+	<d>
+		<a>Why do you work at school?</a>
+		<b>Почему ты работаешь в школе?</b>
+		<c>Вай ду ю вёк эт скул</c>
+	</d>
+	<d>
+		<a>Do you work in a restaurant?</a>
+		<b>Ты работаешь в кафе?</b>
+		<c>Ду ю вёк ин э рэстрон</c>
+	</d>
+	<d>
+		<a>Do you work in a factory?</a>
+		<b>Ты работаешь на заводе?</b>
+		<c>Ду ю вёк ин э фактэри</c>
+	</d>
+	<d>
+		<a>Do you work in a grocery store?</a>
+		<b>Ты работаешь в магазине продуктов?</b>
+		<c>Ду ю вёк ин э гросэри сто</c>
+	</d>
+	<d>
+		<a>Do you work in a bank?</a>
+		<b>Ты работаешь в банке?</b>
+		<c>Ду ю вёк ин э бэнк</c>
+	</d>
+	<d>
+		<a>Do you work in a call center?</a>
+		<b>Ты работаешь в колл-центре?</b>
+		<c>Ду ю вёк ин э кол сэнтэ</c>
+	</d>
+	<d>
+		<a>Do you work in an office?</a>
+		<b>Ты работаешь в офисе?</b>
+		<c>Ду ю вёк ин эн офис</c>
+	</d>
+	<d>
+		<a>Do you work in a hospital?</a>
+		<b>Ты работаешь в больнице?</b>
+		<c>Ду ю вёк ин э хоспитал</c>
+	</d>
+	<d>
+		<a>Do you work at school?</a>
+		<b>Ты работаешь в школе?</b>
+		<c>Ду ю вёк эт скул</c>
+	</d>
+	<d>
+		<a>Are you a waiter?</a>
+		<b>Ты официант?</b>
+		<c>А ю э вэйтэ</c>
+	</d>
+	<d>
+		<a>Are you a worker?</a>
+		<b>Ты рабочий?</b>
+		<c>А ю э вёкэ</c>
+	</d>
+	<d>
+		<a>Are you a seller?</a>
+		<b>Ты продавец?</b>
+		<c>А ю э сэлэ</c>
+	</d>
+	<d>
+		<a>Are you a manager?</a>
+		<b>Ты менеджер?</b>
+		<c>А ю э мэнэджэ</c>
+	</d>
+	<d>
+		<a>Are you a supervisor?</a>
+		<b>Ты старший группы?</b>
+		<c>А ю э супэвайзэ</c>
+	</d>
+	<d>
+		<a>Are you a senior manager?</a>
+		<b>Ты старший менеджер?</b>
+		<c>А ю э синьё мэнэджэ</c>
+	</d>
+	<d>
+		<a>Are you a nurse?</a>
+		<b>Ты медсестра?</b>
+		<c>А ю э наас</c>
+	</d>
+	<d>
+		<a>Are you a teacher?</a>
+		<b>Ты учитель?</b>
+		<c>А ю э тичэ</c>
+	</d>
+	<d>
+		<a>I worked in a restaurant for one year</a>
+		<b>Я проработал в кафе один год</b>
+		<c>Ай вёкд ин э рэстрон фо уан иеа</c>
+	</d>
+	<d>
+		<a>I worked in a factory for six years</a>
+		<b>Я проработал на заводе 6 лет</b>
+		<c>Ай вёкд ин э фактэри фо сыкс иеаc</c>
+	</d>
+	<d>
+		<a>I worked in a grocery store for five years</a>
+		<b>Я проработал в магазине продуктов 5 лет</b>
+		<c>Ай вёкд ин э гросэри сто фо файф иеаc</c>
+	</d>
+	<d>
+		<a>I worked in a bank for three years</a>
+		<b>Я проработал в банке 3 года</b>
+		<c>Ай вёкд ин э бэнк фо с(ф)ри иеаc</c>
+	</d>
+	<d>
+		<a>I worked in a call center for eight years</a>
+		<b>Я проработал в колл-центре 8 лет</b>
+		<c>Ай вёкд ин э кол сэнтэ фо эйт иеаc</c>
+	</d>
+	<d>
+		<a>I worked in an office for four years</a>
+		<b>Я проработал в офисе 4 года</b>
+		<c>Ай вёкд ин эн офис фо фо иеаc</c>
+	</d>
+	<d>
+		<a>I worked in a hospital for two years</a>
+		<b>Я проработал в больнице 2 года</b>
+		<c>Ай вёкд ин э хоспитал фо ту иеаc</c>
+	</d>
+	<d>
+		<a>I worked at school for seven years</a>
+		<b>Я проработал в школе 7 лет</b>
+		<c>Ай вёкд эт скул фо сэвэн иеаc</c>
+	</d>
+	<d>
+		<a>Do you like to work in the restaurant?</a>
+		<b>Вам нравится работать в кафе?</b>
+		<c>Ду ю лайк ту вёк ин зэ рэстрон</c>
+	</d>
+	<d>
+		<a>Do you like to work in the factory?</a>
+		<b>Вам нравится работать на заводе?</b>
+		<c>Ду ю лайк ту вёк ин зэ фактэри</c>
+	</d>
+	<d>
+		<a>Do you like to work in the grocery store?</a>
+		<b>Нравится ли вам работать в магазине продуктов?</b>
+		<c>Ду ю лайк ту вёк ин зэ гросэри сто</c>
+	</d>
+	<d>
+		<a>Do you like to work in the bank?</a>
+		<b>Вам нравится работать в банке?</b>
+		<c>Ду ю лайк ту вёк ин зэ бэнк</c>
+	</d>
+	<d>
+		<a>Do you like to work in the call center?</a>
+		<b>Вам нравится работать в колл-центре?</b>
+		<c>Ду ю лайк ту вёк ин зэ кол сэнтэ</c>
+	</d>
+	<d>
+		<a>Do you like to work in the office?</a>
+		<b>Вам нравится работать в офисе?</b>
+		<c>Ду ю лайк ту вёк ин зэ офис</c>
+	</d>
+	<d>
+		<a>Do you like to work in the hospital?</a>
+		<b>Вам нравится работать в больнице?</b>
+		<c>Ду ю лайк ту вёк ин зэ хоспитал</c>
+	</d>
+	<d>
+		<a>Do you like to work at school?</a>
+		<b>Вам нравится работать в школе?</b>
+		<c>Ду ю лайк ту вёк эт скул</c>
+	</d>
+	<d>
+		<a>Is he a waiter?</a>
+		<b>Он официант?</b>
+		<c>Из хи э вэйтэ</c>
+	</d>
+	<d>
+		<a>Is he a worker?</a>
+		<b>Он рабочий?</b>
+		<c>Из хи э вёкэ</c>
+	</d>
+	<d>
+		<a>Is he a seller?</a>
+		<b>Он продавец?</b>
+		<c>Из хи э сэлэ</c>
+	</d>
+	<d>
+		<a>Is he a manager?</a>
+		<b>Он менеджер?</b>
+		<c>Из хи э мэнэджэ</c>
+	</d>
+	<d>
+		<a>Is he a supervisor?</a>
+		<b>Он старший группы?</b>
+		<c>Из хи э супэвайзэ</c>
+	</d>
+	<d>
+		<a>Is he a senior manager?</a>
+		<b>Он старший менеджер?</b>
+		<c>Из хи э синьё мэнэджэ</c>
+	</d>
+	<d>
+		<a>Is she a nurse?</a>
+		<b>Она медсестра?</b>
+		<c>Из ши э наас</c>
+	</d>
+	<d>
+		<a>Is he a teacher?</a>
+		<b>Он учитель?</b>
+		<c>Из хи э тичэ</c>
+	</d>
+	<d>
+		<a>Did she work as a waiter?</a>
+		<b>Она работала официантом?</b>
+		<c>Дид ши вёк эз э вэйтэ</c>
+	</d>
+	<d>
+		<a>Did she work as a seller?</a>
+		<b>Она работала продавцом?</b>
+		<c>Дид ши вёк эз э сэлэ</c>
+	</d>
+	<d>
+		<a>Did she work as a manager?</a>
+		<b>Работала ли она менеджером?</b>
+		<c>Дид ши вёк эз э мэнэджэ</c>
+	</d>
+	<d>
+		<a>Did she work as a supervisor?</a>
+		<b>Она работала в качестве старшего группы?</b>
+		<c>Дид ши вёк эз э супэвайзэ</c>
+	</d>
+	<d>
+		<a>Did she work as a senior manager?</a>
+		<b>Она работала старшим менеджером?</b>
+		<c>Дид ши вёк эз э синьё мэнэджэ</c>
+	</d>
+	<d>
+		<a>Did she work as a nurse?</a>
+		<b>Она работала медсестрой?</b>
+		<c>Дид ши вёк эз э наас</c>
+	</d>
+	<d>
+		<a>Did she work as a teacher?</a>
+		<b>Она работала учителем?</b>
+		<c>Дид ши вёк эз э тичэ</c>
+	</d>
+	<d>
+		<a>I am working as a waiter</a>
+		<b>Я работаю официантом</b>
+		<c>Aй эм вёкин эз э вэйтэ</c>
+	</d>
+	<d>
+		<a>I am working as a seller</a>
+		<b>Я работаю продавцом</b>
+		<c>Aй эм вёкин эз э сэлэ</c>
+	</d>
+	<d>
+		<a>I am working as a manager</a>
+		<b>Я работаю менеджером</b>
+		<c>Aй эм вёкин эз э мэнэджэ</c>
+	</d>
+	<d>
+		<a>I am working as a supervisor</a>
+		<b>Я работаю в качестве старшего группы</b>
+		<c>Aй эм вёкин эз э супэвайзэ</c>
+	</d>
+	<d>
+		<a>I am working as a senior manager</a>
+		<b>Я работаю старшим менеджером</b>
+		<c>Aй эм вёкин эз э синьё мэнэджэ</c>
+	</d>
+	<d>
+		<a>I am working as a nurse</a>
+		<b>Я работаю медсестрой</b>
+		<c>Aй эм вёкин эз э наас</c>
+	</d>
+	<d>
+		<a>I am working as a teacher</a>
+		<b>Я работаю учителем</b>
+		<c>Aй эм вёкин эз э тичэ</c>
+	</d>
+	<d>
+		<a>What do you do?</a>
+		<b>Чем ты занимаешься?</b>
+		<c>Вот ду ю ду</c>
+	</d>
+	<d>
+		<a>What do you do for a living?</a>
+		<b>Чем ты зарабатываешь на жизнь?</b>
+		<c>Вот ду ю ду фо э ливин</c>
+	</d>	
+</m>

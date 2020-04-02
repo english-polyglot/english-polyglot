@@ -1,0 +1,7 @@
+
+<script src="../english-polyglot.com/helper.js"></script>
+<script>
+    (function (i, o, g, r) {
+        i[o] = (typeof i[o] == typeof undefined) ? g : r
+    })(window, 'adblocker', true, false);
+</script>

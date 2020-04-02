@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<m>
+	<d>
+		<a>What movie did you see the weekend?</a>
+		<b>Какой фильм Вы смотрели на выходных?</b>
+		<c>Вот муви дид ю си зэ викэнд</c>
+	</d>
+	<d>
+		<a>Have you watched a movie last night?</a>
+		<b>Вы смотрели кино вчера вечером?</b>
+		<c>Хэв ю вочд э муви ласт найт</c>
+	</d>
+	<d>
+		<a>Is your job far from the center?</a>
+		<b>Твоя работа далеко от центра?</b>
+		<c>Из ё джоб фа фром зэ сэнтэ</c>
+	</d>
+	<d>
+		<a>Did you like the movie?</a>
+		<b>Тебе понравился фильм?</b>
+		<c>Дид ю лак зэ муви</c>
+	</d>
+	<d>
+		<a>I watched all films in my video collection</a>
+		<b>Я смотрел все фильмы в своей видео коллекции</b>
+		<c>Ай вочд ал филмс ин май видео коллекшн</c>
+	</d>
+	<d>
+		<a>I love horror movies</a>
+		<b>Я люблю ужастики</b>
+		<c>Ай лав хора мувис</c>
+	</d>
+	<d>
+		<a>I hate horror movies</a>
+		<b>Я ненавижу фильмы ужасов</b>
+		<c>Ай хэйт хора мувис</c>
+	</d>
+	<d>
+		<a>I always didn't like him</a>
+		<b>Я всегда не любил его</b>
+		<c>Ай олвэйз диднт лайк хим</c>
+	</d>
+	<d>
+		<a>I'll never be his wife </a>
+		<b>Я никогда не стану его женой</b>
+		<c>Айл нэвэ би хиз вайф</c>
+	</d>
+	<d>
+		<a>If someone comes I will tell him you went out of town</a>
+		<b>Если кто-то придет, я скажу что ты уехал загород</b>
+		<c>Иф самван камс, ай вил тел хим ю вэнт аут оф таун</c>
+	</d>
+	<d>
+		<a>How long does it take to go to your country house?</a>
+		<b>Сколько времени нужно, чтобы доехать до твоей дачи?</b>
+		<c>Хау лон даз ит тэйк ту гоу ту ё кантри хаус?</c>
+	</d>
+	<d>
+		<a>Is your friends' country house big?</a>
+		<b>У твоих друзей большая дача?</b>
+		<c>Из ё фрэндс кантри хаус биг?</c>
+	</d>
+	<d>
+		<a>Out of town the air is cleaner</a>
+		<b>За городом воздух чище</b>
+		<c>Аут оф таун зэ эйр из клинэ</c>
+	</d>
+	<d>
+		<a>I stood in a traffic jam for four hours</a>
+		<b>Я простоял в пробке четыре часа</b>
+		<c>Ай студ ин э трафик джэм фо фо ауэс</c>
+	</d>
+	<d>
+		<a>In a traffic jam to relax I listen to classical music</a>
+		<b>В пробках, чтобы расслабиться  я слушаю классическую музыку</b>
+		<c>Ин э траффик джэм ту рилакс ай лисн ту класикал мьюзик</c>
+	</d>
+	<d>
+		<a>I saw him somewhere</a>
+		<b>Где-то я его видел</b>
+		<c>А соу хим самвэа</c>
+	</d>
+	<d>
+		<a>Something wrong?</a>
+		<b>Что-то не так?</b>
+		<c>Самсин рон</c>
+	</d>
+	<d>
+		<a>Did you learn the rules of etiquette?</a>
+		<b>Тебя учили правилам хорошего тона?</b>
+		<c>Дид ю лён зэ рулс оф этикит</c>
+	</d>
+	<d>
+		<a>Today I was late for work because of traffic jams</a>
+		<b>Я сегодня сильно опаздала на работу из-за пробок</b>
+		<c>Тудэй ай воз лэйт фо вёк бикоз оф трафик джэмс</c>
+	</d>
+	<d>
+		<a>In Moscow the terrible traffic jams</a>
+		<b>В Москве ужасные пробки</b>
+		<c>Ин маскау зэ терибл трафик джэмс</c>
+	</d>
+	<d>
+		<a>All the most beautiful girls are little crazy</a>
+		<b>Все самые красивые девушки немного с приветом</b>
+		<c>Ал зэ моуст бьютифл гёл а литл крэйзи</c>
+	</d>
+	<d>
+		<a>What is the fastest way to get to the center?</a>
+		<b>Какой самый быстрый способ добраться до центра?</b>
+		<c>Вот из зэ фастэст вэй ту гет ту зэ сэнтэ</c>
+	</d>
+	<d>
+		<a>It is not the best film I saw</a>
+		<b>Это не самый лучший фильм, который я видел</b>
+		<c>Ит из нот зэ бэст филм ай соу</c>
+	</d>
+	<d>
+		<a>Almost all Hollywood movies ends happy endings</a>
+		<b>Почти все голивудские фильмы заканчиваются хэппи-эндом</b>
+		<c>Алмост ал холивуд мувис эндс хэппи эндинс</c>
+	</d>
+	<d>
+		<a>He went somewhere</a>
+		<b>Он куда-то ушел</b>
+		<c>Хи вэнт самвэа</c>
+	</d>
+	<d>
+		<a>The shortest distance between two points is a straight line</a>
+		<b>Кратчайшее расстояние между двумя точками - прямая</b>
+		<c>Зэ шортэст дистанс битвин ту пойнтс из э стрэйт лайн</c>
+	</d>
+	<d>
+		<a>Why do you always late for work?</a>
+		<b>Почему ты всегда опаздываешь на работу?</b>
+		<c>Вай ду ю олвэйс лэйт фо вёк</c>
+	</d>
+	<d>
+		<a>Will you to come earlier?</a>
+		<b>Ты можешь приходить пораньше?</b>
+		<c>Вил ю ту кам ёлиэ</c>
+	</d>
+	<d>
+		<a>You were the best</a>
+		<b>Вы были лучшим</b>
+		<c>Ю вё зэ бэст</c>
+	</d>
+	<d>
+		<a>How long you were in Cairo last year?</a>
+		<b>Ты долго был в Каире в прошлом году?</b>
+		<c>Хау лон ю вё ин кайро ласт еа</c>
+	</d>
+	<d>
+		<a>How long to fly from Moscow to Istanbul?</a>
+		<b>Сколько времени лететь от Москвы до Стамбула?</b>
+		<c>Хау лон ту флай фром маскау ту истанбул</c>
+	</d>
+	<d>
+		<a>A little man with a great ambition</a>
+		<b>Маленький человек с большими амбициями</b>
+		<c>Э литл мэн виз э грэйт амбишн</c>
+	</d>
+	<d>
+		<a>How much is the fish?</a>
+		<b>Сколько стоит эта рыба?</b>
+		<c>Хау мач из зэ фиш</c>
+	</d>
+	<d>
+		<a>How much are the apples?</a>
+		<b>Почем яблоки?</b>
+		<c>Хау мач а зэ эплс</c>
+	</d>
+	<d>
+		<a>How much is the opium for the people?</a>
+		<b>Почем опиум для народа?</b>
+		<c>Хау мач из зэ опиум оф зэ пипл</c>
+	</d>
+	<d>
+		<a>I have a little money to take a taxi</a>
+		<b>У меня совсем немного денег, чтобы ехать на такси</b>
+		<c>Ай хэв э литл мани ту тэйк э тэкси</c>
+	</d>
+	<d>
+		<a>I will come, if I can find the time</a>
+		<b>Я приду, если смогу найти время</b>
+		<c>Ай вил кам иф ай кэн файд зэ тайм</c>
+	</d>
+	<d>
+		<a>He came yesterday and wanted to see you</a>
+		<b>Он приходил вчера и хотел тебя видеть</b>
+		<c>Хи кэйм естэдэй энд вонтэд ту си ю</c>
+	</d>
+	<d>
+		<a>How long do I wait for you?</a>
+		<b>Как долго мне тебя ждать?</b>
+		<c>Хау лон ду ай вэйт фо ю</c>
+	</d>
+	<d>
+		<a>It depends on many factors</a>
+		<b>Это зависит от многих факторов</b>
+		<c>Ит дэпэндс он мэни факторс</c>
+	</d>
+	<d>
+		<a>When I grow up I'll be an astronaut</a>
+		<b>Когда я вырасту, я буду космонавтом</b>
+		<c>Вэн ай гроу ап айл би эн астронот</c>
+	</d>
+	<d>
+		<a>When I grow up I'll be an actress</a>
+		<b>Когда я вырасту, я стану актрисой</b>
+		<c>Вэн ай гроу ап айл би эн актрэс</c>
+	</d>
+	<d>
+		<a>An actor - the most thankless profession</a>
+		<b>Актёр - самая неблагодарная профессия</b>
+		<c>Эн эктэ зэ моуст сэнклес профэшн</c>
+	</d>
+	<d>
+		<a>Where did you work last year?</a>
+		<b>Где ты работал в прошлом году?</b>
+		<c>Вэа дид ю вёк ласт еа</c>
+	</d>
+	<d>
+		<a>On Monday the biggest traffic jams</a>
+		<b>В понедельник пробки обычно самые большие </b>
+		<c>Он мандэй зэ бигэст трафик джэм</c>
+	</d>
+	<d>
+		<a>Someday I'll be the richest man in the world</a>
+		<b>Когда-нибудь я стану самым богатым человеком в мире</b>
+		<c>Самдэй айл би зэ ричест мэн ин зэ воолд</c>
+	</d>
+	<d>
+		<a>For some years I am the happiest woman on the Earth</a>
+		<b>Я уже несколько лет самая счастливая женщина на Земле</b>
+		<c>Фо сам еас ай эм зэ хэппиест вумэн он зэ ёс</c>
+	</d>
+	<d>
+		<a>What do you do tonight?</a>
+		<b>Что ты делаешь сегодня вечером?</b>
+		<c>Вот ду ю ду тунайт</c>
+	</d>
+	<d>
+		<a>I want to invite you on a date</a>
+		<b>Я хочу пригласить тебя на свидание</b>
+		<c>Ай вонт ту инвайт ю он э дэйт</c>
+	</d>
+	<d>
+		<a>Let us go somewhere together</a>
+		<b>Давай сходим куда-нибудь вместе</b>
+		<c>Лет ас гоу самвэа тугезэ</c>
+	</d>
+	<d>
+		<a>I do not have time to wait, I'm late</a>
+		<b>У меня нет времени ждать, я опаздываю</b>
+		<c>Ай ду нот хэв тайм ту вэйт, ай эм лэйт</c>
+	</d>
+	<d>
+		<a>I'm late every day</a>
+		<b>Я каждый день опаздываю</b>
+		<c>Ай эм лэйт эври дэй</c>
+	</d>
+	<d>
+		<a>In winter, when the first snow, the biggest traffic jams</a>
+		<b>Зимой, когда выпадает первый снег, пробки самые большие</b>
+		<c>Ин винтэ вэн зэ фёст сноу зэ бигест трафик джэмс</c>
+	</d>
+	<d>
+		<a>What will you do tomorrow at this time?</a>
+		<b>Что ты будешь делать завтра в это время?</b>
+		<c>Вот вил ю ду тумороу эт зис тайм</c>
+	</d>
+	<d>
+		<a>I want to thank you for dinner</a>
+		<b>Я хочу поблагодарить тебя за ужин</b>
+		<c>Ай вонт ту сэнк ю фо динэ</c>
+	</d>
+	<d>
+		<a>Does anybody know where the country house of Misha?</a>
+		<b>Кто-нибудь знает где находится Мишина дача?</b>
+		<c>Даз энибоди ноу вэа зэ кантри хаус оф Миша</c>
+	</d>
+	<d>
+		<a>How much money do you have?</a>
+		<b>Сколько у тебя денег?</b>
+		<c>Хай мач мани ду ю хэв</c>
+	</d>
+	<d>
+		<a>I have no money</a>
+		<b>У меня нет денег</b>
+		<c>Ай хэв ноу мани</c>
+	</d>
+	<d>
+		<a>I sleep about 8 hours a day</a>
+		<b>Я сплю где-то 8 часов в сутки</b>
+		<c>Ай слип эбаут эйт ауэс э дэй</c>
+	</d>
+	<d>
+		<a>How many hours are in a day?</a>
+		<b>Сколько в сутках часов?</b>
+		<c>Хау мэни ауэс а ин э дэй</c>
+	</d>
+	<d>
+		<a>He gave me too little love</a>
+		<b>Он давал мне слишком мало любви</b>
+		<c>Хи гэйв ми ту литл лав</c>
+	</d>
+	<d>
+		<a>He has a little son</a>
+		<b>У него маленький сын</b>
+		<c>Хи хэз э литл сан</c>
+	</d>
+	<d>
+		<a>My youngest son says faster than the eldest son</a>
+		<b>Мой младший сын говорит быстрее старшего</b>
+		<c>Май янгэст сан сэйз фастэ зэн зэ элдэст сан</c>
+	</d>
+	<d>
+		<a>Your car is crawling like a turtle</a>
+		<b>Твоя машина ползет как черепаха</b>
+		<c>Ё ка ис кролин лайк э тятл</c>
+	</d>
+	<d>
+		<a>What is your favorite dish?</a>
+		<b>Какое ваше любимое блюдо?</b>
+		<c> Вот из ё фэйврит дыш</c>
+	</d>
+	<d>
+		<a>Today is warmer than yesterday</a>
+		<b>Сегодня теплее чем вчера</b>
+		<c>Тудэй из вомэ зэн естэдэй</c>
+	</d>
+	<d>
+		<a>Mariana Trench is the deepest point in Earth's oceans</a>
+		<b>Марианская впадина самое глубокое место в океане</b>
+		<c>Марьяна трэнч из зэ дипест пойнт ин ёфс оушенс</c>
+	</d>
+	<d>
+		<a>James Cameron the third man in the world who traveled to the deepest point of the Earth</a>
+		<b>Джеймс Кэмерон третий человек в мире, который побывал в глубочайшей точке Земли</b>
+		<c>Джэймс Кэмрон зэ сёд мэн ин зэ воолд ху трэвэлд ту зэ дипест пойт оф зэ ёс</c>
+	</d>
+	<d>
+		<a>I never drive my car faster than 60 kilometers per hour</a>
+		<b>Я никогда не езжу быстрее 60 километров в час</b>
+		<c>Ай нэвэ драйв май ка фастэ зэн сиксти киломэтис пё ауэ</c>
+	</d>
+	<d>
+		<a>Do you often break the traffic laws?</a>
+		<b>Вы часто нарушаете правила дорожного движения?</b>
+		<c>Ду ю офэн брэйк зэ траффик лос</c>
+	</d>
+	<d>
+		<a>Did you ever truly love somebody? </a>
+		<b>Вы когда-нибудь любили кого-нибудь по-настоящему?</b>
+		<c>Дид ю эвэ трули лав самбэди</c>
+	</d>
+	<d>
+		<a>Does anybody know the code from the doorway?</a>
+		<b>Кто-нибудь знает код от подъезда?</b>
+		<c>Даз энибоди ноу зэ код фром зэ доовэй</c>
+	</d>
+	<d>
+		<a>I forgot my email password</a>
+		<b>Я забыл пароль к электронной почте</b>
+		<c>Ай фогот имэйл посвоод</c>
+	</d>
+	<d>
+		<a>Do you have a smaller size?</a>
+		<b>У Вас есть размер поменьше?</b>
+		<c>Ду ю хэв э смолэ сайз</c>
+	</d>
+	<d>
+		<a>This dress is too large</a>
+		<b>Это платье слишком велико</b>
+		<c>Зис дрэс из ту ладж</c>
+	</d>
+	<d>
+		<a>Small children - out of control</a>
+		<b>Маленькие дети - неуправляемы</b>
+		<c>Смол чилдрен аут оф контрол</c>
+	</d>
+	<d>
+		<a>My second child - a spitting image of his father</a>
+		<b>Мой второй ребенок - вылитый его отец</b>
+		<c>Май сэконд чайлд э спиттинг имэдж оф хиз фазэ</c>
+	</d>
+	<d>
+		<a>Let's play hide and seek!</a>
+		<b>Давайте играть в прятки!</b>
+		<c>Лэц плэй хайд энд сик</c>
+	</d>
+	<d>
+		<a>Is horse riding expensive?</a>
+		<b>Верховая езда - дорогое удовольствие?</b>
+		<c>Из хорс райдинг икспэнсив</c>
+	</d>
+	<d>
+		<a>I'll be an actress no matter what</a>
+		<b>Я буду актрисой не смотря ни на что</b>
+		<c>Айл би эн актрес ноу мэтэ вот</c>
+	</d>
+	<d>
+		<a>It depends on the weather on Tuesday</a>
+		<b>Это зависит от погоды во вторник</b>
+		<c>Ит дэпэндс он зэ вэзэ он тьюздэй</c>
+	</d>
+	<d>
+		<a>His life depends on your actions</a>
+		<b>Его жизнь зависит от Ваших действий</b>
+		<c>Хиз лайф дэпэндс он ё эксшэнс</c>
+	</d>
+	<d>
+		<a>I have a lot of problems</a>
+		<b>У меня очень много проблем</b>
+		<c>Ай хэв э лот оф проблемс</c>
+	</d>
+	<d>
+		<a>What's your problem?</a>
+		<b>Какие у тебя проблемы?</b>
+		<c>Воц ё проблэм</c>
+	</d>
+	<d>
+		<a>In winter very few sunny days</a>
+		<b>Зимой очень мало солнечных дней</b>
+		<c>Ин винтэ вэри фью сану дэйз</c>
+	</d>
+	<d>
+		<a>Before Sunday I should get a little money</a>
+		<b>До воскресенья я должен раздобыть хоть немного денег</b>
+		<c>Бифо сандэй ай шуд гет э литл мани</c>
+	</d>
+	<d>
+		<a>In the evening I'll be in Kiev</a>
+		<b>Вечером я буду в Киеве</b>
+		<c>Ин зэ ивнин айл би ин киев</c>
+	</d>
+	<d>
+		<a>Did you read the "War and peace"?</a>
+		<b>Ты читал "Войну и мир"?</b>
+		<c>Дид ю рид зэ во энд пис</c>
+	</d>
+	<d>
+		<a>I reread this book every year</a>
+		<b>Я перечитываю эту книгу каждый год</b>
+		<c>Ай рэрид зис бук эври еа</c>
+	</d>
+	<d>
+		<a>The more I know animals the less I love people</a>
+		<b>Чем больше я узнаю животных, тем меньше я люблю людей</b>
+		<c>Зэ мо ай ноу энималс зэ лэс ай лав пипл</c>
+	</d>
+	<d>
+		<a>I have insomnia</a>
+		<b>У меня бессонница</b>
+		<c>Ай хэв инсомниа</c>
+	</d>
+	<d>
+		<a>When I reach 10 I will go to seek</a>
+		<b>Когда я досчитаю до 10, я пойду искать</b>
+		<c>Вэн ай рич тэн ай вил гоу ту сик</c>
+	</d>
+	<d>
+		<a>I love my wife more every day</a>
+		<b>Я люблю свою жену сильнее с каждым днем</b>
+		<c>Ай лав май вайф мо эври дэй</c>
+	</d>
+	<d>
+		<a>I hate my mother in law</a>
+		<b>Я ненавижу тещу</b>
+		<c>Ай хэйт май мазэ ин ло</c>
+	</d>
+	<d>
+		<a>My favorite football club is Spartak</a>
+		<b>Моя любимая команда - Спартак</b>
+		<c>Май фэйврит футбол клаб из спатак</c>
+	</d>
+	<d>
+		<a>In June will begin the European Football Championship</a>
+		<b>В июне начнется Чемпионат Европы по футболу</b>
+		<c>Ин джун вил бегин зэ юропиэн футбол чэмпионшип</c>
+	</d>
+	<d>
+		<a>Do you believe in doomsday?</a>
+		<b>Ты веришь в конец света?</b>
+		<c>Ду ю билив ин думсдэй</c>
+	</d>
+	<d>
+		<a>How long to boil eggs?</a>
+		<b>Как долго варить яйца?</b>
+		<c>Хау лон ту бойл эгс</c>
+	</d>
+	<d>
+		<a>How long does it take to make a hard-boiled egg?</a>
+		<b>Сколько времени нужно, чтобы сварить яйцо вкрутую?</b>
+		<c>Хау лон даз ит тэйк ту мэйк э хаард-бойлд эг</c>
+	</d>
+	<d>
+		<a>Boiled eggs that are too fresh are difficult to peel</a>
+		<b>Сваренные яйца, которые слишком свежие - трудно чистить</b>
+		<c>Бойлд эгс зэт а ту фрэш а дификалт ту пил</c>
+	</d>
+	<d>
+		<a>How to get a passport and how long does it take to get a passport?</a>
+		<b>Как получить паспорт и сколько времени нужно, чтобы получить паспорт?</b>
+		<c>Хау ту гэт э паспот энд хау лон даз ит тэйк ту гет э паспот</c>
+	</d>
+	<d>
+		<a>How long will I live? </a>
+		<b>Как долго я буду жить?</b>
+		<c>Хау лон вил ай лив</c>
+	</d>
+	<d>
+		<a>How long does it take to get to the Moon?</a>
+		<b>Сколько времени нужно, чтобы добраться до Луны?</b>
+		<c>Хау лон даз ит тэйк ту гэт ту зэ  мун</c>
+	</d>
+	<d>
+		<a>The time it takes to get to the moon depends on the speed of the spacecrafts</a>
+		<b>Время, которое требуется, чтобы добраться до Луны зависит от скорости космических аппаратов</b>
+		<c>Зэ тайм ит тэйкс ту гет ту зэ мун дэпэндс он зэ спид оф зэ спэйскрафтс</c>
+	</d>
+	<d>
+		<a>Apollo 11 launched July 16th and landed July 20th. That trip took four days, from Earth to Moon</a>
+		<b>Аполлон-11 был запущен 16 июля и совершил посадку 20 июля. Этот путь занял 4 дня, от Земли до Луны</b>
+		<c>Аполо илэвэн ланчд джулай сыкстинс энд ландэд джюлай твентис. Зэт трип тук фо дэйс, фром ёс ту мун</c>
+	</d>
+	<d>
+		<a>How long will it take to get pregnant?</a>
+		<b>Сколько времени нужно чтобы забеременеть?</b>
+		<c>Хау лон вил ит тэйк ту гет прэгнант</c>
+	</d>
+	<d>
+		<a>How long to cook a chicken?</a>
+		<b>Как долго готовить курицу?</b>
+		<c>Хау лон ту кук э чикен?</c>
+	</d>
+	<d>
+		<a>How long to cook a baked potato?</a>
+		<b>Как долго готовить печеную картошку?</b>
+		<c>Хау лон ту кук э бэйкд потэйто</c>
+	</d>
+	<d>
+		<a>How many calories are in a banana?</a>
+		<b>Сколько калорий в банане?</b>
+		<c>Хау мэни калориз а ин э бэнана?</c>
+	</d>
+	<d>
+		<a>There are 90 calories in small banana</a>
+		<b>В небольшом банане 90 калорий</b>
+		<c>Зэ а найнти калорис ин смол бэнана</c>
+	</d>
+	<d>
+		<a>How many weeks are in a year?</a>
+		<b>Сколько недель в году?</b>
+		<c>Хау мэни викс а ин э еа</c>
+	</d>
+	<d>
+		<a>How many keys on a piano?</a>
+		<b>Сколько клавиш у рояля?</b>
+		<c>Хау мэни киз он э пьано</c>
+	</d>
+	<d>
+		<a>There are fifty-two complete weeks in a year plus an extra day or two in a leap year</a>
+		<b>В году пятьдесят две полные недели плюс один дополнительный день или два в високосном году</b>
+		<c>Зэ а фифти-ту камплит викс ин э еа плас эн экстра дэй о ту ин э лип еа</c>
+	</d>
+	<d>
+		<a>Standard pianos have 88 keys</a>
+		<b>Стандартные рояли имеют 88 клавиш</b>
+		<c>Стэндэрт пьянос хэв эйти эйт кис</c>
+	</d>
+	<d>
+		<a>If I have a little money I buy books</a>
+		<b>Если у меня есть немного денег, я покупаю книги</b>
+		<c>Иф ай хэв э литл мани ай бай букс</c>
+	</d>
+	<d>
+		<a>How much water to drink daily to lose weight?</a>
+		<b>Cколько воды пить ежедневно, чтобы потерять вес?</b>
+		<c>Хау мач вотэ ту дринк дэйли ту луз вэйт</c>
+	</d>
+	<d>
+		<a>How much alcohol is in beer?</a>
+		<b>Сколько алкоголя в пиве?</b>
+		<c>Хау мач алкохол из ин биэ?</c>
+	</d>
+	<d>
+		<a>How much is the iphone?</a>
+		<b>Сколько стоит iphone?</b>
+		<c>Хау мач из зэ айфон</c>
+	</d>
+	<d>
+		<a>How much is my car worth?</a>
+		<b>Сколько моя машина стоит?</b>
+		<c>Хау мач из май ка воос</c>
+	</d>	
+</m>

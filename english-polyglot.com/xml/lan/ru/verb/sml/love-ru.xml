@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mess>
+	<m>
+		<d i="1">
+			<a>I will love you</a>
+			<b>Я полюблю тебя</b>
+			<c>Ай вил лав ю</c>
+		</d>
+		<d>
+			<a>I didn't love you</a>
+			<b>Я не любила тебя</b>
+			<c>Ай диднт лав ю</c>
+		</d>
+		<d>
+			<a>Do I love you?</a>
+			<b>Люблю ли я тебя?</b>
+			<c>Ду ай лав ю</c>
+		</d>
+		<d>
+			<a>Will I love you?</a>
+			<b>Буду ли я тебя любить?</b>
+			<c>Вил ай лав ю</c>
+		</d>
+		<d>
+			<a>Did I love you?</a>
+			<b>Я любила тебя?</b>
+			<c>Дид ай лав ю</c>
+		</d>
+		<d>
+			<a>I love you</a>
+			<b>Я тебя люблю</b>
+			<c>Ай лав ю</c>
+		</d>
+		<d>
+			<a>I loved you</a>
+			<b>Я любил тебя</b>
+			<c>Ай лавд ю</c>
+		</d>
+		<d>
+			<a>I will not love you</a>
+			<b>Я не полюблю тебя</b>
+			<c>Ай вил нот лав ю</c>
+		</d>
+		<d>
+			<a>I don't love you</a>
+			<b>Я не люблю тебя</b>
+			<c>Ай донт лав ю</c>
+		</d>
+		<d>
+			<a>Will you love me?</a>
+			<b>Ты полюбишь меня?</b>
+			<c>Вил ю лав ми?</c>
+		</d>
+		<d>
+			<a>You will love me</a>
+			<b>Ты полюбишь меня</b>
+			<c>Ю вил лав ми</c>
+		</d>
+		<d>
+			<a>You will not love me</a>
+			<b>Ты не полюбишь меня</b>
+			<c>Ю вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Do you love me?</a>
+			<b>Ты любишь меня?</b>
+			<c>Ду ю лав ми</c>
+		</d>
+		<d>
+			<a>You love me</a>
+			<b>Ты любишь меня</b>
+			<c>Ю лав ми</c>
+		</d>
+		<d>
+			<a>You don't love me</a>
+			<b>Ты не любишь меня</b>
+			<c>Ю донт лав ми</c>
+		</d>
+		<d>
+			<a>Did you love me?</a>
+			<b>Ты любил меня?</b>
+			<c>Дид ю лав ми</c>
+		</d>
+		<d>
+			<a>You loved me</a>
+			<b>Ты любил меня</b>
+			<c>Ю лавд ми</c>
+		</d>
+		<d>
+			<a>You didn't love me</a>
+			<b>Ты не любил меня</b>
+			<c>Ю диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will I love him?</a>
+			<b>Полюблю ли я его?</b>
+			<c>Вил ай лав хим</c>
+		</d>
+		<d>
+			<a>I will love him</a>
+			<b>Я полюблю его</b>
+			<c>Ай вил лав хим</c>
+		</d>
+		<d>
+			<a>I will not love him</a>
+			<b>Я не полюблю его</b>
+			<c>Ай вил нот лав хим</c>
+		</d>
+		<d>
+			<a>Do I love him?</a>
+			<b>Люблю ли я его?</b>
+			<c>Ду ай лав хим</c>
+		</d>
+		<d>
+			<a>I love him</a>
+			<b>Я люблю его</b>
+			<c>Ай лав хим</c>
+		</d>
+		<d>
+			<a>I don't love him</a>
+			<b>Я не люблю его</b>
+			<c>Ай донт лав хим</c>
+		</d>
+		<d>
+			<a>Did I love him?</a>
+			<b>Любила ли я его?</b>
+			<c>Дид ай лав хим</c>
+		</d>
+		<d>
+			<a>I loved him</a>
+			<b>Я любила его</b>
+			<c>Ай лавд хим</c>
+		</d>
+		<d>
+			<a>I didn't love him</a>
+			<b>Я не любила его</b>
+			<c>Ай диднт лав хим</c>
+		</d>
+		<d>
+			<a>Will he love me?</a>
+			<b>Полюбит ли он меня?</b>
+			<c>Вил хи лав ми</c>
+		</d>
+		<d>
+			<a>He will love me</a>
+			<b>Он полюбит меня</b>
+			<c>Хи вил лав ми</c>
+		</d>
+		<d>
+			<a>He will not love me</a>
+			<b>Он не полюбит меня</b>
+			<c>Хи вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Does he love me?</a>
+			<b>Он меня любит?</b>
+			<c>Дас хи лав ми</c>
+		</d>
+		<d>
+			<a>He loves me</a>
+			<b>Он меня любит</b>
+			<c>Хи лавс ми</c>
+		</d>
+		<d>
+			<a>He doesn't love me</a>
+			<b>Он меня не любит</b>
+			<c>Хи дазнт лав ми</c>
+		</d>
+		<d>
+			<a>Did he love me?</a>
+			<b>Он любил меня?</b>
+			<c>Дид хи лав ми</c>
+		</d>
+		<d>
+			<a>He loved me</a>
+			<b>Он любил меня</b>
+			<c>Хи лавд ми</c>
+		</d>
+		<d>
+			<a>He didn't love me</a>
+			<b>Он не любил меня</b>
+			<c>Хи диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will I love her?</a>
+			<b>Я полюблю её?</b>
+			<c>Вил ай лав хё</c>
+		</d>
+		<d>
+			<a>I will love her</a>
+			<b>Я полюблю её</b>
+			<c>Ай вил лав хё</c>
+		</d>
+		<d>
+			<a>I will not love her</a>
+			<b>Я не полюблю её</b>
+			<c>Ай вил нот лав хё</c>
+		</d>
+		<d>
+			<a>Do I love her?</a>
+			<b>Я люблю её?</b>
+			<c>Ду ай лав хё</c>
+		</d>
+		<d>
+			<a>I love her</a>
+			<b>Я люблю её</b>
+			<c>Ай лав хё</c>
+		</d>
+		<d>
+			<a>I don't love her</a>
+			<b>Я не люблю её</b>
+			<c>Ай донт лав хё</c>
+		</d>
+		<d>
+			<a>Did I love her?</a>
+			<b>Я любил её?</b>
+			<c>Дид ай лав хё</c>
+		</d>
+		<d>
+			<a>I loved her</a>
+			<b>Я любил её</b>
+			<c>Ай лавд хё</c>
+		</d>
+		<d>
+			<a>I did not love her</a>
+			<b>Я не любил её</b>
+			<c>Ай дид нот лав хё</c>
+		</d>
+		<d>
+			<a>Will she love me?</a>
+			<b>Она полюбит меня?</b>
+			<c>Вил ши лав ми?</c>
+		</d>
+		<d>
+			<a>She will love me</a>
+			<b>Она полюбит меня</b>
+			<c>Ши вил лав ми</c>
+		</d>
+		<d>
+			<a>She will not love me</a>
+			<b>Она не полюбит меня</b>
+			<c>Ши вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Does she love me?</a>
+			<b>Она любит меня?</b>
+			<c>Дас ши лав ми</c>
+		</d>
+		<d>
+			<a>She loves me</a>
+			<b>Она любит меня</b>
+			<c>Ши лавс ми</c>
+		</d>
+		<d>
+			<a>She doesn't love me</a>
+			<b>Она не любит меня</b>
+			<c>Ши дазнт лав ми</c>
+		</d>
+		<d>
+			<a>Did she love me?</a>
+			<b>Она любила меня?</b>
+			<c>Дид ши лав ми</c>
+		</d>
+		<d>
+			<a>She loved me</a>
+			<b>Она любила меня</b>
+			<c>Ши лавд ми</c>
+		</d>
+		<d>
+			<a>She didn't love me</a>
+			<b>Она не любила меня</b>
+			<c>Ши диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will I love them?</a>
+			<b>Я полюблю их?</b>
+			<c>Вил ай лав зем</c>
+		</d>
+		<d>
+			<a>I will love them</a>
+			<b>Я полюблю их</b>
+			<c>Ай вил лав зем</c>
+		</d>
+		<d>
+			<a>I will not love them</a>
+			<b>Я не полюблю их</b>
+			<c>Ай вил нот лав зем</c>
+		</d>
+		<d>
+			<a>Do I love them?</a>
+			<b>Я люблю их?</b>
+			<c>Ду ай лав зем</c>
+		</d>
+		<d>
+			<a>I love them</a>
+			<b>Я люблю их</b>
+			<c>Ай лав зем</c>
+		</d>
+		<d>
+			<a>I don't love them</a>
+			<b>Я не люблю их</b>
+			<c>Ай донт лав зем</c>
+		</d>
+		<d>
+			<a>Did I love them?</a>
+			<b>Любил ли я их?</b>
+			<c>Дид ай лав зем</c>
+		</d>
+		<d>
+			<a>I loved them</a>
+			<b>Я любил их</b>
+			<c>Ай лавд зем</c>
+		</d>
+		<d>
+			<a>I did not love them</a>
+			<b>Я не любил их</b>
+			<c>Ай дид нот лав зем</c>
+		</d>
+		<d>
+			<a>Will they love me?</a>
+			<b>Они полюбят меня?</b>
+			<c>Вил зей лав ми</c>
+		</d>
+		<d>
+			<a>They will love me</a>
+			<b>Они полюбят меня</b>
+			<c>Зей вил лав ми</c>
+		</d>
+		<d>
+			<a>They will not love me</a>
+			<b>Они не полюбят меня</b>
+			<c>Зей вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Do they love me?</a>
+			<b>Они любят меня?</b>
+			<c>Ду зей лав ми</c>
+		</d>
+		<d>
+			<a>They love me</a>
+			<b>Они любят меня</b>
+			<c>Зей лав ми</c>
+		</d>
+		<d>
+			<a>They don't love me</a>
+			<b>Они не любят меня</b>
+			<c>Зей донт лав ми</c>
+		</d>
+		<d>
+			<a>Did they love me?</a>
+			<b>Они любили меня?</b>
+			<c>Дид зей лав ми</c>
+		</d>
+		<d>
+			<a>They loved me</a>
+			<b>Они любили меня</b>
+			<c>Зей лавд ми</c>
+		</d>
+		<d>
+			<a>They didn't love me</a>
+			<b>Они не любили меня</b>
+			<c>Зей диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will you love him?</a>
+			<b>Полюбишь ли ты его?</b>
+			<c>Вил ю лав хим</c>
+		</d>
+		<d>
+			<a>You will love him</a>
+			<b>Ты полюбишь его</b>
+			<c>Ю вил лав хим</c>
+		</d>
+		<d>
+			<a>You will not love him</a>
+			<b>Ты не полюбишь его</b>
+			<c>Ю вил нот лав хим</c>
+		</d>
+		<d>
+			<a>Do you love him?</a>
+			<b>Ты любишь его?</b>
+			<c>Ду ю лав хим</c>
+		</d>
+		<d>
+			<a>You love him</a>
+			<b>Ты любишь его</b>
+			<c>Ю лав хим</c>
+		</d>
+		<d>
+			<a>You don't love him</a>
+			<b>Ты не любишь его</b>
+			<c>Ю донт лав хим</c>
+		</d>
+		<d>
+			<a>Did you love him?</a>
+			<b>Ты любила его?</b>
+			<c>Дид ю лав хим</c>
+		</d>
+		<d>
+			<a>You loved him</a>
+			<b>Ты любила его</b>
+			<c>Ю лавд хим</c>
+		</d>
+		<d>
+			<a>You didn't love him</a>
+			<b>Ты не любила его</b>
+			<c>Ю диднт лав хим</c>
+		</d>
+		<d>
+			<a>Will he love you?</a>
+			<b>Он полюбит тебя?</b>
+			<c>Вил хи лав ю</c>
+		</d>
+		<d>
+			<a>He will love you</a>
+			<b>Он полюбит тебя</b>
+			<c>Хи вил лав ю</c>
+		</d>
+		<d>
+			<a>He will not love you</a>
+			<b>Он не полюбит тебя</b>
+			<c>Хи вил нот лав ю</c>
+		</d>
+		<d>
+			<a>Does he love you?</a>
+			<b>Он любит тебя?</b>
+			<c>Даз хи лав ю</c>
+		</d>
+		<d>
+			<a>He loves you</a>
+			<b>Он любит тебя</b>
+			<c>Хи лавс ю</c>
+		</d>
+		<d>
+			<a>He doesn't love you</a>
+			<b>Он не любит тебя</b>
+			<c>Хи дазнт лав ю</c>
+		</d>
+		<d>
+			<a>Did he love you?</a>
+			<b>Он любил тебя?</b>
+			<c>Дид хи лав ю</c>
+		</d>
+		<d>
+			<a>He loved you</a>
+			<b>Он любил тебя</b>
+			<c>Хи лавд ю</c>
+		</d>
+		<d>
+			<a>He didn't love you</a>
+			<b>Он не любил тебя</b>
+			<c>Хи диднт лав ю</c>
+		</d>
+		<d>
+			<a>Will she love you?</a>
+			<b>Она полюбит тебя?</b>
+			<c>Вил ши лав ю</c>
+		</d>
+		<d>
+			<a>She will love you</a>
+			<b>Она полюбит тебя</b>
+			<c>Ши вил лав ю</c>
+		</d>
+		<d>
+			<a>She will not love you</a>
+			<b>Она не полюбит тебя</b>
+			<c>Ши вил нот лав ю</c>
+		</d>
+		<d>
+			<a>Does she love you?</a>
+			<b>Она любит тебя?</b>
+			<c>Даз ши лав ю</c>
+		</d>
+		<d>
+			<a>She loves you</a>
+			<b>Она любит тебя</b>
+			<c>Ши лавс ю</c>
+		</d>
+		<d>
+			<a>She doesn't love you</a>
+			<b>Она не любит тебя</b>
+			<c>Ши дазнт лав ю</c>
+		</d>
+		<d>
+			<a>Did she love you?</a>
+			<b>Она любила тебя?</b>
+			<c>Дид ши лав ю</c>
+		</d>
+		<d>
+			<a>She loved you</a>
+			<b>Она любила тебя</b>
+			<c>Ши лавд ю</c>
+		</d>
+		<d>
+			<a>She didn't love you</a>
+			<b>Она не любила тебя</b>
+			<c>Ши диднт лав ю</c>
+		</d>
+		<d>
+			<a>Will you love us?</a>
+			<b>Полюбишь ли ты нас?</b>
+			<c>Вил ю лав ас</c>
+		</d>
+		<d>
+			<a>You will love us</a>
+			<b>Ты полюбишь нас</b>
+			<c>Ю вил лав ас</c>
+		</d>
+		<d>
+			<a>You will not love us</a>
+			<b>Ты не полюбишь нас</b>
+			<c>Ю вил нот лав ас</c>
+		</d>
+		<d>
+			<a>Do you love us?</a>
+			<b>Ты любишь нас?</b>
+			<c>Ду ю лав ас</c>
+		</d>
+		<d>
+			<a>You love us</a>
+			<b>Ты любишь нас</b>
+			<c>Ю лав ас</c>
+		</d>
+		<d>
+			<a>You don't love us</a>
+			<b>Ты не любишь нас</b>
+			<c>Ю донт лав ас</c>
+		</d>
+		<d>
+			<a>Did you love us?</a>
+			<b>Ты любила нас?</b>
+			<c>Дид ю лав ас</c>
+		</d>
+		<d>
+			<a>You loved us</a>
+			<b>Ты любила нас</b>
+			<c>Ю лавд ас</c>
+		</d>
+		<d>
+			<a>You didn't love us</a>
+			<b>Ты не любила нас</b>
+			<c>Ю диднт лав ас</c>
+		</d>
+		<d>
+			<a>Will you love her?</a>
+			<b>Полюбишь ли ты её?</b>
+			<c>Вил ю лав хё</c>
+		</d>
+		<d>
+			<a>You will love her</a>
+			<b>Ты полюбишь её</b>
+			<c>Ю вил лав хё</c>
+		</d>
+		<d>
+			<a>You will not love her</a>
+			<b>Ты не полюбишь её</b>
+			<c>Ю вил нот лав хё</c>
+		</d>
+		<d>
+			<a>Do you love her?</a>
+			<b>Ты любишь её?</b>
+			<c>Ду ю лав хё</c>
+		</d>
+		<d>
+			<a>You love her</a>
+			<b>Ты любишь её</b>
+			<c>Ю лав хё</c>
+		</d>
+		<d>
+			<a>You don't love her</a>
+			<b>Ты не любишь её</b>
+			<c>Ю донт лав хё</c>
+		</d>
+		<d>
+			<a>Did you love her?</a>
+			<b>Ты любила её?</b>
+			<c>Дид ю лав хё</c>
+		</d>
+		<d>
+			<a>You loved her</a>
+			<b>Ты любила её</b>
+			<c>Ю лавд хё</c>
+		</d>
+		<d>
+			<a>You didn't love her</a>
+			<b>Ты не любила её</b>
+			<c>Ю диднт лав хё</c>
+		</d>
+	</m>
+</mess>

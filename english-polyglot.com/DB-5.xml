@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<m>
+	<d>
+		<a>He is older than you</a>
+		<b>Он старше, чем ты</b>
+		<c>Хи из олдэ зэн ю</c>
+	</d>
+	<d>
+		<a>My husband is older than me four years</a>
+		<b>Мой муж старше меня на 4 года</b>
+		<c>Май хазбэнд из олдэ зэн ми фо еас</c>
+	</d>
+	<d>
+		<a>Is your husband older than you?</a>
+		<b>Ваш муж старше Вас?</b>
+		<c>Из ё хазбэнд олдэ зэн ю</c>
+	</d>
+	<d>
+		<a>My wife is two years younger than I am</a>
+		<b>Моя жена на 2 года моложе меня</b>
+		<c>Май вайф из ту еас янгэ зэн ай эм</c>
+	</d>
+	<d>
+		<a>I am older than my husband</a>
+		<b>Я старше своего мужа</b>
+		<c>Ай эм олдэ зэн май хазбэнд</c>
+	</d>
+	<d>
+		<a>My wife is three years and four months older than me</a>
+		<b>Моя жена на три года и четыре месяца старше чем я</b>
+		<c>Май вайф из сри еас энд фо манфс олдэ зэн ми</c>
+	</d>
+	<d>
+		<a>Why are men generally older than women in relationships? </a>
+		<b>Почему обычно мужчины старше женщин в отношениях?</b>
+		<c>Вай а мэн джэнерали олдэ зэн вимэн ин рилэйшншипс</c>
+	</d>
+	<d>
+		<a>How much older is your husband than you?</a>
+		<b>На сколько муж старше вас?</b>
+		<c>Хау мач олдэ из ё хазбэнд зэн ю</c>
+	</d>
+	<d>
+		<a>My wife is younger than me</a>
+		<b>Моя жена моложе меня</b>
+		<c>Май вайф из янгэ зэн ми</c>
+	</d>
+	<d>
+		<a>My wife is five years younger than me</a>
+		<b>Моя жена на пять лет моложе меня</b>
+		<c>Май вайф из файв еас янгэ зэн ми</c>
+	</d>
+	<d>
+		<a>Egypt is the oldest country in the world</a>
+		<b>Египет - старейшая страна в мире</b>
+		<c>Иджипт из зэ олдэст кантри ин зэ воолд</c>
+	</d>
+	<d>
+		<a>Derbent is the oldest city in Russia</a>
+		<b>Дербент - старейший город в России</b>
+		<c>Дэбэнт из зэ олдэст сити ин раша</c>
+	</d>
+	<d>
+		<a>Who is the oldest man in the world?</a>
+		<b>Кто является самым старым человеком в мире?</b>
+		<c>Ху из зэ олдэст мэн ин зэ воолд</c>
+	</d>
+	<d>
+		<a>Who is the most beautiful girl in the world?</a>
+		<b>Кто самая красивая девушка в мире?</b>
+		<c>Ху из зэ мост бьютифл гёл ин зэ воолд</c>
+	</d>
+	<d>
+		<a>I loved the most pretty girl in the city</a>
+		<b>Я любил самую красивую девушку в городе</b>
+		<c>Ай лавд зэ мост прэти гёл ин зэ сити</c>
+	</d>
+	<d>
+		<a>Am I the prettiest girl?</a>
+		<b>Я самая красивая девушка?</b>
+		<c>Эм ай зэ притиест гёл</c>
+	</d>
+	<d>
+		<a>I am hungrier than usual</a>
+		<b>Я голоднее, чем обычно</b>
+		<c>Ай эм хангриэ зэн южиал</c>
+	</d>
+	<d>
+		<a>Why are we hungrier in the winter?</a>
+		<b>Почему мы голоднее зимой?</b>
+		<c>Вай а ви хангриэ ин зэ винтэ</c>
+	</d>
+	<d>
+		<a>I am hungrier than a bear in the spring</a>
+		<b>Я голоднее, чем медведь весной</b>
+		<c>Ай эм хангриэ зэн э бээ ин зэ сприн</c>
+	</d>
+	<d>
+		<a>Do I look better than her?</a>
+		<b>Я выгляжу лучше чем она?</b>
+		<c>Ду ай лук бэтэ зэн хё</c>
+	</d>
+	<d>
+		<a>Am I prettier?</a>
+		<b>Я красивее?</b>
+		<c>Эм ай притиэ</c>
+	</d>
+	<d>
+		<a>You are prettier than Cinderella</a>
+		<b>Ты красивее, чем Золушка</b>
+		<c>Ю а притиэ зэн синдэрэла</c>
+	</d>
+	<d>
+		<a>She is prettier than me</a>
+		<b>Она красивее меня</b>
+		<c>Ши из притиэ зэн ми</c>
+	</d>
+	<d>
+		<a>She is the prettiest girl </a>
+		<b>Она самая красивая девушка</b>
+		<c>Ши из зэ притиэст гёл</c>
+	</d>
+	<d>
+		<a>She is the prettiest waitress in Moscow</a>
+		<b>Она самая красивая официантка в Москве</b>
+		<c>Ши из зэ притиэст вэйтрэс ин маскау</c>
+	</d>
+	<d>
+		<a>She is the most beautiful actress in Hollywood</a>
+		<b>Она самая красивая актриса в Голливуде</b>
+		<c>Ши из зэ мост бьютифл актрэс ин холивуд</c>
+	</d>
+	<d>
+		<a>Who is the prettiest girl in the world?</a>
+		<b>Кто самая красивая девушка в мире?</b>
+		<c>Ху из зэ притиэст гёл ин зэ воолд</c>
+	</d>
+	<d>
+		<a>How to be the prettiest girl in school?</a>
+		<b>Как быть самой красивой девушкой в школе?</b>
+		<c>Хау ту би зэ притиэст гёл ин скул</c>
+	</d>
+	<d>
+		<a>My house is cuter than yours</a>
+		<b>Мой дом привлекательнее вашего</b>
+		<c>Май хаус из кьютэ зэн ёс </c>
+	</d>
+	<d>
+		<a>My dog is cuter than your dog</a>
+		<b>Моя собака привлекательнее вашей собаки</b>
+		<c>Май дог из кьютэ зэн ё дог</c>
+	</d>
+	<d>
+		<a>My boyfriend is cuter than me</a>
+		<b>Мой парень привлекательнее меня</b>
+		<c>Май бойфрэнд из кьютэ зэн ми</c>
+	</d>
+	<d>
+		<a>My grandkids are cuter than yours</a>
+		<b>Мои внуки привлекательнее, чем ваши</b>
+		<c>Май грэндкидс а кьютэ зэн ёс</c>
+	</d>
+	<d>
+		<a>What is the cutest dog breed?</a>
+		<b>Какая самая привлекательная порода собак?</b>
+		<c>Вот из зэ кьютэст дог брид</c>
+	</d>
+	<d>
+		<a>Most women are hungrier than usual when they're pregnant</a>
+		<b>Большинство женщин голоднее, чем обычно, когда они беременны</b>
+		<c>Моуст вимэн а хангриэ зэн южиал вэн зэйа прэгнант</c>
+	</d>
+	<d>
+		<a>What is the cutest thing to say to your girlfriend?</a>
+		<b>Какая самая приятная вещь, чтобы сказать своей девушке?</b>
+		<c>Вот из зэ кьютэст син ту сэй ту ё гёлфрэнд</c>
+	</d>
+	<d>
+		<a>I am fatter than my boyfriend </a>
+		<b>Я полнее своего парня</b>
+		<c>Ай эм фатэ зэн май бойфрэнд</c>
+	</d>
+	<d>
+		<a>I'm fatter than my husband</a>
+		<b>Я полнее, чем мой муж</b>
+		<c>Айм фатэ зэн май хазбэнд</c>
+	</d>
+	<d>
+		<a>My boyfriend is skinnier than me</a>
+		<b>Мой парень худее, чем я</b>
+		<c>Май бойфрэнд из скиньэ зэн ми</c>
+	</d>
+	<d>
+		<a>Why is my sister skinnier than me?</a>
+		<b>Почему моя сестра худее меня?</b>
+		<c>Вай из май систэ скиньэ зэн ми</c>
+	</d>
+	<d>
+		<a>I look skinny in the morning but fat in the afternoon</a>
+		<b>Я выгляжу худой утром, но толстой в полдень</b>
+		<c>Ай лук скини ин зэ монин бат фат ин зэ афтэнун</c>
+	</d>
+	<d>
+		<a>How to look skinnier?</a>
+		<b>Как выглядеть худее?</b>
+		<c>Хау ту лук скиньэ</c>
+	</d>
+	<d>
+		<a>Are vegetarians skinnier?</a>
+		<b>Вегетарианцы стройнее?</b>
+		<c>А вэджитэрианс скиньэ?</c>
+	</d>
+	<d>
+		<a>Is she skinnier than me?</a>
+		<b>Она худее, чем я?</b>
+		<c>Из ши скиньэ зэн ми</c>
+	</d>
+	<d>
+		<a>He's crazier than she is</a>
+		<b>Он более ненормальный, чем она</b>
+		<c>Хиз крэйзиэ зэн ши из</c>
+	</d>
+	<d>
+		<a>Who is the world's fattest man?</a>
+		<b>Кто самый толстый человек в мире?</b>
+		<c>Ху из зэ воолдс фатэст мэн</c>
+	</d>
+	<d>
+		<a>Are americans the fattest people in the world?</a>
+		<b>Американцы самые толстые люди в мире?</b>
+		<c>А амэрикэнс зэ фатиэст пипл ин зэ воолд</c>
+	</d>
+	<d>
+		<a>Am I the skinniest thirteen year old girl?</a>
+		<b>Я самая худая тринадцатилетняя девочка?</b>
+		<c>Эм ай зэ скиниэст сётин еа олд гёл</c>
+	</d>
+	<d>
+		<a>I am the skinniest guy in school</a>
+		<b>Я самый худой парень в школе</b>
+		<c>Ай эм зэ скиниэст гай ин скул</c>
+	</d>
+	<d>
+		<a>Neil is the longest river in the world</a>
+		<b>Нил самая длинная река в мире</b>
+		<c>Найл из зэ лонгэст ривэ ин зэ воолд</c>
+	</d>
+	<d>
+		<a>Yesterday I was fatter than today</a>
+		<b>Вчера я была полнее, чем сегодня</b>
+		<c>Естэдэй ай воз фатэ зэн тудэй</c>
+	</d>
+	<d>
+		<a>Volga is shorter than Amur</a>
+		<b>Волга короче Амура</b>
+		<c>Волга из шотэ зэн амэ</c>
+	</d>
+	<d>
+		<a>You are skinnier than I am</a>
+		<b>Ты худее, чем я</b>
+		<c>Ю а скиньэ зэн ай эм</c>
+	</d>
+	<d>
+		<a>Volga is longer than Ural</a>
+		<b>Волга длиннее Урала</b>
+		<c>Волга из лонгэ зэн юрал</c>
+	</d>
+	<d>
+		<a>The shortest horror movie</a>
+		<b>Самый короткий ужастик</b>
+		<c>Зэ шотэст хара муви</c>
+	</d>
+	<d>
+		<a>On Wednesday I will be skinnier than today</a>
+		<b>В среду я буду худее, чем сегодня</b>
+		<c>Он вэнсдэй ай вил би скиньэ зэн тудэй</c>
+	</d>
+	<d>
+		<a>In February I was fatter than now</a>
+		<b>В феврале я была толще чем сейчас</b>
+		<c>Ин фэбьюри ай воз фатэ зэн ноу</c>
+	</d>
+	<d>
+		<a>In summer I looked better than in winter</a>
+		<b>Летом я выглядела лучше чем зимой</b>
+		<c>Ин самэ ай лукд бэтэ зэн ин винтэ</c>
+	</d>
+	<d>
+		<a>In summer I will look better</a>
+		<b>Летом я буду выглядеть лучше </b>
+		<c>Ин самэ ай вил лук бэтэ</c>
+	</d>
+	<d>
+		<a>In winter I will be skinnier</a>
+		<b>Зимой я буду худее</b>
+		<c>Ин винтэ ай вил би скиньэ</c>
+	</d>
+	<d>
+		<a>In autumn he is more beautiful</a>
+		<b>Осенью он красивее</b>
+		<c>Ин отэм хи из мо бьютифл</c>
+	</d>
+	<d>
+		<a>In a year I will be prettier than now</a>
+		<b>Через год я буду красивее чем сейчас</b>
+		<c>Ин э еа ай вил би притиэ зэн нау</c>
+	</d>
+	<d>
+		<a>A year ago I was fatter</a>
+		<b>Год назад я была толще</b>
+		<c>Э еа эгоу ай воз фатэ</c>
+	</d>
+	<d>
+		<a>In two years I will be the prettiest girl in school</a>
+		<b>Через два года я буду самой красивой девушкой в школе</b>
+		<c>Ин ту еас ай вил би зэ притиэст гёл ин скул</c>
+	</d>
+	<d>
+		<a>A year ago I was the cutest girl in restaurant</a>
+		<b>Год назад я была самой привлекательной девушкой в кафе</b>
+		<c>Э еа эгоу ай воз зэ кьютэст гёл ин рэстрон</c>
+	</d>
+	<d>
+		<a>In December the days are shorter than in November</a>
+		<b>В декабре дни короче чем в ноябре</b>
+		<c>Ин дисэмбэ зэ дэйс а шотэ зэн ин новэмбэ</c>
+	</d>
+	<d>
+		<a>In July I will be fatter than now</a>
+		<b>В июле я буду полнее чем сейчас</b>
+		<c>Ин джюлай ай вил би фатэ зэн нау</c>
+	</d>
+	<d>
+		<a>Who is the ugliest guy in school</a>
+		<b>Кто самый страшный парень в школе?</b>
+		<c>Ху из зэ аглиэст гай ин скул</c>
+	</d>
+	<d>
+		<a>Were you in autumn skinnier than now?</a>
+		<b>Осенью ты была худее чем сейчас?</b>
+		<c>Вё ю ин отэм скинью зэ н нау</c>
+	</d>
+	<d>
+		<a>A month ago I was fatter than you</a>
+		<b>Месяц назад я была полнее чем ты</b>
+		<c>Э монф эгоу ай воз фатэ зэн ю</c>
+	</d>
+	<d>
+		<a>In three months I will be skinnier than you</a>
+		<b>Через три месяца я буду худее чем ты</b>
+		<c>Ин сри монфс ай вил би скиньэ зэн ю</c>
+	</d>
+	<d>
+		<a>On Monday I look worse than usual</a>
+		<b>В понедельник я выгляжу хуже чем обычно</b>
+		<c>Он мандэй ай лук вос зэн южиал</c>
+	</d>
+	<d>
+		<a>Summer is better than winter</a>
+		<b>Лето лучше, чем зима</b>
+		<c>Самэ из бэтэ зэн винтэ</c>
+	</d>
+	<d>
+		<a>My very worst date</a>
+		<b>Моё самое худшее свидание</b>
+		<c>Май вэри вост дэйт</c>
+	</d>
+	<d>
+		<a>Now I work in a restaurant but in spring I will work in school</a>
+		<b>Сейчас я работаю в ресторане, но весной я буду работать в школе</b>
+		<c>Нау ай вёк ин э рэстрон бат ин спринг ай вил вёк ин скул</c>
+	</d>
+	<d>
+		<a>Now I am a teacher, but five years ago I was a worker</a>
+		<b>Сейчас я учитель, но пять лет назад я был рабочим</b>
+		<c>Нау ай эм э тичэ бат файф еас эгоу ай воз э вокэ</c>
+	</d>
+	<d>
+		<a>Four years ago I was a waitress</a>
+		<b>Четыре года назад я была официанткой</b>
+		<c>Фо еас эгоу ай воз э вэйтрэс</c>
+	</d>
+	<d>
+		<a>In September I will work in a call center</a>
+		<b>В сентябре я буду работать в колл-центре</b>
+		<c>Ин сэптэмбэ ай вил вёк ин э кол сэнтэ</c>
+	</d>
+	<d>
+		<a>In three months I will work in a factory</a>
+		<b>Через три месяца я буду работать на заводе</b>
+		<c>Ин сри монфс ай вил вёк ин э фэктэри</c>
+	</d>
+	<d>
+		<a>After winter I will work in a theater</a>
+		<b>По окончании зимы я буду работать в театре</b>
+		<c>Афтэ винтэ ай вил вёк ин э сиатэ</c>
+	</d>
+	<d>
+		<a>Before autumn I will work in a bank</a>
+		<b>До осени я буду работать в банке</b>
+		<c>Бефо отэм ай вил вёк ин э бэнк</c>
+	</d>
+	<d>
+		<a>Did you see him in May?</a>
+		<b>Ты видел его в мае?</b>
+		<c>Дид ю си хим ин мэй</c>
+	</d>
+	<d>
+		<a>I saw her on Tuesday</a>
+		<b>Я видел её во вторник</b>
+		<c>Ай соу хё он тьюздэй</c>
+	</d>
+	<d>
+		<a>I was in winter in Paris</a>
+		<b>Я был зимой в Париже</b>
+		<c>Ай воз ин винтэ ин пэрис</c>
+	</d>
+	<d>
+		<a>Three years ago I was in Egypt</a>
+		<b>Три года назад я была в Египте</b>
+		<c>Сри еас эгоу ай воз ин иджипт</c>
+	</d>
+	<d>
+		<a>In five days I will go to Petersburg</a>
+		<b>Через пять дней я поеду в Петербург</b>
+		<c>Ин файв дэйс ай вил гоу ту питэсбёг</c>
+	</d>
+	<d>
+		<a>Before Wednesday I will see them</a>
+		<b>До среды я увижу их</b>
+		<c>Бефо вэнсдэй ай вил си зэм</c>
+	</d>
+	<d>
+		<a>Will you see him before Sunday?</a>
+		<b>Ты увидишь его до воскресенья?</b>
+		<c>Вил ю си хим бефо сандэй</c>
+	</d>
+	<d>
+		<a>Did you speak with him last week?</a>
+		<b>Ты разговаривала с ним на прошлой неделе?</b>
+		<c>Дид ю спик виз хим ласт вик</c>
+	</d>
+	<d>
+		<a>Where will you go next year?</a>
+		<b>Куда ты поедешь в следующем году?</b>
+		<c>Вэа вил ю гоу некст еа</c>
+	</d>
+	<d>
+		<a>When do you feel better? In summer or in winter?</a>
+		<b>Когда ты чувствуешь себя лучше? Летом или зимой?</b>
+		<c>Вэн ду ю фил бэтэ? Ин самэ о ин винтэ</c>
+	</d>
+	<d>
+		<a>What job is the worst for you?</a>
+		<b>Какая работа худшая для Вас?</b>
+		<c>Вот джоб из зэ вост фо ю</c>
+	</d>
+	<d>
+		<a>Yesterday it was worse</a>
+		<b>Вчера было хуже</b>
+		<c>Естэдэй ит воз вос</c>
+	</d>
+	<d>
+		<a>Tomorrow will be better</a>
+		<b>Завтра будет лучше</b>
+		<c>Тумороу вил би бэтэ</c>
+	</d>
+	<d>
+		<a>Where did you travel last spring?</a>
+		<b>Где ты путешествовала прошлой весной?</b>
+		<c>Вэа дид ю трэвэл ласт сприн</c>
+	</d>
+	<d>
+		<a>Were you pregnant in august?</a>
+		<b>Ты была беременной в августе?</b>
+		<c>Вё ю прегнант ин огэст</c>
+	</d>
+	<d>
+		<a>I spoke with you about it on Thursday</a>
+		<b>Я говорил с тобой об этом в четверг</b>
+		<c>А споук виз ю эбаут ит он фёсдэй</c>
+	</d>
+	<d>
+		<a>Will you be before Friday in the bank?</a>
+		<b>Вы будете до пятницы в банке?</b>
+		<c>Вил ю би бефо фрайдэй ин зэ банк</c>
+	</d>
+	<d>
+		<a>Last Saturday I saw them in the school</a>
+		<b>В прошлую субботу я видел их в школе</b>
+		<c>Ласт сатэдэй а соу зем ин зэ скул</c>
+	</d>
+	<d>
+		<a>Next Tuesday I will go to Turkey</a>
+		<b>В следующий вторник я поеду в Турцию</b>
+		<c>Нэкст тьюcдэй ай вил гоу ту таки</c>
+	</d>
+	<d>
+		<a>New Year is the best holiday in the year</a>
+		<b>Новый год - лучший праздник в году</b>
+		<c>Нью еа из зэ бэст холидэй ин зэ еа</c>
+	</d>
+</m>

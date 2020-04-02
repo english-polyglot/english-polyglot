@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+<link rel="icon" href="favicon.png?v=3">
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=4"><![endif]-->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" type="image/png" href="apple-touch-icon-precomposed.png">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?ver=3" />
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="msapplication-TileImage" content="tileicon.png">
+
+<title></title>
+ 
+<script type="text/javascript" src="js/ads.js"></script>
+<script>
+function callPrint(strid){
+	
+		var prtContent = document.getElementById(strid);
+
+		var winPrint = window.open('','','left=50,top=50,width=800,height=640,toolbar=0,scrollbars=1,status=0'); 
+		winPrint.document.write('<head><title>'+document.title+'</title></head><body><div>');
+		winPrint.document.write(prtContent.innerHTML);
+		winPrint.document.write('</div></body>');
+		winPrint.document.close();
+		winPrint.focus();
+		winPrint.print();
+		winPrint.close();
+}
+</script>
+
+
+<style>
+body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+#content_answer{display:none;border-radius:3vh;margin:3vw}
+#textdescription{font-weight:bold;padding:0.5em 0.2em 0.25em;font-size:3vw}
+#pronunciation{padding:0.25em 0.2em 0.5em;font-size:3vw}
+#content_print{display:none}
+
+.but_class{font-size:19px}
+@media(max-width:500px){.but_class{font-size:4vw}}
+
+.info0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 0 10px 0 65px;
+}
+a.adblock__button {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform:uppercase;
+  text-decoration:none;
+  border-radius: 2px;
+  background-color: #db473c;
+  padding:5px;
+  text-align:center;
+  border: 1px solid #db473c;
+}
+a.adblock__button:hover{
+  color:#db473c;
+  -webkit-transition:background-color 0.15s ease-out;
+  transition:background-color 0.15s ease-out;
+  background-color: #ffa5ad;
+  border: 1px solid #db473c;
+}
+
+
+.infront{position:fixed;left:0;top:0;width:100%;height:100%}
+
+.info{float:left;padding:5px 0;text-align:left}
+
+#progress2{background:url(img/acca820d52e744c29ae3e0800ed84057.png) 10px center no-repeat #ffa5ad;background-size:40px;display:inline-block;width:100%;font-size:0.7em;padding:10px 0}
+
+
+@media(min-width:425px){#progress2 {font-size:0.8em;padding:12px 0;background-position-x:20px}.info0{padding-left:80px}a.adblock__button{font-size:1em}}
+@media(min-width:600px){#progress2{font-size:0.9em;padding:18px 0}.info0{padding-right:30px}}
+@media(min-width:769px){#progress2{font-size:1em;padding:20px 0}}
+@media(min-width:1024px){#progress2{font-size:1.1em;padding:25px 0;background-size:60px}.info0{padding-left:120px}}
+@media(min-width:1440px){#progress2{font-size:1.5em;padding:45px 0;background-size:80px;background-position-x:38px}.info0{padding-left:160px}}
+@media(min-width:2056px){#progress2{font-size:2em;padding:65px 0;background-size:100px;background-position-x:58px}.info0{padding-left:220px}}
+
+</style>
+
+</head>
+
+<body>
+    <div id="content_answer">
+    	<div id="textdescription"></div>
+        <div id="pronunciation"></div>  
+    </div>
+    <div id="content_print"></div>
+
+        <div id="ad_answer" style="overflow:hidden;">      
+            <!-- uroki-answer -->
+            <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4595809153827928"
+            data-ad-slot="4153762126"
+            data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+    </div>
+    
+	
+
+    <form id='but_done' style="margin:1em;display:none">
+	  <input id="_form" class='but_class' type="button" value="   Done   " onClick="if(navigator.userAgent.match(/iPhone|iPod|Android|Blackberry.*WebKit/i)){window.close()}else{window.open('', 'parent').focus()};return false">
+      <input id="print_form" class='but_class' type="button" value="  Print   " onClick="javascript:callPrint('content_print')">
+    </form>
+
+</body>	
+<script>
+
+function str_adb(){
+
+		setTimeout(function(){	
+			if (window.name!='newwin') {
+				document.getElementById("instr").style.display='';
+				var bod=document.getElementsByTagName('body')[0];
+				bod.style.overflowY='hidden';
+				bod.style.marginRight='15.4px'
+			}
+		},10);
+}
+
+
+function adBlockDetected() {
+	var ifr;
+	if (window.name!='newwin') {
+		ifr='"internal" onclick="str_adb()">как отключить</a></div></div><iframe id="instr" style="display:none" class="infront" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" name="internal"></iframe>';
+	}else{ ifr='"_blank">как отключить</a></div></div>'}
+
+	var adcont='<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div><a class="adblock__button" href="stop-block.html" target='+ifr;
+	
+
+	//var adcont='<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div></div></div>';
+	document.getElementById("ad_answer").innerHTML= adcont;
+}
+
+function adBlockNotDetected() {
+    var tag = document.createElement('script');
+    tag.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+    document.getElementsByTagName('head')[0].appendChild(tag);	
+	
+	(adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4595809153827928",
+    enable_page_level_ads: true
+  });
+}
+
+	if(typeof blockAdBlock === 'undefined') {
+		adBlockDetected();
+	} else {
+		blockAdBlock.onDetected(adBlockDetected);
+		blockAdBlock.onNotDetected(adBlockNotDetected);
+	}
+
+
+var newwin;	
+
+function popup(url,width,height,windowtitle){
+	var ua=navigator.userAgent;
+	if((newwin==undefined)||!(newwin && !newwin.closed)){
+		
+		console.log('новое newwin='+newwin)
+				
+		if (ua.match(/iPhone|iPod|Android|Blackberry.*WebKit/i)){ 
+		
+			if((getextension(url)=='html')||(getextension(url)=='htm')){ 
+			
+				newwin=window.open(url, 'newwin') 
+			}else{ 
+			
+				newwin=window.open('answer.html','newwin')
+			}
+			
+		}else{
+			
+			var left=(screen.width-width)/2;
+			var top=(screen.height-height)/2;
+
+			var params='width='+width+',height='+height;
+			params+=',top='+top+',left='+left;
+			params+=',directories=no';
+			params+=',location=no';
+			params+=',menubar=no';
+			params+=',resizable=yes';
+			params+=',scrollbar=yes';
+			params+=',status=no';
+			params+=',toolbar=no';
+			params+=',modal=yes';
+			
+				if((getextension(url)=='html')||(getextension(url)=='htm')){ 
+					newwin=window.open(url,'newwin',params)
+				
+				}else{
+					newwin=window.open('answer.html','newwin',params)
+				}
+			
+		}
+	}
+	
+	if(window.focus){newwin.focus()} // Нужно для повторного открытия окна
+	return false;}
+
+function getextension(filename){return /[^?]*/.exec(/[^.]+$/.exec(filename))[0]} 
+</script>  
+
+
+
+
+
+<!--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!--<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4595809153827928",
+    enable_page_level_ads: true
+  });
+</script> 
+-->
+
+
+   
+</html>

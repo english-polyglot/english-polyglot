@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<meta name="viewport" content="width=device-width, user-scalable=no">-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" type="image/x-icon" href="../english-polyglot.com/img/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="English in 16 hours" href="http://feeds.feedburner.com/poliglott">
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<!-- TemplateEndEditable -->
+
+<link href="../english-polyglot.com/css/dive.css" rel="stylesheet" type="text/css" />
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<style>
+/*#prog1,#prog2,*//*#prog3,#prog4 {display:none}*/
+</style>
+
+<script type="text/javascript" src="js/blockadblock.js"></script>
+ 
+<script>
+//function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}	
+////r(function(){
+//
+//
+//		
+////})
+//
+//
+</script>
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="header">
+    
+        <!-- TemplateBeginEditable name="Movie-title" -->
+        Криминальное чтиво
+        <!-- TemplateEndEditable -->
+
+  </div>
+  
+    <div class="video_double">
+      
+      <div class="wrap_video">
+      
+          <div id="video-player">
+          
+          		<span class="text_overflow">на русском языке</span>
+          
+				<!-- TemplateBeginEditable name="Movie1" -->   
+                <!-- TemplateEndEditable -->
+                
+          </div>  
+        
+          <div id="prog1">
+          
+            <!-- fragmentator_left -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4595809153827928"
+                 data-ad-slot="8185099724"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+                    
+          </div>
+          
+ <!--         <div id="prog3">
+          	<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div></div></div>  
+          </div>-->
+          
+      </div> 
+      
+      <div class="wrap_video">
+          
+        <div id="video-player">
+        
+            <span class="text_overflow">на английском языке</span>
+            
+            <!-- TemplateBeginEditable name="Movie2" -->
+            <!-- TemplateEndEditable -->
+         
+        </div>
+           
+        <div id="prog2">
+            
+          <!-- fragmentator_right -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-4595809153827928"
+               data-ad-slot="3615299328"
+               data-ad-format="auto"></ins> 
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>            
+                 
+        </div>
+        
+<!--        <div id="prog4">
+        	<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div></div></div>  
+        </div> -->
+          
+      </div>
+            
+    </div>
+
+  
+
+
+
+
+     
+	<!-- TemplateBeginEditable name="Text" -->
+    <!-- TemplateEndEditable -->
+    
+	<div class="footer">
+ 
+    	<h2><a href="/" target="_blank">Полиглот английский язык за 16 часов</a></h2>
+    
+    </div>
+  
+
+  
+</div>
+
+  
+
+
+<script>
+
+
+
+
+function adBlockDetected() {
+	//alert('detected')
+		var adcont='<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div></div></div>';
+		document.getElementById("prog1").innerHTML= adcont;
+		document.getElementById("prog2").innerHTML= adcont;
+//		document.getElementById("prog1").style.display="none";
+//		document.getElementById("prog2").style.display="none";
+//		document.getElementById("prog3").style.display="block";
+//		document.getElementById("prog4").style.display="block";
+}
+
+function adBlockNotDetected() {
+	
+	(adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4595809153827928",
+    enable_page_level_ads: true
+  });
+	//alert('not detected')
+//		var proga1='';
+//		var proga2='';
+//		document.getElementById("prog1").innerHTML= proga1;
+//		document.getElementById("prog2").innerHTML= proga2;
+//		document.getElementById("prog1").style.display="block";
+//		document.getElementById("prog2").style.display="block";
+//		document.getElementById("prog3").style.display="none";
+//		document.getElementById("prog4").style.display="none";
+}
+
+//setTimeout(function(){
+		if(typeof blockAdBlock === 'undefined') {
+		adBlockDetected();
+	} else {
+		blockAdBlock.onDetected(adBlockDetected);
+		blockAdBlock.onNotDetected(adBlockNotDetected);
+	}
+	//},1000)
+    
+</script>
+</body>
+
+
+
+
+
+
+<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></html><!-- #BeginLibraryItem "/Library/analitics+.lbi" --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55279793-1', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- #EndLibraryItem -->
+
+

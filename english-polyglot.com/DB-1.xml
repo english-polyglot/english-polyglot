@@ -1,0 +1,5286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mess>
+	<m>
+		<d>
+			<a>I will love you</a>
+			<b>Я полюблю тебя</b>
+			<c>Ай вил лав ю</c>
+		</d>
+		<d>
+			<a>I didn't love you</a>
+			<b>Я не любила тебя</b>
+			<c>Ай диднт лав ю</c>
+		</d>
+		<d>
+			<a>Do I love you?</a>
+			<b>Люблю ли я тебя?</b>
+			<c>Ду ай лав ю</c>
+		</d>
+		<d>
+			<a>Will I love you?</a>
+			<b>Буду ли я тебя любить?</b>
+			<c>Вил ай лав ю</c>
+		</d>
+		<d>
+			<a>Did I love you?</a>
+			<b>Я любила тебя?</b>
+			<c>Дид ай лав ю</c>
+		</d>
+		<d>
+			<a>I love you</a>
+			<b>Я тебя люблю</b>
+			<c>Ай лав ю</c>
+		</d>
+		<d>
+			<a>I loved you</a>
+			<b>Я любил тебя</b>
+			<c>Ай лавд ю</c>
+		</d>
+		<d>
+			<a>I will not love you</a>
+			<b>Я не полюблю тебя</b>
+			<c>Ай вил нот лав ю</c>
+		</d>
+		<d>
+			<a>I don't love you</a>
+			<b>Я не люблю тебя</b>
+			<c>Ай донт лав ю</c>
+		</d>
+		<d>
+			<a>Will you love me?</a>
+			<b>Ты полюбишь меня?</b>
+			<c>Вил ю лав ми?</c>
+		</d>
+		<d>
+			<a>You will love me</a>
+			<b>Ты полюбишь меня</b>
+			<c>Ю вил лав ми</c>
+		</d>
+		<d>
+			<a>You will not love me</a>
+			<b>Ты не полюбишь меня</b>
+			<c>Ю вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Do you love me?</a>
+			<b>Ты любишь меня?</b>
+			<c>Ду ю лав ми</c>
+		</d>
+		<d>
+			<a>You love me</a>
+			<b>Ты любишь меня</b>
+			<c>Ю лав ми</c>
+		</d>
+		<d>
+			<a>You don't love me</a>
+			<b>Ты не любишь меня</b>
+			<c>Ю донт лав ми</c>
+		</d>
+		<d>
+			<a>Did you love me?</a>
+			<b>Ты любил меня?</b>
+			<c>Дид ю лав ми</c>
+		</d>
+		<d>
+			<a>You loved me</a>
+			<b>Ты любил меня</b>
+			<c>Ю лавд ми</c>
+		</d>
+		<d>
+			<a>You didn't love me</a>
+			<b>Ты не любил меня</b>
+			<c>Ю диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will I love him?</a>
+			<b>Полюблю ли я его?</b>
+			<c>Вил ай лав хим</c>
+		</d>
+		<d>
+			<a>I will love him</a>
+			<b>Я полюблю его</b>
+			<c>Ай вил лав хим</c>
+		</d>
+		<d>
+			<a>I will not love him</a>
+			<b>Я не полюблю его</b>
+			<c>Ай вил нот лав хим</c>
+		</d>
+		<d>
+			<a>Do I love him?</a>
+			<b>Люблю ли я его?</b>
+			<c>Ду ай лав хим</c>
+		</d>
+		<d>
+			<a>I love him</a>
+			<b>Я люблю его</b>
+			<c>Ай лав хим</c>
+		</d>
+		<d>
+			<a>I don't love him</a>
+			<b>Я не люблю его</b>
+			<c>Ай донт лав хим</c>
+		</d>
+		<d>
+			<a>Did I love him?</a>
+			<b>Любила ли я его?</b>
+			<c>Дид ай лав хим</c>
+		</d>
+		<d>
+			<a>I loved him</a>
+			<b>Я любила его</b>
+			<c>Ай лавд хим</c>
+		</d>
+		<d>
+			<a>I didn't love him</a>
+			<b>Я не любила его</b>
+			<c>Ай диднт лав хим</c>
+		</d>
+		<d>
+			<a>Will he love me?</a>
+			<b>Полюбит ли он меня?</b>
+			<c>Вил хи лав ми</c>
+		</d>
+		<d>
+			<a>He will love me</a>
+			<b>Он полюбит меня</b>
+			<c>Хи вил лав ми</c>
+		</d>
+		<d>
+			<a>He will not love me</a>
+			<b>Он не полюбит меня</b>
+			<c>Хи вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Does he love me?</a>
+			<b>Он меня любит?</b>
+			<c>Дас хи лав ми</c>
+		</d>
+		<d>
+			<a>He loves me</a>
+			<b>Он меня любит</b>
+			<c>Хи лавс ми</c>
+		</d>
+		<d>
+			<a>He doesn't love me</a>
+			<b>Он меня не любит</b>
+			<c>Хи дазнт лав ми</c>
+		</d>
+		<d>
+			<a>Did he love me?</a>
+			<b>Он любил меня?</b>
+			<c>Дид хи лав ми</c>
+		</d>
+		<d>
+			<a>He loved me</a>
+			<b>Он любил меня</b>
+			<c>Хи лавд ми</c>
+		</d>
+		<d>
+			<a>He didn't love me</a>
+			<b>Он не любил меня</b>
+			<c>Хи диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will I love her?</a>
+			<b>Я полюблю её?</b>
+			<c>Вил ай лав хё</c>
+		</d>
+		<d>
+			<a>I will love her</a>
+			<b>Я полюблю её</b>
+			<c>Ай вил лав хё</c>
+		</d>
+		<d>
+			<a>I will not love her</a>
+			<b>Я не полюблю её</b>
+			<c>Ай вил нот лав хё</c>
+		</d>
+		<d>
+			<a>Do I love her?</a>
+			<b>Я люблю её?</b>
+			<c>Ду ай лав хё</c>
+		</d>
+		<d>
+			<a>I love her</a>
+			<b>Я люблю её</b>
+			<c>Ай лав хё</c>
+		</d>
+		<d>
+			<a>I don't love her</a>
+			<b>Я не люблю её</b>
+			<c>Ай донт лав хё</c>
+		</d>
+		<d>
+			<a>Did I love her?</a>
+			<b>Я любил её?</b>
+			<c>Дид ай лав хё</c>
+		</d>
+		<d>
+			<a>I loved her</a>
+			<b>Я любил её</b>
+			<c>Ай лавд хё</c>
+		</d>
+		<d>
+			<a>I did not love her</a>
+			<b>Я не любил её</b>
+			<c>Ай дид нот лав хё</c>
+		</d>
+		<d>
+			<a>Will she love me?</a>
+			<b>Она полюбит меня?</b>
+			<c>Вил ши лав ми?</c>
+		</d>
+		<d>
+			<a>She will love me</a>
+			<b>Она полюбит меня</b>
+			<c>Ши вил лав ми</c>
+		</d>
+		<d>
+			<a>She will not love me</a>
+			<b>Она не полюбит меня</b>
+			<c>Ши вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Does she love me?</a>
+			<b>Она любит меня?</b>
+			<c>Дас ши лав ми</c>
+		</d>
+		<d>
+			<a>She loves me</a>
+			<b>Она любит меня</b>
+			<c>Ши лавс ми</c>
+		</d>
+		<d>
+			<a>She doesn't love me</a>
+			<b>Она не любит меня</b>
+			<c>Ши дазнт лав ми</c>
+		</d>
+		<d>
+			<a>Did she love me?</a>
+			<b>Она любила меня?</b>
+			<c>Дид ши лав ми</c>
+		</d>
+		<d>
+			<a>She loved me</a>
+			<b>Она любила меня</b>
+			<c>Ши лавд ми</c>
+		</d>
+		<d>
+			<a>She didn't love me</a>
+			<b>Она не любила меня</b>
+			<c>Ши диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will I love them?</a>
+			<b>Я полюблю их?</b>
+			<c>Вил ай лав зем</c>
+		</d>
+		<d>
+			<a>I will love them</a>
+			<b>Я полюблю их</b>
+			<c>Ай вил лав зем</c>
+		</d>
+		<d>
+			<a>I will not love them</a>
+			<b>Я не полюблю их</b>
+			<c>Ай вил нот лав зем</c>
+		</d>
+		<d>
+			<a>Do I love them?</a>
+			<b>Я люблю их?</b>
+			<c>Ду ай лав зем</c>
+		</d>
+		<d>
+			<a>I love them</a>
+			<b>Я люблю их</b>
+			<c>Ай лав зем</c>
+		</d>
+		<d>
+			<a>I don't love them</a>
+			<b>Я не люблю их</b>
+			<c>Ай донт лав зем</c>
+		</d>
+		<d>
+			<a>Did I love them?</a>
+			<b>Любил ли я их?</b>
+			<c>Дид ай лав зем</c>
+		</d>
+		<d>
+			<a>I loved them</a>
+			<b>Я любил их</b>
+			<c>Ай лавд зем</c>
+		</d>
+		<d>
+			<a>I did not love them</a>
+			<b>Я не любил их</b>
+			<c>Ай дид нот лав зем</c>
+		</d>
+		<d>
+			<a>Will they love me?</a>
+			<b>Они полюбят меня?</b>
+			<c>Вил зей лав ми</c>
+		</d>
+		<d>
+			<a>They will love me</a>
+			<b>Они полюбят меня</b>
+			<c>Зей вил лав ми</c>
+		</d>
+		<d>
+			<a>They will not love me</a>
+			<b>Они не полюбят меня</b>
+			<c>Зей вил нот лав ми</c>
+		</d>
+		<d>
+			<a>Do they love me?</a>
+			<b>Они любят меня?</b>
+			<c>Ду зей лав ми</c>
+		</d>
+		<d>
+			<a>They love me</a>
+			<b>Они любят меня</b>
+			<c>Зей лав ми</c>
+		</d>
+		<d>
+			<a>They don't love me</a>
+			<b>Они не любят меня</b>
+			<c>Зей донт лав ми</c>
+		</d>
+		<d>
+			<a>Did they love me?</a>
+			<b>Они любили меня?</b>
+			<c>Дид зей лав ми</c>
+		</d>
+		<d>
+			<a>They loved me</a>
+			<b>Они любили меня</b>
+			<c>Зей лавд ми</c>
+		</d>
+		<d>
+			<a>They didn't love me</a>
+			<b>Они не любили меня</b>
+			<c>Зей диднт лав ми</c>
+		</d>
+		<d>
+			<a>Will you love him?</a>
+			<b>Полюбишь ли ты его?</b>
+			<c>Вил ю лав хим</c>
+		</d>
+		<d>
+			<a>You will love him</a>
+			<b>Ты полюбишь его</b>
+			<c>Ю вил лав хим</c>
+		</d>
+		<d>
+			<a>You will not love him</a>
+			<b>Ты не полюбишь его</b>
+			<c>Ю вил нот лав хим</c>
+		</d>
+		<d>
+			<a>Do you love him?</a>
+			<b>Ты любишь его?</b>
+			<c>Ду ю лав хим</c>
+		</d>
+		<d>
+			<a>You love him</a>
+			<b>Ты любишь его</b>
+			<c>Ю лав хим</c>
+		</d>
+		<d>
+			<a>You don't love him</a>
+			<b>Ты не любишь его</b>
+			<c>Ю донт лав хим</c>
+		</d>
+		<d>
+			<a>Did you love him?</a>
+			<b>Ты любила его?</b>
+			<c>Дид ю лав хим</c>
+		</d>
+		<d>
+			<a>You loved him</a>
+			<b>Ты любила его</b>
+			<c>Ю лавд хим</c>
+		</d>
+		<d>
+			<a>You didn't love him</a>
+			<b>Ты не любила его</b>
+			<c>Ю диднт лав хим</c>
+		</d>
+		<d>
+			<a>Will he love you?</a>
+			<b>Он полюбит тебя?</b>
+			<c>Вил хи лав ю</c>
+		</d>
+		<d>
+			<a>He will love you</a>
+			<b>Он полюбит тебя</b>
+			<c>Хи вил лав ю</c>
+		</d>
+		<d>
+			<a>He will not love you</a>
+			<b>Он не полюбит тебя</b>
+			<c>Хи вил нот лав ю</c>
+		</d>
+		<d>
+			<a>Does he love you?</a>
+			<b>Он любит тебя?</b>
+			<c>Даз хи лав ю</c>
+		</d>
+		<d>
+			<a>He loves you</a>
+			<b>Он любит тебя</b>
+			<c>Хи лавс ю</c>
+		</d>
+		<d>
+			<a>He doesn't love you</a>
+			<b>Он не любит тебя</b>
+			<c>Хи дазнт лав ю</c>
+		</d>
+		<d>
+			<a>Did he love you?</a>
+			<b>Он любил тебя?</b>
+			<c>Дид хи лав ю</c>
+		</d>
+		<d>
+			<a>He loved you</a>
+			<b>Он любил тебя</b>
+			<c>Хи лавд ю</c>
+		</d>
+		<d>
+			<a>He didn't love you</a>
+			<b>Он не любил тебя</b>
+			<c>Хи диднт лав ю</c>
+		</d>
+		<d>
+			<a>Will she love you?</a>
+			<b>Она полюбит тебя?</b>
+			<c>Вил ши лав ю</c>
+		</d>
+		<d>
+			<a>She will love you</a>
+			<b>Она полюбит тебя</b>
+			<c>Ши вил лав ю</c>
+		</d>
+		<d>
+			<a>She will not love you</a>
+			<b>Она не полюбит тебя</b>
+			<c>Ши вил нот лав ю</c>
+		</d>
+		<d>
+			<a>Does she love you?</a>
+			<b>Она любит тебя?</b>
+			<c>Даз ши лав ю</c>
+		</d>
+		<d>
+			<a>She loves you</a>
+			<b>Она любит тебя</b>
+			<c>Ши лавс ю</c>
+		</d>
+		<d>
+			<a>She doesn't love you</a>
+			<b>Она не любит тебя</b>
+			<c>Ши дазнт лав ю</c>
+		</d>
+		<d>
+			<a>Did she love you?</a>
+			<b>Она любила тебя?</b>
+			<c>Дид ши лав ю</c>
+		</d>
+		<d>
+			<a>She loved you</a>
+			<b>Она любила тебя</b>
+			<c>Ши лавд ю</c>
+		</d>
+		<d>
+			<a>She didn't love you</a>
+			<b>Она не любила тебя</b>
+			<c>Ши диднт лав ю</c>
+		</d>
+		<d>
+			<a>Will you love us?</a>
+			<b>Полюбишь ли ты нас?</b>
+			<c>Вил ю лав ас</c>
+		</d>
+		<d>
+			<a>You will love us</a>
+			<b>Ты полюбишь нас</b>
+			<c>Ю вил лав ас</c>
+		</d>
+		<d>
+			<a>You will not love us</a>
+			<b>Ты не полюбишь нас</b>
+			<c>Ю вил нот лав ас</c>
+		</d>
+		<d>
+			<a>Do you love us?</a>
+			<b>Ты любишь нас?</b>
+			<c>Ду ю лав ас</c>
+		</d>
+		<d>
+			<a>You love us</a>
+			<b>Ты любишь нас</b>
+			<c>Ю лав ас</c>
+		</d>
+		<d>
+			<a>You don't love us</a>
+			<b>Ты не любишь нас</b>
+			<c>Ю донт лав ас</c>
+		</d>
+		<d>
+			<a>Did you love us?</a>
+			<b>Ты любила нас?</b>
+			<c>Дид ю лав ас</c>
+		</d>
+		<d>
+			<a>You loved us</a>
+			<b>Ты любила нас</b>
+			<c>Ю лавд ас</c>
+		</d>
+		<d>
+			<a>You didn't love us</a>
+			<b>Ты не любила нас</b>
+			<c>Ю диднт лав ас</c>
+		</d>
+		<d>
+			<a>Will you love her?</a>
+			<b>Полюбишь ли ты её?</b>
+			<c>Вил ю лав хё</c>
+		</d>
+		<d>
+			<a>You will love her</a>
+			<b>Ты полюбишь её</b>
+			<c>Ю вил лав хё</c>
+		</d>
+		<d>
+			<a>You will not love her</a>
+			<b>Ты не полюбишь её</b>
+			<c>Ю вил нот лав хё</c>
+		</d>
+		<d>
+			<a>Do you love her?</a>
+			<b>Ты любишь её?</b>
+			<c>Ду ю лав хё</c>
+		</d>
+		<d>
+			<a>You love her</a>
+			<b>Ты любишь её</b>
+			<c>Ю лав хё</c>
+		</d>
+		<d>
+			<a>You don't love her</a>
+			<b>Ты не любишь её</b>
+			<c>Ю донт лав хё</c>
+		</d>
+		<d>
+			<a>Did you love her?</a>
+			<b>Ты любила её?</b>
+			<c>Дид ю лав хё</c>
+		</d>
+		<d>
+			<a>You loved her</a>
+			<b>Ты любила её</b>
+			<c>Ю лавд хё</c>
+		</d>
+		<d>
+			<a>You didn't love her</a>
+			<b>Ты не любила её</b>
+			<c>Ю диднт лав хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will live with you</a>
+			<b>Я буду жить с тобой</b>
+			<c>Ай вил лив виз ю</c>
+		</d>
+		<d>
+			<a>I didn't live with you</a>
+			<b>Я не жил с тобой</b>
+			<c>Ай диднт лив виз ю</c>
+		</d>
+		<d>
+			<a>Do I live with you?</a>
+			<b>Я живу с тобой?</b>
+			<c>Ду ай лив виз ю</c>
+		</d>
+		<d>
+			<a>Will I live with you?</a>
+			<b>Буду ли я жить с тобой?</b>
+			<c>Вил ай лив виз ю</c>
+		</d>
+		<d>
+			<a>Did I live with you?</a>
+			<b>Я жил с тобой?</b>
+			<c>Дид ай лив виз ю</c>
+		</d>
+		<d>
+			<a>I live with you</a>
+			<b>Я живу с тобой</b>
+			<c>Ай лив виз ю</c>
+		</d>
+		<d>
+			<a>I lived with you</a>
+			<b>Я жил с тобой</b>
+			<c>Ай ливд виз ю</c>
+		</d>
+		<d>
+			<a>I will not live with you</a>
+			<b>Я не буду жить с тобой</b>
+			<c>Ай вил нот лив виз ю</c>
+		</d>
+		<d>
+			<a>I don't live with you</a>
+			<b>Я не живу с тобой</b>
+			<c>Ай донт лив виз ю</c>
+		</d>
+		<d>
+			<a>Will you live with me?</a>
+			<b>Ты будешь жить со мной?</b>
+			<c>Вил ю лив виз ми?</c>
+		</d>
+		<d>
+			<a>You will live with me</a>
+			<b>Ты будешь жить со мной</b>
+			<c>Ю вил лив виз ми</c>
+		</d>
+		<d>
+			<a>You will not live with me</a>
+			<b>Ты не будешь жить со мной</b>
+			<c>Ю вил нот лив виз ми</c>
+		</d>
+		<d>
+			<a>Do you live with me?</a>
+			<b>Ты живёшь со мной?</b>
+			<c>Ду ю лив виз ми</c>
+		</d>
+		<d>
+			<a>You live with me</a>
+			<b>Ты живешь со мной</b>
+			<c>Ю лив виз ми</c>
+		</d>
+		<d>
+			<a>You don't live with me</a>
+			<b>Ты не живешь со мной</b>
+			<c>Ю донт лив виз ми</c>
+		</d>
+		<d>
+			<a>Did you live with me?</a>
+			<b>Ты жил со мной?</b>
+			<c>Дид ю лив виз ми</c>
+		</d>
+		<d>
+			<a>You lived with me</a>
+			<b>Ты жил со мной</b>
+			<c>Ю ливд виз ми</c>
+		</d>
+		<d>
+			<a>You didn't live with me</a>
+			<b>Ты не жил со мной</b>
+			<c>Ю диднт лив виз ми</c>
+		</d>
+		<d>
+			<a>Will I live with him?</a>
+			<b>Буду ли я жить с ним?</b>
+			<c>Вил ай лив виз хим</c>
+		</d>
+		<d>
+			<a>I will live with him</a>
+			<b>Я буду жить с ним</b>
+			<c>Ай вил лив виз хим</c>
+		</d>
+		<d>
+			<a>I will not live with him</a>
+			<b>Я не буду жить с ним</b>
+			<c>Ай вил нот лив виз хим</c>
+		</d>
+		<d>
+			<a>Do I live with him?</a>
+			<b>Я живу с ним?</b>
+			<c>Ду ай лив виз хим</c>
+		</d>
+		<d>
+			<a>I live with him</a>
+			<b>Я живу с ним</b>
+			<c>Ай лив виз хим</c>
+		</d>
+		<d>
+			<a>I don't live with him</a>
+			<b>Я не живу с ним</b>
+			<c>Ай донт лив виз хим</c>
+		</d>
+		<d>
+			<a>Did I live with him?</a>
+			<b>Я жила с ним?</b>
+			<c>Дид ай лив виз хим</c>
+		</d>
+		<d>
+			<a>I lived with him</a>
+			<b>Я жила с ним</b>
+			<c>Ай ливд виз хим</c>
+		</d>
+		<d>
+			<a>I didn't live with him</a>
+			<b>Я не жила с ним</b>
+			<c>Ай диднт лив виз хим</c>
+		</d>
+		<d>
+			<a>Will he live with me?</a>
+			<b>Он будет жить со мной?</b>
+			<c>Вил хи лив виз ми</c>
+		</d>
+		<d>
+			<a>He will live with me</a>
+			<b>Он будет жить со мной</b>
+			<c>Хи вил лив виз ми</c>
+		</d>
+		<d>
+			<a>He will not live with me</a>
+			<b>Он не будет жить со мной</b>
+			<c>Хи вил нот лив виз ми</c>
+		</d>
+		<d>
+			<a>Does he live with me?</a>
+			<b>Он живет со мной?</b>
+			<c>Дас хи лив виз ми</c>
+		</d>
+		<d>
+			<a>He lives with me</a>
+			<b>Он живет со мной</b>
+			<c>Хи ливс виз ми</c>
+		</d>
+		<d>
+			<a>He doesn't live with me</a>
+			<b>Он не живет со мной</b>
+			<c>Хи дазнт лив виз ми</c>
+		</d>
+		<d>
+			<a>Did he live with me?</a>
+			<b>Он жил со мной?</b>
+			<c>Дид хи лив виз ми</c>
+		</d>
+		<d>
+			<a>He lived with me</a>
+			<b>Он жил со мной</b>
+			<c>Хи ливд виз ми</c>
+		</d>
+		<d>
+			<a>He didn't live with me</a>
+			<b>Он не жил со мной</b>
+			<c>Хи диднт лив виз ми</c>
+		</d>
+		<d>
+			<a>Will I live with her?</a>
+			<b>Буду ли я жить с ней?</b>
+			<c>Вил ай лив виз хё</c>
+		</d>
+		<d>
+			<a>I will live with her</a>
+			<b>Я буду жить с ней</b>
+			<c>Ай вил лив виз хё</c>
+		</d>
+		<d>
+			<a>I will not live with her</a>
+			<b>Я не буду жить с ней</b>
+			<c>Ай вил нот лив виз хё</c>
+		</d>
+		<d>
+			<a>Do I live with her?</a>
+			<b>Я живу с ней?</b>
+			<c>Ду ай лив виз хё</c>
+		</d>
+		<d>
+			<a>I live with her</a>
+			<b>Я живу с ней</b>
+			<c>Ай лив виз хё</c>
+		</d>
+		<d>
+			<a>I don't live with her</a>
+			<b>Я не живу с ней</b>
+			<c>Ай донт лив виз хё</c>
+		</d>
+		<d>
+			<a>Did I live with her?</a>
+			<b>Я жил с ней?</b>
+			<c>Дид ай лив виз хё</c>
+		</d>
+		<d>
+			<a>I lived with her</a>
+			<b>Я жил с ней</b>
+			<c>Ай ливд виз хё</c>
+		</d>
+		<d>
+			<a>I did not live with her</a>
+			<b>Я не жил с ней</b>
+			<c>Ай дид нот лив виз хё</c>
+		</d>
+		<d>
+			<a>Will she live with me?</a>
+			<b>Она будет жить со мной?</b>
+			<c>Вил ши лив виз ми?</c>
+		</d>
+		<d>
+			<a>She will live with me</a>
+			<b>Она будет жить со мной</b>
+			<c>Ши вил лив виз ми</c>
+		</d>
+		<d>
+			<a>She will not live with me</a>
+			<b>Она не будет жить со мной</b>
+			<c>Ши вил нот лив виз ми</c>
+		</d>
+		<d>
+			<a>Does she live with me?</a>
+			<b>Она живет со мной?</b>
+			<c>Дас ши лив виз ми</c>
+		</d>
+		<d>
+			<a>She lives with me</a>
+			<b>Она живет со мной</b>
+			<c>Ши ливс виз ми</c>
+		</d>
+		<d>
+			<a>She doesn't live with me</a>
+			<b>Она не живет со мной</b>
+			<c>Ши дазнт лив виз ми</c>
+		</d>
+		<d>
+			<a>Did she live with me?</a>
+			<b>Она жила со мной?</b>
+			<c>Дид ши лив виз ми</c>
+		</d>
+		<d>
+			<a>She lived with me</a>
+			<b>Она жила со мной</b>
+			<c>Ши ливд виз ми</c>
+		</d>
+		<d>
+			<a>She didn't live with me</a>
+			<b>Она не жила со мной</b>
+			<c>Ши диднт лив виз ми</c>
+		</d>
+		<d>
+			<a>Will I live with them?</a>
+			<b>Буду ли я жить с ними?</b>
+			<c>Вил ай лив виз зем</c>
+		</d>
+		<d>
+			<a>I will live with them</a>
+			<b>Я буду жить с ними</b>
+			<c>Ай вил лив виз зем</c>
+		</d>
+		<d>
+			<a>I will not live with them</a>
+			<b>Я не буду жить с ними</b>
+			<c>Ай вил нот лив виз зем</c>
+		</d>
+		<d>
+			<a>Do I live with them?</a>
+			<b>Я живу с ними?</b>
+			<c>Ду ай лив виз зем</c>
+		</d>
+		<d>
+			<a>I live with them</a>
+			<b>Я живу с ними</b>
+			<c>Ай лив виз зем</c>
+		</d>
+		<d>
+			<a>I don't live with them</a>
+			<b>Я не живу с ними</b>
+			<c>Ай донт лив виз зем</c>
+		</d>
+		<d>
+			<a>Did I live with them?</a>
+			<b>Я жил с ними?</b>
+			<c>Дид ай лив виз зем</c>
+		</d>
+		<d>
+			<a>I lived with them</a>
+			<b>Я жил с ними</b>
+			<c>Ай ливд виз зем</c>
+		</d>
+		<d>
+			<a>I did not live with them</a>
+			<b>Я не жил с ними</b>
+			<c>Ай дид нот лив виз зем</c>
+		</d>
+		<d>
+			<a>Will they live with me?</a>
+			<b>Они будут жить со мной?</b>
+			<c>Вил зей лив виз ми</c>
+		</d>
+		<d>
+			<a>They will live with me</a>
+			<b>Они будут жить со мной</b>
+			<c>Зей вил лив виз ми</c>
+		</d>
+		<d>
+			<a>They will not live with me</a>
+			<b>Они не будут жить со мной</b>
+			<c>Зей вил нот лив виз ми</c>
+		</d>
+		<d>
+			<a>Do they live with me?</a>
+			<b>Они живут со мной?</b>
+			<c>Ду зей лив виз ми</c>
+		</d>
+		<d>
+			<a>They live with me</a>
+			<b>Они живут со мной</b>
+			<c>Зей лив виз ми</c>
+		</d>
+		<d>
+			<a>They don't live with me</a>
+			<b>Они не живут со мной</b>
+			<c>Зей донт лив виз ми</c>
+		</d>
+		<d>
+			<a>Did they live with me?</a>
+			<b>Они жили со мной?</b>
+			<c>Дид зей лив виз ми</c>
+		</d>
+		<d>
+			<a>They lived with me</a>
+			<b>Они жили со мной</b>
+			<c>Зей ливд виз ми</c>
+		</d>
+		<d>
+			<a>They didn't live with me</a>
+			<b>Они не жили со мной</b>
+			<c>Зей диднт лив виз ми</c>
+		</d>
+		<d>
+			<a>Will you live with him?</a>
+			<b>Ты будешь жить с ним?</b>
+			<c>Вил ю лив виз хим</c>
+		</d>
+		<d>
+			<a>You will live with him</a>
+			<b>Ты будешь жить с ним</b>
+			<c>Ю вил лив виз хим</c>
+		</d>
+		<d>
+			<a>You will not live with him</a>
+			<b>Ты не будешь жить с ним</b>
+			<c>Ю вил нот лив виз хим</c>
+		</d>
+		<d>
+			<a>Do you live with him?</a>
+			<b>Ты живешь с ним?</b>
+			<c>Ду ю лив виз хим</c>
+		</d>
+		<d>
+			<a>You live with him</a>
+			<b>Ты живешь с ним</b>
+			<c>Ю лив виз хим</c>
+		</d>
+		<d>
+			<a>You don't live with him</a>
+			<b>Ты не живешь с ним</b>
+			<c>Ю донт лив виз хим</c>
+		</d>
+		<d>
+			<a>Did you live with him?</a>
+			<b>Ты жила с ним?</b>
+			<c>Дид ю лив виз хим</c>
+		</d>
+		<d>
+			<a>You lived with him</a>
+			<b>Ты жила с ним</b>
+			<c>Ю ливд виз хим</c>
+		</d>
+		<d>
+			<a>You didn't live with him</a>
+			<b>Ты не жила с ним</b>
+			<c>Ю диднт лив виз хим</c>
+		</d>
+		<d>
+			<a>Will he live with you?</a>
+			<b>Будет ли он жить с тобой?</b>
+			<c>Вил хи лив виз ю</c>
+		</d>
+		<d>
+			<a>He will live with you</a>
+			<b>Он будет жить с тобой</b>
+			<c>Хи вил лив виз ю</c>
+		</d>
+		<d>
+			<a>He will not live with you</a>
+			<b>Он не будет жить с тобой</b>
+			<c>Хи вил нот лив виз ю</c>
+		</d>
+		<d>
+			<a>Does he live with you?</a>
+			<b>Он живет с тобой?</b>
+			<c>Даз хи лив виз ю</c>
+		</d>
+		<d>
+			<a>He lives with you</a>
+			<b>Он живет с тобой</b>
+			<c>Хи ливс виз ю</c>
+		</d>
+		<d>
+			<a>He doesn't live with you</a>
+			<b>Он не живет с тобой</b>
+			<c>Хи дазнт лив виз ю</c>
+		</d>
+		<d>
+			<a>Did he live with you?</a>
+			<b>Он жил с тобой?</b>
+			<c>Дид хи лив виз ю</c>
+		</d>
+		<d>
+			<a>He lived with you</a>
+			<b>Он жил с тобой</b>
+			<c>Хи ливд виз ю</c>
+		</d>
+		<d>
+			<a>He didn't live with you</a>
+			<b>Он не жил с тобой</b>
+			<c>Хи диднт лив виз ю</c>
+		</d>
+		<d>
+			<a>Will she live with you?</a>
+			<b>Будет ли она жить с тобой?</b>
+			<c>Вил ши лив виз ю</c>
+		</d>
+		<d>
+			<a>She will live with you</a>
+			<b>Она будет жить с тобой</b>
+			<c>Ши вил лив виз ю</c>
+		</d>
+		<d>
+			<a>She will not live with you</a>
+			<b>Она не будет жить с тобой</b>
+			<c>Ши вил нот лив виз ю</c>
+		</d>
+		<d>
+			<a>Does she live with you?</a>
+			<b>Она живет с тобой?</b>
+			<c>Даз ши лив виз ю</c>
+		</d>
+		<d>
+			<a>She lives with you</a>
+			<b>Она живет с тобой</b>
+			<c>Ши ливс виз ю</c>
+		</d>
+		<d>
+			<a>She doesn't live with you</a>
+			<b>Она не живет с тобой</b>
+			<c>Ши дазнт лив виз ю</c>
+		</d>
+		<d>
+			<a>Did she live with you?</a>
+			<b>Она жила с тобой?</b>
+			<c>Дид ши лив виз ю</c>
+		</d>
+		<d>
+			<a>She lived with you</a>
+			<b>Она жила с тобой</b>
+			<c>Ши ливд виз ю</c>
+		</d>
+		<d>
+			<a>She didn't live with you</a>
+			<b>Она не жила с тобой</b>
+			<c>Ши диднт лив виз ю</c>
+		</d>
+		<d>
+			<a>Will you live with us?</a>
+			<b>Ты будешь жить с нами?</b>
+			<c>Вил ю лив виз ас</c>
+		</d>
+		<d>
+			<a>You will live with us</a>
+			<b>Ты будешь жить с нами</b>
+			<c>Ю вил лив виз ас</c>
+		</d>
+		<d>
+			<a>You will not live with us</a>
+			<b>Ты не будешь жить с нами</b>
+			<c>Ю вил нот лив виз ас</c>
+		</d>
+		<d>
+			<a>Do you live with us?</a>
+			<b>Ты живешь с нами?</b>
+			<c>Ду ю лив виз ас</c>
+		</d>
+		<d>
+			<a>You live with us</a>
+			<b>Ты живешь с нами</b>
+			<c>Ю лив виз ас</c>
+		</d>
+		<d>
+			<a>You don't live with us</a>
+			<b>Ты не живешь с нами</b>
+			<c>Ю донт лив виз ас</c>
+		</d>
+		<d>
+			<a>Did you live with us?</a>
+			<b>Ты жил с нами?</b>
+			<c>Дид ю лив виз ас</c>
+		</d>
+		<d>
+			<a>You lived with us</a>
+			<b>Ты жил с нами</b>
+			<c>Ю ливд виз ас</c>
+		</d>
+		<d>
+			<a>You didn't live with us</a>
+			<b>Ты не жил с нами</b>
+			<c>Ю диднт лив виз ас</c>
+		</d>
+		<d>
+			<a>Will you live with her?</a>
+			<b>Ты будешь жить с ней?</b>
+			<c>Вил ю лив виз хё</c>
+		</d>
+		<d>
+			<a>You will live with her</a>
+			<b>Ты будешь жить с ней</b>
+			<c>Ю вил лив виз хё</c>
+		</d>
+		<d>
+			<a>You will not live with her</a>
+			<b>Ты не будешь жить с ней</b>
+			<c>Ю вил нот лив виз хё</c>
+		</d>
+		<d>
+			<a>Do you live with her?</a>
+			<b>Ты живешь с ней?</b>
+			<c>Ду ю лив виз хё</c>
+		</d>
+		<d>
+			<a>You live with her</a>
+			<b>Ты живешь с ней</b>
+			<c>Ю лив виз хё</c>
+		</d>
+		<d>
+			<a>You don't live with her</a>
+			<b>Ты не живешь с ней</b>
+			<c>Ю донт лив виз хё</c>
+		</d>
+		<d>
+			<a>Did you live with her?</a>
+			<b>Ты жил с ней?</b>
+			<c>Дид ю лив виз хё</c>
+		</d>
+		<d>
+			<a>You lived with her</a>
+			<b>Ты жил с ней</b>
+			<c>Ю ливд виз хё</c>
+		</d>
+		<d>
+			<a>You didn't live with her</a>
+			<b>Ты не жил с ней</b>
+			<c>Ю диднт лив виз хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will work for you</a>
+			<b>Я буду работать на тебя</b>
+			<c>Ай вил вёк фо ю</c>
+		</d>
+		<d>
+			<a>I didn't work for you</a>
+			<b>Я не работал на тебя</b>
+			<c>Ай диднт вёк фо ю</c>
+		</d>
+		<d>
+			<a>Do I work for you?</a>
+			<b>Я работаю на тебя?</b>
+			<c>Ду ай вёк фо ю</c>
+		</d>
+		<d>
+			<a>Will I work for you?</a>
+			<b>Буду ли я работать на тебя?</b>
+			<c>Вил ай вёк фо ю</c>
+		</d>
+		<d>
+			<a>Did I work for you?</a>
+			<b>Я работал на тебя?</b>
+			<c>Дид ай вёк фо ю</c>
+		</d>
+		<d>
+			<a>I work for you</a>
+			<b>Я работаю на тебя</b>
+			<c>Ай вёк фо ю</c>
+		</d>
+		<d>
+			<a>I worked for you</a>
+			<b>Я работал на тебя</b>
+			<c>Ай вёкд фо ю</c>
+		</d>
+		<d>
+			<a>I will not work for you</a>
+			<b>Я не буду работать на тебя</b>
+			<c>Ай вил нот вёк фо ю</c>
+		</d>
+		<d>
+			<a>I don't work for you</a>
+			<b>Я не работаю на тебя</b>
+			<c>Ай донт вёк фо ю</c>
+		</d>
+		<d>
+			<a>Will you work for me?</a>
+			<b>Ты будешь работать на меня?</b>
+			<c>Вил ю вёк фо ми?</c>
+		</d>
+		<d>
+			<a>You will work for me</a>
+			<b>Ты поработаешь на меня</b>
+			<c>Ю вил вёк фо ми</c>
+		</d>
+		<d>
+			<a>You will not work for me</a>
+			<b>Ты не поработаешь на меня</b>
+			<c>Ю вил нот вёк фо ми</c>
+		</d>
+		<d>
+			<a>Do you work for me?</a>
+			<b>Ты работаешь на меня?</b>
+			<c>Ду ю вёк фо ми</c>
+		</d>
+		<d>
+			<a>You work for me</a>
+			<b>Ты работаешь на меня</b>
+			<c>Ю вёк фо ми</c>
+		</d>
+		<d>
+			<a>You don't work for me</a>
+			<b>Ты не работаешь на меня</b>
+			<c>Ю донт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Did you work for me?</a>
+			<b>Ты работал на меня?</b>
+			<c>Дид ю вёк фо ми</c>
+		</d>
+		<d>
+			<a>You worked for me</a>
+			<b>Ты работал на меня</b>
+			<c>Ю вёкд фо ми</c>
+		</d>
+		<d>
+			<a>You didn't work for me</a>
+			<b>Ты не работал на меня</b>
+			<c>Ю диднт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Will I work for him?</a>
+			<b>Буду ли я работать на него?</b>
+			<c>Вил ай вёк фо хим</c>
+		</d>
+		<d>
+			<a>I will work for him</a>
+			<b>Я буду работать на него</b>
+			<c>Ай вил вёк фо хим</c>
+		</d>
+		<d>
+			<a>I will not work for him</a>
+			<b>Я не буду работать на него</b>
+			<c>Ай вил нот вёк фо хим</c>
+		</d>
+		<d>
+			<a>Do I work for him?</a>
+			<b>Работаю ли я на него?</b>
+			<c>Ду ай вёк фо хим</c>
+		</d>
+		<d>
+			<a>I work for him</a>
+			<b>Я работаю на него</b>
+			<c>Ай вёк фо хим</c>
+		</d>
+		<d>
+			<a>I don't work for him</a>
+			<b>Я не работаю на него</b>
+			<c>Ай донт вёк фо хим</c>
+		</d>
+		<d>
+			<a>Did I work for him?</a>
+			<b>Работала ли я на него?</b>
+			<c>Дид ай вёк фо хим</c>
+		</d>
+		<d>
+			<a>I worked for him</a>
+			<b>Я работала на него</b>
+			<c>Ай вёкд фо хим</c>
+		</d>
+		<d>
+			<a>I didn't work for him</a>
+			<b>Я не работала на него</b>
+			<c>Ай диднт вёк фо хим</c>
+		</d>
+		<d>
+			<a>Will he work for me?</a>
+			<b>Поработает ли он на меня?</b>
+			<c>Вил хи вёк фо ми</c>
+		</d>
+		<d>
+			<a>He will work for me</a>
+			<b>Он поработает на меня</b>
+			<c>Хи вил вёк фо ми</c>
+		</d>
+		<d>
+			<a>He will not work for me</a>
+			<b>Он не поработает на меня</b>
+			<c>Хи вил нот вёк фо ми</c>
+		</d>
+		<d>
+			<a>Does he work for me?</a>
+			<b>Он на меня работает?</b>
+			<c>Дас хи вёк фо ми</c>
+		</d>
+		<d>
+			<a>He works for me</a>
+			<b>Он на меня работает</b>
+			<c>Хи вёкс фо ми</c>
+		</d>
+		<d>
+			<a>He doesn't work for me</a>
+			<b>Он на меня не работает</b>
+			<c>Хи дазнт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Did he work for me?</a>
+			<b>Он работал на меня?</b>
+			<c>Дид хи вёк фо ми</c>
+		</d>
+		<d>
+			<a>He worked for me</a>
+			<b>Он работал на меня</b>
+			<c>Хи вёкд фо ми</c>
+		</d>
+		<d>
+			<a>He didn't work for me</a>
+			<b>Он не работал на меня</b>
+			<c>Хи диднт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Will I work for her?</a>
+			<b>Я буду работать на неё?</b>
+			<c>Вил ай вёк фо хё</c>
+		</d>
+		<d>
+			<a>I will work for her</a>
+			<b>Я буду работать на неё</b>
+			<c>Ай вил вёк фо хё</c>
+		</d>
+		<d>
+			<a>I will not work for her</a>
+			<b>Я не буду работать на неё</b>
+			<c>Ай вил нот вёк фо хё</c>
+		</d>
+		<d>
+			<a>Do I work for her?</a>
+			<b>Работаю ли я на неё?</b>
+			<c>Ду ай вёк фо хё</c>
+		</d>
+		<d>
+			<a>I work for her</a>
+			<b>Я работаю на неё</b>
+			<c>Ай вёк фо хё</c>
+		</d>
+		<d>
+			<a>I don't work for her</a>
+			<b>Я не работаю на неё</b>
+			<c>Ай донт вёк фо хё</c>
+		</d>
+		<d>
+			<a>Did I work for her?</a>
+			<b>Я работал на неё?</b>
+			<c>Дид ай вёк фо хё</c>
+		</d>
+		<d>
+			<a>I worked for her</a>
+			<b>Я работал на неё</b>
+			<c>Ай вёкд фо хё</c>
+		</d>
+		<d>
+			<a>I did not work for her</a>
+			<b>Я не работал на неё</b>
+			<c>Ай дид нот вёк фо хё</c>
+		</d>
+		<d>
+			<a>Will she work for me?</a>
+			<b>Она поработает на меня?</b>
+			<c>Вил ши вёк фо ми?</c>
+		</d>
+		<d>
+			<a>She will work for me</a>
+			<b>Она поработает на меня</b>
+			<c>Ши вил вёк фо ми</c>
+		</d>
+		<d>
+			<a>She will not work for me</a>
+			<b>Она не поработает на меня</b>
+			<c>Ши вил нот вёк фо ми</c>
+		</d>
+		<d>
+			<a>Does she work for me?</a>
+			<b>Она работает на меня?</b>
+			<c>Дас ши вёк фо ми</c>
+		</d>
+		<d>
+			<a>She works for me</a>
+			<b>Она работает на меня</b>
+			<c>Ши вёкс фо ми</c>
+		</d>
+		<d>
+			<a>She doesn't work for me</a>
+			<b>Она не работает на меня</b>
+			<c>Ши дазнт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Did she work for me?</a>
+			<b>Она работала на меня?</b>
+			<c>Дид ши вёк фо ми</c>
+		</d>
+		<d>
+			<a>She worked for me</a>
+			<b>Она работала на меня</b>
+			<c>Ши вёкд фо ми</c>
+		</d>
+		<d>
+			<a>She didn't work for me</a>
+			<b>Она не работала на меня</b>
+			<c>Ши диднт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Will I work for them?</a>
+			<b>Я буду работать на них?</b>
+			<c>Вил ай вёк фо зем</c>
+		</d>
+		<d>
+			<a>I will work for them</a>
+			<b>Я буду работать на них</b>
+			<c>Ай вил вёк фо зем</c>
+		</d>
+		<d>
+			<a>I will not work for them</a>
+			<b>Я не буду работать на них</b>
+			<c>Ай вил нот вёк фо зем</c>
+		</d>
+		<d>
+			<a>Do I work for them?</a>
+			<b>Я работаю на них?</b>
+			<c>Ду ай вёк фо зем</c>
+		</d>
+		<d>
+			<a>I work for them</a>
+			<b>Я работаю на них</b>
+			<c>Ай вёк фо зем</c>
+		</d>
+		<d>
+			<a>I don't work for them</a>
+			<b>Я не работаю на них</b>
+			<c>Ай донт вёк фо зем</c>
+		</d>
+		<d>
+			<a>Did I work for them?</a>
+			<b>Работал ли я на них?</b>
+			<c>Дид ай вёк фо зем</c>
+		</d>
+		<d>
+			<a>I worked for them</a>
+			<b>Я работал на них</b>
+			<c>Ай вёкд фо зем</c>
+		</d>
+		<d>
+			<a>I did not work for them</a>
+			<b>Я не работал на них</b>
+			<c>Ай дид нот вёк фо зем</c>
+		</d>
+		<d>
+			<a>Will they work for me?</a>
+			<b>Они будут работать на меня?</b>
+			<c>Вил зей вёк фо ми</c>
+		</d>
+		<d>
+			<a>They will work for me</a>
+			<b>Они будут работать на меня</b>
+			<c>Зей вил вёк фо ми</c>
+		</d>
+		<d>
+			<a>They will not work for me</a>
+			<b>Они не будут работать на меня</b>
+			<c>Зей вил нот вёк фо ми</c>
+		</d>
+		<d>
+			<a>Do they work for me?</a>
+			<b>Они работают на меня?</b>
+			<c>Ду зей вёк фо ми</c>
+		</d>
+		<d>
+			<a>They work for me</a>
+			<b>Они работают на меня</b>
+			<c>Зей вёк фо ми</c>
+		</d>
+		<d>
+			<a>They don't work for me</a>
+			<b>Они не работают на меня</b>
+			<c>Зей донт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Did they work for me?</a>
+			<b>Они работали на меня?</b>
+			<c>Дид зей вёк фо ми</c>
+		</d>
+		<d>
+			<a>They worked for me</a>
+			<b>Они работали на меня</b>
+			<c>Зей вёкд фо ми</c>
+		</d>
+		<d>
+			<a>They didn't work for me</a>
+			<b>Они не работали на меня</b>
+			<c>Зей диднт вёк фо ми</c>
+		</d>
+		<d>
+			<a>Will you work for him?</a>
+			<b>Поработаешь ли ты на него?</b>
+			<c>Вил ю вёк фо хим</c>
+		</d>
+		<d>
+			<a>You will work for him</a>
+			<b>Ты поработаешь на него</b>
+			<c>Ю вил вёк фо хим</c>
+		</d>
+		<d>
+			<a>You will not work for him</a>
+			<b>Ты не поработаешь на него</b>
+			<c>Ю вил нот вёк фо хим</c>
+		</d>
+		<d>
+			<a>Do you work for him?</a>
+			<b>Ты работаешь на него?</b>
+			<c>Ду ю вёк фо хим</c>
+		</d>
+		<d>
+			<a>You work for him</a>
+			<b>Ты работаешь на него</b>
+			<c>Ю вёк фо хим</c>
+		</d>
+		<d>
+			<a>You don't work for him</a>
+			<b>Ты не работаешь на него</b>
+			<c>Ю донт вёк фо хим</c>
+		</d>
+		<d>
+			<a>Did you work for him?</a>
+			<b>Ты работал на него?</b>
+			<c>Дид ю вёк фо хим</c>
+		</d>
+		<d>
+			<a>You worked for him</a>
+			<b>Ты работал на него</b>
+			<c>Ю вёкд фо хим</c>
+		</d>
+		<d>
+			<a>You didn't work for him</a>
+			<b>Ты не работала на него</b>
+			<c>Ю диднт вёк фо хим</c>
+		</d>
+		<d>
+			<a>Will he work for you?</a>
+			<b>Он поработает на тебя?</b>
+			<c>Вил хи вёк фо ю</c>
+		</d>
+		<d>
+			<a>He will work for you</a>
+			<b>Он поработает на тебя</b>
+			<c>Хи вил вёк фо ю</c>
+		</d>
+		<d>
+			<a>He will not work for you</a>
+			<b>Он не поработает на тебя</b>
+			<c>Хи вил нот вёк фо ю</c>
+		</d>
+		<d>
+			<a>Does he work for you?</a>
+			<b>Он работает на тебя?</b>
+			<c>Даз хи вёк фо ю</c>
+		</d>
+		<d>
+			<a>He works for you</a>
+			<b>Он работает на тебя</b>
+			<c>Хи вёкс фо ю</c>
+		</d>
+		<d>
+			<a>He doesn't work for you</a>
+			<b>Он не работает на тебя</b>
+			<c>Хи дазнт вёк фо ю</c>
+		</d>
+		<d>
+			<a>Did he work for you?</a>
+			<b>Он работал на тебя?</b>
+			<c>Дид хи вёк фо ю</c>
+		</d>
+		<d>
+			<a>He worked for you</a>
+			<b>Он работал на тебя</b>
+			<c>Хи вёкд фо ю</c>
+		</d>
+		<d>
+			<a>He didn't work for you</a>
+			<b>Он не работал на тебя</b>
+			<c>Хи диднт вёк фо ю</c>
+		</d>
+		<d>
+			<a>Will she work for you?</a>
+			<b>Она поработает на тебя?</b>
+			<c>Вил ши вёк фо ю</c>
+		</d>
+		<d>
+			<a>She will work for you</a>
+			<b>Она поработает на тебя</b>
+			<c>Ши вил вёк фо ю</c>
+		</d>
+		<d>
+			<a>She will not work for you</a>
+			<b>Она не поработает на тебя</b>
+			<c>Ши вил нот вёк фо ю</c>
+		</d>
+		<d>
+			<a>Does she work for you?</a>
+			<b>Она работает на тебя?</b>
+			<c>Даз ши вёк фо ю</c>
+		</d>
+		<d>
+			<a>She works for you</a>
+			<b>Она работает на тебя</b>
+			<c>Ши вёкс фо ю</c>
+		</d>
+		<d>
+			<a>She doesn't work for you</a>
+			<b>Она не работает на тебя</b>
+			<c>Ши дазнт вёк фо ю</c>
+		</d>
+		<d>
+			<a>Did she work for you?</a>
+			<b>Она работала на тебя?</b>
+			<c>Дид ши вёк фо ю</c>
+		</d>
+		<d>
+			<a>She worked for you</a>
+			<b>Она работала на тебя</b>
+			<c>Ши вёкд фо ю</c>
+		</d>
+		<d>
+			<a>She didn't work for you</a>
+			<b>Она не работала на тебя</b>
+			<c>Ши диднт вёк фо ю</c>
+		</d>
+		<d>
+			<a>Will you work for us?</a>
+			<b>Поработаешь ли ты на нас?</b>
+			<c>Вил ю вёк фо ас</c>
+		</d>
+		<d>
+			<a>You will work for us</a>
+			<b>Ты поработаешь на нас</b>
+			<c>Ю вил вёк фо ас</c>
+		</d>
+		<d>
+			<a>You will not work for us</a>
+			<b>Ты не поработаешь на нас</b>
+			<c>Ю вил нот вёк фо ас</c>
+		</d>
+		<d>
+			<a>Do you work for us?</a>
+			<b>Ты работаешь на нас?</b>
+			<c>Ду ю вёк фо ас</c>
+		</d>
+		<d>
+			<a>You work for us</a>
+			<b>Ты работаешь на нас</b>
+			<c>Ю вёк фо ас</c>
+		</d>
+		<d>
+			<a>You don't work for us</a>
+			<b>Ты не работаешь на нас</b>
+			<c>Ю донт вёк фо ас</c>
+		</d>
+		<d>
+			<a>Did you work for us?</a>
+			<b>Ты работал на нас?</b>
+			<c>Дид ю вёк фо ас</c>
+		</d>
+		<d>
+			<a>You worked for us</a>
+			<b>Ты работала на нас</b>
+			<c>Ю вёкд фо ас</c>
+		</d>
+		<d>
+			<a>You didn't work for us</a>
+			<b>Ты не работала на нас</b>
+			<c>Ю диднт вёк фо ас</c>
+		</d>
+		<d>
+			<a>Will you work for her?</a>
+			<b>Поработаешь ли ты на неё?</b>
+			<c>Вил ю вёк фо хё</c>
+		</d>
+		<d>
+			<a>You will work for her</a>
+			<b>Ты поработаешь на неё</b>
+			<c>Ю вил вёк фо хё</c>
+		</d>
+		<d>
+			<a>You will not work for her</a>
+			<b>Ты не поработаешь на неё</b>
+			<c>Ю вил нот вёк фо хё</c>
+		</d>
+		<d>
+			<a>Do you work for her?</a>
+			<b>Ты работаешь на неё?</b>
+			<c>Ду ю вёк фо хё</c>
+		</d>
+		<d>
+			<a>You work for her</a>
+			<b>Ты работаешь на неё</b>
+			<c>Ю вёк фо хё</c>
+		</d>
+		<d>
+			<a>You don't work for her</a>
+			<b>Ты не работаешь на неё</b>
+			<c>Ю донт вёк фо хё</c>
+		</d>
+		<d>
+			<a>Did you work for her?</a>
+			<b>Ты работал на неё?</b>
+			<c>Дид ю вёк фо хё</c>
+		</d>
+		<d>
+			<a>You worked for her</a>
+			<b>Ты работал на неё</b>
+			<c>Ю вёкд фо хё</c>
+		</d>
+		<d>
+			<a>You didn't work for her</a>
+			<b>Ты не работал на неё</b>
+			<c>Ю диднт вёк фо хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will open my heart</a>
+			<b>Я открою своё сердце</b>
+			<c>Ай вил оупен май хаат</c>
+		</d>
+		<d>
+			<a>I didn't open my heart</a>
+			<b>Я не открыл своё сердце</b>
+			<c>Ай диднт оупен май хаат</c>
+		</d>
+		<d>
+			<a>Do I open my heart?</a>
+			<b>Я открываю своё сердце?</b>
+			<c>Ду ай оупен май хаат</c>
+		</d>
+		<d>
+			<a>Will I open my heart?</a>
+			<b>Я открою своё сердце?</b>
+			<c>Вил ай оупен май хаат</c>
+		</d>
+		<d>
+			<a>Did I open my heart?</a>
+			<b>Я открыл свое сердце?</b>
+			<c>Дид ай оупен май хаат</c>
+		</d>
+		<d>
+			<a>I open my heart</a>
+			<b>Я открываю свое сердце</b>
+			<c>Ай оупен май хаат</c>
+		</d>
+		<d>
+			<a>I opened my heart</a>
+			<b>Я открыл свое сердце</b>
+			<c>Ай оупенд май хаат</c>
+		</d>
+		<d>
+			<a>I will not open my heart</a>
+			<b>Я не открою свое сердце</b>
+			<c>Ай вил нот оупен май хаат</c>
+		</d>
+		<d>
+			<a>I don't open my heart</a>
+			<b>Я не открываю свое сердце</b>
+			<c>Ай донт оупен май хаат</c>
+		</d>
+		<d>
+			<a>Will you open your heart?</a>
+			<b>Ты откроешь свое сердце?</b>
+			<c>Вил ю оупен ё хаат?</c>
+		</d>
+		<d>
+			<a>You will open your heart</a>
+			<b>Ты откроешь свое сердце</b>
+			<c>Ю вил оупен ё хаат</c>
+		</d>
+		<d>
+			<a>You will not open your heart</a>
+			<b>Ты не откроешь свое сердце</b>
+			<c>Ю вил нот оупен ё хаат</c>
+		</d>
+		<d>
+			<a>Do you open your heart?</a>
+			<b>Ты открываешь свое сердце?</b>
+			<c>Ду ю оупен ё хаат</c>
+		</d>
+		<d>
+			<a>You open your heart</a>
+			<b>Ты открываешь свое сердце</b>
+			<c>Ю оупен ё хаат</c>
+		</d>
+		<d>
+			<a>You don't open your heart</a>
+			<b>Ты не открываешь свое сердце</b>
+			<c>Ю донт оупен ё хаат</c>
+		</d>
+		<d>
+			<a>Did you open your heart?</a>
+			<b>Ты открыла свое сердце?</b>
+			<c>Дид ю оупен ё хаат</c>
+		</d>
+		<d>
+			<a>You opened your heart</a>
+			<b>Ты открыла свое сердце</b>
+			<c>Ю оупенд ё хаат</c>
+		</d>
+		<d>
+			<a>You didn't open your heart</a>
+			<b>Ты не открыла свое сердце</b>
+			<c>Ю диднт оупен ё хаат</c>
+		</d>
+		<d>
+			<a>Will I open my heart him?</a>
+			<b>Я открою свое сердце ему?</b>
+			<c>Вил ай оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>I will open my heart him</a>
+			<b>Я открою свое сердце ему</b>
+			<c>Ай вил оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>I will not open my heart him</a>
+			<b>Я не открою свое сердце ему</b>
+			<c>Ай вил нот оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>Do I open my heart him?</a>
+			<b>Я открываю свое сердце ему?</b>
+			<c>Ду ай оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>I open my heart him</a>
+			<b>Я открываю свое сердце ему</b>
+			<c>Ай оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>I don't open my heart him</a>
+			<b>Я не открываю свое сердце ему</b>
+			<c>Ай донт оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>Did I open my heart him?</a>
+			<b>Я открыла свое сердце ему?</b>
+			<c>Дид ай оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>I opened my heart him</a>
+			<b>Я открыла свое сердце ему</b>
+			<c>Ай оупенд май хаат хим</c>
+		</d>
+		<d>
+			<a>I didn't open my heart him</a>
+			<b>Я не открыла своего сердца ему</b>
+			<c>Ай диднт оупен май хаат хим</c>
+		</d>
+		<d>
+			<a>Will he open his heart?</a>
+			<b>Откроет ли он свое сердце?</b>
+			<c>Вил хи оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>He will open his heart</a>
+			<b>Он откроет свое сердце</b>
+			<c>Хи вил оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>He will not open his heart</a>
+			<b>Он не откроет своего сердца</b>
+			<c>Хи вил нот оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>Does he open his heart?</a>
+			<b>Открывает ли он свое сердце?</b>
+			<c>Дас хи оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>He opens his heart</a>
+			<b>Он открывает свое сердце</b>
+			<c>Хи оупенс хиз хаат</c>
+		</d>
+		<d>
+			<a>He doesn't open his heart</a>
+			<b>Он не открывает своего сердца</b>
+			<c>Хи дазнт оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>Did he open his heart?</a>
+			<b>Он открыл свое сердце?</b>
+			<c>Дид хи оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>He opened his heart</a>
+			<b>Он открыл свое сердце</b>
+			<c>Хи оупенд хиз хаат</c>
+		</d>
+		<d>
+			<a>He didn't open his heart</a>
+			<b>Он не открыл свое сердце</b>
+			<c>Хи диднт оупен хиз хаат</c>
+		</d>
+		<d>
+			<a>Will I open my heart her?</a>
+			<b>Я открою свое сердце ей?</b>
+			<c>Вил ай оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>I will open my heart her</a>
+			<b>Я открою свое сердце ей</b>
+			<c>Ай вил оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>I will not open my heart her</a>
+			<b>Я не открою своего сердца ей</b>
+			<c>Ай вил нот оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>Do I open my heart her?</a>
+			<b>Я открываю свое сердце ей?</b>
+			<c>Ду ай оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>I open my heart her</a>
+			<b>Я открываю свое сердце ей</b>
+			<c>Ай оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>I don't open my heart her</a>
+			<b>Я не открываю свое сердце ей</b>
+			<c>Ай донт оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>Did I open my heart her?</a>
+			<b>Я открыл свое сердце ей?</b>
+			<c>Дид ай оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>I opened my heart her</a>
+			<b>Я открыл свое сердце ей</b>
+			<c>Ай оупенд май хаат хё</c>
+		</d>
+		<d>
+			<a>I did not open my heart her</a>
+			<b>Я не открыл свое сердце ей</b>
+			<c>Ай дид нот оупен май хаат хё</c>
+		</d>
+		<d>
+			<a>Will she open her heart?</a>
+			<b>Она откроет свое сердце?</b>
+			<c>Вил ши оупен хё хаат?</c>
+		</d>
+		<d>
+			<a>She will open her heart</a>
+			<b>Она откроет свое сердце</b>
+			<c>Ши вил оупен хё хаат</c>
+		</d>
+		<d>
+			<a>She will not open her heart</a>
+			<b>Она не откроет свое сердце</b>
+			<c>Ши вил нот оупен хё хаат</c>
+		</d>
+		<d>
+			<a>Does she open her heart?</a>
+			<b>Она открывает свое сердце?</b>
+			<c>Дас ши оупен хё хаат</c>
+		</d>
+		<d>
+			<a>She opens her heart</a>
+			<b>Она открывает свое сердце</b>
+			<c>Ши оупенс хё хаат</c>
+		</d>
+		<d>
+			<a>She doesn't open her heart</a>
+			<b>Она не открывает своего сердца</b>
+			<c>Ши дазнт оупен хё хаат</c>
+		</d>
+		<d>
+			<a>Did she open her heart?</a>
+			<b>Она открыла свое сердце?</b>
+			<c>Дид ши оупен хё хаат</c>
+		</d>
+		<d>
+			<a>She opened her heart</a>
+			<b>Она открыла свое сердце</b>
+			<c>Ши оупенд хё хаат</c>
+		</d>
+		<d>
+			<a>She didn't open her heart</a>
+			<b>Она не открыла своего сердца</b>
+			<c>Ши диднт оупен хё хаат</c>
+		</d>
+		<d>
+			<a>Will I open my heart them?</a>
+			<b>Я открою свое сердце им?</b>
+			<c>Вил ай оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>I will open my heart them</a>
+			<b>Я открою свое сердце им</b>
+			<c>Ай вил оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>I will not open my heart them</a>
+			<b>Я не открою свое сердце им</b>
+			<c>Ай вил нот оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>Do I open my heart them?</a>
+			<b>Я открываю свое сердце им?</b>
+			<c>Ду ай оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>I open my heart them</a>
+			<b>Я открываю свое сердце им</b>
+			<c>Ай оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>I don't open my heart them</a>
+			<b>Я не открываю своего сердца им</b>
+			<c>Ай донт оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>Did I open my heart them?</a>
+			<b>Я открыл свое сердце им?</b>
+			<c>Дид ай оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>I opened my heart them</a>
+			<b>Я открыл свое сердце им</b>
+			<c>Ай оупенд май хаат зем</c>
+		</d>
+		<d>
+			<a>I did not open my heart them</a>
+			<b>Я не открыл свое сердце им</b>
+			<c>Ай дид нот оупен май хаат зем</c>
+		</d>
+		<d>
+			<a>Will they open their hearts?</a>
+			<b>Они откроют свои сердца?</b>
+			<c>Вил зей оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>They will open their hearts</a>
+			<b>Они откроют свои сердца</b>
+			<c>Зей вил оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>They will not open their hearts</a>
+			<b>Они не откроют свои сердца</b>
+			<c>Зей вил нот оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>Do they open their hearts?</a>
+			<b>Они открывают свои сердца?</b>
+			<c>Ду зей оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>They open their hearts</a>
+			<b>Они открывают свои сердца</b>
+			<c>Зей оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>They don't open their hearts</a>
+			<b>Они не открывают свои сердца</b>
+			<c>Зей донт оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>Did they open their hearts?</a>
+			<b>Они открыли свои сердца?</b>
+			<c>Дид зей оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>They opened their hearts</a>
+			<b>Они открыли свои сердца</b>
+			<c>Зей оупенд зейр хаатс</c>
+		</d>
+		<d>
+			<a>They didn't open their hearts</a>
+			<b>Они не открыли свои сердца</b>
+			<c>Зей диднт оупен зейр хаатс</c>
+		</d>
+		<d>
+			<a>Will you open your heart him?</a>
+			<b>Ты откроешь свое сердце ему?</b>
+			<c>Вил ю оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>You will open your heart him</a>
+			<b>Ты откроешь свое сердце ему</b>
+			<c>Ю вил оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>You will not open your heart him</a>
+			<b>Ты не откроешь свое сердце ему</b>
+			<c>Ю вил нот оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>Do you open your heart him?</a>
+			<b>Ты открываешь свое сердце ему?</b>
+			<c>Ду ю оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>You open your heart him</a>
+			<b>Ты открываешь свое сердце ему</b>
+			<c>Ю оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>You don't open your heart him</a>
+			<b>Ты не открываешь своего сердца ему</b>
+			<c>Ю донт оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>Did you open your heart him?</a>
+			<b>Ты открыла свое сердце ему?</b>
+			<c>Дид ю оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>You opened your heart him</a>
+			<b>Ты открыла свое сердце ему</b>
+			<c>Ю оупенд ё хаат хим</c>
+		</d>
+		<d>
+			<a>You didn't open your heart him</a>
+			<b>Ты не открыла свое сердце ему</b>
+			<c>Ю диднт оупен ё хаат хим</c>
+		</d>
+		<d>
+			<a>Will he open his eyes?</a>
+			<b>Он откроет свои глаза?</b>
+			<c>Вил хи оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>He will open his eyes</a>
+			<b>Он откроет свои глаза</b>
+			<c>Хи вил оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>He will not open his eyes</a>
+			<b>Он не откроет свои глаза</b>
+			<c>Хи вил нот оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>Does he open his eyes?</a>
+			<b>Он открывает свои глаза?</b>
+			<c>Даз хи оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>He opens his eyes</a>
+			<b>Он открывает свои глаза</b>
+			<c>Хи оупэнс хиз айс</c>
+		</d>
+		<d>
+			<a>He doesn't open his eyes</a>
+			<b>Он не открывает своих глаз</b>
+			<c>Хи дазнт оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>Did he open his eyes?</a>
+			<b>Он открыл свои глаза?</b>
+			<c>Дид хи оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>He opened his eyes</a>
+			<b>Он открыл свои глаза</b>
+			<c>Хи оупэнд хиз айс</c>
+		</d>
+		<d>
+			<a>He didn't open his eyes</a>
+			<b>Он не открыл свои глаза</b>
+			<c>Хи диднт оупэн хиз айс</c>
+		</d>
+		<d>
+			<a>Will she open her eyes?</a>
+			<b>Она откроет свои глаза?</b>
+			<c>Вил ши оупэн хё айс</c>
+		</d>
+		<d>
+			<a>She will open her eyes</a>
+			<b>Она откроет свои глаза</b>
+			<c>Ши вил оупэн хё айс</c>
+		</d>
+		<d>
+			<a>She will not open her eyes</a>
+			<b>Она не откроет свои глаза</b>
+			<c>Ши вил нот оупэн хё айс</c>
+		</d>
+		<d>
+			<a>Does she open her eyes?</a>
+			<b>Она открывает свои глаза?</b>
+			<c>Даз ши оупэн хё айс</c>
+		</d>
+		<d>
+			<a>She opens her eyes</a>
+			<b>Она открывает свои глаза</b>
+			<c>Ши оупэнс хё айс</c>
+		</d>
+		<d>
+			<a>She doesn't open her eyes</a>
+			<b>Она не открывает свои глаза</b>
+			<c>Ши дазнт оупэн хё айс</c>
+		</d>
+		<d>
+			<a>Did she open her eyes?</a>
+			<b>Она открыла свои глаза?</b>
+			<c>Дид ши оупэн хё айс</c>
+		</d>
+		<d>
+			<a>She opened her eyes</a>
+			<b>Она открыла свои глаза</b>
+			<c>Ши оупэнд хё айс</c>
+		</d>
+		<d>
+			<a>She didn't open her eyes</a>
+			<b>Она не открыла свои глаза</b>
+			<c>Ши диднт оупэн хё айс</c>
+		</d>
+		<d>
+			<a>Will you open the door?</a>
+			<b>Ты откроешь дверь?</b>
+			<c>Вил ю оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>You will open the door</a>
+			<b>Ты откроешь дверь</b>
+			<c>Ю вил оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>You will not open the door</a>
+			<b>Ты не откроешь дверь</b>
+			<c>Ю вил нот оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>Do you open the door?</a>
+			<b>Ты открываешь дверь?</b>
+			<c>Ду ю оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>You open the door</a>
+			<b>Ты открываешь дверь</b>
+			<c>Ю оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>You don't open the door</a>
+			<b>Ты не открываешь дверь</b>
+			<c>Ю донт оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>Did you open the door?</a>
+			<b>Ты открыл дверь?</b>
+			<c>Дид ю оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>You opened the door</a>
+			<b>Ты открыл дверь</b>
+			<c>Ю оупэнд зэ доо</c>
+		</d>
+		<d>
+			<a>You didn't open the door</a>
+			<b>Ты не открыл дверь</b>
+			<c>Ю диднт оупэн зэ доо</c>
+		</d>
+		<d>
+			<a>Will you open your heart her?</a>
+			<b>Ты откроешь свое сердце ей?</b>
+			<c>Вил ю оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>You will open your heart her</a>
+			<b>Ты откроешь свое сердце ей</b>
+			<c>Ю вил оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>You will not open your heart her</a>
+			<b>Ты не откроешь свое сердце ей</b>
+			<c>Ю вил нот оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>Do you open your heart her?</a>
+			<b>Ты открываешь свое сердце ей?</b>
+			<c>Ду ю оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>You open your heart her</a>
+			<b>Ты открываешь свое сердце ей</b>
+			<c>Ю оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>You don't open your heart her</a>
+			<b>Ты не открываешь свое сердце ей</b>
+			<c>Ю донт оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>Did you open your heart her?</a>
+			<b>Ты открыл свое сердце ей?</b>
+			<c>Дид ю оупэн ё хаат хё</c>
+		</d>
+		<d>
+			<a>You opened your heart her</a>
+			<b>Ты открыл свое сердце ей</b>
+			<c>Ю оупэнд ё хаат хё</c>
+		</d>
+		<d>
+			<a>You didn't open your heart her</a>
+			<b>Ты не открыл свое сердце ей</b>
+			<c>Ю диднт оупэн ё хаат хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will close you</a>
+			<b>Я закрою тебя</b>
+			<c>Ай вил клоус ю</c>
+		</d>
+		<d>
+			<a>I didn't close you</a>
+			<b>Я не закрыл тебя</b>
+			<c>Ай диднт клоус ю</c>
+		</d>
+		<d>
+			<a>Do I close you?</a>
+			<b>Закрываю ли я тебя?</b>
+			<c>Ду ай клоус ю</c>
+		</d>
+		<d>
+			<a>Will I close you?</a>
+			<b>Я буду тебя закрывать?</b>
+			<c>Вил ай клоус ю</c>
+		</d>
+		<d>
+			<a>Did I close you?</a>
+			<b>Я закрыла тебя?</b>
+			<c>Дид ай клоус ю</c>
+		</d>
+		<d>
+			<a>I close you</a>
+			<b>Я закрываю тебя</b>
+			<c>Ай клоус ю</c>
+		</d>
+		<d>
+			<a>I closed you</a>
+			<b>Я закрыл тебя</b>
+			<c>Ай клоусд ю</c>
+		</d>
+		<d>
+			<a>I will not close you</a>
+			<b>Я не закрою тебя</b>
+			<c>Ай вил нот клоус ю</c>
+		</d>
+		<d>
+			<a>I don't close you</a>
+			<b>Я не закрываю тебя</b>
+			<c>Ай донт клоус ю</c>
+		</d>
+		<d>
+			<a>Will you close me?</a>
+			<b>Ты закроешь меня?</b>
+			<c>Вил ю клоус ми?</c>
+		</d>
+		<d>
+			<a>You will close me</a>
+			<b>Ты закроешь меня</b>
+			<c>Ю вил клоус ми</c>
+		</d>
+		<d>
+			<a>You will not close me</a>
+			<b>Ты не закроешь меня</b>
+			<c>Ю вил нот клоус ми</c>
+		</d>
+		<d>
+			<a>Do you close me?</a>
+			<b>Ты закрываешь меня?</b>
+			<c>Ду ю клоус ми</c>
+		</d>
+		<d>
+			<a>You close me</a>
+			<b>Ты закрываешь меня</b>
+			<c>Ю клоус ми</c>
+		</d>
+		<d>
+			<a>You don't close me</a>
+			<b>Ты не закрываешь меня</b>
+			<c>Ю донт клоус ми</c>
+		</d>
+		<d>
+			<a>Did you close me?</a>
+			<b>Ты закрыл меня?</b>
+			<c>Дид ю клоус ми</c>
+		</d>
+		<d>
+			<a>You closed me</a>
+			<b>Ты закрыл меня</b>
+			<c>Ю клоусд ми</c>
+		</d>
+		<d>
+			<a>You didn't close me</a>
+			<b>Ты не закрыл меня</b>
+			<c>Ю диднт клоус ми</c>
+		</d>
+		<d>
+			<a>Will I close him?</a>
+			<b>Закрою ли я его?</b>
+			<c>Вил ай клоус хим</c>
+		</d>
+		<d>
+			<a>I will close him</a>
+			<b>Я закрою его</b>
+			<c>Ай вил клоус хим</c>
+		</d>
+		<d>
+			<a>I will not close him</a>
+			<b>Я не закрою его</b>
+			<c>Ай вил нот клоус хим</c>
+		</d>
+		<d>
+			<a>Do I close him?</a>
+			<b>Закрываю ли я его?</b>
+			<c>Ду ай клоус хим</c>
+		</d>
+		<d>
+			<a>I close him</a>
+			<b>Я закрываю его</b>
+			<c>Ай клоус хим</c>
+		</d>
+		<d>
+			<a>I don't close him</a>
+			<b>Я не закрываю его</b>
+			<c>Ай донт клоус хим</c>
+		</d>
+		<d>
+			<a>Did I close him?</a>
+			<b>Закрыла ли я его?</b>
+			<c>Дид ай клоус хим</c>
+		</d>
+		<d>
+			<a>I closed him</a>
+			<b>Я закрыла его</b>
+			<c>Ай клоусд хим</c>
+		</d>
+		<d>
+			<a>I didn't close him</a>
+			<b>Я не закрыла его</b>
+			<c>Ай диднт клоус хим</c>
+		</d>
+		<d>
+			<a>Will he close me?</a>
+			<b>Закроет ли он меня?</b>
+			<c>Вил хи клоус ми</c>
+		</d>
+		<d>
+			<a>He will close me</a>
+			<b>Он закроет меня</b>
+			<c>Хи вил клоус ми</c>
+		</d>
+		<d>
+			<a>He will not close me</a>
+			<b>Он не закроет меня</b>
+			<c>Хи вил нот клоус ми</c>
+		</d>
+		<d>
+			<a>Does he close me?</a>
+			<b>Он меня закрывает?</b>
+			<c>Дас хи клоус ми</c>
+		</d>
+		<d>
+			<a>He closes me</a>
+			<b>Он меня закрывает</b>
+			<c>Хи клоусес ми</c>
+		</d>
+		<d>
+			<a>He doesn't close me</a>
+			<b>Он меня не закрывает</b>
+			<c>Хи дазнт клоус ми</c>
+		</d>
+		<d>
+			<a>Did he close me?</a>
+			<b>Он закрыл меня?</b>
+			<c>Дид хи клоус ми</c>
+		</d>
+		<d>
+			<a>He closed me</a>
+			<b>Он закрыл меня</b>
+			<c>Хи клоусд ми</c>
+		</d>
+		<d>
+			<a>He didn't close me</a>
+			<b>Он не закрыл меня</b>
+			<c>Хи диднт клоус ми</c>
+		</d>
+		<d>
+			<a>Will I close her?</a>
+			<b>Я закрою её?</b>
+			<c>Вил ай клоус хё</c>
+		</d>
+		<d>
+			<a>I will close her</a>
+			<b>Я закрою её</b>
+			<c>Ай вил клоус хё</c>
+		</d>
+		<d>
+			<a>I will not close her</a>
+			<b>Я не закрою её</b>
+			<c>Ай вил нот клоус хё</c>
+		</d>
+		<d>
+			<a>Do I close her?</a>
+			<b>Я закрываю её?</b>
+			<c>Ду ай клоус хё</c>
+		</d>
+		<d>
+			<a>I close her</a>
+			<b>Я закрываю её</b>
+			<c>Ай клоус хё</c>
+		</d>
+		<d>
+			<a>I don't close her</a>
+			<b>Я не закрываю её</b>
+			<c>Ай донт клоус хё</c>
+		</d>
+		<d>
+			<a>Did I close her?</a>
+			<b>Я закрыл её?</b>
+			<c>Дид ай клоус хё</c>
+		</d>
+		<d>
+			<a>I closed her</a>
+			<b>Я закрыл её</b>
+			<c>Ай клоусд хё</c>
+		</d>
+		<d>
+			<a>I did not close her</a>
+			<b>Я не закрыл её</b>
+			<c>Ай дид нот клоус хё</c>
+		</d>
+		<d>
+			<a>Will she close me?</a>
+			<b>Она закроет меня?</b>
+			<c>Вил ши клоус ми?</c>
+		</d>
+		<d>
+			<a>She will close me</a>
+			<b>Она закроет меня</b>
+			<c>Ши вил клоус ми</c>
+		</d>
+		<d>
+			<a>She will not close me</a>
+			<b>Она не закроет меня</b>
+			<c>Ши вил нот клоус ми</c>
+		</d>
+		<d>
+			<a>Does she close me?</a>
+			<b>Она закрывает меня?</b>
+			<c>Дас ши клоус ми</c>
+		</d>
+		<d>
+			<a>She closes me</a>
+			<b>Она закрывает меня</b>
+			<c>Ши клоусес ми</c>
+		</d>
+		<d>
+			<a>She doesn't close me</a>
+			<b>Она не закрывает меня</b>
+			<c>Ши дазнт клоус ми</c>
+		</d>
+		<d>
+			<a>Did she close me?</a>
+			<b>Она закрыла меня?</b>
+			<c>Дид ши клоус ми</c>
+		</d>
+		<d>
+			<a>She closed me</a>
+			<b>Она закрыла меня</b>
+			<c>Ши клоусд ми</c>
+		</d>
+		<d>
+			<a>She didn't close me</a>
+			<b>Она не закрыла меня</b>
+			<c>Ши диднт клоус ми</c>
+		</d>
+		<d>
+			<a>Will I close them?</a>
+			<b>Я закрою их?</b>
+			<c>Вил ай клоус зем</c>
+		</d>
+		<d>
+			<a>I will close them</a>
+			<b>Я закрою их</b>
+			<c>Ай вил клоус зем</c>
+		</d>
+		<d>
+			<a>I will not close them</a>
+			<b>Я не закрою их</b>
+			<c>Ай вил нот клоус зем</c>
+		</d>
+		<d>
+			<a>Do I close them?</a>
+			<b>Я закрываю их?</b>
+			<c>Ду ай клоус зем</c>
+		</d>
+		<d>
+			<a>I close them</a>
+			<b>Я закрываю их</b>
+			<c>Ай клоус зем</c>
+		</d>
+		<d>
+			<a>I don't close them</a>
+			<b>Я не закрываю их</b>
+			<c>Ай донт клоус зем</c>
+		</d>
+		<d>
+			<a>Did I close them?</a>
+			<b>Закрыл ли я их?</b>
+			<c>Дид ай клоус зем</c>
+		</d>
+		<d>
+			<a>I closed them</a>
+			<b>Я закрыл их</b>
+			<c>Ай клоусд зем</c>
+		</d>
+		<d>
+			<a>I did not close them</a>
+			<b>Я не закрыл их</b>
+			<c>Ай дид нот клоус зем</c>
+		</d>
+		<d>
+			<a>Will they close me?</a>
+			<b>Они закроют меня?</b>
+			<c>Вил зей клоус ми</c>
+		</d>
+		<d>
+			<a>They will close me</a>
+			<b>Они закроют меня</b>
+			<c>Зей вил клоус ми</c>
+		</d>
+		<d>
+			<a>They will not close me</a>
+			<b>Они не закроют меня</b>
+			<c>Зей вил нот клоус ми</c>
+		</d>
+		<d>
+			<a>Do they close me?</a>
+			<b>Они закрывают меня?</b>
+			<c>Ду зей клоус ми</c>
+		</d>
+		<d>
+			<a>They close me</a>
+			<b>Они закрывают меня</b>
+			<c>Зей клоус ми</c>
+		</d>
+		<d>
+			<a>They don't close me</a>
+			<b>Они не закрывают меня</b>
+			<c>Зей донт клоус ми</c>
+		</d>
+		<d>
+			<a>Did they close me?</a>
+			<b>Они закрыли меня?</b>
+			<c>Дид зей клоус ми</c>
+		</d>
+		<d>
+			<a>They closed me</a>
+			<b>Они закрыли меня</b>
+			<c>Зей клоусд ми</c>
+		</d>
+		<d>
+			<a>They didn't close me</a>
+			<b>Они не закрыли меня</b>
+			<c>Зей диднт клоус ми</c>
+		</d>
+		<d>
+			<a>Will you close him?</a>
+			<b>Закроешь ли ты его?</b>
+			<c>Вил ю клоус хим</c>
+		</d>
+		<d>
+			<a>You will close him</a>
+			<b>Ты закроешь его</b>
+			<c>Ю вил клоус хим</c>
+		</d>
+		<d>
+			<a>You will not close him</a>
+			<b>Ты не закроешь его</b>
+			<c>Ю вил нот клоус хим</c>
+		</d>
+		<d>
+			<a>Do you close him?</a>
+			<b>Ты закрываешь его?</b>
+			<c>Ду ю клоус хим</c>
+		</d>
+		<d>
+			<a>You close him</a>
+			<b>Ты закрываешь его</b>
+			<c>Ю клоус хим</c>
+		</d>
+		<d>
+			<a>You don't close him</a>
+			<b>Ты не закрываешь его</b>
+			<c>Ю донт клоус хим</c>
+		</d>
+		<d>
+			<a>Did you close him?</a>
+			<b>Ты закрыла его?</b>
+			<c>Дид ю клоус хим</c>
+		</d>
+		<d>
+			<a>You closed him</a>
+			<b>Ты закрыла его</b>
+			<c>Ю клоусд хим</c>
+		</d>
+		<d>
+			<a>You didn't close him</a>
+			<b>Ты не закрыла его</b>
+			<c>Ю диднт клоус хим</c>
+		</d>
+		<d>
+			<a>Will he close you?</a>
+			<b>Он закроет тебя?</b>
+			<c>Вил хи клоус ю</c>
+		</d>
+		<d>
+			<a>He will close you</a>
+			<b>Он закроет тебя</b>
+			<c>Хи вил клоус ю</c>
+		</d>
+		<d>
+			<a>He will not close you</a>
+			<b>Он не закроет тебя</b>
+			<c>Хи вил нот клоус ю</c>
+		</d>
+		<d>
+			<a>Does he close you?</a>
+			<b>Он закрывает тебя?</b>
+			<c>Даз хи клоус ю</c>
+		</d>
+		<d>
+			<a>He closes you</a>
+			<b>Он закрывает тебя</b>
+			<c>Хи клоусес ю</c>
+		</d>
+		<d>
+			<a>He doesn't close you</a>
+			<b>Он не закрывает тебя</b>
+			<c>Хи дазнт клоус ю</c>
+		</d>
+		<d>
+			<a>Did he close you?</a>
+			<b>Он закрыл тебя?</b>
+			<c>Дид хи клоус ю</c>
+		</d>
+		<d>
+			<a>He closed you</a>
+			<b>Он закрыл тебя</b>
+			<c>Хи клоусд ю</c>
+		</d>
+		<d>
+			<a>He didn't close you</a>
+			<b>Он не закрыл тебя</b>
+			<c>Хи диднт клоус ю</c>
+		</d>
+		<d>
+			<a>Will she close you?</a>
+			<b>Она закроет тебя?</b>
+			<c>Вил ши клоус ю</c>
+		</d>
+		<d>
+			<a>She will close you</a>
+			<b>Она закроет тебя</b>
+			<c>Ши вил клоус ю</c>
+		</d>
+		<d>
+			<a>She will not close you</a>
+			<b>Она не закроет тебя</b>
+			<c>Ши вил нот клоус ю</c>
+		</d>
+		<d>
+			<a>Does she close you?</a>
+			<b>Она закрывает тебя?</b>
+			<c>Даз ши клоус ю</c>
+		</d>
+		<d>
+			<a>She closes you</a>
+			<b>Она закрывает тебя</b>
+			<c>Ши клоусес ю</c>
+		</d>
+		<d>
+			<a>She doesn't close you</a>
+			<b>Она не закрывает тебя</b>
+			<c>Ши дазнт клоус ю</c>
+		</d>
+		<d>
+			<a>Did she close you?</a>
+			<b>Она закрыла тебя?</b>
+			<c>Дид ши клоус ю</c>
+		</d>
+		<d>
+			<a>She closed you</a>
+			<b>Она закрыла тебя</b>
+			<c>Ши клоусд ю</c>
+		</d>
+		<d>
+			<a>She didn't close you</a>
+			<b>Она не закрыла тебя</b>
+			<c>Ши диднт клоус ю</c>
+		</d>
+		<d>
+			<a>Will you close us?</a>
+			<b>Закроешь ли ты нас?</b>
+			<c>Вил ю клоус ас</c>
+		</d>
+		<d>
+			<a>You will close us</a>
+			<b>Ты закроешь нас</b>
+			<c>Ю вил клоус ас</c>
+		</d>
+		<d>
+			<a>You will not close us</a>
+			<b>Ты не закроешь нас</b>
+			<c>Ю вил нот клоус ас</c>
+		</d>
+		<d>
+			<a>Do you close us?</a>
+			<b>Ты закрываешь нас?</b>
+			<c>Ду ю клоус ас</c>
+		</d>
+		<d>
+			<a>You close us</a>
+			<b>Ты закрываешь нас</b>
+			<c>Ю клоус ас</c>
+		</d>
+		<d>
+			<a>You don't close us</a>
+			<b>Ты не закрываешь нас</b>
+			<c>Ю донт клоус ас</c>
+		</d>
+		<d>
+			<a>Did you close us?</a>
+			<b>Ты закрыла нас?</b>
+			<c>Дид ю клоус ас</c>
+		</d>
+		<d>
+			<a>You closed us</a>
+			<b>Ты закрыла нас</b>
+			<c>Ю клоусд ас</c>
+		</d>
+		<d>
+			<a>You didn't close us</a>
+			<b>Ты не закрыла нас</b>
+			<c>Ю диднт клоус ас</c>
+		</d>
+		<d>
+			<a>Will you close her?</a>
+			<b>Закроешь ли ты её?</b>
+			<c>Вил ю клоус хё</c>
+		</d>
+		<d>
+			<a>You will close her</a>
+			<b>Ты закроешь её</b>
+			<c>Ю вил клоус хё</c>
+		</d>
+		<d>
+			<a>You will not close her</a>
+			<b>Ты не закроешь её</b>
+			<c>Ю вил нот клоус хё</c>
+		</d>
+		<d>
+			<a>Do you close her?</a>
+			<b>Ты закрываешь её?</b>
+			<c>Ду ю клоус хё</c>
+		</d>
+		<d>
+			<a>You close her</a>
+			<b>Ты закрываешь её</b>
+			<c>Ю клоус хё</c>
+		</d>
+		<d>
+			<a>You don't close her</a>
+			<b>Ты не закрываешь её</b>
+			<c>Ю донт клоус хё</c>
+		</d>
+		<d>
+			<a>Did you close her?</a>
+			<b>Ты закрыла её?</b>
+			<c>Дид ю клоус хё</c>
+		</d>
+		<d>
+			<a>You closed her</a>
+			<b>Ты закрыла её</b>
+			<c>Ю клоусд хё</c>
+		</d>
+		<d>
+			<a>You didn't close her</a>
+			<b>Ты не закрыла её</b>
+			<c>Ю диднт клоус хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will see you</a>
+			<b>Я увижу тебя</b>
+			<c>Ай вил си ю</c>
+		</d>
+		<d>
+			<a>I didn't see you</a>
+			<b>Я не видел тебя</b>
+			<c>Ай диднт си ю</c>
+		</d>
+		<d>
+			<a>Do I see you?</a>
+			<b>Вижу ли я тебя?</b>
+			<c>Ду ай си ю</c>
+		</d>
+		<d>
+			<a>Will I see you?</a>
+			<b>Я буду тебя видеть?</b>
+			<c>Вил ай си ю</c>
+		</d>
+		<d>
+			<a>Did I see you?</a>
+			<b>Видел ли я тебя?</b>
+			<c>Дид ай си ю</c>
+		</d>
+		<d>
+			<a>I see you</a>
+			<b>Я тебя вижу</b>
+			<c>Ай си ю</c>
+		</d>
+		<d>
+			<a>I saw you</a>
+			<b>Я видел тебя</b>
+			<c>Ай соу ю</c>
+		</d>
+		<d>
+			<a>I will not see you</a>
+			<b>Я не увижу тебя</b>
+			<c>Ай вил нот си ю</c>
+		</d>
+		<d>
+			<a>I don't see you</a>
+			<b>Я не вижу тебя</b>
+			<c>Ай донт си ю</c>
+		</d>
+		<d>
+			<a>Will you see me?</a>
+			<b>Ты увидишь меня?</b>
+			<c>Вил ю си ми?</c>
+		</d>
+		<d>
+			<a>You will see me</a>
+			<b>Ты увидишь меня</b>
+			<c>Ю вил си ми</c>
+		</d>
+		<d>
+			<a>You will not see me</a>
+			<b>Ты не увидишь меня</b>
+			<c>Ю вил нот си ми</c>
+		</d>
+		<d>
+			<a>Do you see me?</a>
+			<b>Ты видишь меня?</b>
+			<c>Ду ю си ми</c>
+		</d>
+		<d>
+			<a>You see me</a>
+			<b>Ты видишь меня</b>
+			<c>Ю си ми</c>
+		</d>
+		<d>
+			<a>You don't see me</a>
+			<b>Ты не видишь меня</b>
+			<c>Ю донт си ми</c>
+		</d>
+		<d>
+			<a>Did you see me?</a>
+			<b>Ты видел меня?</b>
+			<c>Дид ю си ми</c>
+		</d>
+		<d>
+			<a>You saw me</a>
+			<b>Ты видел меня</b>
+			<c>Ю соу ми</c>
+		</d>
+		<d>
+			<a>You didn't see me</a>
+			<b>Ты не видел меня</b>
+			<c>Ю диднт си ми</c>
+		</d>
+		<d>
+			<a>Will I see him?</a>
+			<b>Увижу ли я его?</b>
+			<c>Вил ай си хим</c>
+		</d>
+		<d>
+			<a>I will see him</a>
+			<b>Я увижу его</b>
+			<c>Ай вил си хим</c>
+		</d>
+		<d>
+			<a>I will not see him</a>
+			<b>Я не увижу его</b>
+			<c>Ай вил нот си хим</c>
+		</d>
+		<d>
+			<a>Do I see him?</a>
+			<b>Вижу ли я его?</b>
+			<c>Ду ай си хим</c>
+		</d>
+		<d>
+			<a>I see him</a>
+			<b>Я вижу его</b>
+			<c>Ай си хим</c>
+		</d>
+		<d>
+			<a>I don't see him</a>
+			<b>Я не вижу его</b>
+			<c>Ай донт си хим</c>
+		</d>
+		<d>
+			<a>Did I see him?</a>
+			<b>Видела ли я его?</b>
+			<c>Дид ай си хим</c>
+		</d>
+		<d>
+			<a>I saw him</a>
+			<b>Я видела его</b>
+			<c>Ай соу хим</c>
+		</d>
+		<d>
+			<a>I didn't see him</a>
+			<b>Я не видела его</b>
+			<c>Ай диднт си хим</c>
+		</d>
+		<d>
+			<a>Will he see me?</a>
+			<b>Увидит ли он меня?</b>
+			<c>Вил хи си ми</c>
+		</d>
+		<d>
+			<a>He will see me</a>
+			<b>Он увидит меня</b>
+			<c>Хи вил си ми</c>
+		</d>
+		<d>
+			<a>He will not see me</a>
+			<b>Он не увидит меня</b>
+			<c>Хи вил нот си ми</c>
+		</d>
+		<d>
+			<a>Does he see me?</a>
+			<b>Он меня видит?</b>
+			<c>Дас хи си ми</c>
+		</d>
+		<d>
+			<a>He sees me</a>
+			<b>Он меня видит</b>
+			<c>Хи сис ми</c>
+		</d>
+		<d>
+			<a>He doesn't see me</a>
+			<b>Он меня не видит</b>
+			<c>Хи дазнт си ми</c>
+		</d>
+		<d>
+			<a>Did he see me?</a>
+			<b>Он видел меня?</b>
+			<c>Дид хи си ми</c>
+		</d>
+		<d>
+			<a>He saw me</a>
+			<b>Он видел меня</b>
+			<c>Хи соу ми</c>
+		</d>
+		<d>
+			<a>He didn't see me</a>
+			<b>Он не видел меня</b>
+			<c>Хи диднт си ми</c>
+		</d>
+		<d>
+			<a>Will I see her?</a>
+			<b>Я увижу её?</b>
+			<c>Вил ай си хё</c>
+		</d>
+		<d>
+			<a>I will see her</a>
+			<b>Я увижу её</b>
+			<c>Ай вил си хё</c>
+		</d>
+		<d>
+			<a>I will not see her</a>
+			<b>Я не увижу её</b>
+			<c>Ай вил нот си хё</c>
+		</d>
+		<d>
+			<a>Do I see her?</a>
+			<b>Я вижу её?</b>
+			<c>Ду ай си хё</c>
+		</d>
+		<d>
+			<a>I see her</a>
+			<b>Я вижу её</b>
+			<c>Ай си хё</c>
+		</d>
+		<d>
+			<a>I don't see her</a>
+			<b>Я не вижу её</b>
+			<c>Ай донт си хё</c>
+		</d>
+		<d>
+			<a>Did I see her?</a>
+			<b>Видел ли я её?</b>
+			<c>Дид ай си хё</c>
+		</d>
+		<d>
+			<a>I saw her</a>
+			<b>Я видел её</b>
+			<c>Ай соу хё</c>
+		</d>
+		<d>
+			<a>I did not see her</a>
+			<b>Я не видел её</b>
+			<c>Ай дид нот си хё</c>
+		</d>
+		<d>
+			<a>Will she see me?</a>
+			<b>Она увидит меня?</b>
+			<c>Вил ши си ми?</c>
+		</d>
+		<d>
+			<a>She will see me</a>
+			<b>Она увидит меня</b>
+			<c>Ши вил си ми</c>
+		</d>
+		<d>
+			<a>She will not see me</a>
+			<b>Она не увидит меня</b>
+			<c>Ши вил нот си ми</c>
+		</d>
+		<d>
+			<a>Does she see me?</a>
+			<b>Она видит меня?</b>
+			<c>Дас ши си ми</c>
+		</d>
+		<d>
+			<a>She sees me</a>
+			<b>Она видит меня</b>
+			<c>Ши сис ми</c>
+		</d>
+		<d>
+			<a>She doesn't see me</a>
+			<b>Она не видит меня</b>
+			<c>Ши дазнт си ми</c>
+		</d>
+		<d>
+			<a>Did she see me?</a>
+			<b>Она видела меня?</b>
+			<c>Дид ши си ми</c>
+		</d>
+		<d>
+			<a>She saw me</a>
+			<b>Она видела меня</b>
+			<c>Ши соу ми</c>
+		</d>
+		<d>
+			<a>She didn't see me</a>
+			<b>Она не видела меня</b>
+			<c>Ши диднт си ми</c>
+		</d>
+		<d>
+			<a>Will I see them?</a>
+			<b>Я увижу их?</b>
+			<c>Вил ай си зем</c>
+		</d>
+		<d>
+			<a>I will see them</a>
+			<b>Я увижу их</b>
+			<c>Ай вил си зем</c>
+		</d>
+		<d>
+			<a>I will not see them</a>
+			<b>Я не увижу их</b>
+			<c>Ай вил нот си зем</c>
+		</d>
+		<d>
+			<a>Do I see them?</a>
+			<b>Я вижу их?</b>
+			<c>Ду ай си зем</c>
+		</d>
+		<d>
+			<a>I see them</a>
+			<b>Я вижу их</b>
+			<c>Ай си зем</c>
+		</d>
+		<d>
+			<a>I don't see them</a>
+			<b>Я не вижу их</b>
+			<c>Ай донт си зем</c>
+		</d>
+		<d>
+			<a>Did I see them?</a>
+			<b>Видел ли я их?</b>
+			<c>Дид ай си зем</c>
+		</d>
+		<d>
+			<a>I saw them</a>
+			<b>Я видел их</b>
+			<c>Ай соу зем</c>
+		</d>
+		<d>
+			<a>I did not see them</a>
+			<b>Я не видел их</b>
+			<c>Ай дид нот си зем</c>
+		</d>
+		<d>
+			<a>Will they see me?</a>
+			<b>Они увидят меня?</b>
+			<c>Вил зей си ми</c>
+		</d>
+		<d>
+			<a>They will see me</a>
+			<b>Они увидят меня</b>
+			<c>Зей вил си ми</c>
+		</d>
+		<d>
+			<a>They will not see me</a>
+			<b>Они не увидят меня</b>
+			<c>Зей вил нот си ми</c>
+		</d>
+		<d>
+			<a>Do they see me?</a>
+			<b>Они видят меня?</b>
+			<c>Ду зей си ми</c>
+		</d>
+		<d>
+			<a>They see me</a>
+			<b>Они видят меня</b>
+			<c>Зей си ми</c>
+		</d>
+		<d>
+			<a>They don't see me</a>
+			<b>Они не видят меня</b>
+			<c>Зей донт си ми</c>
+		</d>
+		<d>
+			<a>Did they see me?</a>
+			<b>Они видели меня?</b>
+			<c>Дид зей си ми</c>
+		</d>
+		<d>
+			<a>They saw me</a>
+			<b>Они видели меня</b>
+			<c>Зей соу ми</c>
+		</d>
+		<d>
+			<a>They didn't see me</a>
+			<b>Они не видели меня</b>
+			<c>Зей диднт си ми</c>
+		</d>
+		<d>
+			<a>Will you see him?</a>
+			<b>Увидишь ли ты его?</b>
+			<c>Вил ю си хим</c>
+		</d>
+		<d>
+			<a>You will see him</a>
+			<b>Ты увидишь его</b>
+			<c>Ю вил си хим</c>
+		</d>
+		<d>
+			<a>You will not see him</a>
+			<b>Ты не увидишь его</b>
+			<c>Ю вил нот си хим</c>
+		</d>
+		<d>
+			<a>Do you see him?</a>
+			<b>Ты видишь его?</b>
+			<c>Ду ю си хим</c>
+		</d>
+		<d>
+			<a>You see him</a>
+			<b>Ты видишь его</b>
+			<c>Ю си хим</c>
+		</d>
+		<d>
+			<a>You don't see him</a>
+			<b>Ты не видишь его</b>
+			<c>Ю донт си хим</c>
+		</d>
+		<d>
+			<a>Did you see him?</a>
+			<b>Ты видела его?</b>
+			<c>Дид ю си хим</c>
+		</d>
+		<d>
+			<a>You saw him</a>
+			<b>Ты видела его</b>
+			<c>Ю соу хим</c>
+		</d>
+		<d>
+			<a>You didn't see him</a>
+			<b>Ты не видела его</b>
+			<c>Ю диднт си хим</c>
+		</d>
+		<d>
+			<a>Will he see you?</a>
+			<b>Он увидит тебя?</b>
+			<c>Вил хи си ю</c>
+		</d>
+		<d>
+			<a>He will see you</a>
+			<b>Он увидит тебя</b>
+			<c>Хи вил си ю</c>
+		</d>
+		<d>
+			<a>He will not see you</a>
+			<b>Он не увидит тебя</b>
+			<c>Хи вил нот си ю</c>
+		</d>
+		<d>
+			<a>Does he see you?</a>
+			<b>Он видит тебя?</b>
+			<c>Даз хи си ю</c>
+		</d>
+		<d>
+			<a>He sees you</a>
+			<b>Он видит тебя</b>
+			<c>Хи сис ю</c>
+		</d>
+		<d>
+			<a>He doesn't see you</a>
+			<b>Он не видит тебя</b>
+			<c>Хи дазнт си ю</c>
+		</d>
+		<d>
+			<a>Did he see you?</a>
+			<b>Он видел тебя?</b>
+			<c>Дид хи си ю</c>
+		</d>
+		<d>
+			<a>He saw you</a>
+			<b>Он видел тебя</b>
+			<c>Хи соу ю</c>
+		</d>
+		<d>
+			<a>He didn't see you</a>
+			<b>Он не видел тебя</b>
+			<c>Хи диднт си ю</c>
+		</d>
+		<d>
+			<a>Will she see you?</a>
+			<b>Она увидит тебя?</b>
+			<c>Вил ши си ю</c>
+		</d>
+		<d>
+			<a>She will see you</a>
+			<b>Она увидит тебя</b>
+			<c>Ши вил си ю</c>
+		</d>
+		<d>
+			<a>She will not see you</a>
+			<b>Она не увидит тебя</b>
+			<c>Ши вил нот си ю</c>
+		</d>
+		<d>
+			<a>Does she see you?</a>
+			<b>Она видит тебя?</b>
+			<c>Даз ши си ю</c>
+		</d>
+		<d>
+			<a>She sees you</a>
+			<b>Она видит тебя</b>
+			<c>Ши сис ю</c>
+		</d>
+		<d>
+			<a>She doesn't see you</a>
+			<b>Она не видит тебя</b>
+			<c>Ши дазнт си ю</c>
+		</d>
+		<d>
+			<a>Did she see you?</a>
+			<b>Она видела тебя?</b>
+			<c>Дид ши си ю</c>
+		</d>
+		<d>
+			<a>She saw you</a>
+			<b>Она видела тебя</b>
+			<c>Ши соу ю</c>
+		</d>
+		<d>
+			<a>She didn't see you</a>
+			<b>Она не видела тебя</b>
+			<c>Ши диднт си ю</c>
+		</d>
+		<d>
+			<a>Will you see us?</a>
+			<b>Увидишь ли ты нас?</b>
+			<c>Вил ю си ас</c>
+		</d>
+		<d>
+			<a>You will see us</a>
+			<b>Ты увидишь нас</b>
+			<c>Ю вил си ас</c>
+		</d>
+		<d>
+			<a>You will not see us</a>
+			<b>Ты не увидишь нас</b>
+			<c>Ю вил нот си ас</c>
+		</d>
+		<d>
+			<a>Do you see us?</a>
+			<b>Ты видишь нас?</b>
+			<c>Ду ю си ас</c>
+		</d>
+		<d>
+			<a>You see us</a>
+			<b>Ты видишь нас</b>
+			<c>Ю си ас</c>
+		</d>
+		<d>
+			<a>You don't see us</a>
+			<b>Ты не видишь нас</b>
+			<c>Ю донт си ас</c>
+		</d>
+		<d>
+			<a>Did you see us?</a>
+			<b>Ты видела нас?</b>
+			<c>Дид ю си ас</c>
+		</d>
+		<d>
+			<a>You saw us</a>
+			<b>Ты видела нас</b>
+			<c>Ю соу ас</c>
+		</d>
+		<d>
+			<a>You didn't see us</a>
+			<b>Ты не видела нас</b>
+			<c>Ю диднт си ас</c>
+		</d>
+		<d>
+			<a>Will you see her?</a>
+			<b>Увидишь ли ты её?</b>
+			<c>Вил ю си хё</c>
+		</d>
+		<d>
+			<a>You will see her</a>
+			<b>Ты увидишь её</b>
+			<c>Ю вил си хё</c>
+		</d>
+		<d>
+			<a>You will not see her</a>
+			<b>Ты не увидишь её</b>
+			<c>Ю вил нот си хё</c>
+		</d>
+		<d>
+			<a>Do you see her?</a>
+			<b>Ты видишь её?</b>
+			<c>Ду ю си хё</c>
+		</d>
+		<d>
+			<a>You see her</a>
+			<b>Ты видишь её</b>
+			<c>Ю си хё</c>
+		</d>
+		<d>
+			<a>You don't see her</a>
+			<b>Ты не видишь её</b>
+			<c>Ю донт си хё</c>
+		</d>
+		<d>
+			<a>Did you see her?</a>
+			<b>Ты видела её?</b>
+			<c>Дид ю си хё</c>
+		</d>
+		<d>
+			<a>You saw her</a>
+			<b>Ты видела её</b>
+			<c>Ю соу хё</c>
+		</d>
+		<d>
+			<a>You didn't see her</a>
+			<b>Ты не видела её</b>
+			<c>Ю диднт си хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will come to you</a>
+			<b>Я приду к тебе</b>
+			<c>Ай вил кам ту ю</c>
+		</d>
+		<d>
+			<a>I didn't come to you</a>
+			<b>Я не пришел к тебе</b>
+			<c>Ай диднт кам ту ю</c>
+		</d>
+		<d>
+			<a>Do I come to you?</a>
+			<b>Я прихожу к тебе?</b>
+			<c>Ду ай кам ту ю</c>
+		</d>
+		<d>
+			<a>Will I come to you?</a>
+			<b>Я буду приходить к тебе?</b>
+			<c>Вил ай кам ту ю</c>
+		</d>
+		<d>
+			<a>Did I come to you?</a>
+			<b>Я пришел к тебе?</b>
+			<c>Дид ай кам ту ю</c>
+		</d>
+		<d>
+			<a>I come to you</a>
+			<b>Я прихожу к тебе</b>
+			<c>Ай кам ту ю</c>
+		</d>
+		<d>
+			<a>I came to you</a>
+			<b>Я пришел к тебе</b>
+			<c>Ай кэйм ту ю</c>
+		</d>
+		<d>
+			<a>I will not come to you</a>
+			<b>Я не приду к тебе</b>
+			<c>Ай вил нот кам ту ю</c>
+		</d>
+		<d>
+			<a>I don't come to you</a>
+			<b>Я не прихожу к тебе</b>
+			<c>Ай донт кам ту ю</c>
+		</d>
+		<d>
+			<a>Will you come to me?</a>
+			<b>Ты придешь ко мне?</b>
+			<c>Вил ю кам ту ми?</c>
+		</d>
+		<d>
+			<a>You will come to me</a>
+			<b>Ты придешь ко мне</b>
+			<c>Ю вил кам ту ми</c>
+		</d>
+		<d>
+			<a>You will not come to me</a>
+			<b>Ты не придешь ко мне</b>
+			<c>Ю вил нот кам ту ми</c>
+		</d>
+		<d>
+			<a>Do you come to me?</a>
+			<b>Ты приходишь ко мне?</b>
+			<c>Ду ю кам ту ми</c>
+		</d>
+		<d>
+			<a>You come to me</a>
+			<b>Ты приходишь ко мне</b>
+			<c>Ю кам ту ми</c>
+		</d>
+		<d>
+			<a>You don't come to me</a>
+			<b>Ты не приходишь ко мне</b>
+			<c>Ю донт кам ту ми</c>
+		</d>
+		<d>
+			<a>Did you come to me?</a>
+			<b>Ты приходил ко мне?</b>
+			<c>Дид ю кам ту ми</c>
+		</d>
+		<d>
+			<a>You came to me</a>
+			<b>Ты приходил ко мне</b>
+			<c>Ю кэйм ту ми</c>
+		</d>
+		<d>
+			<a>You didn't come to me</a>
+			<b>Ты не приходил ко мне</b>
+			<c>Ю диднт кам ту ми</c>
+		</d>
+		<d>
+			<a>Will I come to him?</a>
+			<b>Приду ли я к нему?</b>
+			<c>Вил ай кам ту хим</c>
+		</d>
+		<d>
+			<a>I will come to him</a>
+			<b>Я приду к нему</b>
+			<c>Ай вил кам ту хим</c>
+		</d>
+		<d>
+			<a>I will not come to him</a>
+			<b>Я не приду к нему</b>
+			<c>Ай вил нот кам ту хим</c>
+		</d>
+		<d>
+			<a>Do I come to him?</a>
+			<b>Прихожу ли я к нему?</b>
+			<c>Ду ай кам ту хим</c>
+		</d>
+		<d>
+			<a>I come to him</a>
+			<b>Я прихожу к нему</b>
+			<c>Ай кам ту хим</c>
+		</d>
+		<d>
+			<a>I don't come to him</a>
+			<b>Я не прихожу к нему</b>
+			<c>Ай донт кам ту хим</c>
+		</d>
+		<d>
+			<a>Did I come to him?</a>
+			<b>Приходила ли я к нему?</b>
+			<c>Дид ай кам ту хим</c>
+		</d>
+		<d>
+			<a>I came to him</a>
+			<b>Я приходила к нему</b>
+			<c>Ай кэйм ту хим</c>
+		</d>
+		<d>
+			<a>I didn't come to him</a>
+			<b>Я не приходила к нему</b>
+			<c>Ай диднт кам ту хим</c>
+		</d>
+		<d>
+			<a>Will he come to me?</a>
+			<b>Придет ли он ко мне?</b>
+			<c>Вил хи кам ту ми</c>
+		</d>
+		<d>
+			<a>He will come to me</a>
+			<b>Он придет ко мне</b>
+			<c>Хи вил кам ту ми</c>
+		</d>
+		<d>
+			<a>He will not come to me</a>
+			<b>Он не придет ко мне</b>
+			<c>Хи вил нот кам ту ми</c>
+		</d>
+		<d>
+			<a>Does he come to me?</a>
+			<b>Он приходит ко мне?</b>
+			<c>Дас хи кам ту ми</c>
+		</d>
+		<d>
+			<a>He comes to me</a>
+			<b>Он приходит ко мне</b>
+			<c>Хи камс ту ми</c>
+		</d>
+		<d>
+			<a>He doesn't come to me</a>
+			<b>Он не приходит ко мне</b>
+			<c>Хи дазнт кам ту ми</c>
+		</d>
+		<d>
+			<a>Did he come to me?</a>
+			<b>Он приходил ко мне?</b>
+			<c>Дид хи кам ту ми</c>
+		</d>
+		<d>
+			<a>He came to me</a>
+			<b>Он приходил ко мне</b>
+			<c>Хи кэйм ту ми</c>
+		</d>
+		<d>
+			<a>He didn't come to me</a>
+			<b>Он не приходил ко мне</b>
+			<c>Хи диднт кам ту ми</c>
+		</d>
+		<d>
+			<a>Will I come to her?</a>
+			<b>Я приду к ней?</b>
+			<c>Вил ай кам ту хё</c>
+		</d>
+		<d>
+			<a>I will come to her</a>
+			<b>Я приду к ней</b>
+			<c>Ай вил кам ту хё</c>
+		</d>
+		<d>
+			<a>I will not come to her</a>
+			<b>Я не приду к ней</b>
+			<c>Ай вил нот кам ту хё</c>
+		</d>
+		<d>
+			<a>Do I come to her?</a>
+			<b>Я прихожу к ней?</b>
+			<c>Ду ай кам ту хё</c>
+		</d>
+		<d>
+			<a>I come to her</a>
+			<b>Я прихожу к ней</b>
+			<c>Ай кам ту хё</c>
+		</d>
+		<d>
+			<a>I don't come to her</a>
+			<b>Я не прихожу к ней</b>
+			<c>Ай донт кам ту хё</c>
+		</d>
+		<d>
+			<a>Did I come to her?</a>
+			<b>Я пришел к ней?</b>
+			<c>Дид ай кам ту хё</c>
+		</d>
+		<d>
+			<a>I came to her</a>
+			<b>Я пришел к ней</b>
+			<c>Ай кэйм ту хё</c>
+		</d>
+		<d>
+			<a>I did not come to her</a>
+			<b>Я не пришел к ней</b>
+			<c>Ай дид нот кам ту хё</c>
+		</d>
+		<d>
+			<a>Will she come to me?</a>
+			<b>Она придет ко мне?</b>
+			<c>Вил ши кам ту ми?</c>
+		</d>
+		<d>
+			<a>She will come to me</a>
+			<b>Она придет ко мне</b>
+			<c>Ши вил кам ту ми</c>
+		</d>
+		<d>
+			<a>She will not come to me</a>
+			<b>Она не придет ко мне</b>
+			<c>Ши вил нот кам ту ми</c>
+		</d>
+		<d>
+			<a>Does she come to me?</a>
+			<b>Она приходит ко мне?</b>
+			<c>Дас ши кам ту ми</c>
+		</d>
+		<d>
+			<a>She comes to me</a>
+			<b>Она приходит ко мне</b>
+			<c>Ши камс ту ми</c>
+		</d>
+		<d>
+			<a>She doesn't come to me</a>
+			<b>Она не приходит ко мне</b>
+			<c>Ши дазнт кам ту ми</c>
+		</d>
+		<d>
+			<a>Did she come to me?</a>
+			<b>Она пришла ко мне?</b>
+			<c>Дид ши кам ту ми</c>
+		</d>
+		<d>
+			<a>She came to me</a>
+			<b>Она пришла ко мне</b>
+			<c>Ши кэйм ту ми</c>
+		</d>
+		<d>
+			<a>She didn't come to me</a>
+			<b>Она не пришла ко мне</b>
+			<c>Ши диднт кам ту ми</c>
+		</d>
+		<d>
+			<a>Will I come to them?</a>
+			<b>Я приду к ним?</b>
+			<c>Вил ай кам ту зем</c>
+		</d>
+		<d>
+			<a>I will come to them</a>
+			<b>Я приду к ним</b>
+			<c>Ай вил кам ту зем</c>
+		</d>
+		<d>
+			<a>I will not come to them</a>
+			<b>Я не приду к ним</b>
+			<c>Ай вил нот кам ту зем</c>
+		</d>
+		<d>
+			<a>Do I come to them?</a>
+			<b>Я прихожу к ним?</b>
+			<c>Ду ай кам ту зем</c>
+		</d>
+		<d>
+			<a>I come to them</a>
+			<b>Я прихожу к ним</b>
+			<c>Ай кам ту зем</c>
+		</d>
+		<d>
+			<a>I don't come to them</a>
+			<b>Я не прихожу к ним</b>
+			<c>Ай донт кам ту зем</c>
+		</d>
+		<d>
+			<a>Did I come to them?</a>
+			<b>Пришел ли я к ним?</b>
+			<c>Дид ай кам ту зем</c>
+		</d>
+		<d>
+			<a>I came to them</a>
+			<b>Я пришел к ним</b>
+			<c>Ай кэйм ту зем</c>
+		</d>
+		<d>
+			<a>I did not come to them</a>
+			<b>Я не пришел к ним</b>
+			<c>Ай дид нот кам ту зем</c>
+		</d>
+		<d>
+			<a>Will they come to me?</a>
+			<b>Они придут ко мне?</b>
+			<c>Вил зей кам ту ми</c>
+		</d>
+		<d>
+			<a>They will come to me</a>
+			<b>Они придут ко мне</b>
+			<c>Зей вил кам ту ми</c>
+		</d>
+		<d>
+			<a>They will not come to me</a>
+			<b>Они не придут ко мне</b>
+			<c>Зей вил нот кам ту ми</c>
+		</d>
+		<d>
+			<a>Do they come to me?</a>
+			<b>Они приходят ко мне?</b>
+			<c>Ду зей кам ту ми</c>
+		</d>
+		<d>
+			<a>They come to me</a>
+			<b>Они приходят ко мне</b>
+			<c>Зей кам ту ми</c>
+		</d>
+		<d>
+			<a>They don't come to me</a>
+			<b>Они не приходят ко мне</b>
+			<c>Зей донт кам ту ми</c>
+		</d>
+		<d>
+			<a>Did they come to me?</a>
+			<b>Они пришли ко мне?</b>
+			<c>Дид зей кам ту ми</c>
+		</d>
+		<d>
+			<a>They came to me</a>
+			<b>Они пришли ко мне</b>
+			<c>Зей кэйм ту ми</c>
+		</d>
+		<d>
+			<a>They didn't come to me</a>
+			<b>Они не пришли ко мне</b>
+			<c>Зей диднт кам ту ми</c>
+		</d>
+		<d>
+			<a>Will you come to him?</a>
+			<b>Придешь ли ты к нему?</b>
+			<c>Вил ю кам ту хим</c>
+		</d>
+		<d>
+			<a>You will come to him</a>
+			<b>Ты придешь к нему</b>
+			<c>Ю вил кам ту хим</c>
+		</d>
+		<d>
+			<a>You will not come to him</a>
+			<b>Ты не придешь к нему</b>
+			<c>Ю вил нот кам ту хим</c>
+		</d>
+		<d>
+			<a>Do you come to him?</a>
+			<b>Ты приходишь к нему?</b>
+			<c>Ду ю кам ту хим</c>
+		</d>
+		<d>
+			<a>You come to him</a>
+			<b>Ты приходишь к нему</b>
+			<c>Ю кам ту хим</c>
+		</d>
+		<d>
+			<a>You don't come to him</a>
+			<b>Ты не приходишь к нему</b>
+			<c>Ю донт кам ту хим</c>
+		</d>
+		<d>
+			<a>Did you come to him?</a>
+			<b>Ты пришел к нему?</b>
+			<c>Дид ю кам ту хим</c>
+		</d>
+		<d>
+			<a>You came to him</a>
+			<b>Ты пришел к нему</b>
+			<c>Ю кэйм ту хим</c>
+		</d>
+		<d>
+			<a>You didn't come to him</a>
+			<b>Ты не пришел к нему</b>
+			<c>Ю диднт кам ту хим</c>
+		</d>
+		<d>
+			<a>Will he come to you?</a>
+			<b>Он придет к тебе?</b>
+			<c>Вил хи кам ту ю</c>
+		</d>
+		<d>
+			<a>He will come to you</a>
+			<b>Он придет к тебе</b>
+			<c>Хи вил кам ту ю</c>
+		</d>
+		<d>
+			<a>He will not come to you</a>
+			<b>Он не придет к тебе</b>
+			<c>Хи вил нот кам ту ю</c>
+		</d>
+		<d>
+			<a>Does he come to you?</a>
+			<b>Он приходит к тебе?</b>
+			<c>Даз хи кам ту ю</c>
+		</d>
+		<d>
+			<a>He comes to you</a>
+			<b>Он приходит к тебе</b>
+			<c>Хи камс ту ю</c>
+		</d>
+		<d>
+			<a>He doesn't come to you</a>
+			<b>Он не приходит к тебе</b>
+			<c>Хи дазнт кам ту ю</c>
+		</d>
+		<d>
+			<a>Did he come to you?</a>
+			<b>Он пришел к тебе?</b>
+			<c>Дид хи кам ту ю</c>
+		</d>
+		<d>
+			<a>He came to you</a>
+			<b>Он пришел к тебе</b>
+			<c>Хи кэйм ту ю</c>
+		</d>
+		<d>
+			<a>He didn't come to you</a>
+			<b>Он не пришел к тебе</b>
+			<c>Хи диднт кам ту ю</c>
+		</d>
+		<d>
+			<a>Will she come to you?</a>
+			<b>Она придет к тебе?</b>
+			<c>Вил ши кам ту ю</c>
+		</d>
+		<d>
+			<a>She will come to you</a>
+			<b>Она придет к тебе</b>
+			<c>Ши вил кам ту ю</c>
+		</d>
+		<d>
+			<a>She will not come to you</a>
+			<b>Она не придет к тебе</b>
+			<c>Ши вил нот кам ту ю</c>
+		</d>
+		<d>
+			<a>Does she come to you?</a>
+			<b>Она приходит к тебе?</b>
+			<c>Даз ши кам ту ю</c>
+		</d>
+		<d>
+			<a>She comes to you</a>
+			<b>Она приходит к тебе</b>
+			<c>Ши камс ту ю</c>
+		</d>
+		<d>
+			<a>She doesn't come to you</a>
+			<b>Она не приходит к тебе</b>
+			<c>Ши дазнт кам ту ю</c>
+		</d>
+		<d>
+			<a>Did she come to you?</a>
+			<b>Она пришла к тебе?</b>
+			<c>Дид ши кам ту ю</c>
+		</d>
+		<d>
+			<a>She came to you</a>
+			<b>Она пришла к тебе</b>
+			<c>Ши кэйм ту ю</c>
+		</d>
+		<d>
+			<a>She didn't come to you</a>
+			<b>Она не пришла к тебе</b>
+			<c>Ши диднт кам ту ю</c>
+		</d>
+		<d>
+			<a>Will you come to us?</a>
+			<b>Придешь ли ты к нам?</b>
+			<c>Вил ю кам ту ас</c>
+		</d>
+		<d>
+			<a>You will come to us</a>
+			<b>Ты придешь к нам</b>
+			<c>Ю вил кам ту ас</c>
+		</d>
+		<d>
+			<a>You will not come to us</a>
+			<b>Ты не придешь к нам</b>
+			<c>Ю вил нот кам ту ас</c>
+		</d>
+		<d>
+			<a>Do you come to us?</a>
+			<b>Ты приходишь к нам?</b>
+			<c>Ду ю кам ту ас</c>
+		</d>
+		<d>
+			<a>You come to us</a>
+			<b>Ты приходишь к нам</b>
+			<c>Ю кам ту ас</c>
+		</d>
+		<d>
+			<a>You don't come to us</a>
+			<b>Ты не приходишь к нам</b>
+			<c>Ю донт кам ту ас</c>
+		</d>
+		<d>
+			<a>Did you come to us?</a>
+			<b>Ты пришел к нам?</b>
+			<c>Дид ю кам ту ас</c>
+		</d>
+		<d>
+			<a>You came to us</a>
+			<b>Ты пришел к нам</b>
+			<c>Ю кэйм ту ас</c>
+		</d>
+		<d>
+			<a>You didn't come to us</a>
+			<b>Ты не пришел к нам</b>
+			<c>Ю диднт кам ту ас</c>
+		</d>
+		<d>
+			<a>Will you come to her?</a>
+			<b>Придешь ли ты к ней?</b>
+			<c>Вил ю кам ту хё</c>
+		</d>
+		<d>
+			<a>You will come to her</a>
+			<b>Ты придешь к ней</b>
+			<c>Ю вил кам ту хё</c>
+		</d>
+		<d>
+			<a>You will not come to her</a>
+			<b>Ты не придешь к ней</b>
+			<c>Ю вил нот кам ту хё</c>
+		</d>
+		<d>
+			<a>Do you come to her?</a>
+			<b>Ты приходишь к ней?</b>
+			<c>Ду ю кам ту хё</c>
+		</d>
+		<d>
+			<a>You come to her</a>
+			<b>Ты приходишь к ней</b>
+			<c>Ю кам ту хё</c>
+		</d>
+		<d>
+			<a>You don't come to her</a>
+			<b>Ты не приходишь к ней</b>
+			<c>Ю донт кам ту хё</c>
+		</d>
+		<d>
+			<a>Did you come to her?</a>
+			<b>Ты пришел к ней?</b>
+			<c>Дид ю кам ту хё</c>
+		</d>
+		<d>
+			<a>You came to her</a>
+			<b>Ты пришел к ней</b>
+			<c>Ю кэйм ту хё</c>
+		</d>
+		<d>
+			<a>You didn't come to her</a>
+			<b>Ты не пришел к ней</b>
+			<c>Ю диднт кам ту хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will go to you</a>
+			<b>Я пойду к тебе</b>
+			<c>Ай вил гоу ту ю</c>
+		</d>
+		<d>
+			<a>I didn't go to you</a>
+			<b>Я не пошёл к тебе</b>
+			<c>Ай диднт гоу ту ю</c>
+		</d>
+		<d>
+			<a>Do I go to you?</a>
+			<b>Иду ли я к тебе?</b>
+			<c>Ду ай гоу ту ю</c>
+		</d>
+		<d>
+			<a>Will I go to you?</a>
+			<b>Я пойду к тебе?</b>
+			<c>Вил ай гоу ту ю</c>
+		</d>
+		<d>
+			<a>Did I go to you?</a>
+			<b>Я пошёл к тебе?</b>
+			<c>Дид ай гоу ту ю</c>
+		</d>
+		<d>
+			<a>I go to you</a>
+			<b>Я иду к тебе</b>
+			<c>Ай гоу ту ю</c>
+		</d>
+		<d>
+			<a>I went to you</a>
+			<b>Я пошёл к тебе</b>
+			<c>Ай вэнт ту ю</c>
+		</d>
+		<d>
+			<a>I will not go to you</a>
+			<b>Я не пойду к тебе</b>
+			<c>Ай вил нот гоу ту ю</c>
+		</d>
+		<d>
+			<a>I don't go to you</a>
+			<b>Я не иду к тебе</b>
+			<c>Ай донт гоу ту ю</c>
+		</d>
+		<d>
+			<a>Will you go to me?</a>
+			<b>Ты пойдешь ко мне?</b>
+			<c>Вил ю гоу ту ми?</c>
+		</d>
+		<d>
+			<a>You will go to me</a>
+			<b>Ты пойдешь ко мне</b>
+			<c>Ю вил гоу ту ми</c>
+		</d>
+		<d>
+			<a>You will not go to me</a>
+			<b>Ты не пойдешь ко мне</b>
+			<c>Ю вил нот гоу ту ми</c>
+		</d>
+		<d>
+			<a>Do you go to me?</a>
+			<b>Ты идешь ко мне?</b>
+			<c>Ду ю гоу ту ми</c>
+		</d>
+		<d>
+			<a>You go to me</a>
+			<b>Ты идешь ко мне</b>
+			<c>Ю гоу ту ми</c>
+		</d>
+		<d>
+			<a>You don't go to me</a>
+			<b>Ты не идешь ко мне</b>
+			<c>Ю донт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Did you go to me?</a>
+			<b>Ты пошёл ко мне?</b>
+			<c>Дид ю гоу ту ми</c>
+		</d>
+		<d>
+			<a>You went to me</a>
+			<b>Ты пошёл ко мне</b>
+			<c>Ю вэнт ту ми</c>
+		</d>
+		<d>
+			<a>You didn't go to me</a>
+			<b>Ты не пошёл ко мне</b>
+			<c>Ю диднт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Will I go to him?</a>
+			<b>Пойду ли я к нему?</b>
+			<c>Вил ай гоу ту хим</c>
+		</d>
+		<d>
+			<a>I will go to him</a>
+			<b>Я пойду к нему</b>
+			<c>Ай вил гоу ту хим</c>
+		</d>
+		<d>
+			<a>I will not go to him</a>
+			<b>Я не пойду к нему</b>
+			<c>Ай вил нот гоу ту хим</c>
+		</d>
+		<d>
+			<a>Do I go to him?</a>
+			<b>Иду ли я к нему?</b>
+			<c>Ду ай гоу ту хим</c>
+		</d>
+		<d>
+			<a>I go to him</a>
+			<b>Я иду к нему</b>
+			<c>Ай гоу ту хим</c>
+		</d>
+		<d>
+			<a>I don't go to him</a>
+			<b>Я не иду к нему</b>
+			<c>Ай донт гоу ту хим</c>
+		</d>
+		<d>
+			<a>Did I go to him?</a>
+			<b>Пошла ли я к нему?</b>
+			<c>Дид ай гоу ту хим</c>
+		</d>
+		<d>
+			<a>I went to him</a>
+			<b>Я пошла к нему</b>
+			<c>Ай вэнт ту хим</c>
+		</d>
+		<d>
+			<a>I didn't go to him</a>
+			<b>Я не пошла к нему</b>
+			<c>Ай диднт гоу ту хим</c>
+		</d>
+		<d>
+			<a>Will he go to me?</a>
+			<b>Пойдет ли он ко мне?</b>
+			<c>Вил хи гоу ту ми</c>
+		</d>
+		<d>
+			<a>He will go to me</a>
+			<b>Он пойдет ко мне</b>
+			<c>Хи вил гоу ту ми</c>
+		</d>
+		<d>
+			<a>He will not go to me</a>
+			<b>Он не пойдет ко мне</b>
+			<c>Хи вил нот гоу ту ми</c>
+		</d>
+		<d>
+			<a>Does he go to me?</a>
+			<b>Он идет ко мне?</b>
+			<c>Дас хи гоу ту ми</c>
+		</d>
+		<d>
+			<a>He goes to me</a>
+			<b>Он идет ко мне</b>
+			<c>Хи гоус ту ми</c>
+		</d>
+		<d>
+			<a>He doesn't go to me</a>
+			<b>Он не идет ко мне</b>
+			<c>Хи дазнт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Did he go to me?</a>
+			<b>Он пошёл ко мне?</b>
+			<c>Дид хи гоу ту ми</c>
+		</d>
+		<d>
+			<a>He went to me</a>
+			<b>Он пошёл ко мне</b>
+			<c>Хи вэнт ту ми</c>
+		</d>
+		<d>
+			<a>He didn't go to me</a>
+			<b>Он не пошёл ко мне</b>
+			<c>Хи диднт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Will I go to her?</a>
+			<b>Я пойду к ней?</b>
+			<c>Вил ай гоу ту хё</c>
+		</d>
+		<d>
+			<a>I will go to her</a>
+			<b>Я пойду к ней</b>
+			<c>Ай вил гоу ту хё</c>
+		</d>
+		<d>
+			<a>I will not go to her</a>
+			<b>Я не пойду к ней</b>
+			<c>Ай вил нот гоу ту хё</c>
+		</d>
+		<d>
+			<a>Do I go to her?</a>
+			<b>Я иду к ней?</b>
+			<c>Ду ай гоу ту хё</c>
+		</d>
+		<d>
+			<a>I go to her</a>
+			<b>Я иду к ней</b>
+			<c>Ай гоу ту хё</c>
+		</d>
+		<d>
+			<a>I don't go to her</a>
+			<b>Я не иду к ней</b>
+			<c>Ай донт гоу ту хё</c>
+		</d>
+		<d>
+			<a>Did I go to her?</a>
+			<b>Я пошёл к ней?</b>
+			<c>Дид ай гоу ту хё</c>
+		</d>
+		<d>
+			<a>I went to her</a>
+			<b>Я пошёл к ней</b>
+			<c>Ай вэнт ту хё</c>
+		</d>
+		<d>
+			<a>I did not go to her</a>
+			<b>Я не пошёл к ней</b>
+			<c>Ай дид нот гоу ту хё</c>
+		</d>
+		<d>
+			<a>Will she go to me?</a>
+			<b>Она пойдет ко мне?</b>
+			<c>Вил ши гоу ту ми?</c>
+		</d>
+		<d>
+			<a>She will go to me</a>
+			<b>Она пойдет ко мне</b>
+			<c>Ши вил гоу ту ми</c>
+		</d>
+		<d>
+			<a>She will not go to me</a>
+			<b>Она не пойдет ко мне</b>
+			<c>Ши вил нот гоу ту ми</c>
+		</d>
+		<d>
+			<a>Does she go to me?</a>
+			<b>Она идёт ко мне?</b>
+			<c>Дас ши гоу ту ми</c>
+		</d>
+		<d>
+			<a>She goes to me</a>
+			<b>Она идёт ко мне</b>
+			<c>Ши гоус ту ми</c>
+		</d>
+		<d>
+			<a>She doesn't go to me</a>
+			<b>Она не идёт ко мне</b>
+			<c>Ши дазнт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Did she go to me?</a>
+			<b>Она пошла ко мне?</b>
+			<c>Дид ши гоу ту ми</c>
+		</d>
+		<d>
+			<a>She went to me</a>
+			<b>Она пошла ко мне</b>
+			<c>Ши вэнт ту ми</c>
+		</d>
+		<d>
+			<a>She didn't go to me</a>
+			<b>Она не пошла ко мне</b>
+			<c>Ши диднт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Will I go to them?</a>
+			<b>Я пойду к ним?</b>
+			<c>Вил ай гоу ту зем</c>
+		</d>
+		<d>
+			<a>I will go to them</a>
+			<b>Я пойду к ним</b>
+			<c>Ай вил гоу ту зем</c>
+		</d>
+		<d>
+			<a>I will not go to them</a>
+			<b>Я не пойду к ним</b>
+			<c>Ай вил нот гоу ту зем</c>
+		</d>
+		<d>
+			<a>Do I go to them?</a>
+			<b>Я иду к ним?</b>
+			<c>Ду ай гоу ту зем</c>
+		</d>
+		<d>
+			<a>I go to them</a>
+			<b>Я иду к ним</b>
+			<c>Ай гоу ту зем</c>
+		</d>
+		<d>
+			<a>I don't go to them</a>
+			<b>Я не иду к ним</b>
+			<c>Ай донт гоу ту зем</c>
+		</d>
+		<d>
+			<a>Did I go to them?</a>
+			<b>Пошёл ли я к ним?</b>
+			<c>Дид ай гоу ту зем</c>
+		</d>
+		<d>
+			<a>I went to them</a>
+			<b>Я пошёл к ним</b>
+			<c>Ай вэнт ту зем</c>
+		</d>
+		<d>
+			<a>I did not go to them</a>
+			<b>Я не пошёл к ним</b>
+			<c>Ай дид нот гоу ту зем</c>
+		</d>
+		<d>
+			<a>Will they go to me?</a>
+			<b>Они пойдут ко мне?</b>
+			<c>Вил зей гоу ту ми</c>
+		</d>
+		<d>
+			<a>They will go to me</a>
+			<b>Они пойдут ко мне</b>
+			<c>Зей вил гоу ту ми</c>
+		</d>
+		<d>
+			<a>They will not go to me</a>
+			<b>Они не пойдут ко мне</b>
+			<c>Зей вил нот гоу ту ми</c>
+		</d>
+		<d>
+			<a>Do they go to me?</a>
+			<b>Они идут ко мне?</b>
+			<c>Ду зей гоу ту ми</c>
+		</d>
+		<d>
+			<a>They go to me</a>
+			<b>Они идут ко мне</b>
+			<c>Зей гоу ту ми</c>
+		</d>
+		<d>
+			<a>They don't go to me</a>
+			<b>Они не идут ко мне</b>
+			<c>Зей донт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Did they go to me?</a>
+			<b>Они пошли ко мне?</b>
+			<c>Дид зей гоу ту ми</c>
+		</d>
+		<d>
+			<a>They went to me</a>
+			<b>Они пошли ко мне</b>
+			<c>Зей вэнт ту ми</c>
+		</d>
+		<d>
+			<a>They didn't go to me</a>
+			<b>Они не пошли ко мне</b>
+			<c>Зей диднт гоу ту ми</c>
+		</d>
+		<d>
+			<a>Will you go to him?</a>
+			<b>Пойдешь ли ты к нему?</b>
+			<c>Вил ю гоу ту хим</c>
+		</d>
+		<d>
+			<a>You will go to him</a>
+			<b>Ты пойдешь к нему</b>
+			<c>Ю вил гоу ту хим</c>
+		</d>
+		<d>
+			<a>You will not go to him</a>
+			<b>Ты не пойдешь к нему</b>
+			<c>Ю вил нот гоу ту хим</c>
+		</d>
+		<d>
+			<a>Do you go to him?</a>
+			<b>Ты идешь к нему?</b>
+			<c>Ду ю гоу ту хим</c>
+		</d>
+		<d>
+			<a>You go to him</a>
+			<b>Ты идешь к нему</b>
+			<c>Ю гоу ту хим</c>
+		</d>
+		<d>
+			<a>You don't go to him</a>
+			<b>Ты не идешь к нему</b>
+			<c>Ю донт гоу ту хим</c>
+		</d>
+		<d>
+			<a>Did you go to him?</a>
+			<b>Ты шел к нему?</b>
+			<c>Дид ю гоу ту хим</c>
+		</d>
+		<d>
+			<a>You went to him</a>
+			<b>Ты шел к нему</b>
+			<c>Ю вэнт ту хим</c>
+		</d>
+		<d>
+			<a>You didn't go to him</a>
+			<b>Ты не шел к нему</b>
+			<c>Ю диднт гоу ту хим</c>
+		</d>
+		<d>
+			<a>Will he go to you?</a>
+			<b>Он пойдет к тебе?</b>
+			<c>Вил хи гоу ту ю</c>
+		</d>
+		<d>
+			<a>He will go to you</a>
+			<b>Он пойдет к тебе</b>
+			<c>Хи вил гоу ту ю</c>
+		</d>
+		<d>
+			<a>He will not go to you</a>
+			<b>Он не пойдет к тебе</b>
+			<c>Хи вил нот гоу ту ю</c>
+		</d>
+		<d>
+			<a>Does he go to you?</a>
+			<b>Он идет к тебе?</b>
+			<c>Даз хи гоу ту ю</c>
+		</d>
+		<d>
+			<a>He goes to you</a>
+			<b>Он идет к тебе</b>
+			<c>Хи гоус ту ю</c>
+		</d>
+		<d>
+			<a>He doesn't go to you</a>
+			<b>Он не идет к тебе</b>
+			<c>Хи дазнт гоу ту ю</c>
+		</d>
+		<d>
+			<a>Did he go to you?</a>
+			<b>Он пошёл к тебе?</b>
+			<c>Дид хи гоу ту ю</c>
+		</d>
+		<d>
+			<a>He went to you</a>
+			<b>Он пошёл к тебе</b>
+			<c>Хи вэнт ту ю</c>
+		</d>
+		<d>
+			<a>He didn't go to you</a>
+			<b>Он не пошёл к тебе</b>
+			<c>Хи диднт гоу ту ю</c>
+		</d>
+		<d>
+			<a>Will she go to you?</a>
+			<b>Она пойдет к тебе?</b>
+			<c>Вил ши гоу ту ю</c>
+		</d>
+		<d>
+			<a>She will go to you</a>
+			<b>Она пойдет к тебе</b>
+			<c>Ши вил гоу ту ю</c>
+		</d>
+		<d>
+			<a>She will not go to you</a>
+			<b>Она не пойдет к тебе</b>
+			<c>Ши вил нот гоу ту ю</c>
+		</d>
+		<d>
+			<a>Does she go to you?</a>
+			<b>Она идет к тебе?</b>
+			<c>Даз ши гоу ту ю</c>
+		</d>
+		<d>
+			<a>She goes to you</a>
+			<b>Она идет к тебе</b>
+			<c>Ши гоус ту ю</c>
+		</d>
+		<d>
+			<a>She doesn't go to you</a>
+			<b>Она не идет к тебе</b>
+			<c>Ши дазнт гоу ту ю</c>
+		</d>
+		<d>
+			<a>Did she go to you?</a>
+			<b>Она пошла к тебе?</b>
+			<c>Дид ши гоу ту ю</c>
+		</d>
+		<d>
+			<a>She went to you</a>
+			<b>Она пошла к тебе</b>
+			<c>Ши вэнт ту ю</c>
+		</d>
+		<d>
+			<a>She didn't go to you</a>
+			<b>Она не пошла к тебе</b>
+			<c>Ши диднт гоу ту ю</c>
+		</d>
+		<d>
+			<a>Will you go to us?</a>
+			<b>Пойдешь ли ты к нам?</b>
+			<c>Вил ю гоу ту ас</c>
+		</d>
+		<d>
+			<a>You will go to us</a>
+			<b>Ты пойдешь к нам</b>
+			<c>Ю вил гоу ту ас</c>
+		</d>
+		<d>
+			<a>You will not go to us</a>
+			<b>Ты не пойдешь к нам</b>
+			<c>Ю вил нот гоу ту ас</c>
+		</d>
+		<d>
+			<a>Do you go to us?</a>
+			<b>Ты идешь к нам?</b>
+			<c>Ду ю гоу ту ас</c>
+		</d>
+		<d>
+			<a>You go to us</a>
+			<b>Ты идешь к нам</b>
+			<c>Ю гоу ту ас</c>
+		</d>
+		<d>
+			<a>You don't go to us</a>
+			<b>Ты не идешь к нам</b>
+			<c>Ю донт гоу ту ас</c>
+		</d>
+		<d>
+			<a>Did you go to us?</a>
+			<b>Ты пошёл к нам?</b>
+			<c>Дид ю гоу ту ас</c>
+		</d>
+		<d>
+			<a>You went to us</a>
+			<b>Ты пошёл к нам</b>
+			<c>Ю вэнт ту ас</c>
+		</d>
+		<d>
+			<a>You didn't go to us</a>
+			<b>Ты не пошёл к нам</b>
+			<c>Ю диднт гоу ту ас</c>
+		</d>
+		<d>
+			<a>Will you go to her?</a>
+			<b>Пойдешь ли ты к ней?</b>
+			<c>Вил ю гоу ту хё</c>
+		</d>
+		<d>
+			<a>You will go to her</a>
+			<b>Ты пойдешь к ней</b>
+			<c>Ю вил гоу ту хё</c>
+		</d>
+		<d>
+			<a>You will not go to her</a>
+			<b>Ты не пойдешь к ней</b>
+			<c>Ю вил нот гоу ту хё</c>
+		</d>
+		<d>
+			<a>Do you go to her?</a>
+			<b>Ты идешь к ней?</b>
+			<c>Ду ю гоу ту хё</c>
+		</d>
+		<d>
+			<a>You go to her</a>
+			<b>Ты идешь к ней</b>
+			<c>Ю гоу ту хё</c>
+		</d>
+		<d>
+			<a>You don't go to her</a>
+			<b>Ты не идешь к ней</b>
+			<c>Ю донт гоу ту хё</c>
+		</d>
+		<d>
+			<a>Did you go to her?</a>
+			<b>Ты пошла к ней?</b>
+			<c>Дид ю гоу ту хё</c>
+		</d>
+		<d>
+			<a>You went to her</a>
+			<b>Ты пошла к ней</b>
+			<c>Ю вэнт ту хё</c>
+		</d>
+		<d>
+			<a>You didn't go to her</a>
+			<b>Ты не пошла к ней</b>
+			<c>Ю диднт гоу ту хё</c>
+		</d>
+	</m>
+	<m>
+		<d>
+			<a>I will know you</a>
+			<b>Я узнаю тебя</b>
+			<c>Ай вил ноу ю</c>
+		</d>
+		<d>
+			<a>I didn't know you</a>
+			<b>Я не знал тебя</b>
+			<c>Ай диднт ноу ю</c>
+		</d>
+		<d>
+			<a>Do I know you?</a>
+			<b>Знаю ли я тебя?</b>
+			<c>Ду ай ноу ю</c>
+		</d>
+		<d>
+			<a>Will I know you?</a>
+			<b>Я буду тебя знать?</b>
+			<c>Вил ай ноу ю</c>
+		</d>
+		<d>
+			<a>Did I know you?</a>
+			<b>Я знал тебя?</b>
+			<c>Дид ай ноу ю</c>
+		</d>
+		<d>
+			<a>I know you</a>
+			<b>Я тебя знаю</b>
+			<c>Ай ноу ю</c>
+		</d>
+		<d>
+			<a>I knew you</a>
+			<b>Я знал тебя</b>
+			<c>Ай нью ю</c>
+		</d>
+		<d>
+			<a>I will not know you</a>
+			<b>Я не узнаю тебя</b>
+			<c>Ай вил нот ноу ю</c>
+		</d>
+		<d>
+			<a>I don't know you</a>
+			<b>Я не знаю тебя</b>
+			<c>Ай донт ноу ю</c>
+		</d>
+		<d>
+			<a>Will you know me?</a>
+			<b>Ты узнаешь меня?</b>
+			<c>Вил ю ноу ми?</c>
+		</d>
+		<d>
+			<a>You will know me</a>
+			<b>Ты узнаешь меня</b>
+			<c>Ю вил ноу ми</c>
+		</d>
+		<d>
+			<a>You will not know me</a>
+			<b>Ты не узнаешь меня</b>
+			<c>Ю вил нот ноу ми</c>
+		</d>
+		<d>
+			<a>Do you know me?</a>
+			<b>Ты знаешь меня?</b>
+			<c>Ду ю ноу ми</c>
+		</d>
+		<d>
+			<a>You know me</a>
+			<b>Ты знаешь меня</b>
+			<c>Ю ноу ми</c>
+		</d>
+		<d>
+			<a>You don't know me</a>
+			<b>Ты не знаешь меня</b>
+			<c>Ю донт ноу ми</c>
+		</d>
+		<d>
+			<a>Did you know me?</a>
+			<b>Ты знал меня?</b>
+			<c>Дид ю ноу ми</c>
+		</d>
+		<d>
+			<a>You knew me</a>
+			<b>Ты знал меня</b>
+			<c>Ю нью ми</c>
+		</d>
+		<d>
+			<a>You didn't know me</a>
+			<b>Ты не знал меня</b>
+			<c>Ю диднт ноу ми</c>
+		</d>
+		<d>
+			<a>Will I know him?</a>
+			<b>Узнаю ли я его?</b>
+			<c>Вил ай ноу хим</c>
+		</d>
+		<d>
+			<a>I will know him</a>
+			<b>Я узнаю его</b>
+			<c>Ай вил ноу хим</c>
+		</d>
+		<d>
+			<a>I will not know him</a>
+			<b>Я не узнаю его</b>
+			<c>Ай вил нот ноу хим</c>
+		</d>
+		<d>
+			<a>Do I know him?</a>
+			<b>Знаю ли я его?</b>
+			<c>Ду ай ноу хим</c>
+		</d>
+		<d>
+			<a>I know him</a>
+			<b>Я знаю его</b>
+			<c>Ай ноу хим</c>
+		</d>
+		<d>
+			<a>I don't know him</a>
+			<b>Я не знаю его</b>
+			<c>Ай донт ноу хим</c>
+		</d>
+		<d>
+			<a>Did I know him?</a>
+			<b>Знала ли я его?</b>
+			<c>Дид ай ноу хим</c>
+		</d>
+		<d>
+			<a>I knew him</a>
+			<b>Я знала его</b>
+			<c>Ай нью хим</c>
+		</d>
+		<d>
+			<a>I didn't know him</a>
+			<b>Я не знала его</b>
+			<c>Ай диднт ноу хим</c>
+		</d>
+		<d>
+			<a>Will he know me?</a>
+			<b>Узнает ли он меня?</b>
+			<c>Вил хи ноу ми</c>
+		</d>
+		<d>
+			<a>He will know me</a>
+			<b>Он узнает меня</b>
+			<c>Хи вил ноу ми</c>
+		</d>
+		<d>
+			<a>He will not know me</a>
+			<b>Он не узнает меня</b>
+			<c>Хи вил нот ноу ми</c>
+		</d>
+		<d>
+			<a>Does he know me?</a>
+			<b>Он меня знает?</b>
+			<c>Дас хи ноу ми</c>
+		</d>
+		<d>
+			<a>He knows me</a>
+			<b>Он меня знает</b>
+			<c>Хи ноус ми</c>
+		</d>
+		<d>
+			<a>He doesn't know me</a>
+			<b>Он меня не знает</b>
+			<c>Хи дазнт ноу ми</c>
+		</d>
+		<d>
+			<a>Did he know me?</a>
+			<b>Он знал меня?</b>
+			<c>Дид хи ноу ми</c>
+		</d>
+		<d>
+			<a>He knew me</a>
+			<b>Он знал меня</b>
+			<c>Хи нью ми</c>
+		</d>
+		<d>
+			<a>He didn't know me</a>
+			<b>Он не знал меня</b>
+			<c>Хи диднт ноу ми</c>
+		</d>
+		<d>
+			<a>Will I know her?</a>
+			<b>Я узнаю её?</b>
+			<c>Вил ай ноу хё</c>
+		</d>
+		<d>
+			<a>I will know her</a>
+			<b>Я узнаю её</b>
+			<c>Ай вил ноу хё</c>
+		</d>
+		<d>
+			<a>I will not know her</a>
+			<b>Я не узнаю её</b>
+			<c>Ай вил нот ноу хё</c>
+		</d>
+		<d>
+			<a>Do I know her?</a>
+			<b>Я знаю её?</b>
+			<c>Ду ай ноу хё</c>
+		</d>
+		<d>
+			<a>I know her</a>
+			<b>Я знаю её</b>
+			<c>Ай ноу хё</c>
+		</d>
+		<d>
+			<a>I don't know her</a>
+			<b>Я не знаю её</b>
+			<c>Ай донт ноу хё</c>
+		</d>
+		<d>
+			<a>Did I know her?</a>
+			<b>Я знал её?</b>
+			<c>Дид ай ноу хё</c>
+		</d>
+		<d>
+			<a>I knew her</a>
+			<b>Я знал её</b>
+			<c>Ай нью хё</c>
+		</d>
+		<d>
+			<a>I did not know her</a>
+			<b>Я не знал её</b>
+			<c>Ай дид нот ноу хё</c>
+		</d>
+		<d>
+			<a>Will she know me?</a>
+			<b>Она узнает меня?</b>
+			<c>Вил ши ноу ми?</c>
+		</d>
+		<d>
+			<a>She will know me</a>
+			<b>Она узнает меня</b>
+			<c>Ши вил ноу ми</c>
+		</d>
+		<d>
+			<a>She will not know me</a>
+			<b>Она не узнает меня</b>
+			<c>Ши вил нот ноу ми</c>
+		</d>
+		<d>
+			<a>Does she know me?</a>
+			<b>Она знает меня?</b>
+			<c>Дас ши ноу ми</c>
+		</d>
+		<d>
+			<a>She knows me</a>
+			<b>Она знает меня</b>
+			<c>Ши ноус ми</c>
+		</d>
+		<d>
+			<a>She doesn't know me</a>
+			<b>Она не знает меня</b>
+			<c>Ши дазнт ноу ми</c>
+		</d>
+		<d>
+			<a>Did she know me?</a>
+			<b>Она знала меня?</b>
+			<c>Дид ши ноу ми</c>
+		</d>
+		<d>
+			<a>She knew me</a>
+			<b>Она знала меня</b>
+			<c>Ши нью ми</c>
+		</d>
+		<d>
+			<a>She didn't know me</a>
+			<b>Она не знала меня</b>
+			<c>Ши диднт ноу ми</c>
+		</d>
+		<d>
+			<a>Will I know them?</a>
+			<b>Я узнаю их?</b>
+			<c>Вил ай ноу зем</c>
+		</d>
+		<d>
+			<a>I will know them</a>
+			<b>Я узнаю их</b>
+			<c>Ай вил ноу зем</c>
+		</d>
+		<d>
+			<a>I will not know them</a>
+			<b>Я не узнаю их</b>
+			<c>Ай вил нот ноу зем</c>
+		</d>
+		<d>
+			<a>Do I know them?</a>
+			<b>Я знаю их?</b>
+			<c>Ду ай ноу зем</c>
+		</d>
+		<d>
+			<a>I know them</a>
+			<b>Я знаю их</b>
+			<c>Ай ноу зем</c>
+		</d>
+		<d>
+			<a>I don't know them</a>
+			<b>Я не знаю их</b>
+			<c>Ай донт ноу зем</c>
+		</d>
+		<d>
+			<a>Did I know them?</a>
+			<b>Знал ли я их?</b>
+			<c>Дид ай ноу зем</c>
+		</d>
+		<d>
+			<a>I knew them</a>
+			<b>Я знал их</b>
+			<c>Ай нью зем</c>
+		</d>
+		<d>
+			<a>I did not know them</a>
+			<b>Я не знал их</b>
+			<c>Ай дид нот ноу зем</c>
+		</d>
+		<d>
+			<a>Will they know me?</a>
+			<b>Они узнают меня?</b>
+			<c>Вил зей ноу ми</c>
+		</d>
+		<d>
+			<a>They will know me</a>
+			<b>Они узнают меня</b>
+			<c>Зей вил ноу ми</c>
+		</d>
+		<d>
+			<a>They will not know me</a>
+			<b>Они не узнают меня</b>
+			<c>Зей вил нот ноу ми</c>
+		</d>
+		<d>
+			<a>Do they know me?</a>
+			<b>Они знают меня?</b>
+			<c>Ду зей ноу ми</c>
+		</d>
+		<d>
+			<a>They know me</a>
+			<b>Они знают меня</b>
+			<c>Зей ноу ми</c>
+		</d>
+		<d>
+			<a>They don't know me</a>
+			<b>Они не знают меня</b>
+			<c>Зей донт ноу ми</c>
+		</d>
+		<d>
+			<a>Did they know me?</a>
+			<b>Они знали меня?</b>
+			<c>Дид зей ноу ми</c>
+		</d>
+		<d>
+			<a>They knew me</a>
+			<b>Они знали меня</b>
+			<c>Зей нью ми</c>
+		</d>
+		<d>
+			<a>They didn't know me</a>
+			<b>Они не знали меня</b>
+			<c>Зей диднт ноу ми</c>
+		</d>
+		<d>
+			<a>Will you know him?</a>
+			<b>Узнаешь ли ты его?</b>
+			<c>Вил ю ноу хим</c>
+		</d>
+		<d>
+			<a>You will know him</a>
+			<b>Ты узнаешь его</b>
+			<c>Ю вил ноу хим</c>
+		</d>
+		<d>
+			<a>You will not know him</a>
+			<b>Ты не узнаешь его</b>
+			<c>Ю вил нот ноу хим</c>
+		</d>
+		<d>
+			<a>Do you know him?</a>
+			<b>Ты знаешь его?</b>
+			<c>Ду ю ноу хим</c>
+		</d>
+		<d>
+			<a>You know him</a>
+			<b>Ты знаешь его</b>
+			<c>Ю ноу хим</c>
+		</d>
+		<d>
+			<a>You don't know him</a>
+			<b>Ты не знаешь его</b>
+			<c>Ю донт ноу хим</c>
+		</d>
+		<d>
+			<a>Did you know him?</a>
+			<b>Ты знала его?</b>
+			<c>Дид ю ноу хим</c>
+		</d>
+		<d>
+			<a>You knew him</a>
+			<b>Ты знала его</b>
+			<c>Ю нью хим</c>
+		</d>
+		<d>
+			<a>You didn't know him</a>
+			<b>Ты не знала его</b>
+			<c>Ю диднт ноу хим</c>
+		</d>
+		<d>
+			<a>Will he know you?</a>
+			<b>Он узнает тебя?</b>
+			<c>Вил хи ноу ю</c>
+		</d>
+		<d>
+			<a>He will know you</a>
+			<b>Он узнает тебя</b>
+			<c>Хи вил ноу ю</c>
+		</d>
+		<d>
+			<a>He will not know you</a>
+			<b>Он не узнает тебя</b>
+			<c>Хи вил нот ноу ю</c>
+		</d>
+		<d>
+			<a>Does he know you?</a>
+			<b>Он знает тебя?</b>
+			<c>Даз хи ноу ю</c>
+		</d>
+		<d>
+			<a>He knows you</a>
+			<b>Он знает тебя</b>
+			<c>Хи ноус ю</c>
+		</d>
+		<d>
+			<a>He doesn't know you</a>
+			<b>Он не знает тебя</b>
+			<c>Хи дазнт ноу ю</c>
+		</d>
+		<d>
+			<a>Did he know you?</a>
+			<b>Он знал тебя?</b>
+			<c>Дид хи ноу ю</c>
+		</d>
+		<d>
+			<a>He knew you</a>
+			<b>Он знал тебя</b>
+			<c>Хи нью ю</c>
+		</d>
+		<d>
+			<a>He didn't know you</a>
+			<b>Он не знал тебя</b>
+			<c>Хи диднт ноу ю</c>
+		</d>
+		<d>
+			<a>Will she know you?</a>
+			<b>Она узнает тебя?</b>
+			<c>Вил ши ноу ю</c>
+		</d>
+		<d>
+			<a>She will know you</a>
+			<b>Она узнает тебя</b>
+			<c>Ши вил ноу ю</c>
+		</d>
+		<d>
+			<a>She will not know you</a>
+			<b>Она не узнает тебя</b>
+			<c>Ши вил нот ноу ю</c>
+		</d>
+		<d>
+			<a>Does she know you?</a>
+			<b>Она знает тебя?</b>
+			<c>Даз ши ноу ю</c>
+		</d>
+		<d>
+			<a>She knows you</a>
+			<b>Она знает тебя</b>
+			<c>Ши ноус ю</c>
+		</d>
+		<d>
+			<a>She doesn't know you</a>
+			<b>Она не знает тебя</b>
+			<c>Ши дазнт ноу ю</c>
+		</d>
+		<d>
+			<a>Did she know you?</a>
+			<b>Она знала тебя?</b>
+			<c>Дид ши ноу ю</c>
+		</d>
+		<d>
+			<a>She knew you</a>
+			<b>Она знала тебя</b>
+			<c>Ши нью ю</c>
+		</d>
+		<d>
+			<a>She didn't know you</a>
+			<b>Она не знала тебя</b>
+			<c>Ши диднт ноу ю</c>
+		</d>
+		<d>
+			<a>Will you know us?</a>
+			<b>Узнаешь ли ты нас?</b>
+			<c>Вил ю ноу ас</c>
+		</d>
+		<d>
+			<a>You will know us</a>
+			<b>Ты узнаешь нас</b>
+			<c>Ю вил ноу ас</c>
+		</d>
+		<d>
+			<a>You will not know us</a>
+			<b>Ты не узнаешь нас</b>
+			<c>Ю вил нот ноу ас</c>
+		</d>
+		<d>
+			<a>Do you know us?</a>
+			<b>Ты знаешь нас?</b>
+			<c>Ду ю ноу ас</c>
+		</d>
+		<d>
+			<a>You know us</a>
+			<b>Ты знаешь нас</b>
+			<c>Ю ноу ас</c>
+		</d>
+		<d>
+			<a>You don't know us</a>
+			<b>Ты не знаешь нас</b>
+			<c>Ю донт ноу ас</c>
+		</d>
+		<d>
+			<a>Did you know us?</a>
+			<b>Ты знала нас?</b>
+			<c>Дид ю ноу ас</c>
+		</d>
+		<d>
+			<a>You knew us</a>
+			<b>Ты знала нас</b>
+			<c>Ю нью ас</c>
+		</d>
+		<d>
+			<a>You didn't know us</a>
+			<b>Ты не знала нас</b>
+			<c>Ю диднт ноу ас</c>
+		</d>
+		<d>
+			<a>Will you know her?</a>
+			<b>Узнаешь ли ты её?</b>
+			<c>Вил ю ноу хё</c>
+		</d>
+		<d>
+			<a>You will know her</a>
+			<b>Ты узнаешь её</b>
+			<c>Ю вил ноу хё</c>
+		</d>
+		<d>
+			<a>You will not know her</a>
+			<b>Ты не узнаешь её</b>
+			<c>Ю вил нот ноу хё</c>
+		</d>
+		<d>
+			<a>Do you know her?</a>
+			<b>Ты знаешь её?</b>
+			<c>Ду ю ноу хё</c>
+		</d>
+		<d>
+			<a>You know her</a>
+			<b>Ты знаешь её</b>
+			<c>Ю ноу хё</c>
+		</d>
+		<d>
+			<a>You don't know her</a>
+			<b>Ты не знаешь её</b>
+			<c>Ю донт ноу хё</c>
+		</d>
+		<d>
+			<a>Did you know her?</a>
+			<b>Ты знала её?</b>
+			<c>Дид ю ноу хё</c>
+		</d>
+		<d>
+			<a>You knew her</a>
+			<b>Ты знала её</b>
+			<c>Ю нью хё</c>
+		</d>
+		<d>
+			<a>You didn't know her</a>
+			<b>Ты не знала её</b>
+			<c>Ю диднт ноу хё</c>
+		</d>
+	</m>
+</mess>

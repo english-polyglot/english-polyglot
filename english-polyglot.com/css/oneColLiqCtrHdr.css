@@ -1,0 +1,289 @@
+@charset "utf-8";
+body {
+	background: #e5e5e5;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Arial, Helvetica,   sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	width:100%;
+
+}
+
+.container {
+
+	
+}	
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+.left_wrap {
+	/*width: 20%;*/
+	max-width:100px;
+	padding-top:5px;
+	float: left;
+	font-size:11px;
+	text-align:right;	
+	
+}
+
+.left_wrap2 {
+	
+	width: 55%;
+	font-style: italic;
+	float: left;
+	font-size:14px;
+	
+}
+.no_wrap {
+	clear: left;
+	
+}
+.left_pad {
+	padding-left:5px;
+}
+
+.left_pad3 {
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+.nav {
+	float: left;
+	width: 100%;
+	text-align:center;
+	/*margin:0 auto;*/
+	margin: 0 9% 0 8%;
+	 
+
+}
+
+.nav a, .nav a:visited{
+	background-color: #efefef; /*black*/
+	display: block;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #666;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;	
+}
+
+
+.nav a:hover {
+	color: #000;
+	background-color: #CCC; /*green*/
+	display: block;
+}
+
+
+
+.nav a:active {
+	color: #fff;
+	background-color: #fff; /*yel*/
+	display: block;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	
+}
+h1, h2, h3, h4 {
+	margin: 0 auto;
+	text-align: center;
+}
+h1  {
+	font-size:16px;
+}
+h2 {
+	font-size: 28px;
+}
+
+td, tr {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+a img {
+	border: none;
+}
+
+a:link {
+	color:#3780C2;	
+}
+a:visited {
+	color: #4E5869;
+	
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.footer a:link {
+	color:#fff;
+	text-decoration: none;
+}
+.footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.footer a:hover, a:active, a:focus { 
+	color:#999;
+	text-decoration: none;
+}
+
+.header {
+	background: #000;
+	color: #FFF;
+	padding:10px;
+	position:fixed;
+	width:100%;
+}
+
+
+
+.content {
+	overflow:hidden;
+}
+
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+
+.message {
+	font-size: 150%;
+
+}
+.message p em {
+	font-weight: normal;
+	
+
+}
+
+
+.dialogue li {
+	list-style-type: none;
+}
+.width {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	
+}
+#fixedcell {
+/*position: relative;*/
+}
+.header h4 {
+	/*font-size:120%;*/
+	margin-left: 120px;
+	/*color:blue;*/
+	/*text-decoration:underline;*/
+}
+.top_tabs {
+	  /*font-size:75%;*/
+	  /*padding:5px 10px 5px 10px;*/
+	  /*margin-top:3px;*/
+	  
+}
+
+/*------------menu tabs start-------------*/
+
+   #tabs_lessons {
+      float:left;
+      width:auto;
+      /*line-height:normal;*/
+      }
+    #tabs_lessons ul {
+	  margin:0;
+	  padding:1px 2px 0 2px;
+	  list-style:none;
+      }
+    #tabs_lessons li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs_lessons a {
+      float:left;
+	  min-width:40px;
+      background:url("../img/tableftF.gif") no-repeat left top;
+      margin:0 0 2px 0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+	  border-bottom:1px solid #666;
+      }
+    #tabs_lessons a span {
+      float:left;
+	  text-align:center;
+	  min-width:40px;
+      display:block;
+      background:url("../img/tabrightF.gif") no-repeat right top;
+      padding:2px 4px 2px 0px;
+      color:#242424;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs_lessons a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs_lessons a:hover span {
+      color:#858585;
+      }
+  /*------------menu tabs end-------------*/
+  
+ 	#radio_tab01 a, #radio_tab02 a, #radio_tab01 a span, #radio_tab02 a span {
+		min-width:40px;
+	}
+	
+	#check_transcription a, #check_transcription a span {
+		min-width:60px;	
+	}
+.verbCounter {
+	line-height: 14px;
+	padding:0;
+	font-size: 11px;
+	float:left;
+	font-weight: bold;
+}
+.obertka {
+	margin: 0 15% 0 20%;
+	
+}
+
+
+#back {
+	float: left;
+	width: 52%; /*Width of left column in percentage*/
+	margin-left: 9.51%;
+
+}
+
+#forward {
+	float: left;
+	width: 52%; /*Width of right column in pixels*/
+	margin-left: -13.86%;
+	/*display:inline-block;*/
+/*	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMZJREFUeNq0lt0NgzAMhIPlfWAR1BXYpDBSxSCFiYr70CqKUH6cO0t+SEC++xxkIvP8eFuOgRRiOVkeJvJkCAxW+BOtD8tl318nkiAOOE1KENA0knkGockRQGik8j03TS2Bm0YcbW2i8RA00UjnZ16k6SUo0ghw7NzSIAluaSRw4k/DEqCcQdqiyVq0KaH4+i38WyjjYONNZbhGChRHhTJc9wo0jWtluPYIuH+ZynBdKwC5tijDdU4AfnVUhutUAO46jkuAAQD+jXZOTODXVwAAAABJRU5ErkJggg==") no-repeat scroll center center;*/
+	/*	text-indent: -200px;*/
+
+}
+
+.footer {
+	padding: 10px 0;
+	background: #000;
+	color: #FFF;
+	clear: left;
+}
+
+
