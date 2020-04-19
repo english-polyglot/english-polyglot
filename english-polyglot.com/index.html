@@ -27,7 +27,7 @@
 
 <meta property="fb:app_id" content="107859652683773" /> 
 <meta property="og:locale" content="ru_RU" />
-<meta property="og:site_name" content="ПолиГлоТ: Английский язык за 16 часов" />
+<meta property="og:site_name" content="Полиглот английский язык за 16 часов" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" value="summary" />
 <meta name="twitter:site" content="@MrPoligloto" />
@@ -49,6 +49,72 @@
 	
 <meta name="Description" content="Скорая помощь в изучении английского языка. Практическое пособие для изучения английского языка, на основе сверхкомпактной Базовой таблицы глагола лингвиста переводчика полиглота Дмитрия Петрова. В 1 уроке мы научимся строить фразы на английском языке." />
 <meta property="og:description" itemprop="description" content="Практическое пособие для изучения английского языка, на основе сверхкомпактной Базовой таблицы глагола лингвиста полиглота Дмитрия Петрова" />
+<script></script>
+	
+	
+<style>
+
+</style>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+
+<script>
+window.addEventListener("load", init);
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+	
+
+	
+function init() {
+	
+
+
+
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("AEE097CEFB9D2345A5FAE086D49C4CB7");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.installPlugin(createjs.Sound);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	var preloaderDiv = document.getElementById("_preload_div_");
+	preloaderDiv.style.display = 'none';
+	canvas.style.display = 'block';
+	exportRoot = new lib.generatorfrazpromo();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	//AdobeAn.makeResponsive(true,'width',false,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	
+	fnStartAnimation();
+}
+
+</script>
+	
+	
 <!-- InstanceEndEditable -->
 	
 <style>
@@ -63,7 +129,7 @@
 @media(min-width: 800px) { /*h1 {font-size:1.5em}*/ h2 {font-size:1.25em} h3 {font-size:1.1em} .menu {font-size: 0.85em}}
 .scroll-to-top,.donateButton{display:none}</style>
 <style id="pixelated"></style>
-<link href="css/liquid-26-03-2020.css" rel="stylesheet" type="text/css" />
+<link href="css/liquid.css" rel="stylesheet" type="text/css" />
 <style id="ambulance-trigger"></style>
 	
 <!-- InstanceBeginEditable name="head" -->
@@ -130,42 +196,22 @@
     
                     <div class="content_inner">
                         
-                        <div class="embed-container flash">
+    <div class="black_bg">						
+	<div id="animation_container" style="width:100%">
+		<canvas id="canvas" width="1280" height="720" style="display: none; width:100%"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:100%;  display: none;">
+		</div>
+	</div>
+    <div id="_preload_div_" class="notfla_img">
+		<img src="img/face-vs-brain-33.png" style="width:100%"/>
+	</div>
                         
-                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="white-brain-1" align="middle">
-                                <param name="movie" value="img/white-brain-1.swf" />
-                                <param name="quality" value="high" />
-                                
-                                <param name="play" value="true" />
-                                <param name="loop" value="true" />
-                                <param name="wmode" value="transparent" />
-                                <param name="scale" value="showall" />
-                                <param name="menu" value="true" />
-                                <param name="devicefont" value="false" />
-                                <param name="salign" value="" />
-                                <param name="allowScriptAccess" value="sameDomain" />
-                                <!--[if !IE]>-->
-                                <object type="application/x-shockwave-flash" data="img/white-brain-1.swf" width="100%" height="100%">
-                                    <param name="movie" value="img/white-brain-1.swf" />
-                                    <param name="quality" value="high" />
-                                    
-                                    <param name="play" value="true" />
-                                    <param name="loop" value="true" />
-                                    <param name="wmode" value="transparent" />
-                                    <param name="scale" value="showall" />
-                                    <param name="menu" value="true" />
-                                    <param name="devicefont" value="false" />
-                                    <param name="salign" value="" />
-                                    <param name="allowScriptAccess" value="sameDomain" />
-                                <!--<![endif]-->
-                                    <a href="//www.english-polyglot.com/generator-fraz.html" title="Генератор фраз" target="_blank"><img class="notfla_img" src="img/face-vs-brain-33.png" alt="Генератор фраз" />           </a>
-                                
-                                 <!--[if !IE]>-->
-                              </object>
-                                 <!--<![endif]-->
-                            </object>
-                        
-                        </div>
+    </div>
+						
+						
+						
+						
+						
                                 
                         <!-- InstanceBeginEditable name="urok-title" -->
   <!-- InstanceEndEditable -->
@@ -200,7 +246,7 @@
 
 
 
-      
+
         
 
 
@@ -1186,6 +1232,7 @@ if(typeof blockAdBlock === 'undefined') {
 
 
 <script src="js/all.js" type="text/javascript"></script>
+<script src="js/generator-fraz-promo.js?1587211158129"></script>
 <!-- InstanceBeginEditable name="Script" -->
 <script type="text/javascript">
 var tabl_com=['<strong>Базовая таблица глаголов Петрова</strong> (белый фон)','<strong>Базовая таблица глаголов Петрова</strong> (черный фон)','<strong>Базовая таблица глаголов Петрова</strong> (маленькая красный фон)','<strong>Транспонированная базовая таблица глаголов Петрова</strong> (время по оси Х)']
@@ -1229,17 +1276,7 @@ else
 window.addEventListener('load', async_load, false);
 })();
 
-// ambulance trigger initiation
-	var css_code ='h1{border-radius:50%;width:100px}';
-	css_code +='h1::before{height:39px;transform:translate(5%,-50%);width:90%}';
-	css_code +='h1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
-	css_code +='h1::after{width:39px;transform:translate(-50%,5%); height:90%}';
-	css_code +='div#line_1_2,div#line_3_4{visibility:visible}';
-	css_code +='div#line_1_2{margin-top:0}';	
-	var hover_chk=true;
-	var amb=document.getElementById('ambulance-trigger');
-	function ambulance_on(){setTimeout(function(){amb.innerHTML=css_code;hover_chk=!hover_chk;ambulance_off()},10000)}
-	function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover_chk;ambulance_on()},10000)}
+
 		
 // Google Search 
 (function() {
@@ -1253,8 +1290,7 @@ window.addEventListener('load', async_load, false);
 })();
 window.onload = function(){
 		
-ambulance_on(); // start ambulance trigger
-	
+
 document.getElementById('gsc-i-id1').setAttribute('tooltip',''); //Google Chrome	
 document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
 };		
