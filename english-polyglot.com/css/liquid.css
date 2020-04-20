@@ -406,7 +406,7 @@ h1 div, h3 div{line-height:1em;}
 @media(min-width:240px){.lp{padding-left:10px}}
 
 @media(min-width:320px){.lp{padding-left:15px}.hh1{width:316px}.hh1 strong{width: 240px;}}
-@media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:375px;}.info0{padding-left:80px}}
+@media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px;}.info0{padding-left:80px}}
 @media(min-width:425px){.ambulance{border-radius:0 0 6px 6px}#progress2{font-size:1em;padding:12px 0;background-position-x:20px}.info0{padding-right:20px;padding-left:96px}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px}#amb3 i{width:0}}
 
 @media(min-width:600px){#progress2{padding:18px 0}.info0{padding-right:30px}}
