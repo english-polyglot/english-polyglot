@@ -732,7 +732,6 @@ function playSound(anchor) {
 
 function processOnload(e){ 
 	var dragObjects = document.getElementById('dragObjects').getElementsByTagName('div')
-	console.log("hi3")
     for(var i=0; i<dragObjects.length; i++) {
         new DragObject(dragObjects[i])
 	}
