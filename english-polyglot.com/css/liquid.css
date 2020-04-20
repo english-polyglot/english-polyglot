@@ -76,7 +76,7 @@ input.subscribepost:hover,input.submit:hover{opacity:0.5}
 .separator{font-size:150%;padding:15px 0 5px 0;margin:0 auto;font-weight:bold;text-align:center;width:90%}	
 .clearfloat{clear:both;height:0;font-size:1px;line-height:0px}
 .ad_block{overflow:hidden;padding-bottom:1px;text-align:center}
-.wrap_txt{letter-spacing:0.01em;word-spacing:normal;text-align:justify;padding:0 8px;text-indent:8px}
+.wrap_txt{letter-spacing:0.01em;word-spacing:normal;text-align:justify;padding:0 8px;text-indent:8px;transform:translateZ(0px)}
 .wrap_txt_center{font-size:75%;letter-spacing:0.01em;margin:0.5em auto 1em auto;text-align:center}
 .wrap_img .video_center .wrap_txt_center{margin-bottom:0}
 .wrap_txt li{text-indent:5px;list-style-type:none;margin:5px 0;text-align:left}
