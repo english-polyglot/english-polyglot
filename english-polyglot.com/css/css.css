@@ -23,6 +23,7 @@ p {
 
 .message {
 	font-size: 150%;
+	transform: translateZ(0px);
 }
 span#conteiner2,span#conteiner3{color:#9E9E9E}
 a#hierarhy:active,a#hierarhy2:active{color:#FFF !important}
