@@ -2070,7 +2070,11 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,46.5,46.5);
 		if (  !becauseActionScriptIsVeryGoodLanguage )
 		{ 
 			var becauseActionScriptIsVeryGoodLanguage = true;
-			_this.gotoAndPlay(1297);
+			if ('localStorage' in window && localStorage['counter'] < 2){
+				_this.play();
+			} else {
+				_this.gotoAndPlay(1297);
+			}
 		}
 		
 		
