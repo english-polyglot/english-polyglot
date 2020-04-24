@@ -296,7 +296,7 @@ a#hierarhy:hover,a#hierarhy2:hover{color:#E9E9E9;/*text-shadow:-1px -1px 0 #000,
   	z-index: 9;
 	border-width: 0;
 }
-#progress2 {
+#progress_line {
 	height: 3px;
 	background-color: #b70000;
 }
@@ -348,13 +348,6 @@ height:100%}
 
 .uroki {font-size:0.8em;padding:15px 1.2em 0 1.2em;text-indent:1.5em}
 .lft{text-align:left}
-
-#progress3{display:inline-block;width:100%;padding:10px 0}
-#progress3{background: url(../img/acca820d52e744c29ae3e0800ed84057.png) 10px center no-repeat #ffa5ad;background-size:50px}	
-#progress3{font-size:1em;padding:12px 0;background-position-x:20px}
-.info{font-size:0.86em;display:table-cell;padding:5px 0;max-width:60%;text-shadow:none}
-.info0{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;padding:0 10px 0 65px}
-
 
 @media only screen and (min-width : 180px) { #switchers .ui-btn {width:4em} #switch .ui-btn {width:initial}}
 
@@ -426,23 +419,3 @@ fieldset.opt.ui-controlgroup.ui-controlgroup-horizontal.ui-corner-all{padding-le
 .ui-listview>li.ui-first-child,.ui-listview>li.ui-first-child>a.ui-btn{border-width:0 0 1px}
 .ui-listview>li.ui-last-child,.ui-listview>li.ui-last-child>a.ui-btn{border-width:1px 0 1px}
 .ui-shadow{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
-#adbl{background:url(../img/acca820d52e744c29ae3e0800ed84057.png) 28px center no-repeat;background-size:4em;padding-top:100px}
-#adblplus{background:url(../img/abp-32.png) 14px center no-repeat;background-size:1.3em;width:50px;display:inline-block}
-.adblstop{padding:0 2.5em 0 110px}
-
-/*.adblstop2 {
-  font-size: 75%;
-  text-align: left;
-  color: black;
-  padding: 0 2.5em 0 110px;
-}
-
-.info.adblstop2 div {
-  margin-bottom: 1.3em;
-}*/
-
-#adbl div{text-align:center}
-a.adblock__button{font-size:14px;font-weight:bold;color:#fff !important;text-transform:uppercase;text-decoration:none;border-radius:2px;background-color:#db473c;padding:5px;text-shadow:none;border:1px solid #db473c}
-a.adblock__button:hover{color:#db473c !important;-webkit-transition:background-color 0.15s ease-out;transition:background-color 0.15s ease-out;background-color:#f9f9f9;border:1px solid #db473c}
-.infront{position:fixed;left:0;top:0;width:100%;height:100%;z-index:2;/*opacity:0;-webkit-transition:opacity 0.25s ease-out;transition:opacity 0.25s ease-out*/}
-/*.vis{opacity:1}*/

@@ -10,68 +10,20 @@
 <meta name="msapplication-TileColor" content="#fff">
 <meta name="msapplication-TileImage" content="tileicon.png">
 
-<title>МаТЕриалы УрОкОВ поЛиглОт</title>
+<title>Материалы уроков Полиглот</title>
  
 <script type="text/javascript" src="js/ads.js"></script>
-
-
+<link href="css/red-placeholder.css" rel="stylesheet" type="text/css" />
+	
 <style>
 html,body{height:100%;overflow-y:auto}
 body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
 #content_answer{display:none;border-radius:1.5vw;margin:3vw}
-#textdescription{font-weight:bold;padding:0.5em 0.2em 0.25em;font-size:3vw}
-#pronunciation{padding:0.25em 0.2em 0.5em;font-size:3vw}
+#textdescription{font-weight:bold;padding:0.5em 0.2em 0.25em;/*font-size:3vw*/}
+#pronunciation{padding:0.25em 0.2em 0.5em;/*font-size:3vw*/}
 #content_print{display:none}
 
 .but_class{font-size:4vw;padding:0}
-
-.info0 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-padding: 0 3vw 0 16vw;
-}
-a.adblock__button {
-	font-size: 2vw;
-  font-weight: bold;
-  color: #fff;
-  text-transform:uppercase;
-  text-decoration:none;
-  border-radius: 1vw;
-  background-color: #db473c;
-  padding:1.5vw;
-  text-align:center;
-  border: 0.1vw solid #db473c;
-}
-a.adblock__button:hover{
-  color:#db473c;
-  -webkit-transition:background-color 0.15s ease-out;
-  transition:background-color 0.15s ease-out;
-  background-color: #ffa5ad;
-  border: 0.1vw solid #db473c;
-}
-
-
-.infront{position:fixed;left:0;top:0;width:100%;height:100%}
-
-.info{float:left;padding:1.5vw 1vw;text-align:left;width:60%}
-
-#progress2 {
-	background: url(img/acca820d52e744c29ae3e0800ed84057.png) 3vw center no-repeat #ffa5ad;
-	background-size: 10vw;
-	display: inline-block;
-	width: 100%;
-	font-size: 2.7vw
-}
 
 </style>
 
@@ -84,7 +36,7 @@ a.adblock__button:hover{
     </div>
     <div id="content_print"></div>
 
-        <div id="ad_answer" style="overflow:hidden;">      
+        <div id="prog1">      
             <!-- uroki-answer -->
             <ins class="adsbygoogle"
             style="display:block"
@@ -96,8 +48,6 @@ a.adblock__button:hover{
             </script>
 
     </div>
-    
-	
 
     <form id='but_done' style="margin:3vw;display:none">
 	  <input id="_form" class='but_class' type="button" value="   Done   " onClick="if(parent.screen.width<800){window.close()}else{window.open('', 'parent').focus()};return false">
@@ -105,6 +55,7 @@ a.adblock__button:hover{
     </form>
     
 </body>	
+<script type="text/javascript" src="js/modal.js"></script>
 <script>
 function callPrint(strid){
 		var prtContent=document.getElementById(strid),
@@ -115,49 +66,15 @@ function callPrint(strid){
 		winPrint.print()
 		winPrint.close()
 }
-
-function str_adb(){
-	if (window.name!='newwin') {	
-		var strip=window.innerWidth-document.documentElement.clientWidth
-		
-		var ins=document.getElementById("instr")
-		ins.style.visibility='';
-		
-		var bod=document.getElementsByTagName('body')[0];
-		bod.style.marginRight=strip+'px'
-		bod.style.overflowY='hidden';
-		
-		//ins.className="infront vis"
-	}
+	
+	
+if(typeof blockAdBlock === 'undefined') {
+    adBlockDetected();
+} else {
+    blockAdBlock.onDetected(adBlockDetected);
 }
-
-
-
-function adBlockDetected() {
-	if (window.name!='newwin') {
-		var ifr='"internal" onclick="str_adb()">как отключить</a></div></div><iframe id="instr" style="visibility:hidden" class="infront" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" name="internal"></iframe>';
-	}else{ var ifr='"_blank">как отключить</a></div></div>'}
-
-	var adcont='<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div><a class="adblock__button" href="stop-block.html" target='+ifr;
-	
-
-	document.getElementById("ad_answer").innerHTML= adcont
-}
-	
-	if(typeof blockAdBlock === 'undefined') {
-		adBlockDetected();
-	} else {
-		blockAdBlock.onDetected(adBlockDetected);
-	}
 		
-	
 </script>
-
-  
-
-
-
-
 
 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -167,7 +84,4 @@ function adBlockDetected() {
   });
 </script> 
 
-
-
-   
 </html>

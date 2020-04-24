@@ -17,6 +17,7 @@
 <!-- InstanceEndEditable -->
 
 <link href="css/dive.css" rel="stylesheet" type="text/css" />
+<link href="css/red-placeholder.css" rel="stylesheet" type="text/css" />
 
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -255,65 +256,20 @@
     	<h2><a href="/" target="_blank">Полиглот английский язык за 16 часов</a></h2>
     
     </div>
-  
 
-  
 </div>
 
 </body>
-
+	
+<script type="text/javascript" src="js/modal.js"></script>
+	
 <script>
 
-
-function str_adb(){
-	if (window.name!='newwin') {	
-		var strip=window.innerWidth-document.documentElement.clientWidth
-		
-		var ins=document.getElementById("instr")
-		ins.style.visibility='';
-		
-		var bod=document.getElementsByTagName('body')[0];
-		bod.style.marginRight=strip+'px'
-		bod.style.overflowY='hidden';
-		
-		ins.className="infront vis"
-	}
-		
+if(typeof blockAdBlock === 'undefined') {
+    adBlockDetected();
+} else {
+    blockAdBlock.onDetected(adBlockDetected)
 }
-
-function adBlockDetected() {
-	if (window.name!='newwin') {
-		var complement='"internal" onclick="str_adb()">как отключить</a></div></div>';
-	}else{ var complement='"_blank">как отключить</a></div></div>'}
-	
-	var ifr='<iframe id="instr" style="visibility:hidden" class="infront" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" name="internal"></iframe>'
-
-	var adcont='<div id="progress2"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div><a class="adblock__button" href="stop-block.html" target='+complement;
-	
-		document.getElementById("prog1").innerHTML= adcont+ifr;
-		document.getElementById("prog2").innerHTML= adcont;
-
-}
-
-//function adBlockNotDetected() {
-//    var tag = document.createElement('script');
-//    tag.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
-//    document.getElementsByTagName('head')[0].appendChild(tag);	
-//	
-//	(adsbygoogle = window.adsbygoogle || []).push({
-//	google_ad_client: "ca-pub-4595809153827928",
-//	enable_page_level_ads: true
-//	});
-//}
-
-
-
-	if(typeof blockAdBlock === 'undefined') {
-		adBlockDetected();
-	} else {
-		blockAdBlock.onDetected(adBlockDetected);
-		//blockAdBlock.onNotDetected(adBlockNotDetected);
-	}
 
 </script>
 

@@ -38,7 +38,7 @@
 <meta name="Keywords" content="Генератор фраз, Полиглот, английский язык онлайн, Дмитрий Петров" />
 	
 
-<title>Генератор фраз полиглот</title>
+<title>Генератор фраз Полиглот</title>
 <meta property="og:title" itemprop="name" content="Генератор фраз полиглот" />	
 	
 
@@ -66,7 +66,6 @@
 <link href="js/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
 <link href="css/css.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
-
 
 <script>
 //console.log('adblocker = '+adblocker)
@@ -116,7 +115,7 @@
 			<li><a href="#page1" onClick="block(1,this)"><aa>9 verbs</aa><bb> (практика для 1 урока)</bb></a></li>
                     
             <div class="width">
-				<div id="prog1"></div>
+				<!--<div id="prog1"></div>-->
                 <!-- fb-page-21/05/2015 -->
                 <ins class="adsbygoogle mobile-adaptive-2"
                      style="display:inline-block"
@@ -140,7 +139,7 @@
 	</div>
     <br />
 		<ol data-role="listview" data-icon="false">
-			<li><a id="polyglotHome" href="/" data-role="button" data-ajax="false" data-icon="home"><strong>Уроки Полиглот</strong></a></li>
+			<li><a id="polyglotHome" href="javascript:void(0)" data-role="button" data-ajax="false" data-icon="home" onclick="if(window.opener){window.close()}else{window.location='/'}"><strong>Уроки Полиглот</strong></a></li>
         </ol>
 
 </div>
@@ -210,7 +209,7 @@
 </div>
 
 <div data-role="page" id="page1" data-theme="a" onfocus="can_orient=1" onblur="can_orient=0" data-dom-cache="true">
-    <div data-role="header" id="mainHeader" data-id="hea1" data-tap-toggle="false" style="z-index:1000">
+    <div data-role="header" id="mainHeader" data-id="hea1" data-tap-toggle="false" style="z-index:9">
         <div data-role="navbar" id="header2">
                 <ul>
                     <li><a href="#page" onClick="button_home()" data-icon="home" data-iconpos="notext"></a></li>
@@ -225,7 +224,7 @@
     
 		<div class="infoTop"><span class="infa" id="nameLesson"></span>&nbsp;<span class="infa">фраз: <span id="verb_all"></span></span>&nbsp;<span class="infa">фраза: <span id="verb_counter"></span></span></div>
     
-		<div id="progress2"></div>
+		<div id="progress_line"></div>
   		<div id="switch" style="text-align:center">
           <fieldset data-role="controlgroup" data-type="horizontal">
            <input type="radio" name="radio1" id="radio1_0" value="" onclick="change_language(1)"/>
@@ -278,6 +277,7 @@
     
     <div class="width1">
          <div class="buttons">
+			 <div id="prog2"></div>
               <!-- fb-page1-top-21/05/2015 -->
               <ins class="adsbygoogle mobile-adaptive-2"
                    style="display:inline-block"
@@ -396,7 +396,7 @@
 			</script>
 		
 		
-			<a href="/" data-role="button" data-ajax="false" data-icon="home"><strong>Уроки Полиглот</strong></a>
+			<a href="javascript:void(0)" data-role="button" data-ajax="false" data-icon="home" onclick="if(window.opener){window.close()}else{window.location='/'}"><strong>Уроки Полиглот</strong></a>
 
 		
 		<div class="uroki lft">
@@ -516,63 +516,16 @@
 
 </body>
 
-
-
-
-
-<script type="text/javascript" src="js/js-15-02-2019.js"></script>
-
+<script type="text/javascript" src="js/engine.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<link href="css/red-placeholder.css" rel="stylesheet" type="text/css" />
 <script>
-
-function str_adb(){
-
-	if (window.name!='newwin') {	
-		var strip=window.innerWidth-document.documentElement.clientWidth
-		
-		var ins=document.getElementById("instr")
-		ins.style.visibility='';
-		
-		var bod=document.getElementsByTagName('body')[0];
-		bod.style.marginRight=strip+'px'
-		bod.style.overflowY='hidden';
-
-		//ins.className="infront vis"
-	}
-
-}
-
-function adBlockDetected() {
-	
-	if (window.name!='newwin') {
-	var ifr='"internal" onclick="str_adb()">как отключить</a></div></div><iframe id="instr" style="visibility:hidden" class="infront" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" name="internal"></iframe>';
-	}else{ var ifr='"_blank">как отключить</a></div></div>'}
-	
-	document.getElementById("prog1").innerHTML='<div id="progress3"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div><a class="adblock__button" href="stop-block.html" target='+ifr;	
-	
-	
-//	var	ifr='<iframe id="instr" style="visibility:hidden" class="infront" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" name="internal"></iframe>';
-//
-//	var adcont='<div id="progress3"><div class="info0"><div class="info"><span> &nbsp;</span><br /><span>Пожалуйста, отключите блокиратор рекламы...</span><br /><span> &nbsp;</span></div><a class="adblock__button" href="stop-block.html" target="internal" onclick="str_adb()">как отключить</a></div>'
-
-	document.getElementById("prog1").innerHTML= adcont+ifr;
-//	document.getElementById("prog2").innerHTML= adcont;
-//	document.getElementById("prog3").innerHTML= adcont;
-	
-//	if (window.name!='newwin') {
-//		var ifr='"internal" onclick="str_adb()">как отключить</a></div></div><iframe id="instr" style="visibility:hidden" class="infront" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" name="internal"></iframe>';
-//	}else{ var ifr='"_blank">как отключить</a></div></div>'}
-//	
-//	document.getElementById("page1").innerHTML='<div id="adbl"><div> &nbsp;</div><br /><div class="info adblstop">Пожалуйста, отключите блокиратор рекламы и перезагрузите страницу или браузер целиком</div><br /><div> &nbsp;</div><div><a class="adblock__button" href="stop-block.html" target='+ifr;
-
-}
 
 if(typeof blockAdBlock === 'undefined') {
     adBlockDetected();
 } else {
-    blockAdBlock.onDetected(adBlockDetected);
-    //blockAdBlock.on(true, adBlockDetected);
+    blockAdBlock.onDetected(adBlockDetected)
 }
-
 </script>
 
 
