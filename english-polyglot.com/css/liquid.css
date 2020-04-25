@@ -367,7 +367,8 @@ h4 {background-color:#212121;color:#eee;}
 .hh1:before{content:"";position: relative;display: block;z-index:-1;top:50%;height: 35px;background-color: #b1172d;transform: translate(0,-50%);width: 100%;}
 .hh1{position:relative;display: block;z-index:1;padding: 0;margin: 2px auto;height: 100px;border-radius: 6px;}
 header h2{text-align:center}
-form.gsc-search-box.gsc-search-box-tools{width:auto;float:right;padding:0 10px 7px}
+.gsc-control-searchbox-only{padding:0 10px}
+form.gsc-search-box.gsc-search-box-tools{float:right;padding-bottom:7px}
 button.gsc-search-button.gsc-search-button-v2{padding:10px 31px}	
 input#gsc-i-id1{font-size:16px;margin-top:0px !important;color:#828282}
 td#gs_tti50{padding:0}
