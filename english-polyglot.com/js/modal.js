@@ -41,7 +41,12 @@ function adBlockDetected() {
 	var c = document.getElementById("prog3") || false;
 	if (c) c.innerHTML= adcont+aAll;
 	
-//	clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
+	if ((typeof(urok_num)=='undefined') || (urok_num!=1)) {
+		//if ((typeof(urok_num)=='undefined') && (urok!=1)) {
+			//console.log('urok: ' + urok);
+//			clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
+		//}
+	}
 
 }
 
@@ -57,7 +62,11 @@ function modal_hide(){
 		bod.style.overflowY='auto';
 		if (i) i.style.display=''	
 	},300);
-//	if (clog) {clearTimeout(clog)}
-//	clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
 	
+	if ((typeof(urok_num)=='undefined') || (urok_num!=1)) {
+		//if ((typeof(urok_num)=='undefined') && (urok!=1)) {
+//			if (clog) {clearTimeout(clog)}
+//			clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
+		//}
+	}
 }	
