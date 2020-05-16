@@ -44,7 +44,7 @@ function adBlockDetected() {
 	if ((typeof(urok_num)=='undefined') || (urok_num!=1)) {
 		//if ((typeof(urok_num)=='undefined') && (urok!=1)) {
 			//console.log('urok: ' + urok);
-//			clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
+			clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
 		//}
 	}
 
@@ -65,8 +65,8 @@ function modal_hide(){
 	
 	if ((typeof(urok_num)=='undefined') || (urok_num!=1)) {
 		//if ((typeof(urok_num)=='undefined') && (urok!=1)) {
-//			if (clog) {clearTimeout(clog)}
-//			clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
+			if (clog) {clearTimeout(clog)}
+			clog = setTimeout(function(){document.getElementById("a1_button").click()}, 7000);
 		//}
 	}
 }	
