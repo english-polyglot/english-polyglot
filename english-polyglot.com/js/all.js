@@ -1128,8 +1128,8 @@ var css_code ='.hh1{border-radius:50%;width:100px}';
 css_code +='.hh1::before{height:39px;transform:translate(5%,-50%);width:90%}';
 css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
 css_code +='.hh1::after{width:39px;transform:translate(-50%,5%); height:90%}';
-css_code +='.two-2 #line_1_2,.two-2 #line_3_4{visibility:visible;margin-top: 0;}';
-css_code +='.one-1 #line_1_2,.one-1 #line_3_4{color:transparent;text-shadow:1px 1px 2px transparent;}';	
+css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top: 0;}';
+css_code +='.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent;}';	
 var hover_chk=true;
 var amb=document.getElementById('ambulance-trigger');
 function ambulance_on(){setTimeout(function(){amb.innerHTML=css_code;hover_chk=!hover_chk;ambulance_off()},1200)}

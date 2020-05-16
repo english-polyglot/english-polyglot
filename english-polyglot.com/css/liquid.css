@@ -219,7 +219,7 @@ ul.nav#new-back li{padding:0}
 .donateButton img{width:200px;padding:20px 0}
 .donateButton img{display:block}
 img#donate_img{width:100%;padding:0}
-#donate_cap{margin-bottom:20px}
+.donate_cap{margin-bottom:20px}
 .col2{width:140px}
 #yandex-dengi,#webmoney,#paypal{opacity:1}
 
@@ -348,7 +348,7 @@ body,header,.sidebar,footer,.menu,ul.nav#new-back li,a.none,.dawn,.separator{bac
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color:#45568D}
 h1 span, .rr h2, .bb h3, .share_center, .hz2, .dawn form, .subscribe, footer h3, .separator{border-bottom: 1px solid #d9d9d9;border-left: 1px solid #d9d9d9;border-top: 1px solid #e3e3e3;border-right: 1px solid #d9d9d9;}
 
-.delitsa,.okno,.sub_top,.donateButton,#donate_cap a{color:#212121}
+.delitsa,.okno,.sub_top,.donateButton,.donate_cap a{color:#212121}
 
 
 /* вкл красно-синих дополнений к теме 15.02.2019 */
@@ -384,14 +384,14 @@ header{position:relative}
 .ambulance:hover .hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent;}
 .ambulance:hover .hh1{background-color:#caa9a9;border-radius:50%;width: 100px;}
 .ambulance h3, .ambulance h1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
-.two-2 #line_1_2, .two-2 #line_3_4{visibility:hidden;margin-top: -100px;}
+.two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;margin-top: -100px;}
 
-#line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;font-size: 14px;}
-#line_1_2{font-size: 16px;font-weight: 600;color: #eeeeee;text-shadow:0 0 1px #000000;}
+.line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;font-size: 14px;}
+.line_1_2{font-size: 16px;font-weight: 600;color: #eeeeee;text-shadow:0 0 1px #000000;}
 .two-2 #line_1_2{margin-top:-100px;}
 /* .ambulance:hover .two-2 #line_1_2{margin-top:0;} */
-.ambulance:hover .two-2 #line_1_2, .ambulance:hover .two-2 #line_3_4{visibility:visible;margin-top: 0;}
-.ambulance:hover .one-1 #line_1_2, .ambulance:hover .one-1 #line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent;}
+.ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;margin-top: 0;}
+.ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent;}
 .strip{height: 37px;}
 h1 div, h3 div{line-height:1em;}
 .hh1{width:236px}
@@ -467,7 +467,7 @@ ul.nav#new-back li{padding:20px 0;margin:0}
 
 .scroll-to-top{left:50%;margin-left:445px}
 .donateButton{position:fixed;border-radius:0.3rem;font-size:1rem;padding:10px;margin:0 auto;margin-left:-49%;z-index:4;width:200px}
-#donate_cap{margin-bottom:10px}
+.donate_cap{margin-bottom:10px}
 #dbt form{max-width:210px}
 .donateButton input,.donateButton select{font-size:0.7rem}
 input.subscribepost:hover{opacity:0.9}
