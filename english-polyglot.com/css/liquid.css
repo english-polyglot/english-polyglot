@@ -113,7 +113,7 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .quote{font-family:Georgia,"Times New Roman",Times,serif;padding: 33px;border-radius:5px;font-size:105%;margin:5px 0 25px}
 .quote em{font-family:sans-serif}
 .notfla_img{width:100%;margin:0 auto}
-#tooltip{font:menu;margin:0px;padding:3px 5px;position:absolute;visibility:hidden;font-size:70%;z-index:3}
+#tooltip{font:menu;margin:0px;padding:3px 5px;position:absolute;visibility:hidden;font-size:1.2em;z-index:3}
 .round{border-radius:5px;margin:10px 0;padding:20px 5%;text-align:center}
 img.mw150{width:80%}
 
@@ -152,7 +152,7 @@ button.rotate{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms
 .leftBtn div{position:absolute}
 .rightBtn span{position:absolute;top:0px;right:0px;padding:0 10px;font-size:19px}
 .leftBtn span{padding:0 10px;font-size:19px}
-.fixedImg img{width:49.5vw;max-width:495px;min-width:310px;height:auto}
+.fixedImg img{width:49.5vw;max-width:660px;min-width:310px;height:auto}
 
 .rost1{margin-left:2em}
 .rost2{margin-left:4em}
@@ -397,6 +397,7 @@ h1 div, h3 div{line-height:1em}
 .hh1 strong{width:230px}
 
 .wrap_txt div{padding-bottom:30px}
+#dragObjects div{padding-bottom:0}
 .hardtab div{padding-bottom:0 !important}
 .quote div{padding-bottom:0}
 

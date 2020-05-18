@@ -241,3 +241,35 @@ a#hierarhy:hover,a#hierarhy2:hover{color:#1D1D1D;text-shadow:-1px -1px 0 #FFF,1p
                     <input type="image" class="submit pixel" value="Оплатить" src="../english-polyglot.com/img/oplatit-button-2.png" alt="Кнопка оплатить"/>
                     <!--<input id="webmoney_sub" class="submit" type="submit" value="Оплатить" /> -->  
                 </form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<script>
+		
+function plusImage (elem) {
+	var i=document.getElementById('img'+elem);
+	var w=Math.max(i.offsetWidth,i.clientWidth);
+	var p=document.getElementById('_plus');
+	var m=document.getElementById('_minus');
+	m.style.visibility='visible';
+	if(w<661){console.log('w = '+w);w=w+50;i.style.width=w+'px';}
+	else{p.style.visibility='hidden'}
+}
+
+function minusImage (elem) {
+	var i=document.getElementById('img'+elem);
+	var w=Math.max(i.offsetWidth,i.clientWidth);
+	var p=document.getElementById('_plus');
+	var m=document.getElementById('_minus');
+	p.style.visibility='visible';
+	if(w>314){console.log('w = '+w);w=w-50;i.style.width=w+'px'}
+	else{m.style.visibility='hidden'}
+}
+	
+</script>
