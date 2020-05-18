@@ -22,7 +22,7 @@ h2 div::after{content:"";display:inline-block;position:relative;z-index:-1;heigh
 .sidebar h3{text-align:left}
 .bb h3,.rr h3,.rr h2{font-size: 1.5em;display:inline-block;padding:2% 5%}
 footer{clear:both;padding:30px;overflow:auto}
-footer h3{text-align:right;padding:20px;float:right;width:60%}
+footer h3{text-align:right;padding:20px;float:right}
 h4{margin:5% -1%;padding:3%;text-indent:0;font-size:1.3em;font-weight:100}
 h5{margin:6px auto;border-radius:5px 5px 0 0;text-indent:0;padding-top:2px}
 h6{margin:-6px 0 6px 0;border-radius:0 0 5px 5px;text-indent:0;padding-top:2px;font-size:1em}
@@ -68,7 +68,8 @@ ul.nav a, ul.nav a:visited{display:block}
 .delitsa{text-align:center;display:inline-block}
 .okno{padding:10px}
 .hz2 form input{margin:5px}
-input.subscribe_textieldpost{font-size:1em}
+input.subscribe_textieldpost{font-size:1.4em}
+input.subscribe_textieldpost{width:202px}
 .round form{padding-top:3%}
 input.subscribepost:hover,input.submit:hover{opacity:0.5}
 .history{margin:1em auto}	
@@ -206,13 +207,13 @@ ul.nav a em{font-size:1.2em;display:block;font-style:normal;color:#ff8787}
 ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;border-radius:5px;text-align:right}
 ul.nav#new-back li{padding:0}
 .subscribe{margin: 30px auto 20px;max-width:200px;padding: 10px 10px 0;}
-.subscribe h3{padding:0;font-weight: bold;text-align: center;font-size: 100%;}
+.subscribe h3{padding:0;font-weight:bold;text-align:center;font-size:1em}
 .sub_top{border-top:none}
 .sub_bottom{border-bottom:none}
 .sub_col{width:72px;height: 420px;}
 #share a,.sub_center a{width: 64px;height: 64px;border-radius:8px;}
 
-.sub_top,.delitsa,.okno{font-size:100%}
+.sub_top,.delitsa,.okno{font-size:1em}
 .donateButton input,.donateButton select{font-size:1rem}
 .donateButton{position:static;border-radius:initial;font-size:1.5rem;width:320px;margin:30px auto 10px;padding:20px}
 .sum{width:100px;margin-bottom:15px}
@@ -402,8 +403,8 @@ h1 div, h3 div{line-height:1em}
 @media(min-width:240px){.lp{padding-left:10px}}
 
 @media(min-width:320px){.lp{padding-left:15px}.hh1{width:316px}.hh1 strong{width: 240px;}}
-@media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px;}}
-@media(min-width:425px){.ambulance{border-radius:0 0 6px 6px}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px}#amb3 i{width:0}}
+@media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px}input.subscribe_textieldpost{width:250px}}
+@media(min-width:425px){.ambulance{border-radius:0 0 6px 6px}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px}#amb3 i{width:0}footer h3{width:60%}}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
 @media(min-width:768px){h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
@@ -442,9 +443,8 @@ ul.notready li a:hover{background-color:#4B5D97;color:#E3E3E3}
 ul.nav#new-back li{padding:20px 0;margin:0}
 
 .sub_center a:hover,.sub_center a:focus{background-position:center 64px}
-
-.delitsa{font-size:1.2em}
-.okno{font-size:1.2em}
+	
+.subscribe h3,.sub_top,.delitsa,.okno{font-size:1.2em}
 
 .scroll-to-top{left:50%;margin-left:445px}
 .donateButton{position:fixed;border-radius:0.3rem;font-size:1rem;padding:10px;margin:0 auto;margin-left:-49%;z-index:4;width:200px}
