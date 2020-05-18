@@ -1079,7 +1079,7 @@ _ga.extractParamFromUri_ = function(uri, paramName) {
 // <-- цветовая пробежка по кнопкам 
 function flain(){
 
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 4; i++) {
     (function(index) {
         setTimeout(function() { 
 			document.getElementById("m"+index).style.background = '#000000';
@@ -1089,7 +1089,7 @@ for (var i = 1; i <= 3; i++) {
 }
 
 setTimeout(function(){
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 4; i++) {
     (function(index) {
         setTimeout(function() { 
 			document.getElementById("m"+index).style.background = '';
@@ -1177,14 +1177,14 @@ function change_table_many(table,row,_max){
 //---------------начало скроллинга
 	
 	var to_top=document.getElementById('stt'),
-		to_bottom=document.getElementById('uroki'),
+		to_bottom=document.getElementById('m4'),
 		don_btn=document.getElementById('dbt'),
 		stop_scroll=0,
 		curentScrollTop,
 		position=document.documentElement.scrollTop || document.body.scrollTop;
 		
 
-		document.getElementById("uroki").href="javascript:void(0)"
+		document.getElementById("m4").href="javascript:void(0)"
 
 		to_top.innerHTML='';
 		to_top.className="scroll-to-top fixed-hidden";
