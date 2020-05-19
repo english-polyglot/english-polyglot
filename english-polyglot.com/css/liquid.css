@@ -190,8 +190,7 @@ form{white-space:nowrap}
 .content{width:100%;border-right:none}
 .content_inner{border-left:none}	
 .flash{padding-bottom:105%}
-#header ul{width:initial;border-top:none}
-.menu ul{padding-left:initial}
+.menu{height:37px}
 .menu ul li{margin-bottom:1px;width:100%}
 .menu ul li a{border-bottom:none;border-left:none;width:100%;border-radius:5px;font-size:1.7em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px}
 #uroki{display:block}
@@ -199,7 +198,7 @@ form{white-space:nowrap}
 .video_center > div{overflow-x:auto;overflow-y:hidden;}
 .sidebar{width:100%;font-size:initial;margin-left:0}
 .sidebar_inner{border-left:none;border-top:none}
-#header ul,ul.nav{margin:0 5px;padding:10px 0}
+#header ul,ul.nav{/* margin-top:1px */}
 ul.nav li{margin:1px 0}
 ul.nav a em{font-size:1.2em;display:block;font-style:normal;color:#ff8787}
 ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;border-radius:5px;text-align:right}
@@ -351,7 +350,7 @@ h1 span, .rr h2, .bb h3, .share_center, .hz2, .dawn form, .subscribe, footer h3,
 
 /* вкл красно-синих дополнений к теме */
 .hh1{color:#e2e5ff;border-top:none;text-shadow:1px 1px 2px black;}
-h1 strong{width:270px;position:absolute;top:0;left:50%;transform:translate(-50%,33%)}
+h1 strong{width:270px;position:absolute;top:0;left:50%;transform:translate(-50%,33%)}	
 .rr{background-color: #b1172d;color:#eee;}
 .rr h2{border-style:dotted;background-color:#333}
 h4 {background-color:#212121;color:#eee;}
@@ -361,11 +360,8 @@ h4 {background-color:#212121;color:#eee;}
 .hh1::after{content:"";position:absolute;z-index:-1;top:0;left:50%;width:39px;height:100%;background-color:#b1172d;transform:translate(-50%)}
 .hh1::before{content:"";position:relative;display:block;z-index:-1;top:50%;height:39px;background-color:#b1172d;transform: translate(0,-50%);width:100%}
 .hh1{position:relative;display:block;z-index:1;padding:0;margin:2px auto;height:100px;border-radius:6px}
-
 header h2{text-align:center;margin:0 auto;font-size:1em;padding:15px 0}
-
-
-header{position:relative;}
+header{position:relative;/* padding: 1px 0; *//* padding-bottom: 1px; */}
 .ambulance{background-color: #b1172d;position:relative;overflow: hidden;/* padding: 5px 0; */}
 .ambulance:hover .hh1::before{height:39px;transform:translate(5%,-50%);width:90%}
 .ambulance:hover .hh1::after{width:39px;transform:translate(-50%,5%);height:90%}
@@ -424,8 +420,6 @@ h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
 	
 /*menu's black color themes*/
 
-.menu ul li a{border-top:none;border-right:none}
-#header ul{border-left:none;border-right:none;border-bottom:none}
 .sidebar_inner{float:left;width:100%}
 h5{background-color:#800000;color:#F7D9D9}
 	
@@ -434,8 +428,8 @@ ul.notready li a:hover{background-color:#4B5D97;color:#E3E3E3}
 
 .content{float:left}
 
-.menu{min-height:60px;font-size:18px}
-.menu ul li{margin-bottom:5px;width:auto;margin-left:-1px;margin-right:-1px}
+.menu{font-size:18px}
+.menu ul li{width:auto;margin-left:-1px;margin-right:-1px}
 .menu ul li a{padding:6px 9px 6px 9px;border-radius:0;font-size:inherit}
 .video_center{text-align:center;margin:0 10px}	
 
@@ -468,7 +462,7 @@ input.subscribepost:hover{opacity:0.9}
 .leftBtn span,.rightBtn span{font-size:12px;padding:0 5px}
 
 
-.menu ul li a{border-radius:3px;margin-top:1px}
+.menu ul li a{border-radius: 0 0 33px;}
 
 .embed-container.flash {border-radius: 15px 0}	
 	
