@@ -227,7 +227,7 @@ img#donate_img{width:100%;padding:0}
 /*div#header{margin-top:-1px}*/
 
 /*menu's color themes*/
-.menu ul li a{background-color:#495b93}
+.menu ul li a{background-color: #212121;}
 h6{background-color:#F7D9D9;color:#800000}
 h5{background-color:#800000;color:#F7D9D9}
 ul.nav a,ul.nav a:visited{background-color:#1e3f92}
@@ -241,12 +241,12 @@ ul.nav a:hover em{color:#eb722e}
 .tog-fixed{background-color:#E0E0E0}
 .embed-container{background-color:#000}
 .bb::before{border-color:#a67a7a}
-.bb h2{color: #eee;background-color: #495b93;}
+.bb h2{color: #eee;background-color: #212121;}
 .bb::after{border-color:#a67a7a}
 
 
 
-h2 div::after{background-color: #eeeeee;background-image: radial-gradient(circle,#eeeeee,#495b93);}
+h2 div::after{background-color: #eeeeee;background-image: radial-gradient(circle,#eeeeee,#212121);}
 
 
 /*content's colors themes*/
@@ -423,7 +423,7 @@ h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
 .sidebar_inner{float:left;width:100%}
 h5{background-color:#800000;color:#F7D9D9}
 	
-.menu ul li a:hover{color:#9F0020}
+.menu ul li a:hover{color: #212121;}
 ul.notready li a:hover{background-color:#4B5D97;color:#E3E3E3}	
 
 .content{float:left}
