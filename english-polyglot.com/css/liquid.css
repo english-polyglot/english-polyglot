@@ -110,7 +110,7 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .history em{font-weight:bold;font-style:normal}
 .history .green em{font-weight:normal}
 
-.quote{font-family:Georgia,"Times New Roman",Times,serif;padding: 33px;border-radius:5px;font-size:105%;margin:5px 0 25px}
+.quote{font-family:Georgia,"Times New Roman",Times,serif;padding:13px;border-radius:5px;font-size:105%;margin:5px 0 25px;}
 .quote em{font-family:sans-serif}
 .notfla_img{width:100%;margin:0 auto}
 #tooltip{font:menu;margin:0px;padding:3px 5px;position:absolute;visibility:hidden;font-size:1.2em;z-index:3}
@@ -363,9 +363,9 @@ h4 {background-color:#212121;color:#eee;}
 
 
 
-.hh1::after{content:"";position:absolute;z-index:-1;top:0;left:50%;width: 55px;height:100%;background-color: #b1172d;transform:translate(-50%);}
-.hh1:before{content:"";position: relative;display: block;z-index:-1;top:50%;height: 55px;background-color: #b1172d;transform: translate(0,-50%);width: 100%;}
-.hh1{position:relative;display: block;z-index:1;padding: 0;margin: 2px auto;height: 120px;border-radius: 6px;}
+.hh1::after{content:"";position:absolute;z-index:-1;top:0;left:50%;width:39px;height:100%;background-color:#b1172d;transform:translate(-50%)}
+.hh1::before{content:"";position:relative;display:block;z-index:-1;top:50%;height:39px;background-color:#b1172d;transform: translate(0,-50%);width:100%}
+.hh1{position:relative;display:block;z-index:1;padding:0;margin:2px auto;height:100px;border-radius:6px}
 header h2{text-align:center}
 .gsc-control-searchbox-only{padding:0 10px}
 form.gsc-search-box.gsc-search-box-tools{float:right;padding-bottom:7px}
@@ -379,22 +379,25 @@ span#gs_cb50{font-size:47px}
 
 header{position:relative;}
 .ambulance{background-color: #b1172d;position:relative;overflow: hidden;/* padding: 5px 0; */}
-.ambulance:hover .hh1::before{/* border-bottom-width:39px; */height: 50px;transform:translate(5%,-50%);width:90%;}
-.ambulance:hover .hh1::after{width: 50px;transform:translate(-50%,5%);height:90%;}
-.ambulance:hover .hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent;}
-.ambulance:hover .hh1{background-color:#caa9a9;border-radius:50%;width: 120px;}
+.ambulance:hover .hh1::before{height:39px;transform:translate(5%,-50%);width:90%}
+.ambulance:hover .hh1::after{width:39px;transform:translate(-50%,5%);height:90%}
+.ambulance:hover .hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}
+.ambulance:hover .hh1{background-color:#caa9a9;border-radius:50%;width:100px}
 .ambulance h3, .ambulance h1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
 .two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;margin-top: -100px;}
 
-.line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;/* font-size: 24px; *//* text-shadow: 0 0 2px #000000; *//* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
-.line_1_2{font-size: 32px;font-weight: 600;color: #eeeeee;text-shadow: 0 0 4px #000000;/* text-shadow: 0 0 3px #ffffff; *//* color: black; */}
+.line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;font-size:0.6em;/* text-shadow: 0 0 2px #000000; *//* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
+.line_1_2{font-size:1em;font-weight: 600;color: #eeeeee;text-shadow: 0 0 4px #000000;/* text-shadow: 0 0 3px #ffffff; *//* color: black; */}
 .two-2 #line_1_2{margin-top:-100px}
 .ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;margin-top:0}
 .ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent}
-.strip{height: 36px;}
+.strip{height:36px}
+.ambulance:hover .two-2 .line_1_2{font-size:1em}
+.ambulance:hover .two-2 .line_3_4{font-size:0.8em}
+.ambulance:hover .strip{height:37px}
 h1 div, h3 div{line-height:1em}
-.hh1{width:236px;}
-.hh1 strong{width:230px}
+.hh1{width:236px}
+.hh1 strong{width:230px;}
 
 .wrap_txt div{padding-bottom:30px}
 #dragObjects div{padding-bottom:0}
@@ -408,12 +411,27 @@ h1 div, h3 div{line-height:1em}
 @media(min-width:425px){.ambulance{/* border-radius:0 0 6px 6px */}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px}#amb3 i{width:0}footer h3{width:60%}}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
-@media(min-width:768px){h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
+@media(min-width:768px){
+.quote{padding:33px}
+.hh1{height:120px}
+.hh1::after{width:59px}
+.hh1::before{height:59px}
+.ambulance:hover .hh1{width:120px}
+.line_1_2{font-size:29px;padding-bottom:3px}
+.line_3_4{font-size:19px;}
+.strip{height:37px}
+.ambulance:hover .two-2 .line_1_2{font-size:21px}
+.ambulance:hover .two-2 .line_3_4{font-size: 18px;}
+.ambulance:hover .strip{height: 41px;}
+.ambulance:hover .hh1::before{height:50px}
+.ambulance:hover .hh1::after{width:50px}
+h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
 form.gsc-search-box.gsc-search-box-tools{margin-top:12px;width:40%;font-size:10px;float:right;padding-right:15px}.hh1{/* width:446px; */}}
 
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
 @media(min-width:1024px){
+
 /*вкл серой темы*/
 .menu ul li a:hover{background-color:#eee;text-shadow:none}
 table#gs_id50{padding:4px !important}
@@ -444,6 +462,7 @@ ul.notready li a:hover{background-color:#4B5D97;color:#E3E3E3}
 ul.nav#new-back li{padding:20px 0;margin:0}
 
 .sub_center a:hover,.sub_center a:focus{background-position:center 64px}
+
 	
 .subscribe h3,.sub_top,.delitsa,.okno{font-size:1.2em}
 
