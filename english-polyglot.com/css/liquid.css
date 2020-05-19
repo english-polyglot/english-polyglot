@@ -37,7 +37,7 @@ a:hover, a:active, a:focus{text-decoration:none}
 .foto_hero{padding:1px}
 .px680{max-width:680px;margin:0 auto}
 .embed-container{position:relative;padding-bottom:67.25%;padding-top:30px;height:0;overflow:hidden;margin-left:20px;margin-right:20px}
-.black_bg{background-color:#000}
+.black_bg{background-color:#000;margin-top: 1px;}
 .flash{padding-bottom:51.7%;padding-top:4.35%;margin:0;text-align:center}
 .embed-container iframe,.embed-container object,.embed-container embed,.embed-container video, .embed-container img{position:absolute;top:0;left:0;bottom:0;right:0;margin:0 auto;width:100%;height:100%;padding-right:1px}
 .menu ul li{display:inline-block}
@@ -190,7 +190,7 @@ form{white-space:nowrap}
 .content{width:100%;border-right:none}
 .content_inner{border-left:none}	
 .flash{padding-bottom:105%}
-.menu{padding-top:1px}
+.menu{height:37px;padding:1px 0}
 .menu ul li{margin-bottom:1px;width:100%}
 .menu ul li a{border-bottom:none;border-left:none;width:100%;border-radius:5px;font-size:1.7em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px}
 #uroki{display:block}
@@ -227,7 +227,7 @@ img#donate_img{width:100%;padding:0}
 /*div#header{margin-top:-1px}*/
 
 /*menu's color themes*/
-.menu ul li a{background-color:#b1172d}
+.menu ul li a{background-color:#495b93}
 h6{background-color:#F7D9D9;color:#800000}
 h5{background-color:#800000;color:#F7D9D9}
 ul.nav a,ul.nav a:visited{background-color:#1e3f92}
@@ -241,12 +241,12 @@ ul.nav a:hover em{color:#eb722e}
 .tog-fixed{background-color:#E0E0E0}
 .embed-container{background-color:#000}
 .bb::before{border-color:#a67a7a}
-.bb h2{color: #eee;background-color: #212121;}
+.bb h2{color: #eee;background-color: #495b93;}
 .bb::after{border-color:#a67a7a}
 
 
 
-h2 div::after{background-color: #eeeeee;background-image: radial-gradient(circle,#eeeeee,#212121);}
+h2 div::after{background-color: #eeeeee;background-image: radial-gradient(circle,#eeeeee,#495b93);}
 
 
 /*content's colors themes*/
@@ -414,7 +414,6 @@ h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
 @media(min-width:1024px){
-.menu{height:37px;padding-top:0}
 
 /*вкл серой темы*/
 .menu ul li a:hover{background-color:#eee;text-shadow:none}
