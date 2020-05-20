@@ -138,7 +138,7 @@ function flow(){
 						newwin.document.title=windowtitle;
 						var y=newwin.document.getElementById('content_print');
 						y.style.display='block';
-						y.innerHTML='<img src="'+url+'" style="width:100%">';
+						y.innerHTML='<img src="'+url+'" style="max-height:100%;max-width:100%">';
 						//newwin.document.getElementById('pronunciation').innerHTML='';
 						newwin.document.getElementById('but_done').style.display='block';
 						var x=newwin.document.getElementById('print_form');
