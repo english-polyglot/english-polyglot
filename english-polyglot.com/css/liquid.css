@@ -190,7 +190,7 @@ form{white-space:nowrap}
 .content{width:100%;border-right:none}
 .content_inner{border-left:none}	
 .flash{padding-bottom:105%}
-.menu{height:37px;padding:1px 0}
+.menu{padding:1px 0}
 .menu ul li{margin-bottom:1px;width:100%}
 .menu ul li a{border-bottom:none;border-left:none;width:100%;border-radius:5px;font-size:1.7em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px}
 #uroki{display:block}
@@ -221,7 +221,7 @@ img#donate_img{width:100%;padding:0}
 .col2{width:140px}
 #yandex-dengi,#webmoney,#paypal{opacity:1}
 
-.tog-fixed{position:fixed;top:0;left:0;z-index:1;border-bottom:1px solid #CCC;width:100%}
+.tog-fixed{position:fixed;top:0;left:0;z-index:1;border-bottom:1px solid #CCC;width:100%;}
 .tog_cont{margin:0 auto;max-width:680px}
 
 /*div#header{margin-top:-1px}*/
@@ -238,7 +238,7 @@ ul.nav a,ul.nav a:visited{color:#E5E5E5;text-shadow:1px 1px 1px #252525}
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #5E77C7}
 ul.nav a:hover em{color:#eb722e}	
 
-.tog-fixed{background-color:#E0E0E0}
+.tog-fixed{background-color: #eeeeee;}
 .embed-container{background-color:#000}
 .bb::before{border-color:#a67a7a}
 .bb h2{color: #eee;background-color: #212121;}
@@ -409,11 +409,12 @@ h1 div, h3 div{line-height:1em}
 .ambulance:hover .strip{height: 41px;}
 .ambulance:hover .hh1::before{height:50px}
 .ambulance:hover .hh1::after{width:50px}
-h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}
+h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}}
 
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
 @media(min-width:1024px){
+.menu{height:37px}
 
 /*вкл серой темы*/
 .menu ul li a:hover{background-color:#eee;text-shadow:none}
@@ -458,7 +459,7 @@ input.subscribepost:hover{opacity:0.9}
 
 .fixed-hidden2{filter:alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;visibility:hidden}
 .left50{left:50%}
-.tog-fixed{width:732px;left:inherit}
+.tog-fixed{width: 906px;left:inherit;}
 .leftBtn span,.rightBtn span{font-size:12px;padding:0 5px}
 
 
