@@ -417,14 +417,14 @@ h2{padding:20px}header h2{float:left;width:50%;padding:20px}h4{font-size:1.1em}}
 .menu{height:37px}
 
 /*вкл серой темы*/
-.menu ul li a:hover{background-color:#eee;text-shadow:none}
+.menu ul li a:hover{background-color: #a30000;text-shadow:none;}
 	
 /*menu's black color themes*/
 
 .sidebar_inner{float:left;width:100%}
 h5{background-color:#800000;color:#F7D9D9}
 	
-.menu ul li a:hover{color: #560909;}
+.menu ul li a:hover{color: #ffa5ad;}
 ul.notready li a:hover{background-color:#4B5D97;color:#E3E3E3}	
 
 .content{float:left}
