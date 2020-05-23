@@ -55,12 +55,12 @@
 <style>
 /*h1,*/h2,h3 {font-size:1em}
 .menu {font-size: 0.7em}
-.wrap_txt {font-size: 0.9em;float: none;margin:0 auto}
+.wrap_txt {font-size: 0.9em;float:none;margin:0 auto}
 
 @media(min-width: 388px) { .wrap_txt {padding-left:10px}}
 @media(min-width: 500px) { h2,h3 {font-size:1em} .menu {font-size: 0.8em}}
 @media(min-width: 600px) { ul.nav a, ul.nav a:visited {margin-right:5px} .nav-text, .fin {margin-right: 5px;border-right: 1px solid #B30024}}
-@media(min-width: 735px) { .wrap_txt {font-size: 1.25em;float:left} }
+@media(min-width: 735px) { .wrap_txt {font-size:1.25em} }
 @media(min-width: 800px) { h2 {font-size:1.25em} h3 {font-size:1.1em} .menu {font-size: 0.85em}}
 .scroll-to-top,.donateButton{display:none}</style>
 <style id="pixelated"></style>
@@ -120,10 +120,14 @@
 
 					</div>
 				</a>
+				<h2>16 уроков Полиглот Дмитрий Петров</h2>
 				
-				
+				<div>
+				<!-- google search -->	
+				<gcse:searchbox-only></gcse:searchbox-only>				
+				</div>		
             </header> 
-            
+		
             <div class="first">
                 <div class="top-content"></div>                  
                 <div id="top_scroll" class="content">
@@ -164,10 +168,10 @@
 <div class="bb"><h2>Таблицы Полиглот </h2></div>
     <div class="history"> 
         <div class="wrap_txt">
-            <div>Ниже даны все таблицы методики Петрова (курс <a class="red bold cap" href="/" title="Перейти">Полиглот</a>). Таблицы с глагольными формами имеют по четыре варианта исполнения.</div>
+            <div>Ниже даны все таблицы методики Петрова (<a class="red bold cap" href="/" title="Перейти">курс Полиглот</a>). Таблицы с глагольными формами имеют по четыре варианта исполнения.</div>
          </div>
         <div class="wrap_txt">
-            <div>На белом фоне (для печати), на черном (для экранов) и на цветном (для лучшего запоминания). Четвертый вариант — повернутая на 90˚ таблица (время по оси Х).</div>
+            <div>На белом фоне (для печати), на черном и на цветном (для лучшего запоминания). Четвертый вариант — повернутая на 90˚ таблица (время по оси Х).</div>
         </div>
         <div class="clearfloat"></div>
         <div>&nbsp;</div>
@@ -182,7 +186,7 @@
             <div>Первая и самая основополагающая таблица методики Дмитрия Петрова - это <strong>базовая таблица глаголов</strong>. </div><div>Именно она служит фундаметном всей методики.</div>
             </div>
         <div class="wrap_txt">
-            <div>Принцип работы с базовой таблицей описан в <a class="red bold cap" href="/" title="Перейти">первом уроке</a> курса Полиглот. А закрепить навык построения фраз по базовой таблице Петрова можно на <a href="generator-fraz.html" title="Перейти к генератору фраз" target="_blank" class="red bold cap">генераторе фраз</a>.</div>
+            <div>Принцип работы с базовой таблицей описан в <a class="red bold cap" href="/#base_verbs_table" title="Перейти">первом уроке</a> курса Полиглот. А закрепить навык построения фраз по базовой таблице Петрова можно на <a href="generator-fraz.html" title="Перейти к генератору фраз" target="_blank" class="red bold cap">генераторе фраз</a>.</div>
         </div>
         
         <div class="clearfloat"></div>
@@ -777,12 +781,12 @@ window.addEventListener('load', async_load, false);
 	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(gcse, s);
 })();
-//window.onload = function(){
-//		
-//
-//document.getElementById('gsc-i-id1').setAttribute('tooltip',''); //Google Chrome	
-//document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
-//};		
+window.onload = function(){
+		
+
+document.getElementById('gsc-i-id1').setAttribute('tooltip',''); //Google Chrome	
+document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
+};		
 	
 // Facebook initializing function
 window.fbAsyncInit = function() {

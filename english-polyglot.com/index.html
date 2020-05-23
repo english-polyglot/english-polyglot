@@ -61,12 +61,12 @@ if ('localStorage' in window && window['localStorage'] !== null) {
 <style>
 /*h1,*/h2,h3 {font-size:1em}
 .menu {font-size: 0.7em}
-.wrap_txt {font-size: 0.9em;float: none;margin:0 auto}
+.wrap_txt {font-size: 0.9em;float:none;margin:0 auto}
 
 @media(min-width: 388px) { .wrap_txt {padding-left:10px}}
 @media(min-width: 500px) { h2,h3 {font-size:1em} .menu {font-size: 0.8em}}
 @media(min-width: 600px) { ul.nav a, ul.nav a:visited {margin-right:5px} .nav-text, .fin {margin-right: 5px;border-right: 1px solid #B30024}}
-@media(min-width: 735px) { .wrap_txt {font-size: 1.25em;float:left} }
+@media(min-width: 735px) { .wrap_txt {font-size:1.25em} }
 @media(min-width: 800px) { h2 {font-size:1.25em} h3 {font-size:1.1em} .menu {font-size: 0.85em}}
 .scroll-to-top,.donateButton{display:none}</style>
 <style id="pixelated"></style>
@@ -125,10 +125,14 @@ if ('localStorage' in window && window['localStorage'] !== null) {
 
 					</div>
 				</a>
+				<h2>16 уроков Полиглот Дмитрий Петров</h2>
 				
-				
+				<div>
+				<!-- google search -->	
+				<gcse:searchbox-only></gcse:searchbox-only>				
+				</div>		
             </header> 
-            
+		
             <div class="first">
                 <div class="top-content"></div>                  
                 <div id="top_scroll" class="content">
@@ -230,7 +234,7 @@ onclick="popup('fragment-avatar.html', 970, 545, 'Погружение в сре
                             
                         <!-- InstanceBeginEditable name="content2" -->
 						
-<div class="bb"><h2><div>1 урок Полиглот</div>Базовая таблица глагола</h2></div>
+<div class="bb"><h2 id="base_verbs_table"><div>1 урок Полиглот</div>Базовая таблица глагола</h2></div>
                
 <div class="history"> 
 
@@ -713,7 +717,7 @@ onclick="popup('img/tablica-glagolov-petrova-i-saw-image.gif', 520, 624,  'Ут�
 
 
 <div>Подведем итог 1 урока. У нас есть первые <a class="blue" href="javascript: void(0)" title="увеличить"
-onclick="popup('img/first-9-most-used-English-verbs.gif', 376, 550,  'Первые 9 глаголов')">9  английских глаголов из разряда самых употребляемых</a>:
+onclick="popup('img/first-9-most-used-English-verbs.gif', 506, 650,  'Первые 9 глаголов')">9  английских глаголов из разряда самых употребляемых</a>:
 </div>
 	<div class="hardtab white">
 		
@@ -1219,12 +1223,12 @@ window.addEventListener('load', async_load, false);
 	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(gcse, s);
 })();
-//window.onload = function(){
-//		
-//
-//document.getElementById('gsc-i-id1').setAttribute('tooltip',''); //Google Chrome	
-//document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
-//};		
+window.onload = function(){
+		
+
+document.getElementById('gsc-i-id1').setAttribute('tooltip',''); //Google Chrome	
+document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
+};		
 	
 // Facebook initializing function
 window.fbAsyncInit = function() {
