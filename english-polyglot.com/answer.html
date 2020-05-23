@@ -23,7 +23,10 @@ body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif
 #pronunciation{padding:0.25em 0.2em 0.5em;font-size:3vw}
 #content_print{display:none}
 
-.but_class{font-size:4vw;padding:0}
+.but_class{font-size:1.5em;padding:0}
+	
+#website{display:none;text-align:center}	
+@media print{#content_print{height:auto !important;overflow:inherit !important} #but_done,#prog1{display:none} a{text-decoration:none;color:#000} #website{display:block;font-size:75%;margin-top:1em;text-align:center}}
 
 </style>
 
@@ -34,9 +37,13 @@ body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif
     	<div id="textdescription"></div>
         <div id="pronunciation"></div>  
     </div>
-    <div id="content_print"></div>
+	
+    <div id="convert">
+		<div id="content_print"></div>
+		<div id="website">www.english-polyglot.com</div>
+	</div>
 
-        <div id="prog1">      
+    <div id="prog1">      
             <!-- uroki-answer -->
             <ins class="adsbygoogle"
             style="display:block"
@@ -46,12 +53,11 @@ body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif
             <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
-
     </div>
 
     <form id='but_done' style="margin:3vw;display:none">
 	  <input id="_form" class='but_class' type="button" value="   Done   " onClick="if(parent.screen.width<800){window.close()}else{window.open('', 'parent').focus()};return false">
-      <input id="print_form" class='but_class' type="button" value="  Print   " onClick="callPrint('content_print')">
+      <input id="print_form" class='but_class' type="button" value="  Print   " onClick="callPrint('convert')">
     </form>
     
 </body>	
@@ -60,7 +66,7 @@ body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif
 function callPrint(strid){
 		var prtContent=document.getElementById(strid),
 		winPrint = window.open('','','left=50,top=50,width=800,height=640')
-		winPrint.document.write('<head><title>'+document.title+'</title></head><body><div>'+prtContent.innerHTML+'</div></body>')
+		winPrint.document.write('<head><title>'+document.title+'</title><style>@media print{#website{display:block;margin-top:1em;text-align:center}#content_print{text-align:center;max-width:100%}}</style></head><body><div>'+prtContent.innerHTML+'</div></body>')
 		winPrint.document.close()
 		//winPrint.focus()
 		winPrint.print()
