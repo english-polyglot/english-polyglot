@@ -290,6 +290,7 @@ a.green:hover,a.green:visited{color:#E8F5E9;background-color:#2E7D32}
 .radio_table:focus + label:before{box-shadow:0 0 0 3px rgba(158, 158, 158, 0.25)}
 ul.notready li a{color:#7386C2}
 
+.bold{font-weight:600}
 .cap{font-variant:small-caps}
 .upper{text-transform:uppercase}
 .cond{font-stretch:condensed}
