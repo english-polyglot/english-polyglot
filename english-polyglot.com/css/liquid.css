@@ -385,7 +385,7 @@ header{position:relative;/* padding: 1px 0; */padding-bottom: 1px;}
 .two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;margin-top: -100px;}
 
 .line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;font-size:0.6em;text-shadow: 0 0 2px #000000;/* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
-.line_1_2{/* font-size:1em; */font-weight: 600;color: #eeeeee;text-shadow: 0 0 4px #000000;/* text-shadow: 0 0 3px #ffffff; *//* color: black; */padding-bottom: 2px;}
+.line_1_2{font-size:0.8em;font-weight:600;color: #eeeeee;text-shadow: 0 0 4px #000000;/* text-shadow: 0 0 3px #ffffff; *//* color: black; */padding-bottom:4px;padding-top:1px}
 .two-2 #line_1_2{margin-top:-100px}
 .ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;margin-top:0}
 .ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent}
@@ -407,7 +407,7 @@ div#gsc-iw-id1{padding:0;border-radius:0}
 
 @media(min-width:240px){.lp{padding-left:10px}}
 
-@media(min-width:320px){.lp{padding-left:15px}.hh1{width: 298px;}.hh1 strong{width: 240px;}}
+@media(min-width:320px){.lp{padding-left:15px}.hh1{width: 298px;}.hh1 strong{width:240px}.line_1_2{font-size:1em;padding-bottom:2px;padding-top:0}}
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px}input.subscribe_textieldpost{width:250px}}
 @media(min-width:425px){.ambulance{/* border-radius:0 0 6px 6px; */}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px}#amb3 i{width:0}footer h3{width:60%}}
 
