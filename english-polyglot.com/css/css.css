@@ -349,6 +349,8 @@ height:100%}
 .uroki {font-size:0.8em;padding:15px 1.2em 0 1.2em;text-indent:1.5em}
 .lft{text-align:left}
 
+.uroki a {position:relative;z-index:1}
+
 @media only screen and (min-width : 180px) { #switchers .ui-btn {width:4em} #switch .ui-btn {width:initial}}
 
 @media only screen and (min-width : 216px) { #switchers .ui-btn {width:5em;overflow:visible}}
