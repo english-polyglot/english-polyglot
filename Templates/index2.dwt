@@ -66,12 +66,12 @@
 .scroll-to-top,.donateButton{display:none}</style>
 <style id="pixelated"></style>
 <link href="../english-polyglot.com/css/liquid.css?v=Kmng6z9J5E" rel="stylesheet" type="text/css" />
-<link href="../english-polyglot.com/css/red-placeholder.css" rel="stylesheet" type="text/css" />
+<!--<link href="../english-polyglot.com/css/red-placeholder.css" rel="stylesheet" type="text/css" />-->
 <style id="ambulance-trigger"></style>
 	
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<script type="text/javascript" src="../english-polyglot.com/js/ads.js"></script>
+<!--<script type="text/javascript" src="../english-polyglot.com/js/ads.js"></script>-->
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -392,7 +392,7 @@
 </body>
 
 <script src="../english-polyglot.com/js/all.js" type="text/javascript"></script>
-<script type="text/javascript" src="../english-polyglot.com/js/modal.js"></script>
+<!--<script type="text/javascript" src="../english-polyglot.com/js/modal.js"></script>-->
 <!-- TemplateBeginEditable name="Script" -->
 <!-- TemplateEndEditable -->
 
