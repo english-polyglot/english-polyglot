@@ -1621,7 +1621,7 @@ onclick="popup('img/english-months-2.gif', 366, 684, 'Месяцы')">табли
 				<!--<![endif]-->
 					
               
-              <img id="donate_img" src="img/pomosh.gif" alt="Помощь сайту" width="680" height="370"/>
+              <img id="donate_img" class="lazyload" data-src="img/pomosh.gif" alt="Помощь сайту" width="680" height="370" />
            
             
 				<!--[if !IE]>-->
@@ -1654,10 +1654,10 @@ onclick="popup('img/english-months-2.gif', 366, 684, 'Месяцы')">табли
                         <label><input type="radio" name="paymentType" value="PC" />Яндекс.Деньгами</label> 
               </form>
                 
-                <div><img id="yan-dengi_img" src="img/yandex_dengi-logo-04.05.2016.png" alt=""/></div> 
+                <div><img id="yan-dengi_img" class="lazyload" data-src="img/yandex_dengi-logo-04.05.2016.png" alt="" /></div> 
                 
                            
-                <div><img id="paypal_img" src="img/paypal-logo-04.05.2016.png" alt=""/></div>  
+                <div><img id="paypal_img" class="lazyload" data-src="img/paypal-logo-04.05.2016.png" alt="" /></div>  
                 
                 <form id="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -1680,7 +1680,8 @@ onclick="popup('img/english-months-2.gif', 366, 684, 'Месяцы')">табли
         <span id="dummy"></span>
 </div>
 <div class="extra"></div>
-	
+<script src="js/lazysizes.min.js" async></script>
+<!-- Images End -->
 </body>
 
 <script src="js/all.js" type="text/javascript"></script>
@@ -1688,7 +1689,7 @@ onclick="popup('img/english-months-2.gif', 366, 684, 'Месяцы')">табли
 <!-- InstanceBeginEditable name="Script" -->
 <!-- InstanceEndEditable -->
 
-<script>
+<!--<script>
 	
 if(typeof blockAdBlock === 'undefined') {
     adBlockDetected();
@@ -1696,7 +1697,7 @@ if(typeof blockAdBlock === 'undefined') {
     blockAdBlock.onDetected(adBlockDetected);
 }
 	
-</script>
+</script>-->
 	
 <script type="text/javascript">
 (function() {
