@@ -107,7 +107,7 @@
 					<div class="ambulance">
 						<h1 class="one-1">
 							<div class="strip"></div>
-							<div class="line_1_2">Английский ПОЛИГЛОТ</div>
+							<div class="line_1_2">ПОЛИГЛОТ</div>
 							<div class="line_3_4">Выучим АНГЛИЙСКИЙ ЯЗЫК ЗА 16 ЧАСОВ</div>
 						</h1>
 						<div class="hh1">
@@ -115,13 +115,13 @@
 						</div>						
 						<h3 class="two-2">
 							<div class="strip"></div>
-							<div class="line_1_2">Полиглот Дмитрий Петров</div>
-							<div class="line_3_4">&laquo;Полиглот&raquo; телеканал &laquo;Культура&raquo;</div>
+							<div class="line_1_2">Изучение английского языка</div>
+							<div class="line_3_4">в домашних условиях</div>
 						</h3>
 
 					</div>
 				</a>
-				<h2>16 уроков Полиглот Дмитрий Петров Телеканал Культура</h2>
+				<h2>16 уроков Полиглот Дмитрий Петров</h2>
 				
 				<div>
 				<!-- google search -->	
@@ -143,7 +143,7 @@
                                 <li><a id="m1" href="../english-polyglot.com/generator-fraz.html">Генератор фраз</a></li>
                                 <li><a id="m2" href="../english-polyglot.com/tablicy.html">Таблицы Полиглот</a></li>
                                 <li><a id="m3" href="../english-polyglot.com/filmy.html">Фрагменты фильмов</a></li>
-                                <li><a id="m4" href="#menu_uroki">16 Уроков Полиглот</a></li>
+                                <li><a id="m4" href="#menu_uroki">Уроки Полиглот</a></li>
 								
                             </ul>
 							
