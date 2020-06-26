@@ -239,9 +239,7 @@
 				url="?"+url.split("?")[1]
 				var params={};url.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key]=value});
 				block(parseInt(params['urok_num']),decodeURIComponent(params['urok_title']))
-				
-				//var ggg='#'+params['id']
-				
+
 			}
 				 
 		}) 
