@@ -181,9 +181,9 @@ form{white-space:nowrap}
 .tog-fixed,.abp{transition:background-color 0.75s;-webkit-transition:background-color 0.75s;-moz-transition:background-color 0.75s;-ms-transition:background-color 0.75s;-o-transition:background-color 0.75s}
 .scroll-to-top:hover{filter:alpha(opacity=100);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
 .fixed-hidden{filter: alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;visibility:hidden}
-.donateButton{left:20px;bottom:20px;padding:10px;border-radius:0.3rem;background-color:rgba(33,33,33,0.5);color:rgba(255, 255, 255, 0.7)}
+.donateButton{left:20px;bottom:20px;padding:10px;border-radius:0.3rem;background-color:rgba(33,33,33,0.5);color:rgba(255, 255, 255, 0.7);}
 #yandex-dengi label{display:block;font-size:0.75em}
-#yandex-dengi,#webmoney,#paypal{opacity:0}
+#yandex-dengi,#webmoney,#paypal{/* opacity:0 */}
 .sum{margin-bottom:10px}
 .submit{cursor:pointer;vertical-align:middle}
 
@@ -214,14 +214,14 @@ ul.nav#new-back li{padding:0}
 
 .sub_top,.delitsa,.okno{font-size:1em}
 .donateButton input,.donateButton select{font-size:1rem}
-.donateButton{position:static;border-radius:initial;font-size:1.5rem;width:320px;margin:30px auto 10px;padding:20px}
+.donateButton{position:static;border-radius:initial;font-size:1.5rem;width:320px;margin:30px auto 10px;padding:20px;}
 .sum{width:100px;margin-bottom:15px}
 .donateButton img{width:200px;padding:20px 0}
 .donateButton img{display:block}
 img#donate_img{width:100%;padding:0}
-.donate_cap{margin-bottom:20px}
+.donate_cap{margin-bottom:20px;}
 .col2{width:140px}
-#yandex-dengi,#webmoney,#paypal{opacity:1}
+#yandex-dengi,#webmoney,#paypal{opacity:1;}
 
 .tog-fixed{position:fixed;top:0;left:0;z-index:1;border-bottom:1px solid #CCC;width:100%;}
 .tog_cont{margin:0 auto;max-width:680px}
@@ -409,7 +409,7 @@ div#gsc-iw-id1{padding:0;border-radius:0}
 
 @media(min-width:320px){.lp{padding-left:15px}.hh1{width: 298px;}.hh1 strong{width:240px}.line_1_2{font-size:1em;padding-bottom:2px;padding-top:0}}
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px}input.subscribe_textieldpost{width:250px}}
-@media(min-width:425px){.ambulance{/* border-radius:0 0 6px 6px; */}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px}#amb3 i{width:0}footer h3{width:60%}}
+@media(min-width:425px){.ambulance{/* border-radius:0 0 6px 6px; */}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px;}#amb3 i{width:0}footer h3{width:60%}}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
 @media(min-width:768px){
@@ -445,7 +445,7 @@ span#gs_cb50{font-size:27px}
 		
 /*menu's black color themes*/
 
-.sidebar_inner{float:left;width:100%}
+.sidebar_inner{/* float:left; *//* width:100%; */}
 h5{background-color:#800000;color:#F7D9D9}
 	
 .menu ul li a:hover{color: #560909;}
@@ -466,22 +466,22 @@ ul.nav#new-back li{padding:20px 0;margin:0}
 .subscribe h3,.sub_top,.delitsa,.okno{font-size:1.2em}
 
 .scroll-to-top{left:50%;margin-left:445px}
-.donateButton{position:fixed;border-radius:0.3rem;font-size:1rem;padding:10px;margin:0 auto;margin-left:-49%;z-index:4;width:200px}
-.donate_cap{margin-bottom:10px}
-#dbt form{max-width:210px}
-.donateButton input,.donateButton select{font-size:0.7rem}
+.donateButton{/* position:fixed; *//* border-radius:0.3rem; *//* font-size:1rem; *//* padding:10px; *//* margin:0 auto; *//* margin-left:-49%; *//* z-index:4; *//* width:200px; */}
+.donate_cap{/* margin-bottom:10px; */}
+#dbt form{/* max-width:210px; */}
+/* .donateButton input,.donateButton select{font-size:0.7rem} */
 input.subscribepost:hover{opacity:0.9}
-.donateButton img{width:100px;padding:10px 0;display:block}
-.sum{width:50px;margin-bottom:5px}
+.donateButton img{/* width:100px; *//* padding:10px 0; *//* display:block; */}
+.sum{/* width:50px; *//* margin-bottom:5px; */}
 .col2{width:100px}
-#yandex-dengi,#webmoney,#paypal{height:0;opacity:0}
-.donateButton:hover #yandex-dengi{height:83px;opacity:1}
-.donateButton:hover #webmoney{height:60px;opacity:1}
-.donateButton:hover #paypal{height:26px;opacity:1}
-.donateButton:hover{width:320px}
-#webmoney_sub{margin:3px 0}
+#yandex-dengi,#webmoney,#paypal{/* height:0; *//* opacity:0; */}
+.donateButton:hover #yandex-dengi{/* height:83px; *//* opacity:1; */}
+/* .donateButton:hover #webmoney{height:60px;opacity:1} */
+.donateButton:hover #paypal{/* height:26px; *//* opacity:1; */}
+/* .donateButton:hover{width:320px} */
+/* #webmoney_sub{margin:3px 0} */
 
-.fixed-hidden2{filter:alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;visibility:hidden}
+.fixed-hidden2{filter:alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);/* opacity:0; *//* visibility:hidden; */}
 .left50{left:50%}
 .tog-fixed{width:906px;left:inherit}
 .leftBtn span,.rightBtn span{font-size:12px;padding:0 5px}
@@ -493,5 +493,5 @@ input.subscribepost:hover{opacity:0.9}
 	
 }
 
-@media(min-width: 1300px){.donateButton{margin-left:-635px;}}
+@media(min-width: 1300px){.donateButton{/* margin-left:-635px; */}}
 
