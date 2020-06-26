@@ -334,7 +334,7 @@ onclick="popup('swodesh-english.html', 728, 575, 'Список Сводеша');
         
 <span id="dragObjects" >
 <div id="d1" class="fixedImg"><div class="leftBtn"><div><span onclick="plusImage('d1')" title="увеличить">+</span><span onclick="minusImage('d1')" title="уменьшить">&minus;</span></div></div>
-   <img id="imgd1" class="lazyload" data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" border="0" alt="Базовая таблица глаголов Петрова" />
+   <img data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" id="imgd1" border="0" alt="Базовая таблица глаголов Петрова" class="lazyload" />
    <div class="rightBtn"><span onclick="closeObject('d1')" title="закрыть">×</span></div></div>
    
 <div id="d2" class="fixedImg"><div class="leftBtn"><div><span onclick="plusImage('d2')" title="увеличить">+</span><span onclick="minusImage('d2')" title="уменьшить">&minus;</span></div></div>
@@ -1060,7 +1060,7 @@ onclick="popup('fragment-pulp-fiction.html', 1250, 545, 'Погружение в
                 <div class="bottom-sidebar"></div>
 			</div>
 
-            <button id="stt" class="scroll-to-top rotate"><a id="stt2" href="#top_doc" style="width:50px;height:50px;display:block"></a></button>
+            <!--<button id="stt" class="scroll-to-top rotate"><a id="stt2" href="#top_doc" style="width:50px;height:50px;display:block"></a></button>-->
             
             <div id="dbt" class="donateButton">
               <div class="donate_cap">Помогите сайту</div>
@@ -1114,7 +1114,7 @@ onclick="popup('fragment-pulp-fiction.html', 1250, 545, 'Погружение в
                         <input type="hidden" name="label" value="$order_id" /> 
                         <input type="hidden" name="quickpay-form" value="donate" /> 
                         <input type="hidden" name="targets" value="транзакция {order_id}" />
-                        <input class="sum" type="number" name="sum" data-type="number" placeholder="Сумма" title="Введите сумму" autocomplete="off" size="7" /> <strong> руб</strong>
+                        <input class="sum" type="number" name="sum" data-type="number" placeholder="Сумма"  autocomplete="off" size="7" /> <strong> руб</strong>
                         <input type="hidden" name="comment" value="Поддержка проекта" /> 
                         <input type="hidden" name="need-fio" value="false" /> 
                         <input type="hidden" name="need-email" value="false" /> 
