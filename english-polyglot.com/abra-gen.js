@@ -1,0 +1,6 @@
+//  var intro=['<span class="intro1">'+x+'Для начала работы, нажмите на стрелку внизу</span>'+dwodn,'<span class="intro1">'+x+'Переведите фразу. Нажмите стрелку снова, чтобы увидеть ответ</span>'+dwodn, '<span style="float:left;margin-top:2px;">&#9650;</span><br /><span class="intro1">'+x+'Чтобы прослушать фразу еще раз, кликните по ней самой</span>', '<span class="intro1" style="display:inline-block">'+x+'Таблицу глаголов можно открыть/закрыть здесь</span><span>'+riodn+'</span>', '<span class="intro1" style="text-align:center">'+x+'Здесь можно выбрать глагол</span><span style="position:absolute;left:50%">'+dwodn+'</span>', '<span>'+upodn+'</span><span class="intro1" style="margin-top:-3px;">'+x+'Другие настройки генератора фраз находятся здесь</span>', '<span style="position:absolute;left:50%">'+upodn+'</span><br /><span class="intro1" style="margin-top:-3px;">'+x+'А здесь Вы найдете остальные инструкции по работе с генератором фраз</span>'];
+
+
+				
+				//var ggg='#'+params['id'] --> третий параметр в хвостике адресной строки
+				

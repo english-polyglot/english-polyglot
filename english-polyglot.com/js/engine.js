@@ -83,9 +83,8 @@
 	var x_top='<em id="stop_intro" class="arrow arrow-top"></em>';
 //	var x_right='<em id="stop_intro" class="arrow arrow-right"></em>';
 //	var x_left='<em id="stop_intro" class="arrow arrow-left"></em>';
-//  var intro=['<span class="intro1">'+x+'Для начала работы, нажмите на стрелку внизу</span>'+dwodn,'<span class="intro1">'+x+'Переведите фразу. Нажмите стрелку снова, чтобы увидеть ответ</span>'+dwodn, '<span style="float:left;margin-top:2px;">&#9650;</span><br /><span class="intro1">'+x+'Чтобы прослушать фразу еще раз, кликните по ней самой</span>', '<span class="intro1" style="display:inline-block">'+x+'Таблицу глаголов можно открыть/закрыть здесь</span><span>'+riodn+'</span>', '<span class="intro1" style="text-align:center">'+x+'Здесь можно выбрать глагол</span><span style="position:absolute;left:50%">'+dwodn+'</span>', '<span>'+upodn+'</span><span class="intro1" style="margin-top:-3px;">'+x+'Другие настройки генератора фраз находятся здесь</span>', '<span style="position:absolute;left:50%">'+upodn+'</span><br /><span class="intro1" style="margin-top:-3px;">'+x+'А здесь Вы найдете остальные инструкции по работе с генератором фраз</span>'];
 
-  var intro=['<span class="intro1"'+x_code+'">'+x_bottom+'Для начала работы, нажмите на стрелку внизу</span>','<span class="intro1"'+x_code+'">'+x_bottom+'Переведите фразу. Нажмите стрелку снова, чтобы увидеть ответ</span>','<span class="intro1"'+x_code+'">'+x_top+'Чтобы прослушать фразу еще раз, кликните по ней самой</span>','<span class="intro1"'+x_code+'">'+x_bottom2+'Таблицу глаголов можно открыть/закрыть здесь</span>','<span class="intro1"'+x_code+'">'+x_bottom+'Здесь можно выбрать глагол</span>','<span class="intro1"'+x_code+'">'+x_top+'Другие настройки генератора фраз находятся здесь</span>','<span class="intro1"'+x_code+'">'+x_top+'А здесь Вы найдете остальные инструкции по работе с генератором фраз</span>'];
+  var intro=['<span class="intro1"'+x_code+'">'+x_bottom+'Для начала работы, нажмите на стрелку внизу</span>','<span class="intro1"'+x_code+'">'+x_bottom+'Переведите фразу в уме или вслух. Нажмите стрелку снова, чтобы увидеть ответ</span>','<span class="intro1"'+x_code+'">'+x_top+'Чтобы прослушать фразу еще раз, кликните по ней самой</span>','<span class="intro1"'+x_code+'">'+x_bottom2+'Таблицу глаголов можно открыть/закрыть здесь</span>','<span class="intro1"'+x_code+'">'+x_bottom+'Здесь можно выбрать глагол</span>','<span class="intro1"'+x_code+'">'+x_top+'Другие настройки генератора фраз находятся здесь</span>','<span class="intro1"'+x_code+'">'+x_top+'А здесь Вы найдете остальные инструкции по работе с генератором фраз</span>'];
 
   var ij3='<span id="ij3"><span class="intro1" onclick="disappear();appear()">'+x_bottom2+'</em>Таблицу глаголов можно спрятать/показать здесь</span></span>';
   
@@ -240,6 +239,9 @@
 				url="?"+url.split("?")[1]
 				var params={};url.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(str,key,value){params[key]=value});
 				block(parseInt(params['urok_num']),decodeURIComponent(params['urok_title']))
+				
+				//var ggg='#'+params['id']
+				
 			}
 				 
 		}) 
