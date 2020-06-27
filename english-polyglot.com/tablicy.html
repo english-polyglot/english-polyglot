@@ -235,7 +235,7 @@
         
         <div class="lp tp bp bm px680"><div id="vk_like"></div></div>
        
-        <div class="wrap_img"><div id="t10" class="video_center"><div><img src="img/tablica-glagolov-petrova-image.gif" alt="Базовая таблица глаголов Дмитрий Петров Полиглот" class="foto_hero px680" /></div><div class="wrap_txt_center"><strong>Базовая таблица глаголов Петрова</strong> (белый фон)</div></div>
+        <div class="wrap_img"><div id="t10" class="video_center"><div><img class="foto_hero px680" src="img/tablica-glagolov-petrova-image.gif" alt="Базовая таблица глаголов Дмитрий Петров Полиглот"  /></div><div class="wrap_txt_center"><strong>Базовая таблица глаголов Петрова</strong> (белый фон)</div></div>
         
         <div id="t11" class="video_center"><div><img class="foto_hero px680" src="img/tablica-glagolov-petrova-image-black.gif" alt="Базовая таблица глаголов Дмитрий Петров Полиглот" /></div><div class="wrap_txt_center"><strong>Базовая таблица глаголов Петрова</strong> (черный фон)</div></div>
         
@@ -646,12 +646,16 @@
 
 		var tog=document.getElementById('tog'),
 		anchor=document.getElementById('anchor'),
-		fixed=false;
-		
+		fixed=false,JD={},curentScrollTop;
+	
+		window.addEventListener("scroll",function(){
+			curentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
+		},false);
+	
 JD.firstName = function() {
 		var anchorTop=offset(anchor).top
 		
-		    //console.log('scroll', curentScrollTop, anchorTop,tog.offsetHeight);
+//		    console.log('scroll', curentScrollTop, anchorTop,tog.offsetHeight)
 		if(curentScrollTop>anchorTop){
 		  if(!fixed){
 			anchor.style.height=tog.offsetHeight+'px';
@@ -666,61 +670,40 @@ JD.firstName = function() {
 		  }
 		}
 	
-	
-function isWindow( obj ) {
-    return obj != null && obj === obj.window;
-}
-function getWindow( elem ) {
-    return isWindow( elem ) ? elem : elem.nodeType === 9 && elem.defaultView;
-}
-function offset( elem ) {
-
-    var docElem, win,
-        box = { top: 0, left: 0 },
-        doc = elem && elem.ownerDocument;
-
-    docElem = doc.documentElement;
-
-    if ( typeof elem.getBoundingClientRect !== typeof undefined ) {
-        box = elem.getBoundingClientRect();
+    function isWindow( obj ) {
+        return obj != null && obj === obj.window
     }
-    win = getWindow( doc );
-    return {
-        top: box.top + win.pageYOffset - docElem.clientTop,
-        left: box.left + win.pageXOffset - docElem.clientLeft
-    };
-};	
+    function getWindow( elem ) {
+        return isWindow( elem ) ? elem : elem.nodeType === 9 && elem.defaultView
+    }
+    function offset( elem ) {
 
-};
+        var docElem, win,
+            box = { top: 0, left: 0 },
+            doc = elem && elem.ownerDocument
 
-		
-	
-	window.addEventListener("scroll",JD.firstName,false);
+        docElem = doc.documentElement
 
+        if ( typeof elem.getBoundingClientRect !== typeof undefined ) {
+            box = elem.getBoundingClientRect();
+        }
+        win = getWindow( doc )
+        return {
+            top: box.top + win.pageYOffset - docElem.clientTop,
+            left: box.left + win.pageXOffset - docElem.clientLeft
+        }
+    }
 
-// if (this.scrollTop > 147) {
-//    wrap.addClass("fix-search");
-//  } else {
-//    wrap.removeClass("fix-search");
-//  }
-  
+}	
 
-function get_checked(name) { //борьба с IE (не верно определяется checked radio после рестарта страницы) 
-	var rates = document.getElementsByName(name);
-	//var rate_value;
-	for(var i = 0; i < rates.length; i++){
-		if(rates[i].checked){
-			console.log(i)
-			return i-1;
-		}
-	}
-}
-change_table_many(get_checked('table-choice'),'t1',4);
+window.addEventListener("scroll",JD.firstName,false);
+
+change_table_many(0,'t1',4);
 change_table_many(0,'t2',4);
 change_table_many(0,'t3',4);
 change_table_many(0,'t4',4);
 change_table_many(0,'t5',5);
-//alert(document.querySelector('input[name="table-choice"]:checked').value);
+
 </script>
 
 <!-- InstanceEndEditable -->
