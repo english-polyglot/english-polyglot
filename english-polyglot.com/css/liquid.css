@@ -108,7 +108,7 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .history em{font-weight:bold;font-style:normal}
 .history .green em{font-weight:normal}
 
-.quote{font-family:Georgia,"Times New Roman",Times,serif;padding:13px;border-radius:5px;font-size:105%;margin:5px 0 25px;}
+.quote{font-family:Georgia,"Times New Roman",Times,serif;padding:13px;/* border-radius:5px; */font-size:115%;margin:5px 0 25px;}
 .quote em{font-family:sans-serif}
 .notfla_img{width:100%;margin:0 auto}
 #tooltip{font:menu;margin:0px;padding:3px 5px;position:absolute;visibility:hidden;font-size:1.2em;z-index:3}
@@ -257,7 +257,7 @@ a.vovne:hover{color:#000000}
 .white,.donateButton{background-color:#FFFFFF}
 #tooltip{background:#FFFFFF;color:#000000;border:3px solid #999999}
 .round{background-color:#FFFFFF;color:#141414}
-.separator{color:#757575;background-color:#FEB8D8}
+.separator{color:#757575;background-color:#FEB8D8;display: none;}
 .separator:after{content:"* * *"}
 .history h2{color:#E5E6C6;background-color: #2e3e39}
 .row,.bo{border:1px solid #aaa}
@@ -267,7 +267,7 @@ a.vovne:hover{color:#000000}
 .tretiya_bottom{border-top:1px solid #aaa}
 .tre,.tret,.popolam,.tretiya{border-right:1px solid #aaa}
 .tretiya_center{border-bottom:1px solid #aaa}
-.quote{background-color:#FFF5D5}	
+.quote{background-color:#FFF5D5;border-left: 5px solid #c7a433;}	
 a.red-border{color:#b30024;border:3px solid rgba(184,16,51,0)}
 a.red-border:hover{border:3px solid rgba(184,16,51,1);padding:0 3px;color:rgba(184,16,51,0.6)}
 a.black-stroke{color:#FFF;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000}
@@ -277,7 +277,9 @@ a.red:hover{color:#FFEBEE;background-color:#b30024}
 a.blue{color:#3949AB;background-color:inherit}
 a.blue:hover{color:#E8EAF6;background-color:#3F51B5}
 .green{background-color:#D6E7DC}
+.quote.green{border-left:5px solid #2E7D32}
 .blue{background-color:#CDE6FF}
+.quote.blue{border-left:5px solid #1f5e9c}
 .black{background-color:#2D3E38}
 a.green{background-color:inherit;color:#2E7D32}
 a.green:hover,a.green:visited{color:#E8F5E9;background-color:#2E7D32}
@@ -413,7 +415,7 @@ div#gsc-iw-id1{padding:0;border-radius:0}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
 @media(min-width:768px){
-.quote{padding:33px}
+.quote{padding:33px;margin-left: 33px;}
 .hh1{height:120px}
 .hh1::after{width:59px}
 .hh1::before{height:59px}
