@@ -1,0 +1,23 @@
+<!--from tablicy.html-->
+
+<script>
+//	...
+	
+	function get_checked(name) { //борьба с IE (не верно определяется checked radio после рестарта страницы) 
+	var rates = document.getElementsByName(name);
+	//var rate_value;
+	for(var i = 0; i < rates.length; i++){
+		if(rates[i].checked){
+			console.log(i)
+			return i-1;
+		}
+	}
+}
+change_table_many(get_checked('table-choice'),'t1',4);
+change_table_many(0,'t2',4);
+change_table_many(0,'t3',4);
+change_table_many(0,'t4',4);
+change_table_many(0,'t5',5);
+//alert(document.querySelector('input[name="table-choice"]:checked').value);
+
+</script>
