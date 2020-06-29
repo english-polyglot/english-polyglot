@@ -106,8 +106,9 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .tretiya ul{list-style-type:none}
 .tretiya_color{padding-bottom:1px;padding-top:1px}
 .history em{font-weight:bold;font-style:normal}
-.quote em{font-weight:600;font-style:italic}
-.history .green em{font-weight:normal}
+.quote em{font-weight:bold;font-style:italic}
+.quote.green em{font-weight:bold}
+.green em{font-weight:normal}
 
 .quote{font-family:Georgia,"Times New Roman",Times,serif;padding:13px;/* border-radius:5px; */font-size:115%;margin:5px 0 25px;margin-left:10px}
 .quote em{font-family:sans-serif}
