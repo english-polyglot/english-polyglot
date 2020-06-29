@@ -200,6 +200,7 @@ form{white-space:nowrap}
 #uroki{display:block}
 .video_center{margin:0;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both}
 .video_center > div{overflow-x:auto;overflow-y:hidden;}
+.video_center img{max-width:100%;height:auto}
 .sidebar{width:100%;font-size:initial;margin-left:0}
 .sidebar_inner{border-left:none;border-top:none}
 #header ul,ul.nav{/* margin-top:1px */}
