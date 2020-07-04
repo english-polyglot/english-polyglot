@@ -76,6 +76,7 @@ input.subscribepost:hover,input.submit:hover{opacity:0.5}
 .ad_block{overflow:hidden;padding-bottom:1px;text-align:center}
 .wrap_txt{letter-spacing:0.01em;word-spacing:normal;text-align:justify;padding:0 8px;line-height:1.7}
 .wrap_txt_center{letter-spacing:0.01em;margin:0.5em auto 1em auto;text-align:center;font-size:1.2em}
+.caption{letter-spacing:0.01em;margin:0.9em auto 0.5em auto;text-align:center;font-size:0.9em;max-width:95%}
 .wrap_img .video_center .wrap_txt_center{margin-bottom:0}
 .wrap_txt li{text-indent:5px;list-style-type:none;margin:5px 0;text-align:left}
 .mytab{overflow:auto;margin:10px 0}
@@ -198,8 +199,11 @@ form{white-space:nowrap}
 .menu ul li a{border-bottom:none;border-left:none;width:100%;border-radius:5px;font-size:1.7em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px}
 #uroki{display:block}
 .video_center{margin:0;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both}
-.video_center > div{overflow-x:auto;overflow-y:hidden;}
-.video_center img{max-width:100%;height:auto}
+.video_center>div{overflow-x:auto;overflow-y:hidden}
+.video_center img{max-width:100%;height:auto;vertical-align:middle}
+.thumbnail{display:inline-block;padding:4px;margin-bottom:20px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}
+.thumbnail{-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.075);
+  box-shadow:0 1px 2px rgba(0,0,0,0.075)}
 .sidebar{width:100%;font-size:initial;margin-left:0}
 .sidebar_inner{border-left:none;border-top:none}
 #header ul,ul.nav{/* margin-top:1px */}
