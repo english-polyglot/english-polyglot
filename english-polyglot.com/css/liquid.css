@@ -34,7 +34,6 @@ a:hover, a:active, a:focus{text-decoration:none}
 .container_inner{overflow:hidden}
 .first{clear:both}
 .pixelate333{image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:bicubic;image-rendering:pixelated}
-.foto_hero{padding:1px}
 .px680{max-width:680px;margin:0 auto}
 .embed-container{position:relative;padding-bottom:67.25%;padding-top:30px;height:0;overflow:hidden;margin-left:20px;margin-right:20px}
 .black_bg{background-color:#000;/* margin-top: 1px; */}
