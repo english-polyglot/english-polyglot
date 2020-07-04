@@ -219,6 +219,7 @@ onclick="popup('fragment-avatar.html', 970, 545, 'Погружение в сре
 <div class="video_center">
 	
 <picture>
+  <!--[if IE 9]><video style="display: none"><![endif]-->	
   <source
   media="(max-width: 500px)"
   sizes="(max-width: 370px) 100vw, 370px"
@@ -230,13 +231,15 @@ onclick="popup('fragment-avatar.html', 970, 545, 'Погружение в сре
   sizes="(max-width: 501px) 100vw, 501px"
   srcset="
   urok-1/dmitry-petrov-image_z3lhhb_ar_4_3,c_fill,g_auto__c_scale,w_493.jpg 493w">
+  <!--[if IE 9]></video><![endif]-->	
   <img
+  data-srcset="urok-1/dmitry-petrov-image_z3lhhb_c_scale,w_680.jpg 680w"
   sizes="(max-width: 680px) 100vw, 680px"
-  srcset="urok-1/dmitry-petrov-image_z3lhhb_c_scale,w_680.jpg 680w"
-  src="dmitry-petrov-image_z3lhhb_c_scale,w_680.jpg"
-  alt="" />	
+  srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  src="urok-1/dmitry-petrov-image_z3lhhb_c_scale,w_680.jpg"
+  alt="Дмитрий Петров Полиглот" class="lazyload" />	
 </picture>
-
+	
 </div> 
 <div class="wrap_txt_center"><strong>Дмитрий Петров (программа Полиглот)</strong></div>
         
@@ -292,7 +295,11 @@ onclick="popup('fragment-avatar.html', 970, 545, 'Погружение в сре
     </form>
 </div>    
 
-<div class="video_center"><img id="t" data-src="img/tablica-glagolov-petrova-image.gif" alt="Базовая таблица глаголов Дмитрий Петров Полиглот" class="foto_hero px680 lazyload"/><div id="c" class="wrap_txt_center"><strong>Базовая таблица глаголов Петрова</strong></div></div>
+<div class="video_center">
+	<img id="t" data-src="img/tablica-glagolov-petrova-image.gif" alt="Базовая таблица глаголов Дмитрий Петров Полиглот" class="foto_hero px680 lazyload"/>
+	<div id="c" class="wrap_txt_center"><strong>Базовая таблица глаголов Петрова</strong>
+	</div>
+</div>
 
 <script>
     document.getElementById('urok_tab').style.display="block";document.getElementById('tableA').checked=true;
