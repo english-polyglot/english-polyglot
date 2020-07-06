@@ -206,7 +206,7 @@ figure{margin:0 0 20px;text-align:center;overflow-x:auto;overflow-y:hidden;clear
 figure>figcaption{overflow-x:auto;overflow-y:hidden}
 
 figure img{max-width:100%;height:auto;vertical-align:middle}
-.thumbnail{display:inline-block;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}
+.thumbnail{display:inline-block;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #aaa;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}
 .thumbnail{-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.075);
   box-shadow:0 1px 2px rgba(0,0,0,0.075)}
 figcaption{margin:0.9em auto 0.5em auto;color:#333;font-size:0.9em;max-width:95%}
