@@ -141,9 +141,17 @@ if ('localStorage' in window && window['localStorage'] !== null) {
                     <div class="content_inner">
                         						
                         <!-- InstanceBeginEditable name="urok-title" -->
-						
-                        
-						
+                        <div class="black_bg">		
+							
+						  <div id="animation_container" style="width:100%">
+							  <canvas id="canvas" width="1280" height="720" style="display: none; width:100%"></canvas>
+							  <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:100%;  display: none;"></div>
+						  </div>
+                          <div id="_preload_div_" class="notfla_img">
+                              <img src="img/face-vs-brain-33.png" style="width:100%" alt="english polyglot face"/>
+                          </div>
+
+						</div>
         				<!-- InstanceEndEditable -->
                         
                         <div id="header" class="menu">
@@ -1161,7 +1169,59 @@ onclick="popup('fragment-avatar.html', 970, 545, 'Аватар'); return true;">
 var tabl_com=['<strong>Базовая таблица глаголов Петрова</strong> (белый фон)','<strong>Базовая таблица глаголов Петрова</strong> (черный фон)','<strong>Базовая таблица глаголов Петрова</strong> (маленькая красный фон)','<strong>Транспонированная базовая таблица глаголов Петрова</strong> (время по оси Х)']
 </script>
 	
+	<!-- Block peredelka "Uhodit angliyskiy?" -->
+<script type="text/javascript" src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script type="text/javascript" src="js/generator-fraz-promo.js"></script>
 
+<script type="text/javascript">
+window.addEventListener("load", init);
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+	
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("AEE097CEFB9D2345A5FAE086D49C4CB7");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.installPlugin(createjs.Sound);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	var preloaderDiv = document.getElementById("_preload_div_");
+	preloaderDiv.style.display = 'none';
+	canvas.style.display = 'block';
+	exportRoot = new lib.generatorfrazpromo();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	//AdobeAn.makeResponsive(true,'width',false,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+
+</script>
 <!-- InstanceEndEditable -->
 
 <!--<script>
