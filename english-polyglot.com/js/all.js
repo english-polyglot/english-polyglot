@@ -1058,16 +1058,25 @@ for (var i = 1; i < 17; i++) {
 
 
 // ---------------ambulance trigger initiation
-
-
-var css_code ='.hh1{border-radius:50%;width:100px}.strip{height:37px}';
-css_code +='.hh1::before{height:39px;transform:translate(5%,-50%);width:90%;background:#a30000}';
-css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
-css_code +='.hh1::after{width:39px;transform:translate(-50%,5%); height:90%;background:#a30000}';
-css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}.two-2 .line_3_4{font-size:0.8em}';
+var css_code = '';
+// var css_code ='.hh1{border-radius:50%;width:100px}.strip{height:37px}';
+css_code +='.hh1::before{height:13px}';
+// css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
+css_code +='.hh1::after{width:4px}';
+css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}';
 css_code +='.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
-css_code += '@media(min-width:768px){.hh1{width:120px}.hh1::before{height:50px}.hh1::after{width:50px}'
-css_code += '.two-2 .line_1_2{font-size:21px}.two-2 .line_3_4{font-size:18px}.strip{height:41px}}'
+// css_code += '@media(min-width:320px){.ambulance .two-2 .line_1_2{font-size: 0.9em;}.ambulance .two-2 .line_3_4{font-size:0.8em;}}';
+// css_code += '@media(min-width:768px){.hh1{width:120px}.hh1::before{height:50px}.hh1::after{width:50px}'
+// css_code += '.two-2 .line_1_2{font-size:21px}.two-2 .line_3_4{font-size:18px}.strip{height:41px}}'
+
+// var css_code ='.hh1{border-radius:50%;width:100px}.strip{height:37px}';
+// css_code +='.hh1::before{height:39px;transform:translate(5%,-50%);width:90%;background:#a30000}';
+// css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
+// css_code +='.hh1::after{width:39px;transform:translate(-50%,5%); height:90%;background:#a30000}';
+// css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}.two-2 .line_3_4{font-size:0.8em}';
+// css_code +='.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
+// css_code += '@media(min-width:768px){.hh1{width:120px}.hh1::before{height:50px}.hh1::after{width:50px}'
+// css_code += '.two-2 .line_1_2{font-size:21px}.two-2 .line_3_4{font-size:18px}.strip{height:41px}}'
 var hover_chk=true;
 var amb=document.getElementById('ambulance-trigger');
 function ambulance_on(){setTimeout(function(){amb.innerHTML=css_code;hover_chk=!hover_chk;ambulance_off()},1200)}
