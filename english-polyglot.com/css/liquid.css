@@ -183,8 +183,8 @@ form{white-space:nowrap}
 .scroll-to-top:hover{filter:alpha(opacity=100);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
 .fixed-hidden{filter: alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;visibility:hidden}
 .donateButton{left:20px;bottom:20px;padding:10px;border-radius:0.3rem;background-color:rgba(33,33,33,0.5);color:rgba(255, 255, 255, 0.7);}
-#yandex-dengi label{display:block;font-size:0.75em}
-#yandex-dengi,#webmoney,#paypal{/* opacity:0 */}
+#yandex-dengi label{display:block;font-size:0.75em;text-align: left;}
+#yandex-dengi,#webmoney,#paypal{opacity:0;}
 .sum{margin-bottom:10px}
 .submit{cursor:pointer;vertical-align:middle}
 
@@ -233,8 +233,9 @@ ul.nav#new-back li{padding:0}
 .donateButton img{display:block}
 img#donate_img{width:100%;padding:0}
 .donate_cap{margin-bottom:20px;}
+.border_donate{border: 1px solid #ccc;box-shadow: 3px 3px 2px #ccc;width: 60%;margin: 16px auto;padding: 16px;background-color:#eee;text-align: center}
 .col2{width:140px}
-#yandex-dengi,#webmoney,#paypal{opacity:1;}
+#yandex-dengi,#webmoney,#paypal{opacity:1;margin: 0 auto;width: 250px;}
 
 .tog-fixed{position:fixed;top:0;left:0;z-index:1;border-bottom:1px solid #CCC;width:100%;}
 .tog_cont{margin:0 auto;max-width:680px}

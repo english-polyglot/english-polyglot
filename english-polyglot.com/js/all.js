@@ -1128,6 +1128,106 @@ function change_table_many(table,row,_max){
 		}
 	}
 
+//---------------начало скроллинга
+	
+	var to_top=document.getElementById('stt'),
+		to_bottom=document.getElementById('m4'),
+		don_btn=document.getElementById('dbt'),
+		stop_scroll=0,
+		curentScrollTop,
+		position=document.documentElement.scrollTop || document.body.scrollTop;
+		
 
+		document.getElementById("m4").href="javascript:void(0)"
+
+		to_top.innerHTML='';
+		to_top.className="scroll-to-top fixed-hidden";
+		don_btn.className="donateButton fixed-hidden2";
+
+		window.addEventListener("scroll",function(){
+			curentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
+		},false);	
+
+		to_top.addEventListener("click",function(e){	
+			e.stopPropagation();
+			(function scrollAnimate(){
+				if (curentScrollTop>0 && !stop_scroll) {
+					//scrollTo(0);
+					setTimeout(function(){  
+						window.scrollBy(0,(-Math.abs(curentScrollTop)/20));
+						scrollAnimate();
+					},10);
+				}
+			})()
+		},false);
+		
+		to_top.addEventListener("dblclick",function(e){
+			document.body.scrollTop=0;
+			document.documentElement.scrollTop=0;
+		},false);
+
+		to_bottom.addEventListener("click",function(e){	
+			e.stopPropagation();		
+			scrollTo(document.getElementById('top_scroll').offsetHeight)
+		},false);
+	
+		// stop animation on wheel scroll down
+		window.addEventListener("wheel", function(e) {
+		  if (e.deltaY > 0) {
+			  stop_scroll=1;
+			  setTimeout(function(){stop_scroll=0},200)
+		  }
+		},false);
+
+function scrollTo(e){var h=document.documentElement;if(h.scrollTop===0){var t=h.scrollTop;++h.scrollTop;h=t+1===h.scrollTop--?h:document.body;}scrollToX(h,h.scrollTop,e,0)}function scrollToX(e,a,b,t){if(t<0||t>1)return;k=t-1;e.scrollTop=a-(a-b)*(k*k*k+1);t+=0.001*20;setTimeout(function(){scrollToX(e,a,b,t)},20)}
+
+var JD = {};
+
+JD.debounce = function( wait, func, immediate) {
+	var timeout;
+	return function() {
+		var context = this,
+			args = arguments;
+		var later = function() {
+			timeout = null;
+			if ( !immediate ) {
+				func.apply(context, args);
+			}
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait || 200);
+		if ( callNow ) { 
+			func.apply(context, args);
+		}
+	};
+};
+
+JD.lastName=function(){
+
+	if(curentScrollTop>1200){
+		to_top.className="scroll-to-top rotate";
+	}else{
+		to_top.className="scroll-to-top fixed-hidden";
+	}
+	
+	var scrollHeight=document.documentElement.scrollHeight || document.body.scrollHeight;	
+	
+	if ((curentScrollTop+window.innerHeight+300)>=scrollHeight){
+		don_btn.className="donateButton left50";
+	}else{
+		don_btn.className="donateButton fixed-hidden2";
+	}	
+
+	if(curentScrollTop>position){
+		stop_scroll=1;
+		setTimeout(function(){stop_scroll=0},200)
+	}			
+	position=curentScrollTop;	
+
+}
+
+
+	window.addEventListener("scroll",JD.debounce(250,JD.lastName));	
 	
 	
