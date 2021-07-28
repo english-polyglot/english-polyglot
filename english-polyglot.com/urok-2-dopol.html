@@ -1300,17 +1300,34 @@ onload = function() {
             <button id="stt" class="scroll-to-top rotate"><a id="stt2" href="#top_doc" style="width:50px;height:50px;display:block"></a></button>
             
             <div id="dbt" class="donateButton">
-              <div class="donate_cap">Помогите сайту</div>
+              <div class="donate_cap">
+				  Пожалуйста, непремените помочь мне
+              </div>
 
   
+            <a href="donate.html">
+              <img style="width:100%" class="lazyload" data-src="img/pomosh.gif" alt="Помощь сайту" />
+            </a>
 
-    <div class="embed-container" style="padding-bottom:45%;margin:0;background-color:#fff">
-		<img id="donate_img" class="lazyload" data-src="img/pomosh.gif" alt="Помощь сайту" width="680" height="370" />
-	</div>
-    
-                
-                    
-                 <div class="donate_cap">&nbsp;</div>
+            <div class="donate_cap">
+               &nbsp;<a style="color:#0000FF" href="donate.html">Здесь</a> одна из причин зачем.
+            </div>
+				
+            <div class="border_donate_dynamic_block">
+              <div>
+				  <img class="lazyload" src="img/qiwi.png"  alt="qiwi logo png"/>
+              </div>
+              
+              <form  id="qiwi">
+				  <a href="https://my.qiwi.com/Pavel-PUqPuVvSYx">Помощь сайту</a>
+              </form>
+
+            </div>
+			
+            <div class="border_donate_dynamic_block">
+
+				
+				<div><img id="yan-dengi_img" class="lazyload" data-src="img/umoney.png" alt="" /></div> 
 
                     <form id="yandex-dengi" method="POST" action="https://money.yandex.ru/quickpay/confirm.xml"> 
                         <input type="hidden" name="receiver" value="41001681930150" /> 
@@ -1319,23 +1336,26 @@ onload = function() {
                         <input type="hidden" name="label" value="$order_id" /> 
                         <input type="hidden" name="quickpay-form" value="donate" /> 
                         <input type="hidden" name="targets" value="транзакция {order_id}" />
-                        <input class="sum" type="number" name="sum" data-type="number" placeholder="Сумма"  autocomplete="off" size="7" /> <strong> руб</strong>
+                        <input class="sum" type="number" name="sum" data-type="number" placeholder="Сумма"  autocomplete="on" size="7" /> <strong> руб</strong>
                         <input type="hidden" name="comment" value="Поддержка проекта" /> 
                         <input type="hidden" name="need-fio" value="false" /> 
                         <input type="hidden" name="need-email" value="false" /> 
                         <input type="hidden" name="need-phone" value="false" /> 
                         <input type="hidden" name="need-address" value="false" /> 
-                        <!--<input class="submit" type="submit" value="Оплатить" />-->
-                        <input type="image" class="submit pixel" value="Оплатить" src="img/oplatit-button-1.png" alt="Кнопка оплатить"/>
+                        <input class="submit" type="submit" value="Оплатить" />
+<!--                        <input type="image" class="submit pixel" value="Оплатить" src="../english-polyglot.com/img/oplatit-button-1.png" alt="Кнопка оплатить"/>-->
                         
                         <label><input type="radio" name="paymentType" value="AC" checked />Банковской картой</label>
                         <label><input type="radio" name="paymentType" value="MC" />C баланса мобильного</label>
-                        <label><input type="radio" name="paymentType" value="PC" />Яндекс.Деньгами</label> 
+                        <label><input type="radio" name="paymentType" value="PC" />Со счета Юмани</label> 
               </form>
+				
+<!--				<iframe id="yandex-dengi" src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82%D1%83&targets-hint=&default-sum=50&button-text=14&payment-type-choice=on&mobile-payment-type-choice=on&hint=&successURL=https%3A%2F%2Fwww.english-polyglot.com&quickpay=shop&account=41001681930150" width="310" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>-->
+				 
+			</div>
+				
+			<div class="border_donate_dynamic_block">
                 
-                <div><img id="yan-dengi_img" class="lazyload" data-src="img/yandex_dengi-logo-04.05.2016.png" alt="" /></div> 
-                
-                           
                 <div><img id="paypal_img" class="lazyload" data-src="img/paypal-logo-04.05.2016.png" alt="" /></div>  
                 
                 <form id="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -1343,7 +1363,8 @@ onload = function() {
                     <input type="hidden" name="hosted_button_id" value="ATYY6CHJYAW5W" />
                     <input type="hidden" name="item_name" value="www.english-polyglot.com" />
                     <input type="image" class="submit" src="img/btn_donate_LG.gif" border="0" name="submit" alt="Donate button" />
-                </form> 
+                </form>
+			</div>
                   
       </div>
             

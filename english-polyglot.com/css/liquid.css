@@ -178,13 +178,14 @@ button.rotate{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms
 /*------------------------------*/
 form{white-space:nowrap}
 .scroll-to-top{width:50px;height:50px;position:fixed;right:20px;bottom:80px;border:none;border-radius:50%;background-repeat:no-repeat;background-position:center center;background-size:3em;-webkit-background-size:3em;visibility:visible;filter:alpha(opacity=50);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity:0.5;cursor:pointer;background-color:rgba(0,0,0,.5);outline:none;z-index:4}
-.scroll-to-top, .donateButton, #yandex-dengi, #webmoney, #paypal, .embed-container{transition:all 0.75s;-webkit-transition:all 0.75s;-moz-transition:all 0.75s;-ms-transition:all 0.75s;-o-transition:all 0.75s}
+.scroll-to-top, .donateButton, #yandex-dengi, #webmoney, #paypal, #qiwi, .embed-container, .border_donate_dynamic_block{transition:all 0.75s;-webkit-transition:all 0.75s;-moz-transition:all 0.75s;-ms-transition:all 0.75s;-o-transition:all 0.75s}
 .tog-fixed,.abp{transition:background-color 0.75s;-webkit-transition:background-color 0.75s;-moz-transition:background-color 0.75s;-ms-transition:background-color 0.75s;-o-transition:background-color 0.75s}
 .scroll-to-top:hover{filter:alpha(opacity=100);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
 .fixed-hidden{filter: alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0;visibility:hidden}
 .donateButton{left:20px;bottom:20px;padding:10px;border-radius:0.3rem;background-color:rgba(33,33,33,0.5);color:rgba(255, 255, 255, 0.7);}
-#yandex-dengi label{display:block;font-size:0.75em;text-align: left;}
-#yandex-dengi,#webmoney,#paypal{opacity:0;}
+#yandex-dengi label,#yandex_dengi_donate_page label{display:block;font-size:0.75em;text-align: left;}
+#yandex-dengi,#webmoney,#paypal,#qiwi{opacity:0;}
+form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 .sum{margin-bottom:10px}
 .submit{cursor:pointer;vertical-align:middle}
 
@@ -206,7 +207,7 @@ figure{margin:0 0 20px;text-align:center;overflow-x:auto;overflow-y:hidden;clear
 figure>figcaption{overflow-x:auto;overflow-y:hidden}
 
 figure img{max-width:100%;height:auto;vertical-align:middle}
-.thumbnail{display:inline-block;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #aaa;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}
+.thumbnail{display:inline-block;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #aaa;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out;}
 .thumbnail{-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.075);
   box-shadow:0 1px 2px rgba(0,0,0,0.075)}
 figcaption{margin:0.9em auto 0.5em auto;color:#333;font-size:0.9em;max-width:95%}
@@ -231,14 +232,16 @@ ul.nav#new-back li{padding:0}
 .sum{width:100px;margin-bottom:15px}
 .donateButton img{width:200px;padding:20px 0}
 .donateButton img{display:block}
-img#donate_img{width:100%;padding:0}
+img#donate_img{/* width:100%; *//* padding:0; */margin: 0 auto;display: block;}
 .donate_cap{margin-bottom:20px;}
-.border_donate{border: 1px solid #ccc;box-shadow: 3px 3px 2px #ccc;width: 60%;margin: 16px auto;padding: 16px;background-color:#eee;text-align: center}
+.border_donate{/* border: 1px solid #ccc; *//* box-shadow: 3px 3px 2px #ccc; */width: 60%;margin: 16px auto;padding: 16px;/* background-color:#eee; */text-align: center;display: block;}
 .col2{width:140px}
-#yandex-dengi,#webmoney,#paypal{opacity:1;margin: 0 auto;width: 250px;}
+#yandex-dengi,#webmoney,#paypal,#qiwi{opacity:1;/* margin: 0 auto; *//* width: 250px; */}
 
 .tog-fixed{position:fixed;top:0;left:0;z-index:1;border-bottom:1px solid #CCC;width:100%;}
 .tog_cont{margin:0 auto;max-width:680px}
+
+.text_right{text-align:right}
 
 /*div#header{margin-top:-1px}*/
 
@@ -424,12 +427,20 @@ div#gsc-iw-id1{padding:0;border-radius:0}
 
 .lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:opacity 300ms}
 
+.border_donate_dynamic_block{border: 1px solid #ccc;padding:8px;border-radius:8px;margin:5px}
+
+
+
+
+
+
+
 @media(min-width:240px){.lp{padding-left:10px}}
 
 @media(min-width:320px){.lp{padding-left:15px}.hh1{width: 278px;}.ambulance:hover .hh1{/* width: 290px; */}.hh1 strong{width:240px}.line_1_2{font-size:1em;/* padding-bottom:2px; *//* padding-top:0; */}.hh1::after{width: 11px;}
 .hh1::before{/* height: 3px; */}.ambulance:hover .hh1::before{/* height: 11px */}.ambulance:hover .hh1::after{/* width: 3px */}.ambulance:hover .two-2 .line_1_2{font-size:1em}}
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px}input.subscribe_textieldpost{width:250px}}
-@media(min-width:425px){.strip{height: 28px;}.line_1_2,.ambulance:hover .two-2 .line_1_2{font-size: 1.2em}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{/* width: 378px */}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:320px;}#amb3 i{width:0}footer h3{width:60%}}
+@media(min-width:425px){.strip{height: 28px;}.line_1_2,.ambulance:hover .two-2 .line_1_2{font-size: 1.2em}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{/* width: 378px */}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width:60%}}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
 @media(min-width:768px){
@@ -486,20 +497,25 @@ ul.nav#new-back li{padding:20px 0;margin:0}
 .subscribe h3,.sub_top,.delitsa,.okno{font-size:1.2em}
 
 .scroll-to-top{left:50%;margin-left:445px}
-.donateButton{/* position:fixed; *//* border-radius:0.3rem; *//* font-size:1rem; *//* padding:10px; *//* margin:0 auto; *//* margin-left:-49%; *//* z-index:4; *//* width:200px; */}
-.donate_cap{/* margin-bottom:10px; */}
-#dbt form{/* max-width:210px; */}
-/* .donateButton input,.donateButton select{font-size:0.7rem} */
+.donateButton{position:fixed;border-radius:0.3rem;font-size:1rem;padding:10px;margin:0 auto;margin-left:-49%;z-index:4;width:330px}
+.donate_cap{margin-bottom:10px;}
+#dbt form{max-width:210px;}
+.donateButton input,.donateButton select{font-size:0.7rem}
 input.subscribepost:hover{opacity:0.9}
-.donateButton img{/* width:100px; *//* padding:10px 0; *//* display:block; */}
-.sum{/* width:50px; *//* margin-bottom:5px; */}
+.donateButton img{width:100px;padding:10px 0;display:block;}
+.border_donate_dynamic_block .sum{width:50px;margin-bottom:5px;}
 .col2{width:100px}
-#yandex-dengi,#webmoney,#paypal{/* height:0; *//* opacity:0; */}
-.donateButton:hover #yandex-dengi{/* height:83px; *//* opacity:1; */}
-/* .donateButton:hover #webmoney{height:60px;opacity:1} */
-.donateButton:hover #paypal{/* height:26px; *//* opacity:1; */}
-/* .donateButton:hover{width:320px} */
-/* #webmoney_sub{margin:3px 0} */
+#yandex-dengi,#webmoney,#paypal,#qiwi{height:0;opacity:0;}
+.donateButton:hover #qiwi{height: 19px;opacity:1;}
+.donateButton:hover #yandex-dengi{height:83px;/* height:222px; */opacity:1;}
+.donateButton:hover #webmoney{height:60px;opacity:1}
+.donateButton:hover #paypal{height:26px;opacity:1;}
+.donateButton:hover{width:330px}
+#webmoney_sub{margin:3px 0}
+
+.border_donate_dynamic_block{border:1px solid white;}
+.donateButton:hover .border_donate_dynamic_block{border:1px solid #ccc}
+
 
 .fixed-hidden2{filter:alpha(opacity=0);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);/* opacity:0; *//* visibility:hidden; */}
 .left50{left:50%}
@@ -513,5 +529,5 @@ input.subscribepost:hover{opacity:0.9}
 	
 }
 
-@media(min-width: 1300px){.donateButton{/* margin-left:-635px; */}}
+@media(min-width: 1300px){.donateButton{margin-left:-635px;}}
 
