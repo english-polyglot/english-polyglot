@@ -119,19 +119,13 @@
                         </h3>
 
                     </div>
-                </a>
-                <div class="embrasure">
-                    <h2><strong>Материалы уроков Полиглот</strong> с упражнениями</h2>
-
-                    <div>
-                    <!-- google search -->
-                    <gcse:searchbox-only></gcse:searchbox-only>
-                    </div>
-                </div>
+                </a>				
+                <!-- TemplateBeginEditable name="header" -->
+				<!-- TemplateEndEditable -->
             </header>
 
             <div class="first">
-                <div class="top-content"></div>
+              <div class="top-content"></div>
                 <div id="top_scroll" class="content">
                     <div class="content_inner">
                         <!-- TemplateBeginEditable name="urok-title" -->
@@ -156,6 +150,16 @@
                                     (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
                         </div>
+
+                        <div class="embrasure">
+                            <h2><strong>Материалы уроков Полиглот</strong> с упражнениями</h2>
+
+                            <div>
+                            <!-- google search -->
+                            <gcse:searchbox-only></gcse:searchbox-only>
+                            </div>
+                        </div>
+                        
                         <!-- TemplateBeginEditable name="content" -->
                         <!-- TemplateEndEditable -->
                         <div id="prog2"></div>
@@ -238,7 +242,7 @@
                     </div>
                 </div>
                 <div class="bottom-content"></div>
-            </div>
+          </div>
             <div class="second">
                 <div class="top-sidebar"></div>
                 <div class="sidebar">
@@ -321,7 +325,7 @@
             </footer>
             <!-- TemplateBeginEditable name="footer" -->
             <!-- TemplateEndEditable -->
-        </div>
+      </div>
         <span id="dummy"></span>
     </div>
     <div class="extra"></div>
