@@ -398,7 +398,7 @@ h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spacing:-
 
 .hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 9px;height: 100%;background-color: #a30000;background: #e0b9b9;transform: translate(-50%);/* background-image: radial-gradient(circle,#a30000,#560909); */}
 .hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;background-color: #a30000;background: #e0b9b9;transform: translate(0,-50%);width:100%;/* background-image: radial-gradient(circle,#a30000,#560909); */}
-.hh1{position:relative;display:block;z-index:1;padding:0;margin:2px auto;height: 130px;border-radius:6px;border: 1px solid #e0b9b9;}
+.hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;border-radius:6px;border: 1px solid #e0b9b9;}
 header h2, h2, h3, h4{/* text-align:center; *//* margin:0 auto; *//* font-size: 23px; *//* padding: 15px 10px; */font-family:monospace;word-spacing: -0.3em;/* text-transform: uppercase; */}
 h2 b{display:block;font-size: 1.6em;}
 header h2{background:inherit}
@@ -432,7 +432,7 @@ header{position:relative;/* padding: 1px 0; */padding-bottom: 1px;}
 .two-2 #line_1_2{margin-top:-100px}
 .ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;opacity: 1;margin-top:0;}
 .ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent}
-.strip{height: 32px;}
+.strip{height: 32px;margin-top: 20px;}
 .ambulance:hover .two-2 .line_1_2{font-size: 1.2em;}
 .ambulance:hover .two-2 .line_3_4{font-size: 0.75em;word-spacing: initial;}
 .ambulance:hover .strip{height: 40px;}
