@@ -172,9 +172,10 @@
       
     </div>
     
-<h3 class="charm_pink">Базовая таблица глаголов</h3>  
+
 
     <div class="history">
+        <h3 class="charm_pink">Базовая таблица глаголов</h3>
     
         <div class="wrap_txt">
             <div>Первая и самая основополагающая таблица методики Дмитрия Петрова - это <strong>базовая таблица глаголов</strong>. </div><div>Именно она служит фундаметном всей методики.</div>
@@ -253,7 +254,8 @@
         <div class="lp bp px680"><div id="ok_shareWidget"></div></div>
         
               
-<h3 class="charm_pink">Формы глагола to be</h3> 
+    <h3 class="charm_pink">Формы глагола to be</h3>
+
       
         <!-- InstanceEndEditable -->
                         <div id="prog3"></div>
@@ -595,7 +597,7 @@
 JD.firstName = function() {
 		var anchorTop=offset(anchor).top
 		
-//		    console.log('scroll', curentScrollTop, anchorTop,tog.offsetHeight)
+		    console.log('scroll', curentScrollTop, anchorTop,tog.offsetHeight)
 		if(curentScrollTop>anchorTop){
 		  if(!fixed){
 			anchor.style.height=tog.offsetHeight+'px';
@@ -637,6 +639,16 @@ JD.firstName = function() {
 }	
 
 window.addEventListener("scroll",JD.firstName,false);
+
+function change_table_many(table,row,_max){
+		for (var i=0;i<_max;i++){
+			if (i==table){
+				document.getElementById(row+i).style.display="block";
+				}else{
+				document.getElementById(row+i).style.display='none';
+			}
+		}
+	}
 
 change_table_many(0,'t1',4);
 change_table_many(0,'t2',4);

@@ -1118,15 +1118,6 @@ function change_table(table){
 		}
 	}
 	
-function change_table_many(table,row,_max){
-		for (var i=0;i<_max;i++){
-			if (i==table){
-				document.getElementById(row+i).style.display="block";
-				}else{
-				document.getElementById(row+i).style.display='none';
-			}
-		}
-	}
 
 //---------------начало скроллинга
 	
