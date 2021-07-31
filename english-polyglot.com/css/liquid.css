@@ -381,7 +381,7 @@ h1 span, .rr h2, .bb h3, .share_center, .hz2, .dawn form, .subscribe, footer h3,
 .hh1{color:#e2e5ff;border-top:none;text-shadow:1px 1px 2px black;}
 h1 strong{width:270px;position:absolute;top:0;left:50%;transform:translate(-50%,33%)}	
 button.gsc-search-button.gsc-search-button-v2{background-color: #c5c5c5;border-color: #c5c5c5;/* background-image: linear-gradient(90deg, #4d90fe, #4787ed); */cursor: pointer;}
-button.gsc-search-button.gsc-search-button-v2:hover{background-color: #c5c5c5;border-color: #656565;/* background-image: linear-gradient(90deg, #4d90fe, #4787ed); */}
+button.gsc-search-button.gsc-search-button-v2:hover{background-color: #c5c5c5;border-color: #656565;}
 .rr{
     /* background-image: radial-gradient(circle,#560909,#000000); */
     /* background-image: radial-gradient(circle,#560909,#420505); */
@@ -409,19 +409,21 @@ header h2{background:inherit}
 .embrasure h2{text-transform: inherit;}
 .embrasure h2 strong{text-transform: uppercase;}
 
-.gsc-control-searchbox-only{/* padding:0 10px */}
-form.gsc-search-box.gsc-search-box-tools{/* float:right; *//* padding-bottom:7px; */margin: 0 2px;width: 90%;margin: 5px auto;}
-button.gsc-search-button.gsc-search-button-v2{padding:10px 31px}	
+.gsc-control-searchbox-only{padding:0 10px;}
+form.gsc-search-box.gsc-search-box-tools{float:right;/* padding-bottom:7px; */margin: 0 2px;width: 100%;margin: 5px auto;}
+button.gsc-search-button.gsc-search-button-v2{padding:10px 31px;margin-left: 5px;}	
 .gsc-search-button-v2:hover{/* border-color: #2f5bb7;*//* background-color: #357ae8;*//* background-image: linear-gradient(90deg, #500808, #000000) !important; */}
 
 input#gsc-i-id1{font-size:21px;margin-top:0px !important;color:#828282;font-family: monospace;background: #e0e0e0;}
-td#gs_tti50{padding: 0 0 0 5px;}
+td#gs_tti50{/* padding: 5px 9px; */}
 a.gsst_a{padding:0}
-table#gs_id50{/* padding:4px 3px 3px 5px !important; */border:1px solid #ccc;background-color: #e0e0e0;}
+table#gs_id50{/* padding:4px 3px 3px 5px !important; *//* border:1px solid #ccc; *//* background-color: #e0e0e0; */}
 span#gs_cb50{/* font-size:47px; */font-size: 27px;}
 .gscb_a{/* line-height:47px */}
 .gsc-search-button-v2 svg{fill: #949494 !important;}
 .gsst_a .gscb_a{color: #909090;}
+td.gsc-input {border: 1px solid #c3c3c3;padding-right: 0px !important;}
+.gsc-input-box {border: none !important;background: inherit !important}
 
 header{position:relative;/* padding: 1px 0; */padding-bottom: 1px;}
 .ambulance{/* background-color: #cab2b2; *//* background-image: radial-gradient(circle,#560909,#000000); */background-image: radial-gradient(circle,#560909,#420505);/* background-image: linear-gradient(46deg,#560909,#1f0000); */background-image: linear-gradient(
@@ -453,7 +455,7 @@ h1 div, h3 div{line-height:1em;}
 .hardtab div{padding-bottom:0 !important}
 .quote div{padding-bottom:0}
 
-div#gsc-iw-id1{padding:0;border-radius:0}
+div#gsc-iw-id1{/* padding:0; *//* border-radius:0 */}
 #gsc-i-id1::placeholder{font-size:17px}
 
 .lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:opacity 300ms}
@@ -491,7 +493,7 @@ div#gsc-iw-id1{padding:0;border-radius:0}
 h2{/* padding:20px; */margin: 30px 0 50px;}
 header h2{float:left;/* width: 26%; */padding: 20px 10px;font-size: 17px;}
 h4{/* font-size: 1.4em; */}
-form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;float:right;padding-right: 10px;padding-left: 30px;}}
+form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;/* float:right; *//* padding-right: 10px; */padding-left: 30px;}}
 
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
@@ -513,9 +515,9 @@ form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;float:right;p
 	
 table#gs_id50{/* padding:4px !important; */}
 .gsc-search-box-tools .gsc-search-box .gsc-input{/* padding-right:5px !important; */}
-button.gsc-search-button.gsc-search-button-v2{padding:7px 41px}	
+button.gsc-search-button.gsc-search-button-v2{/* padding:7px 41px; */}	
 form.gsc-search-box.gsc-search-box-tools{/* padding-right:0 */}
-table#gs_id50{/* padding:5px !important; */padding: 0 !important;}.tog-fixed{background-color:#EEEEEE}input#gsc-i-id1{font-size: 1em;}	
+table#gs_id50{/* padding:5px !important; */padding: 0 !important;}.tog-fixed{background-color:#EEEEEE}input#gsc-i-id1{/* font-size: 1em; */}	
 span#gs_cb50{/* font-size:27px; */}.gscb_a{line-height:27px}
 input#gsc-i-id1::placeholder{font-size:0.8em;color:#9e9e9e}
 
