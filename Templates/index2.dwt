@@ -119,7 +119,7 @@
                         </h3>
 
                     </div>
-                </a>				
+                </a>
                 <!-- TemplateBeginEditable name="header" -->
 				<!-- TemplateEndEditable -->
                 <div id="header" class="menu">
@@ -129,6 +129,10 @@
                         <li><a id="m3" href="../english-polyglot.com/filmy.html">Фрагменты фильмов</a></li>
                         <li><a id="m4" href="#menu_uroki">16 Уроков Полиглот</a></li>
                     </ul>
+                </div>
+                <div>
+                <!-- google search -->
+                <gcse:searchbox-only></gcse:searchbox-only>
                 </div>
             </header>
 
@@ -154,11 +158,6 @@
 
                         <div class="embrasure">
                             <h2><strong>Материалы уроков Полиглот</strong> с упражнениями</h2>
-
-                            <div>
-                            <!-- google search -->
-                            <gcse:searchbox-only></gcse:searchbox-only>
-                            </div>
                         </div>
 
                         <!-- TemplateBeginEditable name="content" -->
