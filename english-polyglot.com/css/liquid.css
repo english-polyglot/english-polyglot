@@ -225,7 +225,7 @@ ul.nav a em{font-size:1.2em;display:block;font-style:normal;color:#ff8787}
 ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;border-radius:5px;text-align:right}
 ul.nav#new-back li{padding:0}
 .subscribe{margin: 30px auto 20px;max-width:200px;padding: 10px 10px 0;}
-.subscribe h3{padding:0;font-weight:bold;text-align:center;font-size:1em}
+.subscribe span{padding:0;font-weight:bold;text-align:center;font-size:1em;display: block;}
 .sub_top{border-top:none}
 .sub_bottom{border-bottom:none}
 .sub_col{width:72px;height: 420px;}
@@ -398,6 +398,7 @@ button.gsc-search-button.gsc-search-button-v2:hover{background-color: #c5c5c5;bo
 h4 {/* background-color:#212121; *//* color:#eee; */background: #e0b3b3;}
 /*.rr h2{background-color:#da8995;color:#5a0606}*/
 /*.rr h2{border-bottom:1px solid #c1747e;border-left:1px solid #d2838d;border-top:1px solid #e499a2;border-right:1px solid #d2838d}*/
+.content h3{background-color: #dcc7c7;}
 h3{font-size: 2.3em;margin: 10px 0;padding: 20px 30px;font-weight: bold;max-width: 1024px;margin: 0 auto;}
 
 h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
@@ -407,6 +408,7 @@ h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spacing:-
 .hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;border-radius:6px;border: 1px solid #a3010166;}
 header h2, h2, h3, h4{/* text-align:center; *//* margin:0 auto; *//* font-size: 23px; *//* padding: 15px 10px; */font-family:monospace;word-spacing: -0.3em;/* text-transform: uppercase; */}
 h2 b{display:block;font-size: 0.9em;max-width: 1100px;margin: 0 auto;}
+h2 span{max-width:1100px;display: block;margin: auto;}
 header h2{background:inherit}
 .embrasure h2{text-transform: inherit;}
 .embrasure h2 strong{text-transform: uppercase;}
@@ -554,7 +556,7 @@ ul.nav#new-back li{padding:20px 0;margin:0}
 .sub_center a:hover,.sub_center a:focus{background-position:center 64px}
 
 	
-.subscribe h3,.sub_top,.delitsa,.okno{font-size:1.2em}
+.subscribe span,.sub_top,.delitsa,.okno{font-size:1.2em}
 
 .scroll-to-top{left:50%;margin-left:445px}
 .donateButton{position:fixed;border-radius:0.3rem;font-size:1rem;padding:10px;margin:0 auto;margin-left:-49%;z-index:4;width:330px}
