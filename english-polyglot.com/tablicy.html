@@ -388,7 +388,7 @@
         <div class="video_center"><div><img class="foto_hero px680" src="img/english-months-2.gif" alt="Английские месяцы" /></div><div class="wrap_txt_center"><strong>Английские месяцы</strong></div></div>
     </div>
 
-    <h3 class="charm_pink">5 вспомогательных таблиц</h3>
+    <h3 id="aux_tables" class="charm_pink">5 вспомогательных таблиц</h3>
 
     <div class="history">
         <div id="tab5" class="lp bp px680" style="display:none">
@@ -407,7 +407,7 @@
             </form>
         </div>
 
-        <script>document.getElementById('tab5').style.display="block";document.getElementById('tableA4').checked=true</script>
+        <!-- <script>document.getElementById('tab5').style.display="block";document.getElementById('tableA4').checked=true</script> -->
 
         <div id="t50" class="video_center"><div><img class="foto_hero" src="img/anglyiskie-voprositelnye-slova-image.gif" alt="Вопросительные слова в английском языке Дмитрий Петров Полиглот" style="max-width:324px"/></div><div class="wrap_txt_center"><strong>Вопросительные слова в английском языке</strong></div></div>
 
@@ -575,6 +575,7 @@
 
 		var tog=document.getElementById('tog'),
 		anchor=document.getElementById('anchor'),
+        aux=document.getElementById('aux_tables'),
 		fixed=false,JD={},curentScrollTop;
 	
 		window.addEventListener("scroll",function(){
@@ -582,13 +583,14 @@
 		},false);
 	
 JD.firstName = function() {
-		var anchorTop=offset(anchor).top
+		var anchorTop=offset(anchor).top,
+        anchorBottom=offset(aux).top
 		
-		    console.log('scroll', curentScrollTop, anchorTop,tog.offsetHeight)
-		if(curentScrollTop>anchorTop){
+		console.log('scroll', curentScrollTop, anchorTop, tog.offsetHeight, anchorBottom)
+		if((curentScrollTop>anchorTop)&&(curentScrollTop<anchorBottom)){
 		  if(!fixed){
 			anchor.style.height=tog.offsetHeight+'px';
-			tog.className="abp tog-fixed";        
+			tog.className="abp tog-fixed";
 			fixed = true;
 		  }
 		}else{
@@ -641,7 +643,7 @@ change_table_many(0,'t1',4);
 change_table_many(0,'t2',4);
 change_table_many(0,'t3',4);
 change_table_many(0,'t4',4);
-change_table_many(0,'t5',5);
+// change_table_many(0,'t5',5);
 
 </script>
 
