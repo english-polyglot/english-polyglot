@@ -410,7 +410,7 @@ h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spacing:-
 .hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;border-radius:6px;border: 1px solid #a3010166;}
 header h2, h2, h3, h4{/* text-align:center; *//* margin:0 auto; *//* font-size: 23px; *//* padding: 15px 10px; */font-family:monospace;word-spacing: -0.3em;/* text-transform: uppercase; */}
 h2 b{display:block;font-size: 0.9em;max-width: 1100px;margin: 0 auto;}
-h2 span{max-width:1100px;display: block;margin: auto;}
+h2 span{max-width:1100px;display: block;margin: auto;font-size: 75%;}
 header h2{background:inherit}
 .embrasure h2{text-transform: inherit;}
 .embrasure h2 strong{text-transform: uppercase;}
@@ -483,6 +483,7 @@ div#gsc-iw-id1{/* padding:0; *//* border-radius:0 */}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
 @media(min-width:768px){
+h2 span{font-size:90%}
 h2{/* padding:20px; */margin: 30px 0 50px;padding: 40px 50px;}
 h2 b{font-size: 1.3em;}.content h3{font-size: 2em;padding: 30px;}
 .quote{padding:33px;margin-left: 33px;}
@@ -506,6 +507,7 @@ form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;/* float:righ
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
 @media(min-width:1024px){
+h2 span{font-size:100%}
 .content h3{font-size: 2.2em;padding: 30px;}
 h2{padding: 30px 50px;}h2 b{font-size: 1.6em;}h3{}
 .container{max-width:inherit;}
