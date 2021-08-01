@@ -313,7 +313,7 @@ a.green{background-color:inherit;color:#2E7D32}
 a.green:hover,a.green:visited{color:#E8F5E9;background-color:#2E7D32}
 
 .text_overflow{color:#fff;text-shadow:1px 1px 1px #111}
-.fixedImg span{border:0.1vw solid black;background-color:#DBDBDB;color:#373737}
+.fixedImg span{border:0.1vw solid black;background-color:#DBDBDB;color:#373737;float: left;}
 .fixedImg img{border:0.1vw solid #999;/*box-sizing:border-box*/}
 .radio_table:not(checked) + label:before{background:#FFF;border: 1px solid #CDD1DA}
 .radio_table:not(checked) + label:after{background:rgba(189, 189, 189, 0.75);box-shadow:inset 0 1px 1px rgba(0,0,0,.5)}
