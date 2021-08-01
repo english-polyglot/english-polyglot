@@ -478,7 +478,7 @@ div#gsc-iw-id1{/* padding:0; *//* border-radius:0 */}
 
 @media(min-width:320px){h2{padding: 30px 20px;}h2 b{font-size: 1em;}.content h3{font-size: 1.4em;padding: 23px;}.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}.ambulance:hover .strip{height: 55px;}.line_3_4{font-size: 0.75em;}.strip{height: 39px;}.lp{padding-left:15px}.hh1{/* width: 278px; */height: 150px;}.ambulance:hover .hh1{width: 150px;}.hh1 strong{width:240px}.line_1_2{font-size: 1.8em;/* padding-bottom:2px; *//* padding-top:0; */}.hh1::after{width: 11px;}
 .hh1::before{/* height: 3px; */}.ambulance:hover .hh1::before{height: 60px;}.ambulance:hover .hh1::after{width: 60px;}.ambulance:hover .two-2 .line_1_2{font-size: 1.6em;}}
-@media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width:360px}input.subscribe_textieldpost{width:250px}}
+@media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width: 527px;}input.subscribe_textieldpost{width:250px}}
 @media(min-width:425px){.border_donate{width:360px}.line_3_4{font-size: 1em;}.ambulance:hover .strip{height: 62px;}.ambulance:hover .two-2 .line_3_4{font-size: 1em;}.ambulance:hover .hh1::before{height: 70px;}.ambulance:hover .hh1::after{width: 70px;}.hh1{height:175px}.strip{height: 47px;}.line_1_2,.ambulance:hover .two-2 .line_1_2{font-size: 2em;}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{width: 175px;}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width:60%}}
 
 @media(min-width:616px){.scroll-to-top{bottom:20px}}
