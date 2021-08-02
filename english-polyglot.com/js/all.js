@@ -6,12 +6,12 @@ window.name='parent'
 function popup(url,width,height,windowtitle,textdescription,pronunciation){
 
 function bindReady(handler){
-	
+
 
 	if(url.match(/http/i)) handler()
 	var called = false
 
-	function ready() { 
+	function ready() {
 		if (called) return
 		called = true
 		handler()
@@ -30,7 +30,7 @@ function bindReady(handler){
 					document.documentElement.doScroll("left")
 					ready()
 				} catch(e) {
-					
+
 					setTimeout(tryScroll, 10)
 				}
 			}
@@ -49,55 +49,54 @@ function bindReady(handler){
     else if (window.attachEvent)
         newwin.attachEvent('onload', ready)
     else {
-		var fn = newwin.onload 
-		newwin.onload = function() { 
+		var fn = newwin.onload
+		newwin.onload = function() {
 			fn && fn()
 			ready()
 		}
     }
 }
-	
+
 function flow(){
 
 	last_url=url;
 
-	
     if((newwin==undefined)||!(newwin && !newwin.closed)){
-				
+
 		if (parent.screen.width<800){
-			
-			if(url.match(/htm|http/i)){ 
-				newwin=window.open(url,'newwin') 
-			}else{ 
+
+			if(url.match(/htm|http/i)){
+				newwin=window.open(url,'newwin')
+			}else{
 				newwin=window.open('answer.html','newwin')
 			}
-			
-		}else{ 
+
+		}else{
 
 			var w=width||screen.width/2,
 			h=height||screen.height/2
-			if (navigator.userAgent.toLowerCase().indexOf('opr')!=-1)h+=50 
+			if (navigator.userAgent.toLowerCase().indexOf('opr')!=-1)h+=50
 			var left=(screen.width-w)/2,
 			top=(screen.height-h)/2
 
 			var params='width='+w+',height='+h
 			params+=',top='+top+',left='+left
-			params+=',screenY='+top+',screenX='+left 
+			params+=',screenY='+top+',screenX='+left
 			params+=',resizable'
 			params+=',dialog'
-			
-			if(url.match(/htm|http/i)){ 
-				newwin=window.open(url,'newwin',params) 
-			
-			}else{ 
+
+			if(url.match(/htm|http/i)){
+				newwin=window.open(url,'newwin',params)
+
+			}else{
 				newwin=window.open('answer.html','newwin',params)
 			}
-			
+
 		}
-			
-		bindReady(function(){ 
-			if(url==''){ 
-								
+
+		bindReady(function(){
+			if(url==''){
+
 				newwin.document.title=windowtitle;
 				var i=newwin.document.getElementById('content_answer');
 				i.style.display='block';
@@ -108,10 +107,10 @@ function flow(){
 				newwin.document.getElementById('but_done').style.display='block';
 				newwin.document.getElementById('print_form').style.display='none';
 				win_test=1
-				
-			}else{	
+
+			}else{
 					if(getextension(url).match(/jpg|gif|png/i)){
-						
+
 						newwin.document.title=windowtitle;
 						var y=newwin.document.getElementById('content_print');
 						y.style.display='block';
@@ -120,7 +119,7 @@ function flow(){
 						var x=newwin.document.getElementById('print_form');
 						if (parent.screen.width<800){x.style.display='none'}else{x.style.display='inline-block'}
 						win_img=1
-						
+
 					}
 					if(url.match(/http|htm/i)){	
 						win_url=1
@@ -128,10 +127,10 @@ function flow(){
 			}
 
 		})
-		
-	}else{ 	
+
+	}else{
 	if(newwin) newwin.focus()
-		if(url==''){ 
+		if(url==''){
 
 			newwin.document.title=windowtitle;
 			var i=newwin.document.getElementById('content_answer');
@@ -142,10 +141,10 @@ function flow(){
 			newwin.document.getElementById('pronunciation').innerHTML=pronunciation;
 			newwin.document.getElementById('but_done').style.display='block';
 			newwin.document.getElementById('print_form').style.display='none';
-			
+
 		}else{
 				if(getextension(url).match(/jpg|gif|png/i)){
-					
+
 					var y=newwin.document.getElementById('content_print');
 					y.style.display='block';
 					newwin.document.title=windowtitle;
@@ -154,16 +153,16 @@ function flow(){
 					newwin.document.getElementById('but_done').style.display='block';
 					var x=newwin.document.getElementById('print_form');
 					if (parent.screen.width<800){x.style.display='none'}else{x.style.display='inline-block'}
-					
+
 				}
 				if(url.match(/http|htm/i)){
 
 				}
-				
+
 		}
-			
+
 	}
-		
+
 }
 
 	if(win_test||win_img||win_url){
@@ -174,7 +173,7 @@ function flow(){
 				newwin.close()
 
 				last_width=width;
-				last_height=height;				
+				last_height=height;
 				win_test=win_img=win_url=0;
 
 				(function timer(){
@@ -184,9 +183,9 @@ function flow(){
 					else setTimeout(timer,0)
 				})()
 			}else flow()
-		} else flow()		
+		} else flow()
 	}else flow()
-	return false	
+	return false
 }
 
 window.onunload=function(){
@@ -196,10 +195,11 @@ window.onunload=function(){
 }
 
 function getextension(filename){
- return /[^&]*/.exec(/[^?]*/.exec(/[^.]+$/.exec(filename)))[0]}
+	return /[^&]*/.exec(/[^?]*/.exec(/[^.]+$/.exec(filename)))[0]
+}
 
 
- var tooltip = {
+var tooltip = {
 
 	/* НАЧАЛО НАСТРОЕК */
 	options: {
@@ -265,7 +265,7 @@ function getextension(filename){
 		window.onscroll = tooltip.h;
 		tooltip.a(-99, -99);
 	},
-	
+
 	_: function(s){
 		s = s.replace(/\&/g,"&amp;");
 		s = s.replace(/\</g,"&lt;");
@@ -312,13 +312,13 @@ function getextension(filename){
 		var w_height = window.innerHeight ? window.innerHeight + window.pageYOffset : tooltip.canvas.clientHeight + (tooltip.canvas.scrollTop || document.body.scrollTop); // should be vice verca since Opera 7 is crazy!
 
 		if (document.all && document.all.item && !window.opera) tooltip.t.style.width = tooltip.options.max_width && tooltip.t.offsetWidth > tooltip.options.max_width ? tooltip.options.max_width + "px" : "auto";
-		
+
 		var t_width = tooltip.t.offsetWidth;
 		var t_height = tooltip.t.offsetHeight;
 
 		tooltip.t.style.left = x + 8 + "px";
 		tooltip.t.style.top = y + 8 + "px";
-		
+
 		if (x + t_width > w_width) tooltip.t.style.left = w_width - t_width + "px";
 		if (y + t_height > w_height) tooltip.t.style.top = w_height - t_height + "px";
 	}
@@ -331,13 +331,13 @@ Array.prototype.in_array = function(value){
 	return false;
 };
 
-//------------------------init tooltip and DragAndDrop--------------------------------- 
+//------------------------init tooltip and DragAndDrop---------------------------------
 
-var root = window.addEventListener || window.attachEvent ? window : document.addEventListener ? document : null;
-if (root){
-	if (root.addEventListener){root.addEventListener("load",tooltip.d,false);root.addEventListener("load",processOnload,false)}
-	else if (root.attachEvent){root.attachEvent("onload",tooltip.d);root.attachEvent("onload",processOnload)}
-}
+	var root = window.addEventListener || window.attachEvent ? window : document.addEventListener ? document : null;
+	if (root){
+		if (root.addEventListener){root.addEventListener("load",tooltip.d,false);root.addEventListener("load",processOnload,false)}
+		else if (root.attachEvent){root.attachEvent("onload",tooltip.d);root.attachEvent("onload",processOnload)}
+	}
 
 function trim(s) {
 		s = s.replace(/-/g, ' ');
@@ -350,108 +350,104 @@ function trim(s) {
 		return s;
 	};
 
-function playSound0(anchor) {	
- var soundfile = trim (anchor.innerHTML);
- soundfile = soundfile.toLowerCase();
- var soundfile_mp3 = soundfile + '.mp3';
- var soundfile_ogg = soundfile + '.ogg';
- document.getElementById("dummy").innerHTML=
- '<audio id="my-audio">'+
-  '<source src="audio/'+soundfile_mp3+'" type="audio/mpeg" />'+
-  '<source src="audio/'+soundfile_ogg+'" type="audio/ogg" />'+
-'<embed hidden="true" autostart="true" loop="false" src="audio/'+soundfile_mp3+'" />'+
-'</audio>';
+function playSound0(anchor) {
+	var soundfile = trim (anchor.innerHTML);
+	soundfile = soundfile.toLowerCase();
+	var soundfile_mp3 = soundfile + '.mp3';
+	var soundfile_ogg = soundfile + '.ogg';
+		document.getElementById("dummy").innerHTML =
+			'<audio id="my-audio">' +
+			'<source src="audio/' + soundfile_mp3 + '" type="audio/mpeg" />' +
+			'<source src="audio/' + soundfile_ogg + '" type="audio/ogg" />' +
+			'<embed hidden="true" autostart="true" loop="false" src="audio/' +
+			soundfile_mp3 + '" />' + '</audio>';
 
-	 var myAudio = document.getElementById('my-audio');
-	 myAudio.play();
+		var myAudio = document.getElementById('my-audio');
+		myAudio.play();
 }
 
- function playSound2(soundfile_mp3, soundfile_ogg) {
-  document.getElementById("dummy").innerHTML=
- '<audio id="my-audio">'+
-  '<source src="audio/'+soundfile_mp3+'" type="audio/mpeg" />'+
-  '<source src="audio/'+soundfile_ogg+'" type="audio/ogg" />'+
-'<embed hidden="true" autostart="true" loop="false" src="audio/'+soundfile_mp3+'" />'+
-'</audio>';
+function playSound2(soundfile_mp3, soundfile_ogg) {
+	document.getElementById("dummy").innerHTML=
+	'<audio id="my-audio">'+
+	'<source src="audio/'+soundfile_mp3+'" type="audio/mpeg" />'+
+	'<source src="audio/'+soundfile_ogg+'" type="audio/ogg" />'+
+	'<embed hidden="true" autostart="true" loop="false" src="audio/'+soundfile_mp3+'" />'+
+	'</audio>';
 
-	 var myAudio = document.getElementById('my-audio');
-	 myAudio.play();
+	var myAudio = document.getElementById('my-audio');
+	myAudio.play();
 }
 
 function playSound3(soundf, pap) {
-	 var soundfile = trim (soundf);
-	 var soundfile_mp3 = soundfile + '.mp3';
- 	 var soundfile_ogg = soundfile + '.ogg';
-  		document.getElementById("dummy").innerHTML=
-	  '<audio id="my-audio">'+
-	  '<source src="audio/'+pap+'/'+soundfile_mp3+'" type="audio/mpeg" />'+
-	  '<source src="audio/'+pap+'/'+soundfile_ogg+'" type="audio/ogg" />'+
-	  '<embed hidden="true" autostart="true" loop="false" src="audio/'+pap+'/'+soundfile_mp3+'" />'+
-	  '</audio>';
-  
-	 var myAudio = document.getElementById('my-audio');
-	 myAudio.play();
+	var soundfile = trim (soundf);
+	var soundfile_mp3 = soundfile + '.mp3';
+	var soundfile_ogg = soundfile + '.ogg';
+	document.getElementById("dummy").innerHTML=
+	'<audio id="my-audio">'+
+	'<source src="audio/'+pap+'/'+soundfile_mp3+'" type="audio/mpeg" />'+
+	'<source src="audio/'+pap+'/'+soundfile_ogg+'" type="audio/ogg" />'+
+	'<embed hidden="true" autostart="true" loop="false" src="audio/'+pap+'/'+soundfile_mp3+'" />'+
+	'</audio>';
+
+	var myAudio = document.getElementById('my-audio');
+	myAudio.play();
 }
 
- var audio_name = 'fff.mp3';
- var phrase_name = 'nnn-mp3';
- var contextClass = (window.AudioContext ||window.webkitAudioContext || window.mozAudioContext || window.oAudioContext || window.msAudioContext)
- 
- var path=window.location.pathname
+var audio_name = 'fff.mp3';
+var phrase_name = 'nnn-mp3';
+var contextClass = (window.AudioContext ||window.webkitAudioContext || window.mozAudioContext || window.oAudioContext || window.msAudioContext)
+
+var path=window.location.pathname
 
 var urok_num=path.match(/(index|\/$)/gm)?1:path.replace(/^\D+|\D+$/g, "")
 
- if (contextClass&&urok_num) { 
-	var context = new contextClass() ;
-	check_mp3();
- }
+if (contextClass&&urok_num) {
+var context = new contextClass() ;
+check_mp3();
+}
 
-	function check_mp3() {
-		
-		 var base64ToBuffer = function (buffer) {
-			var binary = window.atob(buffer);
-			var buffer = new ArrayBuffer(binary.length);
-			var bytes = new Uint8Array(buffer);
-			for (var i = 0; i < buffer.byteLength; i++) {
-				bytes[i] = binary.charCodeAt(i) & 0xFF;
-			}
-			return buffer;
-		  }
+function check_mp3() {
 
-			var base64String = "SUQzAwAAAAABOlRTU0UAAAAwAAAATEFNRSA2NGJpdHMgdmVyc2lvbiAzLjk5LjUgKGh0dHA6Ly9sYW1lLnNmLm5ldCkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/zgMQAAAAAAAAAAABJbmZvAAAADwAAAAMAAANCAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqv///////////////////////////////////////////wAAADlMQU1FMy45OXIBbgAAAAAAAAAAFEAkBGAiAABAAAADQrlwxl4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/84DEACIptdwEeEzlC8XMuajf4YE4choE7J2XM0zrUavj7u/fv379+/uDxv/9oIEyYDAYDAYDAYDAAQQIEEIiLPJkyZMmTJkCERnu7IECBAgQiIu7vf//+93d2gAAAAAD////8BAeHh4ekABH/////+AgPDw8PWgABnv//wAAAAEB4eHh6QAAAAQHh4eHrQAAA9+Y/9JT3/OAQCAQCAQCCiQKuBoGgZBWWBoFQVBUFQkDQNA0DQKgqCvR+DIKgqCoKs4sDQNA0DR1bv57//lS//OCxDoUICX4DjGMAD2ZUFRE+WCp3KkeK9fs6/FeVZqCrsFaTEFNRTMuOTkuNaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqTEFNRTMuOTkuNaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/84LEOwAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqg==";
-				  
-			var audioFromString = base64ToBuffer(base64String);
-					
-			context.decodeAudioData(audioFromString, function (buffer) {
-	
-				preload_pap(urok_num);
-	
-			}, function (e) {	
-				audio_name = 'fff.ogg';
-				phrase_name = 'nnn-ogg';
-	
-				preload_pap(urok_num);
-			});
-	
-	
+	var base64ToBuffer = function (buffer) {
+		var binary = window.atob(buffer);
+		var buffer = new ArrayBuffer(binary.length);
+		var bytes = new Uint8Array(buffer);
+		for (var i = 0; i < buffer.byteLength; i++) {
+			bytes[i] = binary.charCodeAt(i) & 0xFF;
+		}
+		return buffer;
 	}
 
-  
-  
+	var base64String = "SUQzAwAAAAABOlRTU0UAAAAwAAAATEFNRSA2NGJpdHMgdmVyc2lvbiAzLjk5LjUgKGh0dHA6Ly9sYW1lLnNmLm5ldCkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/zgMQAAAAAAAAAAABJbmZvAAAADwAAAAMAAANCAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqv///////////////////////////////////////////wAAADlMQU1FMy45OXIBbgAAAAAAAAAAFEAkBGAiAABAAAADQrlwxl4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/84DEACIptdwEeEzlC8XMuajf4YE4choE7J2XM0zrUavj7u/fv379+/uDxv/9oIEyYDAYDAYDAYDAAQQIEEIiLPJkyZMmTJkCERnu7IECBAgQiIu7vf//+93d2gAAAAAD////8BAeHh4ekABH/////+AgPDw8PWgABnv//wAAAAEB4eHh6QAAAAQHh4eHrQAAA9+Y/9JT3/OAQCAQCAQCCiQKuBoGgZBWWBoFQVBUFQkDQNA0DQKgqCvR+DIKgqCoKs4sDQNA0DR1bv57//lS//OCxDoUICX4DjGMAD2ZUFRE+WCp3KkeK9fs6/FeVZqCrsFaTEFNRTMuOTkuNaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqTEFNRTMuOTkuNaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/84LEOwAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqg==";
 
-  var urok_all_verb_sounds = new Array;
-  var urok_all_verb_names = new Array;
+	var audioFromString = base64ToBuffer(base64String);
+
+	context.decodeAudioData(audioFromString, function (buffer) {
+
+		preload_pap(urok_num);
+
+	}, function (e) {
+		audio_name = 'fff.ogg';
+		phrase_name = 'nnn-ogg';
+
+		preload_pap(urok_num);
+	});
+
+}
+
+var urok_all_verb_sounds = new Array;
+var urok_all_verb_names = new Array;
 //  var all_uroks_sounds = new Array;
 //  var all_uroks_names = new Array;
- 
+
 function loadFile( url, callback ) {//progressCallback,
-	
-	    var xhr = null;
+
+		var xhr = null;
 		if (window.XMLHttpRequest) {
 			try {
 				xhr = new XMLHttpRequest();
 			} catch (e){}
-		} 
+		}
 		else if (window.ActiveXObject) {
 			try {
 				xhr = new ActiveXObject('Msxml2.XMLHTTP');
@@ -461,44 +457,44 @@ function loadFile( url, callback ) {//progressCallback,
 				} catch (e){}
 			}
 		}
-		
-		if (xhr) {    
-		
+
+		if (xhr) {
+
 			xhr.open("GET", url, true); 
 			if ((url.split('.').pop()=='mp3')||(url.split('.').pop()=='ogg')) {xhr.responseType = 'arraybuffer'};
 			xhr.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
-		
+
 			xhr.onreadystatechange = function () {
 
-				 try 
-				 { 
-					  if (xhr.readyState === 4)
-					  {
-						  var status = xhr.status;
-						  if ((status >= 200)&&(status < 300) || status === 304)
-						  {	
-							 
-							   callback(xhr.response);
+				try
+				{
+					if (xhr.readyState === 4)
+					{
+						var status = xhr.status;
+						if ((status >= 200)&&(status < 300) || status === 304)
+						{
 
-							   delete xhr;
-							   xhr = null; 
-						   } 
-						   else
-						   {  
-								//document.getElementById("progress").innerHTML = '';
-								//alert(url+" не удалось получить данные:\n"+ xhr.status);
-						   }
-					    }
-						
-				   }
-				   catch( e ) {
-					   //alert(' ошибка: '+ e.description );
-				   }
-				   
-			  };
-			  
+							callback(xhr.response);
+
+							delete xhr;
+							xhr = null;
+						}
+						else
+						{
+							//document.getElementById("progress").innerHTML = '';
+							//alert(url+" не удалось получить данные:\n"+ xhr.status);
+						}
+					}
+
+				}
+				catch( e ) {
+					//alert(' ошибка: '+ e.description );
+				}
+
+			};
+
 //			  xhr.onprogress = function(e) {
-//	  
+//
 //				  if(e.lengthComputable) {
 //					  var done = e.position || e.loaded, total = e.totalSize || e.total;
 //
@@ -506,9 +502,9 @@ function loadFile( url, callback ) {//progressCallback,
 //				  }
 //			  };
 
-			  xhr.send(); 
+			xhr.send();
 
-		} 
+		}
 		return xhr;
 	};
 
@@ -520,116 +516,109 @@ function preload_pap(pap) {
 		var toLoad = loaded = -1;
 		var phrase = 'audio/u-'+pap+'/'+phrase_name;
 		var audio = 'audio/u-'+pap+'/'+audio_name;
-	
-		
-		var requestPhrase = loadFile( phrase, function(){//updateProgress2,
-		
-			  urok_verb_names = requestPhrase.responseText.split(',');
-			  
-			  urok_all_verb_names[pap] = urok_verb_names;
-		
-		} );
-		
-		var requestAudio = loadFile( audio, function(){//updateProgress2,
-			
-			  processConcatenatedFile( requestAudio.response );} );
-	
 
-			
+		var requestPhrase = loadFile( phrase, function(){//updateProgress2,
+
+				urok_verb_names = requestPhrase.responseText.split(',');
+
+				urok_all_verb_names[pap] = urok_verb_names;
+
+		} );
+
+		var requestAudio = loadFile( audio, function(){//updateProgress2,
+
+				processConcatenatedFile( requestAudio.response );} );
+
 		function extractBuffer( src, start, length )
 		{
-		  var dstU8 = new Uint8Array( length ); 
-		  var srcU8 = new Uint8Array( src, start, length );
-		  dstU8.set( srcU8 );
-		  return dstU8;
-		} 
-	
+			var dstU8 = new Uint8Array( length ); 
+			var srcU8 = new Uint8Array( src, start, length );
+			dstU8.set( srcU8 );
+			return dstU8;
+		}
 
-	
 		function processConcatenatedFile( dataSound )
 		{
-		
+
 			var ss = new DataView( dataSound );
 			var offset = 0;
 			while( offset < ss.byteLength )
 			{
-			  var length = ss.getUint32( offset, true );
-			  offset += 4;
-			  var mp3 = extractBuffer( dataSound, offset, length );
+				var length = ss.getUint32( offset, true );
+				offset += 4;
+				var mp3 = extractBuffer( dataSound, offset, length );
 
-			  offset += length;
-			  toLoad++;
-		
-			  urok_verb_sounds[ toLoad ] = mp3;
+				offset += length;
+				toLoad++;
+
+				urok_verb_sounds[ toLoad ] = mp3;
 			}
 
-			  urok_all_verb_sounds[pap] = urok_verb_sounds;
+				urok_all_verb_sounds[pap] = urok_verb_sounds;
 
 		};
-		
+
 //		function updateProgress2( p ) {
 //			progress2.style.width = Math.round( p ) + '%';
 //		};
 	};
-	
-function playSound(anchor) { 
+
+function playSound(anchor) {
 
 		var pap = urok_num;
-		
+
 		if (typeof anchor === 'string' || anchor instanceof String)
 			{var soundfile = trim (anchor)}
 		else
-			{var soundfile = trim (anchor.innerHTML)} 
-			
+			{var soundfile = trim (anchor.innerHTML)}
+
 		soundfile = soundfile.toLowerCase();
 
 		//var type_connection = '';
 
-	
-		if ((context)&&(urok_all_verb_names[pap])&&(urok_all_verb_sounds[pap]))  
-		{ 	
-			    		
+		if ((context)&&(urok_all_verb_names[pap])&&(urok_all_verb_sounds[pap]))
+		{
+
 			var ss = urok_all_verb_names[pap].indexOf(soundfile);
 			var ssource2 = urok_all_verb_sounds[pap][ss];
 			var ssource = context.createBufferSource();
 			ssource.connect(context.destination);
 
 			if (ssource2 instanceof Uint8Array) {
-			
-				   context.decodeAudioData( ssource2.buffer,
-			   
-					  function( buffer ){
-						  
-						  ssource.buffer = buffer;
 
-						  urok_all_verb_sounds[pap][ss] = ssource.buffer;
-	
-						  if( ssource.noteOn ) {ssource.noteOn( 0 )} else {ssource.start( 0 )}
-					  },
-					  function(err) {
-						   document.getElementById("progress").innerHTML = "error(decodeAudioData): "+err;
-					  }					  
+				context.decodeAudioData( ssource2.buffer,
 
-				   );
+					function( buffer ){
 
-			 }
-			 else
-			 {
+						ssource.buffer = buffer;
+
+						urok_all_verb_sounds[pap][ss] = ssource.buffer;
+
+						if( ssource.noteOn ) {ssource.noteOn( 0 )} else {ssource.start( 0 )}
+					},
+					function(err) {
+						document.getElementById("progress").innerHTML = "error(decodeAudioData): "+err;
+					}
+
+				);
+
+			}
+			else
+			{
 				ssource.buffer = ssource2;
 				ssource.playfunc=ssource.start||ssource.noteOn;
 				ssource.playfunc(0);
-			 }	
-					
+			}
+
 			 //type_connection = '#3C8C3E';
 		}
-		else 
-		{	  
+		else
+		{
 
-			 if (!0) 
-			 {
-				
+			if (!0)
+			{
 				var soundfile_mp3 = soundfile + '.mp3';
-			    var soundfile_ogg = soundfile + '.ogg';  
+				var soundfile_ogg = soundfile + '.ogg';
 				document.getElementById("dummy").innerHTML=
 				'<audio id="my-audio">'+
 				'<source src="audio/u-'+pap+'/'+soundfile_mp3+'" type="audio/mpeg" />'+
@@ -637,15 +626,15 @@ function playSound(anchor) {
 				'<embed hidden="true" autostart="true" loop="false" src="audio/u-'+pap+'/'+soundfile_mp3+'" />'+
 				'</audio>';
 				var myAudio = document.getElementById('my-audio');
-			 myAudio.play();
+				myAudio.play();
 				//type_connection = '#CED228';
-			 }
-			 else 
-			 {
+			}
+			else
+			{
 
 				if (soundr) {var lang = 'ru'; soundf = soundr} else {var lang = 'en'};
 				soundf = encodeURIComponent(soundf);
-				
+
 				document.getElementById("dummy").innerHTML=
 				'<audio id="my-audio">'+
 				'<source src="https://www.english-polyglot.com/mobile/ttsgateway.php?ie=utf-8&tl='+lang+'&q='+soundf+'" type="audio/mpeg" />'+
@@ -653,14 +642,14 @@ function playSound(anchor) {
 				lang+'&q='+soundf+'" />'+
 				'</audio>';
 				var myAudio = document.getElementById('my-audio');
-			 myAudio.play();
-				//type_connection = '#CA332B';				
-			 }	
-			 
+				myAudio.play();
+				//type_connection = '#CA332B';
+			}
+
 		};
-		
+
 		//document.getElementById("progress2").style.background = type_connection;
-	
+
 	};
 
 
@@ -675,22 +664,20 @@ function processOnload(e){
 
 function DragObject(element) {
 	element.dragObject = this
-	
+
 	dragMaster.makeDraggable(element)
-	
-		
+
 	this.onDragMove = function(x, y) {
 		element.style.top =  y - mouseOffset.y +'px'
 		element.style.left = x - mouseOffset.x +'px'
 		//element.style.zIndex = '2'
 	}
-	
 
 }
 
 function fixEvent(e) {
 	// получить объект событие для IE
-	
+
 	e = e || window.event
 
 	// добавить pageX/pageY для IE
@@ -699,7 +686,7 @@ function fixEvent(e) {
 		var body = document.body
 		e.pageX = e.clientX + (html && html.scrollLeft || body && body.scrollLeft || 0) - (html.clientLeft || 0)
 		e.pageY = e.clientY + (html && html.scrollTop || body && body.scrollTop || 0) - (html.clientTop || 0)
-		
+
 	}
 
 	// добавить which для IE
@@ -720,17 +707,17 @@ function getOffset(elem) {
 
 function getOffsetRect(elem) {
     var box = elem.getBoundingClientRect()
- 
+
     var body = document.body
     var docElem = document.documentElement
- 
+
     var scrollTop = window.pageYOffset || docElem.scrollTop || body.scrollTop
     var scrollLeft = window.pageXOffset || docElem.scrollLeft || body.scrollLeft
     var clientTop = docElem.clientTop || body.clientTop || 0
     var clientLeft = docElem.clientLeft || body.clientLeft || 0
     var top  = box.top +  scrollTop - clientTop
     var left = box.left + scrollLeft - clientLeft
- 
+
     return { top: Math.round(top), left: Math.round(left) }
 }
 
@@ -739,9 +726,9 @@ function getOffsetSum(elem) {
     while(elem) {
         top = top + parseInt(elem.offsetTop)
         left = left + parseInt(elem.offsetLeft)
-        elem = elem.offsetParent        
+        elem = elem.offsetParent
     }
- 
+
     return {top: top, left: left}
 }
 
@@ -788,7 +775,7 @@ var dragMaster = (function() {
 	}
 
 	function mouseUp(){
-		
+
 		dragObject = null
 
 		 //очистить обработчики, т.к перенос закончен
@@ -886,7 +873,7 @@ Share = {
     },
     odnoklassniki: function(purl, text) {
         url  = 'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.share';
-        url += 'Url=' + encodeURIComponent(purl);		
+        url += 'Url=' + encodeURIComponent(purl);
         url += '&title=' + encodeURIComponent(text);
         return url;
     },
@@ -914,7 +901,7 @@ Share = {
         url += '&imageurl='    + encodeURIComponent(pimg);
         return url;
     },
-	
+
     popup: function(url) {
         return popup(url,656,432)
     }
@@ -926,51 +913,51 @@ var _ga = _ga || {};
 var _gaq = _gaq || [];
 
 _ga.trackSocial = function(opt_pageUrl, opt_trackerName, opt_targetUrl) {
-  _ga.trackFacebook(opt_pageUrl, opt_trackerName);
-  _ga.trackTwitter(opt_pageUrl, opt_trackerName);
-  _ga.trackVkontakte(opt_pageUrl, opt_trackerName, opt_targetUrl);
+	_ga.trackFacebook(opt_pageUrl, opt_trackerName);
+	_ga.trackTwitter(opt_pageUrl, opt_trackerName);
+	_ga.trackVkontakte(opt_pageUrl, opt_trackerName, opt_targetUrl);
 };
 
 _ga.trackFacebook = function(opt_pageUrl, opt_trackerName) {
-  var trackerName = _ga.buildTrackerName_(opt_trackerName);
-  try {
-    if (FB && FB.Event && FB.Event.subscribe) {
-      FB.Event.subscribe('edge.create', function(targetUrl) {
-        _gaq.push([trackerName + '_trackSocial', 'facebook', 'like',
-            targetUrl, opt_pageUrl]);
-      });
-      FB.Event.subscribe('edge.remove', function(targetUrl) {
-        _gaq.push([trackerName + '_trackSocial', 'facebook', 'unlike',
-            targetUrl, opt_pageUrl]);
-      });
-      FB.Event.subscribe('message.send', function(targetUrl) {
-        _gaq.push([trackerName + '_trackSocial', 'facebook', 'send',
-            targetUrl, opt_pageUrl]);
-      });
-    }
-  } catch (e) {}
-};
+	var trackerName = _ga.buildTrackerName_(opt_trackerName);
+	try {
+	if (FB && FB.Event && FB.Event.subscribe) {
+		FB.Event.subscribe('edge.create', function(targetUrl) {
+		_gaq.push([trackerName + '_trackSocial', 'facebook', 'like',
+			targetUrl, opt_pageUrl]);
+		});
+		FB.Event.subscribe('edge.remove', function(targetUrl) {
+		_gaq.push([trackerName + '_trackSocial', 'facebook', 'unlike',
+			targetUrl, opt_pageUrl]);
+		});
+		FB.Event.subscribe('message.send', function(targetUrl) {
+		_gaq.push([trackerName + '_trackSocial', 'facebook', 'send',
+			targetUrl, opt_pageUrl]);
+		});
+	}
+	} catch (e) {}
+	};
 
-_ga.buildTrackerName_ = function(opt_trackerName) {
-  return opt_trackerName ? opt_trackerName + '.' : '';
+	_ga.buildTrackerName_ = function(opt_trackerName) {
+	return opt_trackerName ? opt_trackerName + '.' : '';
 };
 
 _ga.trackTwitter = function(opt_pageUrl, opt_trackerName) {
-  var trackerName = _ga.buildTrackerName_(opt_trackerName);
-  try {
-    if (twttr && twttr.events && twttr.events.bind) {
-      twttr.events.bind('tweet', function(event) {
-        if (event) {
-          var targetUrl; // Default value is undefined.
-          if (event.target && event.target.nodeName == 'IFRAME') {
-            targetUrl = _ga.extractParamFromUri_(event.target.src, 'url');
-          }
-          _gaq.push([trackerName + '_trackSocial', 'twitter', 'tweet',
-            targetUrl, opt_pageUrl]);
-        }
-      });
-    }
-  } catch (e) {}
+	var trackerName = _ga.buildTrackerName_(opt_trackerName);
+	try {
+		if (twttr && twttr.events && twttr.events.bind) {
+		twttr.events.bind('tweet', function(event) {
+			if (event) {
+			var targetUrl; // Default value is undefined.
+			if (event.target && event.target.nodeName == 'IFRAME') {
+				targetUrl = _ga.extractParamFromUri_(event.target.src, 'url');
+			}
+			_gaq.push([trackerName + '_trackSocial', 'twitter', 'tweet',
+				targetUrl, opt_pageUrl]);
+			}
+		});
+		}
+	} catch (e) {}
 };
 
 _ga.trackVkontakte = function(opt_pageUrl, opt_trackerName, opt_targetUrl) {
@@ -990,29 +977,29 @@ _ga.trackVkontakte = function(opt_pageUrl, opt_trackerName, opt_targetUrl) {
 };
 
 _ga.extractParamFromUri_ = function(uri, paramName) {
-  if (!uri) {
-    return;
-  }
-  var uri = uri.split('#')[0];  // Remove anchor.
-  var parts = uri.split('?');  // Check for query params.
-  if (parts.length == 1) {
-    return;
-  }
-  var query = decodeURI(parts[1]);
+	if (!uri) {
+	return;
+	}
+	var uri = uri.split('#')[0];  // Remove anchor.
+	var parts = uri.split('?');  // Check for query params.
+	if (parts.length == 1) {
+	return;
+	}
+	var query = decodeURI(parts[1]);
 
-  // Find url param.
-  paramName += '=';
-  var params = query.split('&');
-  for (var i = 0, param; param = params[i]; ++i) {
-    if (param.indexOf(paramName) === 0) {
-      return unescape(param.split('=')[1]);
-    }
-  }
-  return;
+	// Find url param.
+	paramName += '=';
+	var params = query.split('&');
+	for (var i = 0, param; param = params[i]; ++i) {
+	if (param.indexOf(paramName) === 0) {
+		return unescape(param.split('=')[1]);
+	}
+	}
+	return;
 };
 //---------------------------------------
 
-// <-- цветовая пробежка по кнопкам 
+// <-- цветовая пробежка по кнопкам
 function flain(){
 
 for (var i = 1; i <= 4; i++) {
@@ -1094,11 +1081,11 @@ function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover
 
 //ambulance_on(); // start ambulance trigger // put ambulance_on() after hover_chk; in ambulance_off //function
 //-------массив картинок с таблицами
-  
+
 var tabl=[,['tablica-glagolov-petrova-image.gif','tablica-glagolov-petrova-image-black.gif','red-tablica-glagolov-petrova-image.gif','table-base.gif'],,['tablica-glagola-to-be-petrova-image.gif','black-tablica-glagola-to-be-petrova-image.gif','green-tablica-glagola-to-be-petrova-image.gif','table-be.gif'],['tablica-glagola-to-be-ing-image.gif','tablica-glagola-to-be-ing-image-black.gif','tablica-glagola-to-be-ing-image-green.gif','table-be.gif'],,,['short-tablica-glagolov-petrova-image.gif','black-short-tablica-glagolov-petrova-image.gif','red-short-tablica-glagolov-petrova-image.gif','table-base-small-3.gif']];
-  
+
 var tab_index=0;
-  
+
 function change_table(table){
 		if(tab_index!=table){
 			tab_index=table;
@@ -1117,17 +1104,16 @@ function change_table(table){
 			}
 		}
 	}
-	
+
 
 //---------------начало скроллинга
-	
+
 	var to_top=document.getElementById('stt'),
 		to_bottom=document.getElementById('m4'),
 		don_btn=document.getElementById('dbt'),
 		stop_scroll=0,
 		curentScrollTop,
 		position=document.documentElement.scrollTop || document.body.scrollTop;
-		
 
 		document.getElementById("m4").href="javascript:void(0)"
 
@@ -1137,37 +1123,37 @@ function change_table(table){
 
 		window.addEventListener("scroll",function(){
 			curentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
-		},false);	
+		},false);
 
-		to_top.addEventListener("click",function(e){	
+		to_top.addEventListener("click",function(e){
 			e.stopPropagation();
 			(function scrollAnimate(){
 				if (curentScrollTop>0 && !stop_scroll) {
 					//scrollTo(0);
-					setTimeout(function(){  
+					setTimeout(function(){
 						window.scrollBy(0,(-Math.abs(curentScrollTop)/20));
 						scrollAnimate();
 					},10);
 				}
 			})()
 		},false);
-		
+
 		to_top.addEventListener("dblclick",function(e){
 			document.body.scrollTop=0;
 			document.documentElement.scrollTop=0;
 		},false);
 
-		to_bottom.addEventListener("click",function(e){	
-			e.stopPropagation();		
+		to_bottom.addEventListener("click",function(e){
+			e.stopPropagation();
 			scrollTo(document.getElementById('top_scroll').offsetHeight)
 		},false);
-	
+
 		// stop animation on wheel scroll down
 		window.addEventListener("wheel", function(e) {
-		  if (e.deltaY > 0) {
-			  stop_scroll=1;
-			  setTimeout(function(){stop_scroll=0},200)
-		  }
+			if (e.deltaY > 0) {
+				stop_scroll=1;
+				setTimeout(function(){stop_scroll=0},200)
+			}
 		},false);
 
 function scrollTo(e){var h=document.documentElement;if(h.scrollTop===0){var t=h.scrollTop;++h.scrollTop;h=t+1===h.scrollTop--?h:document.body;}scrollToX(h,h.scrollTop,e,0)}function scrollToX(e,a,b,t){if(t<0||t>1)return;k=t-1;e.scrollTop=a-(a-b)*(k*k*k+1);t+=0.001*20;setTimeout(function(){scrollToX(e,a,b,t)},20)}
@@ -1201,24 +1187,22 @@ JD.lastName=function(){
 	}else{
 		to_top.className="scroll-to-top fixed-hidden";
 	}
-	
-	var scrollHeight=document.documentElement.scrollHeight || document.body.scrollHeight;	
-	
+
+	var scrollHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
+
 	if ((curentScrollTop+window.innerHeight+300)>=scrollHeight){
 		don_btn.className="donateButton left50";
 	}else{
 		don_btn.className="donateButton fixed-hidden2";
-	}	
+	}
 
 	if(curentScrollTop>position){
 		stop_scroll=1;
 		setTimeout(function(){stop_scroll=0},200)
-	}			
-	position=curentScrollTop;	
+	}
+	position=curentScrollTop;
 
 }
 
 
-	window.addEventListener("scroll",JD.debounce(250,JD.lastName));	
-	
-	
+	window.addEventListener("scroll",JD.debounce(250,JD.lastName));
