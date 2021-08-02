@@ -1004,9 +1004,9 @@ function flain(){
 
 for (var i = 1; i <= 4; i++) {
     (function(index) {
-        setTimeout(function() { 
-			document.getElementById("m"+index).style.background = '#000000';
-			document.getElementById("m"+index).style.color = '#E0012E';
+        setTimeout(function() {
+			document.getElementById("m"+index).style.background = '#b17c7c';
+			document.getElementById("m"+index).style.color = '#3e3939';
 		}, i * 100);
     })(i);
 }
@@ -1014,18 +1014,18 @@ for (var i = 1; i <= 4; i++) {
 setTimeout(function(){
 for (var i = 1; i <= 4; i++) {
     (function(index) {
-        setTimeout(function() { 
+        setTimeout(function() {
 			document.getElementById("m"+index).style.background = '';
-			document.getElementById("m"+index).style.color = ''; 
+			document.getElementById("m"+index).style.color = '';
 		}, i * 100);
     })(i);
 }},50)
 
 for (var i = 1; i < 17; i++) {
     (function(index) {
-        setTimeout(function() { 
-			document.getElementById("a"+index).style.background = '#000000';
-			document.getElementById("a"+index).style.color = '#5E77C7';
+        setTimeout(function() {
+			document.getElementById("a"+index).style.background = '#b17c7c';
+			document.getElementById("a"+index).style.color = '#3e3939';
 		}, (i * 50)+350);
     })(i);
 }
@@ -1033,7 +1033,7 @@ for (var i = 1; i < 17; i++) {
 setTimeout(function(){
 for (var i = 1; i < 17; i++) {
     (function(index) {
-        setTimeout(function() { 
+        setTimeout(function() {
 			document.getElementById("a"+index).style.background = '';
 			document.getElementById("a"+index).style.color = '';
 			}, (i * 50)+350);
@@ -1045,35 +1045,19 @@ for (var i = 1; i < 17; i++) {
 
 
 // ---------------ambulance trigger initiation
-// var css_code = '';
-// css_code += '.hh1::before{height:13px}';
-// css_code +='.hh1::after{width:4px}';
-// css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}';
-// css_code +='.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
 
-// var css_code ='.hh1{border-radius:50%;width:100px}.strip{height:37px}';
-// css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
-// css_code += '@media(min-width:320px){.ambulance .two-2 .line_1_2{font-size: 0.9em;}.ambulance .two-2 .line_3_4{font-size:0.8em;}}';
-// css_code += '@media(min-width:768px){.hh1{width:120px}.hh1::before{height:50px}.hh1::after{width:50px}'
-// css_code += '.two-2 .line_1_2{font-size:21px}.two-2 .line_3_4{font-size:18px}.strip{height:41px}}'
-
-var css_code ='.hh1{border-radius:50%;width:100px}.strip{height:37px}';
-css_code +='.hh1::before{height:39px;transform:translate(5%,-50%);width:90%;}';
+var css_code ='.hh1{border-radius:50%;width:130px}.strip{height:48px}';
+css_code +='.hh1::before{height:50px;transform:translate(5%,-50%);width:90%;}';
 css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
-css_code +='.hh1::after{width:39px;transform:translate(-50%,5%); height:90%;}';
-css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}.two-2 .line_3_4{font-size:0.8em}';
-css_code +='.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
-css_code += '@media(min-width:768px){.hh1{width:120px}.hh1::before{height:50px}.hh1::after{width:50px}'
-css_code += '.strip{height:41px}}'
+css_code +='.hh1::after{width:50px;transform:translate(-50%,5%); height:90%;}';
+css_code +='.two-2 .line_1_2{font-size:1.2em;word-spacing:-0.3em}';
+css_code +='.two-2 .line_3_4{font-size:0.75em;word-spacing:initial}';
+css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}';
+css_code += '.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
+css_code += '@media(min-width:320px){.hh1{width:150px}.hh1::before{height:60px}.hh1::after{width:60px}.two-2 .line_1_2{font-size:1.6em}.two-2 .line_3_4{font-size:0.85em}.strip{height:55px}}';
+css_code += '@media(min-width:425px){.hh1{width:175px}.hh1::before{height:70px}.hh1::after{width:70px}.two-2 .line_1_2{font-size:2em}.two-2 .line_3_4{font-size:1em}.strip{height:62px}}';
+css_code += '@media(min-width:768px){.hh1{min-width:initial}}'
 
-// var css_code ='.hh1{border-radius:50%;width:100px}.strip{height:37px}';
-// css_code +='.hh1::before{height:39px;transform:translate(5%,-50%);width:90%;background:#a30000}';
-// css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
-// css_code +='.hh1::after{width:39px;transform:translate(-50%,5%); height:90%;background:#a30000}';
-// css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}.two-2 .line_3_4{font-size:0.8em}';
-// css_code +='.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
-// css_code += '@media(min-width:768px){.hh1{width:120px}.hh1::before{height:50px}.hh1::after{width:50px}'
-// css_code += '.two-2 .line_1_2{font-size:21px}.two-2 .line_3_4{font-size:18px}.strip{height:41px}}'
 var hover_chk=true;
 var amb=document.getElementById('ambulance-trigger');
 function ambulance_on(){setTimeout(function(){amb.innerHTML=css_code;hover_chk=!hover_chk;ambulance_off()},1200)}

@@ -373,7 +373,7 @@ ul.notready li a{color:#7386C2}
 /* background gray color theme */
 body,header,.sidebar,footer,.menu,ul.nav#new-back li,a.none,.dawn,.separator{background-color: #e0e0e0;/* background: black; */}
 .bb{background-color: #828282;}
-.menu ul li a:hover{color: #caa9a9;background-color: #b17c7c;text-shadow: none;}
+.menu ul li a:hover{color: #3e3939;background-color: #b17c7c;text-shadow: none;}
 .hh1{/* background-color:#caa9a9; */}
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color:#45568D}
 h1 span, .rr h2, .bb h3, .share_center, .hz2, .dawn form, .subscribe, footer h3, .separator{/* border-bottom: 1px solid #d9d9d9; *//* border-left: 1px solid #d9d9d9; *//* border-top: 1px solid #e3e3e3; *//* border-right: 1px solid #d9d9d9; */}
@@ -407,7 +407,8 @@ h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spacing:-
 
 .hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 9px;height: 100%;/* background-color: #a30000; *//* background: #e0b9b9; */transform: translate(-50%);background-image: radial-gradient(circle,#a30000,#560909);}
 .hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;/* background-color: #a30000; *//* background: #e0b9b9; */transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#560909);}
-.hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;border-radius:6px;border: 1px solid #a3010166;}
+.hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;width: 90%;border-radius:6px;border: 1px solid #a3010166;}
+
 header h2, h2, h3, h4{/* text-align:center; *//* margin:0 auto; *//* font-size: 23px; *//* padding: 15px 10px; */font-family:monospace;word-spacing: -0.3em;/* text-transform: uppercase; */}
 h2 b{display:block;font-size: 0.9em;max-width: 1100px;margin: 0 auto;}
 h2 span{max-width:1100px;display: block;margin: auto;font-size: 75%;}
@@ -438,22 +439,21 @@ header{position:relative;/* padding: 1px 0; */padding-bottom: 1px;}
 .ambulance:hover .hh1::before,.ambb{height: 50px;transform:translate(5%,-50%);width: 90%;/* background-color: #a30000; */}
 .ambulance:hover .hh1::after,.amba{width: 50px;transform:translate(-50%,5%);height:90%;/* background-color: #560909; */}
 .ambulance:hover .hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}
-.ambulance:hover .hh1{/* background-color:#caa9a9; */border-radius:50%;/* width: 270px; */width: 130px;}
+.ambulance:hover .hh1{/* background-color:#caa9a9; */border-radius:50%;width: 130px;}
 .ambulance h3, .ambulance h1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
 .ambulance h3{font-size:1em;text-align:center;}
-.two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;opacity: 0;margin-top: -100px;}
+.two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;margin-top: -100px;}
 
 .line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;/* color: black; */font-weight: 100;font-size: 0.6em;/* text-shadow: 0 0 2px #000000; *//* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
 .line_1_2{/* font-size: 0.5em; */font-size: 1.7em;/* font-weight:600; */color: #eeeeee;/* color: #29060c; *//* text-shadow: 0 0 4px #000000; *//* text-shadow: 0 0 3px #ffffff; *//* color: black; */padding-bottom:4px;padding-top:1px;}
 .two-2 #line_1_2{margin-top:-100px}
-.ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;opacity: 1;margin-top:0;}
+.ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;margin-top:0;}
 .ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent}
 .strip{height: 31px;margin-top: 20px;}
 .ambulance:hover .two-2 .line_1_2{font-size: 1.2em;word-spacing: -0.3em;}
 .ambulance:hover .two-2 .line_3_4{font-size: 0.75em;word-spacing: initial;}
 .ambulance:hover .strip{height: 48px;}
 h1 div, h3 div{line-height:1em;}
-.hh1{width: 90%;}
 .hh1 strong{width:230px;}
 
 .wrap_txt div{padding-bottom: 30px;}
@@ -476,7 +476,7 @@ div#gsc-iw-id1{/* padding:0; *//* border-radius:0 */}
 
 @media(min-width:240px){.lp{padding-left:10px}}
 
-@media(min-width:320px){h2{padding: 30px 20px;}h2 b{font-size: 1em;}.content h3{font-size: 1.4em;padding: 23px;}.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}.ambulance:hover .strip{height: 55px;}.line_3_4{font-size: 0.75em;}.strip{height: 39px;}.lp{padding-left:15px}.hh1{/* width: 278px; */height: 150px;}.ambulance:hover .hh1{width: 150px;}.hh1 strong{width:240px}.line_1_2{font-size: 1.8em;/* padding-bottom:2px; *//* padding-top:0; */}.hh1::after{width: 11px;}
+@media(min-width:320px){h2{padding: 30px 20px;}h2 b{font-size: 1em;}.content h3{font-size: 1.4em;padding: 23px;}.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}.ambulance:hover .strip{height: 55px;}.line_3_4{font-size: 0.75em;}.strip{height: 39px;}.lp{padding-left:15px}.hh1{height: 150px;}.ambulance:hover .hh1{width: 150px;}.hh1 strong{width:240px}.line_1_2{font-size: 1.8em;/* padding-bottom:2px; *//* padding-top:0; */}.hh1::after{width: 11px;}
 .hh1::before{/* height: 3px; */}.ambulance:hover .hh1::before{height: 60px;}.ambulance:hover .hh1::after{width: 60px;}.ambulance:hover .two-2 .line_1_2{font-size: 1.6em;}}
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width: 527px;}input.subscribe_textieldpost{width:250px}}
 @media(min-width:425px){.border_donate{width:360px}.line_3_4{font-size: 1em;}.ambulance:hover .strip{height: 62px;}.ambulance:hover .two-2 .line_3_4{font-size: 1em;}.ambulance:hover .hh1::before{height: 70px;}.ambulance:hover .hh1::after{width: 70px;}.hh1{height:175px}.strip{height: 47px;}.line_1_2,.ambulance:hover .two-2 .line_1_2{font-size: 2em;}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{width: 175px;}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width:60%}}
