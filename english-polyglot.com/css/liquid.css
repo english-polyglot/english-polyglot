@@ -69,7 +69,7 @@ input.subscribe_textieldpost{font-size:1.4em}
 input.subscribe_textieldpost{width:202px}
 .round form{padding-top:3%}
 input.subscribepost:hover,input.submit:hover{opacity:0.5}
-.history{margin:1em auto;max-width: 906px;}	
+.history, .bottom-content, .sidebar_inner{margin:1em auto;max-width: 906px;}	
 .history h2{margin-bottom:10px;font-size:100%;padding:5px;font-weight:bold;margin-right:10px;margin-left:10px;text-align:center;text-transform:uppercase}
 .separator{font-size:150%;padding:15px 0 5px 0;margin:0 auto;font-weight:bold;text-align:center}	
 .clearfloat{clear:both;height:0;font-size:1px;line-height:0px}
@@ -197,7 +197,7 @@ form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 .content{/* width:100%; *//* border-right:none */}
 .content_inner{/* border-left:none */}	
 .flash{padding-bottom:105%}
-.menu{padding:1px 0;background-color: black !important;background-image: linear-gradient( 
+.menu{padding:1px 0;background-image: linear-gradient( 
 0deg
  ,#560909,#000000);}
 .menu ul li{margin-bottom:1px;width:100%}
