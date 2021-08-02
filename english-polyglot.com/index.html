@@ -826,49 +826,49 @@ onclick="popup('img/first-9-most-used-English-verbs.gif', 526, 650,  'Первы
 <li><a class="red" href="javascript: void(0)" title="оупен" onClick="playSound(this);">open </a>– <em>открывать</em></li><li><a class="red" href="javascript: void(0)" title="клоуз" onClick="playSound(this);">close </a>– <em>закрывать</em></li>
 </ul>
 </div>
-   
-                 
-        <div class="clearfloat"></div>   
-        </div>    
-        <div class="separator"> &nbsp;</div>
-<div class="history"> 
-<div class="wrap_txt">
 
-          
+        <div class="clearfloat"></div>
+        </div>
+        <div class="separator"> &nbsp;</div>
+<div class="history">
+<div class="wrap_txt">
 
 <span id="dragObjects" >
   <div id="d1" class="fixedImg">
     <div class="leftBtn">
       <div>
-        <span onClick="plusImage('d1')" title="увеличить">+</span>
-        <span onClick="minusImage('d1')" title="уменьшить">&minus;</span>
+        <button id='d1b1' onClick="plusImage('d1')" title="увеличить">+</button>
+        <button id='d1b2' onClick="minusImage('d1')" title="уменьшить">&minus;</button>
       </div>
     </div>
-    <img data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" id="imgd1" border="0" alt="Базовая таблица глаголов Петрова" class="lazyload" />
+    <img id="imgd1" data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" border="0" alt="Базовая таблица глаголов Петрова" class="lazyload" />
     <div class="rightBtn">
-      <span onClick="closeObject('d1')" title="закрыть">×</span>
+      <button onClick="closeObject('d1')" title="закрыть">×</button>
     </div>
   </div>
 
   <div id="d2" class="fixedImg">
     <div class="leftBtn">
       <div>
-        <span onClick="plusImage('d2')" title="увеличить">+</span>
-        <span onClick="minusImage('d2')" title="уменьшить">&minus;</span>
+        <button id='d2b1' onClick="plusImage('d2')" title="увеличить">+</button>
+        <button id='d2b2' onClick="minusImage('d2')" title="уменьшить">&minus;</button>
       </div>
     </div>
     <img id="imgd2" data-src="img/table-base.gif" width="100%" height="100%" alt="Транспонированная базовая таблица глаголов Петрова" class="lazyload" />
     <div class="rightBtn">
-      <span onClick="closeObject('d2')" title="закрыть">×</span>
+      <button onClick="closeObject('d2')" title="закрыть">×</button>
     </div>
-  </div> 
+  </div>
 </span>
 
 
- <div class="round">чтобы иметь перед глазами таблицу глаголов, откройте её и отодвиньте в сторону<br />
-(<a class="green bold cap" href="javascript: void(0)" title="открыть"
+ <div class="round">чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по любой из двух ссылок ниже (при прокрутке страницы, таблица будет оставаться на месте): <br />
+<a class="green bold cap" href="javascript: void(0)" title="открыть"
 onclick="showObject('d1');">обычная</a> или&nbsp;<a class="green bold cap" href="javascript: void(0)" title="открыть"
-onclick="showObject('d2')">транспонированная</a>&nbsp;– время по&nbsp;оси&nbsp;Х). При прокрутке страницы таблица будет оставаться на месте.</div>
+onclick="showObject('d2')">транспонированная</a>(время по&nbsp;оси&nbsp;Х). 
+<br />
+На устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах. 
+</div>
   
 <div class="round white">кликнув по&nbsp;<a class="green">реплике</a>, Вы&nbsp;откроете её&nbsp;перевод и&nbsp;упрощенную транскрипцию</div>
 

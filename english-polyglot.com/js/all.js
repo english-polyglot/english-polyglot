@@ -655,7 +655,7 @@ function playSound(anchor) {
 
 // -----------------------------начало драг-энд-дроп
 
-function processOnload(e){ 
+function processOnload(e){
 	var dragObjects = document.getElementById('dragObjects').getElementsByTagName('div')
     for(var i=0; i<dragObjects.length; i++) {
         new DragObject(dragObjects[i])
@@ -751,17 +751,28 @@ function showObject (element) {
 }
 
 function plusImage (elem) {
-	var i=document.getElementById('img'+elem);
-	var w=Math.max(i.offsetWidth,i.clientWidth);
-	if(w<1000){w=w+50;i.style.width=w+'px'}	
+	var i = document.getElementById('img' + elem),
+		w = Math.max(i.offsetWidth, i.clientWidth),
+		b1 = document.getElementById(elem + 'b1'),
+		b2 = document.getElementById(elem + 'b2');
+
+	b2.disabled = false
+
+	if (w < 650) { w = w + 50; i.style.width = w + 'px'; b1.disabled = false;}
+	else{b1.disabled=true}
 }
 
 function minusImage (elem) {
 	var i=document.getElementById('img'+elem);
-	var w=Math.max(i.offsetWidth,i.clientWidth);
-	if(w>200){w=w-50;i.style.width=w+'px'}
-}
+	var w = Math.max(i.offsetWidth, i.clientWidth),
+		b1 = document.getElementById(elem + 'b1'),
+		b2 = document.getElementById(elem + 'b2');
 
+	b1.disabled = false
+	
+	if (w > 320) { w = w - 50; i.style.width = w + 'px'; b2.disabled = false; }
+	else{b2.disabled=true}
+}
 
 var dragMaster = (function() {
 
