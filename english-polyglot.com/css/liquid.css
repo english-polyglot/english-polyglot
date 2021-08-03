@@ -470,7 +470,8 @@ div#gsc-iw-id1{/* padding:0; *//* border-radius:0 */}
 
 .border_donate_dynamic_block{border: 1px solid #ccc;padding:8px;border-radius:8px;margin:5px}
 
-
+nav h3, footer h3{font-size: 2em;}
+nav{padding-top: 45px;}
 
 
 
