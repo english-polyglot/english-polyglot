@@ -58,8 +58,8 @@ ul.nav a, ul.nav a:visited{display:block}
 .share_center{text-align:center;margin:60px auto 0 auto;overflow:auto;max-width:80%;padding:10px 20px;display:inline-block;width:auto}
 .share_center #share{margin:0 auto;display:table}
 .sub_bottom{height:43px}
-.dawn{text-align:center}
-.dawn form{padding:5px;display:inline-block;white-space:normal}
+.sub-horizontal{text-align:center;}
+.sub-horizontal form{padding:5px;display:inline-block;white-space:normal}
 .hz{padding:20px 30px}
 .hz2{padding:20px;text-align:center}
 .delitsa{text-align:center;display:inline-block}
@@ -69,7 +69,7 @@ input.subscribe_textieldpost{font-size:1.4em}
 input.subscribe_textieldpost{width:202px}
 .round form{padding-top:3%}
 input.subscribepost:hover,input.submit:hover{opacity:0.5}
-.history, .bottom-content, .sidebar_inner{margin:1em auto;max-width: 906px;}	
+.history, #subscribe, .sidebar_inner{margin:1em auto;max-width: 906px;}	
 .history h2{margin-bottom:10px;font-size:100%;padding:5px;font-weight:bold;margin-right:10px;margin-left:10px;text-align:center;text-transform:uppercase}
 .separator{font-size:150%;padding:15px 0 5px 0;margin:0 auto;font-weight:bold;text-align:center}	
 .clearfloat{clear:both;height:0;font-size:1px;line-height:0px}
@@ -225,8 +225,8 @@ ul.nav li{margin:1px 0}
 ul.nav a em{font-size:1.2em;display:block;font-style:normal;color:#ff8787}
 ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;border-radius:5px;text-align:right}
 ul.nav#new-back li{padding:0}
-.subscribe{margin: 30px auto 20px;max-width:200px;padding: 10px 10px 0;}
-.subscribe span{padding:0;font-weight:bold;text-align:center;font-size:1em;display: block;}
+.sub-vertical{margin: 30px auto 20px;max-width:200px;padding: 10px 10px 0;}
+.sub-vertical span{padding:0;font-weight:bold;text-align:center;font-size:1em;display: block;}
 .sub_top{border-top:none}
 .sub_bottom{border-bottom:none}
 .sub_col{width:72px;height: 420px;}
@@ -372,12 +372,12 @@ ul.notready li a{color:#7386C2}
 @-o-keyframes fadein{from{opacity:0}to{opacity:1}}
 
 /* background gray color theme */
-body,header,.sidebar,footer,.menu,ul.nav#new-back li,a.none,.dawn,.separator{background-color: #e0e0e0;/* background: black; */}
+body, header, #subscribe, footer, .menu, ul.nav#new-back li, a.none, .separator{background-color: #e0e0e0;/* background: black; */}
 .bb{background-color: #828282;}
 .menu ul li a:hover{color: #3e3939;background-color: #b17c7c;text-shadow: none;}
 .hh1{/* background-color:#caa9a9; */}
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color:#45568D}
-h1 span, .rr h2, .bb h3, .share_center, .hz2, .dawn form, .subscribe, footer h3, .separator{/* border-bottom: 1px solid #d9d9d9; *//* border-left: 1px solid #d9d9d9; *//* border-top: 1px solid #e3e3e3; *//* border-right: 1px solid #d9d9d9; */}
+h1 span, .rr h2, .bb h3, .share_center, .hz2, .sub-horizontal form, .sub-vertical, footer h3, .separator{/* border-bottom: 1px solid #d9d9d9; *//* border-left: 1px solid #d9d9d9; *//* border-top: 1px solid #e3e3e3; *//* border-right: 1px solid #d9d9d9; */}
 
 .delitsa,.okno,.sub_top,.donateButton,.donate_cap a{color:#212121}
 
@@ -553,7 +553,7 @@ ul.nav#new-back li{padding:20px 0;margin:0}
 .sub_center a:hover,.sub_center a:focus{background-position:center 64px}
 
 	
-.subscribe span,.sub_top,.delitsa,.okno{font-size:1.2em}
+.sub-vertical span,.sub_top,.delitsa,.okno{font-size:1.2em}
 
 .scroll-to-top{left:50%;margin-left:445px}
 .donateButton{position:fixed;border-radius:0.3rem;font-size:1rem;padding:10px;margin:0 auto;margin-left:-49%;z-index:4;width:330px}

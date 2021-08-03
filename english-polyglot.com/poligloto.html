@@ -238,57 +238,51 @@
         </div>
         <span id="dummy"></span>
     </main>
-    <section id="subscribe2">
-        <div class="second">
-            <div class="sidebar">
-                <div class="bottom-content">
-                    <div id="stop_content">
-                        <div class="dawn">
-                            <div class="share_center">
-                                <div id="share">
-                                    <a class="lkr-v" href="javascript:void(0)" onclick="return Share.go(this, 'vkontakte')"></a>
-                                    <a class="lkr-o" href="javascript:void(0)" onclick="return Share.go(this, 'odnoklassniki')"></a>
-                                    <a class="lkr-f" href="javascript:void(0)" onClick="return Share.go(this, 'facebook')"></a>
-                                    <a class="lkr-t" href="javascript:void(0)" onclick="return Share.go(this, 'twitter')"></a>
-                                    <a class="lkr-m" href="javascript:void(0)" onclick="return Share.go(this, 'mailru')"></a>
-                                </div>
-                                <div class="delitsa">
-                                    Поделитесь этой страничкой с друзьями!
-                                </div>
-                            </div>
-                            <div class="hz">
-                                <div class="hz2">
-                                    <div class="okno">Подпишитесь на рассылку сообщений о готовых  уроках и новых возможностях сайта
-                                    </div>
-                                    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=poliglott', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                                        <input name="email" type="text" value="Введите Ваш e-mail" class="subscribe_textieldpost" onfocus="if (this.value == 'Введите Ваш e-mail') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Введите Ваш e-mail'}" />
-                                        <input type="hidden" value="poliglott" name="uri" />
-                                        <input type="hidden" value="poliglott-narod" name="title" />
-                                        <input type="hidden" name="loc" value="ru_RU" />
-                                        <input type="image" class="subscribepost pixel" value="Subscribe" src="img/subscribe-button-4.png" alt="Subscribe button" title="Когда будет готов новый урок,  на вашу почту придет письмо" align="top" />
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+    <section id="subscribe">
+
+        <div class="sub-horizontal">
+            <div class="share_center">
+                <div id="share">
+                    <a class="lkr-v" href="javascript:void(0)" onclick="return Share.go(this, 'vkontakte')"></a>
+                    <a class="lkr-o" href="javascript:void(0)" onclick="return Share.go(this, 'odnoklassniki')"></a>
+                    <a class="lkr-f" href="javascript:void(0)" onClick="return Share.go(this, 'facebook')"></a>
+                    <a class="lkr-t" href="javascript:void(0)" onclick="return Share.go(this, 'twitter')"></a>
+                    <a class="lkr-m" href="javascript:void(0)" onclick="return Share.go(this, 'mailru')"></a>
+                </div>
+                <div class="delitsa">
+                    Поделитесь этой страничкой с друзьями!
+                </div>
+            </div>
+            <div class="hz">
+                <div class="hz2">
+                    <div class="okno">Подпишитесь на рассылку сообщений о готовых  уроках и новых возможностях сайта
                     </div>
-                    <div class="subscribe">
-                        <div class="sub_top">или</div>
-                        <div class="sub_top"><span>Подпишитесь</span> на рассылку в соцсетях</div>
-                        <div class="sub_center">
-                            <div class="sub_col">
-                                <a class="lkr-rss" href="https://feeds.feedburner.com/poliglott" rel="me nofollow" target="_blank"></a>
-                                <a class="lkr-f" href="https://www.facebook.com/poliglott" rel="me nofollow" target="_blank"></a>
-                                <a class="lkr-t" href="https://twitter.com/MrPoligloto" rel="me nofollow" target="_blank"></a>
-                                <a class="lkr-v" href="https://vk.com/poliglott" rel="me nofollow" target="_blank"></a>
-                                <a class="lkr-m" href="https://my.mail.ru/mail/poliglot.kultura2012/" rel="me nofollow" target="_blank"></a>
-                                <a class="lkr-o" href="https://ok.ru/mrpoligloto/statuses" rel="me nofollow" target="_blank"></a>
-                            </div>
-                        </div>
-                        <div class="sub_bottom"></div>
-                    </div>
+                    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=poliglott', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                        <input name="email" type="text" value="Введите Ваш e-mail" class="subscribe_textieldpost" onfocus="if (this.value == 'Введите Ваш e-mail') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Введите Ваш e-mail'}" />
+                        <input type="hidden" value="poliglott" name="uri" />
+                        <input type="hidden" value="poliglott-narod" name="title" />
+                        <input type="hidden" name="loc" value="ru_RU" />
+                        <input type="image" class="subscribepost pixel" value="Subscribe" src="img/subscribe-button-4.png" alt="Subscribe button" title="Когда будет готов новый урок,  на вашу почту придет письмо" align="top" />
+                    </form>
                 </div>
             </div>
         </div>
+        <div class="sub-vertical">
+            <div class="sub_top">или</div>
+            <div class="sub_top"><span>Подпишитесь</span> на рассылку в соцсетях</div>
+            <div class="sub_center">
+                <div class="sub_col">
+                    <a class="lkr-rss" href="https://feeds.feedburner.com/poliglott" rel="me nofollow" target="_blank"></a>
+                    <a class="lkr-f" href="https://www.facebook.com/poliglott" rel="me nofollow" target="_blank"></a>
+                    <a class="lkr-t" href="https://twitter.com/MrPoligloto" rel="me nofollow" target="_blank"></a>
+                    <a class="lkr-v" href="https://vk.com/poliglott" rel="me nofollow" target="_blank"></a>
+                    <a class="lkr-m" href="https://my.mail.ru/mail/poliglot.kultura2012/" rel="me nofollow" target="_blank"></a>
+                    <a class="lkr-o" href="https://ok.ru/mrpoligloto/statuses" rel="me nofollow" target="_blank"></a>
+                </div>
+            </div>
+            <div class="sub_bottom"></div>
+        </div>
+
         <button id="stt" class="scroll-to-top rotate"><a id="stt2" href="#top_doc" style="width:50px;height:50px;display:block"></a></button>
         <div id="dbt" class="donateButton">
             <div class="donate_cap">Пожалуйста, непремените помочь мне</div>
