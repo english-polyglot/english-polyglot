@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="ru">
+
+<head itemscope itemtype="http://schema.org/Article">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="../english-polyglot.com/apple-touch-icon.png?v=Kmng6z9J5E" />
+<link rel="icon" type="image/png" sizes="32x32" href="../english-polyglot.com/favicon-32x32.png?v=Kmng6z9J5E" />
+<link rel="icon" type="image/png" sizes="194x194" href="../english-polyglot.com/favicon-194x194.png?v=Kmng6z9J5E" />
+<link rel="icon" type="image/png" sizes="192x192" href="../english-polyglot.com/android-chrome-192x192.png?v=Kmng6z9J5E" />
+<link rel="icon" type="image/png" sizes="16x16" href="../english-polyglot.com/favicon-16x16.png?v=Kmng6z9J5E" />
+<link rel="manifest" href="../english-polyglot.com/site.webmanifest?v=Kmng6z9J5E" />
+<link rel="mask-icon" href="../english-polyglot.com/safari-pinned-tab.svg?v=Kmng6z9J5E" color="#5c5c5c" />
+<link rel="shortcut icon" href="../english-polyglot.com/favicon.ico?v=Kmng6z9J5E1" />
+<meta name="apple-mobile-web-app-title" content="Polyglot: English in 16 hours" />
+<meta name="application-name" content="Polyglot: English in 16 hours" />
+<meta name="msapplication-TileColor" content="#560909" />
+<meta name="msapplication-TileImage" content="../english-polyglot.com/mstile-144x144.png?v=Kmng6z9J5E" />
+<meta name="msapplication-config" content="browserconfig.xml"/>
+<meta name="msapplication-starturl" content="https://www.english-polyglot.com" />
+<meta name="theme-color" content="#560909" />
+
+<link rel="alternate" type="application/rss+xml" title="English in 16 hours" href="https://feeds.feedburner.com/poliglott" />
+
+<meta property="fb:app_id" content="107859652683773" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:site_name" content="Полиглот - выучим английский язык за 16 часов" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:site" content="@MrPoligloto" />
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta name="Keywords" content="Программа Полиглот, Выучим английский язык за 16 часов, Дмитрий Петров, Телеканал Культура" />
+
+<link rel="canonical" href="https://www.english-polyglot.com" />
+<meta property="og:url" content="https://www.english-polyglot.com" />
+
+<title>Полиглот - выучим английский язык за 16 часов</title>
+
+<meta property="og:title" itemprop="name" content="Полиглот - выучим английский язык за 16 часов" />
+
+<meta property="og:image:width" content="247" />
+<meta property="og:image:height" content="370" />
+<meta property="og:image" content="https://www.english-polyglot.com/img/dmitry-petrov-image-247x370.jpg" />
+<link itemprop="image" href="//www.english-polyglot.com/img/dmitry-petrov-image-247x370.jpg" />
+
+<meta name="Description" content="Полиглот - выучим английский язык за 16 часов" />
+<meta property="og:description" itemprop="description" content="Полиглот - выучим английский язык за 16 часов" />
+<!-- TemplateEndEditable -->
+
+<style>
+/*h1,*/h2,h3 {font-size:1em}
+.menu {font-size: 0.7em}
+.wrap_txt {font-size: 0.9em;float:none;margin:0 auto}
+
+@media(min-width: 388px) { .wrap_txt {padding-left:10px}}
+@media(min-width: 500px) { h2,h3 {font-size:1em} .menu {font-size: 0.8em}}
+@media(min-width: 600px) { ul.nav a, ul.nav a:visited {margin-right:5px} .nav-text, .fin {margin-right: 5px;border-right: 1px solid #B30024}}
+@media(min-width: 735px) { .wrap_txt {font-size:1.25em} }
+@media(min-width: 800px) { h2 {font-size:1.25em} h3 {font-size:1.1em} .menu {font-size: 0.85em}}
+.scroll-to-top,.donateButton{display:none}
+</style>
+<style id="pixelated"></style>
+<link href="../english-polyglot.com/css/liquid.css?v=Kmng6z9J5E" rel="stylesheet" type="text/css" />
+<!--<link href="../english-polyglot.com/css/red-placeholder.css" rel="stylesheet" type="text/css" />-->
+<style id="ambulance-trigger"></style>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!--<script type="text/javascript" src="../english-polyglot.com/js/ads.js"></script>-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    var copyPast = false;
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4595809153827928",
+        enable_page_level_ads: true
+    });
+</script>
+
+</head>
+
+<body oncopy="if(!copyPast){copyPast=true;alert('Пожалуйста, при копировании ставьте обратную ссылку на источник: '+'https://www.english-polyglot.com')}">
+
+    <!--Google Analitics don`t touch it`s asynchronous-->
+    <!-- #BeginLibraryItem "/Library/analitics+.lbi" -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55279793-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- #EndLibraryItem -->
+    <!--Google Analitics-->
+    <div id="top_doc" class="container">
+        <div class="container_inner">
+            <header>
+                <a href="/">
+                    <div class="ambulance">
+                        <h1 class="one-1">
+                            <div class="strip"></div>
+                            <div class="line_1_2">ПОЛИГЛОТ</div>
+                            <div class="line_3_4">Выучим АНГЛИЙСКИЙ ЯЗЫК ЗА 16 ЧАСОВ</div>
+                        </h1>
+                        <div class="hh1">
+                            <strong></strong>
+                        </div>
+                        <h3 class="two-2">
+                            <div class="strip"></div>
+                            <div class="line_1_2">Полиглот Дмитрий Петров</div>
+                            <div class="line_3_4">телеканал Культура Полиглот</div>
+                        </h3>
+
+                    </div>
+                </a>
+                <!-- TemplateBeginEditable name="header" -->
+				<!-- TemplateEndEditable -->
+                <div id="header" class="menu">
+                    <ul>
+                        <li><a id="m1" href="../english-polyglot.com/generator-fraz.html">Генератор фраз</a></li>
+                        <li><a id="m2" href="../english-polyglot.com/tablicy.html">Таблицы Полиглот</a></li>
+                        <li><a id="m3" href="../english-polyglot.com/filmy.html">Фрагменты фильмов</a></li>
+                        <li><a id="m4" href="#menu_uroki">16 Уроков Полиглот</a></li>
+                    </ul>
+                </div>
+                <!-- google search -->
+                <gcse:searchbox-only></gcse:searchbox-only>
+            </header>
+
+            <div class="first">
+              <div class="top-content"></div>
+                <div id="top_scroll" class="content">
+                    <div class="content_inner">
+                        <!-- TemplateBeginEditable name="urok-title" -->
+                        <!-- TemplateEndEditable -->
+
+                        <div id="prog1"></div>
+                        <div id="ad_1" class="ad_block">
+                            <!-- mobile-adaptive-17-11-2014 -->
+                            <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-client="ca-pub-4595809153827928"
+                                data-ad-slot="1257560926"
+                                data-ad-format="auto"></ins>
+                            <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+
+                        <!-- TemplateBeginEditable name="content" -->
+                        <!-- TemplateEndEditable -->
+                        <div id="prog2"></div>
+                        <div id="ad_2" class="ad_block">
+                            <!-- mobile-adaptive-17-11-2014 -->
+                            <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-client="ca-pub-4595809153827928"
+                                data-ad-slot="1257560926"
+                                data-ad-format="auto"></ins>
+                            <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+                        <!-- TemplateBeginEditable name="content2" -->
+                        <!-- TemplateEndEditable -->
+                        <div id="prog3"></div>
+                        <div id="ad_3" class="ad_block">
+                            <!-- mobile-adaptive-17-11-2014 -->
+                            <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-client="ca-pub-4595809153827928"
+                                data-ad-slot="1257560926"
+                                data-ad-format="auto"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+                        <!-- TemplateBeginEditable name="content3" -->
+                        <!-- TemplateEndEditable -->
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="second">
+                <div class="top-sidebar"></div>
+                <div class="sidebar">
+                    <div class="bottom-content">
+                        <div id="stop_content">
+                            <div class="dawn">
+                                <div class="share_center">
+                                    <div id="share">
+                                        <a class="lkr-v" href="javascript:void(0)" onclick="return Share.go(this, 'vkontakte')"></a>
+                                        <a class="lkr-o" href="javascript:void(0)" onclick="return Share.go(this, 'odnoklassniki')"></a>
+                                        <a class="lkr-f" href="javascript:void(0)" onClick="return Share.go(this, 'facebook')"></a>
+                                        <a class="lkr-t" href="javascript:void(0)" onclick="return Share.go(this, 'twitter')"></a>
+                                        <a class="lkr-m" href="javascript:void(0)" onclick="return Share.go(this, 'mailru')"></a>
+                                    </div>
+                                    <div class="delitsa">
+                                        Поделитесь этой страничкой с друзьями!
+                                    </div>
+                                </div>
+                                <div class="hz">
+                                    <div class="hz2">
+                                        <div class="okno">Подпишитесь на рассылку сообщений о готовых  уроках и новых возможностях сайта
+                                        </div>
+                                        <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=poliglott', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                                            <input name="email" type="text" value="Введите Ваш e-mail" class="subscribe_textieldpost" onfocus="if (this.value == 'Введите Ваш e-mail') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Введите Ваш e-mail'}" />
+                                            <input type="hidden" value="poliglott" name="uri" />
+                                            <input type="hidden" value="poliglott-narod" name="title" />
+                                            <input type="hidden" name="loc" value="ru_RU" />
+                                            <input type="image" class="subscribepost pixel" value="Subscribe" src="../english-polyglot.com/img/subscribe-button-4.png" alt="Subscribe button" title="Когда будет готов новый урок,  на вашу почту придет письмо" align="top" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subscribe">
+                            <div class="sub_top">или</div>
+                            <div class="sub_top"><span>Подпишитесь</span> на рассылку в соцсетях</div>
+                            <div class="sub_center">
+                                <div class="sub_col">
+                                    <a class="lkr-rss" href="https://feeds.feedburner.com/poliglott" rel="me nofollow" target="_blank"></a>
+                                    <a class="lkr-f" href="https://www.facebook.com/poliglott" rel="me nofollow" target="_blank"></a>
+                                    <a class="lkr-t" href="https://twitter.com/MrPoligloto" rel="me nofollow" target="_blank"></a>
+                                    <a class="lkr-v" href="https://vk.com/poliglott" rel="me nofollow" target="_blank"></a>
+                                    <a class="lkr-m" href="https://my.mail.ru/mail/poliglot.kultura2012/" rel="me nofollow" target="_blank"></a>
+                                    <a class="lkr-o" href="https://ok.ru/mrpoligloto/statuses" rel="me nofollow" target="_blank"></a>
+                                </div>
+                            </div>
+                            <div class="sub_bottom"></div>
+                        </div>
+                    </div>
+                    <div class="sidebar_inner">
+                        <ul id="new-back" class="nav">
+                            <li><a href="../english-polyglot.com/poligloto.html" title="Оставьте своё  пожелание">Обратная<br>
+                                связь</a></li>
+                        </ul>
+                        <h3><strong>16 уроков Полиглот:</strong></h3>
+                        <ul id="menu_uroki" class="nav" name="menu_uroki">
+                            <li><a id="a1" href="/">1 урок Полиглот<em>Базовая таблица глаголов Дмитрия Петрова</em></a></li>
+                            <li><a id="a2" href="../english-polyglot.com/urok-2.html">2 урок Полиглот<em>Соединяем местоимения и предлоги</em></a></li>
+                            <li><a id="a3" href="../english-polyglot.com/urok-3.html">3 урок Полиглот<em>Таблица глагола to be</em></a></li>
+                            <li><a id="a4" href="../english-polyglot.com/urok-4.html">4 урок Полиглот<em>Как сказать по-английски о себе</em></a></li>
+                            <li><a id="a5" href="../english-polyglot.com/urok-5.html">5 урок Полиглот<em>Прилагательные и промежутки времени в английском</em></a></li>
+                            <li><a id="a6" href="../english-polyglot.com/urok-6.html">6 урок Полиглот<em>Как поддержать диалог на английском</em></a></li>
+                            <li><a id="a7" href="../english-polyglot.com/urok-7.html">7 урок Полиглот<em>Упрощенная таблица глаголов</em></a></li>
+                            <li><a id="a8" href="../english-polyglot.com/urok-8.html">8 урок Полиглот<em>Предлоги места и направления</em></a></li>
+                            <li><a id="a9" href="../english-polyglot.com/urok-9.html">9 урок Полиглот<em>Четыре истории на английском</em></a></li>
+                            <li><a id="a10" href="../english-polyglot.com/urok-10.html">10 урок Полиглот<em>За кулисами культурной жизни</em></a></li>
+                        </ul>
+                        <ul class="nav notready">
+                            <li><a id="a11" href="javascript: void(0)" title="Извините, материалы  готовятся к публикации">11 урок Полиглот</a></li>
+                            <li><a id="a12" href="javascript: void(0)" title="Извините, материалы  готовятся к публикации">12 урок Полиглот</a></li>
+                            <li><a id="a13" href="javascript: void(0)" title="Извините, материалы  готовятся к публикации">13 урок Полиглот</a></li>
+                            <li><a id="a14" href="javascript: void(0)" title="Извините, материалы  готовятся к публикации">14 урок Полиглот</a></li>
+                            <li><a id="a15" href="javascript: void(0)" title="Извините, материалы  готовятся к публикации">15 урок Полиглот</a></li>
+                            <li><a id="a16" href="javascript: void(0)" title="Извините, материалы  готовятся к публикации">16 урок Полиглот</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-sidebar"></div>
+            </div>
+            <button id="stt" class="scroll-to-top rotate"><a id="stt2" href="#top_doc" style="width:50px;height:50px;display:block"></a></button>
+            <div id="dbt" class="donateButton">
+                <div class="donate_cap">Пожалуйста, непремените помочь мне</div>
+                <a href="../english-polyglot.com/donate.html">
+                    <img style="width:100%" class="lazyload" data-src="img/pomosh.gif" alt="Помощь сайту" />
+                </a>
+                <div class="donate_cap">
+                    &nbsp;<a style="color:#0000FF" href="../english-polyglot.com/donate.html">Здесь</a> одна из причин зачем.
+                </div>
+                <div class="border_donate_dynamic_block">
+                    <div><img class="lazyload" src="img/qiwi.png"  alt="qiwi logo png" />
+                    </div>
+                    <form  id="qiwi"><a href="https://my.qiwi.com/Pavel-PUqPuVvSYx">Помощь сайту</a>
+                    </form>
+                </div>
+                <div class="border_donate_dynamic_block">
+                    <div><img id="yan-dengi_img" class="lazyload" data-src="img/umoney.png" alt="umoney logo png" /></div>
+                    <form id="yandex-dengi" method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                        <input type="hidden" name="receiver" value="41001681930150" />
+                        <input type="hidden" name="formcomment" value="Полиглот английский за 16 часов" />
+                        <input type="hidden" name="short-dest" value="Полиглот английский за 16 часов" />
+                        <input type="hidden" name="label" value="$order_id" />
+                        <input type="hidden" name="quickpay-form" value="donate" />
+                        <input type="hidden" name="targets" value="транзакция {order_id}" />
+                        <input class="sum" type="number" name="sum" data-type="number" placeholder="Сумма"  autocomplete="on" size="7" /> <strong> руб</strong>
+                        <input type="hidden" name="comment" value="Поддержка проекта" />
+                        <input type="hidden" name="need-fio" value="false" />
+                        <input type="hidden" name="need-email" value="false" />
+                        <input type="hidden" name="need-phone" value="false" />
+                        <input type="hidden" name="need-address" value="false" />
+                        <input class="submit" type="submit" value="Оплатить" />
+                        <!--<input type="image" class="submit pixel" value="Оплатить" src="../english-polyglot.com/img/oplatit-button-1.png" alt="Кнопка оплатить"/>-->
+
+                        <label><input type="radio" name="paymentType" value="AC" checked />Банковской картой</label>
+                        <label><input type="radio" name="paymentType" value="MC" />C баланса мобильного</label>
+                        <label><input type="radio" name="paymentType" value="PC" />Со счета Юмани</label>
+                    </form>
+                </div>
+                <div class="border_donate_dynamic_block">
+                    <div><img id="paypal_img" class="lazyload" data-src="img/paypal-logo-04.05.2016.png" alt="paypal logo png" /></div>
+                    <form id="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="ATYY6CHJYAW5W" />
+                        <input type="hidden" name="item_name" value="www.english-polyglot.com" />
+                        <input type="image" class="submit" src="../english-polyglot.com/img/btn_donate_LG.gif" border="0" name="submit" alt="Donate button" />
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <h3>Полиглот английский язык за 16 часов</h3>
+            </footer>
+            <!-- TemplateBeginEditable name="footer" -->
+            <!-- TemplateEndEditable -->
+        </div>
+        <span id="dummy"></span>
+    </div>
+    <div class="extra"></div>
+    <script src="../english-polyglot.com/js/lazysizes.min.js" async></script>
+    <script src="../english-polyglot.com/js/all.js" type="text/javascript" async></script>
+    <script src="../english-polyglot.com/js/init.js" type="text/javascript" async></script>
+    <!-- Images End -->
+</body>
+
+
+<!--<script type="text/javascript" src="../english-polyglot.com/js/modal.js"></script>-->
+<!-- TemplateBeginEditable name="Script" -->
+<!-- TemplateEndEditable -->
+
+<!--<script>
+
+if(typeof blockAdBlock === 'undefined') {
+    adBlockDetected();
+} else {
+    blockAdBlock.onDetected(adBlockDetected);
+}
+
+</script>-->
+
+<style>.scroll-to-top,.donateButton{display:block}</style>
+</html>
