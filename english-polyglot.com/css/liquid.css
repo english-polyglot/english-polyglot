@@ -6,7 +6,7 @@ h1, .hh1, h2, h3{margin:0}
 h1,.hh1, h2, h3, h4, h5, h6, p{margin-top:0;padding-right:15px;padding-left:15px}
 h1, header h2 strong, h3, h4, h5, h6{text-transform:uppercase;font-stretch:condensed;/* text-align:center; */font-family: monospace;}
 h1, .hh1, header h2{text-align:center;font-size: 1.3em;line-height:100%;font-weight:100;font-family:'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;}
-h2, h3, h4, ul.nav li em, .cond,.wrap_txt_center{font-family:"Raleway script=all rev=9","Adobe Blank";/* font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif; */}
+h2, h3, h4, ul.nav li em, .cond,.wrap_txt_center{/* font-family:"Raleway script=all rev=9","Adobe Blank"; *//* font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif; */}
 .hh1, h4{font-weight:600}
 h1, h2, h3{font-weight:100;font-style:normal}
 h2{font-size: 25px;/* font-family: monospace; */background: #bf9d9d;text-transform: uppercase;padding: 20px;}
@@ -69,7 +69,7 @@ input.subscribe_textieldpost{font-size:1.4em}
 input.subscribe_textieldpost{width:202px}
 .round form{padding-top:3%}
 input.subscribepost:hover,input.submit:hover{opacity:0.5}
-.history, nav ul, nav h3{margin: 0 auto;max-width: 906px;}	
+.history, nav ul li, nav h3{margin: 0 auto;max-width: 906px;}	
 .history h2{margin-bottom:10px;font-size:100%;padding:5px;font-weight:bold;margin-right:10px;margin-left:10px;text-align:center;text-transform:uppercase}
 .separator{font-size:150%;padding:15px 0 5px 0;margin:0 auto;font-weight:bold;text-align:center}	
 .clearfloat{clear:both;height:0;font-size:1px;line-height:0px}
@@ -201,7 +201,7 @@ form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 0deg
  ,#560909,#000000);}
 .menu ul li{margin-bottom:1px;width:100%}
-.menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;width:100%;border-radius: 0 0 5px 5px;font-size: 1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;}
+.menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;width:100%;border-radius: 0 0 15px 15px;font-size: 1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;}
 #uroki{display:block}
 
 .video_center{margin:0;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both}
@@ -221,9 +221,9 @@ figcaption{margin:0.9em auto 0.5em auto;color:#333;font-size:0.9em;max-width:95%
 
 #header ul,ul.nav{/* margin-top:1px; */}
 #header ul{max-width: 906px;margin: 0 auto;}
-ul.nav li{margin: 1px 0 0;}
-ul.nav a em{font-size:1.2em;display:block;font-style:normal;color:#ff8787}
-ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;border-radius:5px;text-align:right}
+ul.nav li{margin: 5px auto 0 auto;}
+ul.nav a em{font-size: 0.9em;display:block;font-style:normal;color:#ff8787;}
+ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;/* border-radius:5px; */text-align:right;}
 ul.nav#new-back li{padding:0}
 .sub-vertical{margin: 0 auto;max-width:200px;padding: 10px 10px 20px;}
 .sub-vertical span{padding:0;font-weight:bold;text-align:center;font-size:1em;display: block;}
@@ -254,12 +254,12 @@ img#donate_img{/* width:100%; *//* padding:0; *//* margin: 0 auto; *//* display:
 /*div#header{margin-top:-1px}*/
 
 /*menu's color themes*/
-.menu ul li a{/* background-color: #cab2b2; */background-color: #7f0505;/* bac;/* background-image: linear-gradient(
+.menu ul li a{/* background-color: #cab2b2; *//* background-color: #7f0505; *//* bac;/* background-image: linear-gradient(
 118deg
-,#560909,#1b0000); */background: black;/* background-image: radial-gradient(circle,#560909,#420505); */border-top: 1px solid #710a0a;}
+,#560909,#1b0000); */background: black;/* background-image: radial-gradient(circle,#560909,#420505); */border-top: 1px solid #460101;}
 h6{background-color:#F7D9D9;color:#800000}
 h5{background-color:#800000;color:#F7D9D9}
-ul.nav a,ul.nav a:visited{background-color:#1e3f92}
+ul.nav a,ul.nav a:visited{background-color: #000000;}
 ul.nav a,ul.nav a:visited{color:#E5E5E5;text-shadow:1px 1px 1px #252525}
 .menu ul li a{color: #a9a9a9;/* color: black; *//* text-shadow:1px 1px 1px #252525; */}
 .menu ul li a:hover{/* color: #560909; */}
@@ -375,9 +375,9 @@ ul.notready li a{color:#7386C2;/* margin: 1px 0 0; */}
 body{background-color: #e0e0e0;/* background: black; */}
 .bb{background-color: #828282;}
 #subscribe, #lessons, #feed {background-color: black;color: #caadad;}
-.menu ul li a:hover{color: #3e3939;background-color: #b17c7c;text-shadow: none;}
+.menu ul li a:hover{color: #000000;background-color: #b17c7c;text-shadow: none;}
 .hh1{/* background-color:#caa9a9; */}
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color:#45568D}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color: #6d5858;}
 h1 span, .rr h2, .bb h3, .share_center, .hz2, .sub-horizontal form, .sub-vertical, footer h3, .separator{/* border-bottom: 1px solid #d9d9d9; *//* border-left: 1px solid #d9d9d9; *//* border-top: 1px solid #e3e3e3; *//* border-right: 1px solid #d9d9d9; */}
 
 .delitsa,.okno,.sub_top,.donateButton,.donate_cap a{/* color:#212121; */}
@@ -474,7 +474,9 @@ nav h3, footer h3{font-size: 2em;}
 nav{padding-top: 45px;}
 .fire {padding:10px 20px;height:60px;background-image:linear-gradient(180deg,#560909,#000000);}
 
-
+#lessons ul li a{border-top: 1px solid #460101;font-family: monospace;text-transform: uppercase;font-size: 1.5em;border-radius: 0 0 5px 5px;}
+#lessons #menu_uroki{background-image: linear-gradient(0deg,#560909,#000000);padding-bottom: 5px;}
+#lessons .notready{background-image: linear-gradient(179deg,#560909,#000000);margin-top: -5px;}
 
 
 @media(min-width:240px){.lp{padding-left:10px}}
