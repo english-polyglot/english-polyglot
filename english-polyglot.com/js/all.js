@@ -1140,7 +1140,9 @@ function change_table(table){
 
 		to_bottom.addEventListener("click",function(e){
 			e.stopPropagation();
-			scrollTo(document.getElementById('top_scroll').offsetHeight)
+			var i = document.getElementById('top_doc').offsetHeight + document.getElementById('subscribe').offsetHeight + document.getElementById('non-header').offsetHeight
+			console.log(i)
+			scrollTo(i)
 		},false);
 
 		// stop animation on wheel scroll down
