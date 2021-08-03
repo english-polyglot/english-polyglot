@@ -74,7 +74,7 @@ input.subscribepost:hover,input.submit:hover{opacity:0.5}
 .separator{font-size:150%;padding:15px 0 5px 0;margin:0 auto;font-weight:bold;text-align:center}	
 .clearfloat{clear:both;height:0;font-size:1px;line-height:0px}
 .ad_block{overflow:hidden;padding-bottom:1px;text-align:center}
-.wrap_txt{letter-spacing:0.01em;word-spacing:normal;text-align:justify;padding:0 8px;line-height:1.7;}
+.wrap_txt{letter-spacing:0.01em;word-spacing:normal;text-align:justify;padding:0 8px;line-height:1.7;font-size: 20px;}
 .wrap_txt_center{letter-spacing:0.01em;margin:0.5em auto 1em auto;text-align:center;font-size:1.2em}
 .wrap_img .video_center .wrap_txt_center{margin-bottom:0}
 .wrap_txt li{text-indent:5px;list-style-type:none;margin:5px 0;text-align:left}
@@ -201,7 +201,7 @@ form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 0deg
  ,#560909,#000000);}
 .menu ul li{margin-bottom:1px;width:100%}
-.menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;width:100%;border-radius:5px;font-size:1.7em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;}
+.menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;width:100%;border-radius: 0 0 5px 5px;font-size: 1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;}
 #uroki{display:block}
 
 .video_center{margin:0;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both}
@@ -256,7 +256,7 @@ img#donate_img{/* width:100%; *//* padding:0; *//* margin: 0 auto; *//* display:
 /*menu's color themes*/
 .menu ul li a{/* background-color: #cab2b2; */background-color: #7f0505;/* bac;/* background-image: linear-gradient(
 118deg
-,#560909,#1b0000); */background: black;/* background-image: radial-gradient(circle,#560909,#420505); */border-top: 1px solid #4a0808;}
+,#560909,#1b0000); */background: black;/* background-image: radial-gradient(circle,#560909,#420505); */border-top: 1px solid #710a0a;}
 h6{background-color:#F7D9D9;color:#800000}
 h5{background-color:#800000;color:#F7D9D9}
 ul.nav a,ul.nav a:visited{background-color:#1e3f92}
