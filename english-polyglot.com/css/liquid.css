@@ -40,7 +40,6 @@ a:hover, a:active, a:focus{text-decoration:none}
 .flash{padding-bottom:51.7%;padding-top:4.35%;margin:0;text-align:center}
 .embed-container iframe,.embed-container object,.embed-container embed,.embed-container video, .embed-container img{position:absolute;top:0;left:0;bottom:0;right:0;margin:0 auto;width:100%;height:100%;padding-right:1px}
 .menu ul li{display:inline-block}
-.menu ul li a{float:left}	
 ul.nav li{list-style-type:none}
 ul.nav a, ul.nav a:visited{display:block}
 .sub_top{text-align:center;line-height:normal;padding:10px 0;}
@@ -201,7 +200,7 @@ form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 0deg
  ,#560909,#000000);}
 .menu ul li{margin-bottom:1px;width:100%}
-.menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;width:100%;border-radius: 0 0 15px 15px;font-size: 1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;}
+.menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;/* width:100%; */border-radius: 0 0 15px 15px;font-size: 1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;margin: 3px 5px;display: block;}
 #uroki{display:block}
 
 .video_center{margin:0;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both}
@@ -589,6 +588,8 @@ input.subscribepost:hover{opacity:0.9}
 .menu ul li a{border-radius: 0 0 16px;}
 
 .embed-container.flash {border-radius: 15px 0}	
+
+.menu ul li a{float:left;margin: 3px 5px;display: block;width: 100%;}
 	
 }
 
