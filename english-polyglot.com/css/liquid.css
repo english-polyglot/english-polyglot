@@ -259,7 +259,7 @@ img#donate_img{/* width:100%; *//* padding:0; *//* margin: 0 auto; *//* display:
 h6{background-color:#F7D9D9;color:#800000}
 h5{background-color:#800000;color:#F7D9D9}
 ul.nav a,ul.nav a:visited{background-color: #000000;}
-ul.nav a,ul.nav a:visited{color:#E5E5E5;text-shadow:1px 1px 1px #252525}
+ul.nav a,ul.nav a:visited{color: #ababab;/* text-shadow:1px 1px 1px #252525; */}
 .menu ul li a{color: #a9a9a9;/* color: black; *//* text-shadow:1px 1px 1px #252525; */}
 .menu ul li a:hover{/* color: #560909; */}
 /*ul.nav a,ul.nav a:visited{border-bottom:1px solid #4B5D97}*/
@@ -376,7 +376,7 @@ body{background-color: #e0e0e0;/* background: black; */}
 #subscribe, #lessons, #feed {background-color: black;color: #caadad;}
 .menu ul li a:hover{color: #000000;background-color: #b17c7c;text-shadow: none;}
 .hh1{/* background-color:#caa9a9; */}
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color: #6d58585c;}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus{color: #C4C4C4;background-color: #482e2e;}
 h1 span, .rr h2, .bb h3, .share_center, .hz2, .sub-horizontal form, .sub-vertical, footer h3, .separator{/* border-bottom: 1px solid #d9d9d9; *//* border-left: 1px solid #d9d9d9; *//* border-top: 1px solid #e3e3e3; *//* border-right: 1px solid #d9d9d9; */}
 
 .delitsa,.okno,.sub_top,.donateButton,.donate_cap a{/* color:#212121; */}
@@ -542,7 +542,7 @@ input#gsc-i-id1::placeholder{font-size:0.8em;color:#9e9e9e}
 h5{background-color:#800000;color:#F7D9D9}
 	
 .menu ul li a:hover{/* color: #ca4545; */}
-ul.notready li a:hover{background-color: #00000026;color:#E3E3E3;}	
+ul.notready li a:hover{background-color: #00000026;color: #797979;}	
 
 .content{/* float:left */}
 
