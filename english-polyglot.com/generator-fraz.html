@@ -139,7 +139,7 @@
 	</div>
     <br />
 		<ol data-role="listview" data-icon="false">
-			<li><a id="polyglotHome" href="javascript:void(0)" data-role="button" data-ajax="false" data-icon="home" onclick="if(window.opener){window.close()}else{window.location='/'}"><strong>Уроки Полиглот</strong></a></li>
+			<li><a id="polyglotHome" href="javascript:void(0)" data-role="button" data-ajax="false" data-icon="home" onclick="if(window.opener && window.opener.opener){window.close()}else{window.location='/'}"><strong>Уроки Полиглот</strong></a></li>
         </ol>
 
 </div>
