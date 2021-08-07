@@ -9,7 +9,7 @@ h1, .hh1, header h2{text-align:center;font-size: 1.3em;line-height:100%;font-wei
 h2, h3, h4, ul.nav li em, .cond,.wrap_txt_center{/* font-family:"Raleway script=all rev=9","Adobe Blank"; *//* font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif; */}
 .hh1, h4{font-weight:600}
 h1, h2, h3{font-weight:100;font-style:normal}
-h2{font-size: 25px;/* font-family: monospace; */background: #bf9d9d;text-transform: uppercase;padding: 20px;}
+h2{font-size: 25px;/* font-family: monospace; */background: #bf9d9d;text-transform: uppercase;padding: 20px;margin-bottom: 20px;}
 .bb,.rr {/* text-align:center; *//* margin:5% 1%; *//* border-radius:5px; *//* padding: 45px; */position:relative;font-family: monospace;}
 .bb h2{font-size:1.6em;margin:0 auto;z-index:1;position:relative}
 /*.rr h2{font-size:1.5em;border-width:10px}*/
@@ -121,7 +121,7 @@ a.blue{padding:0 2px;font-variant:small-caps}
 .black{font-size:75%;border-radius:0;margin:0;margin-top:5px;padding:2%;font-weight:600}
 a.green{padding:2px 2px 3px 2px;}
 a.red-border,a.black-stroke,a.green,a.blue,a.red{border-radius:3px;font-family:sans-serif}
-a.black-stroke{padding:0 5px;font-weight:900;font-style:normal;/* font-style: oblique; */font-family: cursive;word-spacing: -0.2em;letter-spacing: 1px;}
+a.black-stroke{padding:0 5px;font-weight:900;font-style:normal;font-style: oblique;/* font-family: cursive; */word-spacing: -0.2em;letter-spacing: 1px;}
 a.cursive_oblique{/* font-style:oblique; *//* font-family:cursive; */}
 a.red-border{padding:3px;font-weight:600;font-style:italic;font-variant:small-caps;border-radius:5px}
 
@@ -203,7 +203,7 @@ form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 .menu ul li a{font-family: 'Adelle W01 Bold','Arvo',Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;font-family: monospace;text-transform: uppercase;font-stretch: condensed;text-align: center;/* font-size: small; */border-bottom:none;border-left:none;/* width:100%; */border-radius: 0 0 15px 15px;font-size: 1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;text-shadow:none;padding:25px 9px;margin: 3px 5px;display: block;}
 #uroki{display:block}
 
-.video_center{margin:0;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both}
+.video_center{margin-top: 20px;text-align:center;overflow-x:auto;overflow-y:hidden;clear:both;}
 .video_center>div{overflow-x:auto;overflow-y:hidden}
 .video_center img{max-width: 100%;height:auto;vertical-align:middle;}
 
@@ -551,7 +551,7 @@ ul.notready li a:hover{background-color: #00000026;color: #797979;}
 .menu{font-size:18px;padding: 0;}
 .menu ul li{width:auto;margin-left:-1px;margin-right: -2px;/* margin: 0; */}
 .menu ul li a{padding: 16px 12px 16px 12px;border-radius:0;font-size:inherit;}
-.video_center{text-align:center;margin:0 10px}	
+.video_center{text-align:center;/* margin: 10px; */}	
 
 ul.nav#new-back li{padding:20px 0;margin:0}
 
