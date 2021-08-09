@@ -218,8 +218,8 @@ figcaption{margin:0.9em auto 0.5em auto;color:#333;font-size:0.9em;max-width:95%
 .sidebar{width:100%;font-size:initial;margin-left:0}
 #lessons{border-left:none;border-top:none}
 
-#header ul,ul.nav{/* margin-top:1px; */}
-#header ul{max-width: 906px;margin: 0 auto;}
+#top-menu ul,ul.nav{/* margin-top:1px; */}
+#top-menu ul{max-width: 906px;margin: 0 auto;}
 ul.nav li{margin: 5px auto 0 auto;}
 ul.nav a em{font-size: 0.9em;display:block;font-style:normal;color: #ab6969;}
 ul.nav a, ul.nav a:visited{text-shadow:none;border-bottom:none;padding:25px 15px 25px 0;/* border-radius:5px; */text-align:right;}
@@ -250,7 +250,7 @@ img#donate_img{/* width:100%; *//* padding:0; *//* margin: 0 auto; *//* display:
 
 .text_right{text-align:right}
 
-/*div#header{margin-top:-1px}*/
+/*div#top-menu{margin-top:-1px}*/
 
 /*menu's color themes*/
 .menu ul li a{/* background-color: #cab2b2; *//* background-color: #7f0505; *//* bac;/* background-image: linear-gradient(
