@@ -1101,105 +1101,105 @@ function change_table(table){
 	}
 
 
-//---------------начало скроллинга
+// ---------------начало скроллинга
 
-// 	var to_top=document.getElementById('stt'),
-// 		to_bottom=document.getElementById('m4'),
-// 		don_btn=document.getElementById('dbt'),
-// 		stop_scroll=0,
-// 		curentScrollTop,
-// 		position=document.documentElement.scrollTop || document.body.scrollTop;
+	var	to_top = document.getElementById('stt'),
+		// to_bottom=document.getElementById('m4'),
+		don_btn=document.getElementById('dbt'),
+		stop_scroll=0,
+		curentScrollTop,
+		position=document.documentElement.scrollTop || document.body.scrollTop;
 
-// 		document.getElementById("m4").href="javascript:void(0)"
+		// document.getElementById("m4").href="javascript:void(0)"
 
-// 		to_top.innerHTML='';
-// 		to_top.className="scroll-to-top fixed-hidden";
-// 		don_btn.className="donateButton fixed-hidden2";
+		// to_top.innerHTML='';
+		to_top.className="scroll-to-top fixed-hidden";
+		don_btn.className="donateButton fixed-hidden2";
 
-// 		window.addEventListener("scroll",function(){
-// 			curentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
-// 		},false);
+		window.addEventListener("scroll",function(){
+			curentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
+		},false);
 
-// 		to_top.addEventListener("click",function(e){
-// 			e.stopPropagation();
-// 			(function scrollAnimate(){
-// 				if (curentScrollTop>0 && !stop_scroll) {
-// 					//scrollTo(0);
-// 					setTimeout(function(){
-// 						window.scrollBy(0,(-Math.abs(curentScrollTop)/20));
-// 						scrollAnimate();
-// 					},10);
-// 				}
-// 			})()
-// 		},false);
+		// to_top.addEventListener("click",function(e){
+		// 	e.stopPropagation();
+		// 	(function scrollAnimate(){
+		// 		if (curentScrollTop>0 && !stop_scroll) {
+		// 			//scrollTo(0);
+		// 			setTimeout(function(){
+		// 				window.scrollBy(0,(-Math.abs(curentScrollTop)/20));
+		// 				scrollAnimate();
+		// 			},10);
+		// 		}
+		// 	})()
+		// },false);
 
-// 		to_top.addEventListener("dblclick",function(e){
-// 			document.body.scrollTop=0;
-// 			document.documentElement.scrollTop=0;
-// 		},false);
+		// to_top.addEventListener("dblclick",function(e){
+		// 	document.body.scrollTop=0;
+		// 	document.documentElement.scrollTop=0;
+		// },false);
 
-// 		to_bottom.addEventListener("click",function(e){
-// 			e.stopPropagation();
-// 			var i = document.getElementById('top_doc').offsetHeight + document.getElementById('non-header').offsetHeight
-// 			console.log(i)
-// 			scrollTo(i)
-// 		},false);
+		// to_bottom.addEventListener("click",function(e){
+		// 	e.stopPropagation();
+		// 	var i = document.getElementById('top_doc').offsetHeight + document.getElementById('non-header').offsetHeight
+		// 	console.log(i)
+		// 	scrollTo(i)
+		// },false);
 
-// 		// stop animation on wheel scroll down
-// 		window.addEventListener("wheel", function(e) {
-// 			if (e.deltaY > 0) {
-// 				stop_scroll=1;
-// 				setTimeout(function(){stop_scroll=0},200)
-// 			}
-// 		},false);
+		// stop animation on wheel scroll down
+		// window.addEventListener("wheel", function(e) {
+		// 	if (e.deltaY > 0) {
+		// 		stop_scroll=1;
+		// 		setTimeout(function(){stop_scroll=0},200)
+		// 	}
+		// },false);
 
-// function scrollTo(e){var h=document.documentElement;if(h.scrollTop===0){var t=h.scrollTop;++h.scrollTop;h=t+1===h.scrollTop--?h:document.body;}scrollToX(h,h.scrollTop,e,0)}function scrollToX(e,a,b,t){if(t<0||t>1)return;k=t-1;e.scrollTop=a-(a-b)*(k*k*k+1);t+=0.001*20;setTimeout(function(){scrollToX(e,a,b,t)},20)}
+function scrollTo(e){var h=document.documentElement;if(h.scrollTop===0){var t=h.scrollTop;++h.scrollTop;h=t+1===h.scrollTop--?h:document.body;}scrollToX(h,h.scrollTop,e,0)}function scrollToX(e,a,b,t){if(t<0||t>1)return;k=t-1;e.scrollTop=a-(a-b)*(k*k*k+1);t+=0.001*20;setTimeout(function(){scrollToX(e,a,b,t)},20)}
 
-// var JD = {};
+var JD = {};
 
-// JD.debounce = function( wait, func, immediate) {
-// 	var timeout;
-// 	return function() {
-// 		var context = this,
-// 			args = arguments;
-// 		var later = function() {
-// 			timeout = null;
-// 			if ( !immediate ) {
-// 				func.apply(context, args);
-// 			}
-// 		};
-// 		var callNow = immediate && !timeout;
-// 		clearTimeout(timeout);
-// 		timeout = setTimeout(later, wait || 200);
-// 		if ( callNow ) { 
-// 			func.apply(context, args);
-// 		}
-// 	};
-// };
+JD.debounce = function( wait, func, immediate) {
+	var timeout;
+	return function() {
+		var context = this,
+			args = arguments;
+		var later = function() {
+			timeout = null;
+			if ( !immediate ) {
+				func.apply(context, args);
+			}
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait || 200);
+		if ( callNow ) { 
+			func.apply(context, args);
+		}
+	};
+};
 
-// JD.lastName=function(){
+JD.lastName=function(){
 
-// 	if(curentScrollTop>1200){
-// 		to_top.className="scroll-to-top rotate";
-// 	}else{
-// 		to_top.className="scroll-to-top fixed-hidden";
-// 	}
+	if(curentScrollTop>1200){
+		to_top.className="scroll-to-top rotate";
+	}else{
+		to_top.className="scroll-to-top fixed-hidden";
+	}
 
-// 	var scrollHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
+	var scrollHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
 
-// 	if ((curentScrollTop+window.innerHeight+300)>=scrollHeight){
-// 		don_btn.className="donateButton left50";
-// 	}else{
-// 		don_btn.className="donateButton fixed-hidden2";
-// 	}
+	if ((curentScrollTop+window.innerHeight+300)>=scrollHeight){
+		don_btn.className="donateButton left50";
+	}else{
+		don_btn.className="donateButton fixed-hidden2";
+	}
 
-// 	if(curentScrollTop>position){
-// 		stop_scroll=1;
-// 		setTimeout(function(){stop_scroll=0},200)
-// 	}
-// 	position=curentScrollTop;
+	if(curentScrollTop>position){
+		stop_scroll=1;
+		setTimeout(function(){stop_scroll=0},200)
+	}
+	position=curentScrollTop;
 
-// }
+}
 
 
-// 	window.addEventListener("scroll",JD.debounce(250,JD.lastName));
+	window.addEventListener("scroll",JD.debounce(250,JD.lastName));
