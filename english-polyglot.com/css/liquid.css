@@ -490,7 +490,7 @@ nav{/* padding-top: 45px; */}
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width: 527px;}input.subscribe_textieldpost{width:250px}}
 @media(min-width:425px){nav h3, footer h3{font-size: 1.75em;}.border_donate{width:360px}.line_3_4{font-size: 1em;}.ambulance:hover .strip{height: 62px;}.ambulance:hover .two-2 .line_3_4{font-size: 1em;}.ambulance:hover .hh1::before{height: 70px;}.ambulance:hover .hh1::after{width: 70px;}.hh1{height:175px}.strip{height: 47px;}.line_1_2,.ambulance:hover .two-2 .line_1_2{font-size: 2em;}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{width: 175px;}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width: 100%;/* float: right; *//* padding: 0 20px; */padding: 0;}}
 
-@media(min-width:616px){.scroll-to-top{bottom:20px}}
+@media(min-width:616px){.scroll-to-top{bottom: 100px;}}
 @media(min-width:768px){
 nav h3, footer h3{font-size: 2em;}
 h2 span{font-size:90%}
