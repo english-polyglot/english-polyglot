@@ -407,7 +407,7 @@ h4 {/* background-color:#212121; *//* color:#eee; */background: #e0b3b3;}
 
 h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
 
-.hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 9px;height: 100%;/* background-color: #a30000; *//* background: #e0b9b9; */transform: translate(-50%);background-image: radial-gradient(circle,#a30000,#560909);}
+.hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 9px;height: 98%;/* background-color: #a30000; *//* background: #e0b9b9; */transform: translate(-50%,1%);background-image: radial-gradient(circle,#a30000,#560909);}
 .hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;/* background-color: #a30000; *//* background: #e0b9b9; */transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#560909);}
 .hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;width: 90%;border-radius:6px;border: 1px solid #a3010166;}
 
@@ -447,14 +447,14 @@ header{position:relative;/* padding: 1px 0; *//* padding-bottom: 1px; */}
 .two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;margin-top: -100px;}
 
 .line_3_4{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;/* color: black; */font-weight: 100;font-size: 0.6em;/* text-shadow: 0 0 2px #000000; *//* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
-.line_1_2{/* font-size: 0.5em; */font-size: 1.7em;/* font-weight:600; */color: #eeeeee;/* color: #29060c; *//* text-shadow: 0 0 4px #000000; *//* text-shadow: 0 0 3px #ffffff; *//* color: black; */padding-bottom:4px;padding-top:1px;}
+.line_1_2{/* font-size: 0.5em; */font-size: 1.5em;/* font-weight:600; */color: #eeeeee;/* color: #29060c; *//* text-shadow: 0 0 4px #000000; *//* text-shadow: 0 0 3px #ffffff; *//* color: black; */padding-bottom:4px;padding-top:1px;}
 .two-2 #line_1_2{margin-top:-100px}
 .ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;margin-top:0;}
 .ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;text-shadow: 1px 1px 2px transparent}
-.strip{height: 31px;margin-top: 20px;}
-.ambulance:hover .two-2 .line_1_2{font-size: 1.2em;word-spacing: -0.3em;}
+.strip{height: 51px;}
+.ambulance:hover .two-2 .line_1_2{font-size: 1.2em;word-spacing: -0.3em;padding-top: 20px;}
 .ambulance:hover .two-2 .line_3_4{font-size: 0.75em;word-spacing: initial;}
-.ambulance:hover .strip{height: 48px;}
+.ambulance:hover .strip{/* height: 68px; */}
 h1 div, h3 div{line-height:1em;}
 .hh1 strong{width:230px;}
 
@@ -485,10 +485,10 @@ nav{/* padding-top: 45px; */}
 
 @media(min-width:240px){.lp{padding-left:10px}}
 
-@media(min-width:320px){h2{padding: 30px 20px;}h2 b{font-size: 1em;}.content h3{font-size: 1.4em;padding: 23px;}.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}.ambulance:hover .strip{height: 55px;}.line_3_4{font-size: 0.75em;}.strip{height: 39px;}.lp{padding-left:15px}.hh1{height: 150px;}.ambulance:hover .hh1{width: 150px;}.hh1 strong{width:240px}.line_1_2{font-size: 1.8em;/* padding-bottom:2px; *//* padding-top:0; */}.hh1::after{width: 11px;}
-.hh1::before{/* height: 3px; */}.ambulance:hover .hh1::before{height: 60px;}.ambulance:hover .hh1::after{width: 60px;}.ambulance:hover .two-2 .line_1_2{font-size: 1.6em;}}
+@media(min-width:320px){h2{padding: 30px 20px;}h2 b{font-size: 1em;}.content h3{font-size: 1.4em;padding: 23px;}.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}.ambulance:hover .strip{/* height: 75px; */}.line_3_4{font-size: 0.75em;}.strip{height: 59px;}.lp{padding-left:15px}.hh1{height: 150px;}.ambulance:hover .hh1{width: 150px;}.hh1 strong{width:240px}.line_1_2{font-size: 1.8em;/* padding-bottom:2px; *//* padding-top:0; */}.hh1::after{width: 11px;}
+.hh1::before{/* height: 3px; */}.ambulance:hover .hh1::before{height: 60px;}.ambulance:hover .hh1::after{width: 60px;}.ambulance:hover .two-2 .line_1_2{font-size: 1.6em;padding-top: 18px;}}
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width: 527px;}input.subscribe_textieldpost{width:250px}}
-@media(min-width:425px){nav h3, footer h3{font-size: 1.75em;}.border_donate{width:360px}.line_3_4{font-size: 1em;}.ambulance:hover .strip{height: 62px;}.ambulance:hover .two-2 .line_3_4{font-size: 1em;}.ambulance:hover .hh1::before{height: 70px;}.ambulance:hover .hh1::after{width: 70px;}.hh1{height:175px}.strip{height: 47px;}.line_1_2,.ambulance:hover .two-2 .line_1_2{font-size: 2em;}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{width: 175px;}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width: 100%;/* float: right; *//* padding: 0 20px; */padding: 0;}}
+@media(min-width:425px){nav h3, footer h3{font-size: 1.75em;}.border_donate{width:360px}.line_3_4{font-size: 1em;}.ambulance:hover .strip{/* height: 82px; */}.ambulance:hover .two-2 .line_3_4{font-size: 1em;}.ambulance:hover .hh1::before{height: 70px;}.ambulance:hover .hh1::after{width: 70px;}.hh1{height:175px}.strip{height: 67px;}.line_1_2{font-size:2em}.ambulance:hover .two-2 .line_1_2{font-size: 2em;padding-top: 16px;}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{width: 175px;}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width: 100%;/* float: right; *//* padding: 0 20px; */padding: 0;}}
 
 @media(min-width:616px){.scroll-to-top{bottom: 100px;}}
 @media(min-width:768px){
@@ -502,10 +502,10 @@ h2 b{font-size: 1.3em;}.content h3{font-size: 2em;padding: 30px;}
 .ambulance:hover .hh1{/* width: 230px; */min-width: auto;}
 .line_1_2{/* font-size: 4em; *//* padding-bottom:3px; */}
 .line_3_4{/* font-size: 1.35em; */}
-.strip{/* height: 36px; */}
+.strip{/* height: 56px; */}
 .ambulance:hover .two-2 .line_1_2{/* font-size: 3em; */}
 .ambulance:hover .two-2 .line_3_4{/* font-size: 1.5em; */}
-.ambulance:hover .strip{/* height: 70px; */}
+.ambulance:hover .strip{/* height: 90px; */}
 .ambulance:hover .hh1::before{/* height: 90px; */}
 .ambulance:hover .hh1::after{/* width: 90px; */}
 .hh1{/* height: 230px; */width: 60%;min-width: 700px;}
@@ -525,7 +525,7 @@ h2{padding: 30px 50px;}h2 b{font-size: 1.6em;}h3{}
 .container{/* max-width:inherit; */}
 .line_1_2{/* font-size: 6em; *//* padding-bottom: 10px; */}
 .line_3_4{/* font-size: 2.1em; */}
-.strip{/* height: 42px; */}
+.strip{/* height: 62px; */}
 .hh1{/* height:326px; */}
 .ambulance:hover .hh1{/* width:326px */}
 .ambulance:hover .hh1::before{/* height: 120px; */}
