@@ -1058,11 +1058,11 @@ for (var i = 1; i < 17; i++) {
 // ---------------ambulance trigger initiation
 
 var css_code ='.hh1{border-radius:50%;width:130px}';
-css_code +='.hh1::before{height:50px;transform:translate(5%,-50%);width:90%;}';
+css_code +='.hh1::before{height:50px;transform:translate(5%,-50%);width:90%;background-image:radial-gradient(circle,#a30000a1,#3a06063d);mix-blend-mode:multiply}}';
 css_code +='.hh1 strong{color:transparent;text-shadow:1px 1px 2px transparent}';
 css_code +='.hh1::after{width:50px;transform:translate(-50%,5%); height:90%;}';
 css_code +='.two-2 .line_1_2{font-size:1.2em;word-spacing:-0.3em;padding-top:19px}';
-css_code +='.two-2 .line_3_4{font-size:0.75em;word-spacing:initial}';
+css_code +='.two-2 .line_3_4{font-size:0.7em;word-spacing:initial}';
 css_code +='.two-2 .line_1_2,.two-2 .line_3_4{visibility:visible;margin-top:0}';
 css_code += '.one-1 .line_1_2,.one-1 .line_3_4{color:transparent;text-shadow:1px 1px 2px transparent}';
 css_code += '@media(min-width:320px){.hh1{width:150px}.hh1::before{height:60px}.hh1::after{width:60px}.two-2 .line_1_2{font-size:1.6em;padding-top:18px}.two-2 .line_3_4{font-size:0.85em}}';
@@ -1072,7 +1072,7 @@ css_code += '@media(min-width:768px){.hh1{min-width:initial}}'
 var hover_chk=true;
 var amb=document.getElementById('ambulance-trigger');
 function ambulance_on(){setTimeout(function(){amb.innerHTML=css_code;hover_chk=!hover_chk;ambulance_off()},1200)}
-function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover_chk;},1000000)}
+function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover_chk;},10000)}
 
 //ambulance_on(); // start ambulance trigger // put ambulance_on() after hover_chk; in ambulance_off //function
 //-------массив картинок с таблицами
