@@ -27,7 +27,7 @@ main h4{margin:5% -1%;padding:3%;text-indent:0;font-size:1.3em;font-weight:100;}
 h5{margin:6px auto;border-radius:5px 5px 0 0;text-indent:0;padding-top:2px}
 h6{margin:-6px 0 6px 0;border-radius:0 0 5px 5px;text-indent:0;padding-top:2px;font-size:1em}
 a:link{color:#0000FF;text-decoration:none}
-a:link, .hh1::after, .hh1::before, .hh1, .hh1 strong, .ambulance, .ambulance div .lined, .ambulance div .lined, .ambulance:hover .hh1 strong{-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;transition:all 0.2s ease-out;}
+a:link, .hh1::after, .hh1::before, .hh1, .ambulance, .ambulance div .lined, header h2 span{-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;transition:all 0.2s ease-out;}
 a:visited{color:#0000FF;text-decoration:none}
 a:hover, a:active, a:focus{text-decoration:none}
 .container{width:100%;/* max-width:906px; */margin:0 auto;clear: both;}
@@ -411,7 +411,7 @@ main h4{font-size:1.75em;/* text-transform: capitalize !important; */letter-spac
 .hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;/* background-color: #a30000; *//* background: #e0b9b9; */transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#2f0303);/* mix-blend-mode: color-burn; */}
 .hh1{position:relative;display:block;z-index:1;padding:0;margin: 20px auto;height: 130px;width: 90%;border-radius:6px;border: 1px solid #a3010166;}
 
-main h2, h3, main h4{/* text-align:center; *//* margin:0 auto; *//* font-size: 23px; *//* padding: 15px 10px; */font-family:monospace;word-spacing: -0.3em;/* text-transform: uppercase; */}
+header h2, main h2, h3, main h4{/* text-align:center; *//* margin:0 auto; *//* font-size: 23px; *//* padding: 15px 10px; */font-family:monospace;word-spacing: -0.3em;/* text-transform: uppercase; */}
 h2 b{display:block;font-size: 0.9em;max-width: 1100px;margin: 0 auto;}
 h2 span{max-width:1100px;display: block;margin: auto;font-size: 75%;}
 
@@ -439,18 +439,26 @@ header{position:relative;/* padding: 1px 0; *//* padding-bottom: 1px; */}
 .ambulance:hover .hh1{/* background-color:#caa9a9; */border-radius:50%;width: 130px;}
 .ambulance .two-2, .ambulance .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
 .ambulance .two-2{font-size:1em;text-align:center;}
-.two-2 .line_1_2, .two-2 .line_3_4{visibility:hidden;margin-top: -100px;}
+.two-2 .line_1_2, .two-2 .line_3_4{/* visibility:hidden; *//* margin-top: -100px; */}
+header h2 {margin-top:-150px;visibility: hidden;}
 
-.line_3_4, header h1 span{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;/* color: black; */font-weight: 100;font-size: 0.7em;/* text-shadow: 0 0 2px #000000; *//* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
+.line_3_4, header h1 span, header h2 span{font-family:Arial,Helvetica,sans-serif;color: #d8d0d0;/* color: black; */font-weight: 100;font-size: 0.7em;/* text-shadow: 0 0 2px #000000; *//* color: #502121; *//* font-weight: bold; *//* color: black; *//* font-size: 1em; *//* text-shadow: 0 0 2px #ffffff; */}
+
 header h1 span{font-size: 0.339em;display:block;}
+.ambulance:hover header h2 span{font-size: 0.6em;}
+
 .line_1_2{/* font-size: 0.5em; */font-size: 2.1em;/* font-weight:600; */color: #eeeeee;/* color: #29060c; *//* text-shadow: 0 0 4px #000000; *//* text-shadow: 0 0 3px #ffffff; *//* color: black; */padding-bottom:4px;padding-top: 53px;}
 header h1 span{padding-top:3px;color: inherit;}
 .two-2 #line_1_2{margin-top:-100px}
-.ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{visibility:visible;margin-top:0;}
+.ambulance:hover .two-2 h2{visibility:visible;margin-top:0}
+.ambulance:hover .two-2 .line_1_2, .ambulance:hover .two-2 .line_3_4{/* visibility:visible; *//* margin-top:0; */}
 .ambulance:hover .one-1 .line_1_2, .ambulance:hover .one-1 .line_3_4 {color: transparent;/* text-shadow: 1px 1px 2px transparent; */}
 .strip{height: 52px;}
-.ambulance:hover .two-2 .line_1_2{font-size: 1.2em;word-spacing: -0.3em;padding-top: 70px;}
-.ambulance:hover .two-2 .line_3_4{font-size: 0.7em;word-spacing: initial;}
+header .two-2 .line_1_2{padding-top:70px;font-size: 1.1em;}
+header .two-2 .line_1_2 span{padding-top:4px}
+.ambulance:hover .two-2 .line_1_2{/* font-size: 1.2em; *//* word-spacing: -0.3em; *//* padding-top: 70px; */}
+.ambulance:hover .two-2 .line_3_4{font-size: 0.7em;/* word-spacing: initial; */}
+header h2 span{word-spacing:initial;font-size: 0.55em;} 
 .ambulance:hover .strip{/* height: 68px; */}
 .lined{line-height:1em;}
 .hh1 strong{/* width:230px; */}
@@ -482,10 +490,55 @@ nav{/* padding-top: 45px; */}
 
 @media(min-width:240px){.lp{padding-left:10px}}
 
-@media(min-width:320px){main h2{padding: 30px 20px;}main h2 b{font-size: 1em;}.content h3{font-size: 1.4em;padding: 23px;}.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}.ambulance:hover .strip{/* height: 75px; */}.line_3_4{font-size: 0.75em;}header h1 span{/* font-size:0.33em */padding-top: 5px;}.strip{height: 59px;}.lp{padding-left:15px}.hh1{height: 150px;}.ambulance:hover .hh1{width: 150px;}.hh1 strong{/* width:240px; */}.line_1_2{font-size: 2.2em;/* padding-bottom:2px; */padding-top: 62px;}.hh1::after{width: 11px;}
-.hh1::before{/* height: 3px; */}.ambulance:hover .hh1::before{height: 60px;}.ambulance:hover .hh1::after{width: 60px;}.ambulance:hover .two-2 .line_1_2{font-size: 1.6em;padding-top: 77px;}}
+@media(min-width:320px){
+main h2{padding: 30px 20px;}
+main h2 b{font-size: 1em;}
+.content h3{font-size: 1.4em;padding: 23px;}
+.ambulance:hover .two-2 .line_3_4{font-size: 0.85em;}
+.ambulance:hover .strip{/* height: 75px; */}
+.line_3_4{font-size: 0.75em;}
+header h1 span{/* font-size:0.33em */padding-top: 5px;}
+header h2 span{/* font-size: 0.55em; */}
+.strip{height: 59px;}
+.lp{padding-left:15px}
+.hh1{height: 150px;}
+.ambulance:hover .hh1{width: 150px;}
+.hh1 strong{/* width:240px; */}
+.line_1_2{font-size: 2.2em;/* padding-bottom:2px; */padding-top: 62px;}
+header .two-2 .line_1_2{padding-top: 78px;font-size:1.5em;}
+header .two-2 .line_1_2 span{padding-top:1px}
+.hh1::after{width: 11px;}
+.hh1::before{/* height: 3px; */}
+.ambulance:hover .hh1::before{height: 60px;}
+.ambulance:hover .hh1::after{width: 60px;}
+.ambulance:hover .two-2 .line_1_2{/* font-size: 1.6em; *//* padding-top: 77px; */}
+}
+
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width: 527px;}input.subscribe_textieldpost{width:250px}}
-@media(min-width:425px){nav h3, footer h3{font-size: 1.75em;}.border_donate{width:360px}.line_3_4{font-size: 1em;}header h1 span{/* font-size:0.33em; */}.ambulance:hover .strip{/* height: 82px; */}.ambulance:hover .two-2 .line_3_4{font-size: 1em;}.ambulance:hover .hh1::before{height: 70px;}.ambulance:hover .hh1::after{width: 70px;}.hh1{height:175px}.strip{height: 59px;}.line_1_2{font-size: 3em;padding-top: 60px;}.ambulance:hover .two-2 .line_1_2{font-size: 2em;padding-top: 82px;}.ambulance{/* border-radius:0 0 6px 6px; */}.ambulance:hover .hh1{width: 175px;}.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}#amb3 i{width:0}footer h3{width: 100%;/* float: right; *//* padding: 0 20px; */padding: 0;}}
+
+@media(min-width:425px){
+nav h3, footer h3{font-size: 1.75em;}
+.border_donate{width:360px}
+.line_3_4{font-size: 1em;}
+header h1 span{/* font-size:0.33em; */}
+header h2 span{font-size:0.5em;}
+header .two-2 .line_1_2{padding-top: 83px;font-size: 2em;}
+header .two-2 .line_1_2 span{padding-top:0;line-height: 1.4em;}
+
+.ambulance:hover .strip{/* height: 82px; */}
+.ambulance:hover .two-2 .line_3_4{font-size: 1em;}
+.ambulance:hover .hh1::before{height: 70px;}
+.ambulance:hover .hh1::after{width: 70px;}
+.hh1{height:175px}
+.strip{height: 59px;}
+.line_1_2{font-size: 3em;padding-top: 60px;}
+.ambulance:hover .two-2 .line_1_2{/* font-size: 2em; *//* padding-top: 82px; */}
+.ambulance{/* border-radius:0 0 6px 6px; */}
+.ambulance:hover .hh1{width: 175px;}
+.donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}
+#amb3 i{width:0}
+footer h3{width: 100%;/* float: right; *//* padding: 0 20px; */padding: 0;}
+}
 
 @media(min-width:616px){.scroll-to-top{bottom: 100px;}}
 @media(min-width:768px){
@@ -500,7 +553,7 @@ main h2 b{font-size: 1.3em;}.content h3{font-size: 2em;padding: 30px;}
 .line_1_2{/* font-size: 4em; */padding-top: 60px;/* padding-bottom: 3px; */}
 .line_3_4{/* font-size: 1.35em; */}
 .strip{/* height: 56px; */}
-.ambulance:hover .two-2 .line_1_2{/* font-size: 3em; */padding-top: 84px;}
+.ambulance:hover .two-2 .line_1_2{/* font-size: 3em; *//* padding-top: 84px; */}
 .ambulance:hover .two-2 .line_3_4{/* font-size: 1.5em; */}
 .ambulance:hover .strip{/* height: 90px; */}
 .ambulance:hover .hh1::before{/* height: 90px; */}
