@@ -399,20 +399,20 @@ header{position:relative;}
 .ambulance:hover .hh1{border-radius:50%;width: 130px;}
 .two-2, .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
 
-.two-2 .line_1_2 {margin-top:-150px;visibility: hidden;}
-.one-1 .line_1_2 span, .two-2 .line_1_2 span{font-family:Arial,Helvetica,sans-serif;display:block;}
-.one-1 .line_1_2 span{font-size: 0.339em;}
+.two-2.line_1_2 {margin-top:-150px;visibility: hidden;}
+.one-1.line_1_2 span, .two-2.line_1_2 span{font-family:Arial,Helvetica,sans-serif;display:block;}
+.one-1.line_1_2 span{font-size: 0.339em;}
 
-.one-1 .line_1_2, .two-2 .line_1_2{color: #eeeeee;}
+.one-1.line_1_2, .two-2.line_1_2{color: #eeeeee;}
 
-.one-1 .line_1_2{font-size: 2.1em;padding-bottom:4px;padding-top: 53px;}
-.one-1 .line_1_2 span{padding-top:3px;color: inherit;}
-.ambulance:hover .two-2 .line_1_2{visibility:visible;margin-top:0}
-.ambulance:hover .one-1 .line_1_2{color: transparent;}
+.one-1.line_1_2{font-size: 2.1em;margin-top: 53px;}
+.one-1.line_1_2 span{padding-top:3px;color: inherit;}
+.ambulance:hover .two-2.line_1_2{visibility:visible;margin-top: 0;}
+.ambulance:hover .one-1.line_1_2{color: transparent;}
 
-.two-2 .line_1_2{padding-top:70px;font-size: 1.13em;}
-.two-2 .line_1_2 span{padding-top: 6px;}
-.two-2 .line_1_2 span{word-spacing:initial;font-size: 0.55em;} 
+.two-2.line_1_2{font-size: 1.13em;padding-top: 141px;}
+.two-2.line_1_2 span{padding-top: 6px;}
+.two-2.line_1_2 span{word-spacing:initial;font-size: 0.55em;} 
 .line_1_2 span{line-height: 1em;}
 
 
@@ -451,9 +451,9 @@ header h1 span{padding-top: 5px;}
 .lp{padding-left:15px}
 .hh1{height: 150px;}
 .ambulance:hover .hh1{width: 150px;}
-.one-1 .line_1_2{font-size: 2.2em;padding-top: 62px;}
-.two-2 .line_1_2{padding-top: 78px;font-size:1.5em;}
-header .two-2 .line_1_2 span{padding-top: 3px;}
+.one-1.line_1_2{font-size: 2.2em;margin-top: 62px;}
+.two-2.line_1_2{font-size:1.5em;padding-top: 156px;}
+header .two-2.line_1_2 span{padding-top: 3px;}
 .hh1::after{width: 11px;}
 .ambulance:hover .hh1::before{height: 60px;}
 .ambulance:hover .hh1::after{width: 60px;}
@@ -466,14 +466,14 @@ nav h3, footer h3{font-size: 1.75em;}
 .border_donate{width:360px}
 
 header h2 span{font-size:0.5em;}
-.two-2 .line_1_2{padding-top: 83px;font-size: 2em;}
-.two-2 .line_1_2 span{padding-top:0;line-height: 1.3em;font-size: 0.5em;}
+.two-2.line_1_2{font-size: 2em;/* margin-top: 83px; */padding-top: 164px;}
+.two-2.line_1_2 span{padding-top:0;line-height: 1.3em;font-size: 0.5em;}
 
 
 .ambulance:hover .hh1::before{height: 70px;}
 .ambulance:hover .hh1::after{width: 70px;}
 .hh1{height:175px}
-.one-1 .line_1_2{font-size: 3em;padding-top: 60px;}
+.one-1.line_1_2{font-size: 3em;margin-top: 62px;}
 .ambulance:hover .hh1{width: 175px;}
 .donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}
 #amb3 i{width:0}
