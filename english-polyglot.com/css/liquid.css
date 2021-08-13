@@ -366,8 +366,8 @@ button.gsc-search-button.gsc-search-button-v2:hover{background-color: #c5c5c5;bo
 
 main h4 {background: #e0b3b3;}
 
-.content h3{font-size: 16px;}
-.content h3{margin: 10px auto;padding: 20px;max-width: 1024px;background-color: #dcc7c7;}
+main h3{font-size: 16px;}
+main h3{margin: 10px auto;padding: 20px;max-width: 1024px;background-color: #dcc7c7;font-weight: bold;}
 
 main h4{font-size:1.75em;letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
 
@@ -439,6 +439,7 @@ nav h3, footer h3{font-size: 1.5em;}
 #google-search {min-height: 52px;float: left;}
 #new-back{padding: 40px 0;font-size: 1.3em;}
 
+
 /* ========== media queries =========== */
 
 @media(min-width:240px){.lp{padding-left:10px}}
@@ -446,7 +447,7 @@ nav h3, footer h3{font-size: 1.5em;}
 @media(min-width:320px){
 main h2{padding: 30px 20px;}
 main h2 b{font-size: 1em;}
-.content h3{font-size: 1.4em;padding: 23px;}
+main h3{font-size: 1.4em;padding: 23px;}
 header h1 span{padding-top: 5px;}
 .lp{padding-left:15px}
 .hh1{height: 190px;}
@@ -485,7 +486,7 @@ footer h3{width: 100%;padding: 0;}
 nav h3, footer h3{font-size: 2em;}
 main h2 span{font-size:90%}
 main h2{margin: 30px 0 50px;padding: 40px 50px;}
-main h2 b{font-size: 1.3em;}.content h3{font-size: 2em;padding: 30px;}
+main h2 b{font-size: 1.3em;}main h3{font-size: 2em;padding: 30px;}
 .quote{padding:33px;margin-left: 33px;}
 .hh1::after{/* width: 13px; */}
 
@@ -501,8 +502,8 @@ form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;/* float:righ
 footer h3{float: none;padding: 0;}
 #new-back, footer h3{max-width:1024px;width: 100%;margin: 0 auto;display: block;}
 main h2 span{font-size:100%}
-.content h3{font-size: 2.2em;padding: 30px;}
-main h2{padding: 30px 50px;}main h2 b{font-size: 1.6em;}h3{}
+.main h3{font-size: 2.2em;padding: 30px;}
+main h2{padding: 30px 50px;}main h2 b{font-size: 1.6em;}
 
 /*вкл серой темы*/
 button.gsc-search-button.gsc-search-button-v2{padding: 9px 31px;}	
