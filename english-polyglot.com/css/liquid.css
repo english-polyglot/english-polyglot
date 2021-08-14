@@ -399,21 +399,23 @@ header{position:relative;}
 .ambulance:hover .hh1{border-radius:50%;width: 190px;}
 .two-2, .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
 
-.two-2.line_1_2 {margin-top:-150px;visibility: hidden;}
+.two-2.line_1_2 {margin-top: -250px;visibility: hidden;opacity: 0;}
 .one-1.line_1_2 span, .two-2.line_1_2 span{/* font-family:Arial,Helvetica,sans-serif; */display:block;}
 .one-1.line_1_2 span{font-size: 0.6em;max-width: 148px;margin: -69px auto 0;/* text-transform: lowercase; */}
 
-.one-1.line_1_2, .two-2.line_1_2{color: #ffffff;width: 85%;}
+.one-1.line_1_2, .two-2.line_1_2{color: #ffffff;/* width: 85%; */}
 
-.one-1.line_1_2{font-size: 2em;margin-top: 52px;/* width: 33%; */line-height: 1em;}
+.one-1.line_1_2{font-size: 2em;margin-top: 52px;/* width: 33%; */line-height: 1em;max-width: 400px;}
 .one-1.line_1_2 span{/* padding-top: 0px; */margin-top: 16px;color: #b57d7f;color: inherit;word-spacing: -0.3em;}
-.ambulance:hover .two-2.line_1_2{visibility:visible;margin-top: 0;}
+.ambulance:hover .two-2.line_1_2{visibility:visible;margin-top: 0;opacity: 1;}
 .ambulance:hover .one-1.line_1_2{color: transparent;}
 
-.two-2.line_1_2{font-size: 1.13em;padding-top: 185px;}
+.two-2.line_1_2{font-size: 1.3em;padding-top: 138px;}
 .two-2.line_1_2 span{padding-top: 6px;}
 .two-2.line_1_2 span{word-spacing:initial;font-size: 0.55em;} 
 .line_1_2 span{line-height: 1em;}
+.two-2.line_1_2 .first-span{font-size: 0.9em;padding-bottom: 3px;max-width: 100px;}
+.two-2.line_1_2 .second-span{max-width: 83px;}
 
 
 .wrap_txt div{padding-bottom: 30px;}
@@ -451,13 +453,16 @@ main h3{font-size: 1.4em;padding: 23px;}
 .one-1.line_1_2 span{max-width: 163px;}
 .lp{padding-left:15px}
 .hh1{height: 210px;}
-.ambulance:hover .hh1{width: 150px;}
+.ambulance:hover .hh1{width: 210px;}
 .one-1.line_1_2{font-size: 2.2em;margin-top: 55px;}
-.two-2.line_1_2{font-size:1.5em;padding-top: 156px;}
+.two-2.line_1_2{font-size: 1.6em;padding-top: 158px;}
 header .two-2.line_1_2 span{padding-top: 3px;}
+.two-2.line_1_2 .first-span{font-size: 0.8em;padding-bottom: 11px;}
+.two-2.line_1_2 .second-span{max-width: 102px;}
 .hh1::after{/* width: 11px; */}
-.ambulance:hover .hh1::before{height: 60px;}
-.ambulance:hover .hh1::after{width: 60px;}
+.ambulance:hover .hh1::before{height: 80px;}
+.ambulance:hover .hh1::after{width: 80px;}
+
 }
 
 @media(min-width:375px){.flash{padding-bottom:400px}.notfla_img{max-width: 527px;}input.subscribe_textieldpost{width:250px}}
@@ -467,21 +472,22 @@ nav h3, footer h3{font-size: 1.75em;}
 .border_donate{width:360px}
 
 header h2 span{font-size:0.5em;}
-.two-2.line_1_2{font-size: 2em;/* margin-top: 83px; */padding-top: 164px;}
+.two-2.line_1_2{font-size: 2.3em;/* margin-top: 83px; */padding-top: 135px;}
 .two-2.line_1_2 span{padding-top:0;line-height: 1.3em;font-size: 0.5em;}
 .one-1.line_1_2 span{max-width: 219px;padding-top: 5px;}
 
-.ambulance:hover .hh1::before{height: 70px;}
-.ambulance:hover .hh1::after{width: 70px;}
-.hh1{height: 270px;}
-.one-1.line_1_2{font-size: 3em;margin-top: 59px;}
-.ambulance:hover .hh1{width: 175px;}
+.ambulance:hover .hh1::before{height: 110px;}
+.ambulance:hover .hh1::after{width: 110px;}
+.hh1{height: 290px;}
+.one-1.line_1_2{font-size: 3em;margin-top: 70px;}
+.two-2.line_1_2 .second-span{max-width: 137px;padding-top: 11px;}
+.ambulance:hover .hh1{width: 290px;}
 .donateButton{border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;border-top:1px solid #F5F5F5;border-right:1px solid #E0E0E0;width:330px;}
 #amb3 i{width:0}
 footer h3{width: 100%;padding: 0;}
 }
 
-@media(min-width:616px){.scroll-to-top{bottom: 100px;}}
+@media(min-width:616px){.scroll-to-top{bottom: 100px;}.one-1.line_1_2{max-width:none;margin-top: 117px;}}
 @media(min-width:768px){
 nav h3, footer h3{font-size: 2em;}
 main h2 span{font-size:90%}
