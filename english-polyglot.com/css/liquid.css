@@ -455,8 +455,8 @@ main h3{font-size: 1.4em;padding: 23px;}
 .hh1{height: 210px;}
 .ambulance:hover .hh1{width: 210px;}
 .one-1.line_1_2{font-size: 2.2em;margin-top: 55px;}
-.two-2.line_1_2{font-size: 1.6em;padding-top: 158px;}
-header .two-2.line_1_2 span{padding-top: 3px;}
+.two-2.line_1_2{font-size: 1.6em;padding-top: 134px;width: 85%;}
+header .two-2.line_1_2 span{/* padding-top: 3px; */}
 .two-2.line_1_2 .first-span{font-size: 0.8em;padding-bottom: 11px;}
 .two-2.line_1_2 .second-span{max-width: 102px;}
 .hh1::after{/* width: 11px; */}
@@ -472,7 +472,7 @@ nav h3, footer h3{font-size: 1.75em;}
 .border_donate{width:360px}
 
 header h2 span{font-size:0.5em;}
-.two-2.line_1_2{font-size: 2.3em;/* margin-top: 83px; */padding-top: 135px;}
+.two-2.line_1_2{font-size: 2.3em;/* margin-top: 83px; */padding-top: 145px;}
 .two-2.line_1_2 span{padding-top:0;line-height: 1.3em;font-size: 0.5em;}
 .one-1.line_1_2 span{max-width: 219px;padding-top: 5px;}
 
