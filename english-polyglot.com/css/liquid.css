@@ -371,7 +371,7 @@ main h3{margin: 10px auto;padding: 20px;max-width: 1024px;background-color: #dcc
 
 main h4{font-size:1.75em;letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
 
-.hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 4px;height: 98%;transform: translate(-50%,1%);background-image: radial-gradient(circle,#a30000b0,#3a060694);}
+.hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 4px;height: 98%;transform: translate(-50%,1%);background-image: radial-gradient(circle,#a30000,#3a0606);}
 .hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#2f0303);}
 .hh1{position:relative;display:block;z-index:1;padding:0;margin: 0 auto;height: 190px;width: 90%;border-radius:6px;border: 1px solid #a3010166;}
 
@@ -394,7 +394,7 @@ td.gsc-input {border: 1px solid #c3c3c3;padding-right: 0px !important;border-top
 
 header{position:relative;}
 .ambulance{background-image: linear-gradient(180deg,#560909,#000000);position:relative;overflow: hidden;padding: 20px 0;}
-.ambulance:hover .hh1::before{height: 75px;transform:translate(5%,-50%);width: 90%;background-image: radial-gradient(circle,#a30000a1,#3a06063d);mix-blend-mode: multiply;}
+.ambulance:hover .hh1::before{height: 75px;transform:translate(5%,-50%);width: 90%;background-image: radial-gradient(circle,#a30000,#3a0606);/* mix-blend-mode: multiply; */}
 .ambulance:hover .hh1::after{width: 75px;transform:translate(-50%,5%);height: 90%;}
 .ambulance:hover .hh1{border-radius:50%;width: 190px;}
 .two-2, .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
