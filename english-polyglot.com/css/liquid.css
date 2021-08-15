@@ -479,7 +479,7 @@ nav h3, footer h3{font-size: 1.75em;}
 header h2 span{font-size:0.5em;}
 .two-2.line_1_2{font-size: 2em;/* margin-top: 83px; */padding-top: 141px;}
 .two-2.line_1_2 span{padding-top:0;line-height: 1.1em;font-size: 0.5em;}
-.one-1.line_1_2 span{max-width: 222px;padding-top: 5px;line-height: 1em;}
+.one-1.line_1_2 span{max-width: 222px;padding-top: 5px;line-height: 1.1em;}
 .two-2.line_1_2 .first-span{font-size: 0.8em;padding-bottom: 17px;max-width: 135px;}
 
 .ambulance:hover .hh1::before{height: 100px;}
