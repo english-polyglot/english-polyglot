@@ -406,7 +406,7 @@ header{position:relative;}
 .one-1.line_1_2, .two-2.line_1_2{color: #ffffff;/* width: 85%; */}
 
 .one-1.line_1_2{font-size: 2em;margin-top: 52px;/* width: 33%; */line-height: 1em;max-width: 83%;}
-.one-1.line_1_2 span{margin-top: 16px;/* color: inherit; */word-spacing: -0.3em;}
+.one-1.line_1_2 span{margin-top: 16px;/* color: inherit; */word-spacing: -0.3em;line-height: 1.2em;}
 .ambulance:hover .one-1.line_1_2 span{color: inherit;}
 .ambulance:hover .two-2.line_1_2{visibility:visible;margin-top: 0;opacity: 1;}
 .ambulance:hover .one-1.line_1_2{color: transparent;}
@@ -479,7 +479,7 @@ nav h3, footer h3{font-size: 1.75em;}
 header h2 span{font-size:0.5em;}
 .two-2.line_1_2{font-size: 2em;/* margin-top: 83px; */padding-top: 141px;}
 .two-2.line_1_2 span{padding-top:0;line-height: 1.1em;font-size: 0.5em;}
-.one-1.line_1_2 span{max-width: 222px;padding-top: 5px;}
+.one-1.line_1_2 span{max-width: 222px;padding-top: 5px;line-height: 1em;}
 .two-2.line_1_2 .first-span{font-size: 0.8em;padding-bottom: 17px;max-width: 135px;}
 
 .ambulance:hover .hh1::before{height: 100px;}
