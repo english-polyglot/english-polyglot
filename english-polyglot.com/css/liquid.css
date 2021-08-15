@@ -492,16 +492,16 @@ footer h3{width: 100%;padding: 0;}
 .scroll-to-top{bottom: 100px;}
 .one-1.line_1_2{max-width:none;margin-top: 77px;}
 
-.two-2.line_1_2{font-size: 2.3em;padding-top: 145px;}
+.two-2.line_1_2{font-size: 2.3em;padding-top: 89px;}
 .two-2.line_1_2 span{padding-top:0;line-height: 1.3em;font-size: 0.5em;}
 .one-1.line_1_2 span{max-width: 313px;padding-top: 0;}
-.two-2.line_1_2 .first-span{font-size: 0.8em;padding-bottom: 11px;max-width: 197px;}
+.two-2.line_1_2 .first-span{font-size: 0.6em;padding-bottom: 11px;max-width: 115px;}
 .ambulance:hover .hh1{width: 210px;}
 .ambulance:hover .hh1::before{height: 90px;}
 .ambulance:hover .hh1::after{width: 90px;}
 .hh1{height: 210px;}
 .one-1.line_1_2{font-size: 3em;margin-top: 77px;}
-.two-2.line_1_2 .second-span{max-width: 287px;padding-top: 11px;}
+.two-2.line_1_2 .second-span{max-width: 101px;/* max-width: none; */padding-top: 6px;font-size: 0.4em;}
 }
 
 @media(min-width:768px){
