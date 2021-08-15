@@ -1058,10 +1058,10 @@ for (var i = 1; i < 17; i++) {
 // ---------------ambulance trigger initiation
 
 var css_code ='.hh1{border-radius:50%;width:190px}';
-css_code += '.hh1::before{height:75px;transform:translate(5%,-50%);width:90%;background-image:radial-gradient(circle,#a30000a1,#3a06063d);mix-blend-mode:multiply}';
+css_code += '.hh1::before{height:75px;transform:translate(5%,-50%);width:90%;mix-blend-mode:multiply}';
 css_code += '.hh1::after{width:75px;transform:translate(-50%,5%);height:90%;}';
 css_code +='.two-2.line_1_2{visibility:visible;opacity:1;margin-top:0}';
-css_code += '.one-1.line_1_2{color:transparent}';
+css_code += '.one-1.line_1_2{color:transparent}.one-1.line_1_2 span{color: inherit;}';
 css_code += '@media(min-width:320px){.hh1{width:210px}.hh1::before{height:80px}.hh1::after{width:80px}}';
 css_code += '@media(min-width:425px){.hh1{width:250px}.hh1::before{height:100px}.hh1::after{width:100px}}';
 css_code += '@media(min-width:616px){.hh1{width:210px}.hh1::before{height:90px}.hh1::after{width:90px}}';

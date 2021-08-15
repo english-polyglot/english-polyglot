@@ -371,8 +371,8 @@ main h3{margin: 10px auto;padding: 20px;max-width: 1024px;background-color: #dcc
 
 main h4{font-size:1.75em;letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
 
-.hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 4px;height: 98%;transform: translate(-50%,1%);background-image: radial-gradient(circle,#a30000,#3a0606);}
-.hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#2f0303);}
+.hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 4px;height: 98%;transform: translate(-50%,1%);background-image: radial-gradient(circle,#a30000,#4d050540);}
+.hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#56090940);}
 .hh1{position:relative;display:block;z-index:1;padding:0;margin: 0 auto;height: 190px;width: 90%;border-radius:6px;border: 1px solid #a3010166;}
 
 header h2, main h2, h3, main h4{font-family:monospace;word-spacing: -0.3em;}
@@ -394,8 +394,8 @@ td.gsc-input {border: 1px solid #c3c3c3;padding-right: 0px !important;border-top
 
 header{position:relative;}
 .ambulance{background-image: linear-gradient(180deg,#560909,#000000);position:relative;overflow: hidden;padding: 20px 0;}
-.ambulance:hover .hh1::before{height: 75px;transform:translate(5%,-50%);width: 90%;background-image: radial-gradient(circle,#a30000,#3a0606);/* mix-blend-mode: multiply; */}
-.ambulance:hover .hh1::after{width: 75px;transform:translate(-50%,5%);height: 90%;}
+.ambulance:hover .hh1::before{height: 75px;transform:translate(5%,-50%);width: 90%;/* background-image: radial-gradient(circle,#a30000,#56090940); */mix-blend-mode: multiply;}
+.ambulance:hover .hh1::after{width: 75px;transform:translate(-50%,5%);height: 90%;/* background-image: radial-gradient(circle,#a30000,#4d050540); */}
 .ambulance:hover .hh1{border-radius:50%;width: 190px;}
 .two-2, .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
 
@@ -406,16 +406,17 @@ header{position:relative;}
 .one-1.line_1_2, .two-2.line_1_2{color: #ffffff;/* width: 85%; */}
 
 .one-1.line_1_2{font-size: 2em;margin-top: 52px;/* width: 33%; */line-height: 1em;max-width: 83%;}
-.one-1.line_1_2 span{/* padding-top: 0px; */margin-top: 16px;color: #b57d7f;color: inherit;word-spacing: -0.3em;}
+.one-1.line_1_2 span{margin-top: 16px;/* color: inherit; */word-spacing: -0.3em;}
+.ambulance:hover .one-1.line_1_2 span{color: inherit;}
 .ambulance:hover .two-2.line_1_2{visibility:visible;margin-top: 0;opacity: 1;}
 .ambulance:hover .one-1.line_1_2{color: transparent;}
 
-.two-2.line_1_2{font-size: 1.3em;padding-top: 138px;}
+.two-2.line_1_2{font-size: 1.3em;padding-top: 100px;}
 .two-2.line_1_2 span{padding-top: 6px;}
 .two-2.line_1_2 span{word-spacing:initial;font-size: 0.55em;} 
-.line_1_2 span{line-height: 1em;}
-.two-2.line_1_2 .first-span{font-size: 0.9em;padding-bottom: 3px;max-width: 100px;}
-.two-2.line_1_2 .second-span{max-width: 83px;}
+.line_1_2 span{line-height: 1em;color: #e3c9c9;}
+.two-2.line_1_2 .first-span{font-size: 0.9em;padding-bottom: 13px;max-width: 100px;}
+.two-2.line_1_2 .second-span{max-width: 83px;padding-top: 15px;}
 
 
 .wrap_txt div{padding-bottom: 30px;}
@@ -497,16 +498,16 @@ footer h3{width: 100%;padding: 0;}
 .notfla_img{max-width: 490px;}
 .one-1.line_1_2{max-width:none;margin-top: 77px;}
 
-.two-2.line_1_2{font-size: 2.3em;padding-top: 89px;}
-.two-2.line_1_2 span{padding-top:0;line-height: 1.3em;font-size: 0.5em;}
+.two-2.line_1_2{font-size: 2.3em;padding-top: 96px;}
+.two-2.line_1_2 span{padding-top:0;line-height: 1.2em;font-size: 0.5em;}
 .one-1.line_1_2 span{max-width: 313px;padding-top: 0;}
-.two-2.line_1_2 .first-span{font-size: 0.6em;padding-bottom: 11px;max-width: 115px;}
+.two-2.line_1_2 .first-span{font-size: 0.6em;padding-bottom: 14px;max-width: 115px;}
 .ambulance:hover .hh1{width: 210px;}
 .ambulance:hover .hh1::before{height: 90px;}
 .ambulance:hover .hh1::after{width: 90px;}
 .hh1{height: 210px;}
 .one-1.line_1_2{font-size: 3em;margin-top: 77px;}
-.two-2.line_1_2 .second-span{max-width: 101px;/* max-width: none; */padding-top: 6px;font-size: 0.4em;}
+.two-2.line_1_2 .second-span{max-width: 101px;/* max-width: none; */padding-top: 10px;font-size: 0.4em;}
 }
 
 @media(min-width:768px){
