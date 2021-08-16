@@ -24,7 +24,6 @@ a:visited{color:#0000FF;text-decoration:none}
 a:hover, a:active, a:focus{text-decoration:none}
 .container{width:100%;/* max-width:906px; */margin:0 auto;clear: both;}
 .container_inner{overflow:hidden}
-.first{clear: both;}
 .pixelate333{image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:bicubic;image-rendering:pixelated}
 .px680{max-width:680px;margin:0 auto;}
 .embed-container{position:relative;padding-bottom:67.25%;padding-top:30px;height:0;overflow:hidden;margin-left:20px;margin-right:20px}
@@ -184,7 +183,7 @@ form#yandex_dengi_donate_page{width: 240px;margin:0 auto}
 
 
 /*скелет для мобильных девайсов*/ 
-.content{/* width:100%; *//* border-right:none */}
+.content{/* width:100%; *//* border-right:none */clear:both}
 .content_inner{/* border-left:none */}	
 .flash{padding-bottom:105%}
 .menu{padding: 0 0 5px 0;background-image: linear-gradient( 
