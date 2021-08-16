@@ -327,12 +327,31 @@ onclick="popup('swodesh-english.html', 728, 575, 'Список Сводеша');
         <div class="wrap_txt">
         
 <span id="dragObjects" >
-<div id="d1" class="fixedImg"><div class="leftBtn"><div><span onclick="plusImage('d1')" title="увеличить">+</span><span onclick="minusImage('d1')" title="уменьшить">&minus;</span></div></div>
-   <img data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" id="imgd1" border="0" alt="Базовая таблица глаголов Петрова" class="lazyload" />
-   <div class="rightBtn"><span onclick="closeObject('d1')" title="закрыть">×</span></div></div>
-   
-<div id="d2" class="fixedImg"><div class="leftBtn"><div><span onclick="plusImage('d2')" title="увеличить">+</span><span onclick="minusImage('d2')" title="уменьшить">&minus;</span></div></div>
-   <img id="imgd2" data-src="img/table-base.gif" width="100%" height="100%" alt="Транспонированная базовая таблица глаголов Петрова" class="lazyload" /><div class="rightBtn"><span onclick="closeObject('d2')" title="закрыть">×</span></div></div> 
+  <div id="d1" class="fixedImg">
+    <div class="leftBtn">
+      <div>
+        <button id='d1b1' onClick="plusImage('d1')" title="увеличить">+</button>
+        <button id='d1b2' onClick="minusImage('d1')" title="уменьшить">&minus;</button>
+      </div>
+    </div>
+    <img id="imgd1" data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" border="0" alt="Базовая таблица глаголов Петрова" class="lazyload" />
+    <div class="rightBtn">
+      <button onClick="closeObject('d1')" title="закрыть">×</button>
+    </div>
+  </div>
+
+  <div id="d2" class="fixedImg">
+    <div class="leftBtn">
+      <div>
+        <button id='d2b1' onClick="plusImage('d2')" title="увеличить">+</button>
+        <button id='d2b2' onClick="minusImage('d2')" title="уменьшить">&minus;</button>
+      </div>
+    </div>
+    <img id="imgd2" data-src="img/table-base.gif" width="100%" height="100%" alt="Транспонированная базовая таблица глаголов Петрова" class="lazyload" />
+    <div class="rightBtn">
+      <button onClick="closeObject('d2')" title="закрыть">×</button>
+    </div>
+  </div>
 </span>
 
         <div class="quote blue">Каким&nbsp;бы ни&nbsp;был Ваш словарный запас, ни&nbsp;на&nbsp;минуту не&nbsp;забывайте о&nbsp;базовой таблице глаголов. Если Вам трудно работать с&nbsp;ней по&nbsp;памяти, Вам поможет <a href="generator-fraz.html" title="Перейти" target="_blank" class="red bold cap">генератор фраз</a>.</div>

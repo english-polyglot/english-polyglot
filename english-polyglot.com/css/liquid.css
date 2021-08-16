@@ -397,7 +397,7 @@ header{position:relative;}
 .ambulance:hover .hh1::before{height: 75px;transform:translate(5%,-50%);width: 90%;/* background-image: radial-gradient(circle,#a30000,#56090940); */mix-blend-mode: multiply;}
 .ambulance:hover .hh1::after{width: 75px;transform:translate(-50%,5%);height: 90%;/* background-image: radial-gradient(circle,#a30000,#4d050540); */}
 .ambulance:hover .hh1{border-radius:50%;width: 190px;}
-.two-2, .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index:5;width:100%;padding: 0;height: 100%;}
+.two-2, .one-1{position:absolute;top:50%;transform:translate(-50%,-50%);left:50%;z-index: 2;width:100%;padding: 0;height: 100%;}
 
 .two-2.line_1_2 {margin-top: -250px;visibility: hidden;opacity: 0;}
 .one-1.line_1_2 span, .two-2.line_1_2 span{/* font-family:Arial,Helvetica,sans-serif; */display:block;}
