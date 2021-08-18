@@ -30,6 +30,7 @@ a:hover, a:active, a:focus{text-decoration:none}
 .black_bg{background-color:#000;/* margin-top: 1px; */}
 .flash{padding-bottom:51.7%;padding-top:4.35%;margin:0;text-align:center}
 .embed-container iframe,.embed-container object,.embed-container embed,.embed-container video, .embed-container img{position:absolute;top:0;left:0;bottom:0;right:0;margin:0 auto;width:100%;height:100%;padding-right:1px}
+canvas{width: 333%;transform: translate(-35%);}
 .menu ul li{display:inline-block}
 ul.nav li{list-style-type:none}
 ul.nav a, ul.nav a:visited{display:block}
@@ -527,6 +528,7 @@ form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;/* float:righ
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
 @media(min-width:1024px){
+canvas{width: 196%;transform: translate(-24.6%);}
 .copyright{padding: 0;}
 #new-back, .copyright{max-width:1024px;width: 100%;margin: 0 auto;display: block;}
 main h2 span{font-size:100%}
