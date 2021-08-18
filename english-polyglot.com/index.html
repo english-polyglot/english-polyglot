@@ -120,8 +120,8 @@ h2,h3 {font-size:1em}
     
         <div class="black_bg">
 
-          <div id="animation_container" style="width:100%">
-            <canvas id="canvas" width="1280" height="720" style="display: none; width:100%"></canvas>
+          <div id="animation_container" style="width:345px">
+            <canvas id="canvas" width="525" height="720" style="display: none; width:100%"></canvas>
             <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:100%;  display: none;"></div>
           </div>
           <div id="_preload_div_" class="notfla_img">
@@ -1102,12 +1102,11 @@ var tabl_com=['<strong>Базовая таблица глаголов Петро
 	
 	<!-- Block peredelka "Uhodit angliyskiy?" -->
 <script type="text/javascript" src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script type="text/javascript" src="js/generator-fraz-promo.js"></script>
+<script type="text/javascript" src="js/generator-fraz-promo.js?5645648"></script>
 
 <script type="text/javascript">
 window.addEventListener("load", init);
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-	
 function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
@@ -1145,12 +1144,15 @@ function handleComplete(evt,comp) {
 		stage.addChild(exportRoot);
 		createjs.Ticker.framerate = lib.properties.fps;
 		createjs.Ticker.addEventListener("tick", stage);
+		createjs.Ticker.addEventListener("tick", AdobeAn.handleSoundStreamOnTick);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
-	//AdobeAn.makeResponsive(true,'width',false,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	// AdobeAn.makeResponsive(true,'width',false,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
+function playSoundAnimate(id, loop, offset) {
+	return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});}
 
 </script>
 <!-- InstanceEndEditable -->
