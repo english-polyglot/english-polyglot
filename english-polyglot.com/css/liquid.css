@@ -30,7 +30,7 @@ a:hover, a:active, a:focus{text-decoration:none}
 .black_bg{background-color:#000;/* margin-top: 1px; */}
 .flash{padding-bottom:51.7%;padding-top:4.35%;margin:0;text-align:center}
 .embed-container iframe,.embed-container object,.embed-container embed,.embed-container video, .embed-container img{position:absolute;top:0;left:0;bottom:0;right:0;margin:0 auto;width:100%;height:100%;padding-right:1px}
-canvas{width: 333%;transform: translate(-35%);}
+canvas{width: 333%;transform: translate(-35%,-5%);}
 .menu ul li{display:inline-block}
 ul.nav li{list-style-type:none}
 ul.nav a, ul.nav a:visited{display:block}
@@ -103,7 +103,7 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .quote{/* font-family:Georgia,"Times New Roman",Times,serif; */padding:13px;/* border-radius:5px; *//* font-size:115%; */margin:5px 0 25px;margin-left:10px;}
 .quote em{font-family:sans-serif}
 .notfla_img{width:100%;margin:0 auto}
-div#animation_container{max-width: 840px;/* max-width: 906px; */margin:  0 auto;}
+#animation_container{max-width: 840px;/* max-width: 906px; */margin:  0 auto;height: 830px;}
 #tooltip{font:menu;margin:0px;padding:3px 5px;position:absolute;visibility:hidden;font-size:1.2em;z-index:3}
 .round{border-radius:5px;margin: 10px 0 20px;padding:20px 5%;text-align:center;}
 img.mw150{width:80%}
@@ -393,7 +393,7 @@ td.gsc-input {border: 1px solid #c3c3c3;padding-right: 0px !important;border-top
 .gsc-input-box {border: none !important;background: inherit !important;padding: 0 !important;}
 
 header{position:relative;}
-.ambulance{background-image: linear-gradient(180deg,#560909,#000000);position:relative;overflow: hidden;padding: 20px 0;}
+.ambulance{background-image: linear-gradient(180deg,#560909,#000000);position:relative;overflow: hidden;padding: 20px 0 0;}
 .ambulance:hover .hh1::before{height: 75px;transform:translate(5%,-50%);width: 90%;/* background-image: radial-gradient(circle,#a30000,#56090940); */mix-blend-mode: multiply;}
 .ambulance:hover .hh1::after{width: 75px;transform:translate(-50%,5%);height: 90%;/* background-image: radial-gradient(circle,#a30000,#4d050540); */}
 .ambulance:hover .hh1{border-radius:50%;width: 190px;}
@@ -528,7 +528,8 @@ form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;/* float:righ
 @media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
 
 @media(min-width:1024px){
-canvas{width: 196%;transform: translate(-24.6%);}
+canvas{width: 196%;transform: translate(-24.6%,-4%);}
+#animation_container{height:490px;}
 .copyright{padding: 0;}
 #new-back, .copyright{max-width:1024px;width: 100%;margin: 0 auto;display: block;}
 main h2 span{font-size:100%}
