@@ -405,7 +405,7 @@ header{position:relative;}
 
 .one-1.line_1_2, .two-2.line_1_2{color: #ffffff;/* width: 85%; */}
 
-.one-1.line_1_2{font-size: 2em;margin-top: 52px;/* width: 33%; */line-height: 1em;max-width: 83%;}
+.one-1.line_1_2{font-size: 2em;margin-top: 52px;/* width: 33%; */line-height: 1em;max-width: 80%;}
 .one-1.line_1_2 span{margin-top: 16px;/* color: inherit; */word-spacing: -0.3em;line-height: 1.2em;}
 .ambulance:hover .one-1.line_1_2 span{color: inherit;}
 .ambulance:hover .two-2.line_1_2{visibility:visible;margin-top: 0;opacity: 1;}
