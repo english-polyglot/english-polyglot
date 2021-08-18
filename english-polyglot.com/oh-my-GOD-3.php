@@ -281,7 +281,7 @@ function click1() {
 			  data_top = '<em>'+c1+'</em><span>'+message_top+'</span>';
 			  data_mid = '<em>'+c2+'</em><span>'+message_middle+'</span>';
 			  data_bot = '<em>'+c3+'</em><span></span>';
-			  if (sound) {playSound3(message_top, currentVerb);}
+			  if (sound) {playWord3(message_top, currentVerb);}
 			}
 			
 			document.getElementById("conteiner").innerHTML = data_top;
@@ -294,7 +294,7 @@ function click1() {
 			  mesmid2 =  message_top+' ru';
 			  data_bot = '<em>'+c3+'</em><span>'+ message_bottom +'</span>';
 			  
-			  if (sound) { playSound3(mesmid2, currentVerb, message_bottom); }
+			  if (sound) { playWord3(mesmid2, currentVerb, message_bottom); }
 			}
 			number_click = 0;
 		} 
@@ -449,7 +449,7 @@ function loadFile( papp, url, progressCallback, callback ) {
 		return xhr;
 	}
 	
-function playSound3(soundf, pap, soundr) {
+function playWord3(soundf, pap, soundr) {
 
 		var soundfile = trim (soundf);
 

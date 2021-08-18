@@ -643,19 +643,19 @@ function click1() {
 				
 			if (first=="a")
 			{
-			  data_top = '<em>'+c1+'</em><span><a id="hierarhy" href="javascript: void(0)" onclick="playSound3(message_top, currentVerb);if(i==2){disappear();appear()}">'+
+			  data_top = '<em>'+c1+'</em><span><a id="hierarhy" href="javascript: void(0)" onclick="playWord3(message_top, currentVerb);if(i==2){disappear();appear()}">'+
 			  message_top+'</a></span>';
 			  
-			  if (sound & phrase_audio & sound_global) {playSound3(message_top, currentVerb);}
+			  if (sound & phrase_audio & sound_global) {playWord3(message_top, currentVerb);}
 			  data_mid = '<em>'+c2+'</em><span>'+message_middle+'</span>';
 			  data_bot = '<em>'+c3+'</em><span></span>';
 			}
 			else
 			{
 			  mesmid = message_middle+' ru';	
-			  data_top = '<em>'+c1+'</em><span><a id="hierarhy2" href="javascript: void(0)" onclick="playSound3(mesmid, currentVerb, message_top);if(i==2){disappear();appear()}">'+ message_top +'</a></span>';
+			  data_top = '<em>'+c1+'</em><span><a id="hierarhy2" href="javascript: void(0)" onclick="playWord3(mesmid, currentVerb, message_top);if(i==2){disappear();appear()}">'+ message_top +'</a></span>';
 			  
-			  if (sound & phrase_audio & sound_global) {playSound3(mesmid, currentVerb, message_top); }
+			  if (sound & phrase_audio & sound_global) {playWord3(mesmid, currentVerb, message_top); }
 			  data_mid = '<em>'+c3+'</em><span></span>'; 
 			  data_bot = '<em>'+c2+'</em><span></span>';
 			}
@@ -668,15 +668,15 @@ function click1() {
 			if (first=="a")
 			{
 			  mesmid2 =  message_top+' ru';
-			  data_bot = '<em>'+c3+'</em><span><a id="hierarhy2" href="javascript: void(0)" onclick="playSound3(mesmid2, currentVerb, message_bottom);if(i==2){disappear();appear()}">'+ message_bottom +'</a></span>';
+			  data_bot = '<em>'+c3+'</em><span><a id="hierarhy2" href="javascript: void(0)" onclick="playWord3(mesmid2, currentVerb, message_bottom);if(i==2){disappear();appear()}">'+ message_bottom +'</a></span>';
 			  
-			  if (sound & translation_audio & sound_global) { playSound3(mesmid2, currentVerb, message_bottom); }
+			  if (sound & translation_audio & sound_global) { playWord3(mesmid2, currentVerb, message_bottom); }
 			}
 			else  	// если язык русский то
 			{
-			  data_mid = '<em>'+c3+'</em><span><a id="hierarhy" href="javascript: void(0)" onclick="playSound3(message_middle, currentVerb);if(i==2){disappear();appear()}">'+ message_middle +'</a></span>';
+			  data_mid = '<em>'+c3+'</em><span><a id="hierarhy" href="javascript: void(0)" onclick="playWord3(message_middle, currentVerb);if(i==2){disappear();appear()}">'+ message_middle +'</a></span>';
 			    
-			  if (sound & translation_audio & sound_global) { playSound3(message_middle, currentVerb); }
+			  if (sound & translation_audio & sound_global) { playWord3(message_middle, currentVerb); }
 			  data_bot = '<em>'+c2+'</em><span>'+ message_bottom +'</span>';	
 			}
 			number_click = 0;
@@ -980,7 +980,7 @@ function get_token(token){
 		//end token block	
 	}
 	
-function playSound3(soundf, pap, soundr) {
+function playWord3(soundf, pap, soundr) {
 
 		var soundfile=trim(soundf);
 		

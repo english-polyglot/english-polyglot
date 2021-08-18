@@ -350,7 +350,7 @@ function trim(s) {
 		return s;
 	};
 
-function playSound0(anchor) {
+function playWord0(anchor) {
 	var soundfile = trim (anchor.innerHTML);
 	soundfile = soundfile.toLowerCase();
 	var soundfile_mp3 = soundfile + '.mp3';
@@ -366,7 +366,7 @@ function playSound0(anchor) {
 		myAudio.play();
 }
 
-function playSound2(soundfile_mp3, soundfile_ogg) {
+function playWord2(soundfile_mp3, soundfile_ogg) {
 	document.getElementById("dummy").innerHTML=
 	'<audio id="my-audio">'+
 	'<source src="audio/'+soundfile_mp3+'" type="audio/mpeg" />'+
@@ -378,7 +378,7 @@ function playSound2(soundfile_mp3, soundfile_ogg) {
 	myAudio.play();
 }
 
-function playSound3(soundf, pap) {
+function playWord3(soundf, pap) {
 	var soundfile = trim (soundf);
 	var soundfile_mp3 = soundfile + '.mp3';
 	var soundfile_ogg = soundfile + '.ogg';
@@ -563,7 +563,7 @@ function preload_pap(pap) {
 //		};
 	};
 
-function playSound(anchor) {
+function playWord(anchor) {
 
 		var pap = urok_num;
 
