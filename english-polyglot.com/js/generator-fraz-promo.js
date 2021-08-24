@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"generator_fraz_promo_atlas_1", frames: [[693,0,424,229],[422,0,269,643],[764,577,188,213],[764,792,87,81],[0,645,762,191],[83,838,80,80],[943,231,124,115],[821,459,93,93],[0,838,81,81],[821,353,104,104],[943,348,118,113],[916,463,93,93],[821,231,120,120],[693,231,126,344],[0,0,420,588]]}
+		{name:"generator_fraz_promo_atlas_1", frames: [[422,0,269,643],[764,577,188,213],[693,0,424,229],[0,645,762,191],[764,792,87,81],[0,838,81,81],[821,459,93,93],[916,463,93,93],[943,231,124,115],[83,838,80,80],[821,353,104,104],[821,231,120,120],[693,231,126,344],[943,348,118,113],[0,0,420,588]]}
 ];
 
 
@@ -137,113 +137,113 @@ lib.ssMetadata = [
 
 
 
-(lib.Layer0copy_1 = function() {
+(lib.slider_gb1 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.slider_gb1 = function() {
+(lib.slider_gb = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.slider_gb = function() {
+(lib.Layer0copy_1 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_30 = function() {
+(lib.VectorSmartObject1 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.VectorSmartObject1 = function() {
+(lib.CachedBmp_12 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_37 = function() {
+(lib.CachedBmp_15 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_34 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_24 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_33 = function() {
+(lib.CachedBmp_16 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_32 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_36 = function() {
+(lib.CachedBmp_14 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_22 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_35 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_20 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_28 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["generator_fraz_promo_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_21 = function() {
-	this.initialize(img.CachedBmp_21);
+(lib.CachedBmp_2 = function() {
+	this.initialize(img.CachedBmp_2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,5122,1724);// helper functions:
 
@@ -346,10 +346,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_33();
+	this.instance = new lib.CachedBmp_15();
 	this.instance.setTransform(0,0,0.2551,0.2551);
 
-	this.instance_1 = new lib.CachedBmp_32();
+	this.instance_1 = new lib.CachedBmp_14();
 	this.instance_1.setTransform(-3,-2.1,0.2551,0.2551);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -363,10 +363,10 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_30();
+	this.instance = new lib.CachedBmp_12();
 	this.instance.setTransform(0,0,0.2551,0.2551);
 
-	this.instance_1 = new lib.CachedBmp_32();
+	this.instance_1 = new lib.CachedBmp_14();
 	this.instance_1.setTransform(-3,-2.1,0.2551,0.2551);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -380,7 +380,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_37();
+	this.instance = new lib.CachedBmp_9();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -394,7 +394,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_24();
+	this.instance = new lib.CachedBmp_5();
 	this.instance.setTransform(0.05,-0.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -408,7 +408,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_22();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(0.05,-0.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -739,7 +739,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib.CachedBmp_21();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(-62.2,218.5,0.4429,0.4429);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -763,7 +763,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_20();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-5,-5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -796,10 +796,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 	this.instance = new lib.soundon();
 	this.instance.setTransform(-0.5,0.5,1,1,0,0,0,-0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_34();
+	this.instance_1 = new lib.CachedBmp_16();
 	this.instance_1.setTransform(-4.55,-4.1,0.2551,0.2551);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance,p:{alpha:0.8008}}]},1).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:1}}]},2).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance,p:{alpha:0.6914}}]},1).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:1}}]},2).wait(1));
 
 	this._renderFirstFrame();
 
@@ -814,10 +814,10 @@ p.nominalBounds = new cjs.Rectangle(-4.5,-4.1,31.6,29.4);
 	this.instance = new lib.soundoff();
 	this.instance.setTransform(0.5,0.5,1,1,0,0,0,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_34();
+	this.instance_1 = new lib.CachedBmp_16();
 	this.instance_1.setTransform(-4.55,-4.1,0.2551,0.2551);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance,p:{alpha:0.6484}}]},1).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:1}}]},2).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance,p:{alpha:0.6914}}]},1).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:1}}]},2).wait(1));
 
 	this._renderFirstFrame();
 
@@ -834,7 +834,7 @@ p.nominalBounds = new cjs.Rectangle(-4.5,-4.1,31.6,29.4);
 	this.instance.filters = [new cjs.ColorFilter(1, 1, 1, 1, -43, 0, 0, 0)];
 	this.instance.cache(-726,-2,772,110);
 
-	this.instance_1 = new lib.CachedBmp_28();
+	this.instance_1 = new lib.CachedBmp_10();
 	this.instance_1.setTransform(480.2,172,0.4167,0.4167);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -855,7 +855,7 @@ p.nominalBounds = new cjs.Rectangle(-4.5,-4.1,31.6,29.4);
 	this.instance_1.setTransform(113.1,113.4,1,1,0,0,0,113.1,113.4);
 	this.instance_1.alpha = 0.4883;
 
-	this.instance_2 = new lib.CachedBmp_36();
+	this.instance_2 = new lib.CachedBmp_8();
 	this.instance_2.setTransform(-9.05,-9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:0.4883}}]},1).to({state:[{t:this.instance_2},{t:this.instance,p:{alpha:1}}]},2).wait(1));
@@ -877,7 +877,7 @@ p.nominalBounds = new cjs.Rectangle(-9,-9,59,56.5);
 	this.instance_1.setTransform(22.9,23.1,1,1,0,0,0,22.9,23.1);
 	this.instance_1.alpha = 0.4883;
 
-	this.instance_2 = new lib.CachedBmp_35();
+	this.instance_2 = new lib.CachedBmp_7();
 	this.instance_2.setTransform(-7,-7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:0.4883}}]},1).to({state:[{t:this.instance_2},{t:this.instance,p:{alpha:1}}]},2).wait(1));
@@ -895,7 +895,7 @@ p.nominalBounds = new cjs.Rectangle(-7,-7,60,60);
 	this.instance = new lib.play();
 	this.instance.setTransform(22.9,23.1,1,1,0,0,0,22.9,23.1);
 
-	this.instance_1 = new lib.CachedBmp_35();
+	this.instance_1 = new lib.CachedBmp_7();
 	this.instance_1.setTransform(-7,-7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance,p:{alpha:0.8008}}]},1).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:1}}]},2).wait(1));
@@ -913,7 +913,7 @@ p.nominalBounds = new cjs.Rectangle(-7,-7,60,60);
 	this.instance = new lib.pause();
 	this.instance.setTransform(22.9,23.1,1,1,0,0,0,22.9,23.1);
 
-	this.instance_1 = new lib.CachedBmp_35();
+	this.instance_1 = new lib.CachedBmp_7();
 	this.instance_1.setTransform(-7,-7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{alpha:1}}]}).to({state:[{t:this.instance,p:{alpha:0.8008}}]},1).to({state:[{t:this.instance_1},{t:this.instance,p:{alpha:1}}]},2).wait(1));
@@ -1506,12 +1506,16 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,46.5,46.5);
 		}
 		
 		
+		
 		if (  !becauseActionScriptIsVeryGoodLanguage )
 		{ 
 			var becauseActionScriptIsVeryGoodLanguage = true;
-			_this.gotoAndPlay(1125);
+			if ('localStorage' in window && localStorage['counter'] < 2){
+				_this.play();
+			} else {
+				_this.gotoAndPlay(1125);
+			}
 		}
-		
 		
 		//_this.gotoAndPlay(948);
 	}
@@ -1707,11 +1711,11 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,46.5,46.5);
 
 	// url
 	this.instance_2 = new lib.urlpsd("synched",0);
-	this.instance_2.setTransform(1262.6,317.5,0.2,0.2,0,0,0,424.5,461.2);
+	this.instance_2.setTransform(1262.6,317.5,0.2,0.2,0,0,0,424.5,461);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1010).to({_off:false},0).wait(1).to({regX:426,regY:246.5,scaleX:0.3391,scaleY:0.3391,x:1262.75,y:260,alpha:0.1113},0).wait(1).to({scaleX:0.439,scaleY:0.439,x:1262.7,y:249.1,alpha:0.2225},0).wait(1).to({scaleX:0.4682,scaleY:0.4682,x:1262.65,y:244.65,alpha:0.3338},0).wait(1).to({scaleX:0.4956,scaleY:0.4956,x:1262.6,y:240.45,alpha:0.445},0).wait(1).to({scaleX:0.5212,scaleY:0.5212,y:236.5,alpha:0.5562},0).wait(1).to({scaleX:0.5453,scaleY:0.5453,y:232.8,alpha:0.6675},0).wait(1).to({scaleX:0.5679,scaleY:0.5679,x:1262.55,y:229.35,alpha:0.7788},0).wait(1).to({scaleX:0.589,scaleY:0.589,y:226.1,alpha:0.89},0).wait(1).to({scaleX:0.6087,scaleY:0.6087,y:223.1},0).wait(1).to({scaleX:0.6271,scaleY:0.6271,y:220.25},0).wait(1).to({scaleX:0.6442,scaleY:0.6442,x:1262.5,y:217.6},0).wait(1).to({scaleX:0.6602,scaleY:0.6602,y:215.15},0).wait(1).to({scaleX:0.6736,scaleY:0.6736,x:1262.45,y:213.1},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({regX:424.8,regY:461.8,x:1261.5,y:357.8,alpha:0.8906},0).to({_off:true},16).wait(61));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1010).to({_off:false},0).wait(1).to({regX:426,regY:246.5,scaleX:0.3391,scaleY:0.3391,x:1262.75,y:260.1,alpha:0.1113},0).wait(1).to({scaleX:0.439,scaleY:0.439,x:1262.7,y:249.2,alpha:0.2225},0).wait(1).to({scaleX:0.4682,scaleY:0.4682,x:1262.65,y:244.75,alpha:0.3338},0).wait(1).to({scaleX:0.4956,scaleY:0.4956,x:1262.6,y:240.55,alpha:0.445},0).wait(1).to({scaleX:0.5212,scaleY:0.5212,y:236.65,alpha:0.5562},0).wait(1).to({scaleX:0.5453,scaleY:0.5453,y:232.9,alpha:0.6675},0).wait(1).to({scaleX:0.5679,scaleY:0.5679,x:1262.55,y:229.5,alpha:0.7788},0).wait(1).to({scaleX:0.589,scaleY:0.589,y:226.25,alpha:0.89},0).wait(1).to({scaleX:0.6087,scaleY:0.6087,y:223.25},0).wait(1).to({scaleX:0.6271,scaleY:0.6271,y:220.45},0).wait(1).to({scaleX:0.6442,scaleY:0.6442,x:1262.5,y:217.75},0).wait(1).to({scaleX:0.6602,scaleY:0.6602,y:215.35},0).wait(1).to({scaleX:0.6736,scaleY:0.6736,x:1262.45,y:213.3},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({regX:424.8,regY:461.8,x:1261.5,y:357.8,alpha:0.8906},0).to({_off:true},16).wait(61));
 
 	// rise_up_face
 	this.instance_3 = new lib.rise_up_face("synched",0);
@@ -1734,7 +1738,7 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,46.5,46.5);
 	this.instance_5.setTransform(1409.9,353.5,1.2,1.2,0,0,0,567.1,294.6);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(470).to({_off:false},0).wait(6).to({regX:567.7,regY:294.5,x:1410.6,y:353.4},0).wait(1).to({x:1407.25,y:353.6},0).wait(1).to({x:1387.75,y:354.9},0).wait(1).to({x:1339.4,y:358.15},0).wait(1).to({x:1267.6,y:360.85},0).wait(1).to({x:1189.4,y:346.35},0).wait(1).to({x:1146.85,y:291.55},0).wait(1).to({x:1129.6,y:232.7},0).wait(1).to({x:1120.8,y:191.35},0).wait(1).to({x:1117.45,y:174.4},0).wait(1).to({x:1116.9,y:171.5},0).wait(1).to({x:1116.85,y:171.35},0).wait(1).to({regX:567.1,regY:294.6,x:1116.15,y:171.45},0).wait(15).to({regX:567.6,x:1116.2},0).wait(1).to({regX:567.7,regY:294.5,x:1116.3,y:171.35},0).wait(1).to({x:1116.7,y:173.85},0).wait(1).to({x:1119.05,y:189.95},0).wait(1).to({x:1126.2,y:240.9},0).wait(1).to({x:1139.2,y:333.8},0).wait(1).to({x:1171.65,y:422.5},0).wait(1).to({x:1255.9,y:421.95},0).wait(1).to({x:1337.05,y:397.5},0).wait(1).to({x:1381.8,y:383.65},0).wait(1).to({x:1396.05,y:379.3},0).wait(1).to({x:1398.25,y:378.65},0).wait(1).to({x:1398.3,y:378.6},0).wait(1).to({regX:567.6,x:1398.2,y:378.65},0).wait(14).to({regY:294.6,y:378.7},0).wait(1).to({regX:567.7,regY:294.5,x:1398.3,y:378.55},0).wait(1).to({x:1396.3,y:381.5},0).wait(1).to({x:1385.55,y:397.3},0).wait(1).to({x:1361.75,y:433},0).wait(1).to({x:1328,y:482.9},0).wait(1).to({x:1281.85,y:528.45},0).wait(1).to({x:1225.8,y:527.45},0).wait(1).to({x:1176.5,y:504.35},0).wait(1).to({x:1140.75,y:483.85},0).wait(1).to({x:1124.55,y:474.15},0).wait(1).to({x:1121.55,y:472.3},0).wait(1).to({x:1121.4,y:472.2},0).wait(1).to({regX:567.6,regY:294.6,x:1121.3,y:472.3},0).wait(13).to({x:1121.25},0).wait(1).to({regX:567.7,regY:294.5,x:1121.35,y:472.1},0).wait(1).to({x:1121.2,y:470.4},0).wait(1).to({x:1119.95,y:458.85},0).wait(1).to({x:1117.25,y:422.5},0).wait(1).to({x:1123.1,y:351.45},0).wait(1).to({x:1196.5,y:266.7},0).wait(1).to({x:1300.8,y:234.1},0).wait(1).to({x:1365.9,y:224.3},0).wait(1).to({x:1388.1,y:221.95},0).wait(1).to({x:1391.45,y:221.6},0).wait(1).to({x:1391.65,y:221.55},0).wait(1).to({regX:567.6,regY:294.6,x:1391.55,y:221.65},0).wait(13).to({regY:294.2,y:221.85},0).wait(1).to({regX:567.7,regY:294.5,x:1391.75,y:222.4},0).wait(1).to({x:1394.25,y:226.95},0).wait(1).to({x:1406.35,y:249.15},0).wait(1).to({x:1430.95,y:295.3},0).wait(1).to({x:1462.85,y:367.6},0).wait(1).to({x:1466.95,y:458.8},0).wait(1).to({x:1426.3,y:507.5},0).wait(1).to({x:1382.45,y:531.35},0).wait(1).to({x:1356.8,y:541.2},0).wait(1).to({x:1351.15,y:543.1},0).wait(1).to({x:1350.75,y:543.2},0).wait(1).to({regY:294.4,y:542.6},0).wait(12).to({regX:567.6,y:542.65},0).wait(1).to({regX:567.7,regY:294.5,x:1350.8,y:542.75},0).wait(1).to({x:1346.65,y:544.05},0).wait(1).to({x:1323.25,y:551.1},0).wait(1).to({x:1270.05,y:562.9},0).wait(1).to({x:1207.45,y:547.1},0).wait(1).to({x:1166.7,y:477.15},0).wait(1).to({x:1139.7,y:423.85},0).wait(1).to({x:1127.8,y:402.45},0).wait(1).to({x:1125.65,y:398.75},0).wait(1).to({x:1125.55,y:398.6},0).wait(1).to({regX:567.4,regY:294.4,x:1125.4,y:398.7},0).wait(12).to({x:1125.45,y:398.75},0).wait(1).to({regX:567.7,regY:294.5,x:1125.8},0).wait(1).to({x:1126.2,y:394.4},0).wait(1).to({x:1128.25,y:368.4},0).wait(1).to({x:1129.7,y:309.45},0).wait(1).to({x:1141.9,y:301.8},0).wait(1).to({x:1256.15,y:394.4},0).wait(1).to({x:1363.85,y:439.75},0).wait(1).to({x:1404.9,y:452.1},0).wait(1).to({x:1411.6,y:453.9},0).wait(1).to({x:1411.85,y:453.95},0).wait(1).to({regX:567.1,regY:294.4,x:1411.4,y:453.75},0).wait(13).to({y:453.85},0).wait(1).to({regX:567.7,regY:294.5,x:1411.9,y:454.1},0).wait(1).to({x:1403.65,y:460.05},0).wait(1).to({x:1356.15,y:487.8},0).wait(1).to({x:1267.05,y:443.25},0).wait(1).to({x:1177.95,y:300.1},0).wait(1).to({x:1130.5,y:267.3},0).wait(1).to({x:1122.15,y:263.1},0).wait(1).to({x:1121.95,y:263},0).wait(1).to({regX:567.1,regY:294.4,x:1121.2,y:262.85},0).wait(13).to({regX:566.1,regY:294.3,x:1121.3},0).wait(1).to({regX:567.7,regY:294.5,x:1124.05,y:262.75},0).wait(1).to({x:1149.6,y:249.95},0).wait(1).to({x:1277,y:163.6},0).wait(1).to({x:1382.6,y:207.8},0).wait(1).to({x:1403.05,y:225.7},0).wait(1).to({x:1403.75,y:226.3},0).wait(1).to({regX:566.2,regY:294.3,x:1401.65,y:226.1},0).wait(15).to({regX:565.8,regY:294.1,x:1401.85,y:226.25},0).wait(1).to({regX:567.7,regY:294.5,x:1404.1,y:226.75,alpha:0.9333},0).wait(1).to({x:1404.15,y:226.95,alpha:0.8667},0).wait(1).to({y:228.3,alpha:0.8},0).wait(1).to({x:1404.1,y:233.15,alpha:0.7333},0).wait(1).to({x:1403.65,y:246,alpha:0.6667},0).wait(1).to({x:1400,y:273.1,alpha:0.6},0).wait(1).to({x:1380.05,y:318.25,alpha:0.5333},0).wait(1).to({x:1310.9,y:361.2,alpha:0.4667},0).wait(1).to({x:1247.2,y:373.6,alpha:0.4},0).wait(1).to({x:1212.05,y:377.1,alpha:0.3333},0).wait(1).to({x:1196,y:378.25,alpha:0.2667},0).wait(1).to({x:1190,y:378.65,alpha:0.2},0).wait(1).to({x:1188.4,y:378.75,alpha:0.1333},0).wait(1).to({x:1188.15,alpha:0.0667},0).wait(1).to({x:1188.1,alpha:0},0).to({_off:true},1).wait(60).to({_off:false,regX:567.4,regY:294.6,x:1002,y:526.2},0).wait(1).to({regX:567.7,regY:294.5,x:1002.55,alpha:0.125},0).wait(1).to({x:1011,y:530.5,alpha:0.25},0).wait(1).to({x:1066.85,y:555.4,alpha:0.375},0).wait(1).to({x:1244.75,y:580.65,alpha:0.5},0).wait(1).to({x:1377.95,y:500.55,alpha:0.625},0).wait(1).to({x:1406.3,y:460.85,alpha:0.75},0).wait(1).to({x:1410.2,y:454.3,alpha:0.875},0).wait(1).to({x:1410.3,y:454.15,alpha:1},0).wait(1).to({regX:567.8,regY:294.6,x:1409.8,y:454.2},0).wait(9).to({regX:567.1,x:1409.95},0).wait(1).to({regX:567.7,regY:294.5,x:1410.5,y:454.15},0).wait(1).to({x:1404.1,y:457.4},0).wait(1).to({x:1364.35,y:475.95},0).wait(1).to({x:1257.7,y:490.75},0).wait(1).to({x:1163.8,y:421.1},0).wait(1).to({x:1131.95,y:387.7},0).wait(1).to({x:1126.85,y:382.25},0).wait(1).to({x:1126.7,y:382.1},0).wait(1).to({regX:567.5,regY:294.6,x:1125.9,y:382.2},0).wait(9).to({regX:566.4,x:1126},0).wait(1).to({regX:567.7,regY:294.5,x:1127.65,y:381.9},0).wait(1).to({x:1131.9,y:374.2},0).wait(1).to({x:1156.95,y:326.3},0).wait(1).to({x:1223.25,y:215},0).wait(1).to({x:1338.7,y:207.2},0).wait(1).to({x:1393.95,y:222.9},0).wait(1).to({x:1403.3,y:225.85},0).wait(1).to({x:1403.55,y:225.95},0).wait(1).to({regX:566.8,regY:294.7,x:1402,y:226.2},0).wait(9).to({regX:566.1,regY:293.6,x:1402.1,y:226.6},0).wait(1).to({regX:567.7,regY:294.5,x:1403.9,y:227.85},0).wait(1).to({x:1399.35,y:233.1},0).wait(1).to({x:1371.75,y:265.7},0).wait(1).to({x:1294.1,y:336.6},0).wait(1).to({x:1184.2,y:329.8},0).wait(1).to({x:1136.85,y:314.6},0).wait(1).to({x:1128.95,y:311.85},0).wait(1).to({x:1128.75,y:311.8},0).wait(1).to({regX:566.3,regY:294.2,x:1126.65,y:310.25},0).wait(9).to({regY:293.9,x:1126.7,y:310.4},0).wait(1).to({regX:567.7,regY:294.5,x:1128.35,y:311.1,alpha:0.8},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.2},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(305));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(470).to({_off:false},0).wait(6).to({regX:567.7,regY:294.5,x:1410.6,y:353.4},0).wait(1).to({x:1407.25,y:353.6},0).wait(1).to({x:1387.75,y:354.9},0).wait(1).to({x:1339.4,y:358.15},0).wait(1).to({x:1267.6,y:360.85},0).wait(1).to({x:1189.4,y:346.35},0).wait(1).to({x:1146.85,y:291.55},0).wait(1).to({x:1129.6,y:232.7},0).wait(1).to({x:1120.8,y:191.35},0).wait(1).to({x:1117.45,y:174.4},0).wait(1).to({x:1116.9,y:171.5},0).wait(1).to({x:1116.85,y:171.35},0).wait(1).to({regX:567.1,regY:294.6,x:1116.15,y:171.45},0).wait(15).to({regX:567.6,x:1116.2},0).wait(1).to({regX:567.7,regY:294.5,x:1116.3,y:171.35},0).wait(1).to({x:1116.7,y:173.85},0).wait(1).to({x:1119.05,y:189.95},0).wait(1).to({x:1126.2,y:240.9},0).wait(1).to({x:1139.2,y:333.8},0).wait(1).to({x:1171.65,y:422.5},0).wait(1).to({x:1255.9,y:421.95},0).wait(1).to({x:1337.05,y:397.5},0).wait(1).to({x:1381.8,y:383.65},0).wait(1).to({x:1396.05,y:379.3},0).wait(1).to({x:1398.25,y:378.65},0).wait(1).to({x:1398.3,y:378.6},0).wait(1).to({regX:567.6,x:1398.2,y:378.65},0).wait(14).to({regY:294.6,y:378.7},0).wait(1).to({regX:567.7,regY:294.5,x:1398.3,y:378.55},0).wait(1).to({x:1396.3,y:381.5},0).wait(1).to({x:1385.55,y:397.3},0).wait(1).to({x:1361.75,y:433},0).wait(1).to({x:1328,y:482.9},0).wait(1).to({x:1281.85,y:528.45},0).wait(1).to({x:1225.8,y:527.45},0).wait(1).to({x:1176.5,y:504.35},0).wait(1).to({x:1140.75,y:483.85},0).wait(1).to({x:1124.55,y:474.15},0).wait(1).to({x:1121.55,y:472.3},0).wait(1).to({x:1121.4,y:472.2},0).wait(1).to({regX:567.6,regY:294.6,x:1121.3,y:472.3},0).wait(13).to({x:1121.25},0).wait(1).to({regX:567.7,regY:294.5,x:1121.35,y:472.1},0).wait(1).to({x:1121.2,y:470.4},0).wait(1).to({x:1119.95,y:458.85},0).wait(1).to({x:1117.25,y:422.5},0).wait(1).to({x:1123.1,y:351.45},0).wait(1).to({x:1196.5,y:266.7},0).wait(1).to({x:1300.8,y:234.1},0).wait(1).to({x:1365.9,y:224.3},0).wait(1).to({x:1388.1,y:221.95},0).wait(1).to({x:1391.45,y:221.6},0).wait(1).to({x:1391.65,y:221.55},0).wait(1).to({regX:567.6,regY:294.6,x:1391.55,y:221.65},0).wait(13).to({regY:294.2,y:221.9},0).wait(1).to({regX:567.7,regY:294.5,x:1391.75,y:222.45},0).wait(1).to({x:1394.25,y:227},0).wait(1).to({x:1406.35,y:249.2},0).wait(1).to({x:1430.95,y:295.35},0).wait(1).to({x:1462.85,y:367.65},0).wait(1).to({x:1466.95,y:458.85},0).wait(1).to({x:1426.3,y:507.55},0).wait(1).to({x:1382.45,y:531.4},0).wait(1).to({x:1356.8,y:541.25},0).wait(1).to({x:1351.15,y:543.15},0).wait(1).to({x:1350.75,y:543.25},0).wait(1).to({regY:294.4,y:542.6},0).wait(12).to({regX:567.6,y:542.65},0).wait(1).to({regX:567.7,regY:294.5,x:1350.8,y:542.75},0).wait(1).to({x:1346.65,y:544.05},0).wait(1).to({x:1323.25,y:551.1},0).wait(1).to({x:1270.05,y:562.9},0).wait(1).to({x:1207.45,y:547.1},0).wait(1).to({x:1166.7,y:477.15},0).wait(1).to({x:1139.7,y:423.85},0).wait(1).to({x:1127.8,y:402.45},0).wait(1).to({x:1125.65,y:398.75},0).wait(1).to({x:1125.55,y:398.6},0).wait(1).to({regX:567.4,regY:294.4,x:1125.4,y:398.7},0).wait(12).to({x:1125.45,y:398.75},0).wait(1).to({regX:567.7,regY:294.5,x:1125.8},0).wait(1).to({x:1126.2,y:394.4},0).wait(1).to({x:1128.25,y:368.4},0).wait(1).to({x:1129.7,y:309.45},0).wait(1).to({x:1141.9,y:301.8},0).wait(1).to({x:1256.15,y:394.4},0).wait(1).to({x:1363.85,y:439.75},0).wait(1).to({x:1404.9,y:452.1},0).wait(1).to({x:1411.6,y:453.9},0).wait(1).to({x:1411.85,y:453.95},0).wait(1).to({regX:567.1,regY:294.4,x:1411.4,y:453.75},0).wait(13).to({y:453.85},0).wait(1).to({regX:567.7,regY:294.5,x:1411.9,y:454.1},0).wait(1).to({x:1403.65,y:460.05},0).wait(1).to({x:1356.15,y:487.8},0).wait(1).to({x:1267.05,y:443.25},0).wait(1).to({x:1177.95,y:300.1},0).wait(1).to({x:1130.5,y:267.3},0).wait(1).to({x:1122.15,y:263.1},0).wait(1).to({x:1121.95,y:263},0).wait(1).to({regX:567.1,regY:294.4,x:1121.2,y:262.85},0).wait(13).to({regX:566.1,regY:294.3,x:1121.3},0).wait(1).to({regX:567.7,regY:294.5,x:1124.05,y:262.75},0).wait(1).to({x:1149.6,y:249.95},0).wait(1).to({x:1277,y:163.6},0).wait(1).to({x:1382.6,y:207.8},0).wait(1).to({x:1403.05,y:225.7},0).wait(1).to({x:1403.75,y:226.3},0).wait(1).to({regX:566.2,regY:294.3,x:1401.65,y:226.1},0).wait(15).to({regX:565.8,regY:294.1,x:1401.85,y:226.3},0).wait(1).to({regX:567.7,regY:294.5,x:1404.1,y:226.8,alpha:0.9333},0).wait(1).to({x:1404.15,y:227,alpha:0.8667},0).wait(1).to({y:228.35,alpha:0.8},0).wait(1).to({x:1404.1,y:233.2,alpha:0.7333},0).wait(1).to({x:1403.65,y:246.05,alpha:0.6667},0).wait(1).to({x:1400,y:273.15,alpha:0.6},0).wait(1).to({x:1380.05,y:318.3,alpha:0.5333},0).wait(1).to({x:1310.9,y:361.25,alpha:0.4667},0).wait(1).to({x:1247.2,y:373.65,alpha:0.4},0).wait(1).to({x:1212.05,y:377.15,alpha:0.3333},0).wait(1).to({x:1196,y:378.3,alpha:0.2667},0).wait(1).to({x:1190,y:378.7,alpha:0.2},0).wait(1).to({x:1188.4,y:378.8,alpha:0.1333},0).wait(1).to({x:1188.15,alpha:0.0667},0).wait(1).to({x:1188.1,alpha:0},0).to({_off:true},1).wait(60).to({_off:false,regX:567.4,regY:294.6,x:1002,y:526.2},0).wait(1).to({regX:567.7,regY:294.5,x:1002.55,alpha:0.125},0).wait(1).to({x:1011,y:530.5,alpha:0.25},0).wait(1).to({x:1066.85,y:555.4,alpha:0.375},0).wait(1).to({x:1244.75,y:580.65,alpha:0.5},0).wait(1).to({x:1377.95,y:500.55,alpha:0.625},0).wait(1).to({x:1406.3,y:460.85,alpha:0.75},0).wait(1).to({x:1410.2,y:454.3,alpha:0.875},0).wait(1).to({x:1410.3,y:454.15,alpha:1},0).wait(1).to({regX:567.8,regY:294.6,x:1409.8,y:454.2},0).wait(9).to({regX:567.1,x:1409.95},0).wait(1).to({regX:567.7,regY:294.5,x:1410.5,y:454.15},0).wait(1).to({x:1404.1,y:457.4},0).wait(1).to({x:1364.35,y:475.95},0).wait(1).to({x:1257.7,y:490.75},0).wait(1).to({x:1163.8,y:421.1},0).wait(1).to({x:1131.95,y:387.7},0).wait(1).to({x:1126.85,y:382.25},0).wait(1).to({x:1126.7,y:382.1},0).wait(1).to({regX:567.5,regY:294.6,x:1125.9,y:382.2},0).wait(9).to({regX:566.4,x:1126},0).wait(1).to({regX:567.7,regY:294.5,x:1127.65,y:381.9},0).wait(1).to({x:1131.9,y:374.2},0).wait(1).to({x:1156.95,y:326.3},0).wait(1).to({x:1223.25,y:215},0).wait(1).to({x:1338.7,y:207.2},0).wait(1).to({x:1393.95,y:222.9},0).wait(1).to({x:1403.3,y:225.85},0).wait(1).to({x:1403.55,y:225.95},0).wait(1).to({regX:566.8,regY:294.7,x:1402,y:226.2},0).wait(9).to({regX:566.1,regY:293.6,x:1402.1,y:226.65},0).wait(1).to({regX:567.7,regY:294.5,x:1403.9,y:227.9},0).wait(1).to({x:1399.35,y:233.15},0).wait(1).to({x:1371.75,y:265.75},0).wait(1).to({x:1294.1,y:336.65},0).wait(1).to({x:1184.2,y:329.85},0).wait(1).to({x:1136.85,y:314.65},0).wait(1).to({x:1128.95,y:311.9},0).wait(1).to({x:1128.75,y:311.85},0).wait(1).to({regX:566.3,regY:294.2,x:1126.65,y:310.25},0).wait(9).to({regY:293.9,x:1126.7,y:310.4},0).wait(1).to({regX:567.7,regY:294.5,x:1128.35,y:311.1,alpha:0.8},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.2},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(305));
 
 	// po_angliyski
 	this.instance_6 = new lib.imperativemood_2("synched",0);
@@ -1770,11 +1774,11 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,46.5,46.5);
 
 	// svoi
 	this.instance_11 = new lib.svoi("synched",0);
-	this.instance_11.setTransform(1250.4,202.7,60,60,0,0,0,283.8,-24.7);
+	this.instance_11.setTransform(1253.4,205.7,60,60,0,0,0,283.8,-24.6);
 	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(658).to({_off:false},0).wait(1).to({regX:114.5,regY:27.3,scaleX:51.4205,scaleY:51.4205,x:-7455.25,y:2877},0).wait(1).to({scaleX:43.528,scaleY:43.528,x:-6119.3,y:2466.95,alpha:0.0024},0).wait(1).to({scaleX:36.3226,scaleY:36.3226,x:-4899.65,y:2092.65,alpha:0.0194},0).wait(1).to({scaleX:29.7998,scaleY:29.7998,x:-3795.55,y:1753.8,alpha:0.0819},0).wait(1).to({scaleX:23.9686,scaleY:23.9686,x:-2808.55,y:1450.85,alpha:0.25},0).wait(1).to({scaleX:18.82,scaleY:18.82,x:-1937.1,y:1183.4,alpha:0.6223},0).wait(1).to({scaleX:14.3585,scaleY:14.3585,x:-1181.95,y:951.6,alpha:1},0).wait(1).to({scaleX:10.584,scaleY:10.584,x:-542.95,y:755.5},0).wait(1).to({scaleX:7.4922,scaleY:7.4922,x:-19.5,y:594.9},0).wait(1).to({scaleX:5.0918,scaleY:5.0918,x:386.85,y:470.2},0).wait(1).to({scaleX:3.3742,scaleY:3.3742,x:677.65,y:380.95},0).wait(1).to({scaleX:2.3435,scaleY:2.3435,x:852.15,y:327.45},0).wait(1).to({scaleX:2,scaleY:2,x:910.3,y:309.6},0).wait(1).to({regX:252.2,regY:40.8,scaleX:0.7227,scaleY:0.7234,x:1224.7,y:258.8},0).wait(1).to({regX:114.5,regY:27.3,x:1125.15,y:249},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({regX:252.2,regY:41.4,x:1224.7,y:258.9},0).wait(1).to({regX:114.5,regY:27.3,x:1125.15,y:248.65},0).wait(1).to({x:1125.2,y:248.7},0).wait(1).to({x:1125.3},0).wait(1).to({x:1125.65},0).wait(1).to({x:1126.65},0).wait(1).to({x:1128.8,y:248.8},0).wait(1).to({x:1133.05,y:248.9},0).wait(1).to({x:1140.55,y:249.1},0).wait(1).to({x:1152.9,y:249.45},0).wait(1).to({x:1172.15,y:249.95},0).wait(1).to({x:1200.8,y:250.75},0).wait(1).to({x:1242,y:251.9},0).wait(1).to({x:1299.5,y:253.45},0).wait(1).to({x:1357,y:255.05},0).wait(1).to({x:1398.25,y:256.2},0).wait(1).to({x:1426.9,y:257},0).wait(1).to({x:1446.15,y:257.5},0).wait(1).to({x:1458.5,y:257.85},0).wait(1).to({x:1465.95,y:258.05},0).wait(1).to({x:1470.2,y:258.15},0).wait(1).to({x:1472.4,y:258.25},0).wait(1).to({x:1473.4},0).wait(1).to({x:1473.75},0).wait(1).to({x:1473.85},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({regX:252.1,regY:41.3,scaleX:0.72,scaleY:0.72,x:1573.4,y:268.4},0).wait(1).to({regX:114.5,regY:27.3,x:1474.3,y:258.25},0).wait(1).to({y:258.3},0).wait(1).to({x:1474.25},0).wait(1).to({x:1474},0).wait(1).to({x:1473.35},0).wait(1).to({x:1471.9,y:258.4},0).wait(1).to({x:1469.1,y:258.5},0).wait(1).to({x:1464.1,y:258.75},0).wait(1).to({x:1455.95,y:259.15},0).wait(1).to({x:1443.2,y:259.75},0).wait(1).to({x:1424.15,y:260.65},0).wait(1).to({x:1396.8,y:261.95},0).wait(1).to({x:1369.5,y:263.3},0).wait(1).to({x:1350.45,y:264.2},0).wait(1).to({x:1337.7,y:264.8},0).wait(1).to({x:1329.55,y:265.2},0).wait(1).to({x:1324.55,y:265.4},0).wait(1).to({x:1321.75,y:265.55},0).wait(1).to({x:1320.3,y:265.65},0).wait(1).to({x:1319.65},0).wait(1).to({x:1319.4},0).wait(1).to({x:1319.35},0).wait(1).to({startPosition:0},0).wait(1).to({x:1319.3},0).wait(1).to({regX:252.1,regY:41.3,x:1418.4,y:275.75},0).wait(22).to({regY:41.2},0).wait(1).to({regX:114.5,regY:27.3,x:1330.75,y:265.7,alpha:0.8571},0).wait(1).to({x:1342.2,alpha:0.7143},0).wait(1).to({x:1353.6,alpha:0.5714},0).wait(1).to({x:1365.05,alpha:0.4286},0).wait(1).to({x:1376.45,alpha:0.2857},0).wait(1).to({x:1387.9,alpha:0.1429},0).wait(1).to({x:1399.3,alpha:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).to({_off:true},1).wait(372));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(658).to({_off:false},0).wait(1).to({regX:114.5,regY:27.3,scaleX:51.4205,scaleY:51.4205,x:-7452.7,y:2874.4},0).wait(1).to({scaleX:43.528,scaleY:43.528,x:-6117.1,y:2464.75,alpha:0.0024},0).wait(1).to({scaleX:36.3226,scaleY:36.3226,x:-4897.8,y:2090.8,alpha:0.0194},0).wait(1).to({scaleX:29.7998,scaleY:29.7998,x:-3794.05,y:1752.3,alpha:0.0819},0).wait(1).to({scaleX:23.9686,scaleY:23.9686,x:-2807.35,y:1449.65,alpha:0.25},0).wait(1).to({scaleX:18.82,scaleY:18.82,x:-1936.15,y:1182.45,alpha:0.6223},0).wait(1).to({scaleX:14.3585,scaleY:14.3585,x:-1181.25,y:950.9,alpha:1},0).wait(1).to({scaleX:10.584,scaleY:10.584,x:-542.45,y:755},0).wait(1).to({scaleX:7.4922,scaleY:7.4922,x:-19.1,y:594.55},0).wait(1).to({scaleX:5.0918,scaleY:5.0918,x:387.1,y:469.95},0).wait(1).to({scaleX:3.3742,scaleY:3.3742,x:677.8,y:380.8},0).wait(1).to({scaleX:2.3435,scaleY:2.3435,x:852.25,y:327.35},0).wait(1).to({scaleX:2,scaleY:2,x:910.4,y:309.5},0).wait(1).to({regX:252.2,regY:40.8,scaleX:0.7227,scaleY:0.7234,x:1224.7,y:258.8},0).wait(1).to({regX:114.5,regY:27.3,x:1125.15,y:249},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({regX:252.2,regY:41.4,x:1224.7,y:258.9},0).wait(1).to({regX:114.5,regY:27.3,x:1125.15,y:248.65},0).wait(1).to({x:1125.2,y:248.7},0).wait(1).to({x:1125.3},0).wait(1).to({x:1125.65},0).wait(1).to({x:1126.65},0).wait(1).to({x:1128.8,y:248.8},0).wait(1).to({x:1133.05,y:248.9},0).wait(1).to({x:1140.55,y:249.1},0).wait(1).to({x:1152.9,y:249.45},0).wait(1).to({x:1172.15,y:249.95},0).wait(1).to({x:1200.8,y:250.75},0).wait(1).to({x:1242,y:251.9},0).wait(1).to({x:1299.5,y:253.45},0).wait(1).to({x:1357,y:255.05},0).wait(1).to({x:1398.25,y:256.2},0).wait(1).to({x:1426.9,y:257},0).wait(1).to({x:1446.15,y:257.5},0).wait(1).to({x:1458.5,y:257.85},0).wait(1).to({x:1465.95,y:258.05},0).wait(1).to({x:1470.2,y:258.15},0).wait(1).to({x:1472.4,y:258.25},0).wait(1).to({x:1473.4},0).wait(1).to({x:1473.75},0).wait(1).to({x:1473.85},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({regX:252.1,regY:41.3,scaleX:0.72,scaleY:0.72,x:1573.4,y:268.4},0).wait(1).to({regX:114.5,regY:27.3,x:1474.3,y:258.25},0).wait(1).to({y:258.3},0).wait(1).to({x:1474.25},0).wait(1).to({x:1474},0).wait(1).to({x:1473.35},0).wait(1).to({x:1471.9,y:258.4},0).wait(1).to({x:1469.1,y:258.5},0).wait(1).to({x:1464.1,y:258.75},0).wait(1).to({x:1455.95,y:259.15},0).wait(1).to({x:1443.2,y:259.75},0).wait(1).to({x:1424.15,y:260.65},0).wait(1).to({x:1396.8,y:261.95},0).wait(1).to({x:1369.5,y:263.3},0).wait(1).to({x:1350.45,y:264.2},0).wait(1).to({x:1337.7,y:264.8},0).wait(1).to({x:1329.55,y:265.2},0).wait(1).to({x:1324.55,y:265.4},0).wait(1).to({x:1321.75,y:265.55},0).wait(1).to({x:1320.3,y:265.65},0).wait(1).to({x:1319.65},0).wait(1).to({x:1319.4},0).wait(1).to({x:1319.35},0).wait(1).to({startPosition:0},0).wait(1).to({x:1319.3},0).wait(1).to({regX:252.1,regY:41.3,x:1418.4,y:275.75},0).wait(22).to({regY:41.2},0).wait(1).to({regX:114.5,regY:27.3,x:1330.75,y:265.7,alpha:0.8571},0).wait(1).to({x:1342.2,alpha:0.7143},0).wait(1).to({x:1353.6,alpha:0.5714},0).wait(1).to({x:1365.05,alpha:0.4286},0).wait(1).to({x:1376.45,alpha:0.2857},0).wait(1).to({x:1387.9,alpha:0.1429},0).wait(1).to({x:1399.3,alpha:0},0).wait(1).to({startPosition:0},0).wait(1).to({startPosition:0},0).to({_off:true},1).wait(372));
 
 	// uderzhi
 	this.instance_12 = new lib.uderzhi_2("synched",0);
@@ -1855,7 +1859,7 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,46.5,46.5);
 	this.instance_23.setTransform(1465.6,203,0.6,0.6,0,0,0,270.2,40.1);
 	this.instance_23._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(285).to({_off:false},0).wait(48).to({regX:270.1},0).wait(1).to({regX:139.2,regY:93.8,x:1381.35,y:236.5},0).wait(1).to({x:1375.65,y:237.9},0).wait(1).to({x:1369.5,y:239.45},0).wait(1).to({x:1361.7,y:241.6},0).wait(1).to({x:1350.25,y:245.15},0).wait(1).to({x:1332.15,y:251.7},0).wait(1).to({x:1304.35,y:265.25},0).wait(1).to({x:1267.6,y:294.95},0).wait(1).to({x:1243.5,y:334},0).wait(1).to({x:1234.85,y:361.7},0).wait(1).to({x:1231.65,y:379.3},0).wait(1).to({x:1230.35,y:390.35},0).wait(1).to({x:1229.75,y:397.8},0).wait(1).to({x:1229.35,y:403.65},0).wait(1).to({x:1229.1,y:409.05},0).wait(1).to({x:1228.95,y:414.4},0).wait(1).to({regX:270.1,regY:40.1,x:1307.55,y:382.15},0).wait(1).to({regX:139.2,regY:93.8,x:1228.95,y:414.35},0).wait(1).to({x:1229},0).wait(1).to({x:1229.15},0).wait(1).to({x:1229.8},0).wait(1).to({x:1231.5},0).wait(1).to({x:1235.2},0).wait(1).to({x:1242.45},0).wait(1).to({x:1255.3},0).wait(1).to({x:1276.4},0).wait(1).to({x:1305.85},0).wait(1).to({x:1327},0).wait(1).to({x:1339.8},0).wait(1).to({x:1347.05},0).wait(1).to({x:1350.8},0).wait(1).to({x:1352.5},0).wait(1).to({x:1353.15},0).wait(1).to({x:1353.3},0).wait(3).to({regX:270.1,regY:40.1,x:1431.85,y:382.1},0).wait(5).to({regX:344.9,regY:108.9,x:1476.8,y:423.45},0).wait(1).to({regX:139.2,regY:93.8,x:1353.3,y:414.35},0).wait(1).to({rotation:-31.8795,x:1367.1,y:480.9},0).wait(1).to({rotation:-64.1932,x:1414.85,y:530.55},0).wait(1).to({rotation:-120.369,x:1551.3,y:554.45},0).wait(1).to({rotation:-134.544,x:1576.8,y:537.7},0).wait(1).to({rotation:-138.582,x:1583.25,y:531.85},0).wait(1).to({rotation:-133.599,x:1575.25,y:539},0).wait(1).to({rotation:-120.369,x:1551.3,y:554.45},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-69.9862,x:1446,y:556.25},0).wait(1).to({rotation:-62,x:1430.8,y:548.1},0).wait(1).to({rotation:-68.2162,x:1442.5,y:554.65},0).wait(1).to({rotation:-77.1285,x:1460.4,y:561.7},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-104,x:1517.8,y:565.35},0).wait(1).to({rotation:-107,x:1524.15,y:564.1},0).wait(1).to({rotation:-104,x:1517.8,y:565.35},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-80.2433,x:1466.85,y:563.5},0).wait(1).to({rotation:-77.5558,x:1461.3,y:562},0).wait(1).to({rotation:-80.2433,x:1466.85,y:563.5},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-95,x:1498.4,y:567.15},0).wait(1).to({rotation:-97,x:1502.75,y:567},0).wait(1).to({regX:344.7,regY:108.4,rotation:-95.9984,x:1496.9,y:443.3},0).wait(1).to({regX:139.2,regY:93.8,rotation:-95.9815,x:1500.95,y:571.55},0).wait(1).to({rotation:-95.926,x:1500.9,y:585.6},0).wait(1).to({rotation:-95.8333,x:1500.65,y:609.05},0).wait(1).to({rotation:-95.7038,x:1500.35,y:641.85},0).wait(1).to({rotation:-95.5372,x:1500,y:684.05},0).wait(1).to({rotation:-95.3333,x:1499.6,y:735.7},0).wait(1).to({rotation:-95.0927,x:1499.05,y:796.65,alpha:0.5},0).wait(1).to({rotation:-95,x:1498.8,y:814.6,alpha:0},0).wait(1).to({y:810.15},0).to({_off:true},1).wait(745));
+	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(285).to({_off:false},0).wait(48).to({regX:270.1},0).wait(1).to({regX:139.2,regY:93.8,x:1381.35,y:236.5},0).wait(1).to({x:1375.65,y:237.9},0).wait(1).to({x:1369.5,y:239.45},0).wait(1).to({x:1361.7,y:241.6},0).wait(1).to({x:1350.25,y:245.15},0).wait(1).to({x:1332.15,y:251.7},0).wait(1).to({x:1304.35,y:265.25},0).wait(1).to({x:1267.6,y:294.95},0).wait(1).to({x:1243.5,y:334},0).wait(1).to({x:1234.85,y:361.7},0).wait(1).to({x:1231.65,y:379.3},0).wait(1).to({x:1230.35,y:390.35},0).wait(1).to({x:1229.75,y:397.8},0).wait(1).to({x:1229.35,y:403.65},0).wait(1).to({x:1229.1,y:409.05},0).wait(1).to({x:1228.95,y:414.4},0).wait(1).to({regX:270.1,regY:40.1,x:1307.55,y:382.15},0).wait(1).to({regX:139.2,regY:93.8,x:1228.95,y:414.35},0).wait(1).to({x:1229},0).wait(1).to({x:1229.15},0).wait(1).to({x:1229.8},0).wait(1).to({x:1231.5},0).wait(1).to({x:1235.2},0).wait(1).to({x:1242.45},0).wait(1).to({x:1255.3},0).wait(1).to({x:1276.4},0).wait(1).to({x:1305.85},0).wait(1).to({x:1327},0).wait(1).to({x:1339.8},0).wait(1).to({x:1347.05},0).wait(1).to({x:1350.8},0).wait(1).to({x:1352.5},0).wait(1).to({x:1353.15},0).wait(1).to({x:1353.3},0).wait(3).to({regX:270.1,regY:40.1,x:1431.85,y:382.1},0).wait(5).to({regX:344.9,regY:108.9,x:1476.8,y:423.45},0).wait(1).to({regX:139.2,regY:93.8,x:1353.3,y:414.35},0).wait(1).to({rotation:-31.8795,x:1367.1,y:480.9},0).wait(1).to({rotation:-64.1932,x:1414.85,y:530.55},0).wait(1).to({rotation:-120.369,x:1551.3,y:554.45},0).wait(1).to({rotation:-134.544,x:1576.8,y:537.7},0).wait(1).to({rotation:-138.582,x:1583.25,y:531.85},0).wait(1).to({rotation:-133.599,x:1575.25,y:539},0).wait(1).to({rotation:-120.369,x:1551.3,y:554.45},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-69.9862,x:1446,y:556.25},0).wait(1).to({rotation:-62,x:1430.8,y:548.1},0).wait(1).to({rotation:-68.2162,x:1442.5,y:554.65},0).wait(1).to({rotation:-77.1285,x:1460.4,y:561.7},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-104,x:1517.8,y:565.35},0).wait(1).to({rotation:-107,x:1524.15,y:564.1},0).wait(1).to({rotation:-104,x:1517.8,y:565.35},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-80.2433,x:1466.85,y:563.5},0).wait(1).to({rotation:-77.5558,x:1461.3,y:562},0).wait(1).to({rotation:-80.2433,x:1466.85,y:563.5},0).wait(1).to({rotation:-90,x:1487.7,y:566.8},0).wait(1).to({rotation:-95,x:1498.4,y:567.15},0).wait(1).to({rotation:-97,x:1502.75,y:567},0).wait(1).to({regX:344.7,regY:108.3,rotation:-95.9984,x:1496.85,y:443.3},0).wait(1).to({regX:139.2,regY:93.8,rotation:-95.9815,x:1501,y:571.55},0).wait(1).to({rotation:-95.926,x:1500.95,y:585.6},0).wait(1).to({rotation:-95.8333,x:1500.7,y:609.05},0).wait(1).to({rotation:-95.7038,x:1500.4,y:641.85},0).wait(1).to({rotation:-95.5372,x:1500.05,y:684.05},0).wait(1).to({rotation:-95.3333,x:1499.65,y:735.7},0).wait(1).to({rotation:-95.0927,x:1499.1,y:796.65,alpha:0.5},0).wait(1).to({rotation:-95,x:1498.85,y:814.6,alpha:0},0).wait(1).to({y:810.15},0).to({_off:true},1).wait(745));
 
 	// bf2
 	this.instance_24 = new lib.big_foots("synched",0);
@@ -1914,19 +1918,19 @@ lib.properties = {
 	color: "#323232",
 	opacity: 1.00,
 	manifest: [
-		{src:"../images/CachedBmp_21.png", id:"CachedBmp_21"},
-		{src:"../images/generator_fraz_promo_atlas_1.png", id:"generator_fraz_promo_atlas_1"},
+		{src:"../images/CachedBmp_2.png?56", id:"CachedBmp_2"},
+		{src:"../images/generator_fraz_promo_atlas_1.png?56", id:"generator_fraz_promo_atlas_1"},
 		{src:"../sounds/brokenglass9.mp3", id:"brokenglass9"},
 		{src:"../sounds/flyingpast4.mp3", id:"flyingpast4"},
 		{src:"../sounds/step27.mp3", id:"step27"},
 		{src:"../sounds/step6.mp3", id:"step6"},
-		{src:"../sounds/flyingpast.mp3", id:"flyingpast"},
 		{src:"../sounds/win2.mp3", id:"win2"},
-		{src:"../sounds/voltaicarc.mp3", id:"voltaicarc"},
+		{src:"../sounds/flyingpast.mp3", id:"flyingpast"},
+		{src:"../sounds/step3.mp3", id:"step3"},
 		{src:"../sounds/step2.mp3", id:"step2"},
-		{src:"../sounds/win6.mp3", id:"win6"},
+		{src:"../sounds/voltaicarc.mp3", id:"voltaicarc"},
 		{src:"../sounds/step4.mp3", id:"step4"},
-		{src:"../sounds/step3.mp3", id:"step3"}
+		{src:"../sounds/win6.mp3", id:"win6"}
 	],
 	preloads: []
 };
