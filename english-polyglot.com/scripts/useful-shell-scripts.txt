@@ -1,0 +1,15 @@
+# 1. Rename all folders and files to lowercase:
+
+for f in `find .`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
+
+
+#2. Remove all the whitespaces from all the lines of all the `*.xml` files in all subdirectories
+
+it's dangerous!! because you can process the wrong file. 
+
+find . -type f -name "*.xml" -exec sed -i "s/> *\(.*[^ ]\)\+ *\(<..>\) */>\1\2/g" {} \;
+
+
+#3. remove tags; Replace characters to lowercase; Replace whitespaces with `hyphen`; remove non-symbolic sign;
+
+< avatar-en.xml sed -e "s/^\\s*<a>\(.*\)<\/a>/\1/g" | tr '[A-Z]' '[a-z]' | sed -e "s/ /-/g" | sed 's/[^a-z\-]//g' > avatar-en-audio-names
