@@ -14,7 +14,7 @@ jobs:
         server: english-polyglot.com
         username: papa31
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: sftp
+        protocol: ftp
         port: 22
         server-dir: /home/papa31/
         dry-run: true
