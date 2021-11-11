@@ -14,5 +14,5 @@ jobs:
         ftp-server: sftp://gouverneur-morris.dreamhost.com:22/home/papa31/
         ftp-username: papa31
         ftp-password: ${{ secrets.SFTP_PASSWORD }}
-        known-hosts: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKLONkUDGDsS7qmQTD5VovovvlnFVATX/Tcwhvop2WTbGEJ/wRnH8DTGKZETUirRLpYWxqvWqDUXCaztpa8AW9PfwENyuvMLl46/U3Ms39YJbwn3fxTYmSesJxizU3j6uHulnwoqStY7+66kk+6/v01HMOz77XNzs/VD1UcFJ06ziWMnX6W1eM50kEUxOVtzLGMTjiGdYvHFbmug17/unpDdgyLkK3kFfj1qikWxX0fqHn4sM5x+AgKhVBLR41T0jSStQm0SUhOi+2fYnIckePbLPBFY+tqyumVyBLPKG2+WF7nmg6Bq4xSc32caDTBnQi1j822tuhBZBhlJQjI4GP
+        known-hosts: gouverneur-morris.dreamhost.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKLONkUDGDsS7qmQTD5VovovvlnFVATX/Tcwhvop2WTbGEJ/wRnH8DTGKZETUirRLpYWxqvWqDUXCaztpa8AW9PfwENyuvMLl46/U3Ms39YJbwn3fxTYmSesJxizU3j6uHulnwoqStY7+66kk+6/v01HMOz77XNzs/VD1UcFJ06ziWMnX6W1eM50kEUxOVtzLGMTjiGdYvHFbmug17/unpDdgyLkK3kFfj1qikWxX0fqHn4sM5x+AgKhVBLR41T0jSStQm0SUhOi+2fYnIckePbLPBFY+tqyumVyBLPKG2+WF7nmg6Bq4xSc32caDTBnQi1j822tuhBZBhlJQjI4GP
 
