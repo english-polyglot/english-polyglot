@@ -1,20 +1,18 @@
 on: push
-name: 🚀 Publish Website
+name: Publish Website
 jobs:
-  web-deploy:
-    name: 🎉 FTP-Deploy-Action
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
       uses: actions/checkout@v2.1.0
       with:
         fetch-depth: 2
-    
-    - name: 📂 FTP-Deploy-Action
+    - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-          ftp_server:  sftp://gouverneur-morris.dreamhost.com:22/home/papa31/
-          ftp_username: ${{ secrets.SFTP_USER }}
+          ftp_server:  sftp://gouverneur-morris.dreamhost.com/home/papa31/
+          ftp_username: papa31
           ftp_password: ${{ secrets.SFTP_PASSWORD }}
 
 
