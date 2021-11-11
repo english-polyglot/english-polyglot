@@ -13,7 +13,7 @@ jobs:
     - name: 📂 FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-          ftp_server:  ${{ secrets.FTP_SERVER }}
+          ftp_server:  sftp://gouverneur-morris.dreamhost.com:22/home/papa31/
           ftp_username: ${{ secrets.SFTP_USER }}
           ftp_password: ${{ secrets.SFTP_PASSWORD }}
 
