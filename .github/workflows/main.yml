@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       with:
-          FTP_SERVER: gouverneur-morris.dreamhost.com
+          FTP_SERVER:  ${{ secrets.SFTP_SERVER }}
           FTP_USERNAME: ${{ secrets.SFTP_USER }}
           FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
           METHOD: sftp
