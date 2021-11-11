@@ -10,9 +10,9 @@ jobs:
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
-      with:
-          FTP_SERVER:  gouverneur-morris.dreamhost.com:22
-          FTP_USERNAME: papa31
+      env:
+          FTP_SERVER:  ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.SFTP_USER }}
           FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
           METHOD: sftp
           REMOTE_DIR: /home/papa31/
