@@ -17,5 +17,6 @@ jobs:
           METHOD: sftp
           LOCAL_DIR: ${{ github.workspace }}/english-polyglot.com
           REMOTE_DIR: /home/papa31
+          port: 22
 
 
