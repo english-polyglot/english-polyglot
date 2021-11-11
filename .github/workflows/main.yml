@@ -16,6 +16,6 @@ jobs:
           FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
           METHOD: sftp
           REMOTE_DIR: /home/papa31/
-          port: 22
+          PORT: 22
 
 
