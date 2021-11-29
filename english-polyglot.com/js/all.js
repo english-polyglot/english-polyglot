@@ -198,6 +198,8 @@ function getextension(filename){
 	return /[^&]*/.exec(/[^?]*/.exec(/[^.]+$/.exec(filename)))[0]
 }
 
+// ------------------tooltip ----------------------
+
 
 var tooltip = {
 
@@ -741,12 +743,13 @@ function closeObject (element) {
 
 function showObject (element) {
 	document.getElementById('d1').style.zIndex='1'
-	document.getElementById('d2').style.zIndex='1'
+	// document.getElementById('d2').style.zIndex='1'
 
 	var i=document.getElementById(element)
 	i.style.display = 'table'
 	i.style.position = 'fixed'
 	i.style.top = '0px'
+	i.style.right='0px'
 	i.style.zIndex ='2'
 }
 
@@ -758,8 +761,8 @@ function plusImage (elem) {
 
 	b2.disabled = false
 
-	if (w < 650) { w = w + 50; i.style.width = w + 'px'; b1.disabled = false;}
-	else{b1.disabled=true}
+	if (w < 530) { w = w + 50; i.style.width = w + 'px'; b1.disabled = false;}
+	else { b1.disabled = true; tooltip.t.style.visibility = "hidden"}
 }
 
 function minusImage (elem) {
@@ -771,7 +774,7 @@ function minusImage (elem) {
 	b1.disabled = false
 	
 	if (w > 320) { w = w - 50; i.style.width = w + 'px'; b2.disabled = false; }
-	else{b2.disabled=true}
+	else { b2.disabled = true; tooltip.t.style.visibility = "hidden" }
 }
 
 var dragMaster = (function() {
@@ -812,7 +815,7 @@ var dragMaster = (function() {
 		if (e.which!=1) return
 		dragObject  = this
 		document.getElementById('d1').style.zIndex='1'
-		document.getElementById('d2').style.zIndex='1'
+		// document.getElementById('d2').style.zIndex='1'
 		dragObject.style.zIndex = '2'
 		// получить сдвиг элемента относительно курсора мыши
 		mouseOffset = getMouseOffset(this, e)

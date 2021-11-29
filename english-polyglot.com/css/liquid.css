@@ -141,12 +141,12 @@ button.rotate{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms
 .notfloat{clear:both}
 
 .fixedImg{position:absolute;display:none;z-index:1;text-indent:0;cursor:move}
-.fixedImg button{cursor:pointer;line-height:1.3}
+.fixedImg button{opacity:0.75;cursor:pointer;line-height:1.3}
 .leftBtn div{position:absolute}
 .rightBtn button{position:absolute;top:0px;right:0px;padding:0 10px;font-size:19px}
 .leftBtn button{padding:0 10px;font-size:19px}
-.fixedImg img{width:49.5vw;max-width:660px;min-width:310px;height:auto}
-button:disabled {opacity:0.6;cursor:not-allowed}
+.fixedImg img{/*width:49.5vw;*/max-width:540px;min-width:310px;height:auto}
+button:disabled {opacity:0;cursor:not-allowed}
 
 .rost1{margin-left:2em}
 .rost2{margin-left:4em}
