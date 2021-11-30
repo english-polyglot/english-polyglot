@@ -25,7 +25,7 @@ a:hover, a:active, a:focus{text-decoration:none}
 .container{width:100%;/* max-width:906px; */margin:0 auto;clear: both;}
 .container_inner{overflow:hidden}
 .pixelate333{image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:bicubic;image-rendering:pixelated}
-.px680{max-width:680px;margin:0 auto;}
+.px680{width:100%;max-width:680px;margin:0 auto}
 .embed-container{position:relative;padding-bottom:67.25%;padding-top:30px;height:0;overflow:hidden;margin-left:20px;margin-right:20px}
 .black_bg{background-color:#000;/* margin-top: 1px; */}
 .flash{padding-bottom:51.7%;padding-top:4.35%;margin:0;text-align:center}
