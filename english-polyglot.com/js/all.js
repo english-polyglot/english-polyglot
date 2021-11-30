@@ -749,7 +749,6 @@ function showObject (element) {
 	i.style.display = 'table'
 	i.style.position = 'fixed'
 	i.style.top = '0px'
-	i.style.right='0px'
 	i.style.zIndex ='2'
 }
 
