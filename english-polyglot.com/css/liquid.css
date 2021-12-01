@@ -103,7 +103,7 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .quote{/* font-family:Georgia,"Times New Roman",Times,serif; */padding:13px;/* border-radius:5px; *//* font-size:115%; */margin:5px 0 25px;margin-left:10px;}
 .quote em{font-family:sans-serif}
 .notfla_img{width:100%;margin:0 auto}
-#animation_container{overflow:hidden;max-width: 840px;/* max-width: 906px; */margin:  0 auto;}
+#animation_container{max-width:840px;/* max-width: 906px; */margin:0 auto}
 #tooltip{font:menu;margin:0px;padding:3px 5px;position:absolute;visibility:hidden;font-size:1.2em;z-index:3}
 .round{border-radius:5px;margin: 10px 0 20px;padding:20px 5%;text-align:center;}
 img.mw150{width:80%}
