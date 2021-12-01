@@ -493,6 +493,7 @@ header h2 span{font-size:0.5em;}
 footer h3{width: 100%;padding: 0;}
 }
 
+@media(max-width:500px){#d1b1, #d1b2 {display: none}}
 @media(min-width:616px){
 .scroll-to-top{bottom: 100px;}
 .notfla_img{max-width: 509px;}
