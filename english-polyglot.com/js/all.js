@@ -748,7 +748,7 @@ function showObject (element) {
 	var i=document.getElementById(element)
 	i.style.display = 'table'
 	i.style.position = 'fixed'
-	i.style.top = '20px'
+	i.style.top = '30px'
 	i.style.right = '20px'
 	i.style.zIndex = '2'
 	
