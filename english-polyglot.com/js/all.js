@@ -738,7 +738,7 @@ function getOffsetSum(elem) {
 function closeObject (element) {
 	var y=document.getElementById(element)
 	y.style.display = 'none'
-	y.style.top=''
+	y.style.top = ''
 }
 
 function showObject (element) {
@@ -748,8 +748,10 @@ function showObject (element) {
 	var i=document.getElementById(element)
 	i.style.display = 'table'
 	i.style.position = 'fixed'
-	i.style.top = '0px'
-	i.style.zIndex ='2'
+	i.style.top = '20px'
+	i.style.right = '20px'
+	i.style.zIndex = '2'
+	
 }
 
 function plusImage (elem) {
