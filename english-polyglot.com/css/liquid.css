@@ -223,7 +223,7 @@ ul.nav#new-back li{padding:0}
 
 .sub_top,.delitsa,.okno{font-size:1em}
 .donateButton input,.donateButton select{font-size:1rem}
-.donateButton{position:static;border-radius:initial;font-size:1.5rem;width:320px;margin: 0 auto;padding:20px;}
+.donateButton{position:static;border-radius:initial;font-size:1.5rem;/*width:320px;*/margin: 0 auto;padding:20px;}
 .sum{width:100px;margin-bottom:15px}
 .donateButton img{width:200px;padding:20px 0}
 .donateButton img{display:block}
