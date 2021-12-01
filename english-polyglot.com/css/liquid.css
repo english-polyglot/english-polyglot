@@ -282,7 +282,7 @@ a.black-stroke{color:#FFF;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 
 a.black-stroke:hover{color:#212121;background-color:#212121;text-shadow:-1px -1px 0 #FFF,1px -1px 0 #FFF,-1px 1px 0 #FFF,1px 1px 0 #FFF}
 a.red{color:#b30024}
 a.red:hover{color:#FFEBEE;background-color:#b30024}
-a.blue{color:#3949AB;background-color:inherit}
+a.blue{color:#3949AB;background-color:inherit;font-weight:bold;}
 a.blue:hover{color:#E8EAF6;background-color:#3F51B5}
 .green{/* background-color:#D6E7DC */}
 .quote.green{/* border-left:5px solid #2E7D32 */}
