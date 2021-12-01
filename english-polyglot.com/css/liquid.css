@@ -526,7 +526,10 @@ main h2 strong{font-size: 1.3em;}main h3{font-size: 2em;padding: 30px;}
 form.gsc-search-box.gsc-search-box-tools{width: 36%;font-size:10px;/* float:right; *//* padding-right: 10px; */padding-left: 30px;}
 }
 
-@media(max-width:768px){.fixedImg{left:50% !important;transform:translateX(-50%)}}
+@media(max-width:768px){
+.fixedImg{left:50% !important;transform:translateX(-50%)}
+#animation_container{overflow:hidden}
+}
 
 @media(min-width:1024px){
 canvas{width: 204%;transform: translate(-25.6%);}
