@@ -1077,30 +1077,6 @@ function ambulance_on(){setTimeout(function(){amb.innerHTML=css_code;hover_chk=!
 function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover_chk;},10000)}
 
 //ambulance_on(); // start ambulance trigger // put ambulance_on() after hover_chk; in ambulance_off //function
-//-------массив картинок с таблицами
-
-var tabl=[,['tablica-glagolov-petrova-image.gif','tablica-glagolov-petrova-image-black.gif','red-tablica-glagolov-petrova-image.gif','table-base.gif'],,['tablica-glagola-to-be-petrova-image.gif','black-tablica-glagola-to-be-petrova-image.gif','green-tablica-glagola-to-be-petrova-image.gif','table-be.gif'],['tablica-glagola-to-be-ing-image.gif','tablica-glagola-to-be-ing-image-black.gif','tablica-glagola-to-be-ing-image-green.gif','table-be.gif'],,,['short-tablica-glagolov-petrova-image.gif','black-short-tablica-glagolov-petrova-image.gif','red-short-tablica-glagolov-petrova-image.gif','table-base-small-3.gif']];
-
-var tab_index=0;
-
-function change_table(table){
-		if(tab_index!=table){
-			tab_index=table;
-			if (urok_num<5||urok_num==7){
-				var c=urok_num;
-				var b='';
-				if (urok_num==2){c=1}
-				switch (table){
-					case 0: b=tabl[c][0];break;
-					case 1: b=tabl[c][1];break;
-					case 2: b=tabl[c][2];break;
-					case 3: b=tabl[c][3];break;
-				}
-				document.getElementById('t').src='img/'+b;//'<img src="img/'+b+'"  />';
-				document.getElementById('c').innerHTML=tabl_com[table];
-			}
-		}
-	}
 
 
 // ---------------начало скроллинга
