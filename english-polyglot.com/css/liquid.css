@@ -439,7 +439,7 @@ nav h3{font-size: 1.5em;}
 #lessons #menu_uroki{background-image: linear-gradient(0deg,#560909,#000000);padding-bottom: 5px;}
 #lessons .notready{background-image: linear-gradient(179deg,#560909,#000000);margin-top: -5px;}
 
-#google-search {min-height: 52px;float: left;}
+#google-search {min-height: 52px;float: left;width: 100%;}
 #new-back{padding: 40px 0;font-size: 1.3em;}
 .copyright span {display: block;}
 .fr1 {padding-bottom:62.25%;margin:0}
