@@ -42,12 +42,13 @@ window.addEventListener('load', async_load, false);
 	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(gcse, s);
 })();
-window.onload = function(){
-		
-document.getElementById('gsc-i-id1').setAttribute('tooltip',''); //Google Chrome	
-document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
-};		
-	
+window.onload = function () {
+setTimeout(function () {
+	document.getElementById("gsc-i-id1").removeAttribute("tooltip");
+	document.getElementById('gsc-i-id1').placeholder = 'Поиск по сайту';
+	  },0)
+};
+
 // Facebook initializing function
 window.fbAsyncInit = function() {
 FB.init({appId: '107859652683773', status: true, cookie: true,
