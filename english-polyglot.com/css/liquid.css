@@ -85,7 +85,7 @@ table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .row{display:table;width:100%;margin-top:-1px;text-indent:0;border-right:none}
 .tre,.tret{display:table-cell}
 .tre{padding:5px 0 !important}
-.od10,.odna{width:10%}
+/*.od10,*/.odna{width:10%}
 .dve{width:30%}
 .tri{width:60%}
 .dv40{width:40%}
