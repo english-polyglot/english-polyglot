@@ -1131,7 +1131,7 @@ function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover
 		// 	}
 		// },false);
 
-function scrollTo(e){var h=document.documentElement;if(h.scrollTop===0){var t=h.scrollTop;++h.scrollTop;h=t+1===h.scrollTop--?h:document.body;}scrollToX(h,h.scrollTop,e,0)}function scrollToX(e,a,b,t){if(t<0||t>1)return;k=t-1;e.scrollTop=a-(a-b)*(k*k*k+1);t+=0.001*20;setTimeout(function(){scrollToX(e,a,b,t)},20)}
+// function scrollTo(e){var h=document.documentElement;if(h.scrollTop===0){var t=h.scrollTop;++h.scrollTop;h=t+1===h.scrollTop--?h:document.body;}scrollToX(h,h.scrollTop,e,0)}function scrollToX(e,a,b,t){if(t<0||t>1)return;k=t-1;e.scrollTop=a-(a-b)*(k*k*k+1);t+=0.001*20;setTimeout(function(){scrollToX(e,a,b,t)},20)}
 
 var JD = {};
 
