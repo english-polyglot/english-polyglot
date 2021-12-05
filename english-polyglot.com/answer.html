@@ -48,7 +48,7 @@ body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif
     </div>
 
     <form id='but_done' style="margin:3vw;display:none">
-	  <input id="_form" class='but_class' type="button" value="   Done   " onClick="if(parent.screen.width<800){window.close()}else{window.open('', 'parent').focus()};return false">
+	  <input id="_form" class='but_class' type="button" value="   Done   " onClick="if(parent.screen.width<800){window.close()}else{window.open('', 'parent').focus()}tooltip.t.style.visibility='hidden';return false">
       <input id="print_form" class='but_class' type="button" value="  Print   " onClick="callPrint('convert')">
     </form>
     
