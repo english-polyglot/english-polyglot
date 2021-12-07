@@ -1085,8 +1085,9 @@ function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover
 		// to_bottom=document.getElementById('m4'),
 		don_btn=document.getElementById('dbt'),
 		stop_scroll=0,
-		curentScrollTop,
-		position=document.documentElement.scrollTop || document.body.scrollTop;
+		currentScrollTop,
+		position = document.documentElement.scrollTop || document.body.scrollTop,
+		threshold = 900;
 
 		// document.getElementById("m4").href="javascript:void(0)"
 
@@ -1095,16 +1096,16 @@ function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover
 		don_btn.className="donateButton fixed-hidden2";
 
 		window.addEventListener("scroll",function(){
-			curentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
+			currentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
 		},false);
 
 		// to_top.addEventListener("click",function(e){
 		// 	e.stopPropagation();
 		// 	(function scrollAnimate(){
-		// 		if (curentScrollTop>0 && !stop_scroll) {
+		// 		if (currentScrollTop>0 && !stop_scroll) {
 		// 			//scrollTo(0);
 		// 			setTimeout(function(){
-		// 				window.scrollBy(0,(-Math.abs(curentScrollTop)/20));
+		// 				window.scrollBy(0,(-Math.abs(currentScrollTop)/20));
 		// 				scrollAnimate();
 		// 			},10);
 		// 		}
@@ -1157,25 +1158,29 @@ JD.debounce = function( wait, func, immediate) {
 
 JD.lastName=function(){
 
-	if(curentScrollTop>1200){
-		to_top.className="scroll-to-top rotate";
-	}else{
-		to_top.className="scroll-to-top fixed-hidden";
-	}
+	var isScrollingUp = currentScrollTop < position;
 
-	var scrollHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
+	if (isScrollingUp && (currentScrollTop > threshold)) {
+		var documentHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
+		var windowHeight = window.innerHeight;
+      if (currentScrollTop + windowHeight < documentHeight) {
+        to_top.className="scroll-to-top rotate";
+      }
+    } else {
+      to_top.className="scroll-to-top fixed-hidden";
+    }
 
-	if ((curentScrollTop+window.innerHeight+300)>=scrollHeight){
+	if ((currentScrollTop+window.innerHeight+300)>=documentHeight){
 		don_btn.className="donateButton left50";
 	}else{
 		don_btn.className="donateButton fixed-hidden2";
 	}
 
-	if(curentScrollTop>position){
+	if(currentScrollTop>position){
 		stop_scroll=1;
 		setTimeout(function(){stop_scroll=0},200)
 	}
-	position=curentScrollTop;
+	position=currentScrollTop;
 
 }
 
