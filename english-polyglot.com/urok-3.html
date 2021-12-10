@@ -248,34 +248,26 @@ onclick="popup('fragment-no-contry-for-old-men.html', 970, 555, 'Погруже�
   <div id="d1" class="fixedImg">
     <div class="leftBtn">
       <div>
-        <button id='d1b1' onClick="plusImage('d1')" title="увеличить">+</button>
-        <button id='d1b2' onClick="minusImage('d1')" title="уменьшить">&minus;</button>
+        <button id='d1b1' onClick="plusImage('d1')">+</button>
+        <button id='d1b2' onClick="minusImage('d1')">&minus;</button>
       </div>
     </div>
-    <img id="imgd1" data-src="img/tablica-glagolov-petrova-image.gif" name="imgd1" width="100%" height="100%" border="0" alt="Базовая таблица глаголов Петрова" class="lazyload" />
+    <img id="imgd1" src="img/squared-petrov-table-base-love.png" name="imgd1" width="100%" height="100%" border="0" alt="Базовая таблица глаголов Петрова" />
     <div class="rightBtn">
-      <button onClick="closeObject('d1')" title="закрыть">×</button>
+      <button onClick="closeObject('d1');">×</button>
     </div>
   </div>
 
-  <div id="d2" class="fixedImg">
-    <div class="leftBtn">
-      <div>
-        <button id='d2b1' onClick="plusImage('d2')" title="увеличить">+</button>
-        <button id='d2b2' onClick="minusImage('d2')" title="уменьшить">&minus;</button>
-      </div>
-    </div>
-    <img id="imgd2" data-src="img/table-base.gif" width="100%" height="100%" alt="Транспонированная базовая таблица глаголов Петрова" class="lazyload" />
-    <div class="rightBtn">
-      <button onClick="closeObject('d2')" title="закрыть">×</button>
-    </div>
-  </div>
 </span>
 
-    <div class="round">чтобы иметь перед глазами таблицу глаголов, откройте её и отодвиньте в сторону<br />
-(<a class="green bold cap" href="javascript: void(0)" title="открыть"
-onclick="showObject('d1');">обычная</a> или&nbsp;<a class="green bold cap" href="javascript: void(0)" title="открыть"
-onclick="showObject('d2')">транспонированная</a>&nbsp;– время по&nbsp;оси&nbsp;Х). При прокрутке страницы таблица будет оставаться на месте.</div></div>
+<div class="round">чтобы иметь перед глазами таблицу глаголов, откройте её, кликнув по ссылке ниже (при прокрутке страницы, таблица будет оставаться на месте): <br />
+<a class="green bold cap" href="javascript: void(0)"
+onclick="showObject('d1');">Базовая таблица Петрова</a>.
+<br />
+На устройствах с большим экраном таблицу можно отодвигать в сторону и изменять в размерах.
+</div>
+
+</div>
           <div class="wrap_txt">
           <div>
           <ul>
@@ -436,8 +428,16 @@ onclick="popup('img/first-9-most-used-English-verbs.gif', 506, 650, 'Самые 
                     </script>
                 </div>
                 <!-- InstanceBeginEditable name="content3" -->
-   
-     <div class="history">
+
+  <figure>
+    <picture class="thumbnail">
+      <img data-src="img/squared-petrov-table-be.png" alt="Таблица глагола to be Петрова" class="foto_hero px680 lazyload"/>
+    </picture>
+    <figcaption>Таблица глагола to be Петрова</figcaption>
+  </figure>
+
+
+<div class="history">
   <div class="wrap_txt">
   
    <div><a class="red" href="javascript: void(0)" onclick="playWord(this);" title="ту би">to be </a>– это глагол-связка, которая обозначает присутствие. Кто-то или что-то <em>где-то находится</em>. Или кто-то или что-то <em>кем-то(чем-то) является</em>. </div>
@@ -493,42 +493,8 @@ onclick="popup('img/first-9-most-used-English-verbs.gif', 506, 650, 'Самые 
          
        </div><div class="clearfloat"></div>
        </div>
-                
-        <div id="urok_tab" class="abm tp lp bp px680" style="display:none">
-        	<form autocomplete="off">
-            <label for="tableL">Вариант:</label>
-            <input type="radio" name="table-choice" id="tableA" class="radio_table" onclick="change_table(0)" checked="checked" />
-            <label for="tableA">A</label>
-            <input type="radio" name="table-choice" id="tableB" class="radio_table" onclick="change_table(1)" />
-            <label for="tableB">B</label>
-            <input type="radio" name="table-choice" id="tableC" class="radio_table" onclick="change_table(2)" />
-            <label for="tableC">C</label>
-            <input type="radio" name="table-choice" id="tableD" class="radio_table" onclick="change_table(3)" />
-            <label for="tableD">D</label>
-        	</form>
-        </div>    
-        
-        <div class="video_center"><img id="t" class="foto_hero px680" src="img/tablica-glagola-to-be-petrova-image.gif" alt="Таблица глагола to be Дмитрий Петров Полиглот"/><div id="c" class="wrap_txt_center"><strong>Таблица глагола to be Петрова </strong></div></div>
-        
-		<div id="tog" class="abm lp bp px680" style="display:none">       
-            <form autocomplete="off">
-                <label>Резкость:</label>            
-                <input type="radio" name="imageRender" id="renderAuto" class="radio_table" value="auto" onclick="document.getElementById('pixelated').innerHTML='.foto_hero,.pixel{image-rendering:auto}';pix='auto'" checked="checked" />
-                <label for="renderAuto">ниже</label>
-                
-                <input type="radio" name="imageRender" id="renderPixelated" class="radio_table" onclick="document.getElementById('pixelated').innerHTML='.foto_hero,.pixel{image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:bicubic;image-rendering:pixelated}';pix='pixelated'" value="pixelated" />
-                <label for="renderPixelated">выше</label>
-            </form>
-		</div>
-        
-        <script>
-			document.getElementById('urok_tab').style.display="block";document.getElementById('tableA').checked=true;
-			document.getElementById('tog').style.display="block";document.getElementById('renderAuto').checked=true
-        </script>
-   
-   
-   
-          <div class="history">       
+
+        <div class="history">
                 
        <div class="wrap_txt">
        
@@ -713,12 +679,18 @@ onclick="this.style.textDecoration='line-through';popup('', null, null, 'Пер�
           </div>
         <div>То&nbsp;есть, дословно по-русски мы&nbsp;бы сказали: <em>Он&nbsp;есть мой друг</em>. Но&nbsp;в&nbsp;русском языке в&nbsp;настоящем времени эта связка не&nbsp;используется. Мы&nbsp;не&nbsp;говорим: Я&nbsp;<em>есть</em> твой друг или: Кто <em>есть</em> твой друг? В&nbsp;прошлом и&nbsp;будущем времени мы&nbsp;используем подобную связку: Он&nbsp;<em>был</em> моим другом. Или: Он&nbsp;<em>будет</em> моим другом. В&nbsp;английском в&nbsp;настоящем времени обязательно должна быть эта связка. Вот в&nbsp;этом принципиальная разница. </div>
 <div>Итак, мы&nbsp;только что разобрали вторую схему, схему глагола <a class="red" href="javascript: void(0)" onclick="playWord(this);" title="ту би">to be.</a> Теперь, важный момент.</div><div> Если ко&nbsp;всей этой схеме <span> прибавить глагол с&nbsp;окончанием <a class="red" href="javascript: void(0)" onclick="playWord(this);" title="ин">-ing </a></span>– получится <a class="blue" href="javascript: void(0)" title="увеличить"
-onclick="popup('img/tablica-glagola-to-be-ing-image.gif', 520, 556, 'Схема глагола -to be- плюс глагол c окончанием -ing')">действие в&nbsp;состоянии процесса</a>.</div>
-</div>       
+onclick="popup('img/squared-petrov-table-be-ing.png', 540, 624, 'Схема глагола -to be- плюс глагол c окончанием -ing')">действие в&nbsp;состоянии процесса</a>.</div>
+</div>
              <div class="clearfloat"></div> 
-             </div>    
- 
- 
+</div>
+
+   <figure>
+    <picture class="thumbnail">
+      <img data-src="img/squared-petrov-table-be-ing.png" alt="Таблица глагола to be -ing Петрова" class="foto_hero px680 lazyload"/>
+    </picture>
+    <figcaption>Таблица глагола to be -ing Петрова</figcaption>
+  </figure>
+
 <h3 id="english_ing" class="charm_pink">Действие в состоянии процесса</h3>
           <div class="history"> 
        <div class="wrap_txt">
@@ -1159,9 +1131,7 @@ onclick="popup('fragment-no-contry-for-old-men.html', 970, 555, 'Погруже�
 
 <!--<script type="text/javascript" src="../english-polyglot.com/js/modal.js"></script>-->
 <!-- InstanceBeginEditable name="Script" -->
-<script type="text/javascript">
-var tabl_com=['<strong>Таблица глагола to be Петрова </strong> (белый фон)','<strong>Таблица глагола to be Петрова</strong> (черный фон)','<strong>Таблица глагола to be Петрова</strong> (маленькая зеленый фон)','<strong>Транспонированная таблица глагола to be -ing Петрова</strong> (время по оси Х)']
-</script>
+
 <!-- InstanceEndEditable -->
 
 <!--<script>
