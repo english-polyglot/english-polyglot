@@ -291,6 +291,11 @@ a.blue:hover{color:#E8EAF6;background-color:#3F51B5}
 .black{background-color:#2D3E38}
 a.green{background-color:inherit;color:#2E7D32}
 a.green:hover,a.green:visited{color:#E8F5E9;background-color:#2E7D32}
+.pronoun{background-color: #b3e5b5;color: #004400;}
+.verb{background-color: #a4b6ef;color: #001c74;}
+.question{background-color: #e5d49d; color: #544100;}
+.adjective{background-color: #d98686;}
+.pronoun,.verb,.question,.adjective{font-weight: bold;}
 
 .text_overflow{color:#fff;text-shadow:1px 1px 1px #111}
 .fixedImg button{/* border:0.1vw solid black; */border-radius: 4px;background-color: #e2e2e2;color:#373737;float: left;}
