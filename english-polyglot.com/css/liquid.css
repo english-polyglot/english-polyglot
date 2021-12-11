@@ -275,7 +275,7 @@ a.vovne:hover{color:#000000}
 .tretiya_bottom{border-top:1px solid #aaa}
 .tre,.tret,.popolam,.tretiya{border-right:1px solid #aaa}
 .tretiya_center{border-bottom:1px solid #aaa}
-.quote{/* background-color:#FFF5D5; */background-color: #D6E7DC;/* border-left: 5px solid #c7a433; */border-left: 5px solid #2E7D32;}	
+.quote{background-color:#FFF5D5;/*background-color: #D6E7DC;*/ border-left: 5px solid #c7a433; /*border-left: 5px solid #2E7D32;*/}	
 a.red-border{color:#b30024;border:3px solid rgba(184,16,51,0)}
 a.red-border:hover{border:3px solid rgba(184,16,51,1);padding:0 3px;color:rgba(184,16,51,0.6)}
 a.black-stroke{color:#FFF;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000}
@@ -284,10 +284,10 @@ a.red{color:#b30024}
 a.red:hover{color:#FFEBEE;background-color:#b30024}
 a.blue{color:#3949AB;background-color:inherit;font-weight:bold;}
 a.blue:hover{color:#E8EAF6;background-color:#3F51B5}
-.green{/* background-color:#D6E7DC */}
-.quote.green{/* border-left:5px solid #2E7D32 */}
-.blue{/* background-color:#CDE6FF */}
-.quote.blue{/* border-left:5px solid #1f5e9c */}
+.green{background-color:#D6E7DC}
+.quote.green{border-left:5px solid #2E7D32}
+.blue{background-color:#CDE6FF}
+.quote.blue{border-left:5px solid #1f5e9c}
 .black{background-color:#2D3E38}
 a.green{background-color:inherit;color:#2E7D32}
 a.green:hover,a.green:visited{color:#E8F5E9;background-color:#2E7D32}
