@@ -76,7 +76,7 @@ table.bigtab>*>tr>th{background-color:#CDE6FF;text-align:center}
 table.bigtab{border:solid 1px #aaa;border-width:0 1px 1px 0;border-spacing:0}
 .bigtab th,.bigtab td{border:solid 1px #aaa;border-width:1px 0 0 1px;padding:0.2em}
 .hardtab{text-align:center;margin:20px auto 40px;max-width:25em;padding-bottom:0 !important}
-.hardtab li{text-align:center}
+.hardtab li{text-align:center;margin:0}
 .onecol{max-width:13em}
 .twocol{max-width:22em}
 .onep{max-width:8em}
