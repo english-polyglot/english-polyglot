@@ -38,9 +38,9 @@
 <link rel="canonical" href="https://www.english-polyglot.com" />
 <meta property="og:url" content="https://www.english-polyglot.com" />
 
-<title>Полиглот - выучим английский язык за 16 часов</title>
+<title>Полиглот выучим английский язык за 16 часов</title>
 
-<meta property="og:title" itemprop="name" content="Полиглот - выучим английский язык за 16 часов" />
+<meta property="og:title" itemprop="name" content="Полиглот выучим английский язык за 16 часов" />
 
 <meta property="og:image:width" content="247" />
 <meta property="og:image:height" content="370" />
@@ -284,7 +284,7 @@ h2,h3 {font-size:1em}
         <div class="fire"></div>
         <h3>16 уроков Полиглот:</h3>
         <ul id="menu_uroki" class="nav" name="menu_uroki">
-            <li><a id="a1" href="/">1 урок Полиглот <span>Базовая таблица глаголов Дмитрия Петрова</span></a></li>
+            <li><a id="a1" href="/">1 урок Полиглот <span>Строим предложения действия на английском языке</span></a></li>
             <li><a id="a2" href="../english-polyglot.com/urok-2.html">2 урок Полиглот <span>Соединяем местоимения и предлоги</span></a></li>
             <li><a id="a3" href="../english-polyglot.com/urok-3.html">3 урок Полиглот <span>Таблица глагола to be</span></a></li>
             <li><a id="a4" href="../english-polyglot.com/urok-4.html">4 урок Полиглот <span>Как сказать по-английски о себе</span></a></li>
