@@ -1160,9 +1160,11 @@ JD.lastName=function(){
 
 	var isScrollingUp = currentScrollTop < position;
 
+	var documentHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
+	var windowHeight = window.innerHeight;
+
 	if (isScrollingUp && (currentScrollTop > threshold)) {
-		var documentHeight=document.documentElement.scrollHeight || document.body.scrollHeight;
-		var windowHeight = window.innerHeight;
+
       if (currentScrollTop + windowHeight < documentHeight) {
         to_top.className="scroll-to-top rotate";
       }
@@ -1170,7 +1172,7 @@ JD.lastName=function(){
       to_top.className="scroll-to-top fixed-hidden";
     }
 
-	if ((currentScrollTop+window.innerHeight+300)>=documentHeight){
+	if ((currentScrollTop+window.innerHeight+400)>=documentHeight){
 		don_btn.className="donateButton left50";
 	}else{
 		don_btn.className="donateButton fixed-hidden2";
