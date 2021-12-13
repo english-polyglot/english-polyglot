@@ -1083,7 +1083,7 @@ function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover
 
 	var	to_top = document.getElementById('stt'),
 		// to_bottom=document.getElementById('m4'),
-		don_btn=document.getElementById('dbt'),
+		// don_btn=document.getElementById('dbt'),
 		stop_scroll=0,
 		currentScrollTop,
 		position = document.documentElement.scrollTop || document.body.scrollTop,
@@ -1093,7 +1093,7 @@ function ambulance_off(){setTimeout(function(){amb.innerHTML='';hover_chk=!hover
 
 		// to_top.innerHTML='';
 		to_top.className="scroll-to-top fixed-hidden";
-		don_btn.className="donateButton fixed-hidden2";
+		// don_btn.className="donateButton fixed-hidden2";
 
 		window.addEventListener("scroll",function(){
 			currentScrollTop=document.documentElement.scrollTop || document.body.scrollTop
@@ -1172,11 +1172,11 @@ JD.lastName=function(){
       to_top.className="scroll-to-top fixed-hidden";
     }
 
-	if ((currentScrollTop+window.innerHeight+400)>=documentHeight){
-		don_btn.className="donateButton left50";
-	}else{
-		don_btn.className="donateButton fixed-hidden2";
-	}
+	// if ((currentScrollTop+window.innerHeight+400)>=documentHeight){
+	// 	don_btn.className="donateButton left50";
+	// }else{
+	// 	don_btn.className="donateButton fixed-hidden2";
+	// }
 
 	if(currentScrollTop>position){
 		stop_scroll=1;
