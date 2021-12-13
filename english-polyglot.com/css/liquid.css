@@ -374,7 +374,7 @@ main h4 {background: #e0b3b3;}
 main h3{font-size: 16px;}
 main h3{margin: 10px auto;padding: 20px;max-width: 1024px;background-color: #dcc7c7;font-weight: bold;}
 
-main h4{/*font-size:1.75em;*/letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
+main h4{font-size:1.75em;letter-spacing:-1px;margin: 29px 0 19px;padding: 10px 20px;font-weight: bold;text-transform: none;}
 
 .hh1::after{content:"";position:absolute;z-index: -1;top: 0;left:50%;width: 4px;height: 98%;transform: translate(-50%,1%);background-image: radial-gradient(circle,#a30000,#4d050540);}
 .hh1::before{content:"";position:relative;display:block;z-index: 0;top:50%;height: 2px;transform: translate(0,-50%);width:100%;background-image: radial-gradient(circle,#a30000,#56090940);}
