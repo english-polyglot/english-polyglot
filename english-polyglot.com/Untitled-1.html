@@ -1,68 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<title>Untitled Document</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Untitled Document</title>
+  </head>
 
+  <body>
+    <audio id="audiotag1" src="audio/example.wav" preload="auto"></audio>
 
+    <script type="text/javascript">
+      var audio = new Audio();
 
+      audio.src =
+        "http://translate.google.com/translate_tts?ie=utf-8&tl=en&q=Hello%20World";
+      audio.play();
 
-<body>
+      function onSpeechClick(text) {
+        var msg = new SpeechSynthesisUtterance(text.innerHTML);
 
+        var voices = window.speechSynthesis.getVoices();
+        msg.voice = voices[1]; // Note: some voices don't support altering params
+        msg.voiceURI = "native";
+        msg.volume = 1; // 0 to 1
+        msg.rate = 1; // 0.1 to 10
+        msg.pitch = 1; //0 to 2
 
-<audio id="audiotag1" src="audio/example.wav" preload="auto"></audio>
+        msg.lang = "en-US";
 
-<script type="text/javascript">
-var audio = new Audio();
+        msg.onend = function (e) {
+          console.log("Finished in " + event.elapsedTime + " seconds.");
+        };
 
+        speechSynthesis.speak(msg);
+      }
+    </script>
 
-audio.src ='http://translate.google.com/translate_tts?ie=utf-8&tl=en&q=Hello%20World';
-audio.play();
+    <audio
+      id="speech"
+      src="http://translate.google.com/translate_tts?tl=en&q=hello"
+      controls
+      autoplay="autoplay"
+    >
+      Your browser does not support the audio element.
+    </audio>
+    <p>print</p>
 
+    <div style="font-size: 500%; font-weight: bold">
+      <a
+        href="javascript: void(0)"
+        title="индивидьюлайзейшн"
+        onclick="onSpeechClick(this);"
+        >individualisation</a
+      >
+      <br /><br />
+      <br />
 
-
-
-
-
-
-function onSpeechClick(text){
-	var msg=new SpeechSynthesisUtterance(text.innerHTML);
-	
-	
-	var voices = window.speechSynthesis.getVoices();
-msg.voice = voices[1]; // Note: some voices don't support altering params
-msg.voiceURI = 'native';
-msg.volume = 1; // 0 to 1
-msg.rate = 1; // 0.1 to 10
-msg.pitch = 1; //0 to 2
-
-msg.lang = 'en-US';
-
-msg.onend = function(e) {
-  console.log('Finished in ' + event.elapsedTime + ' seconds.');
-};
-
-	
-	
-speechSynthesis.speak(msg);
-	}
-  </script>
-  
-  <audio id="speech" src="http://translate.google.com/translate_tts?tl=en&q=hello" controls autoplay="autoplay">Your browser does not support the audio element.</audio>
-<p>print</p>
-
-
-<div style="font-size:500%; font-weight:bold;">
-
-<a href="javascript: void(0)" title="индивидьюлайзейшн" onclick="onSpeechClick(this);">individualisation</a>
-<br /><br />
-<br />
-
-
-
-<a href="javascript: void(0)" title="индивидьюлайзейшн" onclick="onSpeechClick(this);">love</a></div>
-
-</body>
+      <a
+        href="javascript: void(0)"
+        title="индивидьюлайзейшн"
+        onclick="onSpeechClick(this);"
+        >love</a
+      >
+    </div>
+  </body>
 </html>

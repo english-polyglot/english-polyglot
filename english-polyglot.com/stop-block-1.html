@@ -1,378 +1,467 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="msapplication-config" content="none"/>
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="Description" content="Как отключить блокиратор рекламы" />
-<meta name="Keywords" content="Отключить AdBlock, отключить AdBlock Plus, отключить uBlock "/>
-<title>Как отключить AdBlock</title>
-<link rel="canonical" href="https://www.english-polyglot.com/stop-adblock.html" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="msapplication-config" content="none" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="Description" content="Как отключить блокиратор рекламы" />
+    <meta
+      name="Keywords"
+      content="Отключить AdBlock, отключить AdBlock Plus, отключить uBlock "
+    />
+    <title>Как отключить AdBlock</title>
+    <link
+      rel="canonical"
+      href="https://www.english-polyglot.com/stop-adblock.html"
+    />
 
-<style>
-html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-y: auto;	
-}
-body {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  overflow-y: auto;
-  position: relative;
-}
+    <style>
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-y: auto;
+      }
+      body {
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-y: auto;
+        position: relative;
+      }
 
-.container {
+      .container {
+        height: 100%;
+        margin: 0 auto;
+        width: 270px;
+      }
 
-  height: 100%;
-  margin: 0 auto;
-  width: 270px;
-}
+      .title {
+        text-align: center;
+        padding: 25px 0;
+        font-size: 17px;
+      }
 
-.title {
-  text-align: center;
-  padding: 25px 0;
-  font-size: 17px;
-}
+      .list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        width: 100%;
+        font-size: 14px;
+      }
 
-.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  width: 100%;
-  font-size: 14px;
-}
+      .list-item {
+        color: #8899a7;
+        cursor: pointer;
+      }
 
-.list-item {
-  color: #8899a7;
-  cursor: pointer;
-}
+      .list-item_active {
+        color: #2e2e2e;
+      }
 
-.list-item_active {
-  color: #2e2e2e;
-}
+      .container-choose {
+        position: relative;
+        width: 270px;
+        height: 100%;
+      }
 
-.container-choose {
-  position: relative;
-  width: 270px;
-  height: 100%;
-}
+      .selection {
+        position: relative;
+        box-sizing: border-box;
+      }
 
-.selection {
-  position: relative;
-  box-sizing: border-box;
-}
+      .selection-list-image {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        height: 55px;
+      }
 
-.selection-list-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  height: 55px;
-}
+      .image-1 {
+        background: url(img/acca820d52e744c29ae3e0800ed84057.png) 10px center
+          no-repeat #ffa5ad;
+      }
 
-.image-1 {
-  background: url(img/acca820d52e744c29ae3e0800ed84057.png) 10px center no-repeat #ffa5ad;
-}
+      .image-2 {
+        background: url(img/abp-64.png) 10px center no-repeat #ffa5ad;
+      }
 
-.image-2 {
-  background: url(img/abp-64.png) 10px center no-repeat #ffa5ad;
-}
+      .image-3 {
+        background: url(img/uBlock-64.png) 10px center no-repeat #ffa5ad;
+      }
 
-.image-3 {
-  background: url(img/uBlock-64.png) 10px center no-repeat #ffa5ad;
-}
+      .image-1,
+      .image-2,
+      .image-3 {
+        background-size: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .selection-top {
+        position: relative;
+        z-index: 0;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid #ffa5ad;
+      }
 
-.image-1,.image-2,.image-3 {
-  background-size: 32px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.selection-top {
-  position: relative;
-  z-index: 0;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 15px solid #ffa5ad;
-}
+      .selection-list {
+        width: 270px;
+        margin: 0 auto;
+        border-radius: 2px;
+        background-color: #fff;
+        box-shadow: 0 1px 11px 0 rgba(0, 19, 45, 0.21);
+      }
 
-.selection-list {
-  width: 270px;
-  margin: 0 auto;
-  border-radius: 2px;
-  background-color: #fff;
-  box-shadow: 0 1px 11px 0 rgba(0,19,45,0.21);
-}
+      .selection-list-ul {
+        margin: 0;
+        padding: 0;
+      }
 
-.selection-list-ul {
-  margin: 0;
-  padding: 0;
-}
+      .selection-list-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        box-sizing: border-box;
+        border-top: 2px solid #f2f2f2;
+      }
 
-.selection-list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  height: 40px;
-  padding-left: 10px;
-  font-size: 12px;
-  cursor: pointer;
-  box-sizing: border-box;
-  border-top: 2px solid #f2f2f2;
-}
+      .selection-list-item:hover {
+        padding-top: 2px;
+        color: #fff;
+        border-top: 0;
+        background-color: #e54d41;
+        -webkit-transition: background-color 0.15s;
+        transition: background-color 0.15s;
+      }
 
-.selection-list-item:hover {
-  padding-top: 2px;
-  color: #fff;
-  border-top: 0;
-  background-color: #e54d41;
-  -webkit-transition: background-color 0.15s;
-  transition: background-color 0.15s;
-}
+      .description {
+        margin-bottom: 25px;
+      }
 
-.description {
-  margin-bottom: 25px;
-}
+      .description-ul {
+        margin: 0;
+        padding-left: 20px;
+      }
 
-.description-ul {
-  margin: 0;
-  padding-left: 20px;
-}
+      .description-item {
+        font-size: 12px;
+        margin-top: 35px;
+      }
 
-.description-item {
-  font-size: 12px;
-  margin-top: 35px;
-}
+      .choose {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 270px;
+        height: 100%;
+        padding-top: 10px;
+        opacity: 0;
+        -webkit-transition: opacity 0.15s ease-out;
+        transition: opacity 0.15s ease-out;
+        box-sizing: border-box;
+      }
 
-.choose {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  width: 270px;
-  height: 100%;
-  padding-top: 10px;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s ease-out;
-  transition: opacity 0.15s ease-out;
-  box-sizing: border-box;
-}
+      .choose_active {
+        z-index: 1;
+        opacity: 1;
+        -webkit-transition: opacity 0.15s ease-out;
+        transition: opacity 0.15s ease-out;
+      }
 
-.choose_active {
-  z-index: 1;
-  opacity: 1;
-  -webkit-transition: opacity 0.15s ease-out;
-  transition: opacity 0.15s ease-out;
-}
+      .selection-top_0 {
+        margin-left: 25px;
+      }
 
-.selection-top_0 {
-  margin-left: 25px;
-}
+      .selection-top_1 {
+        margin-left: 130px;
+      }
 
-.selection-top_1 {
-  margin-left: 130px;
-}
+      .selection-top_2 {
+        margin-left: 225px;
+      }
 
-.selection-top_2 {
-  margin-left: 225px;
-}
+      .list-item-img {
+        padding-right: 10px;
+      }
 
-.list-item-img {
-  padding-right: 10px;
-}
+      img {
+        vertical-align: middle;
+      }
 
-img {
-  vertical-align: middle;
-}
+      img {
+        border-style: none;
+      }
 
-img {
-  border-style: none;
-}
+      .ublock-toggle {
+        margin: 0 auto;
+        height: 60%;
+        padding-right: 0;
+      }
 
-.ublock-toggle {
-  margin: 0 auto;
-  height: 60%;
-  padding-right: 0;
-}
+      @media (min-width: 375px) {
+        .container {
+          width: 324px;
+        }
 
-@media(min-width: 375px) {
-.container {
-  width: 324px;
-}
+        .container-choose {
+          width: 325px;
+        }
 
-.container-choose {
-  width: 325px;
-}
+        .image-1,
+        .image-2,
+        .image-3 {
+          background-size: 50px;
+        }
 
-.image-1,.image-2,.image-3 {
-  background-size: 50px;
-}
+        .selection-top_0 {
+          margin-left: 35px;
+        }
 
-.selection-top_0 {
-  margin-left: 35px;
-}
+        .selection-list {
+          width: 320px;
+        }
 
-.selection-list {
-  width: 320px;
-}
+        .selection-list-item {
+          padding-left: 20px;
+          font-size: 14px;
+        }
 
-.selection-list-item {
-  padding-left: 20px;
-  font-size: 14px;
-}
+        .selection-list-image {
+          height: 75px;
+        }
 
-.selection-list-image {
-  height: 75px;
-}
+        .description-item,
+        .list {
+          font-size: 16px;
+        }
 
-.description-item,.list {
-  font-size: 16px;
-}
+        .choose {
+          width: 325px;
+        }
 
-.choose {
-  width: 325px;
-}
+        .selection-top_1 {
+          margin-left: 153px;
+        }
 
-.selection-top_1 {
-  margin-left: 153px;
-}
+        .selection-top_2 {
+          margin-left: 270px;
+        }
 
-.selection-top_2 {
-  margin-left: 270px;
-}
+        .title {
+          font-size: 21px;
+        }
+      }
+    </style>
+  </head>
 
-.title {
-  font-size: 21px;
-}
+  <body>
+    <script>
+      function f1(count1) {
+        var d, g;
+        for (var i = 1; i < 4; i++) {
+          d = document.getElementById("slide" + i);
+          g = document.getElementById("slide" + i + "-1");
+          console.log("g =" + g);
+          d.className = "list-item";
+          g.className = "choose";
+        }
+        var df = count1;
+        switch (df) {
+          case 1:
+            d = document.getElementById("slide1");
+            g = document.getElementById("slide1-1");
+            break;
+          case 2:
+            d = document.getElementById("slide2");
+            g = document.getElementById("slide2-1");
+            break;
+          case 3:
+            d = document.getElementById("slide3");
+            g = document.getElementById("slide3-1");
+            break;
+        }
 
+        d.className = "list-item list-item_active";
+        g.className = "choose choose_active";
+      }
+      var count = 1;
+      window.onload = function () {
+        document.getElementById("slide1").onclick = function fun() {
+          count = 1;
+          f1(count);
+        };
+        document.getElementById("slide1-1").onclick = function fun() {
+          count = 1;
+          f1(count);
+        };
+        document.getElementById("slide2").onclick = function fun() {
+          count = 2;
+          f1(count);
+        };
+        document.getElementById("slide2-1").onclick = function fun() {
+          count = 2;
+          f1(count);
+        };
+        document.getElementById("slide3").onclick = function fun() {
+          count = 3;
+          f1(count);
+        };
+        document.getElementById("slide3-1").onclick = function fun() {
+          count = 3;
+          f1(count);
+        };
+      };
+    </script>
 
-}
-</style>
-</head>
-
-<body>
-<script>
-
-function f1(count1) {
-	var d,g;
-	for (var i=1;i<4;i++){
-		d=document.getElementById("slide"+i);
-		g=document.getElementById("slide"+i+"-1");
-		console.log('g ='+g)
-		d.className="list-item";	
-		g.className="choose";	
-	}
-	var df=count1
-	switch (df){
-		case 1:d=document.getElementById("slide1");g=document.getElementById("slide1-1");break;
-		case 2:d=document.getElementById("slide2");g=document.getElementById("slide2-1");break;
-		case 3:d=document.getElementById("slide3");g=document.getElementById("slide3-1");break;
-	}
-	
-	d.className="list-item list-item_active"; 
-	g.className="choose choose_active";  
-}
-var count=1
-window.onload = function() {
-    document.getElementById("slide1").onclick=function fun(){count=1;f1(count)}
-	document.getElementById("slide1-1").onclick=function fun(){count=1;f1(count)}
-	document.getElementById("slide2").onclick=function fun(){count=2;f1(count)}
-	document.getElementById("slide2-1").onclick=function fun(){count=2;f1(count)}
-	document.getElementById("slide3").onclick=function fun(){count=3;f1(count)}
-	document.getElementById("slide3-1").onclick=function fun(){count=3;f1(count)}
-}
-</script>
-          
-
-<div class="container">
-	<div class="block-modal">
-            <div class="container">
-              <div class="title">Как отключить</div>
-              <div class="list">
-                <div class="list-item list-item_active" id="slide1" >AdBlock</div>
-                <div class="list-item" id="slide2">AdBlockPlus</div>
-                <div class="list-item" id="slide3">uBlock</div>
+    <div class="container">
+      <div class="block-modal">
+        <div class="container">
+          <div class="title">Как отключить</div>
+          <div class="list">
+            <div class="list-item list-item_active" id="slide1">AdBlock</div>
+            <div class="list-item" id="slide2">AdBlockPlus</div>
+            <div class="list-item" id="slide3">uBlock</div>
+          </div>
+          <div class="container-choose">
+            <div class="choose choose_active" id="slide1-1">
+              <div class="selection">
+                <div class="selection-top selection-top_0"></div>
+                <div class="selection-list">
+                  <div class="selection-list-image image-1"></div>
+                  <ul class="selection-list-ul">
+                    <li class="selection-list-item">Приостановить AdBlock</li>
+                    <li class="selection-list-item">
+                      Блокировать рекламу на этой странице
+                    </li>
+                    <li class="selection-list-item">
+                      Не запускать на этой странице
+                    </li>
+                    <li class="selection-list-item">
+                      Не запускать на страницах этого домена
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="container-choose">
-                <div class="choose choose_active" id="slide1-1">
-                  <div class="selection">
-                    <div class="selection-top selection-top_0"></div>
-                    <div class="selection-list">
-                      <div class="selection-list-image image-1"></div>
-                      <ul class="selection-list-ul">
-                        <li class="selection-list-item">Приостановить AdBlock</li>
-                        <li class="selection-list-item">Блокировать рекламу на этой странице</li>
-                        <li class="selection-list-item">Не запускать на этой странице</li>
-                        <li class="selection-list-item">Не запускать на страницах этого домена</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="description">
-                    <ol class="description-ul">
-                      <li class="description-item">Найдите рядом с адресной строкой иконку AdBlock и кликните по ней левой кнопкой мыши.</li>
-                      <li class="description-item">В появившемся меню, нажмите на пункт «Не запускать на страницах этого домена» и подтвердите действие, нажав на «Исключить». Иконка станет зеленой.</li>
-                    </ol>
-                  </div>
+              <div class="description">
+                <ol class="description-ul">
+                  <li class="description-item">
+                    Найдите рядом с адресной строкой иконку AdBlock и кликните
+                    по ней левой кнопкой мыши.
+                  </li>
+                  <li class="description-item">
+                    В появившемся меню, нажмите на пункт «Не запускать на
+                    страницах этого домена» и подтвердите действие, нажав на
+                    «Исключить». Иконка станет зеленой.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="choose" id="slide2-1">
+              <div class="selection">
+                <div class="selection-top selection-top_1"></div>
+                <div class="selection-list">
+                  <div class="selection-list-image image-2"></div>
+                  <ul class="selection-list-ul">
+                    <li class="selection-list-item">
+                      <img
+                        class="list-item-img"
+                        src="img/adblockplus-enable.png"
+                        alt=""
+                      />Отключен на этом сайте
+                    </li>
+                    <li class="selection-list-item">
+                      <img
+                        class="list-item-img"
+                        src="img/adblockplus-blocked.png"
+                        alt=""
+                      />Заблокировать элемент
+                    </li>
+                    <li class="selection-list-item">
+                      <img
+                        class="list-item-img"
+                        src="img/adblockplus-static.png"
+                        alt=""
+                      />Статистика блокирования
+                    </li>
+                    <li class="selection-list-item">
+                      <img
+                        class="list-item-img"
+                        src="img/adblockplus-settings.png"
+                        alt=""
+                      />Настройки
+                    </li>
+                  </ul>
                 </div>
-                <div class="choose" id="slide2-1">
-                  <div class="selection">
-                    <div class="selection-top selection-top_1"></div>
-                    <div class="selection-list">
-                      <div class="selection-list-image image-2"></div>
-                      <ul class="selection-list-ul">
-                        <li class="selection-list-item"><img class="list-item-img" src="img/adblockplus-enable.png" alt="">Отключен на этом сайте</li>
-                        <li class="selection-list-item"><img class="list-item-img" src="img/adblockplus-blocked.png" alt="">Заблокировать элемент</li>
-                        <li class="selection-list-item"><img class="list-item-img" src="img/adblockplus-static.png" alt="">Статистика блокирования</li>
-                        <li class="selection-list-item"><img class="list-item-img" src="img/adblockplus-settings.png" alt="">Настройки</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="description">
-                    <ol class="description-ul">
-                      <li class="description-item">Найдите иконку AdBlock Plus рядом с адресной строкой браузера и кликните по ней левой кнопкой мыши.</li>
-                      <li class="description-item">В появившемся меню, кликните по фразе «Включен на этом сайте». При этом текст изменится на «Отключен на этом сайте», а иконка рядом с адресной строкой станет серой.</li>
-                    </ol>
-                  </div>
+              </div>
+              <div class="description">
+                <ol class="description-ul">
+                  <li class="description-item">
+                    Найдите иконку AdBlock Plus рядом с адресной строкой
+                    браузера и кликните по ней левой кнопкой мыши.
+                  </li>
+                  <li class="description-item">
+                    В появившемся меню, кликните по фразе «Включен на этом
+                    сайте». При этом текст изменится на «Отключен на этом
+                    сайте», а иконка рядом с адресной строкой станет серой.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="choose" id="slide3-1">
+              <div class="selection">
+                <div class="selection-top selection-top_2"></div>
+                <div class="selection-list">
+                  <div class="selection-list-image image-3"></div>
+                  <ul class="selection-list-ul">
+                    <li class="selection-list-item" style="padding-left: 0">
+                      <img
+                        class="list-item-img ublock-toggle"
+                        src="img/ublock-toggle-64.png"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
                 </div>
-                <div class="choose" id="slide3-1">
-                  <div class="selection">
-                    <div class="selection-top selection-top_2"></div>
-                    <div class="selection-list">
-                      <div class="selection-list-image image-3"></div>
-                      <ul class="selection-list-ul">
-                        <li class="selection-list-item" style="padding-left:0"><img class="list-item-img ublock-toggle" src="img/ublock-toggle-64.png" alt=""></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="description">
-                    <ol class="description-ul">
-                      <li class="description-item">Найдите рядом с адресной строкой иконку uBlock и кликните по ней левой кнопкой мыши.</li>
-                      <li class="description-item">Нажмите на большую иконку «Вкл-Выкл». После клика она станет серой.</li>
-                    </ol>
-                  </div>
-                </div>
+              </div>
+              <div class="description">
+                <ol class="description-ul">
+                  <li class="description-item">
+                    Найдите рядом с адресной строкой иконку uBlock и кликните по
+                    ней левой кнопкой мыши.
+                  </li>
+                  <li class="description-item">
+                    Нажмите на большую иконку «Вкл-Выкл». После клика она станет
+                    серой.
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
-</div>
-
-</body>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

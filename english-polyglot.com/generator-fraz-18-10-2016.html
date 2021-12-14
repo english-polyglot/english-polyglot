@@ -1,430 +1,977 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--<meta name="viewport" content="height=device-height, width=device-width, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--<meta name="viewport" content="height=device-height, width=device-width, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />-->
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+    />
 
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="default" />
-<meta name="mobile-web-app-capable" content="yes" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icone-precomposed-generator.png?v=3" />
-<link rel="icon" href="apple-touch-icone-precomposed-generator.png?v=3" sizes="152x152" type="image/png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="apple-touch-icone-precomposed-generator.png?v=3"
+    />
+    <link
+      rel="icon"
+      href="apple-touch-icone-precomposed-generator.png?v=3"
+      sizes="152x152"
+      type="image/png"
+    />
 
-<meta name="Description" content="Генератор фраз Полиглот выводит на экран и проговаривает английские/русские фразы, которые нужно перевести" />
-<meta property="og:description" itemprop="description" content="Генератор фраз Полиглот выводит на экран и проговаривает английские/русские фразы, которые нужно перевести" />
-	
-<meta name="Keywords" content="Генератор фраз, Полиглот, английский язык онлайн, Дмитрий Петров" />
-<title>Генератор фраз Полиглот</title>
-<link rel="canonical" href="https://www.english-polyglot.com/generator-fraz.html" />
-	
-<meta property='fb:app_id' content='107859652683773' /> 
-<meta property="og:title" itemprop="name" content="Генератор фраз Полиглот" />
-<meta property="og:type" content="website" />
-<meta property="og:url" itemprop="url" content="https://www.english-polyglot.com/generator-fraz.html" />
-<meta property="og:image" content="https://www.english-polyglot.com/img/new-gen.jpg" />
+    <meta
+      name="Description"
+      content="Генератор фраз Полиглот выводит на экран и проговаривает английские/русские фразы, которые нужно перевести"
+    />
+    <meta
+      property="og:description"
+      itemprop="description"
+      content="Генератор фраз Полиглот выводит на экран и проговаривает английские/русские фразы, которые нужно перевести"
+    />
 
-<link rel="alternate" type="application/rss+xml" title="English in 16 hours" href="https://feeds.feedburner.com/poliglott" />
-<link rel="shortcut icon" type="image/x-icon" href="apple-touch-icone-precomposed-generator.png?v=3" />
+    <meta
+      name="Keywords"
+      content="Генератор фраз, Полиглот, английский язык онлайн, Дмитрий Петров"
+    />
+    <title>Генератор фраз Полиглот</title>
+    <link
+      rel="canonical"
+      href="https://www.english-polyglot.com/generator-fraz.html"
+    />
 
-<style>
-.ui-listview>li.second-child{margin-top:-6px}
-.mobile-adaptive-2{width:320px;height:50px} .buttons{max-height:50px}
-@media(min-width:500px){.mobile-adaptive-2{width:468px;height:60px}.buttons{max-height:60px}}
-@media(min-width:800px){.mobile-adaptive-2{width:728px;height:90px}.buttons{max-height:90px}}
-</style>
-<style id="pixelated"></style>
-<link href="js/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
-<link href="css/css-18-10-2016.css" rel="stylesheet" type="text/css" />
+    <meta property="fb:app_id" content="107859652683773" />
+    <meta
+      property="og:title"
+      itemprop="name"
+      content="Генератор фраз Полиглот"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      itemprop="url"
+      content="https://www.english-polyglot.com/generator-fraz.html"
+    />
+    <meta
+      property="og:image"
+      content="https://www.english-polyglot.com/img/new-gen.jpg"
+    />
 
-<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
-<script>
-	var url=window.location.search
-	if(url) {
-		$(document).on("mobileinit",function() {
-			$.mobile.autoInitializePage = false;
-		});	
-	}
-</script>
-<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="English in 16 hours"
+      href="https://feeds.feedburner.com/poliglott"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="apple-touch-icone-precomposed-generator.png?v=3"
+    />
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-4595809153827928",
-    enable_page_level_ads: true
-  });
-</script>
+    <style>
+      .ui-listview > li.second-child {
+        margin-top: -6px;
+      }
+      .mobile-adaptive-2 {
+        width: 320px;
+        height: 50px;
+      }
+      .buttons {
+        max-height: 50px;
+      }
+      @media (min-width: 500px) {
+        .mobile-adaptive-2 {
+          width: 468px;
+          height: 60px;
+        }
+        .buttons {
+          max-height: 60px;
+        }
+      }
+      @media (min-width: 800px) {
+        .mobile-adaptive-2 {
+          width: 728px;
+          height: 90px;
+        }
+        .buttons {
+          max-height: 90px;
+        }
+      }
+    </style>
+    <style id="pixelated"></style>
+    <link
+      href="js/jquery.mobile-1.4.5.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/css-18-10-2016.css" rel="stylesheet" type="text/css" />
 
-</head>
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script>
+      var url = window.location.search;
+      if (url) {
+        $(document).on("mobileinit", function () {
+          $.mobile.autoInitializePage = false;
+        });
+      }
+    </script>
+    <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
 
-<body> 
-<script src="helper.js"></script>
-<script>
-    (function (i, o, g, r) {
-        i[o] = (typeof i[o] == typeof undefined) ? g : r
-    })(window, 'adblocker', true, false);
-</script>
-<div data-role="page" id="page" data-theme="a">
-	<div data-role="header" data-id="hea1" data-tap-toggle="false">
-		<h1>Генератор фраз Полиглот</h1>
-	</div>
-     
-	<div data-role="content">
+    <script
+      async
+      src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4595809153827928",
+        enable_page_level_ads: true,
+      });
+    </script>
+  </head>
 
-		<ol data-role="listview" id="listOfLessons" data-icon="false">
-        
-			<li><a href="#page1" onClick="block(1,this)"><aa>9 verbs</aa><bb> (практика для 1 урока)</bb></a></li>
-                    
-            <div class="width">			
-                <!-- fb-page-21/05/2015 -->
-                <ins class="adsbygoogle mobile-adaptive-2"
-                     style="display:inline-block"
-                     data-ad-client="ca-pub-4595809153827928"
-                     data-ad-slot="8915664521"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            
-            <li class="second-child"><a href="#page1" onClick="block(2, this)"><aa>Questions</aa> <bb>(практика для 2 урока)</bb></a></li>
-			<li><a href="#page1" onClick="block(3,this)"><aa>To be</aa> <bb>(практика для 3 урока)</bb></a></li>
-            <li><a href="#page1" onClick="block(4,this)"><aa>Work</aa> <bb>(практика для 4 урока)</bb></a></li>
-            <li><a href="#page1" onClick="block(5,this)"><aa>Time</aa> <bb>(практика для 5 урока)</bb></a></li>
-			<li><a href="#page1" onClick="block(6,this)"><aa>Modern life</aa> <bb>(практика для 6 урока)</bb></a></li>
-            <li><a href="#page1" onClick="block(7,this)"><aa>5+5</aa> <bb>(практика для 7 урока)</bb></a></li>
-            <li><a href="#page1" onClick="block(8,this)"><aa>Postpositions</aa> <bb>(практика для 8 урока)</bb></a></li>
-		</ol>
-        		
-	</div>
-    <br />
-		<ol data-role="listview" data-icon="false">
-			<li><a id="polyglotHome" href="/" data-role="button" data-ajax="false" data-icon="home">Уроки Полиглот</a></li>
-        </ol>
+  <body>
+    <script src="helper.js"></script>
+    <script>
+      (function (i, o, g, r) {
+        i[o] = typeof i[o] == typeof undefined ? g : r;
+      })(window, "adblocker", true, false);
+    </script>
+    <div data-role="page" id="page" data-theme="a">
+      <div data-role="header" data-id="hea1" data-tap-toggle="false">
+        <h1>Генератор фраз Полиглот</h1>
+      </div>
 
-</div>
+      <div data-role="content">
+        <ol data-role="listview" id="listOfLessons" data-icon="false">
+          <li>
+            <a href="#page1" onClick="block(1,this)"
+              ><aa>9 verbs</aa><bb> (практика для 1 урока)</bb></a
+            >
+          </li>
 
-<div data-role="page" id="pageInstruction" style="padding:0;" data-theme="a">
-
-	<div data-role="header" data-id="hea1" data-tap-toggle="false">
-		<h1>Справка</h1>
-        <a data-rel="back" data-icon="back" class="ui-btn-right" href="javascript: void(0)" onclick="can_orient=1;window.history.back();return false;" data-iconpos="notext">back</a>                
-	</div>
-
-    <div class="text">
-    	<div><strong>Важно</strong>: Для работы с генератором фраз необходимо включить поддержку <strong>javascript</strong> Вашим браузером.</div>
-    	<div><strong>И помните:</strong> Самый простой способ «наладить» генератор фраз – обновить или заменить браузер.</div>
-		<div>На <span>iPhone</span> не забудьте включить звук боковым переключателем.</div>
-        <div>Под блоком фраз  генератора находится кнопка <em class="arrow-r ui-icon-arrow-r"></em> «вперед». Первый раз при её нажатии выводится фраза, которую Вам необходимо перевести, второй раз выводится ответ и т.д.</div>
-        
-    </div>
-        
-    <div class="width">
-        <!-- fb-pageInstruction-21/05/2015 -->
-        <ins class="adsbygoogle mobile-adaptive-2"
-             style="display:inline-block"
-             data-ad-client="ca-pub-4595809153827928"
-             data-ad-slot="3008731729"></ins>
-
-    </div>
-        
-	<div class="text">  
-
-        <!--<div><span>Пустая область</span> в нижней части генератора это еще одна кнопка вперед. Кликая мышью (или касаясь пальцем если у Вас тачскрин) эту область Вы можете также прокручивать фразы. Эта функция будет особенно полезной на мобильных устройствах при работе с генератором &laquo;вслепую&raquo; (воспринимая фразы только на слух). Например, в поезде, самолете или перегруженном общественном транспорте, подключив наушники.</div>-->
-        
-		<div>На смартфонах и планшетах доступна функция «прокрутки» фраз при <strong>повороте устройства</strong>. По умолчанию функция не активна. Включить её можно в меню настроек.</div>
-		<div>Чтобы работать с генератором ориентируясь «на слух» можно <strong>спрятать&nbsp;фразы</strong> от глаз. Прятать/показывать фразы можно двумя способами: смахивая влево/вправо экран генератора (если у Вас тачскрин) или выбирая нужную опцию в меню настроек.</div>
-        <div><span>Область таблицы</span> в нижней части генератора это еще одна «кнопка». Кликая (или стукая, если тачскрин) эту область Вы можете также «прокручивать» фразы. <!--Она может менять свою функцию. Если фразы спрятаны, то её нажатие повторяет озвучку текущей фразы, если фразы видны, то она «прокручивает» фразы вперед.<div2> (Если Вам это неудобно, и Вы хотите, чтобы кнопка «Область таблицы» не меняла своей функции, Вы можете заблокировать её изменяемость в меню настроек.)</div2>--></div>
-        
-        <div>Кнопка <em class="arrow-r ui-icon-arrow-l"></em> «назад» полезна в двух случаях. Во-первых, она дает возможность вернуться на одну фразу назад, чтобы прослушать/посмотреть её еще раз. Во-вторых, при «прокручивании» фраз назад, она выводит только верхние фразы, что бывает полезно во время отработки восприятия только английской речи «на&nbsp;слух».</div>
-        
-        <div>В меню настроек можно войти из любого урока генератора, нажав кнопку <em class="arrow-r ui-icon-gear"></em> «шестерёнка», расположенную над экраном генератора.</div>
-        
-        <div>Там же можно активировать/деактивировать вывод транскрипции, поменять <span>цветовую гамму</span> оформления и<!--, поменять направление перевода (с английского на руский и наоборот) --> включить/выключить озвучку фраз. Кстати, повторить озвучку фразы можно просто кликнув её саму.</div>
-       <div>Динамики рядом с фразами <span id="clickPhraseAudio1" style="vertical-align: middle; float: none; display: inline-block; border: thin solid #fff;"></span> включают/выключают озвучку одного из языков.</div>
-       
-       <div>Направление перевода (с английского на русский и наоброт) можно изменять переключателем, над экраном генератора.</div>
-       
-       <div>Некоторые уроки позволяют выбрать глаголы для перевода (меню выбора – под областью фраз).</div>
-       <div>Если браузер позволяет, звуки буферизируются. После буферизации, для работы с генератором фраз, интернет не нужен. <!--Это может быть полезно в дальних поездках или в местах, где сотовая связь отсутствует или нестабильна (метро, подвальные помещения, дача и т.п.).--><div2>Тонкая полоска над фразами – <span>индикатор загрузки</span>.</div2> <div2><span style="border:thin solid #398E40;background-color:#4CAF50;">Зеленый цвет</span> полоски говорит о том, что звуки успешно буферизированы (интернет не нужен<!--, фразы откорректированы-->).</div2> <div2><span style="border:thin solid #FFB300;background-color:#FDD835;">Желтый цвет</span> – генератор работает без буферизации (интернет нужен<!--, фразы откорректированы-->).</div2> <div2><span style="border:thin solid #E53935;background-color:#EF5350;">Красный цвет</span> – генератор воспроизводит фразы при помощи онлайн-переводчика гугл (интернет нужен<!--, интонация и произношение фраз не всегда правильны-->).</div2></div>
-       
-       
-       <div>В некоторых случаях может помочь <span>отключение буферизации</span>. В частности, если Вы видите зеленую полоску индикатора, но при этом браузер не воспроизводит звук – отключите буферизацию звука в настройках.</div>
-       
-	
-    </div>
-
-</div>
-
-<div data-role="page" id="page1" data-theme="a" onfocus="can_orient=1" onblur="can_orient=0">
-    <div data-role="header" id="mainHeader" data-id="hea1" data-tap-toggle="false" style="z-index:1000;">
-        <div data-role="navbar" id="header2">
-                <ul>
-                    <li><a href="#page" onClick="button_home();" data-icon="home" data-iconpos="notext"></a></li>
-                    <li><a href="#pageInstruction" id="a_pageInst" onClick="can_orient=0;if(i==6){disappear()}" data-icon="info" data-iconpos="notext"></a></li>			
-                    <li><a href="#pageGear" id="a_pageGear" onClick="can_orient=0;if(i==5){disappear()}" data-icon="gear" data-iconpos="notext"></a></li>
-                </ul>                  
-        </div>
-	</div>
-           
-
-	<div id="topPage" data-role="footer" data-theme="a">
-    
-		<div class="info"><span class="infa" id="nameLesson"></span>&nbsp;<span class="infa">фраз: <span id="verb_all"></span></span>&nbsp;<span class="infa">фраза: <span id="verb_counter"></span></span></div>
-    
-		<div id="progress2"></div>
-  		<div id="switch" style="text-align:center">
-          <fieldset data-role="controlgroup" data-type="horizontal">
-           <input type="radio" name="radio1" id="radio1_0" value="" onclick="change_language(1)"/>
-           <label for="radio1_0"><!--English-->Английский</label>
-           <input type="radio" name="radio1" id="radio1_1" value="" onclick="change_language(0)" checked />
-           <label for="radio1_1"><!--Russian-->Русский</label>
-          </fieldset>
-      	</div>        
-         <div class="width1">
-            <div class="buttons">
-                <!-- fb-page1-bottom-21/05/2015 -->
-                <ins class="adsbygoogle mobile-adaptive-2"
-                     style="display:inline-block;"
-                     data-ad-client="ca-pub-4595809153827928"
-                     data-ad-slot="5962198129"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+          <div class="width">
+            <!-- fb-page-21/05/2015 -->
+            <ins
+              class="adsbygoogle mobile-adaptive-2"
+              style="display: inline-block"
+              data-ad-client="ca-pub-4595809153827928"
+              data-ad-slot="8915664521"
+            ></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </div>
-            <div class="anons2"><div id="intro"></div></div>
+
+          <li class="second-child">
+            <a href="#page1" onClick="block(2, this)"
+              ><aa>Questions</aa> <bb>(практика для 2 урока)</bb></a
+            >
+          </li>
+          <li>
+            <a href="#page1" onClick="block(3,this)"
+              ><aa>To be</aa> <bb>(практика для 3 урока)</bb></a
+            >
+          </li>
+          <li>
+            <a href="#page1" onClick="block(4,this)"
+              ><aa>Work</aa> <bb>(практика для 4 урока)</bb></a
+            >
+          </li>
+          <li>
+            <a href="#page1" onClick="block(5,this)"
+              ><aa>Time</aa> <bb>(практика для 5 урока)</bb></a
+            >
+          </li>
+          <li>
+            <a href="#page1" onClick="block(6,this)"
+              ><aa>Modern life</aa> <bb>(практика для 6 урока)</bb></a
+            >
+          </li>
+          <li>
+            <a href="#page1" onClick="block(7,this)"
+              ><aa>5+5</aa> <bb>(практика для 7 урока)</bb></a
+            >
+          </li>
+          <li>
+            <a href="#page1" onClick="block(8,this)"
+              ><aa>Postpositions</aa> <bb>(практика для 8 урока)</bb></a
+            >
+          </li>
+        </ol>
+      </div>
+      <br />
+      <ol data-role="listview" data-icon="false">
+        <li>
+          <a
+            id="polyglotHome"
+            href="/"
+            data-role="button"
+            data-ajax="false"
+            data-icon="home"
+            >Уроки Полиглот</a
+          >
+        </li>
+      </ol>
+    </div>
+
+    <div
+      data-role="page"
+      id="pageInstruction"
+      style="padding: 0"
+      data-theme="a"
+    >
+      <div data-role="header" data-id="hea1" data-tap-toggle="false">
+        <h1>Справка</h1>
+        <a
+          data-rel="back"
+          data-icon="back"
+          class="ui-btn-right"
+          href="javascript: void(0)"
+          onclick="can_orient=1;window.history.back();return false;"
+          data-iconpos="notext"
+          >back</a
+        >
+      </div>
+
+      <div class="text">
+        <div>
+          <strong>Важно</strong>: Для работы с генератором фраз необходимо
+          включить поддержку <strong>javascript</strong> Вашим браузером.
+        </div>
+        <div>
+          <strong>И помните:</strong> Самый простой способ «наладить» генератор
+          фраз – обновить или заменить браузер.
+        </div>
+        <div>
+          На <span>iPhone</span> не забудьте включить звук боковым
+          переключателем.
+        </div>
+        <div>
+          Под блоком фраз генератора находится кнопка
+          <em class="arrow-r ui-icon-arrow-r"></em> «вперед». Первый раз при её
+          нажатии выводится фраза, которую Вам необходимо перевести, второй раз
+          выводится ответ и т.д.
+        </div>
+      </div>
+
+      <div class="width">
+        <!-- fb-pageInstruction-21/05/2015 -->
+        <ins
+          class="adsbygoogle mobile-adaptive-2"
+          style="display: inline-block"
+          data-ad-client="ca-pub-4595809153827928"
+          data-ad-slot="3008731729"
+        ></ins>
+      </div>
+
+      <div class="text">
+        <!--<div><span>Пустая область</span> в нижней части генератора это еще одна кнопка вперед. Кликая мышью (или касаясь пальцем если у Вас тачскрин) эту область Вы можете также прокручивать фразы. Эта функция будет особенно полезной на мобильных устройствах при работе с генератором &laquo;вслепую&raquo; (воспринимая фразы только на слух). Например, в поезде, самолете или перегруженном общественном транспорте, подключив наушники.</div>-->
+
+        <div>
+          На смартфонах и планшетах доступна функция «прокрутки» фраз при
+          <strong>повороте устройства</strong>. По умолчанию функция не активна.
+          Включить её можно в меню настроек.
+        </div>
+        <div>
+          Чтобы работать с генератором ориентируясь «на слух» можно
+          <strong>спрятать&nbsp;фразы</strong> от глаз. Прятать/показывать фразы
+          можно двумя способами: смахивая влево/вправо экран генератора (если у
+          Вас тачскрин) или выбирая нужную опцию в меню настроек.
+        </div>
+        <div>
+          <span>Область таблицы</span> в нижней части генератора это еще одна
+          «кнопка». Кликая (или стукая, если тачскрин) эту область Вы можете
+          также «прокручивать» фразы.
+          <!--Она может менять свою функцию. Если фразы спрятаны, то её нажатие повторяет озвучку текущей фразы, если фразы видны, то она «прокручивает» фразы вперед.<div2> (Если Вам это неудобно, и Вы хотите, чтобы кнопка «Область таблицы» не меняла своей функции, Вы можете заблокировать её изменяемость в меню настроек.)</div2>-->
+        </div>
+
+        <div>
+          Кнопка <em class="arrow-r ui-icon-arrow-l"></em> «назад» полезна в
+          двух случаях. Во-первых, она дает возможность вернуться на одну фразу
+          назад, чтобы прослушать/посмотреть её еще раз. Во-вторых, при
+          «прокручивании» фраз назад, она выводит только верхние фразы, что
+          бывает полезно во время отработки восприятия только английской речи
+          «на&nbsp;слух».
+        </div>
+
+        <div>
+          В меню настроек можно войти из любого урока генератора, нажав кнопку
+          <em class="arrow-r ui-icon-gear"></em> «шестерёнка», расположенную над
+          экраном генератора.
+        </div>
+
+        <div>
+          Там же можно активировать/деактивировать вывод транскрипции, поменять
+          <span>цветовую гамму</span> оформления и<!--, поменять направление перевода (с английского на руский и наоборот) -->
+          включить/выключить озвучку фраз. Кстати, повторить озвучку фразы можно
+          просто кликнув её саму.
+        </div>
+        <div>
+          Динамики рядом с фразами
+          <span
+            id="clickPhraseAudio1"
+            style="
+              vertical-align: middle;
+              float: none;
+              display: inline-block;
+              border: thin solid #fff;
+            "
+          ></span>
+          включают/выключают озвучку одного из языков.
+        </div>
+
+        <div>
+          Направление перевода (с английского на русский и наоброт) можно
+          изменять переключателем, над экраном генератора.
+        </div>
+
+        <div>
+          Некоторые уроки позволяют выбрать глаголы для перевода (меню выбора –
+          под областью фраз).
+        </div>
+        <div>
+          Если браузер позволяет, звуки буферизируются. После буферизации, для
+          работы с генератором фраз, интернет не нужен.
+          <!--Это может быть полезно в дальних поездках или в местах, где сотовая связь отсутствует или нестабильна (метро, подвальные помещения, дача и т.п.).--><div2
+            >Тонкая полоска над фразами – <span>индикатор загрузки</span>.</div2
+          >
+          <div2
+            ><span style="border: thin solid #398e40; background-color: #4caf50"
+              >Зеленый цвет</span
+            >
+            полоски говорит о том, что звуки успешно буферизированы (интернет не
+            нужен<!--, фразы откорректированы-->).</div2
+          >
+          <div2
+            ><span style="border: thin solid #ffb300; background-color: #fdd835"
+              >Желтый цвет</span
+            >
+            – генератор работает без буферизации (интернет нужен<!--, фразы откорректированы-->).</div2
+          >
+          <div2
+            ><span style="border: thin solid #e53935; background-color: #ef5350"
+              >Красный цвет</span
+            >
+            – генератор воспроизводит фразы при помощи онлайн-переводчика гугл
+            (интернет нужен<!--, интонация и произношение фраз не всегда правильны-->).</div2
+          >
+        </div>
+
+        <div>
+          В некоторых случаях может помочь <span>отключение буферизации</span>.
+          В частности, если Вы видите зеленую полоску индикатора, но при этом
+          браузер не воспроизводит звук – отключите буферизацию звука в
+          настройках.
+        </div>
+      </div>
+    </div>
+
+    <div
+      data-role="page"
+      id="page1"
+      data-theme="a"
+      onfocus="can_orient=1"
+      onblur="can_orient=0"
+    >
+      <div
+        data-role="header"
+        id="mainHeader"
+        data-id="hea1"
+        data-tap-toggle="false"
+        style="z-index: 1000"
+      >
+        <div data-role="navbar" id="header2">
+          <ul>
+            <li>
+              <a
+                href="#page"
+                onClick="button_home();"
+                data-icon="home"
+                data-iconpos="notext"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#pageInstruction"
+                id="a_pageInst"
+                onClick="can_orient=0;if(i==6){disappear()}"
+                data-icon="info"
+                data-iconpos="notext"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#pageGear"
+                id="a_pageGear"
+                onClick="can_orient=0;if(i==5){disappear()}"
+                data-icon="gear"
+                data-iconpos="notext"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="topPage" data-role="footer" data-theme="a">
+        <div class="info">
+          <span class="infa" id="nameLesson"></span>&nbsp;<span class="infa"
+            >фраз: <span id="verb_all"></span></span
+          >&nbsp;<span class="infa"
+            >фраза: <span id="verb_counter"></span
+          ></span>
+        </div>
+
+        <div id="progress2"></div>
+        <div id="switch" style="text-align: center">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <input
+              type="radio"
+              name="radio1"
+              id="radio1_0"
+              value=""
+              onclick="change_language(1)"
+            />
+            <label for="radio1_0"><!--English-->Английский</label>
+            <input
+              type="radio"
+              name="radio1"
+              id="radio1_1"
+              value=""
+              onclick="change_language(0)"
+              checked
+            />
+            <label for="radio1_1"><!--Russian-->Русский</label>
+          </fieldset>
+        </div>
+        <div class="width1">
+          <div class="buttons">
+            <!-- fb-page1-bottom-21/05/2015 -->
+            <ins
+              class="adsbygoogle mobile-adaptive-2"
+              style="display: inline-block"
+              data-ad-client="ca-pub-4595809153827928"
+              data-ad-slot="5962198129"
+            ></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+        <div class="anons2"><div id="intro"></div></div>
 
         <div id="message" class="message">
-              <p><span id="phrase_audio"></span><span id="conteiner"></span></p>               
-              <p><span id="midline"></span><span id="conteiner3"></span></p>
-              <p><span id="translation_audio"></span><span id="conteiner2"></span></p>  
+          <p><span id="phrase_audio"></span><span id="conteiner"></span></p>
+          <p><span id="midline"></span><span id="conteiner3"></span></p>
+          <p>
+            <span id="translation_audio"></span><span id="conteiner2"></span>
+          </p>
         </div>
-	
+
         <div id="selector" onclick="if(i==4){disappear()}">
-                 <form name="formVerb" id="formVerb" >  
-                      <select name="verb" id="verb" onchange="click35();click4()" data-mini="true" multiple="multiple" data-native-menu="false" data-theme="a" data-prevent-focus-zoom="true" data-icon="false">
-                        <option value="0" selected="selected">love</option>
-                        <option value="1">live</option>
-                        <option value="2">work</option>
-                        <option value="3">open</option>
-                        <option value="4">close</option>
-                        <option value="5">see</option>
-                        <option value="6">come</option>
-                        <option value="7">go</option>
-                        <option value="8">know</option>
-                        </select>
-                 </form>
-        </div> 
-  	</div>
-    
-    <div class="info"><span id="progress"></span><span id="log"></span><span id="typeConnection"></span></div> 
-    
-    <div id="dbl"></div>
-    
-    <div class="width1">
-         <div class="buttons">
-              <!-- fb-page1-top-21/05/2015 -->
-              <ins class="adsbygoogle mobile-adaptive-2"
-                   style="display:inline-block"
-                   data-ad-client="ca-pub-4595809153827928"
-                   data-ad-slot="7438931325"></ins>
-              <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-         </div>      
-    
-        <div data-role="navbar" class="buttons">
-            <ul>
-              <li><a id="backward" href="javascript: void(0)" data-icon="arrow-l" data-iconpos="notext" onClick="if(show){click1minus1();}"></a></li> <!--onClick vs vclick  - vclick jquery is -->
-              <li><a id="forward" href="javascript: void(0)" data-icon="arrow-r" data-iconpos="notext" onClick="if(show){click1plus1();}"></a></li>			
-              </ul>
-         </div>
+          <form name="formVerb" id="formVerb">
+            <select
+              name="verb"
+              id="verb"
+              onchange="click35();click4()"
+              data-mini="true"
+              multiple="multiple"
+              data-native-menu="false"
+              data-theme="a"
+              data-prevent-focus-zoom="true"
+              data-icon="false"
+            >
+              <option value="0" selected="selected">love</option>
+              <option value="1">live</option>
+              <option value="2">work</option>
+              <option value="3">open</option>
+              <option value="4">close</option>
+              <option value="5">see</option>
+              <option value="6">come</option>
+              <option value="7">go</option>
+              <option value="8">know</option>
+            </select>
+          </form>
+        </div>
+      </div>
 
-    </div>
-           
-    <div class="anons"><span id="anons_switcher"><em id="an_sw" class="arrow-r ui-icon-delete" onclick="an_switch();return false;"></em><span id="ij3"><span class="intro1" onclick="disappear();appear()"><em id="stop_intro" class="arrow arrow-bottom2"></em>Таблицу глаголов можно спрятать/показать здесь</span></span></span></div>
-    
-    <div class="info"><div id="text_monitor"></div></div> 
-            
-    <div id="auxiliary" class="anons">
-        <div id="sw_tab">
-            <fieldset data-role="controlgroup" data-type="horizontal" class="opt">
-            <!--              <legend>Таблица</legend>-->
-                <input type="radio" name="table-choice" id="tableL" disabled />
-                <label for="tableL">Таблицы</label>
-                <input type="radio" name="table-choice" id="tableA" onclick="change_table(0)" checked />
-                <label for="tableA">A</label>
-                <input type="radio" name="table-choice" id="tableB" onclick="change_table(1)" />
-                <label for="tableB">B</label>
-                <input type="radio" name="table-choice" id="tableC" onclick="change_table(2)" />
-                <label for="tableC">C</label>
-				<input type="radio" name="table-choice" id="tableD" onclick="change_table(3)" />
-                <label for="tableD">D</label>
-            </fieldset>
-        	<div id="t"></div>
-			<fieldset data-role="controlgroup" data-type="horizontal" class="opt">
-            <!--              <legend>Таблица</legend>-->
-                <input type="radio" name="imageRender" id="renderLabel" disabled />
-                <label for="renderLabel">Резкость</label>
-                <input type="radio" name="imageRender" id="renderAuto" value="auto" onclick="document.getElementById('pixelated').innerHTML='#t img{image-rendering:auto}'" checked="checked" />
-                <label for="renderAuto">Ниже</label>
-                <input type="radio" name="imageRender" id="renderPixelated" onclick="document.getElementById('pixelated').innerHTML='#t img{image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:bicubic;image-rendering:pixelated}'" value="pixelated" />
-                <label for="renderPixelated">Выше</label>
-            </fieldset>
-			
-			
-        </div>
-        
-        <div id="urok1" class="uroki">         
-          <div> В практику для первого урока фраз включены <span>9&nbsp;глаголов</span> (<em>love, live, work, open, close, see, come, go, know</em>) <strong>из первого урока</strong> Полиглот. К глаголам добавлены <strong>местоимения</strong> и <strong>предлоги</strong>.
-          </div>
-          <div>Если Вы хотите уже через пару дней увидеть первые результаты в освоении английского языка, работу с практикой для первого урока нужно довести до <em>уверенного</em> автоматизма.
-          </div>       
-        </div>
-        
-        <div id="urok2" class="uroki">
-          <div>Практика для второго урока составлена из <span>8&nbsp;глаголов</span> <em>(ask, travel, hope, help, answer, take, speak, give)</em> <strong>из второго урока</strong> Полиглот. </div>
-          <div>Отдельным пунктом в меню стоят <span>вопросительные предложения</span>. Для их построения  использованы вопросительные слова (<em>what - что, who - кто, where - где, when - когда, why - почему, how - как)</em>. </div>
-        </div>
-        
-        <div id="urok3" class="uroki">
-          <div>Практика третьего урока включает фразы с формами глагола <span>to be</span> и 7&nbsp;самых употребительных <span>английских прилагательных</span> <em>(hungry - голодный, pregnant - беременная, pretty - красивый, fat - толстый, crazy - ненормальный, сute - привлекательный, in love - влюбленный)</em>.
-          </div>
-        </div>
-        
-        <div id="urok4" class="uroki">
-          <div>Для практики 4-ого урока были составлены <span>реплики о работе</span>. Добавлены <span>8&nbsp;типичных мест работы</span> <em>(restaurant - кафе, factory - завод, call center - колл-центр, grocery store - магазин продуктов, bank - банк, office - офис, hospital - больница, school - школа)</em> и <span>7&nbsp;распространенных профессий</span> <em>(waiter - официант,     worker - рабочий,     seller - продавец,     senior manager - старший менеджер,     supervisor - старший группы,     nurse - медсестра/медбрат,	teacher - учитель)</em>. </div>
-        </div>
-        
-        <div id="urok5" class="uroki">
-          <div>Практика для пятого урока насыщына новыми словами. Во-первых, здесь перебираются разные <span>форматы времени</span>: <strong>дни недели</strong>, <strong>месяцы </strong>и <strong>времена года</strong> на английском. Во-вторых, с ними чередуются самые распространенные <strong>временные отсылки</strong> (<em>yesterday - вчера, today - сегодня, tomorrow - завтра, now - сейчас, this - этот, next - следующий, last - прошлый</em>). </div>
-          <div>В третьих, в генераторе употребляются  <span>прилагательные</span> <em>(beautiful - красивый, early - ранний, old - старый, young - молодой, short - короткий, long - длинный, big - большой, small - маленький, stupid - глупый) </em>и их  <strong>степени сравнения. </strong>Также включены степени сравнения к прилагательным из 3-го урока. Добавлены <strong> прилагательные</strong> (<em>ugly - уродливый, horror - ужас, horrible - ужасный</em>).</div>
-          <div> И, наконец, добавлены <span>повседневные слова</span> (<em>date - свидание, guy - парень, dog breed - порода собак, thing - вещь, look - выглядеть, girlfriend  - подружка, boyfriend - парень девушки, grandkids - внуки, vegetarian - вегетарианец)</em>.</div>
-        </div>
-        
-        <div id="urok6" class="uroki">
-          <div>Практика для шестого урока это дополнительные <strong>фразы на английском языке</strong> <span>из&nbsp;современной жизни</span>. </div>
-          <div>Генератор содержит новые английские слова и обороты: <em>a lot of - много, egg - яйцо, boil - кипятить, варить, elder - старший, crawl - ползать, ползти, turtle - черепаха, favorite - любимое,  dish - блюдо, warm - теплый, Mariana Trench - Марианская Впадина, Earth - Земля, fast - быстро, быстрый, traffic laws - правила дорожного движения </em></div>
-        </div>
-        
-        <div id="urok7" class="uroki">
-          <div>Практика 7-го урока включает <span>5&nbsp;неправильных глаголов:</span> <em>(buy,  sell, pay, make, choose)</em> и <span>5&nbsp;правильных:</span> <em>(try, change, show, play, turn)</em><strong> из седьмого урока</strong> Полиглот. </div>
-        </div>
-        
-        <div id="urok8" class="uroki">
-          <div>Практика для 8-го урока - это реплики, содержащие <span>фразовые глаголы</span> <strong>(глагол + послелог)</strong>.</div>
-          <div>Фразовые глаголы составлены из <strong>10 глаголов:</strong> <em>(go, come, take, put, get, look, turn, walk, run, pull)</em> и <strong>18 послелогов:</strong> <em>(on, back, out, down, up, away, through, by, along, around, over, forward, across, off, in, for, into, after)</em>. </div>
-        </div>
-    </div>
-</div>   
+      <div class="info">
+        <span id="progress"></span><span id="log"></span
+        ><span id="typeConnection"></span>
+      </div>
 
+      <div id="dbl"></div>
 
-
-<div data-role="page" id="pageGear" data-theme="a">
-	<div data-role="header" data-id="hea1" data-tap-toggle="false">
-		<h1>Опции</h1>
-        <a data-rel="back" data-icon="back" class="ui-btn-right" href="javascript: void(0)" onclick="can_orient=1;if(tog_counter){clearTimeout(id_timer);start_timer('text_monitor');tog_counter=0};if(i==6){appear()};window.history.back();return false;" data-iconpos="notext">back</a>
-    </div>
-
-  <div id="switchers">
-      
-      <div class="width" style="margin-left:-1em;overflow:visible;">
-            <!-- fb-pageGear-21/05/2015 -->
-            <ins class="adsbygoogle mobile-adaptive-2"
-                 style="display:inline-block;"
-                 data-ad-client="ca-pub-4595809153827928"
-                 data-ad-slot="4485464928"></ins>
-            <script>
+      <div class="width1">
+        <div class="buttons">
+          <!-- fb-page1-top-21/05/2015 -->
+          <ins
+            class="adsbygoogle mobile-adaptive-2"
+            style="display: inline-block"
+            data-ad-client="ca-pub-4595809153827928"
+            data-ad-slot="7438931325"
+          ></ins>
+          <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-       </div>
-      
-     <div data-role="fieldcontain">
-          <fieldset data-role="controlgroup" data-type="horizontal">
-           <legend><!--Transcription-->Транскрипция</legend>
-           <input type="radio" name="radio3" id="radio3_1" value="" onclick="click_trans(1)" checked />
-           <label for="radio3_1"><!--On-->Вкл.</label>
-           <input type="radio" name="radio3" id="radio3_0" value="" onclick="click_trans(0)" />
-           <label for="radio3_0"><!--Off-->Выкл.</label>
-          </fieldset>
-     </div>
-                    
-     <div data-role="fieldcontain">
-          <fieldset data-role="controlgroup" data-type="horizontal">
-           <legend><!--Text visibility-->Спрятать текст</legend>
-           <input type="radio" name="radio4" id="radio4_1" value="" onclick="hide_phrases(0)" />
-           <label for="radio4_1"><!--Hide-->Вкл.</label>
-           <input type="radio" name="radio4" id="radio4_0" value="" onclick="hide_phrases(1)" checked />
-           <label for="radio4_0"><!--Show-->Выкл.</label>
-          </fieldset>
-     </div>
-	 <div data-role="fieldcontain">
-          <fieldset data-role="controlgroup" data-type="horizontal">
-           <legend><!--Sound-->Звук</legend>
-           <input type="radio" name="radio5" id="radio5_0" value="" onclick="click_sound(1)" checked />
-           <label for="radio5_0"><!--On-->Вкл.</label>
-           <input type="radio" name="radio5" id="radio5_1" value="" onclick="click_sound(0)" />
-           <label for="radio5_1"><!--Off-->Выкл.</label>
-          </fieldset>
-      </div>
-       
-      <div data-role="fieldcontain">    
-		   <fieldset data-role="controlgroup" data-type="horizontal">
-           	 <legend><!--Device-orientation mode-->Поворот устройства</legend>
-		     <input type="radio" name="radio2" id="radio2_0" value="1"/>
-		     <label for="radio2_0"><!--Active-->Активный</label>
-		     <input type="radio" name="radio2" id="radio2_1" value="1" checked  />
-		     <label for="radio2_1"><!--Passive-->Пассивный</label>
-	       </fieldset>
-      </div>
-  
-      <div data-role="fieldcontain">    
-             <fieldset data-role="controlgroup" data-type="horizontal">
-               <legend><!--Buffering sound-->Буферизация звука</legend>
-               <input type="radio" name="radio6" id="radio6_0" value="" onclick="buffering_sound(1)" checked />
-               <label for="radio6_0"><!--On-->Вкл.</label>
-               <input type="radio" name="radio6" id="radio6_1" value="" onclick="buffering_sound(0)" />
-               <label for="radio6_1"><!--Off-->Выкл.</label>
-             </fieldset>
-       </div>
-        
-       <div data-role="fieldcontain">    
-             <fieldset data-role="controlgroup" data-type="horizontal">
-               <legend><!--«Table space» button-->Кнопка «Область таблицы»</legend>
-               <input type="radio" name="radio7" id="radio7_0" value="" onclick="e_space=1;rep=rep2" checked />
-               <label for="radio7_0"><!--Change-->Изменять</label>
-               <input type="radio" name="radio7" id="radio7_1" value="" onclick="e_space=0;rep=cont" />
-               <label for="radio7_1"><!--Block-->Блокир.</label>
-             </fieldset>
+          </script>
         </div>
 
-       <div data-role="fieldcontain">    
-             <fieldset data-role="controlgroup" data-type="horizontal">
-               <legend><!--Color scheme-->Цветовая гамма</legend>
-               <input type="radio" name="radio8" id="radio8_0" value="" onclick="if(gamma){change_color(1)}" checked autocomplete="off" />
-               <label for="radio8_0"><!--White-->Белая</label>
-               <input type="radio" name="radio8" id="radio8_1" value="" onclick="if(!gamma){change_color(0)}" autocomplete="off" />
-               <label for="radio8_1"><!--Black-->Черная</label>
-             </fieldset>
+        <div data-role="navbar" class="buttons">
+          <ul>
+            <li>
+              <a
+                id="backward"
+                href="javascript: void(0)"
+                data-icon="arrow-l"
+                data-iconpos="notext"
+                onClick="if(show){click1minus1();}"
+              ></a>
+            </li>
+            <!--onClick vs vclick  - vclick jquery is -->
+            <li>
+              <a
+                id="forward"
+                href="javascript: void(0)"
+                data-icon="arrow-r"
+                data-iconpos="notext"
+                onClick="if(show){click1plus1();}"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="anons">
+        <span id="anons_switcher"
+          ><em
+            id="an_sw"
+            class="arrow-r ui-icon-delete"
+            onclick="an_switch();return false;"
+          ></em
+          ><span id="ij3"
+            ><span class="intro1" onclick="disappear();appear()"
+              ><em id="stop_intro" class="arrow arrow-bottom2"></em>Таблицу
+              глаголов можно спрятать/показать здесь</span
+            ></span
+          ></span
+        >
+      </div>
+
+      <div class="info"><div id="text_monitor"></div></div>
+
+      <div id="auxiliary" class="anons">
+        <div id="sw_tab">
+          <fieldset data-role="controlgroup" data-type="horizontal" class="opt">
+            <!--              <legend>Таблица</legend>-->
+            <input type="radio" name="table-choice" id="tableL" disabled />
+            <label for="tableL">Таблицы</label>
+            <input
+              type="radio"
+              name="table-choice"
+              id="tableA"
+              onclick="change_table(0)"
+              checked
+            />
+            <label for="tableA">A</label>
+            <input
+              type="radio"
+              name="table-choice"
+              id="tableB"
+              onclick="change_table(1)"
+            />
+            <label for="tableB">B</label>
+            <input
+              type="radio"
+              name="table-choice"
+              id="tableC"
+              onclick="change_table(2)"
+            />
+            <label for="tableC">C</label>
+            <input
+              type="radio"
+              name="table-choice"
+              id="tableD"
+              onclick="change_table(3)"
+            />
+            <label for="tableD">D</label>
+          </fieldset>
+          <div id="t"></div>
+          <fieldset data-role="controlgroup" data-type="horizontal" class="opt">
+            <!--              <legend>Таблица</legend>-->
+            <input type="radio" name="imageRender" id="renderLabel" disabled />
+            <label for="renderLabel">Резкость</label>
+            <input
+              type="radio"
+              name="imageRender"
+              id="renderAuto"
+              value="auto"
+              onclick="document.getElementById('pixelated').innerHTML='#t img{image-rendering:auto}'"
+              checked="checked"
+            />
+            <label for="renderAuto">Ниже</label>
+            <input
+              type="radio"
+              name="imageRender"
+              id="renderPixelated"
+              onclick="document.getElementById('pixelated').innerHTML='#t img{image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;-ms-interpolation-mode:bicubic;image-rendering:pixelated}'"
+              value="pixelated"
+            />
+            <label for="renderPixelated">Выше</label>
+          </fieldset>
         </div>
 
-  </div>
+        <div id="urok1" class="uroki">
+          <div>
+            В практику для первого урока фраз включены
+            <span>9&nbsp;глаголов</span> (<em
+              >love, live, work, open, close, see, come, go, know</em
+            >) <strong>из первого урока</strong> Полиглот. К глаголам добавлены
+            <strong>местоимения</strong> и <strong>предлоги</strong>.
+          </div>
+          <div>
+            Если Вы хотите уже через пару дней увидеть первые результаты в
+            освоении английского языка, работу с практикой для первого урока
+            нужно довести до <em>уверенного</em> автоматизма.
+          </div>
+        </div>
 
-</div>
+        <div id="urok2" class="uroki">
+          <div>
+            Практика для второго урока составлена из
+            <span>8&nbsp;глаголов</span>
+            <em>(ask, travel, hope, help, answer, take, speak, give)</em>
+            <strong>из второго урока</strong> Полиглот.
+          </div>
+          <div>
+            Отдельным пунктом в меню стоят
+            <span>вопросительные предложения</span>. Для их построения
+            использованы вопросительные слова (<em
+              >what - что, who - кто, where - где, when - когда, why - почему,
+              how - как)</em
+            >.
+          </div>
+        </div>
 
-<div id="dummy"></div>
+        <div id="urok3" class="uroki">
+          <div>
+            Практика третьего урока включает фразы с формами глагола
+            <span>to be</span> и 7&nbsp;самых употребительных
+            <span>английских прилагательных</span>
+            <em
+              >(hungry - голодный, pregnant - беременная, pretty - красивый, fat
+              - толстый, crazy - ненормальный, сute - привлекательный, in love -
+              влюбленный)</em
+            >.
+          </div>
+        </div>
 
-</body>
-<script type="text/javascript" src="js/js-18-10-2016.js"></script>
+        <div id="urok4" class="uroki">
+          <div>
+            Для практики 4-ого урока были составлены
+            <span>реплики о работе</span>. Добавлены
+            <span>8&nbsp;типичных мест работы</span>
+            <em
+              >(restaurant - кафе, factory - завод, call center - колл-центр,
+              grocery store - магазин продуктов, bank - банк, office - офис,
+              hospital - больница, school - школа)</em
+            >
+            и <span>7&nbsp;распространенных профессий</span>
+            <em
+              >(waiter - официант, worker - рабочий, seller - продавец, senior
+              manager - старший менеджер, supervisor - старший группы, nurse -
+              медсестра/медбрат, teacher - учитель)</em
+            >.
+          </div>
+        </div>
 
-<script> 
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-55279793-1', 'auto');
-  ga('send', 'pageview');
-</script>
+        <div id="urok5" class="uroki">
+          <div>
+            Практика для пятого урока насыщына новыми словами. Во-первых, здесь
+            перебираются разные <span>форматы времени</span>:
+            <strong>дни недели</strong>, <strong>месяцы </strong>и
+            <strong>времена года</strong> на английском. Во-вторых, с ними
+            чередуются самые распространенные
+            <strong>временные отсылки</strong> (<em
+              >yesterday - вчера, today - сегодня, tomorrow - завтра, now -
+              сейчас, this - этот, next - следующий, last - прошлый</em
+            >).
+          </div>
+          <div>
+            В третьих, в генераторе употребляются <span>прилагательные</span>
+            <em
+              >(beautiful - красивый, early - ранний, old - старый, young -
+              молодой, short - короткий, long - длинный, big - большой, small -
+              маленький, stupid - глупый) </em
+            >и их <strong>степени сравнения. </strong>Также включены степени
+            сравнения к прилагательным из 3-го урока. Добавлены
+            <strong> прилагательные</strong> (<em
+              >ugly - уродливый, horror - ужас, horrible - ужасный</em
+            >).
+          </div>
+          <div>
+            И, наконец, добавлены <span>повседневные слова</span> (<em
+              >date - свидание, guy - парень, dog breed - порода собак, thing -
+              вещь, look - выглядеть, girlfriend - подружка, boyfriend - парень
+              девушки, grandkids - внуки, vegetarian - вегетарианец)</em
+            >.
+          </div>
+        </div>
+
+        <div id="urok6" class="uroki">
+          <div>
+            Практика для шестого урока это дополнительные
+            <strong>фразы на английском языке</strong>
+            <span>из&nbsp;современной жизни</span>.
+          </div>
+          <div>
+            Генератор содержит новые английские слова и обороты:
+            <em
+              >a lot of - много, egg - яйцо, boil - кипятить, варить, elder -
+              старший, crawl - ползать, ползти, turtle - черепаха, favorite -
+              любимое, dish - блюдо, warm - теплый, Mariana Trench - Марианская
+              Впадина, Earth - Земля, fast - быстро, быстрый, traffic laws -
+              правила дорожного движения
+            </em>
+          </div>
+        </div>
+
+        <div id="urok7" class="uroki">
+          <div>
+            Практика 7-го урока включает
+            <span>5&nbsp;неправильных глаголов:</span>
+            <em>(buy, sell, pay, make, choose)</em> и
+            <span>5&nbsp;правильных:</span>
+            <em>(try, change, show, play, turn)</em
+            ><strong> из седьмого урока</strong> Полиглот.
+          </div>
+        </div>
+
+        <div id="urok8" class="uroki">
+          <div>
+            Практика для 8-го урока - это реплики, содержащие
+            <span>фразовые глаголы</span> <strong>(глагол + послелог)</strong>.
+          </div>
+          <div>
+            Фразовые глаголы составлены из <strong>10 глаголов:</strong>
+            <em>(go, come, take, put, get, look, turn, walk, run, pull)</em> и
+            <strong>18 послелогов:</strong>
+            <em
+              >(on, back, out, down, up, away, through, by, along, around, over,
+              forward, across, off, in, for, into, after)</em
+            >.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="page" id="pageGear" data-theme="a">
+      <div data-role="header" data-id="hea1" data-tap-toggle="false">
+        <h1>Опции</h1>
+        <a
+          data-rel="back"
+          data-icon="back"
+          class="ui-btn-right"
+          href="javascript: void(0)"
+          onclick="can_orient=1;if(tog_counter){clearTimeout(id_timer);start_timer('text_monitor');tog_counter=0};if(i==6){appear()};window.history.back();return false;"
+          data-iconpos="notext"
+          >back</a
+        >
+      </div>
+
+      <div id="switchers">
+        <div class="width" style="margin-left: -1em; overflow: visible">
+          <!-- fb-pageGear-21/05/2015 -->
+          <ins
+            class="adsbygoogle mobile-adaptive-2"
+            style="display: inline-block"
+            data-ad-client="ca-pub-4595809153827928"
+            data-ad-slot="4485464928"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--Transcription-->Транскрипция</legend>
+            <input
+              type="radio"
+              name="radio3"
+              id="radio3_1"
+              value=""
+              onclick="click_trans(1)"
+              checked
+            />
+            <label for="radio3_1"><!--On-->Вкл.</label>
+            <input
+              type="radio"
+              name="radio3"
+              id="radio3_0"
+              value=""
+              onclick="click_trans(0)"
+            />
+            <label for="radio3_0"><!--Off-->Выкл.</label>
+          </fieldset>
+        </div>
+
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--Text visibility-->Спрятать текст</legend>
+            <input
+              type="radio"
+              name="radio4"
+              id="radio4_1"
+              value=""
+              onclick="hide_phrases(0)"
+            />
+            <label for="radio4_1"><!--Hide-->Вкл.</label>
+            <input
+              type="radio"
+              name="radio4"
+              id="radio4_0"
+              value=""
+              onclick="hide_phrases(1)"
+              checked
+            />
+            <label for="radio4_0"><!--Show-->Выкл.</label>
+          </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--Sound-->Звук</legend>
+            <input
+              type="radio"
+              name="radio5"
+              id="radio5_0"
+              value=""
+              onclick="click_sound(1)"
+              checked
+            />
+            <label for="radio5_0"><!--On-->Вкл.</label>
+            <input
+              type="radio"
+              name="radio5"
+              id="radio5_1"
+              value=""
+              onclick="click_sound(0)"
+            />
+            <label for="radio5_1"><!--Off-->Выкл.</label>
+          </fieldset>
+        </div>
+
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--Device-orientation mode-->Поворот устройства</legend>
+            <input type="radio" name="radio2" id="radio2_0" value="1" />
+            <label for="radio2_0"><!--Active-->Активный</label>
+            <input type="radio" name="radio2" id="radio2_1" value="1" checked />
+            <label for="radio2_1"><!--Passive-->Пассивный</label>
+          </fieldset>
+        </div>
+
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--Buffering sound-->Буферизация звука</legend>
+            <input
+              type="radio"
+              name="radio6"
+              id="radio6_0"
+              value=""
+              onclick="buffering_sound(1)"
+              checked
+            />
+            <label for="radio6_0"><!--On-->Вкл.</label>
+            <input
+              type="radio"
+              name="radio6"
+              id="radio6_1"
+              value=""
+              onclick="buffering_sound(0)"
+            />
+            <label for="radio6_1"><!--Off-->Выкл.</label>
+          </fieldset>
+        </div>
+
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--«Table space» button-->Кнопка «Область таблицы»</legend>
+            <input
+              type="radio"
+              name="radio7"
+              id="radio7_0"
+              value=""
+              onclick="e_space=1;rep=rep2"
+              checked
+            />
+            <label for="radio7_0"><!--Change-->Изменять</label>
+            <input
+              type="radio"
+              name="radio7"
+              id="radio7_1"
+              value=""
+              onclick="e_space=0;rep=cont"
+            />
+            <label for="radio7_1"><!--Block-->Блокир.</label>
+          </fieldset>
+        </div>
+
+        <div data-role="fieldcontain">
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <legend><!--Color scheme-->Цветовая гамма</legend>
+            <input
+              type="radio"
+              name="radio8"
+              id="radio8_0"
+              value=""
+              onclick="if(gamma){change_color(1)}"
+              checked
+              autocomplete="off"
+            />
+            <label for="radio8_0"><!--White-->Белая</label>
+            <input
+              type="radio"
+              name="radio8"
+              id="radio8_1"
+              value=""
+              onclick="if(!gamma){change_color(0)}"
+              autocomplete="off"
+            />
+            <label for="radio8_1"><!--Black-->Черная</label>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+
+    <div id="dummy"></div>
+  </body>
+  <script type="text/javascript" src="js/js-18-10-2016.js"></script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "//www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-55279793-1", "auto");
+    ga("send", "pageview");
+  </script>
 </html>

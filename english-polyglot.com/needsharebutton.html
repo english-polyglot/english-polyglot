@@ -1,54 +1,86 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Pablo`s needShareButton demo</title>
-		<meta name="description" content="La-Shara Pablo`s installed share button">
-		<meta property="og:image" content="https://www.english-polyglot.com/img/dmitry-petrov-image-680.jpg" />
-		<meta property="og:image:width" content="680" />
-		<meta property="og:image:height" content="370" />
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pablo`s needShareButton demo</title>
+    <meta
+      name="description"
+      content="La-Shara Pablo`s installed share button"
+    />
+    <meta
+      property="og:image"
+      content="https://www.english-polyglot.com/img/dmitry-petrov-image-680.jpg"
+    />
+    <meta property="og:image:width" content="680" />
+    <meta property="og:image:height" content="370" />
 
-		<link rel="stylesheet" href="dist/needsharebutton.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	  <!-- Styles just for demo -->
-		<style>
-			body {
-				font: 14px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
-				margin:0;
-				padding:0;
-				background: #DFF4FF;
-			}
+    <link rel="stylesheet" href="dist/needsharebutton.min.css" />
 
-			.wrapper {
-				padding: 100px 60px;
-				text-align: center;
-			}
-		</style>
+    <!-- Styles just for demo -->
+    <style>
+      body {
+        font: 14px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #dff4ff;
+      }
 
-	</head>
-	<body>
-		<div class="wrapper">
-			<h2>Share button default mode on top center</h2>
-			<div id="share-button-1" class="need-share-button-default" data-share-position="topCenter"></div>
-			<h2>Share button box mode with chosen networks</h2>
-			<div id="share-button-2" class="need-share-button-default" data-share-icon-style="box" data-share-networks="Mailto,Twitter,Pinterest,Facebook,GooglePlus,Linkedin"></div>
-			<h2>Share button default mode on middle right</h2>
-			<div id="share-button-3" class="need-share-button-default" data-share-position="middleRight" data-share-networks="Mailto,Twitter,Pinterest,Facebook,GooglePlus,Linkedin"></div>
-			<h2>Share button box mode on middle right</h2>
-			<div id="share-button-4" class="need-share-button-default" data-share-position="middleRight" data-share-icon-style="box" data-share-networks="Mailto,Twitter,Pinterest,Facebook,GooglePlus,Linkedin"></div>
-			<h2>Share button with custom button</h2>
-			<div id="share-button-5" class="need-share-button-default" data-share-position="topCenter" data-share-share-button-class="custom-button"><span class="custom-button"><strong>Share it</strong></span></div>
-		</div>
+      .wrapper {
+        padding: 100px 60px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Share button default mode on top center</h2>
+      <div
+        id="share-button-1"
+        class="need-share-button-default"
+        data-share-position="topCenter"
+      ></div>
+      <h2>Share button box mode with chosen networks</h2>
+      <div
+        id="share-button-2"
+        class="need-share-button-default"
+        data-share-icon-style="box"
+        data-share-networks="Mailto,Twitter,Pinterest,Facebook,GooglePlus,Linkedin"
+      ></div>
+      <h2>Share button default mode on middle right</h2>
+      <div
+        id="share-button-3"
+        class="need-share-button-default"
+        data-share-position="middleRight"
+        data-share-networks="Mailto,Twitter,Pinterest,Facebook,GooglePlus,Linkedin"
+      ></div>
+      <h2>Share button box mode on middle right</h2>
+      <div
+        id="share-button-4"
+        class="need-share-button-default"
+        data-share-position="middleRight"
+        data-share-icon-style="box"
+        data-share-networks="Mailto,Twitter,Pinterest,Facebook,GooglePlus,Linkedin"
+      ></div>
+      <h2>Share button with custom button</h2>
+      <div
+        id="share-button-5"
+        class="need-share-button-default"
+        data-share-position="topCenter"
+        data-share-share-button-class="custom-button"
+      >
+        <span class="custom-button"><strong>Share it</strong></span>
+      </div>
+    </div>
 
-		<script src="dist/needsharebutton.min.js"></script>
-		<script>  
-			new needShareDropdown(document.getElementById('share-button-1'));
-			new needShareDropdown(document.getElementById('share-button-2'));
-			new needShareDropdown(document.getElementById('share-button-3'));
-			new needShareDropdown(document.getElementById('share-button-4'));
-			new needShareDropdown(document.getElementById('share-button-5'));
-		</script>
-	</body>
+    <script src="dist/needsharebutton.min.js"></script>
+    <script>
+      new needShareDropdown(document.getElementById("share-button-1"));
+      new needShareDropdown(document.getElementById("share-button-2"));
+      new needShareDropdown(document.getElementById("share-button-3"));
+      new needShareDropdown(document.getElementById("share-button-4"));
+      new needShareDropdown(document.getElementById("share-button-5"));
+    </script>
+  </body>
 </html>

@@ -1,441 +1,554 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="msapplication-config" content="none"/>
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="Description" content="Как отключить AdBlock" />
-<meta name="Keywords" content="Отключить AdBlock, отключить AdBlock Plus, отключить uBlock "/>
-<title>Как отключить AdBlock</title>
-<link rel="canonical" href="https://www.english-polyglot.com/stop-adblock.html" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="msapplication-config" content="none" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="Description" content="Как отключить AdBlock" />
+    <meta
+      name="Keywords"
+      content="Отключить AdBlock, отключить AdBlock Plus, отключить uBlock "
+    />
+    <title>Как отключить AdBlock</title>
+    <link
+      rel="canonical"
+      href="https://www.english-polyglot.com/stop-adblock.html"
+    />
 
-<style>
+    <style>
+      body {
+        height: 100%;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        line-height: 1.42857;
+        color: #2e2e2e;
+        background-color: #f2f2f2;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        min-width: 320px;
+        padding-top: 60px;
+      }
 
-body {
-  height: 100%;
-  font-family: "Roboto",sans-serif;
-  font-size: 17px;
-  line-height: 1.42857;
-  color: #2e2e2e;
-  background-color: #f2f2f2;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  min-width: 320px;
-  padding-top: 60px;
-}
+      .arcticmodal-overlay,
+      .arcticmodal-container {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1050;
+      }
 
-.arcticmodal-overlay, .arcticmodal-container {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1050;
-}
+      .arcticmodal-container {
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-collapse: collapse;
+      }
 
-.arcticmodal-container {
-  overflow: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border-collapse: collapse;
-}
+      .arcticmodal-container_i {
+        height: 100%;
+        margin: 0 auto;
+      }
 
-.arcticmodal-container_i {
-  height: 100%;
-  margin: 0 auto;
-}
+      .arcticmodal-container_i2 {
+        padding: 24px;
+        margin: 0;
+        border: 0;
+        vertical-align: middle;
+      }
 
-.arcticmodal-container_i2 {
-  padding: 24px;
-  margin: 0;
-  border: 0;
-  vertical-align: middle;
-}
+      @media (min-width: 180px) {
+        .adblock-modal {
+          position: fixed;
+          left: 50%;
+          top: 50%;
+          z-index: 1050;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          width: 510px;
+          height: 640px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          border-radius: 2px;
+          box-sizing: border-box;
+          background-color: #f2f2f2;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
 
-@media(min-width: 180px) {
-.adblock-modal {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  z-index: 1050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 510px;
-  height: 640px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 2px;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+        .adblock-modal__container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 325px;
+          height: 640px;
+          box-sizing: border-box;
+        }
 
-.adblock-modal__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 325px;
-  height: 640px;
-  box-sizing: border-box;
-}
+        .adblock-modal__title {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          height: 110px;
+          font-family: "Roboto", sans-serif;
+          font-size: 37px;
+          color: #2e2e2e;
+          box-sizing: border-box;
+        }
 
-.adblock-modal__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 110px;
-  font-family: "Roboto",sans-serif;
-  font-size: 37px;
-  color: #2e2e2e;
-  box-sizing: border-box;
-}
+        .adblock-modal__list {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: distribute;
+          justify-content: space-around;
+          width: 100%;
+        }
 
-.adblock-modal__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  width: 100%;
-}
+        .adblock-modal__list-item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          height: 40px;
+          font-family: "Roboto", sans-serif;
+          color: #8899a7;
+          cursor: pointer;
+        }
 
+        .adblock-modal__list-item_active {
+          color: #2e2e2e;
+        }
 
-.adblock-modal__list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 40px;
-  font-family: "Roboto",sans-serif;
-  color: #8899a7;
-  cursor: pointer;
-}
+        .adblock-modal__container-choose {
+          position: relative;
+          width: 325px;
+          height: 100%;
+        }
 
-.adblock-modal__list-item_active {
-  color: #2e2e2e;
-}
+        .adblock-modal__selection {
+          position: relative;
+          box-sizing: border-box;
+        }
 
-.adblock-modal__container-choose {
-  position: relative;
-  width: 325px;
-  height: 100%;
-}
+        .adblock-modal__selection-top_0 {
+          margin-left: 35px;
+        }
 
+        .adblock-modal__selection-top {
+          position: relative;
+          z-index: 1050;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 15px solid #ffa5ad;
+        }
 
-.adblock-modal__selection {
-  position: relative;
-  box-sizing: border-box;
-}
+        .adblock-modal__selection-list {
+          width: 320px;
+          margin: 0 auto;
+          border-radius: 2px;
+          background-color: #fff;
+          box-shadow: 0 1px 11px 0 rgba(0, 19, 45, 0.21);
+        }
 
-.adblock-modal__selection-top_0 {
-  margin-left: 35px;
-}
+        .adblock-modal__selection-list-image {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 100%;
+          height: 75px;
+        }
 
-.adblock-modal__selection-top {
-  position: relative;
-  z-index: 1050;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 15px solid #ffa5ad;
-}
+        .adblock-modal__selection-list-image-1 {
+          background: url(img/acca820d52e744c29ae3e0800ed84057.png) 10px center
+            no-repeat #ffa5ad;
+          background-size: 50px;
+          background-position: center;
+          background-repeat: no-repeat;
+          /*  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAAAmCAYAAAASsqOLAAAAGXRFW…5gZD2DzcmuuNyyqks2m6R5nTXVD+CEZWef1Dq3/Va2/xFgAOBfYhadptTZAAAAAElFTkSuQmCC");*/
+        }
 
-.adblock-modal__selection-list {
-  width: 320px;
-  margin: 0 auto;
-  border-radius: 2px;
-  background-color: #fff;
-  box-shadow: 0 1px 11px 0 rgba(0,19,45,0.21);
-}
+        .adblock-modal__selection-list-ul {
+          margin: 0;
+          padding: 0;
+        }
 
-.adblock-modal__selection-list-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  height: 75px;
-}
+        .adblock-modal__selection-list-item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 100%;
+          height: 40px;
+          padding-left: 20px;
+          font-size: 14px;
+          cursor: pointer;
+          box-sizing: border-box;
+          border-top: 2px solid #f2f2f2;
+        }
 
-.adblock-modal__selection-list-image-1 {
-  background: url(img/acca820d52e744c29ae3e0800ed84057.png) 10px center no-repeat #ffa5ad;
-  background-size: 50px;
-  background-position: center;
-  background-repeat: no-repeat;
-  /*  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAAAmCAYAAAASsqOLAAAAGXRFW…5gZD2DzcmuuNyyqks2m6R5nTXVD+CEZWef1Dq3/Va2/xFgAOBfYhadptTZAAAAAElFTkSuQmCC");*/
-}
+        .adblock-modal__selection-list-item:hover {
+          padding-top: 2px;
+          color: #fff;
+          border-top: 0;
+          background-color: #e54d41;
+          -webkit-transition: background-color 0.15s;
+          transition: background-color 0.15s;
+        }
 
-.adblock-modal__selection-list-ul {
-  margin: 0;
-  padding: 0;
-}
+        .adblock-modal__description {
+          box-sizing: border-box;
+        }
 
-.adblock-modal__selection-list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  height: 40px;
-  padding-left: 20px;
-  font-size: 14px;
-  cursor: pointer;
-  box-sizing: border-box;
-  border-top: 2px solid #f2f2f2;
-}
+        .adblock-modal__description-ul {
+          margin: 0;
+          padding-left: 20px;
+        }
 
-.adblock-modal__selection-list-item:hover {
-  padding-top: 2px;
-  color: #fff;
-  border-top: 0;
-  background-color: #e54d41;
-  -webkit-transition: background-color 0.15s;
-  transition: background-color 0.15s;
-}
+        .adblock-modal__description-item {
+          font-size: 16px;
+          margin-top: 35px;
+        }
 
-.adblock-modal__description {
-  box-sizing: border-box;
-}
+        .adblock-modal__choose {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1050;
+          width: 325px;
+          height: 100%;
+          padding-top: 10px;
+          opacity: 0;
+          -webkit-transition: opacity 0.15s ease-out;
+          transition: opacity 0.15s ease-out;
+          box-sizing: border-box;
+        }
 
-.adblock-modal__description-ul {
-  margin: 0;
-  padding-left: 20px;
-}
+        .adblock-modal__choose_active {
+          z-index: 1051;
+          opacity: 1;
+          -webkit-transition: opacity 0.15s ease-out;
+          transition: opacity 0.15s ease-out;
+        }
 
-.adblock-modal__description-item {
-  font-size: 16px;
-  margin-top: 35px;
-}
+        .adblock-modal__selection-top_1 {
+          margin-left: 153px;
+        }
 
-.adblock-modal__choose {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1050;
-  width: 325px;
-  height: 100%;
-  padding-top: 10px;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s ease-out;
-  transition: opacity 0.15s ease-out;
-  box-sizing: border-box;
-}
+        .adblock-modal__selection-list-image-2 {
+          background: url(img/abp-64.png) 10px center no-repeat #ffa5ad;
+          background-size: 50px;
+          /*  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAAGXRFW…Dib3IzMlv8UYQmAfvCuOor+ML4PknrWToOTPd1ppjZ/wkwADFysyIhFMqVAAAAAElFTkSuQmCC");*/
+          background-position: center;
+          background-repeat: no-repeat;
+        }
 
-.adblock-modal__choose_active {
-  z-index: 1051;
-  opacity: 1;
-  -webkit-transition: opacity 0.15s ease-out;
-  transition: opacity 0.15s ease-out;
-}
+        .adblock-modal__selection-list-item-img {
+          padding-right: 10px;
+        }
 
+        img {
+          vertical-align: middle;
+        }
 
-.adblock-modal__selection-top_1 {
-  margin-left: 153px;
-}
+        img {
+          border-style: none;
+        }
 
+        .adblock-modal__selection-top_2 {
+          margin-left: 270px;
+        }
 
-.adblock-modal__selection-list-image-2 {
-  background: url(img/abp-64.png) 10px center no-repeat #ffa5ad;
-  background-size: 50px;
-/*  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAAGXRFW…Dib3IzMlv8UYQmAfvCuOor+ML4PknrWToOTPd1ppjZ/wkwADFysyIhFMqVAAAAAElFTkSuQmCC");*/
-  background-position: center;
-  background-repeat: no-repeat;
-}
+        .adblock-modal__selection-list-image-3 {
+          /*height: 195px;*/
+          background: url(img/uBlock-64.png) 10px center no-repeat #ffa5ad;
+          background-size: 50px;
+          /*  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABiCAIAAADsq3uPAAAAGXRFW…fIJfv9elfRc4GC2hPbO2jUnn5dQ7aGbG3UkO3Y8f8CDAAlr839VFRGgAAAAABJRU5ErkJggg==");*/
+          background-position: center;
+          background-repeat: no-repeat;
+        }
 
+        .adblock-modal__close {
+          position: absolute;
+          top: 0;
+          right: -40px;
+          width: 20px;
+          height: 20px;
+          font-weight: 300;
+          font-size: 40px;
+          line-height: 15px;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    </style>
+  </head>
 
+  <body>
+    <script>
+      if (window.opener) {
+        window.opener.close();
+      }
 
-.adblock-modal__selection-list-item-img {
-  padding-right: 10px;
-}
+      function modal_hide() {
+        var ifr = parent.document.getElementById("instr");
+        var bod = parent.document.getElementsByTagName("body")[0];
+        ifr.style.display = "none";
+        bod.style.overflowY = "scroll";
+        bod.style.marginRight = "0px";
+      }
 
-img {
-  vertical-align: middle;
-}
+      function f1(count1) {
+        var d, g;
+        for (var i = 1; i < 4; i++) {
+          d = document.getElementById("js-slide" + i);
+          g = document.getElementById("js-slide" + i + "-1");
+          console.log("g =" + g);
+          d.className = "adblock-modal__list-item";
+          g.className = "adblock-modal__choose";
+        }
+        var df = count1;
+        switch (df) {
+          case 1:
+            d = document.getElementById("js-slide1");
+            g = document.getElementById("js-slide1-1");
+            break;
+          case 2:
+            d = document.getElementById("js-slide2");
+            g = document.getElementById("js-slide2-1");
+            break;
+          case 3:
+            d = document.getElementById("js-slide3");
+            g = document.getElementById("js-slide3-1");
+            break;
+        }
 
-img {
-  border-style: none;
-}
+        d.className =
+          "adblock-modal__list-item adblock-modal__list-item_active";
+        g.className = "adblock-modal__choose adblock-modal__choose_active";
+      }
+      var count = 1;
+      window.onload = function () {
+        document.getElementById("js-slide1").onclick = function fun() {
+          count = 1;
+          f1(count);
+        };
+        document.getElementById("js-slide1-1").onclick = function fun() {
+          count = 1;
+          f1(count);
+        };
+        document.getElementById("js-slide2").onclick = function fun() {
+          count = 2;
+          f1(count);
+        };
+        document.getElementById("js-slide2-1").onclick = function fun() {
+          count = 2;
+          f1(count);
+        };
+        document.getElementById("js-slide3").onclick = function fun() {
+          count = 3;
+          f1(count);
+        };
+        document.getElementById("js-slide3-1").onclick = function fun() {
+          count = 3;
+          f1(count);
+        };
+      };
+    </script>
 
-.adblock-modal__selection-top_2 {
-  margin-left: 270px;
-}
+    <div
+      class="arcticmodal-overlay"
+      style="background-color: rgb(0, 0, 0); opacity: 0.6"
+    ></div>
 
-.adblock-modal__selection-list-image-3 {
-  /*height: 195px;*/
-  background: url(img/uBlock-64.png) 10px center no-repeat #ffa5ad;
-  background-size: 50px;
-/*  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABiCAIAAADsq3uPAAAAGXRFW…fIJfv9elfRc4GC2hPbO2jUnn5dQ7aGbG3UkO3Y8f8CDAAlr839VFRGgAAAAABJRU5ErkJggg==");*/
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.adblock-modal__close {
-  position: absolute;
-  top: 0;
-  right: -40px;
-  width: 20px;
-  height: 20px;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 15px;
-  color: #fff;
-  cursor: pointer;
-}
-
-}
-</style>
-</head>
-
-<body>
-<script>
-
-if(window.opener){window.opener.close()}
-
-function modal_hide(){
-	var ifr=parent.document.getElementById("instr");
-	var bod=parent.document.getElementsByTagName('body')[0];
-	ifr.style.display='none';
-	bod.style.overflowY='scroll';
-	bod.style.marginRight='0px'
-}
-
-function f1(count1) {
-	var d,g;
-	for (var i=1;i<4;i++){
-		d=document.getElementById("js-slide"+i);
-		g=document.getElementById("js-slide"+i+"-1");
-		console.log('g ='+g)
-		d.className="adblock-modal__list-item";	
-		g.className="adblock-modal__choose";	
-	}
-	var df=count1
-	switch (df){
-		case 1:d=document.getElementById("js-slide1");g=document.getElementById("js-slide1-1");break;
-		case 2:d=document.getElementById("js-slide2");g=document.getElementById("js-slide2-1");break;
-		case 3:d=document.getElementById("js-slide3");g=document.getElementById("js-slide3-1");break;
-	}
-	
-	d.className="adblock-modal__list-item adblock-modal__list-item_active"; 
-	g.className="adblock-modal__choose adblock-modal__choose_active";  
-}
-var count=1
-window.onload = function() {
-    document.getElementById("js-slide1").onclick=function fun(){count=1;f1(count)}
-	document.getElementById("js-slide1-1").onclick=function fun(){count=1;f1(count)}
-	document.getElementById("js-slide2").onclick=function fun(){count=2;f1(count)}
-	document.getElementById("js-slide2-1").onclick=function fun(){count=2;f1(count)}
-	document.getElementById("js-slide3").onclick=function fun(){count=3;f1(count)}
-	document.getElementById("js-slide3-1").onclick=function fun(){count=3;f1(count)}
-}
-</script>
-          
-<div class="arcticmodal-overlay" style="background-color: rgb(0, 0, 0); opacity: 0.6;"></div>
-
-<div class="arcticmodal-container">
-
-	<table class="arcticmodal-container_i">
-    <tbody><tr><td class="arcticmodal-container_i2">
-    	<div class="adblock-modal">
-        <div class="adblock-modal__container">
-          <div class="adblock-modal__title">Как отключить</div>
-          <div class="adblock-modal__list">
-            <div class="adblock-modal__list-item adblock-modal__list-item_active" id="js-slide1" >AdBlock</div>
-            <div class="adblock-modal__list-item" id="js-slide2">AdBlockPlus</div>
-            <div class="adblock-modal__list-item" id="js-slide3">uBlock</div>
-          </div>
-          <div class="adblock-modal__container-choose">
-            <div class="adblock-modal__choose adblock-modal__choose_active" id="js-slide1-1">
-              <div class="adblock-modal__selection">
-                <div class="adblock-modal__selection-top adblock-modal__selection-top_0"></div>
-                <div class="adblock-modal__selection-list">
-                  <div class="adblock-modal__selection-list-image adblock-modal__selection-list-image-1"></div>
-                  <ul class="adblock-modal__selection-list-ul">
-                    <li class="adblock-modal__selection-list-item">Приостановить</li>
-                    <li class="adblock-modal__selection-list-item">Блокировать рекламу на этой странице</li>
-                    <li class="adblock-modal__selection-list-item">Не запускать на этой странице</li>
-                    <li class="adblock-modal__selection-list-item">Не запускать на страницах этого домена</li>
-                  </ul>
+    <div class="arcticmodal-container">
+      <table class="arcticmodal-container_i">
+        <tbody>
+          <tr>
+            <td class="arcticmodal-container_i2">
+              <div class="adblock-modal">
+                <div class="adblock-modal__container">
+                  <div class="adblock-modal__title">Как отключить</div>
+                  <div class="adblock-modal__list">
+                    <div
+                      class="adblock-modal__list-item adblock-modal__list-item_active"
+                      id="js-slide1"
+                    >
+                      AdBlock
+                    </div>
+                    <div class="adblock-modal__list-item" id="js-slide2">
+                      AdBlockPlus
+                    </div>
+                    <div class="adblock-modal__list-item" id="js-slide3">
+                      uBlock
+                    </div>
+                  </div>
+                  <div class="adblock-modal__container-choose">
+                    <div
+                      class="adblock-modal__choose adblock-modal__choose_active"
+                      id="js-slide1-1"
+                    >
+                      <div class="adblock-modal__selection">
+                        <div
+                          class="adblock-modal__selection-top adblock-modal__selection-top_0"
+                        ></div>
+                        <div class="adblock-modal__selection-list">
+                          <div
+                            class="adblock-modal__selection-list-image adblock-modal__selection-list-image-1"
+                          ></div>
+                          <ul class="adblock-modal__selection-list-ul">
+                            <li class="adblock-modal__selection-list-item">
+                              Приостановить
+                            </li>
+                            <li class="adblock-modal__selection-list-item">
+                              Блокировать рекламу на этой странице
+                            </li>
+                            <li class="adblock-modal__selection-list-item">
+                              Не запускать на этой странице
+                            </li>
+                            <li class="adblock-modal__selection-list-item">
+                              Не запускать на страницах этого домена
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="adblock-modal__description">
+                        <ol class="adblock-modal__description-ul">
+                          <li class="adblock-modal__description-item">
+                            Найдите рядом с адресной строкой иконку AdBlock и
+                            вызовите меню
+                          </li>
+                          <li class="adblock-modal__description-item">
+                            Нажмите на пункт «Не запускать на страницах этого
+                            домена» и подтвердите действие, нажав на
+                            «Исключить».
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div class="adblock-modal__choose" id="js-slide2-1">
+                      <div class="adblock-modal__selection">
+                        <div
+                          class="adblock-modal__selection-top adblock-modal__selection-top_1"
+                        ></div>
+                        <div class="adblock-modal__selection-list">
+                          <div
+                            class="adblock-modal__selection-list-image adblock-modal__selection-list-image-2"
+                          ></div>
+                          <ul class="adblock-modal__selection-list-ul">
+                            <li class="adblock-modal__selection-list-item">
+                              <img
+                                class="adblock-modal__selection-list-item-img"
+                                src="img/adblockplus-disable.png"
+                                alt=""
+                              />Отключен на этом сайте
+                            </li>
+                            <li class="adblock-modal__selection-list-item">
+                              <img
+                                class="adblock-modal__selection-list-item-img"
+                                src="img/adblockplus-static.png"
+                                alt=""
+                              />Статистика блокирования
+                            </li>
+                            <li class="adblock-modal__selection-list-item">
+                              <img
+                                class="adblock-modal__selection-list-item-img"
+                                src="img/adblockplus-settings.png"
+                                alt=""
+                              />Настройки
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="adblock-modal__description">
+                        <ol class="adblock-modal__description-ul">
+                          <li class="adblock-modal__description-item">
+                            Найдите иконку AdBlock Plus в адресной строке
+                            браузера и вызовите меню.
+                          </li>
+                          <li class="adblock-modal__description-item">
+                            Кликните по фразе «Включен на этом сайте». Текст при
+                            этом изменится на «Отключен на этом сайте», а иконка
+                            рядом с адресной строкой станет серой.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div class="adblock-modal__choose" id="js-slide3-1">
+                      <div class="adblock-modal__selection">
+                        <div
+                          class="adblock-modal__selection-top adblock-modal__selection-top_2"
+                        ></div>
+                        <div class="adblock-modal__selection-list">
+                          <div
+                            class="adblock-modal__selection-list-image adblock-modal__selection-list-image-3"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="adblock-modal__description">
+                        <ol class="adblock-modal__description-ul">
+                          <li class="adblock-modal__description-item">
+                            Найдите рядом с адресной строкой иконку uBlock и
+                            вызовите меню.
+                          </li>
+                          <li class="adblock-modal__description-item">
+                            Нажмите на большую иконку «Выключения». После клика
+                            она станет серой.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="adblock-modal__close arcticmodal-close"
+                  onclick="window.close();modal_hide()"
+                >
+                  ×
                 </div>
               </div>
-              <div class="adblock-modal__description">
-                <ol class="adblock-modal__description-ul">
-                  <li class="adblock-modal__description-item">Найдите рядом с адресной строкой иконку AdBlock и вызовите меню</li>
-                  <li class="adblock-modal__description-item">Нажмите на пункт «Не запускать на страницах этого домена» и подтвердите действие, нажав на «Исключить».</li>
-                </ol>
-              </div>
-            </div>
-            <div class="adblock-modal__choose" id="js-slide2-1">
-              <div class="adblock-modal__selection">
-                <div class="adblock-modal__selection-top adblock-modal__selection-top_1"></div>
-                <div class="adblock-modal__selection-list">
-                  <div class="adblock-modal__selection-list-image adblock-modal__selection-list-image-2"></div>
-                  <ul class="adblock-modal__selection-list-ul">
-                    <li class="adblock-modal__selection-list-item"><img class="adblock-modal__selection-list-item-img" src="img/adblockplus-disable.png" alt="">Отключен на этом сайте</li>
-                    <li class="adblock-modal__selection-list-item"><img class="adblock-modal__selection-list-item-img" src="img/adblockplus-static.png" alt="">Статистика блокирования</li>
-                    <li class="adblock-modal__selection-list-item"><img class="adblock-modal__selection-list-item-img" src="img/adblockplus-settings.png" alt="">Настройки</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="adblock-modal__description">
-                <ol class="adblock-modal__description-ul">
-                  <li class="adblock-modal__description-item">Найдите иконку AdBlock Plus в адресной строке браузера и вызовите меню.</li>
-                  <li class="adblock-modal__description-item">Кликните по фразе «Включен на этом сайте». Текст при этом изменится на «Отключен на этом сайте», а иконка рядом с адресной строкой станет серой.</li>
-                </ol>
-              </div>
-            </div>
-            <div class="adblock-modal__choose" id="js-slide3-1">
-              <div class="adblock-modal__selection">
-                <div class="adblock-modal__selection-top adblock-modal__selection-top_2"></div>
-                <div class="adblock-modal__selection-list">
-                  <div class="adblock-modal__selection-list-image adblock-modal__selection-list-image-3"></div>
-                </div>
-              </div>
-              <div class="adblock-modal__description">
-                <ol class="adblock-modal__description-ul">
-                  <li class="adblock-modal__description-item">Найдите рядом с адресной строкой иконку uBlock и вызовите меню.</li>
-                  <li class="adblock-modal__description-item">Нажмите на большую иконку «Выключения». После клика она станет серой.</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="adblock-modal__close arcticmodal-close" onclick="window.close();modal_hide()">×</div>
-      </div></td></tr></tbody></table></div>
-</body>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
