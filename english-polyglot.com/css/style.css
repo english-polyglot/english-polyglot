@@ -1,197 +1,209 @@
 @charset "utf-8";
 /* CSS Document */
-#formid{
-	font-family:Arial, Helvetica, sans-serif;
-	width:400px;
-	/*height:300px;*/
-	border:2px solid #6699cc;
-	padding-bottom:15px;
+#formid {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  /*height:300px;*/
+  border: 2px solid #6699cc;
+  padding-bottom: 15px;
 }
-#formid .head{
-	width:400px;
-	background:#6699cc;
-	color:#fff;
-	line-height:1.8em;
-	text-align:center;
-	height:24px;
-	font-weight:bold;
+#formid .head {
+  width: 400px;
+  background: #6699cc;
+  color: #fff;
+  line-height: 1.8em;
+  text-align: center;
+  height: 24px;
+  font-weight: bold;
 }
-#formid  .chkbox{
-	margin-bottom:2px !important;
+#formid .chkbox {
+  margin-bottom: 2px !important;
 }
-#formid .cont{
-	width:282px;
-	/*height:249px;*/
-	font-size:11px;
-	padding:0 10px;
+#formid .cont {
+  width: 282px;
+  /*height:249px;*/
+  font-size: 11px;
+  padding: 0 10px;
 }
-#formid .icon_menu{
-	padding-top:2px;
+#formid .icon_menu {
+  padding-top: 2px;
 }
-#formid .all_icon{
-	height:22px;
-	position:absolute;
-	margin-left:5px;
+#formid .all_icon {
+  height: 22px;
+  position: absolute;
+  margin-left: 5px;
 }
-#formid .icon_menu img{
-	border:none;
+#formid .icon_menu img {
+  border: none;
 }
-#formid .icon_menu ul{
-	list-style-type:none;
-	padding:0px;
-	margin:0px;
+#formid .icon_menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
-#formid .icon_menu li{
-	margin:0 1px;
-	float:left;
-	margin-left:-4px;
-	padding-right:2px;
-	padding-bottom:2px;
+#formid .icon_menu li {
+  margin: 0 1px;
+  float: left;
+  margin-left: -4px;
+  padding-right: 2px;
+  padding-bottom: 2px;
 }
-#formid .icon_menu li a{
-	background-color:#edefe8 !important;
-	display:block;
-	height:25px;
-	margin-bottom:1px;
-	margin-left:1px;
-	margin-right:1px;
-	margin-top:1px;
-	width:26px;
-	border: 0px;
-	cursor:hand;
-	cursor:pointer;
+#formid .icon_menu li a {
+  background-color: #edefe8 !important;
+  display: block;
+  height: 25px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+  width: 26px;
+  border: 0px;
+  cursor: hand;
+  cursor: pointer;
 }
 #formid .icon_menu li a.selected {
-	background-color:#FFFFFF !important;
-	border-color:#bfbbb3 #bfbbb3;
-	border-style:solid solid none;
-	border-width:1px 1px medium;
-	padding-bottom:1px;
+  background-color: #ffffff !important;
+  border-color: #bfbbb3 #bfbbb3;
+  border-style: solid solid none;
+  border-width: 1px 1px medium;
+  padding-bottom: 1px;
 }
 #formid .icon_menu li a#wm {
-	background:url(../img/icons_all.png) no-repeat 1px 1px;
+  background: url(../img/icons_all.png) no-repeat 1px 1px;
 }
-#formid .icon_menu li a#wmcheck{
-	background:url(../img/icons_all.png) no-repeat -311px 1px;
+#formid .icon_menu li a#wmcheck {
+  background: url(../img/icons_all.png) no-repeat -311px 1px;
 }
-#formid .icon_menu li a#wmnote{
-	background:url(../img/icons_all.png) no-repeat -359px 1px;
+#formid .icon_menu li a#wmnote {
+  background: url(../img/icons_all.png) no-repeat -359px 1px;
 }
 #formid .icon_menu li a#post {
-	background:url(../img/icons_all.png) no-repeat -407px 1px;
+  background: url(../img/icons_all.png) no-repeat -407px 1px;
 }
-#formid .icon_menu li a#wmcard{
-	background:url(../img/icons_all.png) no-repeat -287px 1px;
+#formid .icon_menu li a#wmcard {
+  background: url(../img/icons_all.png) no-repeat -287px 1px;
 }
 #formid .icon_menu li a#paymer {
-	background:url(../img/icons_all.png) no-repeat -335px 1px;
+  background: url(../img/icons_all.png) no-repeat -335px 1px;
 }
 #formid .icon_menu li a#sdp {
-	background:url(../img/icons_all.png) no-repeat -431px 1px;
+  background: url(../img/icons_all.png) no-repeat -431px 1px;
 }
 #formid .icon_menu li a#alpha {
-	background:url(../img/icons_all.png) no-repeat -455px 1px;
+  background: url(../img/icons_all.png) no-repeat -455px 1px;
 }
 #formid .icon_menu li a#cards {
-	background:url(../img/icons_all.png) no-repeat -480px 1px;
+  background: url(../img/icons_all.png) no-repeat -480px 1px;
 }
 
-
-#formid .wm_adress{
-	width:372px;
-	border:1px solid #CFCBC2;
-	margin-top:27px;
-	padding-top:5px;
-	padding-left:6px;
+#formid .wm_adress {
+  width: 372px;
+  border: 1px solid #cfcbc2;
+  margin-top: 27px;
+  padding-top: 5px;
+  padding-left: 6px;
 }
-#formid .wm_adress a{
-	color:#6699cc;
-	line-height:1.4em;
+#formid .wm_adress a {
+  color: #6699cc;
+  line-height: 1.4em;
 }
-#formid .form_input{
-	margin-top:15px;
-	margin-left:5px;
-	font-size:12px;
-	line-height:1.4em;	
-	padding-bottom:10px;
+#formid .form_input {
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: 12px;
+  line-height: 1.4em;
+  padding-bottom: 10px;
 }
-#formid .form_input div {display:block; width:330px;}
-#formid .form_input select{
-	margin-top:1px;
-	margin-left:2px;
-	margin-bottom:2px;
+#formid .form_input div {
+  display: block;
+  width: 330px;
 }
-#formid .form_input input{
-	margin-left:2px;
-	margin-top:-2px;
-	margin-bottom:2px;
+#formid .form_input select {
+  margin-top: 1px;
+  margin-left: 2px;
+  margin-bottom: 2px;
 }
-#formid .form_input label{
-	margin-left:2px;
-	margin-top:-1px;
-	margin-bottom:4px;
-	line-height:1.2em !important;
+#formid .form_input input {
+  margin-left: 2px;
+  margin-top: -2px;
+  margin-bottom: 2px;
+}
+#formid .form_input label {
+  margin-left: 2px;
+  margin-top: -1px;
+  margin-bottom: 4px;
+  line-height: 1.2em !important;
 }
 #formid .help {
-	min-width: 40px;
-	min-height: 40px;
-	width:92%;
-	background: url(../../english-polyglot/english-polyglot.com/img/quest.png) no-repeat 0 0;
-	background-color:#cce4ff !important;
-	color:#222;
-	padding:4px 12px;
+  min-width: 40px;
+  min-height: 40px;
+  width: 92%;
+  background: url(../../english-polyglot/english-polyglot.com/img/quest.png)
+    no-repeat 0 0;
+  background-color: #cce4ff !important;
+  color: #222;
+  padding: 4px 12px;
 }
 
-#formid .help a{
-	color:#1E61BA;
-	text-decoration:underline;
-	border: none !important;
+#formid .help a {
+  color: #1e61ba;
+  text-decoration: underline;
+  border: none !important;
 }
-#formid .div_content { display:none;}
-.bgdiv { 
-	position:absolute; 
-	left:0; 
-	top:0; 
-	height:100%; 
-	background:#000; 
-	opacity:0.5; 
-	filter:alpha(opacity=50);  
-	-moz-opacity:0.5; 
-	z-index:10000;
-	text-align:center;
-	vertical-align:middle;
-	display:none;
-	padding:0;
-	margin:0;
-	width:100%;
+#formid .div_content {
+  display: none;
+}
+.bgdiv {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  z-index: 10000;
+  text-align: center;
+  vertical-align: middle;
+  display: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .formCode {
-	position:absolute; 
-	z-index:10010;
-	text-align:left;
-	padding:2px;
-	margin:auto;
-	display:none;
-	width:550px;
-	height:350px;
-	background:#fff;
-	opacity:1; 
-	filter:alpha(opacity=100);  
-	-moz-opacity:0; 
-	border: solid 2px #efede8;
+  position: absolute;
+  z-index: 10010;
+  text-align: left;
+  padding: 2px;
+  margin: auto;
+  display: none;
+  width: 550px;
+  height: 350px;
+  background: #fff;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -moz-opacity: 0;
+  border: solid 2px #efede8;
 }
-.formCode a { border:none; text-decoration:none;}
-.formCode img { border:0; text-align:center; vertical-align:center; padding:0}
-.formCode  .code-content 
-{
-	overflow:auto;
-	width:98%;
-	height:325px;
-	font-family:"Courier New";
-	font-size:9pt;
-	color:#0b0;
-	border: solid 1px #cdcbc0;
-	padding:1px;
-	white-space:nowrap;
+.formCode a {
+  border: none;
+  text-decoration: none;
+}
+.formCode img {
+  border: 0;
+  text-align: center;
+  vertical-align: center;
+  padding: 0;
+}
+.formCode .code-content {
+  overflow: auto;
+  width: 98%;
+  height: 325px;
+  font-family: "Courier New";
+  font-size: 9pt;
+  color: #0b0;
+  border: solid 1px #cdcbc0;
+  padding: 1px;
+  white-space: nowrap;
 }
