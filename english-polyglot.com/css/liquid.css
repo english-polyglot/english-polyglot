@@ -299,7 +299,7 @@ a.green:hover,a.green:visited{color:#E8F5E9;background-color:#2E7D32}
 .pronoun{background-color: #b3e5b5;color: #004400;}
 .verb{background-color: #a4b6ef;color: #001c74;}
 .question{background-color: #e5d49d; color: #544100;}
-.adjective{background-color: #d98686;}
+.adjective{background-color: #d98686;color: #4a0000;}
 .pronoun,.verb,.question,.adjective{font-weight: bold;}
 
 .text_overflow{color:#fff;text-shadow:1px 1px 1px #111}
