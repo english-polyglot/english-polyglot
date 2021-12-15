@@ -76,7 +76,7 @@ main h1 {
   padding: 20px;
   margin-bottom: 20px;
 }
-h4 {
+h3 {
   margin: 5% -1%;
   padding: 3%;
   text-indent: 0;
@@ -1536,7 +1536,7 @@ button.gsc-search-button.gsc-search-button-v2:hover {
   border-color: #656565;
 }
 
-main h4 {
+main h3 {
   background: #e0b3b3;
 }
 
@@ -1551,7 +1551,7 @@ main h2 {
   font-weight: bold;
 }
 
-main h4 {
+main h3 {
   font-size: 1.75em;
   letter-spacing: -1px;
   margin: 29px 0 19px;
@@ -1597,7 +1597,7 @@ main h4 {
 header h2,
 main h1,
 main h3,
-main h4 {
+main h3 {
   font-family: monospace;
   word-spacing: -0.3em;
 }
