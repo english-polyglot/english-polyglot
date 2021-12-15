@@ -276,62 +276,60 @@
     </nav>
 
     <main role="main" id="top_doc" class="container">
-      <div class="container_inner">
-        <article class="content">
-          <!-- TemplateBeginEditable name="urok-title" -->
-          <!-- TemplateEndEditable -->
+      <article class="content">
+        <!-- TemplateBeginEditable name="urok-title" -->
+        <!-- TemplateEndEditable -->
 
-          <div id="prog1"></div>
-          <div id="ad_1" class="ad_block">
-            <!-- mobile-adaptive-17-11-2014 -->
-            <ins
-              class="adsbygoogle"
-              style="display: block"
-              data-ad-client="ca-pub-4595809153827928"
-              data-ad-slot="1257560926"
-              data-ad-format="auto"
-            ></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
+        <div id="prog1"></div>
+        <div id="ad_1" class="ad_block">
+          <!-- mobile-adaptive-17-11-2014 -->
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-4595809153827928"
+            data-ad-slot="1257560926"
+            data-ad-format="auto"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
 
-          <!-- TemplateBeginEditable name="content" -->
-          <!-- TemplateEndEditable -->
-          <div id="prog2"></div>
-          <div id="ad_2" class="ad_block">
-            <!-- mobile-adaptive-17-11-2014 -->
-            <ins
-              class="adsbygoogle"
-              style="display: block"
-              data-ad-client="ca-pub-4595809153827928"
-              data-ad-slot="1257560926"
-              data-ad-format="auto"
-            ></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
-          <!-- TemplateBeginEditable name="content2" -->
-          <!-- TemplateEndEditable -->
-          <div id="prog3"></div>
-          <div id="ad_3" class="ad_block">
-            <!-- mobile-adaptive-17-11-2014 -->
-            <ins
-              class="adsbygoogle"
-              style="display: block"
-              data-ad-client="ca-pub-4595809153827928"
-              data-ad-slot="1257560926"
-              data-ad-format="auto"
-            ></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
-          <!-- TemplateBeginEditable name="content3" -->
-          <!-- TemplateEndEditable -->
-        </article>
-      </div>
+        <!-- TemplateBeginEditable name="content" -->
+        <!-- TemplateEndEditable -->
+        <div id="prog2"></div>
+        <div id="ad_2" class="ad_block">
+          <!-- mobile-adaptive-17-11-2014 -->
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-4595809153827928"
+            data-ad-slot="1257560926"
+            data-ad-format="auto"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        <!-- TemplateBeginEditable name="content2" -->
+        <!-- TemplateEndEditable -->
+        <div id="prog3"></div>
+        <div id="ad_3" class="ad_block">
+          <!-- mobile-adaptive-17-11-2014 -->
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-4595809153827928"
+            data-ad-slot="1257560926"
+            data-ad-format="auto"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        <!-- TemplateBeginEditable name="content3" -->
+        <!-- TemplateEndEditable -->
+      </article>
     </main>
 
     <section id="subscribe">

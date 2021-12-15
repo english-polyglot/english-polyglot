@@ -139,8 +139,6 @@ a:focus {
   width: 100%; /* max-width:906px; */
   margin: 0 auto;
   clear: both;
-}
-.container_inner {
   overflow: hidden;
 }
 .pixelate333 {
