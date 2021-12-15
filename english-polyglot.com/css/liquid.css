@@ -1340,7 +1340,7 @@ ul.notready li a {
 .nob {
   border: none;
 }
-
+/* 
 .bastille {
   background-color: #292130;
 }
@@ -1375,10 +1375,10 @@ ul.notready li a {
 }
 
 .espresso {
-  /* background-color:#612718 */
+  background-color:#612718
 }
 .dallas {
-  /* background-color:#6e4b26 */
+  background-color:#6e4b26
 }
 .au_chico {
   background-color: #97605d;
@@ -1429,9 +1429,9 @@ ul.notready li a {
 }
 .charlotte {
   background-color: #baeef9;
-}
+} */
 
-.au_chico,
+/* .au_chico,
 .di_serria,
 .chalky,
 .charm_pink,
@@ -1448,7 +1448,7 @@ ul.notready li a {
 .picasso,
 .olivine {
   color: #111;
-}
+} */
 .blue_gray {
   color: #eee;
 }
@@ -1535,11 +1535,6 @@ button.gsc-search-button.gsc-search-button-v2:hover {
   background-color: #c5c5c5;
   border-color: #656565;
 }
-
-main h3 {
-  background: #e0b3b3;
-}
-
 main h2 {
   font-size: 16px;
 }
@@ -1552,8 +1547,7 @@ main h2 {
 }
 
 main h3 {
-  font-size: 1.75em;
-  letter-spacing: -1px;
+  font-size: 1.35em;
   margin: 29px 0 19px;
   padding: 10px 20px;
   font-weight: bold;
@@ -1593,13 +1587,14 @@ main h3 {
   border-radius: 6px;
   border: 1px solid #a3010166;
 }
-
 header h2,
-main h1,
-main h3,
-main h3 {
+main h1 {
   font-family: monospace;
   word-spacing: -0.3em;
+}
+main h3 {
+  font-family: "Noto Sans", "Trebuchet MS", "HelveticaNeue", "Helvetica",
+    "Arial", sans-serif;
 }
 h1 strong {
   display: block;
@@ -2083,8 +2078,10 @@ nav h2 {
     font-size: 1.3em;
   }
   main h2 {
-    font-size: 2em;
+    font-size: 1.75em;
     padding: 30px;
+    font-family: "Noto Sans", "Trebuchet MS", "HelveticaNeue", "Helvetica",
+      "Arial", sans-serif;
   }
   .quote {
     padding: 33px;
