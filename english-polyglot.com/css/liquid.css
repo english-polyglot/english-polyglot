@@ -1763,9 +1763,9 @@ header {
   color: #e3c9c9;
 }
 .two-2.line_1_2 .first-span {
-  font-size: 0.9em;
+  font-size: 0.8em;
   padding-bottom: 13px;
-  max-width: 100px;
+  max-width: 75px;
 }
 .two-2.line_1_2 .second-span {
   max-width: 83px;
@@ -1901,7 +1901,7 @@ nav h3 {
     /* padding-top: 3px; */
   }
   .two-2.line_1_2 .first-span {
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-bottom: 11px;
   }
   .two-2.line_1_2 .second-span {
@@ -1960,9 +1960,8 @@ nav h3 {
     line-height: 1.1em;
   }
   .two-2.line_1_2 .first-span {
-    font-size: 0.8em;
     padding-bottom: 17px;
-    max-width: 135px;
+    max-width: 105px;
   }
 
   .ambulance:hover .hh1::before {
@@ -2036,9 +2035,9 @@ nav h3 {
     padding-top: 0;
   }
   .two-2.line_1_2 .first-span {
-    font-size: 0.6em;
+    font-size: 0.55em;
     padding-bottom: 14px;
-    max-width: 115px;
+    max-width: 90px;
   }
   .ambulance:hover .hh1 {
     width: 210px;
