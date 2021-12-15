@@ -97,10 +97,10 @@ h6 {
   font-size: 1em;
 }
 
-.sidebar h3 {
+/* .sidebar h3 {
   text-align: left;
   float: left;
-}
+} */
 footer {
   clear: both;
   overflow: auto;
@@ -1540,14 +1540,14 @@ main h4 {
   background: #e0b3b3;
 }
 
-main h3 {
+main h2 {
   font-size: 16px;
 }
-main h3 {
+main h2 {
   margin: 10px auto;
   padding: 20px;
   max-width: 1024px;
-  background-color: #dcc7c7;
+  /* background-color: #dcc7c7; */
   font-weight: bold;
 }
 
@@ -1596,7 +1596,7 @@ main h4 {
 
 header h2,
 main h1,
-h3,
+main h3,
 main h4 {
   font-family: monospace;
   word-spacing: -0.3em;
@@ -1871,7 +1871,7 @@ nav h2 {
   main h1 strong {
     font-size: 1em;
   }
-  main h3 {
+  main h2 {
     font-size: 1.4em;
     padding: 23px;
   }
@@ -1932,10 +1932,10 @@ nav h2 {
 }
 
 @media (min-width: 425px) {
-  nav h2,
-  footer h3 {
+  /* nav h2,
+  footer h2 {
     font-size: 1.75em;
-  }
+  } */
   .border_donate {
     width: 360px;
   }
@@ -1993,10 +1993,10 @@ nav h2 {
   #amb3 i {
     width: 0;
   }
-  footer h3 {
+  /* footer h2 {
     width: 100%;
     padding: 0;
-  }
+  } */
   .fr1 {
     padding-bottom: 67%;
   }
@@ -2082,7 +2082,7 @@ nav h2 {
   main h1 strong {
     font-size: 1.3em;
   }
-  main h3 {
+  main h2 {
     font-size: 2em;
     padding: 30px;
   }
@@ -2148,7 +2148,7 @@ nav h2 {
   main h1 span {
     font-size: 100%;
   }
-  .main h3 {
+  .main h2 {
     font-size: 2.2em;
     padding: 30px;
   }
