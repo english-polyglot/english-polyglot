@@ -205,7 +205,7 @@
     <!-- #EndLibraryItem -->
     <!--Google Analitics-->
 
-    <header role="banner" id="header">
+    <header id="header">
       <a href="/">
         <hgroup class="ambulance">
           <h1 class="one-1 line_1_2">
@@ -225,7 +225,7 @@
       <!-- InstanceEndEditable -->
     </section>
 
-    <nav role="navigation" id="top-menu" class="menu">
+    <nav aria-labelledby="nav1" id="top-menu" class="menu">
       <ul>
         <li>
           <a id="m1" href="generator-fraz.html"
@@ -244,13 +244,22 @@
         </li>
         <li><a id="m4" href="#lessons">16 Уроков Полиглот</a></li>
       </ul>
+
       <div id="google-search" role="searchbox">
         <!-- google search -->
         <gcse:searchbox-only></gcse:searchbox-only>
       </div>
+
+      <button id="stt" class="scroll-to-top rotate">
+        <a
+          id="stt2"
+          href="#header"
+          style="width: 50px; height: 50px; display: block"
+        ></a>
+      </button>
     </nav>
 
-    <main role="main" id="top_doc" class="container">
+    <main id="top_doc" class="container">
       <article class="content">
         <!-- InstanceBeginEditable name="urok-title" -->
           <!-- InstanceEndEditable -->
@@ -616,18 +625,9 @@
       </div>
     </section>
 
-    <nav role="navigation" id="lessons">
-      <button id="stt" class="scroll-to-top rotate">
-        <a
-          id="stt2"
-          href="#header"
-          style="width: 50px; height: 50px; display: block"
-        ></a>
-      </button>
-
+    <nav aria-labelledby="nav2" id="lessons">
       <div class="fire"></div>
-
-      <h3>16 уроков Полиглот:</h3>
+      <h2 id="nav2">16 уроков Полиглот:</h2>
 
       <ul id="menu_uroki" class="nav" name="menu_uroki">
         <li>
@@ -733,9 +733,7 @@
           >
         </li>
       </ul>
-    </nav>
 
-    <footer role="contentinfo">
       <ul id="new-back" class="nav">
         <li>
           <a
@@ -745,7 +743,9 @@
           >
         </li>
       </ul>
+    </nav>
 
+    <footer>
       <div id="logo" class="copyright">
         2012-2021, &copy;&nbsp;Полиглот&nbsp;Английский
         <span>Выучим английский язык за 16 часов</span> полиглот Дмитрий Петров,

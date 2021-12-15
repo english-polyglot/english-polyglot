@@ -303,7 +303,7 @@ input.submit:hover {
 }
 .history,
 nav ul li,
-nav h3 {
+nav h2 {
   margin: 0 auto;
   max-width: 906px;
 }
@@ -1803,7 +1803,7 @@ header {
   margin: 5px;
 }
 
-nav h3 {
+nav h2 {
   font-size: 1.5em;
 }
 
@@ -1932,7 +1932,7 @@ nav h3 {
 }
 
 @media (min-width: 425px) {
-  nav h3,
+  nav h2,
   footer h3 {
     font-size: 1.75em;
   }
@@ -2065,7 +2065,7 @@ nav h3 {
 }
 
 @media (min-width: 768px) {
-  nav h3 {
+  nav h2 {
     font-size: 2em;
   }
   .copyright {
@@ -2205,7 +2205,7 @@ nav h3 {
 
   ul.nav#new-back li {
     padding: 20px 0;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .sub_center a:hover,
