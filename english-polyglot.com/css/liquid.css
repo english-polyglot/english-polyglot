@@ -70,7 +70,7 @@ h3 {
   font-weight: 100;
   font-style: normal;
 }
-main h2 {
+main h1 {
   font-size: 25px;
   background: #bf9d9d;
   padding: 20px;
@@ -307,7 +307,7 @@ nav h2 {
   margin: 0 auto;
   max-width: 906px;
 }
-.history h2 {
+/* .history h2 {
   margin-bottom: 10px;
   font-size: 100%;
   padding: 5px;
@@ -316,7 +316,7 @@ nav h2 {
   margin-left: 10px;
   text-align: center;
   text-transform: uppercase;
-}
+} */
 .separator {
   font-size: 150%;
   padding: 15px 0 5px 0;
@@ -1143,7 +1143,7 @@ ul.nav a:hover span {
   background-color: #000;
 }
 
-h2 div::after {
+h1 div::after {
   background-color: #eeeeee;
   background-image: radial-gradient(circle, #eeeeee, #212121);
 }
@@ -1176,10 +1176,10 @@ a.vovne:hover {
 .separator:after {
   content: "* * *";
 }
-.history h2 {
+/* .history h2 {
   color: #e5e6c6;
   background-color: #2e3e39;
-}
+} */
 .row,
 .bo {
   border: 1px solid #aaa;
@@ -1595,25 +1595,25 @@ main h4 {
 }
 
 header h2,
-main h2,
+main h1,
 h3,
 main h4 {
   font-family: monospace;
   word-spacing: -0.3em;
 }
-h2 strong {
+h1 strong {
   display: block;
   font-size: 0.9em;
   max-width: 1100px;
   margin: 0 auto;
 }
-h2 span {
+main h1 span {
   max-width: 1100px;
   display: block;
   margin: auto;
   font-size: 75%;
 }
-main h2 span {
+main h1 span {
   text-transform: none;
 }
 .gsc-control-searchbox-only {
@@ -1865,10 +1865,10 @@ nav h2 {
 }
 
 @media (min-width: 320px) {
-  main h2 {
+  main h1 {
     padding: 30px 20px;
   }
-  main h2 strong {
+  main h1 strong {
     font-size: 1em;
   }
   main h3 {
@@ -1942,6 +1942,7 @@ nav h2 {
 
   header h2 span {
     font-size: 0.5em;
+    margin: 0 auto;
   }
   .two-2.line_1_2 {
     font-size: 2em; /* margin-top: 83px; */
@@ -2071,14 +2072,14 @@ nav h2 {
   .copyright {
     font-size: 1.4em;
   }
-  main h2 span {
+  main h1 span {
     font-size: 90%;
   }
-  main h2 {
+  main h1 {
     margin: 30px 0 50px;
     padding: 40px 50px;
   }
-  main h2 strong {
+  main h1 strong {
     font-size: 1.3em;
   }
   main h3 {
@@ -2144,17 +2145,17 @@ nav h2 {
     margin: 0 auto;
     display: block;
   }
-  main h2 span {
+  main h1 span {
     font-size: 100%;
   }
   .main h3 {
     font-size: 2.2em;
     padding: 30px;
   }
-  main h2 {
+  main h1 {
     padding: 30px 50px;
   }
-  main h2 strong {
+  main h1 strong {
     font-size: 1.6em;
   }
 
