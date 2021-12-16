@@ -742,6 +742,9 @@ button:disabled {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.p0 {
+  padding: 0;
+}
 
 /*------------------------------*/
 .radio_table {
@@ -1855,6 +1858,9 @@ nav h2 {
   display: block;
   max-width: 906px;
   margin: 0 auto;
+}
+.media_voting {
+  box-shadow: none !important;
 }
 
 /* ========== media queries =========== */
