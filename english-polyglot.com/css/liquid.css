@@ -449,12 +449,9 @@ table.bigtab {
 }
 .tr50 {
   width: 50%;
-  font-weight: 600;
-}
-.tr50 {
   font-weight: normal;
-  padding-left: 20px !important;
   text-align: left;
+  padding: 0 2px !important;
 }
 .popolam {
   display: table-cell;
@@ -1924,9 +1921,6 @@ nav h2 {
   .fr1 {
     padding-bottom: 65%;
   }
-  .dv40 {
-    padding-left: 10px !important;
-  }
 }
 
 @media (min-width: 375px) {
@@ -1939,8 +1933,9 @@ nav h2 {
   input.subscribe_textieldpost {
     width: 250px;
   }
-  .dv40 {
-    padding-left: 20px !important;
+  .dv40,
+  .tr50 {
+    padding-left: 10px !important;
   }
 }
 
@@ -2012,6 +2007,10 @@ nav h2 {
   } */
   .fr1 {
     padding-bottom: 67%;
+  }
+  .dv40,
+  .tr50 {
+    padding-left: 20px !important;
   }
 }
 @media (min-width: 540px) {
