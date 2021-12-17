@@ -77,7 +77,6 @@ window.fbAsyncInit = function () {
 window.vkAsyncInit = function () {
   VK.init({ apiId: 3755698, onlyWidgets: true });
   VK.Widgets.Like("vk_like", { type: "button", height: 20 });
-  VK.Widgets.Poll("vk_poll", {}, "668161791_1b4ce816bf6f8a8b17");
 
   // Call Google Analytics Social Tracking
   _ga.trackVkontakte();

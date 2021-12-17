@@ -743,7 +743,7 @@ button:disabled {
   padding-bottom: 10px;
 }
 .p0 {
-  padding: 0;
+  padding: 10px !important;
 }
 
 /*------------------------------*/
