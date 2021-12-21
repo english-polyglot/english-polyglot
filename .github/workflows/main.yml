@@ -1,7 +1,8 @@
+name: Publish Website
 on:
   push:
-    branches: [oshibka]
-name: Publish Website
+    branches:
+      - oshibka
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
