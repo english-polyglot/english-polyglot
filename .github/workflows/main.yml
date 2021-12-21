@@ -2,10 +2,10 @@ on:
   push:
     branches: [oshibka]
 name: Publish Website
-if: github.ref == 'refs/heads/oshibka'
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
+    if: github.ref == 'refs/heads/oshibka'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.1.0
