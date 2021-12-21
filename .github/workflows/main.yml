@@ -2,6 +2,7 @@ on:
   push:
     branches: [oshibka]
 name: Publish Website
+if: github.ref == 'refs/heads/oshibka'
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
