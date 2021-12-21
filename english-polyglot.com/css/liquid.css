@@ -1217,6 +1217,11 @@ a.vovne:hover {
   background-color: #fff5d5; /*background-color: #D6E7DC;*/
   border-left: 5px solid #c7a433; /*border-left: 5px solid #2E7D32;*/
 }
+.bullet > li {
+  list-style-type: auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 a.red-border {
   color: #b30024;
   border: 3px solid rgba(184, 16, 51, 0);
