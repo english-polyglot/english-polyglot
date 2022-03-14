@@ -184,17 +184,11 @@
 
     <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
 
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4595809153827928"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Yandex.RTB -->
     <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4595809153827928",
-        enable_page_level_ads: true,
-      });
+      window.yaContextCb = window.yaContextCb || [];
     </script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
   </head>
 
   <body>
@@ -213,16 +207,15 @@
 
           <div class="width">
             <!--<div id="prog1"></div>-->
-            <!-- fb-page-21/05/2015 -->
-            <ins
-              class="adsbygoogle mobile-adaptive-2"
-              style="display: inline-block"
-              data-full-width-responsive="true"
-              data-ad-client="ca-pub-4595809153827928"
-              data-ad-slot="8915664521"
-            ></ins>
+            <!-- Yandex.RTB R-A-564808-6 -->
+            <div id="yandex_rtb_R-A-564808-6"></div>
             <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
+              window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                  renderTo: "yandex_rtb_R-A-564808-6",
+                  blockId: "R-A-564808-6",
+                });
+              });
             </script>
           </div>
 
@@ -586,16 +579,15 @@
         </div>
         <div class="width1">
           <div class="buttons">
-            <!-- fb-page1-bottom-21/05/2015 -->
-            <ins
-              class="adsbygoogle mobile-adaptive-2"
-              style="display: inline-block"
-              data-full-width-responsive="true"
-              data-ad-client="ca-pub-4595809153827928"
-              data-ad-slot="5962198129"
-            ></ins>
+            <!-- Yandex.RTB R-A-564808-4 -->
+            <div id="yandex_rtb_R-A-564808-4"></div>
             <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
+              window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                  renderTo: "yandex_rtb_R-A-564808-4",
+                  blockId: "R-A-564808-4",
+                });
+              });
             </script>
           </div>
         </div>
@@ -646,16 +638,15 @@
       <div class="width1">
         <div class="buttons">
           <div id="prog2"></div>
-          <!-- fb-page1-top-21/05/2015 -->
-          <ins
-            class="adsbygoogle mobile-adaptive-2"
-            style="display: inline-block"
-            data-full-width-responsive="true"
-            data-ad-client="ca-pub-4595809153827928"
-            data-ad-slot="7438931325"
-          ></ins>
+          <!-- Yandex.RTB R-A-564808-5 -->
+          <div id="yandex_rtb_R-A-564808-5"></div>
           <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
+            window.yaContextCb.push(() => {
+              Ya.Context.AdvManager.render({
+                renderTo: "yandex_rtb_R-A-564808-5",
+                blockId: "R-A-564808-5",
+              });
+            });
           </script>
         </div>
 
