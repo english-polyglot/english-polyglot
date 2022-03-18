@@ -1,131 +1,116 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--<meta name="viewport" content="width=device-width, user-scalable=no">-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
-<link rel="shortcut icon" type="image/x-icon" href="../english-polyglot.com/img/favicon.ico" />
-<link rel="alternate" type="application/rss+xml" title="English in 16 hours" href="https://feeds.feedburner.com/poliglott">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no">-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../english-polyglot.com/img/favicon.ico"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="English in 16 hours"
+      href="https://feeds.feedburner.com/poliglott"
+    />
 
-<!-- TemplateBeginEditable name="doctitle" -->
-<!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <!-- TemplateEndEditable -->
 
-<link href="../english-polyglot.com/css/dive.css" rel="stylesheet" type="text/css" />
-<link href="../english-polyglot.com/css/red-placeholder.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../english-polyglot.com/css/dive.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../english-polyglot.com/css/red-placeholder.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
-<!-- <script type="text/javascript" src="js/ads.js"></script> -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <!-- <script type="text/javascript" src="js/ads.js"></script> -->
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4595809153827928"
-     crossorigin="anonymous"></script>
-<script>
-	(adsbygoogle = window.adsbygoogle || []).push({
-	google_ad_client: "ca-pub-4595809153827928",
-	enable_page_level_ads: true
-	});
-</script>
-</head>
-<body>
-<!-- #BeginLibraryItem "/Library/analitics+.lbi" --><script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-55279793-1', 'auto');
-  ga('send', 'pageview');
-
-</script><!-- #EndLibraryItem -->
-
-<div class="container">
-
-    <div class="header">
-    
+    <!-- Yandex.RTB -->
+    <script>
+      window.yaContextCb = window.yaContextCb || [];
+    </script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
         <!-- TemplateBeginEditable name="Movie-title" -->
         Криминальное чтиво
         <!-- TemplateEndEditable -->
+      </div>
 
-  </div>
-  
-    <div class="video_double">
-      
-      <div class="wrap_video">
-      
+      <div class="video_double">
+        <div class="wrap_video">
           <div id="video-player">
-          
-          		<span class="text_overflow">на русском языке</span>
-          
-				<!-- TemplateBeginEditable name="Movie1" -->   
-                <!-- TemplateEndEditable -->
-                
-          </div>  
-        
-          <div id="prog1">
-          
-            <!-- fragmentator_left -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-4595809153827928"
-                 data-ad-slot="8185099724"
-                 data-ad-format="auto"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-                    
+            <span class="text_overflow">на русском языке</span>
+
+            <!-- TemplateBeginEditable name="Movie1" -->
+            <!-- TemplateEndEditable -->
           </div>
-          
-      </div> 
-      
-      <div class="wrap_video">
-          
-        <div id="video-player">
-        
+
+          <div id="prog1">
+            <!-- fragmentator_left -->
+            <!-- Yandex.RTB R-A-564808-7 -->
+            <div id="yandex_rtb_R-A-564808-7"></div>
+            <script>
+              window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                  renderTo: "yandex_rtb_R-A-564808-7",
+                  blockId: "R-A-564808-7",
+                });
+              });
+            </script>
+          </div>
+        </div>
+
+        <div class="wrap_video">
+          <div id="video-player">
             <span class="text_overflow">на английском языке</span>
-            
+
             <!-- TemplateBeginEditable name="Movie2" -->
             <!-- TemplateEndEditable -->
-         
+          </div>
+
+          <div id="prog2">
+            <!-- fragmentator_right -->
+            <!-- Yandex.RTB R-A-564808-8 -->
+            <div id="yandex_rtb_R-A-564808-8"></div>
+            <script>
+              window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                  renderTo: "yandex_rtb_R-A-564808-8",
+                  blockId: "R-A-564808-8",
+                });
+              });
+            </script>
+          </div>
         </div>
-           
-        <div id="prog2">
-            
-          <!-- fragmentator_right -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-4595809153827928"
-               data-ad-slot="3615299328"
-               data-ad-format="auto"></ins> 
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>            
-                 
-        </div>
-          
       </div>
-            
+
+      <!-- TemplateBeginEditable name="Text" -->
+      <!-- TemplateEndEditable -->
+
+      <div class="footer">
+        <h2>
+          <a href="/" target="_blank">Полиглот английский язык за 16 часов</a>
+        </h2>
+      </div>
     </div>
+  </body>
 
-  
-
-
-
-
-     
-	<!-- TemplateBeginEditable name="Text" -->
-    <!-- TemplateEndEditable -->
-    
-	<div class="footer">
- 
-    	<h2><a href="/" target="_blank">Полиглот английский язык за 16 часов</a></h2>
-    
-    </div>
-
-</div>
-
-</body>
-	
-<!-- <script type="text/javascript" src="js/modal.js"></script>
+  <!-- <script type="text/javascript" src="js/modal.js"></script>
 	
 <script>
 
@@ -136,8 +121,4 @@ if(typeof blockAdBlock === 'undefined') {
 }
 
 </script>  -->
-
-
 </html>
-
-
